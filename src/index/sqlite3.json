@@ -1,0 +1,61 @@
+{
+    "id": "sqlite3",
+    "name": "SQLite3",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/sqlite3.html",
+    "aliases": [
+        "sqlite"
+    ],
+    "description": "SQLite is a C-language library that implements a small, fast, self-contained, high-reliability, full-featured, SQL database engine.\n\nThe related extension is ``SQLite3``. It allows the creation and usage of file-based or memory-based databases.\n\n``SQLite3`` is also available with PDO, with the ``pdo_sqlite`` engine.",
+    "code": "<?php\n\n    $db = new SQLite3('my.sqlite3');\n    \n    $results = $db->query('SELECT bar FROM foo');\n    while ($row = $results->fetchArray()) {\n        var_dump($row);\n    }\n\n?>",
+    "documentation": "https://www.sqlite.org/index.html",
+    "related": [
+        "sql",
+        "sql-database",
+        "pdo",
+        "rdbms"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.sqlite.org/index.html"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "SQLite3 in PHP",
+            "url": "https://www.php.net/sqlite3"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "How to Store Images in SQLite with PHP",
+            "url": "https://www.twilio.com/en-us/blog/developers/tutorials/building-blocks/store-images-sqlite-php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "SQLite for everything",
+            "url": "https://joecode.com/2026-08-19-sqlite3/"
+        }
+    ],
+    "tags": [
+        "product"
+    ],
+    "packagist": [],
+    "extensions": [
+        "sqlite3",
+        "pdo_sqlite3"
+    ],
+    "analyzers": [
+        "Extensions/Extsqlite3"
+    ],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Fri, 28 Aug 2026 10:32:20 +0000"
+}

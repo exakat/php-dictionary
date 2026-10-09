@@ -1,0 +1,63 @@
+{
+    "id": "readability",
+    "name": "Readability",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/readability.html",
+    "aliases": [],
+    "description": "A code is readable, or easy to read, if all the needed information is available in the code, without the need to reach for an extra piece of reference to understand it.\n\nReadable code may be understood on the spot, while unreadable code hides some important part of the process. \n\nReadability is a human characteristic of the code: it depends on the level of knowledge of the reader. Good naming is an important part of readability, as intention are conveyed.",
+    "code": "<?php\n\n    // all explicit alphabet\n    $alphabet = array ( 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z');\n    \n    // readable with knowledge of range() function\n    $alphabet = range('a', 'z');\n    \n    // generic name for a partial list of letter: many questions hang\n    $array = range('a', 'l');\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Readability",
+    "related": [
+        "docblock",
+        "habit",
+        "inlining",
+        "quality",
+        "magic-number",
+        "naming",
+        "streamlining"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Readability"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "The Complete Guide to Readable Code: 11 Principles",
+            "url": "https://fellow.app/blog/engineering/the-complete-guide-to-readable-code/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Why Code Readability is important",
+            "url": "https://thehosk.medium.com/why-code-readability-is-important-e0c228a238a"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "How to write readable code?",
+            "url": "https://suckup.de/2020/07/how-to-write-readable-code/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Refactoring PHP Code for Better Readability",
+            "url": "https://deliciousbrains.com/refactoring-php-code-better-readability/"
+        }
+    ],
+    "tags": [
+        "maintenance",
+        "human"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sat, 08 Aug 2026 08:10:54 +0000"
+}

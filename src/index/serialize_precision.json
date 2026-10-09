@@ -1,0 +1,49 @@
+{
+    "id": "serialize_precision",
+    "name": "serialize_precision",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/serialize_precision.html",
+    "aliases": [],
+    "description": "The ``serialize_precision`` PHP ini directive controls the number of significant digits used when serializing float values via ``serialize()`` and ``json_encode()``.\n\nSince PHP 7.1, the default is ``-1``, which uses the minimum number of digits needed to uniquely represent each float, ensuring round-trip fidelity. A positive integer value uses that many significant digits instead, which may introduce rounding.",
+    "code": "<?php\n\n    // With serialize_precision = -1 (default since PHP 7.1)\n    $value = 3.141592653589793;\n    echo json_encode($value);\n    // outputs: 3.141592653589793\n    \n    // With serialize_precision = 14\n    // outputs: 3.1415926535898\n\n?>",
+    "documentation": "https://www.php.net/manual/en/ini.core.php#ini.serialize-precision",
+    "related": [
+        "directive",
+        "float",
+        "precision",
+        "serialization",
+        "splsubject"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/ini.core.php#ini.serialize-precision"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "precision",
+            "url": "https://www.php.net/manual/en/ini.core.php#ini.precision"
+        }
+    ],
+    "tags": [
+        "directive",
+        "float",
+        "ini"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Mon, 06 Jul 2026 10:22:47 +0000"
+}

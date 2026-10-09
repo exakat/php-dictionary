@@ -1,0 +1,55 @@
+{
+    "id": "rector",
+    "name": "Rector",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/rector.html",
+    "aliases": [],
+    "description": "Rector is a PHP refactoring tool that automates code upgrades and migrations.\n\nRector is able to:\n\n+ Upgrade PHP code to newer PHP versions\n+ Apply coding standards automatically\n+ Refactor code patterns\n+ Migrate between frameworks\n+ Apply custom rules.",
+    "code": "",
+    "documentation": "https://getrector.com/",
+    "related": [
+        "refactoring",
+        "code-formatter",
+        "linting",
+        "tool"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://getrector.com/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Rector: The Definitive Guide to Automated PHP Refactoring",
+            "url": "https://bubble.ro/2026/05/13/rector-the-definitive-guide-to-automated-php-refactoring/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Automated Refactoring With Rector",
+            "url": "https://tighten.com/insights/automated-refactoring-with-rector-php/"
+        }
+    ],
+    "tags": [
+        "tool",
+        "development",
+        "brand"
+    ],
+    "packagist": [
+        "rector/rector"
+    ],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Tue, 18 Aug 2026 05:24:32 +0000"
+}

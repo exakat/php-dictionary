@@ -1,0 +1,83 @@
+{
+    "id": "flamegraph",
+    "name": "Flame Graph",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/flamegraph.html",
+    "aliases": [
+        "flame-graph"
+    ],
+    "description": "Flame graphs are a visualization tool used to understand where a program spends its time, especially useful for performance profiling.\n\nThey help quickly spot hot paths in code: functions or routines that consume the most CPU or other resources.",
+    "code": "",
+    "documentation": "https://en.wikipedia.org/wiki/Profiling_(computer_programming)",
+    "related": [
+        "profiler",
+        "performance",
+        "monitoring",
+        "benchmarking",
+        "trace",
+        "treemap",
+        "profiling",
+        "xhprof"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Profiling_(computer_programming)"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Profiling PHP in production at scale",
+            "url": "https://timotijhof.net/posts/2020/profiling-php-at-scale/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Flamboyant Flamegraphs",
+            "url": "https://derickrethans.nl/flamboyant-flamegraphs.html"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Flamegraphs with xDebug",
+            "url": "https://xdebug.org/docs/flamegraphs"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "How to generate PHP Flamegraphs",
+            "url": "https://daniellockyer.com/php-flame-graphs/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Flamegraph with xhprof on buggregator",
+            "url": "https://docs.buggregator.dev/config/xhprof.html"
+        }
+    ],
+    "tags": [
+        "visualization",
+        "performance",
+        "monitoring"
+    ],
+    "packagist": [
+        "wikimedia/arc-lamp",
+        "noisebynorthwest/php-spx",
+        "reliforp/reli-prof"
+    ],
+    "extensions": [
+        "excimer"
+    ],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": {
+        "blackfire": "https://blackfire.io/",
+        "tideways": "https://tideways.com/"
+    },
+    "popularity": "",
+    "modified": "Thu, 17 Sep 2026 09:15:39 +0000"
+}

@@ -1,0 +1,63 @@
+{
+    "id": "php-ai-editor",
+    "name": "PHP AI Editor",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/php-ai-editor.html",
+    "aliases": [
+        "ai-assisted-php-editor",
+        "ai-code-editor"
+    ],
+    "description": "A PHP AI editor is a development environment or plugin that integrates artificial intelligence to assist with writing, reviewing, and refactoring PHP code. AI editors provide features such as code completion, inline suggestions, error explanations, test generation, and natural-language-driven refactoring.\n\nProminent AI editors and assistants used with PHP include GitHub Copilot, integrated into VS Code, JetBrains IDEs, and others, JetBrains AI Assistant, built into PhpStorm, Cursor, an AI-first fork of VS Code, and Claude Code, a CLI tool by Anthropic. Many editors rely on large language models trained on code to generate context-aware suggestions.\n\nAI editors are increasingly combined with static analysis tools, so that suggestions respect project-specific coding standards, type information, and detected issues.",
+    "code": "",
+    "documentation": "https://en.wikipedia.org/wiki/Code_completion",
+    "related": [
+        "php-editor",
+        "ide",
+        "llm",
+        "ai",
+        "autocompletion"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Code_completion"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "GitHub Copilot vs Cursor: AI Code Editor Review",
+            "url": "https://www.digitalocean.com/resources/articles/github-copilot-vs-cursor"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Cursor vs GitHub Copilot: Which AI Assistant Is Best for PHP Development?",
+            "url": "https://learn.ryzlabs.com/ai-coding-assistants/cursor-vs-github-copilot-which-ai-assistant-is-best-for-php-development"
+        }
+    ],
+    "tags": [
+        "tool",
+        "ai",
+        "editor"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": {
+        "GitHub Copilot": "https://github.com/features/copilot",
+        "JetBrains AI Assistant": "https://www.jetbrains.com/ai/",
+        "Cursor": "https://cursor.com/",
+        "Claude Code": "https://claude.com/product/claude-code",
+        "PhpStorm": "https://www.jetbrains.com/phpstorm/promo/"
+    },
+    "popularity": "",
+    "modified": "Fri, 18 Sep 2026 04:56:13 +0000"
+}

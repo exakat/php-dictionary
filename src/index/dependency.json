@@ -1,0 +1,53 @@
+{
+    "id": "dependency",
+    "name": "Dependency",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/dependency.html",
+    "aliases": [],
+    "description": "A dependency refers to something that the current source code relies on to function correctly. Dependencies can take many forms, depending on the context: it may be an external component, a PHP feature, resources such as memory or CPU, data or external services.\n\nIn the PHP world, dependencies often refers to components, and is related to composer.\n",
+    "code": "",
+    "documentation": "https://en.wikipedia.org/wiki/Coupling_(computer_programming)",
+    "related": [
+        "inlining",
+        "composer",
+        "coupling",
+        "decoupling",
+        "library",
+        "sbom",
+        "package-manager",
+        "tech-island",
+        "tech-silo",
+        "attack-surface",
+        "composer.json",
+        "composer.lock",
+        "vanilla"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Coupling_(computer_programming)"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP Dependency Management Using Composer",
+            "url": "https://www.zend.com/blog/php-dependency-management"
+        }
+    ],
+    "tags": [
+        "architecture"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sun, 30 Aug 2026 07:21:41 +0000"
+}

@@ -1,0 +1,49 @@
+{
+    "id": "ssa",
+    "name": "Static Single Assignment Form (SSA)",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/ssa.html",
+    "aliases": [],
+    "description": "``SSA`` stands for Static Single Assignment form. It is a property of code where each variable is assigned exactly once, making it easier to analyze and optimize.\n\nSSA is used in the PHP engine, and it helps with several aspects of the execution engine: \n\n+ Performance: ``SSA`` enables more efficient code optimization, such as dead code elimination, constant propagation, and loop optimizations.\n+ JIT Compilation: the PHP JIT compiler, introduced in version 8.0, benefits from SSA to generate faster machine code.\n",
+    "code": "",
+    "documentation": "https://en.wikipedia.org/wiki/Static_single-assignment_form",
+    "related": [
+        "jit",
+        "performance",
+        "sca",
+        "control-flow-graph",
+        "intermediate-representation"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Static_single-assignment_form"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Building SSA in a Compiler for PHP",
+            "url": "https://link.springer.com/chapter/10.1007/978-3-030-80515-9_24"
+        }
+    ],
+    "tags": [
+        "acronym",
+        "engine",
+        "static analysis"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sun, 20 Sep 2026 18:49:20 +0000"
+}

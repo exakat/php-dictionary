@@ -1,0 +1,61 @@
+{
+    "id": "payload",
+    "name": "Payload",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/payload.html",
+    "aliases": [],
+    "description": "A payload is the data carried by a request or response. The payload is distinct from its envelope headers, routing information, and metadata. In an HTTP context, the payload is the body of the message: a JSON object, an XML document, form data, or a binary stream.\n\nThe term is also used outside HTTP: a queue message has a payload, a ``JWT`` has a payload, and a webhook notification carries a payload describing the event.\n\nThe request payload is typically read from ``php://input`` for raw bodies, or accessed through framework helpers that parse and validate it.",
+    "code": "<?php\n\n    $payload = json_decode(file_get_contents('php://input'), true);\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Payload_(computing)",
+    "related": [
+        "http",
+        "http-header",
+        "json",
+        "webhook",
+        "jwt",
+        "response",
+        "php-input",
+        "request"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Payload_(computing)"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "What Is a Request Payload?",
+            "url": "https://www.abstractapi.com/guides/api-glossary/request-payload"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Payload header | MDN Glossary",
+            "url": "https://developer.mozilla.org/en-US/docs/Glossary/Payload_header"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Modelina",
+            "url": "https://modelina.org/"
+        }
+    ],
+    "tags": [
+        "concept",
+        "web"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Mon, 07 Sep 2026 09:29:18 +0000"
+}

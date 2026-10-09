@@ -1,0 +1,48 @@
+{
+    "id": "tco",
+    "name": "Total Cost Of Ownership (TCO)",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/tco.html",
+    "aliases": [],
+    "description": "Total Cost of Ownership, also known as ``TCO``, is a financial estimate that helps businesses and individuals calculate the direct and indirect costs associated with owning and operating software, hardware, equipment, or even a service, over its entire lifecycle.\n\n+ Initial Costs: purchase price, installation, setup, and training.\n+ Operating Costs: maintenance, repairs, upgrades, and support.\n+ Usage Costs: energy consumption, licensing fees, and consumables.\n+ Downtime Costs: lost productivity, troubleshooting, and opportunity costs.\n+ End-of-Life Costs: disposal, migration to new system, or replacement costs.",
+    "code": "",
+    "documentation": "https://en.wikipedia.org/wiki/Total_cost_of_ownership",
+    "related": [
+        "lifecycle",
+        "performance",
+        "maintenance",
+        "legacy",
+        "refactoring"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Total_cost_of_ownership"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "TCO calculator",
+            "url": "https://why-php.com/tco-calculator.html"
+        }
+    ],
+    "tags": [
+        "lifecycle",
+        "business"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Wed, 26 Aug 2026 10:21:28 +0000"
+}

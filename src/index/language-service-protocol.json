@@ -1,0 +1,58 @@
+{
+    "id": "language-service-protocol",
+    "name": "Language Server Protocol (LSP)",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/language-service-protocol.html",
+    "aliases": [],
+    "description": "A Language Server Protocol, an LSP server, is a program that provides language-intelligence features to any code editor and IDE that speaks the LSP standard.\n\nLanguage features may be autocomplete, go-to-definition, documentation, and diagnostics.\n\nLSP actually stands for the protocol, but it is often used for the LSP server itself. LSP may be provided by the IDE, or stand alone as an autonomous server.",
+    "code": "",
+    "documentation": "https://microsoft.github.io/language-server-protocol/",
+    "related": [
+        "lsp",
+        "ide",
+        "autocompletion"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://microsoft.github.io/language-server-protocol/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHPantom",
+            "url": "https://github.com/AJenbo/phpantom_lsp"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "LSP PHP",
+            "url": "https://github.com/chschneider/lsp_php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Configuring Emacs as a PHP IDE",
+            "url": "https://emacs-lsp.github.io/lsp-mode/tutorials/php-guide/"
+        }
+    ],
+    "tags": [
+        "tool",
+        "acronym"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": {
+        "Intelephense": "https://intelephense.com/",
+        "PHP Tools": "https://www.devsense.com/en",
+        "Phpactor": "https://github.com/phpactor/phpactor"
+    },
+    "popularity": "",
+    "modified": "Fri, 18 Sep 2026 04:54:04 +0000"
+}

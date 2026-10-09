@@ -1,0 +1,46 @@
+{
+    "id": "parameter-removal",
+    "name": "Parameter Removal",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/parameter-removal.html",
+    "aliases": [],
+    "description": "Parameter removal is the operation to remove a parameter in a method's signature. \n\nThis may happen in two ways: \n\n+ Between versions of the code. A method may see one of its parameter being deprecated then removed.\n+ In a function relay, where the method doesn't transmit all its incoming parameters to the next.",
+    "code": "<?php\n\n// get_defined_functions's only paramter was removed in PHP 8.4\n$list = get_defined_functions(false);\n\nclass Elephpant {\n    public function trumpet($trunk, $tusk) {\n        // $tusk is ignored, and set to a fixed value.\n        // $tusk is actually removed for 'public' usage\n        $this->forage($trunk, 2);\n    }\n\n    private function forage($trunk, $tusk = 1) {\n        // do Something\n    }\n}\n?>",
+    "documentation": "https://www.php.net/manual/en/language.functions.php",
+    "related": [
+        "function"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.functions.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Refactoring function signature maintaining backward compatibility",
+            "url": "https://dev.to/schirrel/refactoring-function-signature-maintaining-backward-compatibility-mnp"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": ".NET API changes that affect compatibility",
+            "url": "https://learn.microsoft.com/en-us/dotnet/core/compatibility/library-change-rules"
+        }
+    ],
+    "tags": [
+        "pattern"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+}

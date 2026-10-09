@@ -1,0 +1,49 @@
+{
+    "id": "ecosystem",
+    "name": "Ecosystem",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/ecosystem.html",
+    "aliases": [],
+    "description": "The PHP ecosystem refers to the entire environment around the language, made of the tools, communities, innovations, libraries, standards, events, and platforms built around, with and for the programming language.\n\nAn active ecosystem is a strong sign of good health for the underlying language.",
+    "code": "",
+    "documentation": "https://en.wikipedia.org/wiki/Software_ecosystem",
+    "related": [
+        "php",
+        "marketplace"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Software_ecosystem"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP-FIG, the PHP Framework Interoperability Group",
+            "url": "https://www.php-fig.org/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP The Right Way",
+            "url": "https://phptherightway.com/"
+        }
+    ],
+    "tags": [
+        "community"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": {
+        "Packagist": "https://packagist.org/"
+    },
+    "popularity": "",
+    "modified": "Fri, 18 Sep 2026 04:49:54 +0000"
+}

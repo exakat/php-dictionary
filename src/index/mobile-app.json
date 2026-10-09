@@ -1,0 +1,56 @@
+{
+    "id": "mobile-app",
+    "name": "Mobile Application",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/mobile-app.html",
+    "aliases": [
+        "mobile-application"
+    ],
+    "description": "A mobile application runs on a mobile device such as a smartphone or tablet. PHP is not natively compiled to mobile targets, but it can power the backend API consumed by a mobile frontend written in Swift, Kotlin, React Native, or Flutter. Projects like NativePHP also explore packaging PHP as a mobile app. Mobile apps may be native and compiled for a specific OS, web views wrapped in a native shell, or PWA progressive web apps.",
+    "code": "",
+    "documentation": "https://en.wikipedia.org/wiki/Mobile_app",
+    "related": [
+        "web-app",
+        "desktop-app",
+        "rest-api",
+        "nativephp",
+        "spa",
+        "pwa",
+        "application"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Mobile_app"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "NativePHP for Mobile",
+            "url": "https://nativephp.com/docs/mobile/1/getting-started/introduction"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP-GUI",
+            "url": "https://github.com/developersharif/php-gui"
+        }
+    ],
+    "tags": [
+        "application"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Fri, 19 Jun 2026 21:25:26 +0000"
+}

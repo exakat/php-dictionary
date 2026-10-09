@@ -1,0 +1,56 @@
+{
+    "id": "nominal-type",
+    "name": "Nominal Type",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/nominal-type.html",
+    "aliases": [
+        "nominal-typing"
+    ],
+    "description": "Nominal typing is a type-compatibility rule under which two types are considered compatible only if they are explicitly declared as such, by name, through inheritance or interface implementation, regardless of whether they happen to share the same shape. It is the opposite of structural typing, where compatibility is decided by shape alone, without any explicit declaration.\n\nPHP's type system is nominal: a class only satisfies a type if it is declared with ``extends`` or ``implements``, even when another, unrelated class already defines every required method with a compatible signature. PHP performs no structural compatibility check between classes; the closest it comes to structural typing is duck typing at runtime.\n\nNominal typing is the norm among mainstream class-based languages, such as PHP, Java, C# and C++. It favors explicitness and intent over flexibility: a class cannot accidentally satisfy an interface it was never meant to implement.",
+    "code": "<?php\n\n    interface Greeter {\n        public function greet(): string;\n    }\n\n    class Person implements Greeter { // explicit, nominal declaration\n        public function greet(): string {\n            return 'Hello';\n        }\n    }\n\n    function sayHello(Greeter $g) {\n        echo $g->greet();\n    }\n\n    sayHello(new Person()); // OK, Person is nominally declared as a Greeter\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Nominal_type_system",
+    "related": [
+        "structural-typing",
+        "type-system",
+        "interface",
+        "type-checking",
+        "polymorphism",
+        "ducktyping"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Nominal_type_system"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Type Systems: Structural vs. Nominal typing explained",
+            "url": "https://medium.com/@thejameskyle/type-systems-structural-vs-nominal-typing-explained-56511dd969f4"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Nominal & Structural Typing | Flow",
+            "url": "https://flow.org/en/docs/lang/nominal-structural/"
+        }
+    ],
+    "tags": [
+        "concept",
+        "type"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Tue, 01 Sep 2026 05:31:03 +0000"
+}

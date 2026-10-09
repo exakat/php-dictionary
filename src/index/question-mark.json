@@ -1,0 +1,45 @@
+{
+    "id": "question-mark",
+    "name": "Question Mark ?",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/question-mark.html",
+    "aliases": [
+        "?"
+    ],
+    "description": "``?`` is a character, used in various situations.\n\n+ Ternary operator: ``$a ? $b : $c``\n+ Short ternary operator: ``$a ?: $c``\n+ Coalesce operator: ``$a ??``\n+ Null type, ``function foo(?int $int) {}``\n+ As a quantifier in regex, 0 or 1\n+ As a quantifier with ``fnmatch()``, 0 or 1.",
+    "code": "<?php\n\n    $a = 1;\n    echo a ? 'b' : 'c'; // c\n\n?>",
+    "documentation": "https://www.php.net/manual/en/language.operators.comparison.php",
+    "related": [
+        "ternary",
+        "coalesce",
+        "type",
+        "regex",
+        "fnmatch"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.operators.comparison.php"
+        }
+    ],
+    "tags": [
+        "character",
+        "noSeeAlso"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Fri, 18 Sep 2026 09:32:50 +0000"
+}

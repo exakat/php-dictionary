@@ -1,0 +1,49 @@
+{
+    "id": "bind",
+    "name": "Bind",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/bind.html",
+    "aliases": [],
+    "description": "A closure, when build on a method, is bound to an object. When the closure is executed, it will be with that object. Unless the closure is rebound with another object: in that case, the new object will be used as context for the closure execution.",
+    "code": "<?php\n\nclass Elephpant {\n        public function __construct(private int $age) {    }\n\n    public function trumpet() {  echo $this->age;  }\n}\n\n$fn = Closure::fromCallable([new Elephpant(10), 'trumpet']);\n$fn();\n\n$fn2 = $fn->bindTo(new Elephpant(99), Elephpant::class);\n$fn2();\n\n// $fn is called with another object\n$fn->call(new Elephpant (100));\n\n?>",
+    "documentation": "https://www.php.net/manual/en/closure.bindto.php",
+    "related": [
+        "closure"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/closure.bindto.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP: Closure::bind - Manual",
+            "url": "https://www.php.net/manual/en/closure.bind.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP Tutorial => Closure binding and scope",
+            "url": "https://riptutorial.com/php/example/8746/closure-binding-and-scope"
+        }
+    ],
+    "tags": [
+        "syntax",
+        "closure"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+}

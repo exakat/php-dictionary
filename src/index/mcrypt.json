@@ -1,0 +1,49 @@
+{
+    "id": "mcrypt",
+    "name": "mcrypt Extension",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/mcrypt.html",
+    "aliases": [],
+    "description": "``mcrypt`` is a PHP extension that provides access to the mcrypt library. It provides a variety of cryptographic algorithms. \n\n``mcrypt`` was deprecated in version 7.1 and removed in version 7.2. It is recommended to use ``sodium`` or ``openssl`` instead.",
+    "code": "<?php\n\n    $key = pack('H*', \"bcb04b7e103a0cd8b54763051cef08bc55abe029fdebae5e1d417e2ffb2a00a3\");\n\n    $key_size =  strlen($key);\n    echo \"Key size: \" . $key_size . \"\\n\";\n    \n    $plaintext = \"This string was AES-256 / CBC / ZeroBytePadding encrypted.\";\n\n    # create a random IV to use with CBC encoding\n    $iv_size = mcrypt_get_iv_size(MCRYPT_RIJNDAEL_128, MCRYPT_MODE_CBC);\n    $iv = mcrypt_create_iv($iv_size, MCRYPT_RAND);\n\n    $ciphertext = mcrypt_encrypt(MCRYPT_RIJNDAEL_128, $key,\n                                 $plaintext, MCRYPT_MODE_CBC, $iv);\n\n?>",
+    "documentation": "https://www.php.net/manual/en/ref.mcrypt.php",
+    "related": [
+        "libsodium",
+        "openssl"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/ref.mcrypt.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "ext/sodium",
+            "url": "https://www.php.net/manual/en/book.sodium.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "ext/openssl",
+            "url": "https://www.php.net/manual/en/book.openssl.php"
+        }
+    ],
+    "tags": [
+        "cryptography"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [
+        "Extensions/Extmcrypt"
+    ],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "4.0",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "7.2",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Tue, 01 Sep 2026 05:31:03 +0000"
+}

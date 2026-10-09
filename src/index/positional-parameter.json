@@ -1,0 +1,41 @@
+{
+    "id": "positional-parameter",
+    "name": "Positional Parameters",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/positional-parameter.html",
+    "aliases": [],
+    "description": "A way of calling a function or method, where arguments are identified by their position in the signature or the call. This is the traditional way of sending arguments to a method.\n\nThe alternative way is to use named parameters.",
+    "code": "<?php\n\nfunction trumpet($trunk, $tusk) {\n    return $trunk - $tusk;\n}\n\necho trumpet(2, 3);  // return -1\necho trumpet(3, 2);  // return 1\n\necho trumpet(trunk: 2, tusk: 3);  // return -1\necho trumpet(tusk: 2, trunk: 3);  // return 1\n\n?>",
+    "documentation": "https://www.php.net/manual/en/functions.arguments.php",
+    "related": [
+        "named-parameter"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/functions.arguments.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP RFC: Named Arguments",
+            "url": "https://wiki.php.net/rfc/named_params"
+        }
+    ],
+    "tags": [
+        "feature"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+}

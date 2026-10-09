@@ -1,0 +1,59 @@
+{
+    "id": "static-property",
+    "name": "Static Property",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/static-property.html",
+    "aliases": [
+        "class-property"
+    ],
+    "description": "Static properties are properties defined with the ``static`` keyword. They may be accessed with the name of the class, or instantiated object. \n\nStatic properties are also called 'class properties' as they are common to all objects of the same class: there is no need to instantiate an object to access them, when they are public.",
+    "code": "<?php\n\n    class Elephpant {\n        static $trunkLength = 1;\n    }\n\n    //displays elephpant::trunkLength\n    print elephpant::$trunkLength;\n    $object = new elephpant;\n\n    print $object::$trunkLength;\n\n?>",
+    "documentation": "https://www.php.net/manual/en/language.oop5.static.php#language.oop5.static.properties",
+    "related": [
+        "property",
+        "static-method",
+        "data-container",
+        "readable",
+        "static-variable",
+        "writable",
+        "get_object_vars",
+        "scope-resolution-operator",
+        "static-class",
+        "writeable",
+        "testable"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.oop5.static.php#language.oop5.static.properties"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Late Static Bindings",
+            "url": "https://www.php.net/manual/en/language.oop5.late-static-bindings.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Class variable",
+            "url": "https://en.wikipedia.org/wiki/Class_variable"
+        }
+    ],
+    "tags": [
+        "data-container",
+        "feature"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 10 Sep 2026 20:22:37 +0000"
+}

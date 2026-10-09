@@ -1,0 +1,46 @@
+{
+    "id": "batch",
+    "name": "Batch",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/batch.html",
+    "aliases": [],
+    "description": "Batch processing refers to the treatment of several items at the same time, instead of one at a time.\n\nBatch may mean all at the same time, or it may refers to processing the elements in several small groups. \n\nProcessing in batch is efficient when the overhead of an operation is high per unit, such as storing one row at a time in a database, or when processing everything at once requires too much resources.\n\nProcessing in intermediate size batch may also be more efficient than processing everything by unit, or as a whole. It is related to the problem of ``the elephpant and the bananas``.",
+    "code": "<?php\n\n    // Processing the array one by one\n    foreach($array as $a) {\n        $database->store($a);\n    }\n    \n    // Processing the array in one time\n    $database->store($array);\n    \n    // Processing the array by batch of 10\n    $chunks = array_chunk($array, 10);\n    foreach($chunks as $chunk) {\n        $database->store($chunk);\n    }\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Batch_processing",
+    "related": [
+        "dataset",
+        "n-query",
+        "mass"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Batch_processing"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "The Elephant and the Bananas",
+            "url": "https://puzzlesquant.substack.com/p/the-elephant-and-the-bananas"
+        }
+    ],
+    "tags": [
+        "concept",
+        "data"
+    ],
+    "packagist": [
+        "yokai-php/batch"
+    ],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Mon, 07 Sep 2026 08:38:23 +0000"
+}

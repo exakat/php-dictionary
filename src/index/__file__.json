@@ -1,0 +1,53 @@
+{
+    "id": "__file__",
+    "name": "__FILE__",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/__file__.html",
+    "aliases": [],
+    "description": "``__FILE__`` holds the current file name.\n\nThe file name includes its absolute path, e.g. ``/tmp/path/to/file.txt``. It also uses the file's actual case.\n\nWhen used without a file, aka in the command line, ``__FILE__`` contains ``Command line code``.\n\n``__FILE__`` is often used with ``__LINE__``, which holds the line number.\n\n``__FILE__`` is also often used with ``__DIR__``, which holds the directory of the file. It is akin to using ``dirname()`` on ``__FILE__``.\n\nThis constant is written in uppercase, by convention. It is case-insensitive, and may be used with any combination of uppercase and lowercase.",
+    "code": "<?php\n\n    function trumpet() {\n        echo __FILE__; // /tmp/test.php\n    }\n\n    trumpet();\n\n?>",
+    "documentation": "https://www.php.net/manual/en/language.constants.magic.php",
+    "related": [
+        "magic-constant",
+        "__dir__",
+        "__line__",
+        "__method__",
+        "dirname",
+        "special-constant"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.constants.magic.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP's Magic Constants: __LINE__, __FILE__, __FUNCTION__, __CLASS__, and __METHOD__",
+            "url": "https://davidwalsh.name/php-magic-constants"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP Magic Constants - Examples of How Magic Constants Work in PHP",
+            "url": "https://www.educba.com/php-magic-constants/"
+        }
+    ],
+    "tags": [
+        "magic constant"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+}

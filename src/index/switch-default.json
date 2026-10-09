@@ -1,0 +1,49 @@
+{
+    "id": "switch-default",
+    "name": "Switch Default",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/switch-default.html",
+    "aliases": [],
+    "description": "A switch default, also called default, is the catch-all option in a ``switch()`` or a ``match()`` expression. \n\nIn a ``switch()``, the default case may be stacked with other cases, to apply the same code. This is not possible with ``match()``.",
+    "code": "<?php\n\n    switch($trunk) {\n        case 'a':\n        default:\n            $a = 1;\n            // fall through\n            \n        case 'b' :\n            $a =2;\n            break 1;\n    }\n\n?>",
+    "documentation": "https://www.php.net/manual/en/control-structures.switch.php",
+    "related": [
+        "default",
+        "switch",
+        "match",
+        "switch-case"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/control-structures.switch.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "match",
+            "url": "https://www.php.net/manual/en/control-structures.match.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Switch statement",
+            "url": "https://en.wikipedia.org/wiki/Switch_statement"
+        }
+    ],
+    "tags": [
+        "keyword"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+}

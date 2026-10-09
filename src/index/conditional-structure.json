@@ -1,0 +1,50 @@
+{
+    "id": "conditional-structure",
+    "name": "Conditional Structures",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/conditional-structure.html",
+    "aliases": [],
+    "description": "Conditional structures are instructions which run different code, based on a condition. \n\nThis includes ``if-elseif-then``, ``switch()``, ``match()``, the ternary operators ``? ... :`` and ``?:`` and the coalesce operator ``??``.",
+    "code": "<?php\n\n    if (!function_exists('trumpet')) {\n        function trumpet() {\n            // doSomething\n        }\n    }\n\n?>",
+    "documentation": "https://www.php.net/manual/en/control-structures.if.php",
+    "related": [
+        "switch",
+        "match",
+        "if-then",
+        "coalesce",
+        "ternary"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/control-structures.if.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Control Structures",
+            "url": "https://www.php.net/manual/en/language.control-structures.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Conditional (computer programming)",
+            "url": "https://en.wikipedia.org/wiki/Conditional_(computer_programming)"
+        }
+    ],
+    "tags": [
+        "statement"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+}

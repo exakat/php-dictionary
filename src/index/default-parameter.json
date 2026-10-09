@@ -1,0 +1,51 @@
+{
+    "id": "default-parameter",
+    "name": "Default Parameter",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/default-parameter.html",
+    "aliases": [],
+    "description": "Methods may define a default value for parameters. That way the parameter may be omitted during the call, and this value will be used. \n\nThe default value may be a static expression, and, since PHP 8.1, also includes a new expression.\n\nThe default parameter must be the last of the parameters: adding a parameter without default value after one will yield an error and mess up the call parameters.",
+    "code": "<?php\n\nfunction makeCoffee($type = 'latte') {\n    return 'Making a cup of $latte';\n}\n\n?>",
+    "documentation": "https://www.php.net/manual/en/functions.arguments.php#functions.arguments.default",
+    "related": [
+        "function",
+        "method",
+        "nullpattern",
+        "option"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/functions.arguments.php#functions.arguments.default"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Default Function Parameters In PHP",
+            "url": "https://www.hashbangcode.com/article/default-function-parameters-php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP Default Parameters",
+            "url": "https://www.phptutorial.net/php-tutorial/php-default-parameters/"
+        }
+    ],
+    "tags": [
+        "parameter"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [
+        "Functions/WrongOptionalParameter"
+    ],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Mon, 17 Aug 2026 09:06:21 +0000"
+}

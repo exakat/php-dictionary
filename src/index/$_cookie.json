@@ -1,0 +1,52 @@
+{
+    "id": "$_cookie",
+    "name": "$_COOKIE",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/%24_cookie.html",
+    "aliases": [],
+    "description": "The ``$_COOKIE`` variable is a special superglobal variable that stores the name and values of the cookies that were transmitted to the webserver.\n\nThe ``$_COOKIE`` variable is an associative array where the keys are the cookies names and the values are the corresponding values passed in the HTTP headers. \n\n``$_COOKIE`` is a superglobal: it is always available, in every scope.\n\nValues inside ``$_COOKIE`` are always strings or arrays.",
+    "code": "<?php\n\n    echo $_COOKIE['username'];\n\n?>",
+    "documentation": "https://www.php.net/manual/en/reserved.variables.cookie.php",
+    "related": [
+        "$_get",
+        "$_post",
+        "$_request",
+        "$_server",
+        "$_FILES",
+        "$_env"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/reserved.variables.cookie.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP: setcookie - Manual",
+            "url": "https://www.php.net/manual/en/function.setcookie.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP Cookies - PHP Tutorial",
+            "url": "https://www.phptutorial.net/php-tutorial/php-cookies/"
+        }
+    ],
+    "tags": [
+        "php variable",
+        "superglobal"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Mon, 24 Aug 2026 05:04:01 +0000"
+}

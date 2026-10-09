@@ -1,0 +1,52 @@
+{
+    "id": "get_class",
+    "name": "get_class()",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/get_class.html",
+    "aliases": [],
+    "description": "``get_class()`` is a PHP native function, that returns the name of the class of an object.\n\n``get_class()`` returns the full name of the class, including its namespace and original letter cases. \n\n``get_class()`` may be replaced by the magic method ``__CLASS__`` when operating on ``$this``. It may also be replaced with an object in other situation, such as fetching a static constant, or instantiating a new object.",
+    "code": "<?php\n\nnamespace Zoo\\Savanna;\n\nclass Elephpant {}\n\n$trunk = new Elephpant;\nprint get_class(); //Zoo\\Savanna\\Elephpant\n\n$herd = new $trunk;\nprint get_class(); //Zoo\\Savanna\\Elephpant\n\n?>",
+    "documentation": "https://www.php.net/manual/en/function.get-class.php",
+    "related": [
+        "__class__",
+        "$this",
+        "get_class_vars",
+        "introspection",
+        "compiler-optimized-function"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/function.get-class.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP | get_class() Function",
+            "url": "https://www.geeksforgeeks.org/php/php-get_class-function/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Exploring PHP's get_class() Function: A Practical Guide",
+            "url": "https://clouddevs.com/php/get_class-function/"
+        }
+    ],
+    "tags": [
+        "native function"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Fri, 18 Sep 2026 15:28:58 +0000"
+}

@@ -1,0 +1,47 @@
+{
+    "id": "catchable-fatal-error",
+    "name": "Catchable Fatal Error",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/catchable-fatal-error.html",
+    "aliases": [
+        "recoverable-error"
+    ],
+    "description": "A catchable fatal error is a fatal error that PHP allows user code to intercept before the script terminates, instead of stopping execution unconditionally.\n\nSince PHP 7, most fatal errors are represented as ``Error`` objects, which implement ``Throwable`` and can be intercepted with a ``try``/``catch`` block, making them catchable by nature. Before PHP 7, a narrower category existed as its own error level, ``E_RECOVERABLE_ERROR``, notably raised when an object without a ``__toString()`` method was used in a string context; it could only be intercepted through a custom error handler set with ``set_error_handler()``, not with ``catch``.\n\nIf a catchable fatal error is not actually caught, it behaves exactly like an ordinary fatal error: execution stops.",
+    "code": "<?php\n\n    class NoConversion {}\n    \n    try {\n        $s = (string) new NoConversion(); // fatal error, but catchable\n    } catch (\\Error $e) {\n        echo 'Caught: ' . $e->getMessage();\n    }\n\n?>",
+    "documentation": "https://www.php.net/manual/en/language.errors.php7.php",
+    "related": [
+        "fatal-error",
+        "error",
+        "throwable",
+        "set_error_handler"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.errors.php7.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP Language Specification: Terms and Definitions",
+            "url": "https://phplang.org/spec/03-terms-and-definitions.html"
+        }
+    ],
+    "tags": [
+        "error",
+        "specification"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 27 Aug 2026 05:38:49 +0000"
+}

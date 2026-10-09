@@ -1,0 +1,47 @@
+{
+    "id": "whitespace",
+    "name": "Whitespace",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/whitespace.html",
+    "aliases": [],
+    "description": "Whitespace refers to spaces, tabulations, and newline characters. Those characters are invisible on a white background, hence the name. \n\nWhitespace is used to format and organize the code, making it more readable. \n\nHowever, whitespace is generally not significant in terms of parsing; the PHP interpreter usually ignores whitespace. There are some rare situations where the whitespaces have a role: in heredoc syntax, and for formatting floats.\n\nWhitespace is not a notion specific to PHP: other languages have them too. For example, ``trim()`` removes whitespace at the beginning and the end of a string value.",
+    "code": "<?php\n\n    $heredoc = <<<HEREDOC\n        One tab shift\n        Here\n        HEREDOC;\n    \n    $concatenation = 1 . 0; // This is 10\n\n    $float = 1.0; // This is 1.0\n\n    //$invalid = 1. 0; // This is a syntax error\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Whitespace_character",
+    "related": [
+        "token"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Whitespace_character"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "php_strip_whitespace()",
+            "url": "https://www.php.net/manual/en/function.php-strip-whitespace.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Be careful of whitespace in .php files",
+            "url": "https://avdi.codes/be-careful-of-whitespace-in-php-files/"
+        }
+    ],
+    "tags": [
+        "character",
+        "_nocompileOK"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+}

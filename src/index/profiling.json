@@ -1,0 +1,59 @@
+{
+    "id": "profiling",
+    "name": "Profiling",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/profiling.html",
+    "aliases": [],
+    "description": "Profiling is the process of measuring the performance of a program to identify bottlenecks and areas for optimization.\n\nProfiling is typically done using extensions like Xdebug, ``Blackfire``, ``Tideways`` or XHProf. These tools provide insights into:\n\n+ Function execution time\n+ Memory usage\n+ Call graphs\n+ Hot paths in the code.",
+    "code": "",
+    "documentation": "https://en.wikipedia.org/wiki/Profiling_(computer_programming)",
+    "related": [
+        "profiler",
+        "debugger",
+        "flamegraph",
+        "bottleneck",
+        "micro-optimisation",
+        "performance",
+        "xdebug",
+        "xhprof"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Profiling_(computer_programming)"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "How to profile your PHP applications with Xdebug",
+            "url": "https://www.vincentbroute.fr/blog/how-to-profile-your-php-applications-with-xdebug/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "The 6 Best PHP Profilers",
+            "url": "https://tideways.com/the-6-best-php-profilers"
+        }
+    ],
+    "tags": [
+        "concept",
+        "optimisation"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": {
+        "blackfire": "https://blackfire.io/",
+        "tideways": "https://tideways.com/"
+    },
+    "popularity": "",
+    "modified": "Thu, 17 Sep 2026 09:14:43 +0000"
+}

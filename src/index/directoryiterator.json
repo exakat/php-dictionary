@@ -1,0 +1,49 @@
+{
+    "id": "directoryiterator",
+    "name": "DirectoryIterator",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/directoryiterator.html",
+    "aliases": [],
+    "description": "The ``DirectoryIterator`` class provides a simple interface for viewing the contents of filesystem directories and files.\n\nIt is an iterator, and may be recursively traversed, like a file system.\n",
+    "code": "<?php\n\n    $iterator = new DirectoryIterator(__DIR__);\n    while($iterator->valid()) {\n        $file = $iterator->current();\n        echo $iterator->key() . \" => \" . $file->getFilename() . \"\\n\";\n        $iterator->next();\n    }\n\n?>",
+    "documentation": "https://www.php.net/manual/en/class.directoryiterator.php",
+    "related": [
+        "iterator",
+        "recursion",
+        "recursiveiterator",
+        "recursivetreeiterator",
+        "spl",
+        "filesystemiterator",
+        "recursivedirectoryiterator",
+        "splfileinfo"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/class.directoryiterator.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP DirectoryIterator: How to Iterate Over a Directory",
+            "url": "https://salivity.github.io/php/article/php-directory-iterator-how-to-iterate-over-a-directory"
+        }
+    ],
+    "tags": [
+        "iterator",
+        "php class"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Fri, 25 Sep 2026 13:45:48 +0000"
+}

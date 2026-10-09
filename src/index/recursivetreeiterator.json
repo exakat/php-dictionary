@@ -1,0 +1,46 @@
+{
+    "id": "recursivetreeiterator",
+    "name": "RecursiveTreeIterator",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/recursivetreeiterator.html",
+    "aliases": [],
+    "description": "The ``RecursiveTreeIterator`` allows iterating over a ``RecursiveIterator`` to generate an ASCII graphic tree. This is a convenient and native way to display a tree-like structure.",
+    "code": "<?php\n\n    $data = [\n        'fruit' => [\n            'apple',\n            'banana'\n        ],\n        'vegetables' => [\n            'carrot',\n            'broccoli',\n            'leafy' => [\n                'spinach',\n                'lettuce'\n            ]\n        ]\n    ];\n    \n    // Wrap the array in a RecursiveArrayIterator\n    $iterator = new RecursiveArrayIterator($data);\n    \n    // Create a RecursiveTreeIterator\n    $treeIterator = new RecursiveTreeIterator(\n        $iterator,\n        RecursiveTreeIterator::SELF_FIRST\n    );\n    \n    // Loop and print the tree\n    foreach ($treeIterator as $key => $value) {\n        echo $treeIterator->getPrefix() . \"$key: $value\\n\";\n    }\n    \n    /**\n    |-- fruit\n    |   |-- 0: apple\n    |   |-- 1: banana\n    |-- vegetables\n    |   |-- 0: carrot\n    |   |-- 1: broccoli\n    |   |-- leafy\n    |       |-- 0: spinach\n    |       |-- 1: lettuce\n    */\n\n?>",
+    "documentation": "https://www.php.net/manual/en/class.recursivetreeiterator.php",
+    "related": [
+        "recursiveiterator",
+        "directoryiterator",
+        "render"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/class.recursivetreeiterator.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Standard PHP Library From A to Z",
+            "url": "https://tuhinbepari.medium.com/standard-php-library-from-a-to-z-9bcb4d7b3aa8"
+        }
+    ],
+    "tags": [
+        "iterator",
+        "spl"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Tue, 25 Aug 2026 13:33:58 +0000"
+}

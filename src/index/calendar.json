@@ -1,0 +1,47 @@
+{
+    "id": "calendar",
+    "name": "Calendar",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/calendar.html",
+    "aliases": [],
+    "description": "The calendar extension provides functions to convert dates between different calendars, such as Gregorian, Julian Day Count, Unix Timestamp, French Revolutionary, Jewish, and others.",
+    "code": "<?php\n\n    $julian_date = gregoriantojd($m, $d, $y);\n    $french = jdtofrench($julian_date);\n    \n    echo $french;\n    \n?>",
+    "documentation": "https://www.php.net/manual/en/book.calendar.php",
+    "related": [
+        "datetime",
+        "dateinterval"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/book.calendar.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Event Calendar with PHP",
+            "url": "https://codeshack.io/event-calendar-php/"
+        }
+    ],
+    "tags": [
+        "extension",
+        "date"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [
+        "Extensions/ExtCalendar"
+    ],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Tue, 25 Aug 2026 19:12:45 +0000"
+}

@@ -1,0 +1,54 @@
+{
+    "id": "canary",
+    "name": "Canary",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/canary.html",
+    "aliases": [
+        "canary-release",
+        "canary-deployment",
+        "stack-canary"
+    ],
+    "description": "Canary, borrowed from the miner's canary once used to detect dangerous gas underground, has two distinct meanings in software engineering.\n\n+ A canary release, or canary deployment, is a rollout strategy where a new version is deployed to a small subset of servers or users first. Its behavior and metrics are monitored before the rollout is extended to everyone, which limits the blast radius of a regression. It is a close relative of the feature flag and of blue-green deployment.\n+ A stack canary, or stack cookie, is a known value placed on the call stack, right before a function's return address. If a buffer overflow overwrites the return address, it also overwrites the canary first, so the corruption is detected before the corrupted address is ever used. It is a memory-safety technique specific to compiled, memory-unsafe languages such as C and C++.\n\nPHP scripts do not manage the stack directly, so stack canaries are not a PHP-level concern; the Zend Engine that executes PHP, however, is itself written in C, and may benefit from stack canaries at the compiler level. Canary releases, on the other hand, are a common practice for deploying PHP applications.",
+    "code": "<?php\n\n    // a simple canary release, gated by a user's id\n    if ($user->id % 100 < 5) { // only 5% of users see the new checkout flow\n        return new CheckoutFlowV2();\n    }\n\n    return new CheckoutFlowV1();\n\n?>",
+    "documentation": "https://martinfowler.com/bliki/CanaryRelease.html",
+    "related": [
+        "feature-flag",
+        "release",
+        "circuit-breaker",
+        "sentinel",
+        "blast-radius"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://martinfowler.com/bliki/CanaryRelease.html"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Stack canary",
+            "url": "https://en.wikipedia.org/wiki/Buffer_overflow_protection#Canaries"
+        }
+    ],
+    "tags": [
+        "concept",
+        "devops",
+        "sdlc",
+        "disambiguation"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Mon, 07 Sep 2026 09:11:27 +0000"
+}

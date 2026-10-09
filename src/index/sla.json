@@ -1,0 +1,58 @@
+{
+    "id": "sla",
+    "name": "Service Level Agreement (SLA)",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/sla.html",
+    "aliases": [
+        "service-level-agreement"
+    ],
+    "description": "A Service Level Agreement, or SLA, is a formal contract between a service provider and a client that defines the expected level of service. It specifies measurable commitments such as uptime percentages, e.g., 99.9%, 99.999%, response times, resolution times, and penalties for non-compliance.\n\nIn development, SLA influence architectural decisions around redundancy, failover strategies, monitoring, alerting, and deployment practices to ensure the application remains within agreed service boundaries.",
+    "code": "",
+    "documentation": "https://en.wikipedia.org/wiki/Service-level_agreement",
+    "related": [
+        "qos",
+        "monitoring",
+        "downtime",
+        "availability",
+        "contract",
+        "reliability",
+        "performance",
+        "circuit-breaker",
+        "devops",
+        "nines",
+        "percentile"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Service-level_agreement"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "The Quiet Shift Reshaping PHP Security",
+            "url": "https://www.linkedin.com/pulse/quiet-shift-reshaping-php-security-matthew-weier-o-phinney-fgquc/"
+        }
+    ],
+    "tags": [
+        "architecture",
+        "business"
+    ],
+    "packagist": [
+        "sifex/sla-timer"
+    ],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Fri, 11 Sep 2026 09:44:52 +0000"
+}

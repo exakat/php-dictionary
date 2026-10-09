@@ -1,0 +1,53 @@
+{
+    "id": "structural-typing",
+    "name": "Structural Typing",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/structural-typing.html",
+    "aliases": [],
+    "description": "Structural typing is a type-compatibility rule under which a value satisfies a type purely because it exposes the required shape: the same methods and properties, with compatible signatures, regardless of its declared name or inheritance chain. It contrasts with nominal typing, where compatibility is decided by an explicit declaration, such as ``implements`` or ``extends``.\n\nLanguages such as TypeScript, Go, and ``OCaml`` use structural typing: any object or structure that happens to define the required methods satisfies an interface, whether or not it was ever declared to implement it.\n\nPHP's type system is nominal: a class only satisfies an interface if it explicitly declares ``implements InterfaceName``, even when it already defines every required method with a compatible signature. PHP performs no structural compatibility check between classes. The closest PHP comes to structural typing is duck typing at runtime, where code calls a method on any object without checking its declared type, and lets a fatal error occur if the method turns out to be missing.",
+    "code": "<?php\n\n    interface Greeter {\n        public function greet(): string;\n    }\n    \n    class Person {\n        // Same shape as Greeter, but does not implement it.\n        public function greet(): string {\n            return 'Hello';\n        }\n    }\n    \n    function sayHello(Greeter $g) {\n        echo $g->greet();\n    }\n    \n    sayHello(new Person()); // Fatal error: Person does not implement Greeter\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Structural_type_system",
+    "related": [
+        "interface",
+        "type-system",
+        "type-checking",
+        "polymorphism"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Structural_type_system"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "TypeScript Handbook: Type Compatibility",
+            "url": "https://www.typescriptlang.org/docs/handbook/type-compatibility.html"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Duck typing - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Duck_typing"
+        }
+    ],
+    "tags": [
+        "concept",
+        "type",
+        "not supported"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Wed, 02 Sep 2026 16:41:00 +0000"
+}

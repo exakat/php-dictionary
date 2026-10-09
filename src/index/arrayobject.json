@@ -1,0 +1,51 @@
+{
+    "id": "arrayobject",
+    "name": "ArrayObject",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/arrayobject.html",
+    "aliases": [],
+    "description": "``ArrayObject`` is a native class that provides the functionality of an array with the added features of an object. It extends the base ``ArrayObject`` class and implements the ``ArrayAccess``, ``Countable``, ``IteratorAggregate``, and ``Serializable`` interfaces.\n\nWith ``ArrayObject``, it is possible to create objects that have the behavior of arrays, meaning it is possible to access array elements as properties and use object-oriented methods to manipulate the array. \n\nOperators such as append ``[]``, or ``foreach()`` loops, are then available with those objects.\n\nOn the other hand, ``ArrayObject`` fails any ``array`` type, and many ``array`` functions do not work with the objects: ``array_key_exists()``, ``array_map()``, etc. \n\nConverting an ``ArrayObject`` to an array is done with a cast ``(array)`` or a call to ``iterator_to_array()``.",
+    "code": "<?php\n\n    class myObject extends ArrayObject{ }\n    \n    $variable = new ArrObj([0, 1]);\n    \n    $variable[] = 2;\n    foreach($variable as $k => $v) {\n        echo $k . ' => ' . $v . PHP_EOL; \n    }\n\n?>",
+    "documentation": "https://www.php.net/manual/en/class.arrayobject.php",
+    "related": [
+        "array",
+        "cast",
+        "iterator_to_array",
+        "array-syntax",
+        "iterator"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/class.arrayobject.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Array Objects in PHP",
+            "url": "https://gist.github.com/Jeff-Russ/e1f64273a471d440e8b4d9183f9a2667"
+        }
+    ],
+    "tags": [
+        "array",
+        "php native"
+    ],
+    "packagist": [
+        "jbzoo/data",
+        "phootwork/collection"
+    ],
+    "extensions": [],
+    "analyzers": [
+        "Arrays/ArrayNSUsage"
+    ],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Tue, 11 Aug 2026 20:51:18 +0000"
+}

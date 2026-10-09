@@ -1,0 +1,50 @@
+{
+    "id": "sse",
+    "name": "Server Sent Event (SSE)",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/sse.html",
+    "aliases": [],
+    "description": "Server-Sent Events, or SSE, is a web technology that allows a server to push real-time updates to a client, often the web browser, over a single HTTP connection. Unlike WebSockets, which are bidirectional, SSE is unidirectional: the server sends data to the client, but the client cannot send data back to the server over the same connection.",
+    "code": "<?php\n\n    header('Content-Type: text/event-stream');\n    header('Cache-Control: no-cache');\n    header('Connection: keep-alive');\n    \n    // Send updates\n    while (true) {\n        $data = getLiveData(); // Fetch or generate data\n        echo \"data: {$data}\\n\\n\";\n        flush(); // Send output to the client immediately\n        sleep(1); // Wait before sending the next update\n    }\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Real-time_web",
+    "related": [
+        "real-time",
+        "pubsub"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Real-time_web"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Simple SSE in PHP",
+            "url": "https://lucidar.me/en/web-dev/server-sent-event-simple-php-example/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Server-Sent events with PHP and Symfony",
+            "url": "https://minompi.medium.com/server-sent-events-with-php-and-symfony-5d6596cc84c8"
+        }
+    ],
+    "tags": [
+        "acronym",
+        "architecture"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Tue, 30 Jun 2026 09:03:08 +0000"
+}

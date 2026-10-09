@@ -1,0 +1,57 @@
+{
+    "id": "stringable",
+    "name": "Stringable",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/stringable.html",
+    "aliases": [],
+    "description": "``stringable`` is a type, which represents data that may be used as a string: either a string, a heredoc or a string constant; or an object which has the ``__toString()`` method.\n\nStringable is automatically added to any class and subclasses that has the ``__toString()`` method, though it is recommended to add it explicitly.",
+    "code": "<?php\n\n    function trumpet(Stringable $s) {\n        print $s;\n    }\n\n    class Elephpant implements Stringable {\n        function __toString() {\n            return __METHOD__;\n        }\n    }\n\n    trumpet('foo');    // foo\n    trumpet(new Elephpant());  // Elephpant::__toString\n\n?>",
+    "documentation": "https://www.php.net/manual/en/class.stringable.php",
+    "related": [
+        "string",
+        "php-interface",
+        "__tostring",
+        "native-type"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/class.stringable.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "What is Stringable Interface in PHP 8?",
+            "url": "https://www.tutorialspoint.com/what-is-stringable-interface-in-php-8"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP 8.0: New Stringable interface",
+            "url": "https://php.watch/versions/8.0/stringable"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "The Stringable interface",
+            "url": "https://spatie.be/courses/front-line-php/the-stringable-interface"
+        }
+    ],
+    "tags": [
+        "type",
+        "keyword",
+        "native",
+        "php interface"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "8.0",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 10 Sep 2026 20:22:38 +0000"
+}

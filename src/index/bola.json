@@ -1,0 +1,50 @@
+{
+    "id": "bola",
+    "name": "Broken Object Level Authorization (BOLA)",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/bola.html",
+    "aliases": [],
+    "description": "Object Level Authorization is a mechanism that checks if a user has the right to access or execute an action on a specific object. For example, a user may have the permission to update his profile, but not anyone else's profile.\n\nSuch mechanisms are often overlooked, as they are set deep in the application, and the user has been channeled there with all needed information.\n\nBOLA is often detected by manipulating the ids of the objects.",
+    "code": "",
+    "documentation": "https://owasp.org/API-Security/editions/2023/en/0xa1-broken-object-level-authorization/",
+    "related": [
+        "vulnerability",
+        "idor",
+        "broken-access-control"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://owasp.org/API-Security/editions/2023/en/0xa1-broken-object-level-authorization/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Broken Object Level Authorization",
+            "url": "https://www.imperva.com/learn/application-security/broken-object-level-authorization-bola/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Broken Object Level Authorization (BOLA): The Silent Threat in API Security",
+            "url": "https://medium.com/@bubu.tripathy/broken-object-level-authorization-bola-the-silent-threat-in-api-security-2fe5f57b21b2"
+        }
+    ],
+    "tags": [
+        "vulnerability"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Wed, 19 Aug 2026 06:48:22 +0000"
+}

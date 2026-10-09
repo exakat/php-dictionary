@@ -1,0 +1,47 @@
+{
+    "id": "nativephp",
+    "name": "NativePHP",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/nativephp.html",
+    "aliases": [],
+    "description": "NativePHP is a framework that lets PHP developers, and Laravel developers in particular, build native desktop and mobile applications using the language and tooling they already know, without having to learn Electron, Swift, Kotlin, or any other native toolkit. On the desktop, it wraps the PHP application together with a bundled PHP runtime inside an Electron shell, giving access to native operating system features such as the filesystem, system tray, notifications, menus, and windows through a simple PHP API, while the application's own views can still be rendered with familiar tools like Blade or Livewire. On mobile, a companion product, NativePHP for Mobile, compiles the application down to a real iOS or Android app rather than a web view wrapper, again exposing native capabilities like the camera, biometrics, geolocation, and push notifications through PHP facades. The core appeal is that an existing Laravel codebase, its routes, models, controllers, and business logic, can be reused almost unchanged, turning a web application into a distributable, installable native product. This lowers the barrier for web-focused PHP shops to ship cross-platform desktop and mobile software without maintaining a separate codebase or team skilled in native development.",
+    "code": "",
+    "documentation": "https://nativephp.com/",
+    "related": [
+        "framework",
+        "application",
+        "desktop-app",
+        "mobile-app"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://nativephp.com/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "NativePHP: how to start?",
+            "url": "https://medium.com/bunhere/native-php-how-to-start-911b27b40791"
+        }
+    ],
+    "tags": [
+        "framework",
+        "brand"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Tue, 01 Sep 2026 07:58:33 +0000"
+}

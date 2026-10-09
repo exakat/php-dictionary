@@ -1,0 +1,62 @@
+{
+    "id": "micro-optimisation",
+    "name": "Micro-optimisation",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/micro-optimisation.html",
+    "aliases": [],
+    "description": "A micro-optimisation is a piece of code that performs better than another, yet brings only a small gain of performance.\n\nMicro-optimisation should be done only for highly constrained systems, or applications that deliver a high number of hits in short times: usually, it takes one to ten million usages for the gain to be visible.\n\nYet, micro-optimisations may be valuable in the long run, or as a good practice.\n\nIt is often pointless to discuss the micro-optimisation. It is a do or don't, and should raise a consensus, or be left alone.",
+    "code": "<?php\n\n    // this is faster than calling 3 times echo\n    echo 1, 2, 3;\n    \n    // This is slower, yet it doesn't speed up the process a lot\n    echo 1;\n    echo 2;\n    echo 3;\n\n?>",
+    "documentation": "https://en.wiktionary.org/wiki/micro-optimization",
+    "related": [
+        "performance",
+        "optimisation",
+        "benchmarking",
+        "profiler",
+        "implode",
+        "latency",
+        "premature-optimization",
+        "profiling",
+        "xhprof"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wiktionary.org/wiki/micro-optimization"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Stop Using These 5 Outdated Optimization Tricks in PHP",
+            "url": "https://medium.com/@vlreshet/stop-using-these-5-outdated-optimization-tricks-in-php-d2d616fd83fa"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "What are compiler optimized internal PHP functions and should you import them via use statement?",
+            "url": "https://tideways.com/profiler/blog/compiler-optimized-php-functions/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Data-Driven PHP 7 Performance Optimization Methods",
+            "url": "https://siit.co/blog/data-driven-php-7-performance-optimization-methods/15727"
+        }
+    ],
+    "tags": [
+        "performance",
+        "micro"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [
+        "Performances/"
+    ],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Wed, 19 Aug 2026 06:48:47 +0000"
+}

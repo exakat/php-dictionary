@@ -1,0 +1,54 @@
+{
+    "id": "acl",
+    "name": "Access Control List (ACL)",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/acl.html",
+    "aliases": [
+        "access-control-list"
+    ],
+    "description": "An Access Control List, or ``ACL``, is a set of rules that defines which users or system processes are granted access to specific resources, and what operations they are allowed to perform.\n\nIn web applications, an ``ACL`` is typically implemented as a matrix of subjects, like users, roles..., and objects, like routes, resources, actions..., where each cell defines the permissions granted. ``ACL`` provides fine-grained authorization control, complementing authentication.\n\n``ACL`` can be implemented as:\n\n+ Entry-based: each resource holds a list of principals and their permissions\n+ Role-based, ``RBAC``: permissions are assigned to roles, and roles are assigned to users\n+ Attribute-based, ``ABAC``: access decisions are based on attributes of the user, resource, and environment.\n\nSeveral frameworks provide ``ACL`` components out of the box, or via packages.\n",
+    "code": "<?php\n\n    // Simple ACL check\n    $acl = [\n        'admin' => ['read', 'write', 'delete'],\n        'editor' => ['read', 'write'],\n        'viewer' => ['read'],\n    ];\n    \n    function can(string $role, string $action, array $acl): bool {\n        return in_array($action, $acl[$role] ?? [], true);\n    }\n    \n    var_dump(can('editor', 'delete', $acl)); // false\n    var_dump(can('admin',  'delete', $acl)); // true\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Access-control_list",
+    "related": [
+        "rbac",
+        "authentication",
+        "authorize",
+        "permission",
+        "security",
+        "sso"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Access-control_list"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "ACL component - Symfony",
+            "url": "https://symfony.com/doc/current/security/access_control.html"
+        }
+    ],
+    "tags": [
+        "security",
+        "concept"
+    ],
+    "packagist": [
+        "laminas/laminas-permissions-acl",
+        "zendframework/zend-permissions-acl"
+    ],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Tue, 11 Aug 2026 14:40:21 +0000"
+}

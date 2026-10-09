@@ -1,0 +1,55 @@
+{
+    "id": "socket-ext",
+    "name": "Socket Extension",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/socket-ext.html",
+    "aliases": [
+        "sockets",
+        "ext-sockets"
+    ],
+    "description": "``sockets`` is the PHP extension that provides the low-level socket functions, such as ``socket_create()``, ``socket_bind()``, ``socket_listen()``, ``socket_accept()``, ``socket_connect()`` and ``socket_read()``. It works with TCP, UDP and Unix domain sockets, in both blocking and non-blocking modes.\n\nThe extension is not enabled by default in every PHP build: it must be compiled in with ``--enable-sockets``, or loaded at runtime. Check its presence with ``extension_loaded('sockets')``.\n\nFor the general notion of sockets, see the ``socket`` entry. This entry covers the PHP extension that implements them.",
+    "code": "<?php\n\n  if (!extension_loaded('sockets')) {\n      die('The sockets extension is required' . PHP_EOL);\n  }\n\n  $server = socket_create(AF_INET, SOCK_STREAM, SOL_TCP);\n  socket_bind($server, '127.0.0.1', 8080);\n  socket_listen($server);\n\n  $client = socket_accept($server);\n  socket_write($client, 'Hello' . PHP_EOL);\n  socket_close($client);\n\n?>",
+    "documentation": "https://www.php.net/manual/en/book.sockets.php",
+    "related": [
+        "socket",
+        "network",
+        "tcp",
+        "udp",
+        "server",
+        "non-blocking"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/book.sockets.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP Manual: Sockets",
+            "url": "https://www.php.net/manual/en/book.sockets.php"
+        }
+    ],
+    "tags": [
+        "extension"
+    ],
+    "packagist": [],
+    "extensions": [
+        "sockets"
+    ],
+    "analyzers": [
+        "Extensions/Extsockets"
+    ],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Fri, 09 Oct 2026 14:42:20 +0000"
+}

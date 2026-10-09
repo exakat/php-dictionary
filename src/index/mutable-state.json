@@ -1,0 +1,54 @@
+{
+    "id": "mutable-state",
+    "name": "Mutability",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/mutable-state.html",
+    "aliases": [
+        "mutability"
+    ],
+    "description": "Mutable state, or mutability, refers to data that can be changed after it is created.\n\nMost objects and arrays are mutable by default. Mutable state can lead to bugs in concurrent environments and makes code harder to reason about.\n\nPHP offers several mechanisms to create immutable state:\n\n+ ``readonly`` properties, since PHP 8.1+\n+ Immutable classes, like ``DateTimeImmutable``\n+ Final classes to prevent modification via inheritance.",
+    "code": "<?php\n\n    // Mutable state\n    class User {\n        public string $name;\n    }\n    \n    $user = new User();\n    $user->name = 'Alice';\n    $user->name = 'Bob'; // Mutable\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Immutable_object",
+    "related": [
+        "state",
+        "immutable",
+        "readonly",
+        "property",
+        "side-effect"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Immutable_object"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP Readonly Properties",
+            "url": "https://www.php.net/manual/en/language.oop5.properties.php#language.oop5.properties.readonly-properties"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "DateTimeImmutable",
+            "url": "https://www.php.net/manual/en/class.datetimeimmutable.php"
+        }
+    ],
+    "tags": [
+        "concept"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Mon, 07 Sep 2026 09:53:39 +0000"
+}

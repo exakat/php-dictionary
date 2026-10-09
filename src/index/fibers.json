@@ -1,0 +1,89 @@
+{
+    "id": "fibers",
+    "name": "Fibers",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/fibers.html",
+    "aliases": [
+        "fiber"
+    ],
+    "description": "Fibers are a low-level mechanism for lightweight concurrency, they allow to pause and resume blocks of code at specific points without blocking the rest of the application.\n\nThey were introduced in version 8.1 and provide cooperative multitasking, as opposed to preemptive multitasking like threads. This means the application controls exactly where execution yields and resumes.",
+    "code": "<?php\n\n    $fiber = new Fiber(function (): void {\n       $value = Fiber::suspend('fiber');\n       echo \"Value used to resume fiber:\", $value, PHP_EOL;\n    });\n    \n    $value = $fiber->start();\n    \n    echo \"Value from fiber suspending:\", $value, PHP_EOL;\n    \n    $fiber->resume('test');\n\n?>",
+    "documentation": "https://www.php.net/manual/en/language.fibers.php",
+    "related": [
+        "async",
+        "asynchronous",
+        "multithreading",
+        "blocking-wait",
+        "cancellation",
+        "future",
+        "promise",
+        "actor-model",
+        "channel",
+        "continuation",
+        "fire-and-forget",
+        "green-thread",
+        "amp",
+        "engine",
+        "openswoole",
+        "reactphp",
+        "swoole"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.fibers.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP Fibers: A practical example",
+            "url": "https://aoeex.com/phile/php-fibers-a-practical-example/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Async PHP is Here: A Practical Guide to Fibers",
+            "url": "https://fsck.sh/en/blog/practical-guide-to-php-fibers/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Fibers in PHP - how to make it easier to implement asynchronicity in your project",
+            "url": "https://www.sages.io/blog/fibers-in-PHP-how-ulatwic-implement-asynchronicity-in-project"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Unleashing the Power of PHP Fibers: Boost Web Development with Efficient Coroutines",
+            "url": "https://phpmagazine.net/2023/03/unleashing-the-power-of-php-fibers-boost-web-development-with-efficient-coroutines.html"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP Fibers in Production: 4 Real Cases Where They Beat curl_multi and Queues",
+            "url": "https://dev.to/gabrielanhaia/php-fibers-in-production-4-real-cases-where-they-beat-curlmulti-and-queues-39j8"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP Fibers: simplifying async code and speeding up development",
+            "url": "https://medium.com/manychat-engineering/php-fibers-simplifying-async-code-and-speeding-up-development-519d40ace2d9"
+        }
+    ],
+    "tags": [
+        "extension",
+        "feature"
+    ],
+    "packagist": [
+        "amphp/process"
+    ],
+    "extensions": [],
+    "analyzers": [
+        "Extension/Extfibers"
+    ],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "8.1+",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Fri, 11 Sep 2026 08:37:27 +0000"
+}

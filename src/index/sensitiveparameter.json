@@ -1,0 +1,48 @@
+{
+    "id": "sensitiveparameter",
+    "name": "Sensitive Parameter",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/sensitiveparameter.html",
+    "aliases": [],
+    "description": "This is a native PHP attribute, which tells the engine that a parameter is a sensitive parameter, and should not be displayed by PHP when an error displays the stack trace.\n\nThis prevent innocent mistakes, where reading the logs on the production server also tells the actual value of a secret.",
+    "code": "<?php\n\n    function trumpet(\n        #[SensitiveParameter] string $apiKey\n    ): int {\n        throw new Exception('Could not trumpet');\n    }\n\n    trumpet('abc');\n\n    /* The code above displays the following :\n\n    Fatal error: Uncaught Exception: Could not trumpet in file.php:6\n    Stack trace:\n    #0 file.php(9): trumpet(Object(SensitiveParameterValue))\n    #1 {main}\n      thrown in file.php on line 6\n    */\n\n?>",
+    "documentation": "https://www.php.net/manual/en/language.attributes.classes.php",
+    "related": [
+        "attribute",
+        "security",
+        "php-attribute",
+        "php-native-attribute",
+        "privacy"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.attributes.classes.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Sensitive parameters in PHP 8.2",
+            "url": "https://flareapp.io/blog/57-sensitive-parameters-in-php-82"
+        }
+    ],
+    "tags": [
+        "attribute",
+        "php attribute",
+        "parameter",
+        "security"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "8.2+",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+}

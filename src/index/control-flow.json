@@ -1,0 +1,63 @@
+{
+    "id": "control-flow",
+    "name": "Control Flow",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/control-flow.html",
+    "aliases": [],
+    "description": "Control flow structures direct the way PHP executes the statements. For example, a loop repeats the same statements several times; a goto instruction jumps to another part of the code; a if-then statement applies a block of code or another, depending on a condition.\n\n+ if\n+ else\n+ elseif/else if\n+ Alternative syntax for control structures\n+ while\n+ do...while\n+ for\n+ foreach\n+ break\n+ continue\n+ switch\n+ match\n+ return\n+ ``require()``\n+ ``include()``\n+ ``require_once()``\n+ ``include_once()``\n+ goto\n\nControl flow structures can't be called dynamically: they have to be hardcoded, or nested in a closure or other function.\n\nEach of these constructs answers a different question about the order of execution: conditionals, ``if``, ``elseif``, ``match``, choose between branches; loops, ``while``, ``do...while``, ``for``, ``foreach``, repeat a block until a condition changes; jump statements, ``break``, ``continue``, ``return``, ``goto``, leave the current structure early or transfer control elsewhere; and the file-inclusion constructs, ``require``, ``include``, and their ``_once`` variants, bring another script's control flow into the current one.\n\nUnderstanding control flow is central to reading any PHP program, since it determines which statements actually run for a given input, in what order, and how many times. Poorly structured control flow, such as deeply nested conditionals or unbounded loops, is a common source of bugs and a frequent target of static analysis and refactoring.",
+    "code": "<?php\n\n    if ($a === 1) { \n        $b = 2;\n    } else {\n        $b = 3;\n    }\n\n?>",
+    "documentation": "https://www.php.net/manual/en/language.control-structures.php",
+    "related": [
+        "statement",
+        "loop",
+        "semicolon",
+        "if-then",
+        "while",
+        "do-while",
+        "for",
+        "foreach",
+        "break",
+        "continue",
+        "switch",
+        "match",
+        "declare",
+        "return",
+        "include",
+        "goto",
+        "jump"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.control-structures.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP flow control",
+            "url": "https://zetcode.com/php/flowcontrol/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP Control Flow",
+            "url": "https://www.codeguage.com/v1/courses/php/control-flow"
+        }
+    ],
+    "tags": [
+        "syntax",
+        "feature"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 17 Sep 2026 09:07:37 +0000"
+}

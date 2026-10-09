@@ -1,0 +1,51 @@
+{
+    "id": "absolute-value",
+    "name": "Absolute Value",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/absolute-value.html",
+    "aliases": [],
+    "description": "An ``absolute`` value is the positive value of a real number.\n\nPHP offers the native function ``abs()`` to calculate this value.\n\nThe absolute value of ``PHP_INT_MIN`` is a float.\n",
+    "code": "<?php\n\n    $a = 10;\n    echo abs($a); // 10\n    \n    $b = -12;\n    echo abs($b); // 12\n\n?>",
+    "documentation": "https://www.php.net/abs",
+    "related": [
+        "fully-qualified-name",
+        "absolute",
+        "php_int_min",
+        "php_int_max"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/abs"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Absolute value - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Absolute_value"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP abs Function: How to Get Absolute Values",
+            "url": "https://flatcoding.com/tutorials/php/php-abs-function-how-to-get-absolute-values/"
+        }
+    ],
+    "tags": [
+        "math"
+    ],
+    "packagist": [],
+    "extensions": [
+        "math"
+    ],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Mon, 24 Aug 2026 05:04:01 +0000"
+}

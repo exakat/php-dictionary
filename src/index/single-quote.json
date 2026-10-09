@@ -1,0 +1,50 @@
+{
+    "id": "single-quote",
+    "name": "Single Quotes Strings",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/single-quote.html",
+    "aliases": [],
+    "description": "Single quoted strings are strings that include a literal value. \n\nThis is an simpler version of the double-quoted strings. \n\nIt is possible to include variables ``$var``, single-dimension arrays ``$array[1]`` or ``$array[index]``, and single-dereferencing object members ``$object->member``. More complex expressions require usage of curly braces ``{$}``, or the usage of the dot operator.\n\nDouble quoted strings use the anti-slash ``\\`` to escape special characters, such as the anti-slash and the ``$`` sign.\n\nSingle quote is also a simple characters. It is used for string, and as a delimiter in many other languages, such as HTML, XML or SQL.\n",
+    "code": "<?php\n\n    // single quoted string : all literal values\n    $name = 'elephpant loves $signs.'; \n    \n    // double quoted string : variable value will be replaced at execution time.\n    $greeting = \"Hello! $name\"; \n    \n    // identical to\n    $greeting = 'Hello! '.$name; \n\n?>",
+    "documentation": "https://www.php.net/manual/en/ini.core.php#ini.disable-functions",
+    "related": [
+        "double-quote",
+        "heredoc",
+        "interpolation",
+        "string",
+        "dollar",
+        "balanced",
+        "oblic-quote",
+        "single"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/ini.core.php#ini.disable-functions"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "What is the difference between single-quoted and double-quoted strings in PHP?",
+            "url": "https://www.geeksforgeeks.org/php/what-is-the-difference-between-single-quoted-and-double-quoted-strings-in-php/"
+        }
+    ],
+    "tags": [
+        "string",
+        "delimiter",
+        "character"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sat, 08 Aug 2026 08:10:54 +0000"
+}

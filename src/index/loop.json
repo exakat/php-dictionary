@@ -1,0 +1,52 @@
+{
+    "id": "loop",
+    "name": "Loops",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/loop.html",
+    "aliases": [],
+    "description": "A loop is a control structure that allows to execute a block of code repeatedly based on a specified condition. Loops are essential for automating repetitive tasks and processing arrays or collections of data. PHP provides several types of loops, including: for, while, do...while and foreach.\n\nThe most popular loop is ``foreach()``.\n\nLoops may hide in certain functions: for example, ``array_map()`` and ``array_walk()`` apply a method to every element in an array. \n\nGenerators are closely related to the ``foreach()`` loop.",
+    "code": "<?php\n\n    foreach([11,12,13] as $id => $value) {\n        print \"$id => $value\\n\";\n    }\n    \n    for ($i = 1; $i <= 10; $i++) {\n        echo $i;\n    }\n    \n    $i = 10;\n    while ($i <= 10) {\n        echo $i++;  \n    }\n    \n    $i = 10;\n    do {\n        echo $i++;  \n    } while ($i <= 10);\n\n?>",
+    "documentation": "https://www.php.net/manual/en/language.control-structures.php",
+    "related": [
+        "do-while",
+        "while",
+        "break",
+        "control-flow",
+        "dangling-reference",
+        "for",
+        "foreach",
+        "n-query",
+        "array-element",
+        "infiniteiterator",
+        "nesting",
+        "traversal"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.control-structures.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP Loops: Concepts, Syntax, and Use Cases",
+            "url": "https://intellipaat.com/blog/php-loops/"
+        }
+    ],
+    "tags": [
+        "concept"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Wed, 12 Aug 2026 04:17:43 +0000"
+}

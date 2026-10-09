@@ -1,0 +1,61 @@
+{
+    "id": "determinism",
+    "name": "Determinism",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/determinism.html",
+    "aliases": [],
+    "description": "A deterministic function or algorithm always produces the same output for the same input, regardless of when or how many times it is called. It has no side effects and does not rely on external or mutable state.\n\nDeterminism is relevant to caching strategies, testing, and the correctness of pure functions. Non-deterministic sources such as ``rand()``, ``time()``, ``microtime()``, or global state break determinism and make functions harder to test and reason about.\n\nDeterminism is a core property of pure functions in functional programming and is closely related to idempotence.",
+    "code": "<?php\n\n    // deterministic: same input always yields same output\n    function add(int $a, int $b): int {\n        return $a + $b;\n    }\n    \n    // non-deterministic: depends on current time\n    function currentHour(): int {\n        return (int) date('H');\n    }\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Deterministic_algorithm",
+    "related": [
+        "pure-function",
+        "side-effect",
+        "idempotent",
+        "immutable",
+        "cache",
+        "memoization",
+        "random",
+        "deterministic",
+        "impure-function",
+        "composer.lock",
+        "functional-programming",
+        "monotonic",
+        "prng"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Deterministic_algorithm"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Pure and Deterministic Functions",
+            "url": "https://www.simplethread.com/pure-and-deterministic-functions/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Understanding Pure Functions: A Core Concept in Functional Programming",
+            "url": "https://medium.com/@linz07m/understanding-pure-functions-a-core-concept-in-functional-programming-d2189b688e00"
+        }
+    ],
+    "tags": [
+        "concept",
+        "functional programming"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 03 Sep 2026 09:02:19 +0000"
+}

@@ -1,0 +1,49 @@
+{
+    "id": "precision",
+    "name": "precision",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/precision.html",
+    "aliases": [],
+    "description": "Precision refers to the number of digits that are used to represent and display floating-point numbers. The exact meaning depends a bit on the context, but it's most commonly about float accuracy and formatting.\n\nPrecision is important when using a decimal number as an array index: the conversion is implicit, and, nowadays, it yields a warning.\n\nPrecision is also lost when an integer is converted to a decimal number, which may not be accurately represented. This happens with large integers, when they are converted to float, because of their size.\n\n``precision`` and ``serialize_precision`` are two PHP directives that control the display or conversion of numbers.\n",
+    "code": "<<?php\n\n    echo 1 / 7;\n    \n    print PHP_EOL;\n    \n    ini_set('precision', 2);\n    \n    echo 1 / 7;\n\n?>",
+    "documentation": "https://www.php.net/manual/en/language.types.float.php",
+    "related": [
+        "integer",
+        "float",
+        "php_int_max",
+        "php_int_min",
+        "serialize_precision"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.types.float.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "The Floating-Point Guide",
+            "url": "https://floating-point-gui.de/"
+        }
+    ],
+    "tags": [
+        "concept",
+        "decimal",
+        "directive"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": {
+        "Implicit conversion from float-string \"%s\" to int loses precision": "implicit-conversion-from-float-string-\"%s\"-to-int-loses-precision"
+    },
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Wed, 19 Aug 2026 07:53:18 +0000"
+}

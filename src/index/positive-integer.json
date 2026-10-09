@@ -1,0 +1,44 @@
+{
+    "id": "positive-integer",
+    "name": "Positive Integer",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/positive-integer.html",
+    "aliases": [],
+    "description": "A positive integer is an integer value which is 0 or larger. \n\nPHP handles only signed integers, and there are no specific types to characterize positive integers.\n\nSome functions return only positive integers, such as ``abs()``, ``strlen()`` or ``count()``. Yet, they are typed with a return type of ``int``.",
+    "code": "",
+    "documentation": "https://en.wikipedia.org/wiki/Natural_number",
+    "related": [
+        "integer",
+        "sign"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Natural_number"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Integers",
+            "url": "https://www.php.net/manual/en/language.types.integer.php"
+        }
+    ],
+    "tags": [
+        "type"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Wed, 19 Aug 2026 07:59:09 +0000"
+}

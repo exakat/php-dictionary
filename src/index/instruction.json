@@ -1,0 +1,51 @@
+{
+    "id": "instruction",
+    "name": "Instruction",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/instruction.html",
+    "aliases": [],
+    "description": "The term instruction most commonly refers to a PHP language statement, such as an assignment, a function call, or a control structure.\n\nIn programming, an instruction is a single operation that tells the processor or runtime to perform a specific task. At the CPU level, instructions are binary commands executed directly by the hardware. In higher-level languages like PHP, a statement or expression corresponds to one or more machine instructions after compilation or interpretation.",
+    "code": "<?php\n\n// PHP instructions (statements)\n$trunk = 42;           // assignment\necho $trunk;           // output\nif ($trunk > 0) { }   // control structure\ntrumpet($trunk);           // function call\n\n?>",
+    "documentation": "https://www.php.net/manual/en/language.basic-syntax.phpmode.php",
+    "related": [
+        "statement",
+        "expression",
+        "command"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.basic-syntax.phpmode.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Statement (computer science) (Wikipedia)",
+            "url": "https://en.wikipedia.org/wiki/Statement_(computer_science)"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Expressions",
+            "url": "https://www.php.net/manual/en/language.expressions.php"
+        }
+    ],
+    "tags": [
+        "concept",
+        "engine"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+}

@@ -1,0 +1,50 @@
+{
+    "id": "deep-clone",
+    "name": "Deep Clone",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/deep-clone.html",
+    "aliases": [],
+    "description": "A deep clone is an object cloning, where the cloned object also clone its own object properties. This prevents the original object to share data with the cloned one, yet it is slower to process.\n\nDeep cloning is achieved by using the ``__clone`` magic method. By default, PHP does shallow clones.",
+    "code": "<?php\n\n    class Dog {\n        private $name = '';\n        private Address $address;\n    \n        function __construct(string $name, Address $address) {\n            $this->address->setName($address);\n        }\n        \n        function moves(string $address) {\n            $this->address->setName($address);\n        }\n    \n        function __clone() {\n            $this->address = clone $this->address;\n        }\n    }\n    \n    $spike = new Dog('Spike', new Address('Acme city'));\n    $medor = clone $spike;\n    $medor->moves('Upstate farm');\n    \n    // spike and medor do now share the same address\n\n?>",
+    "documentation": "https://www.php.net/manual/en/language.oop5.cloning.php",
+    "related": [
+        "magic-method",
+        "__clone",
+        "clone",
+        "serialization",
+        "shallow-clone"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.oop5.cloning.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "How to clone an object in PHP",
+            "url": "https://linuxhint.com/cloning_objects_php/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Native DeepCloner vs. Manual Serialization: What You Need to Know",
+            "url": "https://hackernoon.com/native-deepcloner-vs-manual-serialization-what-you-need-to-know"
+        }
+    ],
+    "tags": [
+        "class"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sat, 08 Aug 2026 08:10:54 +0000"
+}

@@ -1,0 +1,81 @@
+{
+    "id": "variable",
+    "name": "Variables",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/variable.html",
+    "aliases": [],
+    "description": "Variables are used to store and manipulate data. They are containers that hold values, such as numbers, strings, arrays, objects, and more. Variables are an essential component of programming, allowing to store and retrieve information as needed throughout the code. \n\nVariables must start with a dollar sign ``$`` followed by the variable name. The name should begin with a letter or an underscore and can contain letters, numbers, and underscores. PHP variable names are case-sensitive.\n\nPHP is a loosely typed language, which means there is no need to explicitly declare the type of a variable. PHP determines the variable's type based on the assigned value.",
+    "code": "<?php\n\n    $a = 'b';\n    // more code\n    echo $a; // displays b\n\n?>",
+    "documentation": "https://www.php.net/manual/en/language.variables.php",
+    "related": [
+        "static-variable",
+        "variable-variable",
+        "type",
+        "naming",
+        "interpolation",
+        "dynamic-variable",
+        "global-variable",
+        "global",
+        "$globals",
+        "php-variable",
+        "pseudo-variable",
+        "reference",
+        "static",
+        "superglobal",
+        "unset",
+        "data-container",
+        "php-constant",
+        "post-increment",
+        "pre-increment",
+        "self-reference",
+        "dollar",
+        "readable",
+        "variable-scope",
+        "writable",
+        "close-naming",
+        "undefined",
+        "variable-shadowing",
+        "writeable",
+        "lexical",
+        "non-static",
+        "swap",
+        "assignment",
+        "lvalue",
+        "operator",
+        "short-assignation",
+        "temporary"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.variables.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "How to store and process data with PHP variables",
+            "url": "https://www.ionos.com/digitalguide/websites/web-development/php-variable/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Variables",
+            "url": "https://phplang.org/spec/07-variables.html"
+        }
+    ],
+    "tags": [
+        "data-container"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+}

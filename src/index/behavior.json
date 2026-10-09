@@ -1,0 +1,45 @@
+{
+    "id": "behavior",
+    "name": "Behavior",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/behavior.html",
+    "aliases": [],
+    "description": "Behavior, is the external, observable appearance or action of a system. It is what a piece of code actually does when it runs, as opposed to what its source merely reads.\n\nThe PHP Language Specification distinguishes three degrees of predictability for behavior that is not fully pinned down by the language rules: ``implementation-defined behavior``, where the engine must pick one option and document it; ``unspecified behavior``, where the engine may pick any valid option, with no obligation to document or stay consistent; and ``undefined behavior``, where no result is guaranteed at all, usually because the code violates a language constraint.",
+    "code": "",
+    "documentation": "https://phplang.org/spec/03-terms-and-definitions.html",
+    "related": [
+        "implementation-defined-behavior",
+        "unspecified-behavior",
+        "undefined-behavior",
+        "constraint"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://phplang.org/spec/03-terms-and-definitions.html"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Undefined behavior - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Undefined_behavior"
+        }
+    ],
+    "tags": [
+        "concept",
+        "specification"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Tue, 01 Sep 2026 07:50:08 +0000"
+}

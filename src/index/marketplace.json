@@ -1,0 +1,50 @@
+{
+    "id": "marketplace",
+    "name": "Marketplace",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/marketplace.html",
+    "aliases": [],
+    "description": "A marketplace usually means a platform where developers can buy, sell, or distribute PHP or framework related products or services. These products are typically code packages, themes, plugins, scripts, APIs, or SaaS integrations that other developers or businesses can use in their PHP projects.",
+    "code": "",
+    "documentation": "https://packagist.org/",
+    "related": [
+        "composer",
+        "packagist",
+        "plugin",
+        "framework",
+        "ecosystem",
+        "cms",
+        "forum"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://packagist.org/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Introducing the Symfony Marketplace",
+            "url": "https://symfony.com/blog/introducing-the-symfony-marketplace"
+        }
+    ],
+    "tags": [
+        "framework",
+        "concept"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Fri, 19 Jun 2026 21:25:07 +0000"
+}

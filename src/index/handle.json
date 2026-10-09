@@ -1,0 +1,46 @@
+{
+    "id": "handle",
+    "name": "Handle",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/handle.html",
+    "aliases": [],
+    "description": "A handle represents a datastructure that has established a link with an independent resource. There are handles for files, for database connection, for http connections, etc.\n\nThe content of the handle is usually opaque: there is no need to know what is inside, except that this handle must be provided to every function call.\n\nHandles are often build with the type ``resource``, and they are evolving toward objects. The content is still opaque, but the objects carry the dataset between method calls.",
+    "code": "<?php\n\n    $handle = fopen(\"c:\\folder\\resource.txt\", r);\n    $string = fread($handle);\n    fclose($handle);\n\n?>",
+    "documentation": "https://www.php.net/manual/en/language.types.resource.php",
+    "related": [
+        "resource",
+        "object",
+        "datastructure",
+        "fopen",
+        "curl",
+        "database"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.types.resource.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Handle (computing)",
+            "url": "https://en.wikipedia.org/wiki/Handle_(computing)"
+        }
+    ],
+    "tags": [
+        "data structure"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Wed, 19 Aug 2026 08:26:04 +0000"
+}

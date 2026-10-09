@@ -1,0 +1,44 @@
+{
+    "id": "return-carriage",
+    "name": "Return Carriage",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/return-carriage.html",
+    "aliases": [],
+    "description": "A return carriage is a whitespace character, that historically represents moving the cursor to the beginning of the line, without advancing to the next line.\n\nA return carriage is represented by the escape sequence ``\\r``, in double quote strings. It is also the ASCII code 13.\n\nReturn carriage are important when formatting code, as they are at the end of a line.",
+    "code": "<?php\n\n    echo \"\\r\";\n    echo chr(13); // ASCII code 13\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Carriage_return",
+    "related": [
+        "line-feed",
+        "new-line"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Carriage_return"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "CRLF",
+            "url": "https://developer.mozilla.org/en-US/docs/Glossary/CRLF"
+        }
+    ],
+    "tags": [
+        "character"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Tue, 18 Aug 2026 05:24:54 +0000"
+}

@@ -1,0 +1,53 @@
+{
+    "id": "yield",
+    "name": "Yield",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/yield.html",
+    "aliases": [],
+    "description": "In its simplest form, a yield statement looks much like a return statement, except that instead of stopping execution of the function and returning, yield instead provides a value to the code looping over the generator and pauses execution of the generator function. ",
+    "code": "<?php\n\n    function gen_one_to_three() {\n        for ($i = 1; $i <= 3; $i++) {\n            // Note that $i is preserved between yields.\n            yield $i;\n        }\n    }\n\n?>",
+    "documentation": "https://www.php.net/manual/en/language.generators.syntax.php#control-structures.yield",
+    "related": [
+        "yield-from",
+        "yield-generator",
+        "jump",
+        "double-arrow",
+        "iterator_to_array",
+        "range",
+        "function",
+        "method",
+        "closure",
+        "arrow-function",
+        "stealth-generator"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.generators.syntax.php#control-structures.yield"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Introduction to PHP yield",
+            "url": "https://www.educba.com/php-yield/"
+        }
+    ],
+    "tags": [
+        "keyword"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [
+        "Functions/CouldTypeWithIterable"
+    ],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "5.5",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+}

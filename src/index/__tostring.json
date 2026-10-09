@@ -1,0 +1,45 @@
+{
+    "id": "__tostring",
+    "name": "__toString() Method",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/__tostring.html",
+    "aliases": [],
+    "description": "``__tostring()`` is a magic method: it is called when the object has to be converted into a string.\n\nThat way, it is possible to dynamically convert the object to a string and display it, or transmit it to another part of the application. \n\n``__toString()`` is called when ``strict_types`` is not active. Otherwise, passing an object to a string parameter yields an error: it requires an explicit type cast.\n\n``__toString()`` is always called in concatenation, and string interpolation.\n\nThere is no magic method to convert an object to another type.\n\n``__toString()`` must be declared ``public``, take no arguments, and return a ``string``: returning anything else triggers a fatal error, or a ``TypeError`` when a ``: string`` return type is declared.\n\nSince PHP 8.0, any class that defines ``__toString()`` automatically implements the ``Stringable`` interface, without having to declare it explicitly.\n\nSince PHP 7.4, exceptions may be thrown from within ``__toString()``; in earlier versions, doing so resulted in a fatal error.",
+    "code": "<?php\n\n    class Elephpant {\n        private $habitat = 'S';\n        private $weight = 1;\n        private $age = 2;\n\n        // Checks the dictionary, or return 0\n        function __toString() : string {\n\n            // $this->habitat is used as is\n            // $this->weight is formatted with quotes\n            // $this->age is converted to other values\n            return \"$this->habitat '$this->weight' \".($this->age ? 'A' : 'B');\n        }\n    }\n\n    echo new Elephpant;\n\n    $trunk = (string) new Elephpant;\n\n?>",
+    "documentation": "https://www.php.net/manual/en/language.oop5.magic.php",
+    "related": [
+        "strict_types",
+        "magic-method",
+        "cast",
+        "concatenation",
+        "stringable"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.oop5.magic.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP __toString",
+            "url": "https://www.phptutorial.net/php-oop/php-__tostring/"
+        }
+    ],
+    "tags": [
+        "magic method"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+}

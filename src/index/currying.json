@@ -1,0 +1,57 @@
+{
+    "id": "currying",
+    "name": "Currying",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/currying.html",
+    "aliases": [
+        "partial-application-currying"
+    ],
+    "description": "Currying is the transformation of a function that takes multiple arguments into a sequence of functions that each take a single argument. The name comes from mathematician Haskell Curry.\n\nIn a language with native currying, calling a multi-argument function with fewer arguments than it expects does not produce an error: it returns a new function that expects the remaining arguments. This allows building specialised functions from general ones with no extra syntax.\n\nNative currying is available in Haskell, F#, ``OCaml``, and ``Erlang``, where all functions are curried by default. Scala and Kotlin support it explicitly.\n\nPHP does not support currying natively. It can be approximated by returning closures manually, but there is no syntactic or runtime support.\n\nBecause building a curried function usually starts from partial application, the two are sometimes referred to jointly as partial application currying.",
+    "code": "<?php\n\n    // Manual simulation of currying with closures\n    $add = fn($tusk) => fn($ivory) => $tusk + $ivory;\n\n    $add5 = $add(5);\n    echo $add5(3); // 8\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Currying",
+    "related": [
+        "partial-function",
+        "partial-application",
+        "anonymous-function",
+        "arrow-function",
+        "functional-programming",
+        "closure"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Currying"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Currying in Haskell",
+            "url": "https://wiki.haskell.org/Currying"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Currying in F#",
+            "url": "https://learn.microsoft.com/en-us/dotnet/fsharp/introduction-to-functional-programming/first-class-functions"
+        }
+    ],
+    "tags": [
+        "not supported"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": {
+        "Haskell Curry": "https://en.wikipedia.org/wiki/Haskell_Curry"
+    },
+    "brand": "",
+    "popularity": "",
+    "modified": "Fri, 18 Sep 2026 04:45:29 +0000"
+}

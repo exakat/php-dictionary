@@ -1,0 +1,46 @@
+{
+    "id": "strtr",
+    "name": "strtr()",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/strtr.html",
+    "aliases": [],
+    "description": "``strtr()`` is a PHP native function that translates characters or replaces substrings in a string.\n\nIt has two signatures. With three arguments, ``strtr($string, $from, $to)``, it replaces each character found in ``$from`` with the character at the same position in ``$to``. Both strings must have the same length; extra characters in the longer one are ignored.\n\nWith two arguments, ``strtr($string, $replace_pairs)``, it takes an array mapping substrings to their replacements. Unlike ``str_replace()``, ``strtr()`` replaces the longest matching keys first and does not rescan replaced text, which avoids double substitutions.\n\n``strtr()`` is often faster than multiple chained ``str_replace()`` calls when doing several substitutions at once.\n",
+    "code": "<?php\n\n    echo strtr('Hello World', 'ol', '0L'); // HeLL0 W0rLd\n\n    $trans = ['Hello' => 'Hi', 'World' => 'Earth'];\n    echo strtr('Hello World', $trans); // Hi Earth\n\n    // Longest keys are matched first\n    $trans = ['a' => 'X', 'ab' => 'Y'];\n    echo strtr('ab', $trans); // Y, not XB\n\n?>",
+    "documentation": "https://www.php.net/manual/en/function.strtr.php",
+    "related": [
+        "str_replace",
+        "string",
+        "strpos"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/function.strtr.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "A Practical Guide to PHP's strtr() Function",
+            "url": "https://reintech.io/blog/a-practical-guide-to-phps-strtr-function"
+        }
+    ],
+    "tags": [
+        "native function",
+        "string"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Mon, 20 Jul 2026 16:48:52 +0000"
+}

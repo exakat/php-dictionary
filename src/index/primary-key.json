@@ -1,0 +1,53 @@
+{
+    "id": "primary-key",
+    "name": "Primary Key",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/primary-key.html",
+    "aliases": [
+        "PK"
+    ],
+    "description": "A primary key is a column, or set of columns, in a relational database table whose values uniquely identify each row. A table has at most one primary key, and none of its columns may hold ``NULL``.\n\nThe database engine automatically builds a unique index on the primary key, which is what makes lookups and joins against it fast. Every foreign key in the schema points back to some table's primary key, which is why the two concepts are always discussed together.\n\nA primary key may be a natural key, a value that already carries business meaning, such as an email or an ISBN, or a surrogate key, an artificial value with no meaning outside the database, such as an auto-increment integer or a UUID. Surrogate keys are the more common choice, since natural keys can change over time or turn out not to be as unique as assumed.\n\nA composite primary key spans several columns; this is common on join tables in many-to-many relationships, where the pair of foreign keys together forms the key.",
+    "code": "<?php\n\n    // Doctrine migration declaring a primary key\n    $table->addColumn('id', 'integer', ['autoincrement' => true]);\n    $table->setPrimaryKey(['id']);\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Primary_key",
+    "related": [
+        "foreign-key",
+        "surrogate-key",
+        "auto-increment",
+        "unique-identifier",
+        "referential-integrity",
+        "database",
+        "index-sql"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Primary_key"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Primary key constraints - MySQL",
+            "url": "https://dev.mysql.com/doc/refman/8.0/en/create-table.html"
+        }
+    ],
+    "tags": [
+        "database",
+        "concept",
+        "acronym"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Wed, 12 Aug 2026 07:50:45 +0000"
+}

@@ -1,0 +1,62 @@
+{
+    "id": "needle",
+    "name": "Needle",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/needle.html",
+    "aliases": [],
+    "description": "Needle is a classic name, used to designate the object of a search. For example, with the functions ``strstr()``, ``strpos()``, ``strrchr()``, ``array_search()``, ``mb_strstr()``, ``Grapheme::stristr()``, etc. \n\nThis name refers to the expression ``to search for a needle in a haystack``: when something is difficult to find in a large stack. In this context, the haystack is usually the data that is searched, while the needle is the thing that is searched for.\n\nOften, the haystack is the first argument, and the needle the second one, although it is not systematic: for example, ``array_search()``. With named parameters, the needle name made its way in the PHP syntax.",
+    "code": "<?php\n\n    var_dump(array_search(needle: 'b', haystack: 'abc'))\n\n?>",
+    "documentation": "https://www.php.net/manual/en/function.strstr.php",
+    "related": [
+        "haystack"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/function.strstr.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "strstr",
+            "url": "http://www.php.net/strstr"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "strpos",
+            "url": "http://www.php.net/strpos"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "strrchr",
+            "url": "http://www.php.net/strrchr"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "array_search",
+            "url": "http://www.php.net/array_search"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "what is 'needle' and 'haystack' in PHP ??",
+            "url": "https://teamtreehouse.com/community/what-is-needle-and-haystack-in-php"
+        }
+    ],
+    "tags": [
+        "named parameters",
+        "folklore"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Mon, 13 Jul 2026 08:01:04 +0000"
+}

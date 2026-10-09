@@ -1,0 +1,57 @@
+{
+    "id": "for",
+    "name": "For",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/for.html",
+    "aliases": [],
+    "description": "``for()`` is a loop structure. It is configured with an initialization expression, an ending expression and an increment expression. \n\nThe ``for()`` loop executes the initialization expression first, and only once. Then it executes the block, the increment and the ending. When the ending is false, it exits the loop.\n\nThe initialization, ending and increment expression may all host several instructions: they have to be separated by comma, rather than semi colons.\n\nPart of the block execution may be skipped by using the ``continue`` keyword.",
+    "code": "<?php\n\n    /*\n    for(initialization; ending; increment) {\n        block\n    }\n    */\n    \n    for($i = 0; $i < 10; ++$i) {\n        print \"$i\\n\";\n    }\n    \n    for($i = 0, $j = 0; $i < 10; ++$i, $j += 2) {\n        print \"$i $j\\n\";  // 1 2, 2 4, 3 6....\n    }\n\n?>",
+    "documentation": "https://www.php.net/manual/en/control-structures.for.php",
+    "related": [
+        "continue",
+        "foreach",
+        "loop",
+        "while",
+        "do-while",
+        "control-flow",
+        "blind-key",
+        "control-structure",
+        "semicolon"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/control-structures.for.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Stop using for loops and start showing intent",
+            "url": "https://dev.to/rocksheep/stop-using-for-loops-and-start-showing-intent-3am0"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP Loop: For, ForEach, While, Do While",
+            "url": "https://www.guru99.com/php-loop.html"
+        }
+    ],
+    "tags": [
+        "control flow",
+        "keyword",
+        "feature",
+        "loop"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+}

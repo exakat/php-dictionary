@@ -1,0 +1,52 @@
+{
+    "id": "new-without-parenthesis",
+    "name": "New Without Parenthesis",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/new-without-parenthesis.html",
+    "aliases": [],
+    "description": "The ``new`` operator may be called without using the parenthesis after the class name.\n\nThe parenthesis are necessary when the constructor requires at least one argument. They are optional when no argument is necessary.\n\nIt is usually recommended to always use the parenthesis, to keep the syntax consistent across various situations.\n\nThis should not be confused with chaining new without parenthesis, where the parenthesis are enclosing the ``new`` call.",
+    "code": "<?php\n\n    class Elephpant { } // no constructor, no argument\n\n    new Elephpant;\n    new Elephpant();\n    new Elephpant(2); // possible, but useless\n\n    class Calf {\n        function __construct($i = 0) {}\n    }\n\n    new Calf;\n    new Calf();\n    new Calf(2);\n\n    class Herd {\n        function __construct($h, $i = 0) {}\n    }\n\n    new Calf(1);\n    new Calf(1, 2);\n\n?>",
+    "documentation": "https://www.php.net/manual/en/language.oop5.basic.php",
+    "related": [
+        "new",
+        "__invoke",
+        "chaining-new-without-parenthesis"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.oop5.basic.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "New without parentheses in PHP 8.4",
+            "url": "https://stitcher.io/blog/new-with-parentheses-php-84"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP 8.4: New Without Parentheses \u2014 A Small Syntax Change with Big Impact",
+            "url": "https://medium.com/codetodeploy/php-8-4-new-without-parentheses-a-small-syntax-change-with-big-impact-94e265b47afe"
+        }
+    ],
+    "tags": [
+        "feature",
+        "object",
+        "optional"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+}

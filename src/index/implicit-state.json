@@ -1,0 +1,55 @@
+{
+    "id": "implicit-state",
+    "name": "Implicit State",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/implicit-state.html",
+    "aliases": [],
+    "description": "Implicit state is state that a function or method relies on without declaring it as a parameter or return value. It exists outside the explicit flow of data through the code.\n\nImplicit state includes: global variables, e.g. ``$GLOBALS``, superglobals like ``$_SESSION``, ``$_GET``, static class properties modified as side effects, the current error state, locale settings, timezone, and active database connections.\n\nImplicit state makes code harder to test: they require careful setup of global state or a clean and reset operation before each test, they are harder to reason about as behavior depends on invisible context, and are prone to subtle bugs when state leaks between different parts of the application or across requests.\n\nPrefer explicit state: pass values as parameters and return new state as return values.",
+    "code": "<?php\n\n    // Implicit state: function behavior depends on global timezone setting\n    date_default_timezone_set('UTC');\n    echo date('H:i'); // depends on global timezone, not a parameter\n    \n    // Explicit alternative: pass timezone explicitly\n    echo (new DateTimeImmutable('now', new DateTimeZone('UTC')))->format('H:i');\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/State_(computer_science)",
+    "related": [
+        "state",
+        "implicit",
+        "hidden-state",
+        "global-variable",
+        "stateful",
+        "$globals",
+        "distributed-state"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/State_(computer_science)"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Global variable (Wikipedia)",
+            "url": "https://en.wikipedia.org/wiki/Global_variable"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Side effect (Wikipedia)",
+            "url": "https://en.wikipedia.org/wiki/Side_effect_(computer_science)"
+        }
+    ],
+    "tags": [
+        "concept",
+        "code smell"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Wed, 19 Aug 2026 08:25:49 +0000"
+}

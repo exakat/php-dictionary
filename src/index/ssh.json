@@ -1,0 +1,66 @@
+{
+    "id": "ssh",
+    "name": "Secure Shell (SSH)",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/ssh.html",
+    "aliases": [
+        "sftp"
+    ],
+    "description": "SSH, acronym of Secure Shell, is a cryptographic network protocol for operating network services securely over an unsecured network. It is most commonly used for remote login and command-line execution.\n\nPHP provides the ``ssh2`` extension to connect to SSH servers, execute commands, transfer files via ``SCP`` or ``SFTP``, and create tunnels. For environments without the native extension, the ``phpseclib`` library offers a pure PHP alternative.",
+    "code": "<?php\n\n    // Connect to SSH server\n    $connection = ssh2_connect('ssh.example.com', 22);\n    if (!$connection) {\n        die('Could not connect to server.');\n    }\n    \n    // Authenticate with password\n    if (!ssh2_auth_password($connection, 'username', 'secret')) {\n        die('Authentication failed.');\n    }\n    \n    // Execute a remote command\n    $stream = ssh2_exec($connection, 'ls -la /var/www');\n    stream_set_blocking($stream, true);\n    echo stream_get_contents($stream);\n    \n    // Transfer a file via SCP\n    ssh2_scp_send($connection, '/local/path/file.txt', '/remote/path/file.txt', 0644);\n    \n    // Open an SFTP subsystem\n    $sftp = ssh2_sftp($connection);\n    file_put_contents('ssh2.sftp://' . intval($sftp) . '/remote/path/file.txt', 'content');\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Secure_Shell",
+    "related": [
+        "server",
+        "port",
+        "shell_exec",
+        "ldap",
+        "task-runner"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Secure_Shell"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP: SSH2 extension",
+            "url": "https://www.php.net/manual/en/book.ssh2.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "phpseclib, a pure-PHP alternative",
+            "url": "https://phpseclib.com/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "SSH Academy: SSH Protocol",
+            "url": "https://www.ssh.com/academy/ssh/protocol"
+        }
+    ],
+    "tags": [
+        "protocol",
+        "server",
+        "network",
+        "security"
+    ],
+    "packagist": [
+        "phpseclib/phpseclib"
+    ],
+    "extensions": [
+        "ssh2"
+    ],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Fri, 11 Sep 2026 09:41:26 +0000"
+}

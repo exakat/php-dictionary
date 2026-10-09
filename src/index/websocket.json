@@ -1,0 +1,55 @@
+{
+    "id": "websocket",
+    "name": "Websocket",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/websocket.html",
+    "aliases": [],
+    "description": "WebSockets are a communication protocol that enables full-duplex, real-time communication between a client, such as a a web browser, and a server over a single, persistent TCP connection. Unlike traditional HTTP requests, which are stateless and require a new connection for each request/response cycle, WebSockets keep the connection open, allowing both the client and server to send and receive data anytime without needing to re-establish a connection.\n\nPHP does not have built-in WebSocket support. There are libraries like Ratchet or write a custom WebSocket server using PHP's socket functions.",
+    "code": "",
+    "documentation": "https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API",
+    "related": [
+        "socket",
+        "grpc",
+        "pubsub",
+        "real-time",
+        "webrtc"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "WebSocket with PHP",
+            "url": "https://dev.to/robertobutti/websocket-with-php-4k2c"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Building realtime apps with PHP and WebSockets",
+            "url": "https://ably.com/topic/websockets-php"
+        }
+    ],
+    "tags": [
+        "network"
+    ],
+    "packagist": [
+        "cboden/ratchet",
+        "textalk/websocket"
+    ],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Mon, 15 Jun 2026 11:03:59 +0000"
+}

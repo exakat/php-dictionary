@@ -1,0 +1,57 @@
+{
+    "id": "enum-case",
+    "name": "Enumeration Case",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/enum-case.html",
+    "aliases": [],
+    "description": "An Enumeration may have zero or more case definitions, with no maximum. A zero-case enum is syntactically valid, if rather useless.\n\nCases must have distinct names. Also, these names must be distinct with the constant names, since the syntax to reach them is the same.\n\nEnumeration cases must be distinct: this is enforced by the engine with the unit enumerations, but not with the backed enumeration. It is possible to give identical values to the cases, and this yields an error as soon as the enumeration is loaded by PHP.",
+    "code": "<?php\n\n    enum Suit\n    {\n        case Hearts;\n        case Diamonds;\n        case Clubs;\n        case Spades;\n    }\n    \n    enum DayOfTheWeek: int\n    {\n        case Monday = 1;\n        case Tuesday = 2;\n        case Wednesday = 3;\n        case Thursday = 4;\n        case Friday = 4;    // This is an error, that lints but won't execute\n        case Saturday = 6;\n        case Sunday = 7;\n        \n        const string MONDAY = 'monday'; // constant MUST have distinct names from other constants and cases. \n                                        // names are case sensitive, so this one is valid.\n    }\n\n?>",
+    "documentation": "https://www.php.net/manual/en/language.enumerations.basics.php",
+    "related": [
+        "enum",
+        "case",
+        "linting",
+        "lint-wont-execute"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.enumerations.basics.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Enumerations",
+            "url": "https://www.php.net/manual/en/language.enumerations.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP RFC: Enumerations",
+            "url": "https://wiki.php.net/rfc/enumerations"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Backed enumerations",
+            "url": "https://www.php.net/manual/en/language.enumerations.backed.php"
+        }
+    ],
+    "tags": [
+        "enum",
+        "lint but won't execute"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [
+        "Php/EnumUsage"
+    ],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "8.1+",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Mon, 07 Sep 2026 14:43:19 +0000"
+}

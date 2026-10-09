@@ -1,0 +1,60 @@
+{
+    "id": "channel",
+    "name": "Channel",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/channel.html",
+    "aliases": [],
+    "description": "A channel is a typed, synchronized queue used to pass values between concurrent tasks, popularized by Go's ``chan`` and modeled on Communicating Sequential Processes, CSP. Rather than sharing mutable memory protected by locks, tasks communicate by sending values through a channel, and the channel itself provides the necessary synchronization. A send can block until a receiver is ready, and a receive can block until a value is sent, depending on whether the channel is buffered.\n\nCSP-style concurrency treats the channel, not the lock, as the primary coordination primitive, and languages built around it, in Go, in Clojure's core.async, with Erlang-style message passing, encourage structuring concurrent programs as independent tasks connected by channels rather than as threads sharing state.\n\nPHP has no native channel type. Concurrency primitives such as ``Fiber`` provide cooperative multitasking within a single thread, but communication between fibers or between processes must be built from lower-level tools: a ``SplQueue``, a message queue extension, shared memory, or a userland library; none of these are integrated into the language as a first-class, typed, blocking channel the way Go's ``chan`` is.",
+    "code": "",
+    "documentation": "https://en.wikipedia.org/wiki/Communicating_sequential_processes",
+    "related": [
+        "fibers",
+        "coroutine",
+        "queue",
+        "thread",
+        "shared-memory",
+        "async"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Communicating_sequential_processes"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "parallel\\Channel",
+            "url": "https://www.php.net/manual/en/class.parallel-channel.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Swoole Channel",
+            "url": "https://wiki.swoole.com/en/#/coroutine/channel"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Amp\\Sync\\Channel",
+            "url": "https://amphp.org/sync"
+        }
+    ],
+    "tags": [
+        "_noCode",
+        "concept",
+        "not supported"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Wed, 02 Sep 2026 16:41:00 +0000"
+}

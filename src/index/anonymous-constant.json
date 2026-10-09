@@ -1,0 +1,48 @@
+{
+    "id": "anonymous-constant",
+    "name": "Anonymous Constant",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/anonymous-constant.html",
+    "aliases": [],
+    "description": "A constant may be anonymous. In that case, it is reduced to its value, and it is a literal. \n\nThere is no explicit code for an anonymous constant: it is the simple application of the concept to an existing structure.",
+    "code": "<?php\n\n    // a constant\n    const A = 'abc';\n    \n    // an anonymous constant\n    'def';\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Literal_(computer_programming)",
+    "related": [
+        "anonymous",
+        "constant",
+        "class-constant"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Literal_(computer_programming)"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Difference Between Constant and Literals - GeeksforGeeks",
+            "url": "https://www.geeksforgeeks.org/cpp/constant-vs-literals/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Constant vs Literal - Difference and Comparison",
+            "url": "https://www.diffen.com/difference/Constant_vs_Literal"
+        }
+    ],
+    "tags": [
+        "concept"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Mon, 24 Aug 2026 05:04:01 +0000"
+}

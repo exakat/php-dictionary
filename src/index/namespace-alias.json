@@ -1,0 +1,47 @@
+{
+    "id": "namespace-alias",
+    "name": "Namespace Alias",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/namespace-alias.html",
+    "aliases": [],
+    "description": "PHP can alias, or import, constants, functions, classes, interfaces, traits, enumerations and namespaces. \n\nThis makes the code shorter, as the imported structure can be called with its alias name, instead of the fully qualified name. \n\nAliasing solves naming conflicts, by giving another local name to any structure.",
+    "code": "<?php\n\nnamespace a {\n    class x {\n    }\n}\n\nnamespace b {\n    use a\\x as aX;\n}\n\n?>",
+    "documentation": "https://www.php.net/manual/en/language.namespaces.importing.php",
+    "related": [
+        "use-alias"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.namespaces.importing.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "How to Use PHP Namespaces, Part 2: Importing, Aliases, and Name Resolution",
+            "url": "https://www.sitepoint.com/php-namespaces-import-alias-resolution/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP Aliasing/Importing namespaces",
+            "url": "https://www.tutorialspoint.com/php-aliasing-importing-namespaces"
+        }
+    ],
+    "tags": [
+        "alias",
+        "naming conflict"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "5.3",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sat, 22 Aug 2026 08:06:24 +0000"
+}

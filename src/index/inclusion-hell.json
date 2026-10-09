@@ -1,0 +1,48 @@
+{
+    "id": "inclusion-hell",
+    "name": "Inclusion Hell",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/inclusion-hell.html",
+    "aliases": [],
+    "description": "Inclusion hell is the tangled state a codebase reaches when ``include``, ``require``, and their ``_once`` variants are scattered across many files as the only way to make a class or function available, instead of being loaded through a single, predictable mechanism. Because each file may itself include others, the actual set of files loaded for a given request becomes a deep, hard-to-trace chain: knowing whether a given class is already defined at a given point in the code requires mentally following every inclusion that happened before it, rather than looking it up in one place.\n\nThe usual symptoms are a ``Fatal error: Cannot redeclare`` when the same file is pulled in twice through a plain ``include`` instead of ``include_once``, includes written with relative paths that break the moment the including file is moved or included from a different working directory, circular inclusion where file A includes file B which includes file A again, and a change to one file's include list unpredictably breaking a feature defined in an unrelated folder.\n\nInclusion hell was common in codebases before class autoloading and Composer's PSR-4 autoloader became standard practice. Autoloading replaces the whole chain of manual includes with a single hook, invoked only when a class is actually used, and a naming convention that maps a class name directly to its file, removing the need to reason about inclusion order at all.",
+    "code": "<?php\n\n    // header.php\n    require 'db.php';\n    require 'auth.php';\n\n    // auth.php\n    require 'db.php';  // already loaded by header.php: without _once, this\n                        // redeclares every function and class in db.php\n\n    // Fatal error: Cannot redeclare connectToDatabase()\n\n?>",
+    "documentation": "https://www.php.net/manual/en/language.oop5.autoload.php",
+    "related": [
+        "include",
+        "autoload",
+        "order-of-execution",
+        "circular-reference"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.oop5.autoload.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Still Using include() for Everything? PHP Autoloading Can Do It Better.",
+            "url": "https://medium.com/@asiandigitalhub/still-using-include-for-everything-php-autoloading-can-do-it-better-d7feb598ac61"
+        }
+    ],
+    "tags": [
+        "folklore",
+        "sdlc",
+        "classic bug"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": {
+        "Cannot redeclare connectToDatabase()": "cannot-redeclare-%s()-(previously-declared-in-%s:%d)"
+    },
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 17 Sep 2026 07:54:12 +0000"
+}

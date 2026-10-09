@@ -1,0 +1,50 @@
+{
+    "id": "php-docker-container",
+    "name": "PHP Docker Container",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/php-docker-container.html",
+    "aliases": [],
+    "description": "This is a Docker container, with a pre-installed PHP executable. \n\nThere are official PHP containers, maintained by the PHP group. They are to be run on Docker.\n\nThere are also other containers which come with PHP preinstalled, or which are built for a specific target, such as a service or the underlying architecture.",
+    "code": "",
+    "documentation": "https://www.docker.com/",
+    "related": [
+        "deploy",
+        "container",
+        "docker-image",
+        "docker"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.docker.com/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Official PHP Docker images",
+            "url": "https://hub.docker.com/_/php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "circleci/php image on Docker Hub",
+            "url": "https://hub.docker.com/r/circleci/php"
+        }
+    ],
+    "tags": [
+        "architecture",
+        "deployment"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Wed, 02 Sep 2026 16:41:00 +0000"
+}

@@ -1,0 +1,48 @@
+{
+    "id": "edge-triggered",
+    "name": "Edge Triggered",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/edge-triggered.html",
+    "aliases": [
+        "EPOLLET"
+    ],
+    "description": "Edge-triggered is an I/O notification mode where the system notifies a watcher only when the stream transitions from not-ready to ready, rather than continuously while the condition holds.\n\nThis is the opposite of level-triggered mode: a level-triggered watcher fires on every poll cycle as long as data is available, while an edge-triggered watcher fires exactly once per new arrival. As a consequence, edge-triggered handlers must drain the buffer completely on each notification, or they risk never being notified about the remaining data.\n\nEdge-triggered mode reduces spurious wake-ups and is more efficient under high throughput, but it demands careful implementation. It maps to ``EPOLLET`` in the Linux epoll API and to ``EV_CLEAR`` in BSD kqueue.\n\nIn the future version 8.6, the ``Io\\Poll`` API exposes edge-triggered behaviour through the ``Event::EdgeTriggered`` enum case, which can be combined with ``Event::Read`` or ``Event::Write`` when adding a watcher to a ``Context``.",
+    "code": "<?php\n\nuse Io\\Poll\\Context;\nuse Io\\Poll\\Event;\n\n$context = new Context();\n\n// Notify only on state transition, not continuously\n$context->add($stream, Event::Read | Event::EdgeTriggered, function ($handle) {\n    // Must read until fread() returns false or empty string\n    while ($chunk = fread($handle->stream, 8192)) {\n        echo $chunk;\n    }\n});\n\n$context->run();\n\n?>",
+    "documentation": "https://man7.org/linux/man-pages/man7/epoll.7.html",
+    "related": [
+        "polling",
+        "event-loop",
+        "event-driven",
+        "non-blocking",
+        "one-shot",
+        "async"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://man7.org/linux/man-pages/man7/epoll.7.html"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP RFC: Poll API",
+            "url": "https://wiki.php.net/rfc/poll_api"
+        }
+    ],
+    "tags": [
+        "concept"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "8.6",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 16 Jul 2026 14:33:28 +0000"
+}

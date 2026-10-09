@@ -1,0 +1,44 @@
+{
+    "id": "raci",
+    "name": "RACI Model",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/raci.html",
+    "aliases": [],
+    "description": "RACI model is an accountability model, which lists\n\n+ Responsible: who completes the task.\n+ Accountable: who validates the correct completion of the deliverable\n+ Consulted: who provides expert advice on the situation\n+ Informed: who is kept informed, though does not participate directly\n\nOther responsibility models exist.\n",
+    "code": "",
+    "documentation": "https://en.wikipedia.org/wiki/Responsibility_assignment_matrix#RACI_model",
+    "related": [
+        "accountability"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Responsibility_assignment_matrix#RACI_model"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Accountability",
+            "url": "https://en.wikipedia.org/wiki/Accountability"
+        }
+    ],
+    "tags": [
+        "sdlc",
+        "acronym"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Fri, 14 Aug 2026 08:08:32 +0000"
+}

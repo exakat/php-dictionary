@@ -1,0 +1,82 @@
+{
+    "id": "test",
+    "name": "Test",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/test.html",
+    "aliases": [],
+    "description": "Tests are tools that monitor the behavior of a code. The code should produce the expected results that are provided in the tests.\n\nThere are many different types of tests: \n\n+ Unit test: close to the class level of the code\n+ Integration test: they check that components collaborate nicely\n+ Functional tests: close to the specifications and the business level\n+ Feature testing: close to the specifications and the business level\n+ End-to-end tests: they run the software from beginning to the end\n+ Performance tests: tests focusing on the behavior of the software under load\n+ Property-based tests: tests focusing on the satisfaction of properties\n+ Acceptance tests: the tests that the software must pass to be accepted by the end user\n+ Smoke tests: tests that quickly detect a problem in the software. They are the most obvious. \n+ Exploratory tests: when tests are used to check new behavior of the code\n+ Regression tests: tests that ensures that previous behaviors are still behaving the same\n+ Fuzzing: testing the software with random data\n+ Mutation testing: testing the software robustness by altering the code \n\nTests may be manual, when they are executed manually. Those are not recorded. Test may be automated, when they are executed by another piece of software. \n\nPHP offers several testing framework, such as ``PHPunit``, ``pest``, ``simpletest``.\n\nTests are often further automated in a Continuous Integration Pipeline.\n",
+    "code": "",
+    "documentation": "https://en.wikipedia.org/wiki/Software_testing",
+    "related": [
+        "feature-testing",
+        "code-coverage",
+        "integration-test",
+        "unit-test",
+        "end-to-end-test",
+        "phpunit",
+        "quality",
+        "refactoring",
+        "clock",
+        "faker",
+        "snapshot",
+        "test-pyramid",
+        "devops",
+        "edge-case",
+        "ci",
+        "cd",
+        "fuzzing",
+        "property-based-testing",
+        "mutation-test",
+        "test-framework",
+        "build",
+        "regression",
+        "reliability",
+        "test-driven-development",
+        "test-impact-analysis",
+        "acceptance-test",
+        "functional-test",
+        "red-green-refactor"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Software_testing"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "3 Compelling Reasons For Developers To Write Tests",
+            "url": "https://christoph-rumpel.com/2023/6/three-compelling-reasons-for-developers-to-write-tests"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Testing tips",
+            "url": "https://testing-tips.sarvendev.com/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "How to test procedural functions with PHPUnit",
+            "url": "https://unixdigest.com/tutorials/how-to-test-procedural-functions-with-phpunit.html"
+        }
+    ],
+    "tags": [
+        "test"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": {
+        "PHPUnit": "https://phpunit.de/",
+        "pest": "https://pestphp.com/",
+        "simpletest": "https://github.com/simpletest/simpletest"
+    },
+    "popularity": "",
+    "modified": "Fri, 25 Sep 2026 14:37:53 +0000"
+}

@@ -1,0 +1,48 @@
+{
+    "id": "initialisation",
+    "name": "Initialisation",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/initialisation.html",
+    "aliases": [],
+    "description": "Initialisation is the process to unconditionally give a value to a variable, or any container, before its usage. \n\nInitialisation has a dedicated syntax for properties, parameters and static variables. There is no dedicated syntax for variable initialisation: they are created when needed, with a default value of NULL. They also emits a warning in that case.\n\nInitialisation ensures that a variable is hold a sane value before any usage. This makes it important for security purposes too.",
+    "code": "<?php\n\nfunction trumpet($i = 0) {\n    static $var = 3;\n\n    // implicit initialisation with null, which is later cast to 0.\n    $trunk += 2;\n}\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Initialization_(programming)",
+    "related": [
+        "definition",
+        "uninitialized"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Initialization_(programming)"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Constructor (object-oriented programming) (Wikipedia)",
+            "url": "https://en.wikipedia.org/wiki/Constructor_(object-oriented_programming)"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Uninitialized variable (Wikipedia)",
+            "url": "https://en.wikipedia.org/wiki/Uninitialized_variable"
+        }
+    ],
+    "tags": [
+        "variable",
+        "property"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+}

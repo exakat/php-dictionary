@@ -1,0 +1,44 @@
+{
+    "id": "array_walk",
+    "name": "array_walk()",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/array_walk.html",
+    "aliases": [],
+    "description": "``array_walk()`` is a PHP native function that applies a closure to every element of an array.\n\n``array_walk()`` uses the first argument as the array or object with the elements, the second argument as the callback, and the following subsequent arguments as one argument of that closure each. Any missing value in an array is assigned as ``null``, while a missing argument is a fatal error.\n\nThe callback may take two arguments. This way, it may apply modifications that take the key into account. This is unlike ``array_map()``.\n\nIf the walk has to be reflected in the source array, the first argument of the callback must be a reference, and it should be updated.\n\nAlthough both methods are very similar, ``array_walk()`` and ``array_map()`` do not have the same argument order, return value nor behavior.",
+    "code": "<?php\n\n    function square(&$x, $c) { $x = $x * $x + $c; }\n    \n    $array = [1,2,3];\n    array_walk($array, square(...));\n    print_r($array);\n    // [1, 5, 11];\n\n?>",
+    "documentation": "https://www.php.net/manual/en/function.array-map.php",
+    "related": [
+        "array_map"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/function.array-map.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Taming PHP\u2019s array_walk() Function: A Detailed Guide",
+            "url": "https://clouddevs.com/php/array_walk-function/"
+        }
+    ],
+    "tags": [
+        "native function",
+        "arbitrary number of argument"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Fri, 14 Aug 2026 07:52:31 +0000"
+}

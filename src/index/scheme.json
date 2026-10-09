@@ -1,0 +1,42 @@
+{
+    "id": "scheme",
+    "name": "Scheme",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/scheme.html",
+    "aliases": [],
+    "description": "Scheme is a format for a string.\n\nFor example, URLs, emails, dates have a scheme. It may be parsed from a string into atomic elements, and formatted back as a string.",
+    "code": "",
+    "documentation": "https://en.wikipedia.org/wiki/URI_scheme",
+    "related": [
+        "url",
+        "schema"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/URI_scheme"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "parse_url",
+            "url": "https://www.php.net/manual/fr/function.parse-url.php"
+        }
+    ],
+    "tags": [
+        "concept"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Mon, 24 Aug 2026 07:41:12 +0000"
+}

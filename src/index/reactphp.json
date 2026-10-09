@@ -1,0 +1,70 @@
+{
+    "id": "reactphp",
+    "name": "ReactPHP",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/reactphp.html",
+    "aliases": [
+        "react-php"
+    ],
+    "description": "ReactPHP is a low-level library for event-driven programming. It provides an event loop, streams, promises, and other primitives for building asynchronous, non-blocking applications.\n\nReactPHP is built around four core components:\n\n+ EventLoop: the core of ReactPHP, handling scheduling and dispatching of callbacks for I/O events, timers, and stream events\n+ Streams: abstracted stream interfaces, ``ReadableStreamInterface``, ``WritableStreamInterface``, etc. for non-blocking I/O operations\n+ Promises: a deferred/promise implementation for handling asynchronous results\n+ Socket: a high-level socket server and client implementation\n\nReactPHP is widely used for building:\n\n+ HTTP servers and clients\n+ WebSocket servers\n+ Database clients, MySQL, PostgreSQL, Redis, etc.\n+ TCP/UDP servers\n+ File watchers and process managers\n\nIt is the foundation for many production-grade PHP applications requiring high concurrency, such as chat servers, real-time APIs, and IoT gateways. ReactPHP 1.x requires PHP 7.1+, and the upcoming 2.0 version will leverage Fibers for simpler coroutine-like syntax.",
+    "code": "<?php\n\n    require __DIR__ . '/vendor/autoload.php';\n\n    $http = new React\\Http\\Server(function (Psr\\Http\\Message\\ServerRequestInterface $request) {\n        return React\\Http\\Message\\Response::plaintext('Hello World!\\n');\n    });\n\n    $socket = new React\\Socket\\SocketServer('127.0.0.1:8080');\n    $http->listen($socket);\n\n    echo \"Server running at http://127.0.0.1:8080\\n\";\n\n?>",
+    "documentation": "https://reactphp.org/",
+    "related": [
+        "amp",
+        "async",
+        "asynchronous",
+        "event-loop",
+        "event-driven",
+        "coroutine",
+        "promise",
+        "non-blocking",
+        "concurrency",
+        "fibers",
+        "microservice",
+        "swoole",
+        "openswoole",
+        "websocket",
+        "socket"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://reactphp.org/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "ReactPHP EventLoop",
+            "url": "https://reactphp.org/event-loop/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "ReactPHP benchmarking",
+            "url": "https://reactphp.org/#benchmarks"
+        }
+    ],
+    "tags": [
+        "library",
+        "async",
+        "framework"
+    ],
+    "packagist": [
+        "react/http",
+        "react/event-loop",
+        "react/socket"
+    ],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 16 Jul 2026 14:28:00 +0000"
+}

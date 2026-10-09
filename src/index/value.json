@@ -1,0 +1,48 @@
+{
+    "id": "value",
+    "name": "Value",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/value.html",
+    "aliases": [],
+    "description": "A value is the piece of data that is inside a container, such as a variable, an array, a property or a constant. A value may take different types. \n\nThe absence of value is usually noted with ``null``, which is, paradoxically, a value itself.",
+    "code": "<?php\n\n$variable = 'value';\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Value_(computer_science)",
+    "related": [
+        "null"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Value_(computer_science)"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP: Types",
+            "url": "https://www.php.net/manual/en/language.types.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP: The null Type",
+            "url": "https://www.php.net/manual/en/language.types.null.php"
+        }
+    ],
+    "tags": [
+        "concept"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 27 Aug 2026 05:42:51 +0000"
+}

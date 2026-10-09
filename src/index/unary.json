@@ -1,0 +1,46 @@
+{
+    "id": "unary",
+    "name": "Unary Operator",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/unary.html",
+    "aliases": [
+        "unary-operator"
+    ],
+    "description": "A unary operator is an operator that operates on a single operand. It performs an operation on the value of the operand. PHP supports several unary operators, including the following:\n\n+ Post increment operator ``$a++``\n+ Pre increment operator ``++$a``\n+ Post decrement operator ``$a--``\n+ Pre decrement operator ``--$a``\n+ Positive operator ``+$a``, which produces the same value\n+ Negative operator ``-$a``, which produces the opposite of the value\n+ Logical Not operator ``!$a``\n+ Bitwise Not operator ``~$a``\n+ Noscream operator ``@$a``\n\nThe first four operators change the underlying value and also return the value. The last three operators only return the changed value, leaving the original value unchanged.",
+    "code": "<?php\n\n$a = 10;\nprint -$a;  // -10, $a unchanged\nprint $a;   // 10\nprint ++$a; // 10, $a changed\nprint $a;   // 11\n\n?>",
+    "documentation": "https://www.php.net/manual/en/language.operators.increment.php",
+    "related": [
+        "ternary",
+        "binary-operator",
+        "operand"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.operators.increment.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Operator Precedence",
+            "url": "https://www.php.net/manual/en/language.operators.precedence.php"
+        }
+    ],
+    "tags": [
+        "feature",
+        "operator"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Wed, 19 Aug 2026 06:49:21 +0000"
+}

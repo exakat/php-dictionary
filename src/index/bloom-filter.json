@@ -1,0 +1,45 @@
+{
+    "id": "bloom-filter",
+    "name": "Bloom Filter",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/bloom-filter.html",
+    "aliases": [],
+    "description": "A Bloom filter is a space-efficient probabilistic data structure used to test whether an element is a member of a set. It can return false positives, indicating an element might be in the set when it's not, but never false negatives, if it says the element is not in the set, it's definitely not.",
+    "code": "",
+    "documentation": "https://en.wikipedia.org/wiki/Bloom_filter",
+    "related": [
+        "algorithm"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Bloom_filter"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Bloom Filter in PHP",
+            "url": "https://www.dailycomputerscience.com/post/bloom-filter-in-php"
+        }
+    ],
+    "tags": [
+        "data structure"
+    ],
+    "packagist": [
+        "pleonasm/bloom-filter"
+    ],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Wed, 19 Aug 2026 08:25:58 +0000"
+}

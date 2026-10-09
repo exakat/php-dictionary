@@ -1,0 +1,43 @@
+{
+    "id": "variable-scope",
+    "name": "Variable Scope",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/variable-scope.html",
+    "aliases": [],
+    "description": "Variable scope is the context in which the variable is available. The context is often one method or function. \n\n``global`` keywords allows variables from other contexts to be available in the current one. \n\nLocal variables are only available in one method or function, not counting the local or bind closures or arrow functions.",
+    "code": "<?php\n\nfunction trumpet() {\n    // $trunk is only available in trumpet\n    $trunk = 1;\n}\n\nfunction forage() {\n    // $trunk is only available in forage, and is distinct from the one in trumpet()\n    $trunk = 2;\n\n    // $ivory is only available in forage, the followring closure and the arrow function\n    $ivory = 1;\n\n    $c = function() use ($ivory) { return $ivory;};\n    $d = function() use ($ivory) { return $ivory;};\n}\n\n?>",
+    "documentation": "https://www.php.net/manual/en/language.variables.scope.php",
+    "related": [
+        "variable",
+        "global",
+        "visibility"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.variables.scope.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "What are the different scopes of variables in PHP ?",
+            "url": "https://www.geeksforgeeks.org/php/what-are-the-different-scopes-of-variables-in-php/"
+        }
+    ],
+    "tags": [
+        "variable"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+}

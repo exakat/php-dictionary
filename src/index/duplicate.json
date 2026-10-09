@@ -1,0 +1,51 @@
+{
+    "id": "duplicate",
+    "name": "Duplicate",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/duplicate.html",
+    "aliases": [],
+    "description": "There are things that PHP does not accept as duplicate: \n\n+ Duplicate type %s is redundant\n+ Duplicate named parameter $%s\n+ Duplicate value in enum %s for cases %s and %s\n+ Duplicate declaration of static variable $%s.",
+    "code": "",
+    "documentation": "https://en.wikipedia.org/wiki/Duplicate_code",
+    "related": [
+        "union-type",
+        "named-parameter",
+        "enum-case",
+        "static-variable"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Duplicate_code"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Refactoring.Guru: Duplicate Code",
+            "url": "https://refactoring.guru/smells/duplicate-code"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Don't repeat yourself",
+            "url": "https://en.wikipedia.org/wiki/Don%27t_repeat_yourself"
+        }
+    ],
+    "tags": [
+        "disambiguation"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Tue, 25 Aug 2026 12:17:01 +0000"
+}

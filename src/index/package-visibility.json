@@ -1,0 +1,57 @@
+{
+    "id": "package-visibility",
+    "name": "Package-Level",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/package-visibility.html",
+    "aliases": [
+        "internal-visibility"
+    ],
+    "description": "Package-level, or internal, visibility is an access modifier that sits between ``public`` and ``private``. A member marked this way, such as Java's default, no-modifier, visibility or Kotlin's and C#'s ``internal``, is reachable from any code within the same package, module, or compiled assembly, but not from outside it. It lets a library share implementation details across its own files without exposing them as part of its public API.\n\nThis gives a third, coarser-grained boundary than the usual class-based ``private``/``protected`` pair: visibility scoped to a whole group of files that ship and evolve together, rather than to a single class and its subclasses.\n\nPackage level is also called internal visibility.\n\nPHP's visibility modifiers, ``public``, ``protected``, and ``private``, are all scoped to the class hierarchy, never to a namespace, directory, or package. There is no modifier that means visible within this namespace, or within this Composer package, but not outside it; a symbol is either fully public to any caller that can reach its fully qualified name, or restricted to the declaring class and its subclasses.",
+    "code": "<?php\n\n    namespace App\\Billing;\n    \n    class Invoice {\n        // No modifier means reachable only from App\\\\Billing in Java;\n        // in PHP, only public, protected, and private exist, all class-scoped.\n        public function total(): float { /* ... */ }\n    }\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Access_modifiers",
+    "related": [
+        "visibility",
+        "public",
+        "private",
+        "protected",
+        "namespace",
+        "module-system"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Access_modifiers"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Visibility modifiers | Kotlin Documentation",
+            "url": "https://kotlinlang.org/docs/visibility-modifiers.html"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Kotlin Visibility Modifiers - public, protected, internal, private",
+            "url": "https://www.digitalocean.com/community/tutorials/kotlin-visibility-modifiers-public-protected-internal-private"
+        }
+    ],
+    "tags": [
+        "concept",
+        "not supported",
+        "visibility"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Wed, 02 Sep 2026 16:41:00 +0000"
+}

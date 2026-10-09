@@ -1,0 +1,53 @@
+{
+    "id": "variable-variable",
+    "name": "Variable Variables",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/variable-variable.html",
+    "aliases": [],
+    "description": "Variable variables refer to a feature that allows to use the value of a variable as the name of another variable. It provides a way to dynamically create and access variables based on runtime values.\n\nVariable variables are denoted by the double dollar sign ``$$`` followed by the name of the variable stored in another variable. More dollar signs may be compounded, though it is rare.\n",
+    "code": "<?php\n\n$a = 'b';\n$b = 'c';\n\necho $$b;\n\n?>",
+    "documentation": "https://www.php.net/manual/en/language.variables.variable.php",
+    "related": [
+        "variable",
+        "static-variable",
+        "compact",
+        "extract",
+        "global-variable",
+        "global",
+        "$globals",
+        "superglobal",
+        "dollar",
+        "dynamic"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.variables.variable.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "The Dangers of PHP's $$",
+            "url": "https://andy-carter.com/blog/the-dangers-of-php-variable-variables"
+        }
+    ],
+    "tags": [
+        "feature",
+        "variable"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [
+        "Variables/VariableVariable"
+    ],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Tue, 01 Sep 2026 06:21:35 +0000"
+}

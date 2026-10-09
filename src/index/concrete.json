@@ -1,0 +1,45 @@
+{
+    "id": "concrete",
+    "name": "Concrete Class",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/concrete.html",
+    "aliases": [],
+    "description": "The contrary to ``abstract`` is concrete. PHP has abstract classes and methods. This is the default state of a method or class, when it has a code block with implementation. It also has no specific keyword to designate it.",
+    "code": "<?php\n\n    abstract class AbstractClass\n    {\n        // Concrete method\n        public function printOut() {\n            print $this->getValue() . \"\\n\";\n        }\n    \n        // Method without an implementation\n        abstract protected function getValue();\n    }\n\n?>",
+    "documentation": "https://www.php.net/manual/en/language.oop5.abstract.php",
+    "related": [
+        "abstract",
+        "abstract-class",
+        "abstract-method",
+        "concrete-method",
+        "program-to-interface"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.oop5.abstract.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Understanding Concrete Classes in PHP.",
+            "url": "https://medium.com/@msaimhashmi/understanding-concrete-classes-in-php-f97d73d21aa0"
+        }
+    ],
+    "tags": [
+        "class"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Wed, 02 Sep 2026 16:41:00 +0000"
+}

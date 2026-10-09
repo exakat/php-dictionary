@@ -1,0 +1,57 @@
+{
+    "id": "faker",
+    "name": "Faker",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/faker.html",
+    "aliases": [],
+    "description": "A ``faker`` is a tool that generates fake data, for testing purposes. \n\nUsing a faker happens in different situations: \n\n+ Seeding Databases: populating a database with sample users, products, or orders to test how your application performs under realistic conditions\n+ Testing: creating dummy data for unit and integration tests to ensure the code works correctly in more realistic circumstances\n+ Prototyping: quickly generating placeholder content, like names and addresses, for a new feature demonstration\n+ Anonymizing Data: safely replacing sensitive production data with fake but realistic-looking data for use in development or debugging.\n",
+    "code": "",
+    "documentation": "https://en.wikipedia.org/wiki/Test_data_generation",
+    "related": [
+        "data",
+        "test",
+        "anonymize",
+        "dataset"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Test_data_generation"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Simplifying Test Data Generation with Faker",
+            "url": "https://www.sitepoint.com/simplifying-test-data-generation-with-faker/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "A new PHP Faker: minimalist, extensible, and free of frills",
+            "url": "https://medium.com/@opensource_52111/faker-16754ea6154b"
+        }
+    ],
+    "tags": [
+        "tool",
+        "test",
+        "concept",
+        "dataset"
+    ],
+    "packagist": [
+        "fakerphp/faker",
+        "xefi/faker-php"
+    ],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Fri, 19 Jun 2026 21:25:15 +0000"
+}

@@ -1,0 +1,50 @@
+{
+    "id": "dynamic-class-constant",
+    "name": "Dynamic Class Constant",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/dynamic-class-constant.html",
+    "aliases": [],
+    "description": "Dynamic class constant access has always been possible with a call to the ``constant()`` function. With the ``class::constant`` syntax, it is possible to reach any visible constant, or, also, enumeration cases.\n\nA new syntax is available since version 8.3 to do the same: ``class::{$name}``. The curly braces are important in that call.",
+    "code": "<?php\n\n    enum E: string {\n        case A = 'abc';\n        const B = 'def';\n    }\n    \n    $name = 'E::A';\n    echo constant($name)->value;\n    // PHP 8.3+ \n    echo E::{$name}->value;\n    \n    $name = 'E::B';\n    echo constant($name);\n    // PHP 8.3+ \n    echo E::{$name};\n\n?>",
+    "documentation": "https://www.php.net/manual/en/language.oop5.constants.php",
+    "related": [
+        "class-constant",
+        "constant",
+        "dynamic",
+        "enum",
+        "function",
+        "constant-function"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.oop5.constants.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP 8.3: Dynamic class constant and Enum member fetch support",
+            "url": "https://php.watch/versions/8.3/dynamic-class-const-enum-member-syntax-support"
+        }
+    ],
+    "tags": [
+        "class-constant",
+        "dynamic",
+        "feature"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "8.3",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Fri, 11 Sep 2026 08:44:22 +0000"
+}

@@ -1,0 +1,50 @@
+{
+    "id": "unit-test",
+    "name": "Unit Test",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/unit-test.html",
+    "aliases": [],
+    "description": "Unit tests are tests that verify how a coherent piece of code works. The piece of code may be limited to one class, but it may also encompass related code, as long as it does not create a dependency.",
+    "code": "",
+    "documentation": "https://en.wikipedia.org/wiki/Unit_testing",
+    "related": [
+        "test",
+        "integration-test",
+        "edge-case",
+        "end-to-end-test",
+        "mutation-test",
+        "global-state",
+        "property-based-testing",
+        "red-green-refactor",
+        "test-impact-analysis",
+        "acceptance-test",
+        "blackbox",
+        "functional-test",
+        "whitebox"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Unit_testing"
+        }
+    ],
+    "tags": [
+        "test"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": {
+        "PHPUnit": "https://phpunit.de/"
+    },
+    "popularity": "",
+    "modified": "Fri, 18 Sep 2026 05:03:24 +0000"
+}

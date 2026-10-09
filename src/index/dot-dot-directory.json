@@ -1,0 +1,45 @@
+{
+    "id": "dot-dot-directory",
+    "name": "Dot-dot Directory ..",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/dot-dot-directory.html",
+    "aliases": [],
+    "description": "The ``..`` directory represents the parent directory of the current one. This directory always exists, at the root directory, aka ``/``, which is also its own parent.",
+    "code": "<?php\n\n    // lists of the files in the parent directory\n    $files = glob('../*.php');\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Directory_(computing)",
+    "related": [
+        "path",
+        "dot-directory",
+        "dot-file"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Directory_(computing)"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Dot and dot-dot directories",
+            "url": "https://www.qnx.com/developers/docs/8.0/com.qnx.doc.neutrino.user_guide/topic/files_Dot.html"
+        }
+    ],
+    "tags": [
+        "filesystem"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Tue, 11 Aug 2026 20:52:44 +0000"
+}

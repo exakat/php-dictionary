@@ -1,0 +1,51 @@
+{
+    "id": "layered-architecture",
+    "name": "Layered Architecture",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/layered-architecture.html",
+    "aliases": [
+        "n-tier-architecture",
+        "three-tier-architecture",
+        "multi-tier-architecture"
+    ],
+    "description": "Layered architecture, also called multi-tier architecture, n-tier architecture, or three-tier architecture in its classic three-layer form, organises a codebase into horizontal layers, each with a specific responsibility, where each layer only depends on the layer directly below it. The classic four layers are: presentation, business logic, data access, and infrastructure.\n\nThe Presentation layer handles user interaction and HTTP concerns, with controllers, templates. The Business Logic layer contains domain rules and application workflows. The Data Access layer, such as repository or DAO, abstracts persistence. The Infrastructure layer wraps external systems, like email, queues, file storage.\n\nLayered architecture is the implicit structure of most MVC frameworks: controllers belong to the presentation layer, services to the business logic layer, and repositories to the data access layer.\n\nThe main risk is layer bleeding: business logic leaking into controllers, aka fat controller, or SQL queries scattered through the business layer. The anemic domain model anti-pattern often accompanies layered architecture when domain logic is spread across service classes rather than entities.",
+    "code": "<?php\n\n    // Presentation layer, controller\n    class OrderController {\n        public function __construct(private OrderService $service) {}\n    \n        public function create(Request $request): Response {\n            $order = $this->service->placeOrder($request->validated());\n            return new JsonResponse($order->toArray(), 201);\n        }\n    }\n    \n    // Business logic layer, service\n    class OrderService {\n        public function __construct(private OrderRepository $orders) {}\n    \n        public function placeOrder(array $data): Order {\n            $order = Order::new($data);\n            $order->validate();\n            return $this->orders->save($order);\n        }\n    }\n\n    // Data access layer, repository\n    class OrderRepository {\n        public function save(Order $order): Order {\n            $this->pdo->prepare('INSERT INTO orders ...');\n            return $order;\n        }\n    }\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Multitier_architecture",
+    "related": [
+        "hexagonal",
+        "clean-architecture",
+        "mvc",
+        "separation-of-concerns",
+        "business-logic",
+        "anemic-domain-model",
+        "fat-controller"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Multitier_architecture"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "The Clean Architecture",
+            "url": "https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html"
+        }
+    ],
+    "tags": [
+        "concept"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sun, 30 Aug 2026 14:48:39 +0000"
+}

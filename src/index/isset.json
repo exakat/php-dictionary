@@ -1,0 +1,56 @@
+{
+    "id": "isset",
+    "name": "Isset",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/isset.html",
+    "aliases": [],
+    "description": "``isset()`` is a function that determines if a variable is declared and is different than ``null``.\n\n``isset()`` is also related to the magic method ``__isset()``, which is used to determine if a property in an object exists or not. \n\n``isset()`` has an error suppression feature, that masks various errors, such as undefined offset or undefined variables. Some other errors, like an invalid type as offset, are still reported.\n\n``isset()`` may be compared to ``array_key_exists()`` to check if an index exists in an array. As a micro-optimisation, it is faster than the function.\n",
+    "code": "<?php\n\n    $var = 'something';\n    \n    if (isset($var)) {\n        echo 'The variable $var contains '.$var;\n    } else {\n        echo 'No such variable as $var';\n    }\n\n?>",
+    "documentation": "https://www.php.net/manual/en/function.isset.php",
+    "related": [
+        "magic-method",
+        "__isset",
+        "array_key_exists",
+        "empty",
+        "existence"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/function.isset.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "isset vs empty vs is_null",
+            "url": "https://phppot.com/php/isset-vs-empty-vs-is_null/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "isset(), empty() And the Magic Methods",
+            "url": "https://php-tips.readthedocs.io/en/latest/tips/isset-empty-valued.html"
+        }
+    ],
+    "tags": [
+        "language construct",
+        "feature",
+        "keyword",
+        "error suppression"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [
+        "Performances/IssetWholeArray",
+        "Performances/ArrayKeyExistsSpeedup"
+    ],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sat, 08 Aug 2026 08:10:54 +0000"
+}

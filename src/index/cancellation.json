@@ -1,0 +1,54 @@
+{
+    "id": "cancellation",
+    "name": "Cancellation",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/cancellation.html",
+    "aliases": [],
+    "description": "Cancellation is the ability to abort an ongoing asynchronous operation before it completes. In asynchronous and concurrent programming, long-running tasks such as HTTP requests, database queries, or timers may need to be stopped early to conserve resources or respond to user actions.\n\nCancellation is typically implemented through cancellation tokens: an object passed to an asynchronous operation that signals cancellation on demand. The operation periodically checks the token and stops if cancellation has been requested.\n\nPHP async libraries such as Amp provide ``CancelledException`` and cancellation token support for fibers and promises.",
+    "code": "",
+    "documentation": "https://amphp.org/amp",
+    "related": [
+        "future",
+        "promise",
+        "asynchronous",
+        "fibers"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://amphp.org/amp"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "AMPHP (GitHub)",
+            "url": "https://github.com/amphp/amp"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "ReactPHP: Promise",
+            "url": "https://reactphp.org/promise/"
+        }
+    ],
+    "tags": [
+        "concept",
+        "design"
+    ],
+    "packagist": [
+        "amphp/amp"
+    ],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Wed, 26 Aug 2026 04:23:49 +0000"
+}

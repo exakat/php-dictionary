@@ -1,0 +1,62 @@
+{
+    "id": "worker",
+    "name": "Worker",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/worker.html",
+    "aliases": [],
+    "description": "A worker is a process, or thread, that consumes tasks from a queue and executes them, usually outside of the request/response cycle. Workers run continuously, or on demand, pulling jobs one at a time and processing them independently from the client that originally submitted the work.\n\nWorkers are the consuming side of a job queue: a producer pushes jobs onto a queue, such as ``Gearman``, ``RabbitMQ``, or ``Redis``, and one or more workers pick them up. Multiple workers may run in parallel, and can be scaled independently of the web tier, to absorb load spikes or speed up processing.\n\nWorkers are commonly implemented as long-running CLI scripts, managed by a process supervisor such as Supervisor or ``systemd``, or built on top of an event loop, as with Swoole or ReactPHP. Since PHP was originally designed for short-lived requests, long-running workers must take care to avoid memory leaks, and to reconnect resources such as database handles that may time out.\n\nA worker that crashes, or is killed mid-job, may leave a task half-done. This is why job queues and workers are usually paired with acknowledgement, retry, and idempotency strategies.",
+    "code": "<?php\n\n    // A minimal worker: pull jobs from a queue and process them.\n    while (true) {\n        $job = $queue->pop(); // blocks until a job is available\n\n        if ($job === null) {\n            continue;\n        }\n\n        try {\n            processJob($job);\n            $queue->acknowledge($job);\n        } catch (Throwable $e) {\n            $queue->retry($job);\n        }\n    }\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Job_queue#Worker",
+    "related": [
+        "jobqueue",
+        "queue",
+        "message-queue",
+        "process",
+        "thread",
+        "gearman",
+        "swoole",
+        "retry",
+        "idempotent"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Job_queue#Worker"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Queues - Laravel documentation",
+            "url": "https://laravel.com/docs/queues"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "A Comprehensive Guide to PHP Workers: What Are They and Why You Need Them",
+            "url": "https://www.cloudways.com/blog/php-workers/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "What are PHP workers?",
+            "url": "https://www.liquidweb.com/blog/what-are-php-workers/"
+        }
+    ],
+    "tags": [
+        "architecture",
+        "concept"
+    ],
+    "packagist": [],
+    "extensions": [
+        "gearman"
+    ],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Fri, 07 Aug 2026 09:57:32 +0000"
+}

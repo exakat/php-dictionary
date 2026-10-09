@@ -1,0 +1,50 @@
+{
+    "id": "client",
+    "name": "Client",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/client.html",
+    "aliases": [],
+    "description": "A client is a piece of software that connects to a server to send it queries, and receive responses.\n\nThe client-server paradigm is a base for internet communications.",
+    "code": "",
+    "documentation": "https://en.wikipedia.org/wiki/Client_(computing)",
+    "related": [
+        "server",
+        "query",
+        "response"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Client_(computing)"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Client-server model - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Client%E2%80%93server_model"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP: cURL",
+            "url": "https://www.php.net/manual/en/book.curl.php"
+        }
+    ],
+    "tags": [
+        "server"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Fri, 28 Aug 2026 09:39:42 +0000"
+}

@@ -1,0 +1,57 @@
+{
+    "id": "iterable",
+    "name": "Iterable",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/iterable.html",
+    "aliases": [],
+    "description": "Iterable is a pseudo-type, which accepts any array or object implementing the ``Traversable`` interface. This is equivalent to the type ``array|Traversable``, as one keyword.",
+    "code": "<?php\n\n    function trumpet(iterable $iterable) {\n        foreach ($iterable as $value) {\n            // ...\n        } \n    }\n\n?>",
+    "documentation": "https://www.php.net/manual/en/language.types.iterable.php",
+    "related": [
+        "traversable",
+        "array",
+        "count",
+        "native-type",
+        "pseudo-type",
+        "special-typehint",
+        "arrayaccess"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.types.iterable.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Master PHP Iterables: Arrays, Objects, Traversable Interface",
+            "url": "https://flatcoding.com/tutorials/php/the-essential-guide-for-php-iterable/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP Iterators for walking through data structures \u2013 FastTips",
+            "url": "https://inspector.dev/php-iterators-for-walking-through-data-structures-fasttips/"
+        }
+    ],
+    "tags": [
+        "feature",
+        "type",
+        "keyword"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [
+        "Functions/CouldTypeWithIterable",
+        "Typehints/CouldBeIterable"
+    ],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "7.1",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+}

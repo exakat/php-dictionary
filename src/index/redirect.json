@@ -1,0 +1,50 @@
+{
+    "id": "redirect",
+    "name": "Redirect",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/redirect.html",
+    "aliases": [],
+    "description": "An HTTP redirect instructs the client to navigate to a different URL. PHP performs redirects by sending a ``Location`` header with an appropriate HTTP status code: 301 for permanent redirect, 302 for temporary, or 303 for 'see other'.\n\nAfter sending the redirect header, execution should stop immediately with ``exit`` to prevent further output being sent to the client.",
+    "code": "<?php\n\n    // Temporary redirect\n    header('Location: /new-page');\n    exit;\n    \n    // Permanent redirect\n    header('Location: https://example.com/new-page', true, 301);\n    exit;\n\n?>",
+    "documentation": "https://www.php.net/manual/en/function.header.php",
+    "related": [
+        "http",
+        "http-code",
+        "http-headers",
+        "response",
+        "url",
+        "seo",
+        "splsubject"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/function.header.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "HTTP redirects",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Redirections"
+        }
+    ],
+    "tags": [
+        "http",
+        "web"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Mon, 13 Jul 2026 18:44:36 +0000"
+}

@@ -1,0 +1,61 @@
+{
+    "id": "depth-first-search",
+    "name": "Depth-First Search",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/depth-first-search.html",
+    "aliases": [
+        "dfs"
+    ],
+    "description": "Depth-first search, or DFS, is an algorithm for traversing or searching a tree or graph that follows one branch as far down as it can go before backtracking and trying the next unexplored branch. Starting from a root node, it moves to an unvisited neighbor, then to one of that neighbor's unvisited neighbors, and so on, only stepping back once it hits a node with no unvisited neighbor left.\n\nDFS is naturally implemented with recursion, since each recursive call handles one node and calls itself on the next unvisited neighbor, or explicitly with a stack, pushing neighbors and popping the most recently pushed one first. This last-in-first-out order is what produces the deep, branch-by-branch traversal, in contrast with breadth-first search, which uses a queue and explores level by level.\n\nDFS is used for tasks where the full extent of a branch matters more than distance from the start, such as detecting cycles in a graph, finding connected components, topological sorting of a dependency graph, or exhaustively walking a directory tree or an abstract syntax tree. Its memory usage is generally lower than BFS on wide graphs, since it only needs to remember the current path rather than an entire frontier of nodes.",
+    "code": "<?php\n\n    function dfs(array $graph, string $node, array &$visited = []): array {\n        $visited[$node] = true;\n        $order = [$node];\n\n        foreach ($graph[$node] ?? [] as $neighbor) {\n            if (!isset($visited[$neighbor])) {\n                $order = [...$order, ...dfs($graph, $neighbor, $visited)];\n            }\n        }\n\n        return $order;\n    }\n\n    $graph = [\n        'A' => ['B', 'C'],\n        'B' => ['A', 'D'],\n        'C' => ['A', 'D'],\n        'D' => ['B', 'C'],\n    ];\n\n    print_r(dfs($graph, 'A')); // ['A', 'B', 'D', 'C']\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Depth-first_search",
+    "related": [
+        "breadth-first-search",
+        "graph",
+        "tree",
+        "traversal",
+        "stack",
+        "recursion",
+        "algorithm"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Depth-first_search"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "SplStack",
+            "url": "https://www.php.net/manual/en/class.splstack.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Depth-First Search (DFS) - GeeksforGeeks",
+            "url": "https://www.geeksforgeeks.org/dsa/depth-first-search-or-dfs-for-a-graph/"
+        }
+    ],
+    "tags": [
+        "algorithm",
+        "graph"
+    ],
+    "packagist": [
+        "graphp/algorithms"
+    ],
+    "extensions": [
+        "spl"
+    ],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Fri, 11 Sep 2026 09:03:16 +0000"
+}

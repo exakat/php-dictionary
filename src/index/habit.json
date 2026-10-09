@@ -1,0 +1,51 @@
+{
+    "id": "habit",
+    "name": "Habit",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/habit.html",
+    "aliases": [],
+    "description": "A habit, in the context of software development, is a coding practice that a developer applies automatically and repeatedly, without necessarily making a deliberate decision each time.\n\nHabits can be beneficial: such as always validating input, writing tests first, or naming variables clearly; they may be harmful, such as suppressing errors with ``@``, using magic numbers, or leaving dead code in place.\n\nGood habits are the foundation of consistent code quality. They turn best practices into second nature. Bad habits are often the source of recurring issues in a codebase, since they are applied without reflection.\n\nStatic analysis tools are particularly effective at reporting bad habits: patterns that appear many times across a codebase, reflecting a systematic behaviour rather than a one-off mistake.",
+    "code": "<?php\n\n    // A bad habit: silencing errors instead of handling them\n    $result = @file_get_contents('data.json');\n\n    // A good habit: checking return values explicitly\n    $result = file_get_contents('data.json');\n    if ($result === false) {\n        throw new RuntimeException('Could not read data.json');\n    }\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Habit",
+    "related": [
+        "best-practice",
+        "coding-convention",
+        "noscream",
+        "dead-code",
+        "magic-number",
+        "readability",
+        "canonical"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Habit"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "The Power of Habit in Software Engineering",
+            "url": "https://martinfowler.com/articles/writingPatterns.html"
+        }
+    ],
+    "tags": [
+        "concept",
+        "best practice",
+        "code quality"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Mon, 15 Jun 2026 11:03:59 +0000"
+}

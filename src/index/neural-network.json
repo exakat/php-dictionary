@@ -1,0 +1,47 @@
+{
+    "id": "neural-network",
+    "name": "Neural Network",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/neural-network.html",
+    "aliases": [],
+    "description": "A neural network is a software made of many simple processing units, called neurons, connected and organized in layers. By showing it many of examples, it automatically learns patterns to look for.",
+    "code": "",
+    "documentation": "https://en.wikipedia.org/wiki/Neural_network_(machine_learning)",
+    "related": [
+        "llm",
+        "ai",
+        "machine-learning"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Neural_network_(machine_learning)"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "A Beginner's Guide to the PHP Fann Library for Neural Networks",
+            "url": "https://reintech.io/blog/beginners-guide-php-fann-library-neural-networks"
+        }
+    ],
+    "tags": [
+        "ai"
+    ],
+    "packagist": [],
+    "extensions": [
+        "fann"
+    ],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Mon, 15 Jun 2026 11:03:59 +0000"
+}

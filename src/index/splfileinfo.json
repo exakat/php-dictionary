@@ -1,0 +1,52 @@
+{
+    "id": "splfileinfo",
+    "name": "SplFileInfo",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/splfileinfo.html",
+    "aliases": [],
+    "description": "``SplFileInfo`` provides an object-oriented interface to query information about a file or directory: its path, type, permissions, size, modification time, and more.\n\nIt is the base class for ``SplFileObject``, which also reads and writes the file, and ``DirectoryIterator``. When iterating with ``FilesystemIterator`` or ``RecursiveDirectoryIterator``, each entry is an ``SplFileInfo`` instance.",
+    "code": "<?php\n\n    $file = new SplFileInfo('/var/www/html/index.php');\n    echo $file->getBasename();   // index.php\n    echo $file->getExtension();  // php\n    echo $file->getSize();       // size in bytes\n    echo $file->getMTime();      // last modification timestamp\n    \n    if ($file->isReadable()) {\n        $obj = $file->openFile('r');\n    }\n\n?>",
+    "documentation": "https://www.php.net/manual/en/class.splfileinfo.php",
+    "related": [
+        "spl",
+        "file",
+        "filesystem",
+        "splfileobject",
+        "directoryiterator",
+        "splsubject"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/class.splfileinfo.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "SPL",
+            "url": "https://www.php.net/manual/en/book.spl.php"
+        }
+    ],
+    "tags": [
+        "spl",
+        "filesystem",
+        "file"
+    ],
+    "packagist": [],
+    "extensions": [
+        "spl"
+    ],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "5.1.2",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Tue, 25 Aug 2026 18:05:05 +0000"
+}

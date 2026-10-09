@@ -1,0 +1,58 @@
+{
+    "id": "fluent-interface",
+    "name": "Fluent Interface",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/fluent-interface.html",
+    "aliases": [
+        "fluent",
+        "fluid-interface"
+    ],
+    "description": "A fluent interface, or fluid interface, is an object-oriented API whose design relies extensively on method chaining.\n\nA fluent interface is not related to an interface: it may be implemented without them.",
+    "code": "<?php\n\nclass script {\n    function hello() {\n        print 'Hello ';\n        return $this;\n    }\n\n    function word() {\n        print 'word.';\n        return $this;\n    }\n}\n\n$script = new Script();\n\n$script->hello()->world();\n// \n\n?>",
+    "documentation": "https://designpatternsphp.readthedocs.io/en/latest/Structural/FluentInterface/README.html",
+    "related": [
+        "final",
+        "interface",
+        "chaining",
+        "expressive-interface"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://designpatternsphp.readthedocs.io/en/latest/Structural/FluentInterface/README.html"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Fluent Interface",
+            "url": "https://en.wikipedia.org/wiki/Fluent_interface"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Fluent Interfaces Are Bad for Maintainability",
+            "url": "https://news.ycombinator.com/item?id=16619171"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Fluent Interfaces are Evil",
+            "url": "https://ocramius.github.io/blog/fluent-interfaces-are-evil/"
+        }
+    ],
+    "tags": [
+        "code practice",
+        "pattern"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sat, 08 Aug 2026 08:10:54 +0000"
+}

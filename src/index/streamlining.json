@@ -1,0 +1,60 @@
+{
+    "id": "streamlining",
+    "name": "Streamlining",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/streamlining.html",
+    "aliases": [],
+    "description": "Streamlining refers to the practice of simplifying code to reduce complexity, remove redundancy, and improve readability and maintainability.\n\nStreamlining often involves replacing verbose constructs with more expressive modern syntax: match expressions instead of switch, arrow functions instead of closures, named arguments to clarify intent, nullsafe operators to flatten nested null checks, and short-circuit assignments with ``??=``.\n\nStreamlining is distinct from premature optimization: it targets structural and expressive clarity rather than micro-level performance, and its effect is measured by reduced cognitive load for the reader.",
+    "code": "<?php\n\n    // Before streamlining\n    if ($value === null) {\n        $value = computeDefault();\n    }\n\n    // After\n    $value ??= computeDefault();\n\n?>",
+    "documentation": "https://dealhub.io/glossary/streamlining-in-business/",
+    "related": [
+        "match",
+        "arrow-function",
+        "named-parameter",
+        "nullsafe",
+        "coalesce",
+        "cognitive-complexity",
+        "refactoring",
+        "clean-code",
+        "readability",
+        "inlining"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://dealhub.io/glossary/streamlining-in-business/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP 8: before and after",
+            "url": "https://stitcher.io/blog/php-8-before-and-after"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Shorthand Comparisons in PHP",
+            "url": "https://stitcher.io/blog/shorthand-comparisons-in-php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Refactoring PHP Code for Better Readability",
+            "url": "https://deliciousbrains.com/refactoring-php-code-better-readability/"
+        }
+    ],
+    "tags": [
+        "best practice"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Tue, 30 Jun 2026 09:02:40 +0000"
+}

@@ -1,0 +1,53 @@
+{
+    "id": "literal",
+    "name": "Literal",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/literal.html",
+    "aliases": [],
+    "description": "A literal is a hard coded value in the source.\n\nLiterals may be of type int, float, boolean, null, array.\n\nObjects and resources cannot be hardcoded, though their creation call may be.\n\nLiterals are given names by creating a constant, global or class.\n",
+    "code": "<?php\n\n    // Literal 1 to $a\n    $a = 1;\n    \n    // The object is created during execution.\n    $b = new Elephpant();\n\n?>",
+    "documentation": "https://www.php.net/manual/en/language.oop5.decon.php",
+    "related": [
+        "destructor",
+        "hard-coded",
+        "constant",
+        "class-constant",
+        "inlining"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.oop5.decon.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Literal (computer programming) - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Literal_(computer_programming)"
+        }
+    ],
+    "tags": [
+        "syntax",
+        "concept"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [
+        "Classes/Constructor",
+        "Classes/RedefinedDefault",
+        "Classes/ParentFirst",
+        "Classes/WrongName",
+        "Php/CouldUsePromotedProperties",
+        "Php/MustCallParentConstructor"
+    ],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+}

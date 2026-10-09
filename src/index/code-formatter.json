@@ -1,0 +1,52 @@
+{
+    "id": "code-formatter",
+    "name": "Code Formatter",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/code-formatter.html",
+    "aliases": [],
+    "description": "A code formatter is an automated tool that apply coding conventions to the source code. \n\nIt may, for example, move the opening bracket of a block on the name of the signature or below; it may add a space between a cast operator and its expression; etc.\n\nCode formatters modifies the presentation of the code, and do not change the underlying execution of it: although, some of the coding conventions may cross that line. For example, rewriting ``!=`` clauses to ``==`` in ``ifthen`` usually leads to voluminous modifications.\n\nSome code formatters only report specifications violations. Others apply corrections automatically.\n\nPopular coding conventions are ``PSR-12``, or per framework, such as ``Symfony Coding Standard``, ``CakePHP``, ``CodeIgniter``, ``Wordpress``, etc.",
+    "code": "<?php\n\n    // two distinct coding conventions.\n    function trumpet() { return 1; }\n\n    function forage()\n    {\n        return 2;\n    }\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Prettyprint",
+    "related": [
+        "psr"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Prettyprint"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "A curated list of code formatters",
+            "url": "https://github.com/rishirdua/awesome-code-formatters"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP-Styler: A Back-To-Formula Rewrite",
+            "url": "https://paul-m-jones.com/post/2026/04/24/php-styler-a-back-to-formula-rewrite/"
+        }
+    ],
+    "tags": [
+        "quality"
+    ],
+    "packagist": [
+        "lkrms/pretty-php",
+        "friendsofphp/php-cs-fixer",
+        "squizlabs/php_codesniffer"
+    ],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+}

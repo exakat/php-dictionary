@@ -1,0 +1,51 @@
+{
+    "id": "geolocation",
+    "name": "Geolocation",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/geolocation.html",
+    "aliases": [
+        "geolocalisation",
+        "geoposition",
+        "geopositioning"
+    ],
+    "description": "Geolocation is the process of determining the real-world physical location of a device, a user, or a piece of content. On the web, a browser can report a device's coordinates directly through the HTML5 Geolocation API, using GPS, Wi-Fi positioning, or cell-tower triangulation, and a PHP backend then simply receives and stores the latitude and longitude sent by client-side JavaScript. When no device-reported coordinates are available, an approximate location can instead be inferred server-side from the visitor's IP address, a technique known as GeoIP. Typical uses in applications include localizing content and currency, restricting or redirecting access by country, pre-filling shipping addresses, powering store-locator features, and enriching analytics or fraud-detection signals with a rough location.",
+    "code": "<?php\n\n    // Coordinates sent by the browser's navigator.geolocation API as POST fields\n    $latitude  = (float) ($_POST['latitude']  ?? 0);\n    $longitude = (float) ($_POST['longitude'] ?? 0);\n    \n    if ($latitude !== 0.0 && $longitude !== 0.0) {\n        echo \"User is near {$latitude}, {$longitude}\";\n    }\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Geolocation",
+    "related": [
+        "geoip",
+        "ip",
+        "locale"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Geolocation"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "IP address geolocation in PHP",
+            "url": "https://ipinfo.io/blog/ip-geolocation-in-php"
+        }
+    ],
+    "tags": [
+        "concept",
+        "web",
+        "network"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 03 Sep 2026 08:58:49 +0000"
+}

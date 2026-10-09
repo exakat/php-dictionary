@@ -1,0 +1,62 @@
+{
+    "id": "red-green-refactor",
+    "name": "Red-Green-Refactor",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/red-green-refactor.html",
+    "aliases": [
+        "tdd-cycle"
+    ],
+    "description": "Red-Green-Refactor is the core cycle of Test-Driven Development, TDD, a software development methodology where tests are written before the implementation code.\n\nThe cycle consists of three phases:\n\n+ Red: write a failing test that defines the desired behavior. Since the implementation does not exist yet, the test fails\n+ Green: write the minimum amount of code necessary to make the test pass. The implementation does not need to be elegant or optimized; it just needs to satisfy the test.\n+ Refactor: improve the code's structure, readability, and performance while keeping all tests green. This step eliminates duplication, applies design patterns, and enhances code quality.\n\nThis disciplined approach ensures:\n\n+ Comprehensive test coverage from the start\n+ Clear understanding of requirements before implementation\n+ Incremental, verifiable progress\n+ Clean, well-designed code through continuous refactoring\n+ Confidence to make changes without breaking existing functionality\n\nTDD was popularized by Kent Beck in his book ``Test-Driven Development: By Example`` and is widely adopted in modern software development practices.",
+    "code": "<?php\n\n    // RED: Write a failing test\n    class CalculatorTest extends \\PHPUnit\\Framework\\TestCase {\n        public function test_add_returns_sum(): void {\n            $calc = new Calculator();\n            $this->assertEquals(5, $calc->add(2, 3));\n        }\n    }\n\n    // GREEN: Minimal implementation to pass\n    class Calculator {\n        public function add(int $a, int $b): int {\n            return $a + $b;\n        }\n    }\n\n    // REFACTOR: Improve the code\n    class Calculator {\n        public function add(int ...$numbers): int {\n            return array_sum($numbers);\n        }\n    }\n\n?>",
+    "documentation": "https://martinfowler.com/bliki/TestDrivenDevelopment.html",
+    "related": [
+        "test-driven-development",
+        "refactoring",
+        "unit-test",
+        "test",
+        "phpunit",
+        "clean-code",
+        "best-practice",
+        "test-framework",
+        "assertion",
+        "test-pyramid"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://martinfowler.com/bliki/TestDrivenDevelopment.html"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Test-Driven Development by Kent Beck",
+            "url": "https://externe.pages.maxds.fr/max-blog/test-driven-development-by-example/"
+        }
+    ],
+    "tags": [
+        "methodology",
+        "testing",
+        "tdd"
+    ],
+    "packagist": [
+        "phpunit/phpunit"
+    ],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": {
+        "Kent Beck": "https://kentbeck.com/"
+    },
+    "brand": {
+        "PHPUnit": "https://phpunit.de/"
+    },
+    "popularity": "",
+    "modified": "Fri, 18 Sep 2026 04:59:18 +0000"
+}

@@ -1,0 +1,52 @@
+{
+    "id": "ajax",
+    "name": "AJAX",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/ajax.html",
+    "aliases": [
+        "asynchronous-javascript-and-xml"
+    ],
+    "description": "AJAX, the Asynchronous JavaScript and XML feature, is a set of web development techniques that allow a web page to communicate with a server asynchronously, without requiring a full page reload. Despite the name, modern AJAX often uses JSON rather than XML for data exchange.\n\nAJAX requests are handled like any other HTTP request by PHP. The PHP application receives the request, processes it, and returns a response, most often JSON, which the client-side JavaScript then uses to update the page dynamically.\n\nAJAX is fundamental to single-page applications and dynamic web interfaces.",
+    "code": "<?php\n\n    // Server-side PHP endpoint handling an AJAX request\n    header('Content-Type: application/json');\n    \n    $data = json_decode(file_get_contents('php://input'), true);\n    $name = htmlspecialchars($data['name'] ?? 'World');\n    \n    echo json_encode(['message' => \"Hello, $name!\"]);\n\n?>",
+    "documentation": "https://developer.mozilla.org/en-US/docs/Web/Guide/AJAX",
+    "related": [
+        "xml",
+        "json",
+        "http",
+        "javascript",
+        "spa",
+        "rest-api",
+        "real-time"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/Guide/AJAX"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "AJAX - MDN",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/Guide/AJAX/Getting_Started"
+        }
+    ],
+    "tags": [
+        "web",
+        "concept"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Mon, 10 Aug 2026 17:08:19 +0000"
+}

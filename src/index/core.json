@@ -1,0 +1,49 @@
+{
+    "id": "core",
+    "name": "Core",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/core.html",
+    "aliases": [],
+    "description": "Core is the name of the main PHP engine part, which provides the base features of the language. It has a name to differentiate it from the other extensions, although it is also designed as PHP itself.\n\nIn particular, Core functions are not the math, string or arrays functions: these are in a distinct extensions.",
+    "code": "<?php\n\n    var_dump(1);\n\n?>",
+    "documentation": "https://www.phpinternalsbook.com/",
+    "related": [
+        "extension",
+        "engine",
+        "zend-engine",
+        "internals"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.phpinternalsbook.com/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "php-src on git",
+            "url": "https://github.com/php/php-src"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Zend Engine",
+            "url": "https://en.wikipedia.org/wiki/Zend_Engine"
+        }
+    ],
+    "tags": [
+        "extension"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Tue, 01 Sep 2026 05:31:03 +0000"
+}

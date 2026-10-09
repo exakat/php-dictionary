@@ -1,0 +1,79 @@
+{
+    "id": "visibility",
+    "name": "Visibility",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/visibility.html",
+    "aliases": [
+        "access-level"
+    ],
+    "description": "Properties, methods and classes may have a visibility. It limits the scope of the definition:\n\n+ ``private``: to the current class\n+ ``protected``: to the current class hierarchy, parents and children classes\n+ ``public``: to all the code\n+ ``var``: to all the code, deprecated\n\nThe default visibility is ``public``. The visibility may be omitted when using another option, such as ``final``, ``static``. It is recommended to always specify the visibility explicitly.\n\nVisibility may no change, unless when overwriting it with a trait, or in a child class.\n\nVisibility may be by-passed with class-invasion, where an object of one class may access another object's property, as long as they are from the same class or family.",
+    "code": "<?php\n\n    class Elephpant {\n        public const HABITAT = 1;\n\n        private $tusk;\n\n        protected function trumpet() {}\n    }\n\n?>",
+    "documentation": "https://www.php.net/manual/en/language.oop5.visibility.php",
+    "related": [
+        "property",
+        "method",
+        "class-constant",
+        "class-constant-visibility",
+        "class-invasion",
+        "object",
+        "private",
+        "protected",
+        "public",
+        "var",
+        "asymmetric-visibility",
+        "constructor",
+        "readable",
+        "writable",
+        "get_object_vars",
+        "getter",
+        "variable-scope",
+        "writeable",
+        "permission",
+        "__callstatic",
+        "data-hiding",
+        "modifier",
+        "module-system",
+        "package-visibility"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.oop5.visibility.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Understanding The Concept Of Visibility In Object Oriented PHP",
+            "url": "https://torquemag.io/2016/05/understanding-concept-visibility-object-oriented-php/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP Tricks: Access control bypass",
+            "url": "https://peakd.com/hive-168588/@crell/php-tricks-access-control-bypass"
+        }
+    ],
+    "tags": [
+        "feature",
+        "method",
+        "property",
+        "class-constant",
+        "visibility"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [
+        "Classes/RaisedAccessLevel",
+        "Classes/LoweredAccessLevel",
+        "Classes/ConstVisibilityUsage"
+    ],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Fri, 11 Sep 2026 08:45:36 +0000"
+}

@@ -1,0 +1,47 @@
+{
+    "id": "https",
+    "name": "Hyper Text Transfer Protocol Secure (HTTPS)",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/https.html",
+    "aliases": [],
+    "description": "Hypertext Transfer Protocol Secure, or HTTPS, is an extension of the Hypertext Transfer Protocol, HTTP. It is used for secure communication over a computer network, and is widely used on the Internet.",
+    "code": "<?php\n\n    headers('https://www.exakat.io/');\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/HTTPS",
+    "related": [
+        "http",
+        "http-3",
+        "alpn",
+        "wrapper",
+        "protocol",
+        "http-header"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/HTTPS"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Why HTTPS Matters",
+            "url": "https://developers.google.com/search/docs/fundamentals/get-started#https"
+        }
+    ],
+    "tags": [
+        "acronym",
+        "http"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 20 Aug 2026 08:38:11 +0000"
+}

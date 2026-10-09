@@ -1,0 +1,48 @@
+{
+    "id": "makefile",
+    "name": "Makefile",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/makefile.html",
+    "aliases": [
+        "make"
+    ],
+    "description": "A ``Makefile`` is a configuration file used by the ``make`` build automation tool. It defines targets, their dependencies, and the shell commands to run when a target is built. Targets declared with ``.PHONY`` are always executed regardless of any file with the same name.\n\nIn projects, ``Makefile`` files act as task runners that group common developer operations: installing dependencies, running tests, checking code style, running static analysis, or deploying.",
+    "code": "# Makefile\n.PHONY: install test lint fix deploy\n\ninstall:\n\\tcomposer install\n\ntest:\n\\tvendor/bin/phpunit\n\nlint:\n\\tvendor/bin/phpstan analyse src/\n\\tvendor/bin/php-cs-fixer check src/\n\nfix:\n\\tvendor/bin/php-cs-fixer fix src/\n\ndeploy: test\n\\trsync -avz src/ user@server:/var/www/app/",
+    "documentation": "https://en.wikipedia.org/wiki/Make_(software)",
+    "related": [
+        "ci",
+        "task-runner",
+        "deploy",
+        "composer",
+        "build"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Make_(software)"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "GNU make manual",
+            "url": "https://www.gnu.org/software/make/manual/make.html"
+        }
+    ],
+    "tags": [
+        "tool",
+        "build"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 09 Jul 2026 08:16:23 +0000"
+}

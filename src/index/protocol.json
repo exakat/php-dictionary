@@ -1,0 +1,50 @@
+{
+    "id": "protocol",
+    "name": "Protocol",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/protocol.html",
+    "aliases": [],
+    "description": "A protocol is the scheme part of a URL, with an associated wrapper.\n\nIn a URL like ``ftp://www.site.com/file.txt``, the protocol is ``ftp``, and relates to the FTP protocol. It is also a predefined PHP wrapper.",
+    "code": "<?php\n\n    $html = file_get_content('http://www.php.net/');\n\n?>",
+    "documentation": "https://www.php.net/manual/en/class.streamwrapper.php",
+    "related": [
+        "wrapper",
+        "http",
+        "https",
+        "wrapper-php",
+        "wrapper-stream",
+        "mcp",
+        "oauth",
+        "path",
+        "php-wrapper"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/class.streamwrapper.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Protocols and Wrapper in PHP",
+            "url": "https://www.geeksforgeeks.org/protocols-and-wrapper-in-php/"
+        }
+    ],
+    "tags": [
+        "concept",
+        "feature"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sat, 12 Sep 2026 08:02:50 +0000"
+}

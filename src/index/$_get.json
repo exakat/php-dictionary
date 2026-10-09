@@ -1,0 +1,50 @@
+{
+    "id": "$_get",
+    "name": "$_GET",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/%24_get.html",
+    "aliases": [],
+    "description": "The ``$_GET`` variable is a special superglobal variable that is used to retrieve data from the query string or URL parameters. When a user submits a form using the HTTP GET method or includes parameters in the URL, PHP populates the ``$_GET`` variable with key-value pairs representing those parameters.\n\nThe ``$_GET`` variable is an associative array where the keys are the parameter names and the values are the corresponding values passed in the URL. \n\nThe received values are strings or arrays. They are strings by default, and other scalar types need to be cast to have the correct type. The values are arrays when the URL uses the ``[]`` format: that format handles arrays and maps.\n\n``$_GET`` is a superglobal, or auto-global: it is always available, in every scope.\n\nValues inside ``$_GET`` are always strings, or arrays. ``https://www.site.com/index.php?x=1`` or ``https://www.site.com/index.php?x[2]=1``.",
+    "code": "<?php\n\n    // https://www.example.com/index.php?x=1\n    $_GET['x'] === '1';\n    \n    // https://www.example.com/index.php?y=abc\n    $_GET['y'] === 'abc';\n    \n    // https://www.example.com/index.php?z[]=def&z[][]=ghi\n    $_GET['z'] === ['def', ['ghi']];\n\n?>",
+    "documentation": "https://www.php.net/manual/en/reserved.variables.get.php",
+    "related": [
+        "$_post",
+        "$_request",
+        "$_FILES",
+        "$_server",
+        "$_cookie",
+        "$_env",
+        "form",
+        "incoming-data",
+        "query-string"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/reserved.variables.get.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "$_GET in PHP",
+            "url": "https://oregoom.com/en/php/get/"
+        }
+    ],
+    "tags": [
+        "php variable",
+        "superglobal"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Wed, 19 Aug 2026 06:47:16 +0000"
+}

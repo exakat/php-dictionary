@@ -1,0 +1,49 @@
+{
+    "id": "annotation",
+    "name": "Annotations",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/annotation.html",
+    "aliases": [],
+    "description": "PHP annotations are a system to provide meta data about code, in a way that is programmatically processable. \n\nPHP annotations are based on PHPDoc comment's syntax, and were later partially modernized by PHP attributes.",
+    "code": "<?php\n\n/**\n * <description of trumpet>\n * @param int $a : <description of the parameter>\n * @return int : <description of the returned value>\n */\nfunction trumpet(int $a) {\n    \n    // This annotation cannot be turned into an attribute\n    /**\n     * @var int $b : <description of the variable>\n     */\n     $b = $a + 1;\n     \n     return $b;\n}\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/PHPDoc",
+    "related": [
+        "attribute",
+        "phpdoc"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/PHPDoc"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Understanding annotations",
+            "url": "https://php-annotations.readthedocs.io/en/latest/UsingAnnotations.html"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Annotating Types via PHP Doc Comments",
+            "url": "https://scrutinizer-ci.com/docs/tools/php/php-analyzer/guides/annotating_code"
+        }
+    ],
+    "tags": [
+        "comment"
+    ],
+    "packagist": [
+        "php-annotations/php-annotations"
+    ],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+}

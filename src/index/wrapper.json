@@ -1,0 +1,57 @@
+{
+    "id": "wrapper",
+    "name": "Wrapper",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/wrapper.html",
+    "aliases": [],
+    "description": "A wrapper may refer to two distinct things depending on the context, which is why this entry is a disambiguation page. The first, and most PHP-specific, meaning is a stream wrapper: a built-in or user-registered handler that lets PHP's stream functions, such as ``fopen()``, ``file_get_contents()``, and ``include()``, transparently work with a particular URL-style protocol or resource type as if it were a local file. PHP ships with wrappers for protocols like ``http://``, ``https://``, ``ftp://``, ``ftps://``, ``php://``, and ``file://``, each translating stream operations, reading, writing, seeking, into the appropriate network calls or system behavior for that protocol, and custom wrappers can be registered at runtime with ``stream_wrapper_register()`` to add support for entirely new schemes, such as accessing a database, a compressed archive, or an in-memory buffer through ordinary file functions. The second meaning comes from object-oriented design: the wrapper, or adapter, design pattern, where a class wraps another object or a different, often incompatible, interface, exposing a new API on top of it while delegating the underlying work, commonly used to adapt a third-party library's interface to what an application expects, or to add extra behavior, such as logging or caching, around an existing object without modifying it. This second usage is closely related to, and sometimes used interchangeably with, the facade pattern.",
+    "code": "<?php\n\n    // the PHP wrapper http\n    $html = file_get_content('http://www.php.net/');\n\n?>",
+    "documentation": "https://www.php.net/manual/en/wrappers.php",
+    "related": [
+        "wrapper-stream",
+        "wrapper-designpattern",
+        "http",
+        "https",
+        "wrapper-php",
+        "wrapper-pattern",
+        "ftp",
+        "ftps",
+        "php-wrapper",
+        "protocol",
+        "wrapper-file",
+        "facade",
+        "file_get_contents",
+        "wrapper-ftp",
+        "wrapper-http",
+        "php-filter"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/wrappers.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Php wrapper and Local File Inclusion",
+            "url": "https://medium.com/@robsfromashes/php-wrapper-and-local-file-inclusion-2fb82c891f55"
+        }
+    ],
+    "tags": [
+        "disambiguation",
+        "feature"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 03 Sep 2026 14:35:13 +0000"
+}

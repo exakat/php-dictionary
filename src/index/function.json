@@ -1,0 +1,83 @@
+{
+    "id": "function",
+    "name": "Functions",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/function.html",
+    "aliases": [],
+    "description": "Functions are defined with a set of parameters, a body of code for processing, and a returned value, typed or not. \n\nMethods are defined almost the same way, except for some more options and within the context of a class. \n\nA function is said to be anonymous when it has no name. This is the case of the closures and the arrow functions.",
+    "code": "<?php\n\n    function trumpet($a, $b) {\n        return $a - $b;\n    }\n\n?>",
+    "documentation": "https://www.php.net/manual/en/language.functions.php",
+    "related": [
+        "recursion",
+        "closure",
+        "arrow-function",
+        "method",
+        "anonymous-function",
+        "first-class-callable",
+        "default-parameter",
+        "dereferencing",
+        "disable-functions",
+        "return",
+        "variable-argument",
+        "callback",
+        "fallback-function",
+        "fallback-to-global",
+        "pure-function",
+        "call-graph",
+        "impure-function",
+        "parameter-removal",
+        "undefined",
+        "dynamic-class-constant",
+        "naming-conflict",
+        "php-function",
+        "relay-function",
+        "custom-function",
+        "identity",
+        "arity",
+        "conditioned",
+        "function-subscripting",
+        "generator",
+        "yield-from",
+        "yield"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.functions.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP Functions",
+            "url": "https://www.tutorialrepublic.com/php-tutorial/php-functions.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "How To Use Functions in PHP",
+            "url": "https://www.digitalocean.com/community/tutorials/how-to-use-functions-in-php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Functions",
+            "url": "https://phplang.org/spec/13-functions.html"
+        }
+    ],
+    "tags": [
+        "function"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [
+        "Functions/Functionnames"
+    ],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+}

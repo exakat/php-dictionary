@@ -1,0 +1,45 @@
+{
+    "id": "pascal-case",
+    "name": "Pascal Case",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/pascal-case.html",
+    "aliases": [],
+    "description": "Pascal case, also written ``PascalCase`` is a way of writing names without spaces, where:\n\n+ The first word starts with an uppercase letter\n+ Each following word starts with an uppercase letter\n\nPascal case was used for pascal programming language. It is very similar to camel case, though it is not the same.\n",
+    "code": "<?php\n\n    function CalculatePrice(int $price): int {\n        return $price * SALE_TAX_RATE;\n    }\n\n?>",
+    "documentation": "https://stringcase.org/cases/pascal/",
+    "related": [
+        "camel-case",
+        "snake-case",
+        "constant-case"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://stringcase.org/cases/pascal/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "stringcase website",
+            "url": "https://stringcase.org/"
+        }
+    ],
+    "tags": [
+        "convention"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Mon, 20 Jul 2026 16:47:50 +0000"
+}

@@ -1,0 +1,53 @@
+{
+    "id": "cookie",
+    "name": "Cookie",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/cookie.html",
+    "aliases": [],
+    "description": "Cookies serve as a fundamental web technology that enables websites to store small pieces of data directly within a user's web browser. This stored information persists across browsing sessions, allowing websites to remember specific details about visitors when they return. The primary purposes include tracking user behavior, maintaining login states, personalizing content, and identifying returning visitors to provide customized experiences based on their previous interactions with the site.",
+    "code": "<?php\n\nsetcookie('aCookieName', 'Cookie value', time()+3600);  /* expire in 1 hour */\n\n?>",
+    "documentation": "https://www.php.net/manual/en/features.cookies.php",
+    "related": [
+        "http",
+        "headers",
+        "sso"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/features.cookies.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Cookies in PHP",
+            "url": "https://www.simplilearn.com/tutorials/php-tutorial/cookies-in-php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP Cookies",
+            "url": "https://www.geeksforgeeks.org/php-cookies/"
+        }
+    ],
+    "tags": [
+        "web"
+    ],
+    "packagist": [
+        "dflydev/fig-cookies"
+    ],
+    "extensions": [],
+    "analyzers": [
+        "Php/UseCookies",
+        "Php/CookiesVariables"
+    ],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sat, 08 Aug 2026 08:10:54 +0000"
+}

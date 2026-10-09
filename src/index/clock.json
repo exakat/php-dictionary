@@ -1,0 +1,54 @@
+{
+    "id": "clock",
+    "name": "Clock",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/clock.html",
+    "aliases": [
+        "psr-20"
+    ],
+    "description": "A clock abstraction encapsulates the current time behind an interface, making code that depends on the current time testable with a controlled, deterministic value instead of the real system clock.\n\nPSR-20 standardizes this with ClockInterface, which exposes a single method: ``function now(): DateTimeImmutable``. Rather than calling new ``DateTimeImmutable()`` or ``time()`` directly, a ``ClockInterface`` is injected as a dependency, giving tests full control over the perceived time.\n\nPHP 8.3 introduced the native ``DateTimeImmutable::createFromTimestamp()`` method for testing purposes.",
+    "code": "<?php\n\n    use Psr\\Clock\\ClockInterface;\n    \n    final class Scheduler {\n        public function __construct(private readonly ClockInterface $clock) {}\n    \n        public function isExpired(DateTimeImmutable $expiresAt): bool {\n            return $this->clock->now() > $expiresAt;\n        }\n    }\n\n?>",
+    "documentation": "https://www.php-fig.org/psr/psr-20/",
+    "related": [
+        "datetime",
+        "dateinterval",
+        "psr",
+        "dependency-injection",
+        "test",
+        "immutable",
+        "interoperability"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php-fig.org/psr/psr-20/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Testing Time-Sensitive Code in PHP",
+            "url": "https://symfony.com/doc/current/components/clock.html"
+        }
+    ],
+    "tags": [
+        "standard",
+        "psr",
+        "clock"
+    ],
+    "packagist": [
+        "psr/clock",
+        "symfony/clock"
+    ],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Fri, 04 Sep 2026 09:39:51 +0000"
+}

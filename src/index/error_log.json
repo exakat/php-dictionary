@@ -1,0 +1,49 @@
+{
+    "id": "error_log",
+    "name": "Error_log()",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/error_log.html",
+    "aliases": [],
+    "description": "``error_log()`` sends an error message to a logging destination: the web server log, a file, or a remote address, depending on the ``$message_type`` argument and the ``error_log`` PHP configuration directive.\n\nWith no ``$message_type``, or ``$message_type = 0``, the message goes to whatever destination is set by the ``error_log`` directive. ``$message_type = 3`` appends the message to the file given as the ``$destination`` argument, while ``$message_type = 1`` emails the message, and ``$message_type = 4`` sends it directly to the SAPI logging handler, bypassing the ``error_log`` directive.\n\n``error_log()`` returns ``true`` on success, and does not throw. Because its actual destination depends on runtime configuration, code that relies on ``error_log()`` for anything beyond ad-hoc debugging is usually better served by a dedicated, configurable logger, such as one implementing the PSR-3 ``LoggerInterface``.",
+    "code": "<?php\n\nerror_log('Something went wrong while processing the order');\n\n// append to a specific file, bypassing the error_log directive\nerror_log('Payment failed for order #42', 3, '/var/log/payments.log');\n\n?>",
+    "documentation": "https://www.php.net/manual/en/function.error-log.php",
+    "related": [
+        "error-handler",
+        "exception-handler",
+        "trigger_error",
+        "psr"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/function.error-log.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP: error_log - Manual",
+            "url": "https://www.php.net/manual/en/errorfunc.configuration.php#ini.error-log"
+        }
+    ],
+    "tags": [
+        "native function",
+        "logging"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [
+        "Php/ErrorLogUsage"
+    ],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Fri, 28 Aug 2026 09:34:43 +0000"
+}

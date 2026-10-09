@@ -1,0 +1,51 @@
+{
+    "id": "exception-handler",
+    "name": "Exception Handler",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/exception-handler.html",
+    "aliases": [],
+    "description": "The exception handler is a default or custom function, which is called once an exception has exhausted all available ``try-catch`` blocks.\n\nThe execution stops once the handler has been called: as such, it is possible to log or display information related to debugging. \n\nThe exception handler is different from the try/catch block: the latter allows the execution to carry on, when the exception is processed.",
+    "code": "<?php\n\n    function exception_handler(Throwable $exception) {\n        echo \"Uncaught exception: \" , $exception->getMessage(), \"\\n\";\n    }\n    \n    set_exception_handler('exception_handler');\n    \n    throw new Exception('Uncaught Exception');\n    echo \"Not Executed\\n\";\n\n?>",
+    "documentation": "https://www.php.net/manual/en/function.set-exception-handler.php",
+    "related": [
+        "try-catch",
+        "handler",
+        "error-handler"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/function.set-exception-handler.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Exceptions",
+            "url": "https://www.php.net/manual/en/language.exceptions.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Throwable interface",
+            "url": "https://www.php.net/manual/en/class.throwable.php"
+        }
+    ],
+    "tags": [
+        "exception",
+        "handler",
+        "feature",
+        "error"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+}

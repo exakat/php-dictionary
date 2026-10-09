@@ -1,0 +1,54 @@
+{
+    "id": "tool",
+    "name": "Tool",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/tool.html",
+    "aliases": [
+        "developer-tool",
+        "tooling"
+    ],
+    "description": "A tool in the PHP ecosystem refers to any standalone application, script, or library that assists developers during the software development lifecycle. Tools are usually run from the command line and support activities such as static analysis, code formatting, testing, dependency management, profiling, deployment, and documentation generation.",
+    "code": "<?php\n\n    // Example: running a tool programmatically via Symfony Process\n    use Symfony\\Component\\Process\\Process;\n    \n    $process = new Process(['composer', 'update']);\n    $process->run();\n    \n    if (!$process->isSuccessful()) {\n        echo $process->getErrorOutput();\n    }\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Programming_tool",
+    "related": [
+        "composer",
+        "cli",
+        "analysis",
+        "linting",
+        "devops",
+        "ci",
+        "sca",
+        "mcp",
+        "debugger",
+        "sdk"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Programming_tool"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Awesome PHP Tools",
+            "url": "https://github.com/ziadoz/awesome-php"
+        }
+    ],
+    "tags": [
+        "tool",
+        "sdlc"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Mon, 06 Jul 2026 18:54:12 +0000"
+}

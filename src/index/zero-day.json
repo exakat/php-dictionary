@@ -1,0 +1,47 @@
+{
+    "id": "zero-day",
+    "name": "Zero Day Vulnerability",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/zero-day.html",
+    "aliases": [
+        "0-day"
+    ],
+    "description": "A Zero Day vulnerability is a vulnerability which has no counter measure yet. Until it is found, any attacker may use this vulnerability successfully.",
+    "code": "",
+    "documentation": "https://en.wikipedia.org/wiki/Zero-day_vulnerability",
+    "related": [
+        "vulnerability",
+        "security",
+        "attack"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Zero-day_vulnerability"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "SP Page Builder Zero Day Is Being Used to Plant Fake Joomla Admins",
+            "url": "https://mysites.guru/blog/sp-page-builder-zero-day-uploadcustomicon-rce/"
+        }
+    ],
+    "tags": [
+        "security"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Mon, 20 Jul 2026 16:52:21 +0000"
+}

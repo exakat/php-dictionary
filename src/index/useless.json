@@ -1,0 +1,52 @@
+{
+    "id": "useless",
+    "name": "Useless",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/useless.html",
+    "aliases": [],
+    "description": "Some piece of code is useless when it doesn't bring any feature to the code. \n\nIt may be the case of double checks, where a characteristic is checked twice in a row; or when the same operation is repeated multiple times, yet is idempotent.\n\nIt is also the case of unused calculations: they are processed, stored, but ultimately, not combined with anything else.",
+    "code": "<?php\n\nfunction trumpet(array $array) {\n    if (!empty($array)) {\n        // foreach() checks automatically the array for elements, and skips the loop when the array is empty.\n        foreach($array as $tusk) {\n            doSomething();\n        }\n    }\n}\n\n// trumpet is defined and called\n$result = trumpet([]);\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Dead_code",
+    "related": [
+        "double-check",
+        "idempotent",
+        "unused",
+        "noop",
+        "propagation"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Dead_code"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Code Smells: Dead Code",
+            "url": "https://refactoring.guru/smells/dead-code"
+        }
+    ],
+    "tags": [
+        "quality",
+        "static analysis"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [
+        "Structures/UselessCheck",
+        "Functions/UselessReturn",
+        "Interfaces/AlreadyParentsInterface"
+    ],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+}

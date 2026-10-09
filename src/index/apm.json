@@ -1,0 +1,58 @@
+{
+    "id": "apm",
+    "name": "Application Performance Management (APM)",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/apm.html",
+    "aliases": [],
+    "description": "``APM`` stands for Application Performance Management. An ``APM`` monitors various performance metrics, such as CPU, memory usage, and logs.\n\nIt helps find bottlenecks in the code.",
+    "code": "",
+    "documentation": "https://en.wikipedia.org/wiki/Application_performance_management",
+    "related": [
+        "bottleneck",
+        "monitoring",
+        "metrics",
+        "telemetry",
+        "distributed-tracing",
+        "percentile"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Application_performance_management"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Introduction to New Relic for PHP",
+            "url": "https://docs.newrelic.com/docs/apm/agents/php-agent/getting-started/introduction-new-relic-php/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Tracing PHP Applications",
+            "url": "https://docs.datadoghq.com/fr/tracing/trace_collection/dd_libraries/php/?tab=containers"
+        }
+    ],
+    "tags": [
+        "acronym",
+        "production"
+    ],
+    "packagist": [
+        "datadog/dd-trace",
+        "ekino/newrelic-bundle"
+    ],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": {
+        "blackfire": "https://blackfire.io/",
+        "tideways": "https://tideways.com/"
+    },
+    "popularity": "",
+    "modified": "Thu, 17 Sep 2026 09:12:38 +0000"
+}

@@ -1,0 +1,48 @@
+{
+    "id": "early-binding",
+    "name": "Early Binding",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/early-binding.html",
+    "aliases": [],
+    "description": "Early binding is the feature that makes PHP allow using a class before its declaration, when the declaration is in same file. This is not always true, though, as other mechanisms may .",
+    "code": "",
+    "documentation": "https://www.npopov.com/2021/10/20/Early-binding-in-PHP.html",
+    "related": [
+        "dynamic-class",
+        "late-static-binding",
+        "order-of-execution"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.npopov.com/2021/10/20/Early-binding-in-PHP.html"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Autoloading Classes",
+            "url": "https://www.php.net/manual/en/language.oop5.autoload.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Late Static Bindings",
+            "url": "https://www.php.net/manual/en/language.oop5.late-static-bindings.php"
+        }
+    ],
+    "tags": [
+        "concept"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Tue, 01 Sep 2026 06:21:34 +0000"
+}

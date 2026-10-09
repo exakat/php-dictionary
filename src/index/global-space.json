@@ -1,0 +1,47 @@
+{
+    "id": "global-space",
+    "name": "Global Space",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/global-space.html",
+    "aliases": [],
+    "description": "The term ``global space`` refers to the global namespace ``\\\\\\\\`` or the top-level scope in the PHP language. The global space is where global variables, functions, and global constants reside. When a variable, function, or constant is defined without specifying a namespace, it is stored in the global space.\n\nIt is recommended to avoid using the global space for any definition: they should be stored in a custom namespace. Then, they may be imported in other namespaces, with the ``use`` expression.",
+    "code": "<?php\n\n// This is the global space\nnamespace {\n    // this function is defined in the global space\n    function trumpet() {}\n} \n\n?>",
+    "documentation": "https://www.php.net/manual/en/language.namespaces.global.php",
+    "related": [
+        "use-alias",
+        "import"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.namespaces.global.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP Namespace: An Essential Guide By Examples",
+            "url": "https://www.phptutorial.net/php-oop/php-namespace/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Global Namespaces and Fallback rules in PHP",
+            "url": "https://blog.eduonix.com/2014/12/global-namespace-and-fallback-rules-in-php/"
+        }
+    ],
+    "tags": [
+        "namespace"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+}

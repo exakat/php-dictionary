@@ -1,0 +1,48 @@
+{
+    "id": "strpos-syndrom",
+    "name": "Strpos() Syndrome",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/strpos-syndrom.html",
+    "aliases": [],
+    "description": "The ``strpos()`` syndrome is a classic bug: ``strpos()`` searches for a string inside another string. It reports its index upon finding it, or false, if the string was not found.\n\nPHP's string are indexed starting with 0, so the found string might be in an index from 0 to the size of the string. \n\nPHP also cast 0 to false. And false is also the value that is returned when the string is not found. So, if the found string is at the very beginning of the searched string, it might be confused for its absence.\n\nTo avoid confusion, it is recommended to make an explicit comparison with false, using ``===`` or ``!==``.\n\nNote that many PHP native functions behave that way, and should be treated with the same precaution.\n\nIn the case of ``strpos()``, it may be replaced with ``str_contains()``, since PHP 8.0, or a regex, to get safer results.",
+    "code": "<?php\n\n    $haystack = 'abcdef';\n    \n    if (strpos($haystack, 'b')) {\n        print \"The haystack contains a 'b'\\n\";\n    }\n    \n    if (strpos($haystack, 'a')) {\n        print \"The haystack contains an 'a'\\n\";\n    } else {\n        print \"The haystack doesn't contain an 'a'\\n\";\n    }\n\n?>",
+    "documentation": "https://www.php.net/manual/en/function.strpos.php",
+    "related": [
+        "bug",
+        "array_search",
+        "json_decode",
+        "preg_match",
+        "strpos"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/function.strpos.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "The Hidden Pitfalls: Why empty(), strpos(), and More Are Often Misunderstood",
+            "url": "https://medium.com/@jorisvdaalsvoort/the-hidden-pitfalls-why-empty-strpos-and-more-are-often-misunderstood-43800c88be33"
+        }
+    ],
+    "tags": [
+        "classic bug",
+        "confusion"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [
+        "Structures/StrposCompare"
+    ],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 20 Aug 2026 08:46:41 +0000"
+}

@@ -1,0 +1,48 @@
+{
+    "id": "graphql",
+    "name": "GraphQL",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/graphql.html",
+    "aliases": [
+        "graphql-api"
+    ],
+    "description": "GraphQL, or the GraphQL API style, is a query language for APIs. It provides a way to describe data and operations, so that clients can freely build queries.\n\nPHP has several packages to implement both the client and the server side of GraphQL.",
+    "code": "",
+    "documentation": "https://graphql.org/",
+    "related": [
+        "rest-api",
+        "application",
+        "graph"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://graphql.org/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "GraphQL on wikipedia",
+            "url": "https://en.wikipedia.org/wiki/GraphQL"
+        }
+    ],
+    "tags": [
+        "api"
+    ],
+    "packagist": [
+        "webonyx/graphql-php",
+        "api-platform/core"
+    ],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sun, 30 Aug 2026 11:37:39 +0000"
+}

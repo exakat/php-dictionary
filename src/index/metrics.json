@@ -1,0 +1,66 @@
+{
+    "id": "metrics",
+    "name": "Metrics",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/metrics.html",
+    "aliases": [],
+    "description": "Metrics refer to quantitative measurements used to evaluate the performance, quality, and behavior of the code. \n\nThese metrics help understand how the application behaves in production, identify bottlenecks, optimize performance, and ensure code quality. \n\nHere are some common metrics:\n\n+ Time of execution\n+ Memory consumption\n+ Number of database queries\n+ Cyclomatic complexity\n+ Code coverage\n+ Cognitive complexity\n+ Code duplication\n+ Lines of code\n\n``PHPMetrics`` is also the name of an eponymous project.",
+    "code": "",
+    "documentation": "https://en.wikipedia.org/wiki/Software_metric",
+    "related": [
+        "apm",
+        "monitoring",
+        "ci",
+        "cyclomatic-complexity",
+        "cognitive-complexity",
+        "algorithmic-complexity",
+        "analysis"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Software_metric"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PhpMetrics of Popular PHP Projects",
+            "url": "https://peteraba.com/blog/phpmetrics-of-popular-projects/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Using PHP Web Application Performance Metrics for Early Threat Detection",
+            "url": "https://www.zend.com/blog/web-application-performance-metrics-security"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP Performance Monitoring: A Developer\u2019s Guide",
+            "url": "https://stackify.com/php-performance-monitoring-a-developers-guide/"
+        }
+    ],
+    "tags": [
+        "quality",
+        "static analysis"
+    ],
+    "packagist": [
+        "phpmetrics/phpmetrics",
+        "php-code-archeology/php-code-archeology",
+        "phpmd/phpmd"
+    ],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": {
+        "PDepend": "https://pdepend.org/"
+    },
+    "popularity": "",
+    "modified": "Fri, 18 Sep 2026 04:54:19 +0000"
+}

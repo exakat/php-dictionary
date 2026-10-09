@@ -1,0 +1,44 @@
+{
+    "id": "bootstrap",
+    "name": "Bootstrap",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/bootstrap.html",
+    "aliases": [],
+    "description": "The bootstrap concept generally means starting something using minimal initial resources and building it up by using the results of earlier steps. It's the idea of ``pulling yourself up by your own bootstraps``.\n\nUse a small, simple starting point to create a more complex or capable system.\n\nBootstrapping include the following steps\n\n+ Load composer autoload\n+ Define base path\n+ Load environment variables\n+ Load configuration\n+ Create the application object\n+ Set up dependency injection container\n+ Set up service providers\n+ Establish connections to database, logging system, cache\n+ Register routes\n+ Attach listeners\n+ Build the request object\n+ Run the controller\n\nThese list is a general panorama. The steps may not be in order, not exhaustive not applicable to specific frameworks.",
+    "code": "",
+    "documentation": "https://en.wikipedia.org/wiki/Bootstrapping",
+    "related": [
+        "lifecycle",
+        "global-code"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Bootstrapping"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Bootstrapping a Frameworkless PHP Application",
+            "url": "https://maximegosselin.com/posts/bootstrapping-a-frameworkless-php-application/"
+        }
+    ],
+    "tags": [
+        "execution cycle"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Fri, 19 Jun 2026 21:25:17 +0000"
+}

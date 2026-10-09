@@ -1,0 +1,56 @@
+{
+    "id": "rest-api",
+    "name": "REST API",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/rest-api.html",
+    "aliases": [],
+    "description": "REST stands for Representational state transfer. It formalize an interface to access resources that are physically separated.\n\nREST defines four interface constraints:\n\n+ Identification of resources\n+ Manipulation of resources\n+ Self-descriptive messages\n+ Hypermedia as the engine of application state\n\nREST APIs are documented with OpenAPI, aka swagger.",
+    "code": "",
+    "documentation": "https://www.redhat.com/en/topics/api/what-is-a-rest-api",
+    "related": [
+        "api",
+        "graphql",
+        "grpc",
+        "swagger",
+        "webrtc",
+        "application",
+        "mobile-app",
+        "pwa",
+        "web-app",
+        "ajax",
+        "headless",
+        "http-code",
+        "microframework",
+        "search-engine"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.redhat.com/en/topics/api/what-is-a-rest-api"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "How To Use Web APIs in PHP 8.0",
+            "url": "https://www.digitalocean.com/community/tutorials/how-to-use-web-apis-in-php-8-0"
+        }
+    ],
+    "tags": [
+        "api"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": {
+        "OpenAPI": "https://www.openapis.org/"
+    },
+    "popularity": "",
+    "modified": "Fri, 18 Sep 2026 04:59:28 +0000"
+}

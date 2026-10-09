@@ -1,0 +1,60 @@
+{
+    "id": "breadth-first-search",
+    "name": "Breadth-First Search",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/breadth-first-search.html",
+    "aliases": [
+        "bfs"
+    ],
+    "description": "Breadth-first search, or BFS, is an algorithm for traversing or searching a tree or graph that explores all neighbors of a node before moving on to the next level of neighbors. Starting from a root node, it visits every node at distance 1, then every node at distance 2, and so on, expanding outward one full layer at a time.\n\nBFS is typically implemented with a queue: the starting node is pushed in, and then, repeatedly, a node is popped from the front, its unvisited neighbors are marked visited and pushed to the back, until the queue is empty. This first-in-first-out order is what produces the level-by-level traversal, in contrast with depth-first search, which uses a stack, or recursion, and dives down one branch before backtracking.\n\nBecause it explores the graph one layer at a time, BFS is the natural choice for finding the shortest path between two nodes in an unweighted graph, since the first time the target node is reached is guaranteed to be via the fewest possible edges. It is used for tasks such as finding the shortest chain of relations in a social graph, crawling a website level by level, or checking whether a graph is connected.",
+    "code": "<?php\n\n    function bfs(array $graph, string $start): array {\n        $visited = [$start => true];\n        $order = [];\n        $queue = new SplQueue();\n        $queue->enqueue($start);\n\n        while (!$queue->isEmpty()) {\n            $node = $queue->dequeue();\n            $order[] = $node;\n\n            foreach ($graph[$node] ?? [] as $neighbor) {\n                if (!isset($visited[$neighbor])) {\n                    $visited[$neighbor] = true;\n                    $queue->enqueue($neighbor);\n                }\n            }\n        }\n\n        return $order;\n    }\n\n    $graph = [\n        'A' => ['B', 'C'],\n        'B' => ['A', 'D'],\n        'C' => ['A', 'D'],\n        'D' => ['B', 'C'],\n    ];\n\n    print_r(bfs($graph, 'A')); // ['A', 'B', 'C', 'D']\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Breadth-first_search",
+    "related": [
+        "depth-first-search",
+        "graph",
+        "tree",
+        "traversal",
+        "queue",
+        "algorithm"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Breadth-first_search"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "SplQueue",
+            "url": "https://www.php.net/manual/en/class.splqueue.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Breadth-First Search (BFS) - GeeksforGeeks",
+            "url": "https://www.geeksforgeeks.org/dsa/breadth-first-search-or-bfs-for-a-graph/"
+        }
+    ],
+    "tags": [
+        "algorithm",
+        "graph"
+    ],
+    "packagist": [
+        "graphp/algorithms"
+    ],
+    "extensions": [
+        "spl"
+    ],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Mon, 07 Sep 2026 09:09:48 +0000"
+}

@@ -1,0 +1,49 @@
+{
+    "id": "base-conversion",
+    "name": "Base Conversion",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/base-conversion.html",
+    "aliases": [],
+    "description": "Base conversion turns an integer written in one numeric base into the same value written in another base. PHP has ``base_convert()`` for arbitrary bases, from 2 to 36, and dedicated functions for the common cases: ``bindec()`` and ``decbin()`` for binary, ``octdec()`` and ``decoct()`` for octal, ``hexdec()`` and ``dechex()`` for hexadecimal.\n\n``base_convert()`` takes the number as a string, the source base and the target base, and returns a string. Digits above 9 use the letters ``a`` to ``z``, case-insensitive. Bases outside 2 to 36 throw a ``ValueError``. Characters that are not valid digits in the source base are ignored, with a deprecation notice since PHP 7.4.\n\nThe conversion works on integers. A value larger than ``PHP_INT_MAX`` is converted as a float, which can lose precision.\n",
+    "code": "<?php\n\n    echo base_convert('ff', 16, 2);   // 11111111\n    echo base_convert('777', 8, 10);  // 511\n    echo base_convert('1234', 10, 36); // ya\n\n    echo bindec('1100');   // 12\n    echo dechex(255);      // ff\n    echo hexdec('ff');     // 255\n\n?>",
+    "documentation": "https://www.php.net/manual/en/function.base-convert.php",
+    "related": [
+        "numeric-base",
+        "decbin",
+        "hexadecimal-integer",
+        "octal-integer",
+        "binary-integer",
+        "integer"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/function.base-convert.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP: base_convert() - Manual",
+            "url": "https://www.php.net/manual/en/function.base-convert.php"
+        }
+    ],
+    "tags": [
+        "native function",
+        "math"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Fri, 09 Oct 2026 16:29:01 +0000"
+}

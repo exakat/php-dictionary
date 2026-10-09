@@ -1,0 +1,52 @@
+{
+    "id": "writable",
+    "name": "Writable",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/writable.html",
+    "aliases": [],
+    "description": "Something is writable when a new value may be assigned to it, in the correct context. For example, a variable is writable, as it may be assigned a new value in the local context.\n\nVariable, properties, given the correct visibility, static properties, array elements are writable. \n\nOn the other hand, constants, method calls, function calls, or instantiation are not writable: they provide a value, but do not accept to be written to.\n",
+    "code": "<?php\n\n$trunk = 3;\n$tusk = $trunk + 4;\n\n// syntax error\n// new x = 3;\n\n?>",
+    "documentation": "https://www.php.net/manual/en/function.is-writable.php",
+    "related": [
+        "visibility",
+        "variable",
+        "static-property",
+        "property",
+        "container",
+        "array-element",
+        "readable"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/function.is-writable.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP: Variables",
+            "url": "https://www.php.net/manual/en/language.variables.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Assignment (computer science) - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Assignment_(computer_science)"
+        }
+    ],
+    "tags": [
+        "concept"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+}

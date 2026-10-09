@@ -1,0 +1,49 @@
+{
+    "id": "ports-and-adapters",
+    "name": "Ports And Adapters",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/ports-and-adapters.html",
+    "aliases": [],
+    "description": "Ports and Adapters is the formal name for the pattern underlying hexagonal architecture, coined by ``Alistair Cockburn``. It separates the application core from its external dependencies by defining two types of boundary:\n\nA port is an interface declared by the application core. It expresses what the application needs or what it accepts without knowing anything about the outside world.\n\nAn adapter is an implementation of a port that bridges the application core to a specific technology. A database adapter implements a repository port; an HTTP adapter implements a web input port; a test adapter implements a port using in-memory fakes.\n\nInput ports represent entry points into the application: ``HTTP`` controllers, ``CLI`` commands, queue consumers. Output ports represent dependencies the application calls: databases, email senders, external APIs.\n\nThis pattern is expressed through interfaces and dependency injection: the core declares an interface which acts as the port, and a framework or infrastructure class implements it, which acts as the adapter. The DI container wires them together.",
+    "code": "<?php\n\n    // Output port \u2014 declared in the domain layer\n    interface OrderRepository {\n        public function findById(int $id): ?Order;\n        public function save(Order $order): void;\n    }\n    \n    // Adapter \u2014 lives in the infrastructure layer\n    class PdoOrderRepository implements OrderRepository {\n        public function findById(int $id): ?Order { /* SQL */ }\n        public function save(Order $order): void   { /* SQL */ }\n    }\n    \n    // Test adapter \u2014 in-memory, no database needed\n    class InMemoryOrderRepository implements OrderRepository {\n        private array $store = [];\n        public function findById(int $id): ?Order  { return $this->store[$id] ?? null; }\n        public function save(Order $order): void    { $this->store[$order->id] = $order; }\n    }\n    \n    // Input port \u2014 application service driven by an HTTP adapter (controller)\n    class PlaceOrderUseCase {\n        public function __construct(private OrderRepository $orders) {}\n        public function execute(PlaceOrderCommand $cmd): Order { /* domain logic */ }\n    }\n\n?>",
+    "documentation": "https://alistair.cockburn.us/hexagonal-architecture/",
+    "related": [
+        "hexagonal",
+        "adapter",
+        "dependency-injection",
+        "interface",
+        "clean-architecture",
+        "layered-architecture",
+        "ddd"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://alistair.cockburn.us/hexagonal-architecture/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "From Chaos to Clean: Implementing Hexagonal Architecture in PHP",
+            "url": "https://dev.to/helmarjunior/from-chaos-to-clean-implementing-hexagonal-architecture-in-php-2n01"
+        }
+    ],
+    "tags": [
+        "concept"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": {
+        "Alistair Cockburn": "https://alistaircockburn.com"
+    },
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 17 Sep 2026 09:02:37 +0000"
+}

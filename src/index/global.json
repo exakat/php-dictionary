@@ -1,0 +1,61 @@
+{
+    "id": "global",
+    "name": "global Scope",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/global.html",
+    "aliases": [
+        "global-scope"
+    ],
+    "description": "The global scope is the top level scope. It is the scope when no function, or method scope is active. It is also the first scope when starting execution. \n\nVariables from the global scope are accessible in other scopes by using the ``global`` keyword, or the ``$GLOBALS`` variable. Variables in the global scope are automatically added to the $GLOBALS variable; in local scopes, the ``global`` keyword has that effect too.\n\nSome special variables are called superglobal: they are available in every scope.\n\nThe opposite of the global scope is the local scope. \n",
+    "code": "<?php\n\n    $trunk = 'A';\n\n    function counter() {\n        echo $GLOBALS['A'];\n\n        global $trunk;\n\n        echo $trunk;\n    }\n    \n    counter();\n\n?>",
+    "documentation": "https://www.php.net/manual/en/reserved.variables.globals.php",
+    "related": [
+        "variable",
+        "static-variable",
+        "variable-variable",
+        "global-variable",
+        "namespace",
+        "$argv",
+        "glob",
+        "local",
+        "scope",
+        "fallback-to-global",
+        "variable-scope",
+        "superglobal"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/reserved.variables.globals.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP global keyword - Accessing Global Variables in PHP",
+            "url": "https://zetcode.com/php/global-keyword/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP $GLOBALS",
+            "url": "https://www.geeksforgeeks.org/php/php-globals/"
+        }
+    ],
+    "tags": [
+        "variable",
+        "feature",
+        "bad practice"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 10 Sep 2026 20:22:34 +0000"
+}

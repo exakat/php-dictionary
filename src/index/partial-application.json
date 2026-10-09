@@ -1,0 +1,56 @@
+{
+    "id": "partial-application",
+    "name": "Partial Application",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/partial-application.html",
+    "aliases": [
+        "pfa"
+    ],
+    "description": "Partial application is the technique of fixing a subset of a function's arguments in advance, producing a new function of smaller arity that still expects the remaining arguments. It is the operation itself, distinct from its result, which is called a ``partial function``.\n\nPartial application differs from currying: currying always transforms a function into a chain of one-argument functions, while partial application may fix any number of arguments at once and leaves the rest to be supplied together, in a single further call.\n\nPHP has no dedicated syntax for partial application. It is emulated by wrapping the original call inside a closure or an arrow function that captures the already-known arguments, or with ``Closure::fromCallable()`` combined with a manual wrapper. First-class callable syntax makes referencing the underlying function easier, but does not perform the application itself.",
+    "code": "<?php\n\n    function request(string $method, string $url, array $options = []) {\n        // ...\n    }\n\n    // fixing the first argument ahead of time\n    $get = fn(string $url, array $options = []) => request('GET', $url, $options);\n\n    $get('https://example.com'); // only the remaining arguments are needed\n\n    // fixing two arguments at once, unlike currying which would take them one by one\n    $getExample = fn(array $options = []) => request('GET', 'https://example.com', $options);\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Partial_application",
+    "related": [
+        "partial-function",
+        "currying",
+        "closure",
+        "arrow-function",
+        "functional-programming",
+        "first-class-callable"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Partial_application"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Curry or Partial Application?",
+            "url": "https://medium.com/javascript-scene/curry-or-partial-application-8150044c78b8"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Currying vs partial function application",
+            "url": "https://codeblog.jonskeet.uk/2012/01/30/currying-vs-partial-function-application/"
+        }
+    ],
+    "tags": [
+        "concept",
+        "functional programming"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Fri, 11 Sep 2026 09:03:32 +0000"
+}

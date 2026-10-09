@@ -1,0 +1,51 @@
+{
+    "id": "override",
+    "name": "Override Attribute",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/override.html",
+    "aliases": [],
+    "description": "This is a native PHP attribute, which tells the engine that a method must be overriding the same method in a parent.\n\nThe overridden method may be in the parent, or any subsequent parent; it may also be defined in a trait, as a concrete definition or an alias.\n\nThe error is only reported at execution time. The same error message is used if the class has no parent, at linting time.\n\nThis attribute may be added to any method.",
+    "code": "<?php\n\nclass Elephpant {\n    function trumpet() {}\n}\n\nclass Calf {\n    #[Override]\n    function trumpet() {}\n\n    #[Override]\n    function forage() {}\n    // This raise an error, as forage() has no definition in the parent.\n}\n\n?>",
+    "documentation": "https://www.php.net/manual/en/language.attributes.classes.php",
+    "related": [
+        "overriding",
+        "overwrite",
+        "php-attribute",
+        "php-native-attribute",
+        "attribute-class",
+        "mro",
+        "lint-wont-execute"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.attributes.classes.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Understanding PHP #[Override] Attribute: A Beginner's Complete Guide \u2014 2025",
+            "url": "https://medium.com/@arifhossen.dev/understanding-php-override-attribute-a-beginners-complete-guide-55275bf7fc87"
+        }
+    ],
+    "tags": [
+        "lint but won't execute",
+        "attribute",
+        "php attribute"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "8.2+",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": {
+        "%s::%s() has #[\\Override] attribute, but no matching parent method exists": "%s::%s()-has-#[-override]-attribute,-but-no-matching-parent-method-exists"
+    },
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+}

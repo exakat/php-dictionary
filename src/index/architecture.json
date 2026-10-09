@@ -1,0 +1,53 @@
+{
+    "id": "architecture",
+    "name": "Architecture",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/architecture.html",
+    "aliases": [],
+    "description": "Architecture refers to the global design of code, or its servers.\n\nArchitecture evolves into urbanisation: this happens when several applications have to be coordinated. \n",
+    "code": "",
+    "documentation": "https://en.wikipedia.org/wiki/Software_architecture",
+    "related": [
+        "code-architecture",
+        "server-architecture",
+        "business-logic",
+        "clean-architecture",
+        "scaling",
+        "shard",
+        "headless",
+        "horizontal-scaling",
+        "serverless",
+        "tech-silo",
+        "urbanisation",
+        "vertical-scaling"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Software_architecture"
+        }
+    ],
+    "tags": [
+        "architecture"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": {
+        "Deptrac": "https://deptrac.github.io/deptrac/",
+        "Arkitect": "https://github.com/phparkitect/arkitect",
+        "mago": "https://github.com/carthage-software/mago"
+    },
+    "popularity": "",
+    "modified": "Thu, 17 Sep 2026 14:43:32 +0000"
+}

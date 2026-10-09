@@ -1,0 +1,52 @@
+{
+    "id": "new-in-initializer",
+    "name": "New In Initializers",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/new-in-initializer.html",
+    "aliases": [
+        "new-initializer"
+    ],
+    "description": "New in initializers, or the new initializer feature, makes it possible to use a new expression for default values of static variables, parameter and constants.\n\nIt is not possible to use a new operator in a property definition. All elements of the instantiation must be constants, literal or constants or class constant, and available at calling time.",
+    "code": "<?php\n\n    class Elephpant {\n        function __construct(private int $i) {}\n    }\n\n    function headers($elephpant = new Elephpant(3)) : Elephpant {\n        return $elephpant;\n    }\n\n?>",
+    "documentation": "https://wiki.php.net/rfc/new_in_initializers",
+    "related": [
+        "new",
+        "static-variable",
+        "constant",
+        "class-constant",
+        "parameter"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://wiki.php.net/rfc/new_in_initializers"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Initialize objects right into the constructor parameters in PHP 8.1",
+            "url": "https://www.amitmerchant.com/initialize-objects-right-into-the-constructor-parameters-in-php-81/"
+        }
+    ],
+    "tags": [
+        "feature",
+        "rfc"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [
+        "Php/NewInitializers"
+    ],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "8.1+",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": {
+        "New expressions are not supported in this context": "new-expressions-are-not-supported-in-this-context"
+    },
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+}

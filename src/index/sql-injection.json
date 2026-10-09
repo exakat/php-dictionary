@@ -1,0 +1,54 @@
+{
+    "id": "sql-injection",
+    "name": "SQL Injection",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/sql-injection.html",
+    "aliases": [],
+    "description": "A SQL injection is a vulnerability, where external data are used to change the behavior of a SQL query. \n\nIn the example below, ``$_GET`` are directly used inside the query. By using a clever string, as shown in comment, it is possible to bypass the whole condition and get access to any user. \n\nAmong the solutions to mitigate this problem: filter adequately the incoming data; use prepared statements.",
+    "code": "<?php\n\n    // $_GET['name'] = ' OR 1 = 1 OR ';\n    $SQL_query = \"SELECT * FROM users WHERE name=\" . $_GET['name'] . \" AND password=\" . $_GET['pass'] . \"\";\n\n    $connexion->query($SQL_query);\n\n?>",
+    "documentation": "https://www.php.net/manual/en/security.database.sql-injection.php",
+    "related": [
+        "semicolon",
+        "prepared-query",
+        "injection",
+        "sast",
+        "second-order-sql-injection",
+        "data-flow-analysis",
+        "idor",
+        "image-injection",
+        "ldap-injection"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/security.database.sql-injection.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "SQL Injection in PHP Web Applications",
+            "url": "https://brightsec.com/blog/php-sql-injection/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "What is SQL injection and how to prevent it?",
+            "url": "https://docs.php.earth/security/sql-injection/"
+        }
+    ],
+    "tags": [
+        "security"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sat, 08 Aug 2026 08:10:54 +0000"
+}

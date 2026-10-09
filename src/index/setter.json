@@ -1,0 +1,50 @@
+{
+    "id": "setter",
+    "name": "Class Setter Method",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/setter.html",
+    "aliases": [],
+    "description": "Setters are methods used to give the values of a property. Setters may apply some filtering and validation before accepting the value.\n\nSetters are usually created with a getter method.",
+    "code": "<?php\n\n    class x {\n        private $property;\n        \n        public function setProperty($value) {\n            $this->property = $value;\n        }\n    }\n\n?>",
+    "documentation": "https://oatllo.com/course/php/objective-programming/php-getter-setter-guide",
+    "related": [
+        "class",
+        "getter",
+        "wither",
+        "encapsulation"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://oatllo.com/course/php/objective-programming/php-getter-setter-guide"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "What are getters and setters methods in PHP?",
+            "url": "https://www.tutorialspoint.com/what-are-getters-and-setters-methods-in-php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "The Magic of PHP Getters, Setters, and Readonly Classes: Crafting Clean and Efficient Code",
+            "url": "https://medium.com/@lordNeic/the-magic-of-php-getters-setters-and-readonly-classes-crafting-clean-and-efficient-code-edf7c852f340"
+        }
+    ],
+    "tags": [
+        "pattern",
+        "method type"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "5.0+",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sat, 08 Aug 2026 08:10:54 +0000"
+}

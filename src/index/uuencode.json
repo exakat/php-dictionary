@@ -1,0 +1,51 @@
+{
+    "id": "uuencode",
+    "name": "UUencode Encoding",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/uuencode.html",
+    "aliases": [],
+    "description": "Uuencode, short for ``Unix-to-Unix encoding``, is a binary-to-text encoding mechanism originally designed to transfer binary data over mediums that only support text, such as email or newsgroups. It encodes binary files into a text format that can be easily transmitted and decoded back into their original form.",
+    "code": "<?php\n\n    $phpString = 'Well, I can say: \u4f60\u597d\uff01' ;\n    \n    $encoded = convert_uuencode($phpString);\n    print $encoded.PHP_EOL;\n    //:5V5L;\"P@22!C86X@<V%Y.B#DO:#EI;WOO($`\n    //`\n    \n    $decoded = convert_uudecode($encoded);\n    print $decoded.PHP_EOL;\n    //Well, I can say: \u4f60\u597d\uff01\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Uuencoding",
+    "related": [
+        "base64"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Uuencoding"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Php Base64 encode/decode \u2013 best practices and use cases",
+            "url": "https://inspector.dev/php-base64-encodedecode-best-practices-and-use-cases/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "convert_uuencode",
+            "url": "https://www.php.net/manual/en/function.convert-uuencode.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Uuencoding with PHP",
+            "url": "https://mojoauth.com/binary-encoding-decoding/uuencoding-with-php/"
+        }
+    ],
+    "tags": [
+        "encoding"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Mon, 15 Jun 2026 11:03:59 +0000"
+}

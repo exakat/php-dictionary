@@ -1,0 +1,57 @@
+{
+    "id": "object-invasion",
+    "name": "Object Invasion",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/object-invasion.html",
+    "aliases": [],
+    "description": "PHP allows objects of one class to access private structures of an object of the same class.\n\nThis is useful when cloning or importing objects with ``__set_state()``: within the same class, those methods can create new objects and assign all their properties.\n\nThis feature break OOP encapsulation: even when using private visibility, it is possible to access then from outside the object.",
+    "code": "<?php\n\nclass Elephpant {\n    private $trunkLength = 0;\n\n    // accessing a different object\n    function trumpet(Elephpant $elephpant) {\n        $elephpant->trunkLength = $this->trunkLength;\n    }\n\n    function __set_state($array) {\n        $object = new self();\n        $object->trunkLength = $array['trunkLength'];\n\n        return $object;\n    }\n}\n\n?>",
+    "documentation": "https://www.php.net/manual/en/language.oop5.visibility.php#language.oop5.visibility-other-objects",
+    "related": [
+        "__set_state",
+        "object"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.oop5.visibility.php#language.oop5.visibility-other-objects"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Accessing private properties from other instances",
+            "url": "https://verraes.net/2011/03/accessing-private-properties-from-other-instances/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Class Invasion Both Ways",
+            "url": "https://php-tips.readthedocs.io/en/latest/tips/class_invasion_reciproque.html"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "How to easily access private properties and methods in PHP",
+            "url": "https://freek.dev/3048-how-to-easily-access-private-properties-and-methods-in-php"
+        }
+    ],
+    "tags": [
+        "oop",
+        "visibility",
+        "object",
+        "feature"
+    ],
+    "packagist": [
+        "spatie/invade"
+    ],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+}

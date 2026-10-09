@@ -1,0 +1,47 @@
+{
+    "id": "delayedtargetvalidation",
+    "name": "delayedtargetvalidation",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/delayedtargetvalidation.html",
+    "aliases": [],
+    "description": "The DelayedTargetValidation attribute is meant to make other PHP engine attributes optional. It will shut down complains from the PHP engine for attributes, allowing for future compatibility.",
+    "code": "<?php\nclass Child extends Base {\n    #[\\DelayedTargetValidation]\n        #[\\Override]\n        const NAME ='Child';\n}\n?>",
+    "documentation": "https://wiki.php.net/rfc/delayedtargetvalidation_attribute",
+    "related": [
+        "attribute",
+        "php-attribute",
+        "forward-compatible",
+        "php-native-attribute"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://wiki.php.net/rfc/delayedtargetvalidation_attribute"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "#[\\DelayedTargetValidation] Attribute Explained",
+            "url": "https://scherzer.dev/Blog/20250820-delayed-target-validation"
+        }
+    ],
+    "tags": [
+        "attribute",
+        "rfc"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Fri, 17 Jul 2026 08:39:21 +0000"
+}

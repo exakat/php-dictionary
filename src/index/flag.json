@@ -1,0 +1,55 @@
+{
+    "id": "flag",
+    "name": "Flag",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/flag.html",
+    "aliases": [],
+    "description": "A flag is another name for an option. Often, flags are booleans: they are either on, or off. \n\nFlags are often consecutive powers of 2, so they can be merged together by addition ``+`` or by logical or ``|``, and passed as one. \n\nExample of flags: \n\n+ ``preg_match()``, fourth argument: ``PREG_OFFSET_CAPTURE`` and ``PREG_UNMATCHED_AS_NULL``;\n+ ``json_decode()``, fourth argument: ``JSON_BIGINT_AS_STRING``, ``JSON_INVALID_UTF8_IGNORE``, ``JSON_INVALID_UTF8_SUBSTITUTE``, ``JSON_OBJECT_AS_ARRAY``, ``JSON_THROW_ON_ERROR``;\n+ ``ArrayObject::setFlags()``, first argument: \t``ArrayObject::STD_PROP_LIST`` or ``ArrayObject::ARRAY_AS_PROPS``.",
+    "code": "<?php\n\n    $string = 'adg';\n    \n    preg_match('/([abc])([def])/', $string, $r, PREG_OFFSET_CAPTURE);\n    print_r($r);\n    /**\n    Array\n(\n    [0] => ad\n    [1] => a\n    [2] => d\n)\n*/\n    \n    preg_match('/([abc])([def])/', $string, $r, PREG_OFFSET_CAPTURE);\n    print_r($r);\n/**\nArray\n(\n    [0] => Array\n        (\n            [0] => ad\n            [1] => 0\n        )\n\n    [1] => Array\n        (\n            [0] => a\n            [1] => 0\n        )\n\n    [2] => Array\n        (\n            [0] => d\n            [1] => 1\n        )\n\n)\n*/\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Flag_(computing)",
+    "related": [
+        "option",
+        "directive",
+        "configuration"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Flag_(computing)"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "preg_match",
+            "url": "https://www.php.net/manual/en/function.preg-match.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "json_decode",
+            "url": "https://www.php.net/manual/en/function.json-decode.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Bitwise Operators",
+            "url": "https://www.php.net/manual/en/language.operators.bitwise.php"
+        }
+    ],
+    "tags": [
+        "folklore"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Tue, 01 Sep 2026 08:36:39 +0000"
+}

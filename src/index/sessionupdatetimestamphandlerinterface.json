@@ -1,0 +1,48 @@
+{
+    "id": "sessionupdatetimestamphandlerinterface",
+    "name": "SessionUpdateTimestampHandlerInterface",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/sessionupdatetimestamphandlerinterface.html",
+    "aliases": [],
+    "description": "``SessionUpdateTimestampHandlerInterface`` allows session handlers to validate session IDs and control whether the session timestamp is updated on read.\n\nIt adds two methods: ``validateId(string $id): bool`` to check whether a session ID exists, and ``updateTimestamp(string $id, string $data): bool`` to refresh the session's last-accessed time without rewriting all its data.",
+    "code": "<?php\n\n    class OptimisedSessionHandler implements SessionHandlerInterface, SessionUpdateTimestampHandlerInterface {\n        public function validateId(string $id): bool {\n            return (bool) $this->redis->exists('sess:' . $id);\n        }\n    \n        public function updateTimestamp(string $id, string $data): bool {\n            return (bool) $this->redis->expire('sess:' . $id, 1440);\n        }\n        // ... implement remaining SessionHandlerInterface methods\n    }\n\n?>",
+    "documentation": "https://www.php.net/manual/en/class.sessionupdatetimestamphandlerinterface.php",
+    "related": [
+        "session",
+        "interface",
+        "php-interface",
+        "sessionhandlerinterface",
+        "splsubject"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/class.sessionupdatetimestamphandlerinterface.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "SessionUpdateTimestampHandlerInterface (Interface) - PHP - W3cubDocs",
+            "url": "https://docs.w3cub.com/php/class.sessionupdatetimestamphandlerinterface.html"
+        }
+    ],
+    "tags": [
+        "session",
+        "interface"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "7.0",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sat, 08 Aug 2026 08:01:43 +0000"
+}

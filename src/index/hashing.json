@@ -1,0 +1,53 @@
+{
+    "id": "hashing",
+    "name": "Hashing",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/hashing.html",
+    "aliases": [],
+    "description": "Hashing is the process of running data through a hash function, to produce a fixed-size value called a hash, or digest.\n\nA good hash function is fast, deterministic, and spreads its output evenly, so that different inputs rarely produce the same hash, an event called a collision.\n\nHashing serves several distinct purposes applications:\n\n+ Integrity checks and checksums, with fast algorithms like ``crc32`` or ``md5``, to detect accidental corruption.\n+ Lookup structures, where hashing a key gives its position in a hash table, the internal structure behind PHP arrays.\n+ Password storage, with slow, salted algorithms designed to resist brute-force attacks, such as ``bcrypt`` or ``argon2``, via the ``password_hash()`` function.\n+ Cryptographic fingerprints, with algorithms like the ``SHA`` family, to sign or verify data.\n\nHashing is one-way: a hash cannot be reversed to recover the original data. This distinguishes it from encryption, which is meant to be decrypted with a key.",
+    "code": "<?php\n\n    // fast, non-cryptographic hashing, for a lookup or checksum\n    echo hash('crc32b', 'The quick brown fox jumped over the lazy dog.');\n\n    // cryptographic hashing, for a fingerprint\n    echo hash('sha256', 'The quick brown fox jumped over the lazy dog.');\n\n    // slow, salted hashing, for password storage\n    echo password_hash('correct horse battery staple', PASSWORD_BCRYPT);\n\n?>",
+    "documentation": "https://www.php.net/manual/en/book.hash.php",
+    "related": [
+        "hash",
+        "hash-function",
+        "hash-crypto",
+        "hash-table",
+        "message-digest",
+        "checksum",
+        "cryptography",
+        "password-ext",
+        "hash-comparison",
+        "crack",
+        "deterministic",
+        "weak-cryptography"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/book.hash.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Everything you need to know about hashing in PHP",
+            "url": "https://www.php.net/manual/en/faq.passwords.php"
+        }
+    ],
+    "tags": [
+        "concept",
+        "security"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sat, 08 Aug 2026 08:10:54 +0000"
+}

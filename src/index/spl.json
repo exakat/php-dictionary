@@ -1,0 +1,60 @@
+{
+    "id": "spl",
+    "name": "Standard PHP Library (SPL)",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/spl.html",
+    "aliases": [],
+    "description": "The Standard PHP Library, the SPL, is a collection of interfaces and classes that are meant to solve common problems.\n\nSPL offers features, functions, classes and interfaces in many different fields: iterators, data structures, files, exceptions, and observers. \n\nOne of the most famous SPL features is the function ``spl_autoload_register()``, which register an autoload handler.",
+    "code": "<?php\n\n    // SPL and autoloading\n    spl_autoload_register(function ($class) {\n        include 'classes/' . $class . '.class.php';\n    });\n    \n    if ($object instanceof Countable) {\n        $count = count($object);\n    } elseif ($object instanceof Traversable) {\n        $count = iterator_count($object);\n    } else {\n        print \"Can't count this\";\n    }\n\n?>",
+    "documentation": "https://www.php.net/manual/en/book.spl.php",
+    "related": [
+        "autoload",
+        "datastack",
+        "directoryiterator",
+        "iterator",
+        "unexpectedvalueexception",
+        "datastructure",
+        "outeriterator",
+        "overflow",
+        "recursiveiterator",
+        "iteratoraggregate",
+        "recursivearrayiterator",
+        "recursivedirectoryiterator",
+        "seekableiterator",
+        "spldoublylinkedlist",
+        "splfileinfo",
+        "splfileobject",
+        "splobjectstorage",
+        "splobserver",
+        "splsubject"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/book.spl.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP and SPL: Standard PHP Library Functions and Classes",
+            "url": "https://reintech.io/blog/php-spl-standard-library-functions-classes"
+        }
+    ],
+    "tags": [
+        "extension",
+        "acronym"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sat, 08 Aug 2026 08:10:54 +0000"
+}

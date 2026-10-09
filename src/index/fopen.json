@@ -1,0 +1,64 @@
+{
+    "id": "fopen",
+    "name": "fopen()",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/fopen.html",
+    "aliases": [],
+    "description": "``fopen()`` is a PHP native function which opens a file. It returns a file description, also called handle, that may be used with other PHP file functions to read and write data from and to the files.\n\n``fopen()`` may also be replaced by the ``SplFileObject`` class, which provides an OOP syntax alternative to access files.\n",
+    "code": "<?php\n\n    $fp = fopen('/tmp/test.txt', 'r');\n    fwrite($fp, 'PHP rocks!');\n    fclose($fp);\n\n?>",
+    "documentation": "https://www.php.net/manual/en/function.fopen.php",
+    "related": [
+        "file",
+        "writing",
+        "permission",
+        "writeable",
+        "readable",
+        "splfileobject",
+        "$http_response_header",
+        "file-mode",
+        "resource-leak",
+        "text",
+        "handle",
+        "url",
+        "fread",
+        "fseek",
+        "ftell",
+        "rewind",
+        "fclose",
+        "fgetc",
+        "fgets",
+        "fwrite"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/function.fopen.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP Open File",
+            "url": "https://www.phptutorial.net/php-tutorial/php-open-file/"
+        }
+    ],
+    "tags": [
+        "file"
+    ],
+    "packagist": [],
+    "extensions": [
+        "file"
+    ],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Tue, 01 Sep 2026 05:31:03 +0000"
+}

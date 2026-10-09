@@ -1,0 +1,68 @@
+{
+    "id": "reflection",
+    "name": "Reflection",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/reflection.html",
+    "aliases": [],
+    "description": "PHP reflection is a feature that allows inspecting and interacting with the structure of classes, interfaces, methods, properties, and other elements of the code, during runtime. Reflection is made possible by the Reflection API, which provides a set of classes and functions for introspecting objects and classes.\n\nPHP offers a complete API to describe classes, methods, interfaces, constants, functions, extensions, traits, enums and their components. \n\n+ ReflectionAttribute\n+ ReflectionClass\n+ ReflectionClassConstant\n+ ReflectionEnum\n+ ReflectionEnumBackedCase\n+ ReflectionEnumUnitCase\n+ ReflectionException\n+ ReflectionExtension\n+ ReflectionFiber\n+ ReflectionFunction\n+ ReflectionFunctionAbstract\n+ ReflectionGenerator\n+ ReflectionIntersectionType\n+ ReflectionMethod\n+ ReflectionNamedType\n+ ReflectionObject\n+ ReflectionParameter\n+ ReflectionProperty\n+ ReflectionReference\n+ ReflectionType\n+ ReflectionUnionType\n+ ReflectionZendExtension\n+ Reflector\n\nReflection is also available in other programming languages.",
+    "code": "<?php\n\n   Reflection::export(new ReflectionClass('Exception'));\n\n?>",
+    "documentation": "https://www.php.net/manual/en/book.reflection.php",
+    "related": [
+        "class",
+        "instance",
+        "introspection",
+        "get_object_vars",
+        "new",
+        "reflectionexception",
+        "writeable",
+        "get_class_vars",
+        "reflector",
+        "code-generation",
+        "homoiconicity",
+        "meta-object-protocol",
+        "metaclass",
+        "metaprogramming"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/book.reflection.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Introduction to PHP Reflection API",
+            "url": "https://medium.com/tech-tajawal/introduction-to-php-reflection-api-4af07cc17db4"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Understanding PHP Reflection: An In-Depth Guide with Examples",
+            "url": "https://dev.to/galo4kin/understanding-php-reflection-an-in-depth-guide-with-examples-189n"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Rewriting reflexion with Rust",
+            "url": "https://scherzer.dev/Blog/20260710-reflection-rust"
+        }
+    ],
+    "tags": [
+        "extension",
+        "concept"
+    ],
+    "packagist": [
+        "bramus/reflection",
+        "roave/better-reflection"
+    ],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Wed, 19 Aug 2026 06:47:17 +0000"
+}

@@ -1,0 +1,51 @@
+{
+    "id": "final-class-constant",
+    "name": "Final Class Constants",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/final-class-constant.html",
+    "aliases": [],
+    "description": "Using the final option with class constants, the constant cannot be redefined by a child class. It is not possible to give it a new value or visibility. \n\nIt yields a fatal error: ``y::x cannot override final constant``.",
+    "code": "<?php\n\n    class Elephpant {\n        final public const HABITAT = 1;\n        public const WEIGHT = 2;\n    }\n\n    class Calf extends Elephpant {\n        // this is an error\n        public const WEIGHT = 3;\n    }\n\n?>",
+    "documentation": "https://www.php.net/manual/en/language.oop5.constants.php",
+    "related": [
+        "final"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.oop5.constants.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP RFC: Enable never as a stand-alone return type / Final class constants",
+            "url": "https://wiki.php.net/rfc/final_class_const"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP: The final Keyword - Manual",
+            "url": "https://www.php.net/manual/en/language.oop5.final.php"
+        }
+    ],
+    "tags": [
+        "feature",
+        "class"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [
+        "Php/FinalConstant"
+    ],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "8.1",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": {
+        "Calf::WEIGHT cannot override final constant Elephpant::WEIGHT": "%s::%s-cannot-override-final-constant-%s::%s"
+    },
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 10 Sep 2026 20:22:42 +0000"
+}

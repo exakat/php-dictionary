@@ -1,0 +1,45 @@
+{
+    "id": "unhandledmatcherror",
+    "name": "UnhandledMatchError",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/unhandledmatcherror.html",
+    "aliases": [],
+    "description": "An ``UnhandledMatchError`` error is thrown when the subject passed to a match expression is not handled by any case of the match expression. This means that all the cases have been exhausted, and then, the ``default`` case is missing. \n\nInstead of finishing the ``match`` expression without any returned value, it throws an exception and stops the execution. This is a different behavior than ``switch``, which will continue the processing, even if nothing was found, potentially leading to unexpected situations.",
+    "code": "<?php\n\n    $b = match(3) {\n        1 => 'A',\n        2 => 'b',\n    };\n\n?>",
+    "documentation": "https://www.php.net/manual/en/class.unhandledmatcherror.php",
+    "related": [
+        "exception",
+        "error",
+        "match"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/class.unhandledmatcherror.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Match expression",
+            "url": "https://php.watch/versions/8.0/match-expression"
+        }
+    ],
+    "tags": [
+        "exception"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [
+        "Structures/SwitchWithoutDefault"
+    ],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sat, 08 Aug 2026 08:10:54 +0000"
+}

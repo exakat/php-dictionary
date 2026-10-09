@@ -1,0 +1,49 @@
+{
+    "id": "worktree",
+    "name": "Worktree",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/worktree.html",
+    "aliases": [
+        "git-worktree"
+    ],
+    "description": "A worktree is a Git feature that allows multiple working directories to be linked to a single repository. With ``git worktree add``, a developer can check out a different branch into a separate directory without disturbing the current working directory.\n\nThis is useful when:\n\n+ Working on a hotfix while keeping the main feature branch open\n+ Running tests or builds on a different branch simultaneously\n+ Comparing the current implementation against another branch side by side\n+ CI/CD pipelines needing isolated checkouts from the same repository\n\nEach linked worktree has its own index and HEAD but shares the object store with the main repository, avoiding duplication.",
+    "code": "",
+    "documentation": "https://git-scm.com/docs/git-worktree",
+    "related": [
+        "git",
+        "branch",
+        "vcs",
+        "commit",
+        "timing-attack",
+        "vcs-commit"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://git-scm.com/docs/git-worktree"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "A practical guide to git worktrees",
+            "url": "https://opensource.com/article/21/4/git-worktree"
+        }
+    ],
+    "tags": [
+        "vcs",
+        "tool"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Wed, 02 Sep 2026 16:41:00 +0000"
+}

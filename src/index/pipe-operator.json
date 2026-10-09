@@ -1,0 +1,53 @@
+{
+    "id": "pipe-operator",
+    "name": "Pipe Operator ``|>``",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/pipe-operator.html",
+    "aliases": [],
+    "description": "The pipe operator is ``|>``. It chains calls from methods from left to right, using the result of the first method as the only argument of the next method.\n\nThe pipe operator is compatible with every form of PHP callable: string, arrays, first class callable, closures, arrow functions with parenthesis, etc. \n\nPipe operator is not compatible with references. \n\nThe pipe operator should not be mistaken with the ``|`` pipe logical operator, which combines two values with a ``or`` logic.",
+    "code": "<?php\n\n    $result = abc |> trim(...) |> 'strtoupper'; // 'ABC'\n\n?>",
+    "documentation": "https://wiki.php.net/rfc/pipe-operator-v3",
+    "related": [
+        "logical-operator"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://wiki.php.net/rfc/pipe-operator-v3"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP 8.5: Pipe operator (|>)",
+            "url": "https://php.watch/versions/8.5/pipe-operator"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Introducing Piper: array and string manipulation with the pipe operator",
+            "url": "https://spatie.be/blog/introducing-piper"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "My thoughts on Spatie/Piper",
+            "url": "https://dev.to/xwero/my-thoughts-on-spatiepiper-1ej7"
+        }
+    ],
+    "tags": [
+        "operator"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "8.5",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Fri, 07 Aug 2026 15:00:46 +0000"
+}

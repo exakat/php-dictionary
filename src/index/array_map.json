@@ -1,0 +1,53 @@
+{
+    "id": "array_map",
+    "name": "array_map()",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/array_map.html",
+    "aliases": [],
+    "description": "``array_map()`` is a PHP native function that applies a closure to every element of an array.\n\n``array_map()`` uses the first argument as the callback, and the following subsequent arguments as one argument of that closure each. Any missing value in an array is assigned as ``null``, while a missing argument is a fatal error.\n\n``array_map()`` only provides the value in the array, and not the related key: this should be done with ``array_walk()``.\n",
+    "code": "<?php\n\n    function square($number) { return $number * $number; }\n\n    $array = [1,2,3];\n    $squared = array_map(square(...), $array);\n    // [1, 4, 9];\n\n    function squareSum($first, $second) { return $first ** 2 + $second ** 2; }\n\n    $squareSums = array_map(squareSum(...), [1, 2, 3], [4, 5]); // array_map uses the longest array\n\n?>",
+    "documentation": "https://www.php.net/manual/en/function.array-map.php",
+    "related": [
+        "array_walk",
+        "array-zip",
+        "array_change_key_case",
+        "array_filter",
+        "list-comprehension"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/function.array-map.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP array_map Function: How to Transform Arrays with Examples",
+            "url": "https://flatcoding.com/tutorials/php/array_map/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP array_map for associative array",
+            "url": "https://inspector.dev/php-array_map-for-associative-array-fast-tips/"
+        }
+    ],
+    "tags": [
+        "native function",
+        "arbitrary number of argument"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Fri, 09 Oct 2026 17:14:27 +0000"
+}

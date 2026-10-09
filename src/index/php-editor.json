@@ -1,0 +1,55 @@
+{
+    "id": "php-editor",
+    "name": "PHP Editor",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/php-editor.html",
+    "aliases": [
+        "php-ide"
+    ],
+    "description": "A PHP editor is a software tool used to write, edit, and debug PHP source code. Editors range from plain text editors with syntax highlighting to full-featured Integrated Development Environments, IDE, with code completion, refactoring, debugging, and static analysis integration.\n\nThe most widely used PHP IDE is PhpStorm by JetBrains, which provides deep PHP understanding including type inference, inspections, and built-in Xdebug support. VS Code is a popular lightweight editor with PHP support through extensions such as PHP Intelephense or the PHP extension pack. Eclipse PDT and NetBeans offer open-source alternatives.\n\nKey IDE features for PHP development include: code completion and navigation, integrated Xdebug support, refactoring tools, PHPDoc parsing, integration with Composer, PHPUnit, and version control systems.",
+    "code": "",
+    "documentation": "https://www.php.net/manual/en/install.php",
+    "related": [
+        "ide",
+        "php-ai-editor",
+        "debugger",
+        "xdebug",
+        "autocompletion",
+        "linting",
+        "php-manual"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/install.php"
+        }
+    ],
+    "tags": [
+        "tool",
+        "editor",
+        "ide"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": {
+        "PhpStorm": "https://www.jetbrains.com/phpstorm/promo/",
+        "VS Code": "https://code.visualstudio.com/",
+        "Eclipse": "https://eclipseide.org/",
+        "NetBeans": "https://netbeans.apache.org/front/main/index.html",
+        "Intelephense": "https://intelephense.com/",
+        "Xdebug": "https://xdebug.org/"
+    },
+    "popularity": "",
+    "modified": "Fri, 18 Sep 2026 05:06:57 +0000"
+}

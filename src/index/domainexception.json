@@ -1,0 +1,48 @@
+{
+    "id": "domainexception",
+    "name": "DomainException",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/domainexception.html",
+    "aliases": [],
+    "description": "Exception thrown if a value does not adhere to a defined valid data domain. For example, it might be an invalid value for a class property and not its type.",
+    "code": "<?php\nfunction renderImage($imageResource, $imageType)\n{\n  switch ($imageType) {\n  case 'jpg':\n  case 'jpeg':\n    header('Content-type: image/jpeg');\n    imagejpeg($imageResource);\n    break;\n  case 'png':\n    header('Content-type: image/png');\n    imagepng($imageResource);\n    break;\n  default:\n    throw new DomainException('Unknown image type: ' . $imageType);\n    break;\n  }\n  imagedestroy($imageResource);\n}\n?>",
+    "documentation": "https://www.php.net/manual/en/class.domainexception.php",
+    "related": [
+        "exception",
+        "rangeexception",
+        "logicexception"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/class.domainexception.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Domain exceptions in Prestashop",
+            "url": "https://devdocs.prestashop-project.org/9/development/architecture/domain/domain-exceptions/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Custom Exceptions in PHP: Building Your Own Error Handling System",
+            "url": "https://kanishkame.medium.com/custom-exceptions-in-php-building-your-own-error-handling-system-83b8df4f58f5"
+        }
+    ],
+    "tags": [
+        "native exception"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sat, 08 Aug 2026 08:10:54 +0000"
+}

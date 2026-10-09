@@ -1,0 +1,45 @@
+{
+    "id": "object-injection",
+    "name": "Object Injection",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/object-injection.html",
+    "aliases": [
+        "deserialize-injection"
+    ],
+    "description": "Object injection happens when a string is deserialized to recreate an object, inside PHP, while the string is controlled by the attacker.\n\nThe general synopsis is the following: \n\n+ PHP serialize an object\n+ The serialized string is transmitted to the user, then back to PHP, via cookies, hidden fields, or any storage\n+ PHP deserialize the object\n\nWhile in the hand of the user, the data was doctored to retain its format validity, but with values that are now controlled by the attacker.",
+    "code": "",
+    "documentation": "https://owasp.org/www-community/vulnerabilities/PHP_Object_Injection",
+    "related": [
+        "serialization",
+        "insecure-deserialization"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://owasp.org/www-community/vulnerabilities/PHP_Object_Injection"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP Object Injection Exploitation Notes",
+            "url": "https://snoopysecurity.github.io/posts/02_php_object_injection_exploitation-notes/"
+        }
+    ],
+    "tags": [
+        "classic bug",
+        "security"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sat, 08 Aug 2026 08:10:54 +0000"
+}

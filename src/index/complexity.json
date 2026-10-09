@@ -1,0 +1,55 @@
+{
+    "id": "complexity",
+    "name": "Complexity",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/complexity.html",
+    "aliases": [],
+    "description": "Complexity refers to how difficult the code is to understand, maintain, test, and modify. It may be objectively measured, but also subjectively estimated.\n\nComplexity is measured with cyclomatic complexity, cognitive complexity, algorithmic complexity. \n\nComplexity increases when:\n\n+ Code takes many decisions in one context\n+ Logic is deeply nested\n+ Responsibilities are mixed and matched\n+ Behavior is not obvious, and includes magic\n+ Code is not readable\n+ Naming is confusing\n\nNon-complex code tends to:\n\n+ Have small functions\n+ Clear naming\n+ Limited branching\n+ Avoid exploding combinations as much as possible\n\nCode complexity applies to all programming languages, and is not specific to PHP.",
+    "code": "",
+    "documentation": "https://en.wikipedia.org/wiki/Cyclomatic_complexity",
+    "related": [
+        "cognitive-complexity",
+        "cyclomatic-complexity",
+        "algorithmic-complexity"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Cyclomatic_complexity"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Code Complexity: An In-Depth Explanation and Metrics",
+            "url": "https://blog.codacy.com/code-complexity"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "What is Code Complexity?",
+            "url": "https://jellyfish.co/library/code-complexity/"
+        }
+    ],
+    "tags": [
+        "concept",
+        "quality",
+        "static analysis"
+    ],
+    "packagist": [
+        "sebastian/complexity",
+        "phpmetrics/phpmetrics"
+    ],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sat, 08 Aug 2026 14:31:02 +0000"
+}

@@ -1,0 +1,49 @@
+{
+    "id": "bcmath",
+    "name": "Bcmath",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/bcmath.html",
+    "aliases": [],
+    "description": "For arbitrary precision mathematics, PHP offers ``BCMath``, which supports numbers of any size and precision up to ``2147483647``, or ``0x7FFFFFFF`` decimal digits, if there is sufficient memory, represented as strings.",
+    "code": "<?php\n\n    echo bcpow(3, 40);  // 12157665459056928801\n    echo 2 ** 40;       // 1.2157665459057E+19 (a float)\n\n?>",
+    "documentation": "https://www.php.net/manual/en/book.bc.php",
+    "related": [
+        "gmp",
+        "math",
+        "real"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/book.bc.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "A Comprehensive Guide to the PHP BCMath Library for Arbitrary Precision Arithmetic",
+            "url": "https://reintech.io/blog/comprehensive-guide-php-bcmath-library"
+        }
+    ],
+    "tags": [
+        "extension"
+    ],
+    "packagist": [
+        "krowinski/bcmath-extended"
+    ],
+    "extensions": [
+        "bcmath"
+    ],
+    "analyzers": [
+        "Extensions/Extbcmath"
+    ],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Wed, 12 Aug 2026 08:05:19 +0000"
+}

@@ -1,0 +1,45 @@
+{
+    "id": "array_pad",
+    "name": "array_pad()",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/array_pad.html",
+    "aliases": [],
+    "description": "``array_pad()`` is a PHP native function which completes an array up to ``$length`` elements with a specified ``$value``. When ``$length`` is positive, the padding is to the right, and when ``$length`` is negative, it is a padding to the left.\n\nLiteral values are copied, while objects are only copied at the reference level: the same object occupies all the requested slots; they are not cloned or made distinct in any way.\n\n``array_fill()`` may easily lead to memory exhaustion, given ``$count`` is large enough.\n",
+    "code": "<?php\n\n    $array = [1];\n    $array = array_pad($array, 3, 2); \n    $array === [1, 2, 2];\n    \n    $array = [1];\n    $array = array_pad($array, -3, 4); \n    $array === [4, 4, 1];\n    \n    $elephpant = new stdClass();\n    $elephpant->i = 1;\n\n    $array = array_pad([], 2, $elephpant);\n    $array[1]->i = 3;\n    echo $array[0]->i; // also 3 \n\n?>",
+    "documentation": "https://www.php.net/manual/en/function.array-pad.php",
+    "related": [
+        "range",
+        "array_fill"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/function.array-pad.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "The Power of PHP\u2019s array_pad() Function",
+            "url": "https://clouddevs.com/php/array_pad-function/"
+        }
+    ],
+    "tags": [
+        "native function",
+        "array"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+}

@@ -1,0 +1,41 @@
+{
+    "id": "rfu",
+    "name": "Reserved For Future Use (RFU)",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/rfu.html",
+    "aliases": [],
+    "description": "RFU stands for Reserved for Future Use. It means that the code is here for later usage, but not right now. Implicitly, it is a request to leave it in place, until actual usage happen.",
+    "code": "",
+    "documentation": "https://en.wikipedia.org/wiki/Reserved_word",
+    "related": [
+        "todo"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Reserved_word"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Reserved for future use (RFU)",
+            "url": "https://www.jedec.org/standards-documents/dictionary/terms/reserved-future-use-rfu"
+        }
+    ],
+    "tags": [
+        "acronym"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Tue, 18 Aug 2026 05:25:10 +0000"
+}

@@ -1,0 +1,51 @@
+{
+    "id": "compression",
+    "name": "Compression",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/compression.html",
+    "aliases": [],
+    "description": "Compression is the representation of data in a format that uses less space that the original raw data. \n\nA compression algorithm must provide a way to compress data, and a way to uncompress it, and give access to the original data.\n\nThere are lossless compression, which can provide the exact original data, for text, and lossy compression which degrades the original data for images, video.\n\nPHP supports compression via ``zip``, ``rar``, ``zlib``, ``bzip2``, ``brotli``, etc.",
+    "code": "",
+    "documentation": "https://en.wikipedia.org/wiki/Data_compression",
+    "related": [
+        "archive"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Data_compression"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Zip",
+            "url": "https://www.php.net/manual/en/book.zip.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Bz2",
+            "url": "https://www.php.net/manual/en/book.bzip2.php"
+        }
+    ],
+    "tags": [
+        "file"
+    ],
+    "packagist": [],
+    "extensions": [
+        "rar",
+        "zip",
+        "bzip2",
+        "brotli"
+    ],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Tue, 11 Aug 2026 08:43:52 +0000"
+}

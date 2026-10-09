@@ -1,0 +1,55 @@
+{
+    "id": "ipc",
+    "name": "Inter-Process Communication (IPC)",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/ipc.html",
+    "aliases": [],
+    "description": "Inter-process communication, or IPC, is the set of mechanisms an operating system offers for two separate processes to exchange data or coordinate their work, since processes do not share memory with each other by default.\n\nCommon IPC mechanisms include pipes and named pipes, which stream bytes from one process to another; sockets, which work the same way across machines as within one; shared memory, where a block is mapped into several processes at once for fast access without copying; message queues, which store discrete messages for one or more readers to pick up; and semaphores, which coordinate access to a shared resource without transferring data themselves.\n\nPHP scripts rarely need IPC directly, since most requests run as independent, short-lived processes with no data to share between them. Long-running PHP processes, workers spawned with the ``pcntl`` extension, or PHP code that talks to another service over a socket or a message queue, are the situations where IPC becomes directly relevant.",
+    "code": "<?php\n\n    $sockets = stream_socket_pair(STREAM_PF_UNIX, STREAM_SOCK_STREAM, STREAM_IPPROTO_IP);\n    $pid = pcntl_fork();\n\n    if ($pid) {\n        // Parent process.\n        fclose($sockets[0]);\n        fwrite($sockets[1], 'ping');\n        echo fread($sockets[1], 1024);\n        fclose($sockets[1]);\n    } else {\n        // Child process.\n        fclose($sockets[1]);\n        echo fread($sockets[0], 1024);\n        fwrite($sockets[0], 'pong');\n        fclose($sockets[0]);\n    }\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Inter-process_communication",
+    "related": [
+        "pcntl",
+        "socket",
+        "process",
+        "thread",
+        "shared-memory",
+        "pipe",
+        "message-queue"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Inter-process_communication"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "stream_socket_pair() - PHP Manual",
+            "url": "https://www.php.net/manual/en/function.stream-socket-pair.php"
+        }
+    ],
+    "tags": [
+        "acronym",
+        "concept",
+        "operating system"
+    ],
+    "packagist": [],
+    "extensions": [
+        "pcntl",
+        "sockets",
+        "sysvmsg"
+    ],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Fri, 25 Sep 2026 18:46:58 +0000"
+}

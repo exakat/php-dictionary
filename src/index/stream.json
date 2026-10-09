@@ -1,0 +1,66 @@
+{
+    "id": "stream",
+    "name": "Stream",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/stream.html",
+    "aliases": [],
+    "description": "Streams are a generalisation of the notion of files. Just like files, they can be opened, read, written and closed. \n\nUnlike files, they may be a lot of things: archive, compressed data, sockets, other programs, etc. They also may not support all the range of features of files.\n\nPHP offers native functions to create, configure, filter streams and process their data.\n\nStreams may be extended with the notion of wrapper and protocols.",
+    "code": "<?php\n\n    if ($stream = fopen('https://www.php.net', 'r')) {\n        // print the first 100 chars of the HTML page.\n        echo stream_get_contents($stream, -1, 100);\n    \n        fclose($stream);\n    }\n\n?>",
+    "documentation": "https://www.php.net/manual/en/book.stream.php",
+    "related": [
+        "abstraction-layer",
+        "wrapper-stream",
+        "file",
+        "php-input",
+        "php-output",
+        "php-memory",
+        "php-tmp",
+        "php-filter",
+        "file_get_contents",
+        "path",
+        "polling",
+        "whatwg",
+        "stdout",
+        "fclose",
+        "fgetc",
+        "fgets",
+        "fread",
+        "ftell",
+        "fwrite",
+        "engine",
+        "non-blocking",
+        "feof",
+        "poll-api",
+        "stream-filter",
+        "streamable"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/book.stream.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Streams in PHP: What you really need to know",
+            "url": "https://dev.to/gabrieloliverio/streams-in-php-55kb"
+        }
+    ],
+    "tags": [
+        "feature",
+        "filesystem"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "5.0",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Fri, 09 Oct 2026 17:14:27 +0000"
+}

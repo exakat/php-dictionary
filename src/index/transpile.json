@@ -1,0 +1,55 @@
+{
+    "id": "transpile",
+    "name": "Transpile",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/transpile.html",
+    "aliases": [],
+    "description": "Transpiling, short for ``source-to-source compiling``, is a process in software development where source code written in one programming language is transformed into equivalent code in another programming language. This is typically done to make code compatible with a different runtime environment, platform, or version of a language.\n\nTranspilation is often used in the context of modern web development. For example, many developers write code using newer features of JavaScript, which may not be supported by older web browsers. In such cases, the code can be transpiled to an older version of JavaScript that is more widely supported.\n\nThere are also languages that are converted to PHP, such as ``Haxe``.\n",
+    "code": "",
+    "documentation": "https://kinsta.com/blog/transpiling-php/",
+    "related": [
+        "compile",
+        "linting",
+        "syntax",
+        "interpreted",
+        "php-runtime",
+        "source",
+        "type-erasure"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://kinsta.com/blog/transpiling-php/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Online PHP to Kotlin Converter",
+            "url": "https://www.codeconvert.ai/php-to-kotlin-converter"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP to Rust via Copilot",
+            "url": "https://joeferguson.me/php-to-rust-via-copilot/"
+        }
+    ],
+    "tags": [
+        "conversion",
+        "source code"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": {
+        "Haxe": "https://haxe.org/"
+    },
+    "popularity": "",
+    "modified": "Fri, 18 Sep 2026 05:03:49 +0000"
+}

@@ -1,0 +1,46 @@
+{
+    "id": "sprintf",
+    "name": "sprintf",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/sprintf.html",
+    "aliases": [
+        "vprintf"
+    ],
+    "description": "``sprintf()`` is a PHP native function, which format a string based on a format string, and one or more values. \n\n``sprintf()`` returns the formatted string, while ``printf()`` displays it immediately, and ``vprintf()`` writes the formatted string to a stream. There is also ``sscanf()``, which parse the string, according to the format.\n\n``printf()`` is convenient to display text in command line, as it makes easy to use fillers and justification. \n\n``printf(\\`` also supports named arguments, which makes the format string more flexible.",
+    "code": "<?php\n\n    // displays 123 with 9 characters, and fills with dots any empty characters\n    // ......123\n    echo sprintf(\"%'.9d\\n\", 123);\n    \n    // same as above, without the echo command\n    printf(\"%'.9d\\n\", 123);\n    \n    // same as above, without the echo command\n    vprintf(\"%'.9d\\n\", '......123');\n\n?>",
+    "documentation": "https://www.php.net/manual/fr/function.sprintf.php",
+    "related": [
+        "string",
+        "format",
+        "sscanf"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/fr/function.sprintf.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Mastering PHP\u2019s sprintf Function for Precise Formatting",
+            "url": "https://altorouter.com/sprintf-php/"
+        }
+    ],
+    "tags": [
+        "native function",
+        "arbitrary number of argument"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Wed, 02 Sep 2026 16:41:00 +0000"
+}

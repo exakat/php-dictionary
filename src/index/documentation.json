@@ -1,0 +1,62 @@
+{
+    "id": "documentation",
+    "name": "Documentation",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/documentation.html",
+    "aliases": [
+        "manual"
+    ],
+    "description": "Documentation refers to the written material that describes a software project, its components, functionality, architecture, and usage. It serves as a reference guide for developers, testers, and users, ensuring clarity, consistency, and maintainability of the software.\n\nDocumentation may be categorized in four groups: tutorials, how-to guides, technical reference and explanation.\n\nThe PHP documentation is also called the PHP Manual. It is a reference documentation.",
+    "code": "",
+    "documentation": "https://en.wikipedia.org/wiki/Documentation",
+    "related": [
+        "php-manual",
+        "tutorial",
+        "technical-reference",
+        "explanation",
+        "c2-framework",
+        "comment",
+        "debt",
+        "docblock",
+        "maintenability",
+        "markdown",
+        "pdr",
+        "route"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Documentation"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "diataxis",
+            "url": "https://diataxis.fr/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "The Documentation System",
+            "url": "https://docs.divio.com/documentation-system/"
+        }
+    ],
+    "tags": [
+        "concept",
+        "documentation"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Tue, 01 Sep 2026 06:21:34 +0000"
+}

@@ -1,0 +1,53 @@
+{
+    "id": "abs",
+    "name": "abs()",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/abs.html",
+    "aliases": [],
+    "description": "``abs()`` calculates the absolute value of a number. It is the value itself, when the number is positive or zero, and it is the opposite of the number when the number is negative.\n\nAlmost all integers have an absolute value: the only exception is ``PHP_INT_MIN``. Its value is ``-9223372036854775808``, and the actual absolute value would be ``9223372036854775808``, which is bigger than ``PHP_INT_MAX``. \n\n``abs()`` takes ``float`` and ``int`` as types. Except for the exception above, giving a float to ``abs()`` produces a float, and giving it an integer, produces an integer. Other types are forbidden. Objects have to be turned explicitly into a number.",
+    "code": "<?php\n\n    $a = -2;\n    print abs($a); // 2\n    print abs(abs($a)); // 2\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Absolute_value",
+    "related": [
+        "float",
+        "integer",
+        "number",
+        "absolute"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Absolute_value"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP: abs - Manual",
+            "url": "https://www.php.net/manual/en/function.abs.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP abs() Function - GeeksforGeeks",
+            "url": "https://www.geeksforgeeks.org/php/php-abs-function/"
+        }
+    ],
+    "tags": [
+        "native function",
+        "dependent type",
+        "math"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Wed, 02 Sep 2026 16:41:00 +0000"
+}

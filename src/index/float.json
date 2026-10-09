@@ -1,0 +1,85 @@
+{
+    "id": "float",
+    "name": "Floating Point Numbers",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/float.html",
+    "aliases": [
+        "decimal"
+    ],
+    "description": "Floating point numbers, also known as ``floats``, ``doubles``, or ``real numbers``, can be specified using a decimal dot and a mantissa.\n\nThey may also use a number separator ``_``: it may be placed anywhere between two digits, to help make the number more readable.\n\nFloats used to be called ``real``, though this was abandoned progressively, since PHP 7.0.\n\nFloats are stored in binary, and most decimal fractions, such as ``0.1``, have no exact binary representation. This makes direct equality comparison a classic bug: ``0.1 + 0.2 === 0.3`` is ``false``, since the actual stored value is ``0.30000000000000004``. To compare floats safely, check that the absolute difference is below a small tolerance, also known as an epsilon, rather than using ``==`` or ``===``.",
+    "code": "<?php\n\n    $a = 1.234; \n    $b = 1.2e3; \n    $c = 7E-10;\n    $d = 1_234.567; // as of PHP 7.4.0\n\n    var_dump(0.1 + 0.2 === 0.3); // false, classic bug\n    var_dump(abs((0.1 + 0.2) - 0.3) < PHP_FLOAT_EPSILON); // true, safe comparison\n\n?>",
+    "documentation": "https://www.php.net/manual/en/language.types.float.php",
+    "related": [
+        "real",
+        "addition",
+        "multiplication",
+        "nan",
+        "php_int_max",
+        "php_int_min",
+        "scalar-type",
+        "sign",
+        "abs",
+        "native-type",
+        "numeric-separator",
+        "precision",
+        "double",
+        "logarithm",
+        "non-numeric",
+        "number",
+        "readable",
+        "e",
+        "math",
+        "serialize_precision",
+        "hexadecimal-integer",
+        "is_float",
+        "rounding",
+        "signed-integer"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.types.float.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Floating Dangers in PHP",
+            "url": "https://medium.com/@dotcom.software/floating-dangers-in-php-c4a2220bd8dc"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Floating Point Math",
+            "url": "https://0.30000000000000004.com/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Comparing float value in PHP",
+            "url": "https://www.geeksforgeeks.org/comparing-float-value-in-php/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Death by a Thousand Rounds: PHP meets Money",
+            "url": "https://phpconference.nl/session/death-by-a-thousand-rounds-php-meets-money/"
+        }
+    ],
+    "tags": [
+        "type",
+        "classic bug"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [
+        "Php/Arrays/FloatConversionAsIndex",
+        "Type/NoRealComparison"
+    ],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Wed, 02 Sep 2026 15:08:46 +0000"
+}

@@ -1,0 +1,43 @@
+{
+    "id": "virtual-property",
+    "name": "Virtual Property",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/virtual-property.html",
+    "aliases": [],
+    "description": "A virtual property is a class property, whose property hooks don't use the value. The virtual property has no need for actual storage, and relies on other means to provide the value. In effect, they rely on the property hooks ``get`` and ``set`` to access the value. They also rely on other properties, global variables or data generators to provide a value.\n\nA virtual property cannot be ``static``, as property hooks are not supported for this type of properties.",
+    "code": "<?php\n\nclass Counter {\n    private $count = 1;\n    \n    // $next is a virtual property : it doesn't rely on $this->next;\n    public $next {\n        get => $this->count + 1 + rand(0, 10);\n        set {}\n    }\n}\n\n?>",
+    "documentation": "https://www.php.net/manual/en/language.oop5.property-hooks.php",
+    "related": [
+        "property",
+        "property-hook",
+        "backed-property"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.oop5.property-hooks.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP 8.4: Property Hooks, Virtual Properties, and Potential Issues",
+            "url": "https://geekytomato.com/php-8-4-property-hooks-virtual-properties-and-potential-issues/"
+        }
+    ],
+    "tags": [
+        "property"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "8.4+",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Mon, 15 Jun 2026 11:03:59 +0000"
+}

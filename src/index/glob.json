@@ -1,0 +1,54 @@
+{
+    "id": "glob",
+    "name": "glob()",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/glob.html",
+    "aliases": [],
+    "description": "``glob()`` is a function that finds pathnames matching a pattern.\n\nThe ``glob()`` function is not related to the global keyword.\n\nThe pattern syntax follows the rules used by the shell, not regular expressions: ``*`` matches any number of characters, ``?`` matches a single character, and bracket expressions such as ``[a-z]`` match a range or set of characters. Optional flags let the caller include hidden files, sort results, or return only directories.\n\nBecause ``glob()`` reads the filesystem directly, its result depends on what is actually present on disk at the moment it is called, and it can be comparatively slow on directories with a very large number of entries. It also returns ``false`` on failure rather than throwing an exception, so callers should check the return value before iterating over it.",
+    "code": "<?php\n\n    foreach (glob(\"*.txt\") as $filename) {\n        echo \"$filename size \" . filesize($filename) . \"\\n\";\n    }   \n\n?>",
+    "documentation": "https://www.php.net/manual/en/function.glob.php",
+    "related": [
+        "global",
+        "star",
+        "wildcard"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/function.glob.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP glob - Pattern Matching Files in PHP",
+            "url": "https://zetcode.com/php-filesystem/glob/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Glob (programming)",
+            "url": "https://en.wikipedia.org/wiki/Glob_(programming)"
+        }
+    ],
+    "tags": [
+        "system call",
+        "file"
+    ],
+    "packagist": [],
+    "extensions": [
+        "filesystem"
+    ],
+    "analyzers": [
+        "Performances/NoGlob",
+        "Structures/NoHardcodedPath"
+    ],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sat, 08 Aug 2026 08:10:54 +0000"
+}

@@ -1,0 +1,55 @@
+{
+    "id": "look-up",
+    "name": "Look-up",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/look-up.html",
+    "aliases": [
+        "lookup"
+    ],
+    "description": "A look-up is the operation of retrieving a value from a data structure by key, index, or identity. It is one of the most fundamental operations in programming, and its efficiency depends on the underlying structure: ``O(1)`` for hash tables, ``O(log n)`` for sorted arrays or trees, and ``O(n)`` for linear search.\n\nThe most common look-up structures are associative arrays, which use hash tables internally and offer average ``O(1)`` access by string or integer key. Objects, SPL data structures, and databases serve as look-up sources in larger systems.\n\nLook-up tables are a specific pattern where a computation is replaced by a precomputed array indexed by the input. They trade memory for speed by eliminating repeated calculations.\n\nLook-ups also appear implicitly in many places: variable resolution, function dispatch, method resolution, and class autoloading are all look-up operations performed by the engine itself.\n\nUnderstanding look-up complexity matters for performance-sensitive code: choosing a hash-based structure over a sequential scan can change an ``O(n)`` bottleneck into an ``O(1)`` operation.",
+    "code": "<?php\n\n    // Simple look-up in an associative array\n    $countryNames = [\n        'FR' => 'France',\n        'DE' => 'Germany',\n        'JP' => 'Japan',\n    ];\n    \n    $code = 'FR';\n    $name = $countryNames[$code] ?? 'Unknown'; // O(1) look-up\n    \n    // Look-up table replacing a computation\n    $dayNames = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];\n    $dayName = $dayNames[date('w')]; // index look-up instead of switch/match\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Lookup_table",
+    "related": [
+        "hash-table",
+        "array",
+        "pattern",
+        "big-o-notation",
+        "memoization"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Lookup_table"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Hash table (Wikipedia)",
+            "url": "https://en.wikipedia.org/wiki/Hash_table"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Big O notation (Wikipedia)",
+            "url": "https://en.wikipedia.org/wiki/Big_O_notation"
+        }
+    ],
+    "tags": [
+        "concept",
+        "performance"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sat, 15 Aug 2026 12:08:27 +0000"
+}

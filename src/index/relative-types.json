@@ -1,0 +1,56 @@
+{
+    "id": "relative-types",
+    "name": "Relative Types",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/relative-types.html",
+    "aliases": [],
+    "description": "Relative types are types that are not explicit, but relative to the current class. There are three relative types: \n\n+ ``static``: this represents the current calling class. It is important when the class is not directly called, but one of its children is. \n+ ``self``: this represents the current class, at compilation time. \n+ ``parent``: this represents the first available parent of the current class. It usually is the direct parent, but may skip classes when the requested resource is not available, as in method calls.",
+    "code": "<?php\n\n    class Calf extends Elephpant {\n        function trumpet() : self {}\n        function forage() : static {}\n        function migrate() : parent {}\n    }\n\n?>",
+    "documentation": "https://www.php.net/manual/en/language.types.relative-class-types.php",
+    "related": [
+        "scalar-type",
+        "union-type",
+        "literal-types",
+        "intersection-type",
+        "dnf-type",
+        "self",
+        "static",
+        "parent",
+        "type",
+        "fully-qualified-name",
+        "relative"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.types.relative-class-types.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Late Static Bindings",
+            "url": "https://www.php.net/manual/en/language.oop5.late-static-bindings.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Basic Class Definitions",
+            "url": "https://www.php.net/manual/en/language.oop5.basic.php"
+        }
+    ],
+    "tags": [
+        "type"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+}

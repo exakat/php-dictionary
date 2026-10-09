@@ -1,0 +1,51 @@
+{
+    "id": "self-reference",
+    "name": "Self-reference",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/self-reference.html",
+    "aliases": [],
+    "description": "A self-reference is a reference into one-self. \n\nAn array may hold a reference onto itself. Some functions are disrupted by these references, and yield ``recursion detected``: ``compact()``, ``count()``, ``var_export()``, etc... \n\n``$GLOBALS`` is a self-reference array: it contains a reference onto itself, as it is also a global variable.\n\nVariables cannot be self-reference, although they might reference another variable, stored in themselves.",
+    "code": "<?php\n\n    $trunk = 1;\n    $trunk = &$trunk;\n\n    $array = [1,2,3, &$array];\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Self-reference",
+    "related": [
+        "variable",
+        "array",
+        "reference"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Self-reference"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "9 Recipe for Self-Referential Data (Recursive Types)",
+            "url": "https://postfix.hci.uni-hannover.de/files/prog1script-postfix/recipe-self-referential.html"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Everything You Need to Know About Self-Referential Structures in C",
+            "url": "https://trendingsource.github.io/2024-02-02-everything-you-need-to-know-about-self-referential-structures-in-c/"
+        }
+    ],
+    "tags": [
+        "reference",
+        "self-reference"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": {
+        "Recursion detected": "recursion-detected"
+    },
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+}

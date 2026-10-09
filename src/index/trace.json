@@ -1,0 +1,50 @@
+{
+    "id": "trace",
+    "name": "Trace",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/trace.html",
+    "aliases": [
+        "stack-trace"
+    ],
+    "description": "A trace is the list of called functions during an execution. It lists all the code that was executed, and helps with debugging.\n\nA trace is automatically calculated with an exception, or the function ``debug_backtrace()``. This shows the stack trace at the error point.\n\nOther tools, like Xdebug or php-trace, build the callgraph over the execution of the whole code, not only on errors.",
+    "code": "<?php\n\n    function c() {\n        throw new Exception('Something went wrong');\n    }\n    function a() { b(); }\n    function b() { c(); }\n    \n    a();\n    \n    /**\n    Fatal error: Uncaught Exception: Something went wrong in file.php:3\n    Stack trace:\n    #0 file.php(7): c()\n    #1 file.php(11): b()\n    #2 file.php(14): a()\n    #3 {main}\n    */\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Stack_trace",
+    "related": [
+        "debug_backtrace",
+        "audit-trail",
+        "xdebug",
+        "flamegraph",
+        "monitoring",
+        "troubleshoot"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Stack_trace"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "How to Trace Full PHP Code Execution with Detailed Logs (Like Ruby Tracer)",
+            "url": "https://www.codestudy.net/blog/how-to-trace-code-execution-in-php/"
+        }
+    ],
+    "tags": [
+        "monitoring"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 01 Oct 2026 09:27:50 +0000"
+}

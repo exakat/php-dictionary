@@ -1,0 +1,64 @@
+{
+    "id": "retry",
+    "name": "Retry",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/retry.html",
+    "aliases": [
+        "retry-logic"
+    ],
+    "description": "A retry is the act of re-attempting an operation that previously failed, typically due to a transient error such as a network timeout, a temporarily unavailable service, or a rate-limit response.\n\nRetry strategies differ in how they space repeated attempts: immediate retry, fixed delay, or exponential backoff, often combined with jitter to avoid thundering herd problems. A maximum attempt count or deadline prevents infinite loops.\n\nBecause retries re-send the same request, the server-side operation must be idempotent to avoid unintended side effects such as duplicate charges or duplicate records. Idempotency keys are a common mechanism for making retried requests safe on the server side.",
+    "code": "",
+    "documentation": "https://en.wikipedia.org/wiki/Exponential_backoff",
+    "related": [
+        "idempotent",
+        "backoff",
+        "jitter",
+        "circuit-breaker",
+        "webhook",
+        "deduplication",
+        "http",
+        "reliability",
+        "error-handling",
+        "queue",
+        "cascading-failure",
+        "replay",
+        "resilience",
+        "worker"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Exponential_backoff"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Exponential Backoff And Jitter",
+            "url": "https://aws.amazon.com/blogs/architecture/exponential-backoff-and-jitter/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Building Resilient Systems: The Power of Retry Mechanisms with Exponential Backoff",
+            "url": "https://medium.com/@eshikashah2001/building-resilient-systems-the-power-of-retry-mechanisms-with-exponential-backoff-60bebad6a57b"
+        }
+    ],
+    "tags": [
+        "architecture",
+        "reliability"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Tue, 18 Aug 2026 05:24:52 +0000"
+}

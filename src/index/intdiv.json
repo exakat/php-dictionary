@@ -1,0 +1,49 @@
+{
+    "id": "intdiv",
+    "name": "intdiv()",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/intdiv.html",
+    "aliases": [],
+    "description": "``intdiv()`` is a PHP native function, that computes the integer division between two integer. The integer division of ``a`` by ``b`` express the number ``a`` as a function of ``b``, such as ``a = k * b + c``.\n\n``intdiv()`` returns the ``k`` value, which is the quotient. It is an integer. The remainder, ``c`` is accessible with the modulo operator ``%``. There is no operator equivalent to ``intdiv()``.\n\nThe integer division is a special case of the division, which works on decimal numbers.",
+    "code": "<?php\n\n$a = 15;\n\n$b = 6;\n\n$k = intdiv($a, $b); // 2 \n$c = $a % $b; // 3\n\necho $k * $b + $c;\n\n?>",
+    "documentation": "https://www.php.net/manual/en/function.intdiv.php",
+    "related": [
+        "modulo",
+        "division"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/function.intdiv.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Modulo (Wikipedia)",
+            "url": "https://en.wikipedia.org/wiki/Modulo"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "fdiv",
+            "url": "https://www.php.net/manual/en/function.fdiv.php"
+        }
+    ],
+    "tags": [
+        "native function"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sun, 16 Aug 2026 07:46:08 +0000"
+}

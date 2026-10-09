@@ -1,0 +1,55 @@
+{
+    "id": "is_string",
+    "name": "is_string()",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/is_string.html",
+    "aliases": [],
+    "description": "``is_string()`` is a PHP native function that checks whether a variable is of type ``string``. It returns ``true`` if the value is a string, ``false`` otherwise.\n\n``is_string()`` does not perform any conversion: it only reports the actual internal type. A numeric string like ``\"42\"`` is a string, and ``is_string()`` returns ``true`` for it, even though ``is_numeric()`` also returns ``true`` for the same value. Objects implementing ``__toString()`` are not strings, even though they may be used anywhere a string is expected through implicit conversion.\n\nIt is frequently used in input validation, and in functions accepting mixed arguments that need to branch on whether a string, as opposed to an array, an object, or a number, was actually passed.",
+    "code": "<?php\n\n    var_dump(is_string('hello'));  // true\n    var_dump(is_string('42'));     // true\n    var_dump(is_string(42));       // false\n\n    function greet(mixed $name): string {\n        if (!is_string($name)) {\n            throw new InvalidArgumentException('Name must be a string');\n        }\n        return 'Hello, ' . $name;\n    }\n\n?>",
+    "documentation": "https://www.php.net/manual/en/function.is-string.php",
+    "related": [
+        "is_array",
+        "is_bool",
+        "is_int",
+        "is_numeric",
+        "is_iterable",
+        "gettype",
+        "__tostring",
+        "type-checking",
+        "validation"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/function.is-string.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Type comparison tables",
+            "url": "https://www.php.net/manual/en/types.comparisons.php"
+        }
+    ],
+    "tags": [
+        "function",
+        "type-checking",
+        "validation"
+    ],
+    "packagist": [],
+    "extensions": [
+        "standard"
+    ],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 16 Jul 2026 14:21:00 +0000"
+}

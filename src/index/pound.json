@@ -1,0 +1,42 @@
+{
+    "id": "pound",
+    "name": "Pound #",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/pound.html",
+    "aliases": [],
+    "description": "``#`` is character, used in various situations: \n\n+ Starts a single line comment\n+ Starts the anchor part of a URL\n\nThis is also called a hash, although hash as many other meanings.\n",
+    "code": "<?php\n\n    parse_url('http://www.php.net/strlen#anchor'); \n\n    # A single line PHP comment\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Number_sign",
+    "related": [
+        "comment",
+        "slash",
+        "url",
+        "anchor",
+        "hash"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Number_sign"
+        }
+    ],
+    "tags": [
+        "disambiguation",
+        "character",
+        "noSeeAlso"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sat, 08 Aug 2026 08:10:54 +0000"
+}

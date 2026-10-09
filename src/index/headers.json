@@ -1,0 +1,48 @@
+{
+    "id": "headers",
+    "name": "Headers",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/headers.html",
+    "aliases": [],
+    "description": "Headers are HTTP response data sent to the client before any body output. PHP provides several built-in functions to manage them.\n\nThe native function ``header()`` sends a raw HTTP header. ``headers_sent()`` checks whether headers have already been sent. ``headers_list()`` returns the list of headers ready to be sent. ``header_remove()`` removes a previously set header.\n\nHeaders must be sent before any output, HTML, whitespace, or ``echo``. Sending output before calling ``header()`` triggers a PHP warning.",
+    "code": "<?php\n\nheader('Content-Type: application/json');\nheader('X-Custom-Header: value');\n\nif (headers_sent($file, $line)) {\n    echo \"Headers already sent in $file on line $line\";\n}\n\necho json_encode(['status' => 'ok']);\n\n?>",
+    "documentation": "https://www.php.net/manual/en/function.header.php",
+    "related": [
+        "http-header",
+        "http",
+        "cookie",
+        "http-headers",
+        "output-buffering"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/function.header.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Response header",
+            "url": "https://developer.mozilla.org/en-US/docs/Glossary/Response_header"
+        }
+    ],
+    "tags": [
+        "web",
+        "native function"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 06 Aug 2026 05:50:38 +0000"
+}

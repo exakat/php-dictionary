@@ -1,0 +1,43 @@
+{
+    "id": "typed-property",
+    "name": "Typed Property",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/typed-property.html",
+    "aliases": [],
+    "description": "A typed property has a type in its definition. \n\nTyped property may have a default value, although it must be compatible with the specified type. Typed properties cannot have a default values when they are typed with an object type.\n\nThe type applies all the time: unlike the parameter's type, any usage of the property must be compatible with the type.\n\nTyped properties may be static or not.\n\nTyped properties are a base for ``readonly`` and asymmetric visibility.",
+    "code": "<?php\n\nclass Elephpant {\n    private int $i = 1;\n\n    private readonly float $trunkLength;\n\n    public static string $s;\n}\n\n?>",
+    "documentation": "https://www.php.net/manual/en/language.oop5.properties.php",
+    "related": [
+        "property",
+        "type"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.oop5.properties.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP RFC: Typed Properties 2.0",
+            "url": "https://wiki.php.net/rfc/typed_properties_v2"
+        }
+    ],
+    "tags": [
+        "type",
+        "property"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+}

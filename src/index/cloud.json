@@ -1,0 +1,66 @@
+{
+    "id": "cloud",
+    "name": "Cloud",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/cloud.html",
+    "aliases": [
+        "cloud-computing"
+    ],
+    "description": "Cloud computing refers to the delivery of computing services, servers, storage, databases, networking, software, analytics..., over the internet. Instead of owning and maintaining physical hardware, developers and organizations rent these resources from cloud providers on a pay-as-you-go basis.\n\nThe main service models are:\n\n+ IaaS, Infrastructure as a Service: virtual machines, storage, networking\n+ PaaS, Platform as a Service: managed runtime environments, databases, deployment pipelines\n+ SaaS, Software as a Service: fully managed applications\n\nFor PHP applications, cloud platforms provide hosting environments, e.g. AWS Elastic Beanstalk, Google Cloud Run, Azure App Service..., managed databases, object storage like S3, and serverless functions. The cloud enables horizontal scaling, geographic distribution, and resilience.\n",
+    "code": "<?php\n\n    // Reading AWS S3 object using the AWS SDK\n    require 'vendor/autoload.php';\n\n    $s3 = new Aws\\S3\\S3Client([\n        'region'  => 'eu-west-1',\n        'version' => 'latest',\n    ]);\n    \n    $result = $s3->getObject([\n        'Bucket' => 'my-bucket',\n        'Key'    => 'my-file.txt',\n    ]);\n    \n    echo $result['Body'];\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Cloud_computing",
+    "related": [
+        "iaas",
+        "paas",
+        "saas",
+        "horizontal-scaling",
+        "microservice",
+        "docker-container",
+        "deploy",
+        "pay-as-you-go",
+        "docker",
+        "hosting",
+        "serverless"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Cloud_computing"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "NIST: The NIST Definition of Cloud Computing",
+            "url": "https://nvlpubs.nist.gov/nistpubs/legacy/sp/nistspecialpublication800-145.pdf"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "AWS: What is Cloud Computing?",
+            "url": "https://aws.amazon.com/what-is-cloud-computing/"
+        }
+    ],
+    "tags": [
+        "concept",
+        "architecture",
+        "devops",
+        "hosting"
+    ],
+    "packagist": [
+        "aws/aws-sdk-php",
+        "google/cloud"
+    ],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Fri, 28 Aug 2026 09:39:42 +0000"
+}

@@ -1,0 +1,44 @@
+{
+    "id": "minus",
+    "name": "Minus -",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/minus.html",
+    "aliases": [],
+    "description": "``-`` is a native PHP operator, which allows subtraction on numbers, both integers and decimals, or produce the opposite of a number.\n\n``-`` silently triggers a conversion to a number, preferably integers, but otherwise decimal. It may produce a warning or a fatal error, if this is not possible.\n\nIt may also be repeated, with the pre- and post- increment operators.\n\nIt is the contrary to ``+``.",
+    "code": "<?php\n\n$a = 2 - 1; // 1\n\n$a = -$a; // -1\n$a = -$a; //  1\n\n--$a; // 0\n$a--; // -1 \n\n?>",
+    "documentation": "https://www.php.net/manual/en/language.operators.arithmetic.php",
+    "related": [
+        "plus",
+        "pre-increment",
+        "post-increment",
+        "sign"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.operators.arithmetic.php"
+        }
+    ],
+    "tags": [
+        "disambiguation",
+        "character",
+        "noSeeAlso"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": {
+        "Unsupported operand types: %s * %s": "unsupported-operand-types:-%s-%s-%s",
+        "A non-numeric value encountered": "a-non-numeric-value-encountered"
+    },
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Wed, 19 Aug 2026 06:48:48 +0000"
+}

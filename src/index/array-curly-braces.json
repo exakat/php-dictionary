@@ -1,0 +1,49 @@
+{
+    "id": "array-curly-braces",
+    "name": "Array With Curly Braces",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/array-curly-braces.html",
+    "aliases": [],
+    "description": "Curly braces used to be a feature, used to access specific index in an array or in a string. They acted like the square braces. \n\nThis features was deprecated in version 8.0.",
+    "code": "<?php\n\n    $array = ['a', 'b', 'c', 'd'];\n    echo $array{2};    // c\n    \n    $string = 'abcd';\n    echo $string{2};   // c\n\n?>",
+    "documentation": "https://www.php.net/manual/en/language.types.array.php#language.types.array.syntax.accessing",
+    "related": [
+        "array",
+        "bracket"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.types.array.php#language.types.array.syntax.accessing"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP RFC: Deprecate curly brace syntax for accessing array elements and string offsets",
+            "url": "https://wiki.php.net/rfc/deprecate_curly_braces_array_access"
+        }
+    ],
+    "tags": [
+        "syntax",
+        "feature",
+        "removed feature",
+        "rfc"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [
+        "Php/NoMoreCurlyArrays"
+    ],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "8.0",
+    "phpVersionDeprecated": "7.4",
+    "phpErrors": {
+        "Array and string offset access syntax with curly braces is no longer supported": "array-and-string-offset-access-syntax-with-curly-braces-is-no-longer-supported"
+    },
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Wed, 02 Sep 2026 16:41:00 +0000"
+}

@@ -1,0 +1,48 @@
+{
+    "id": "eponymous",
+    "name": "Eponymous",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/eponymous.html",
+    "aliases": [],
+    "description": "Eponymous means that it carries the same name. For example, a variable called ``$variable``, or a constant called ``CONSTANT``. \n\nPHP does not allow every structure to be eponymous. It is not possible to call a class ``class``, but one may call a class anonymous: this won't be eponymous, as an anonymous class doesn't have a name.",
+    "code": "<?php\n\n    const CONSTANT = 'literal';\n    \n    $variable = CONSTANT;\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Eponym",
+    "related": [
+        "naming"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Eponym"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Basics",
+            "url": "https://www.php.net/manual/en/language.variables.basics.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Anonymous classes",
+            "url": "https://www.php.net/manual/en/language.oop5.anonymous.php"
+        }
+    ],
+    "tags": [
+        "adjective"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sun, 09 Aug 2026 12:08:25 +0000"
+}

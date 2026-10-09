@@ -1,0 +1,50 @@
+{
+    "id": "http-3",
+    "name": "HTTP/3",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/http-3.html",
+    "aliases": [
+        "http3"
+    ],
+    "description": "``HTTP/3`` is the third major version of the HTTP protocol. Unlike ``HTTP/1.1`` and ``HTTP/2``, which run over TCP, HTTP/3 runs over ``QUIC``, a transport protocol built on top of UDP.\n\nBy moving to ``QUIC``, ``HTTP/3`` removes the TCP-level head-of-line blocking that still affects ``HTTP/2``: a lost packet only stalls the stream it belongs to, not every request multiplexed on the connection. HTTP/3 also inherits ``QUIC``'s built-in TLS 1.3 encryption, 0-RTT connection resumption, and connection migration, which is a connection can survive a client switching networks. Header compression is handled by ``QPACK``, an adaptation of HTTP/2's HPACK designed to tolerate ``QUIC``'s out-of-order stream delivery.\n\nPHP does not natively supports ``HTTP/3``; it depends on a ``QUIC``-capable extension or client library, and on the underlying TLS stack, with OpenSSL 3.5+, exposing the ``QUIC`` APIs the extension needs.",
+    "code": "",
+    "documentation": "https://www.rfc-editor.org/rfc/rfc9114",
+    "related": [
+        "quic",
+        "http",
+        "https",
+        "alpn",
+        "tls"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.rfc-editor.org/rfc/rfc9114"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP speaks QUIC now, and OpenSSL did the hard part",
+            "url": "https://dev.to/mikepultz/php-speaks-quic-now-and-openssl-did-the-hard-part-2329"
+        }
+    ],
+    "tags": [
+        "protocol",
+        "web"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 17 Sep 2026 08:09:22 +0000"
+}

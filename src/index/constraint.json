@@ -1,0 +1,45 @@
+{
+    "id": "constraint",
+    "name": "Constraint",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/constraint.html",
+    "aliases": [],
+    "description": "A constraint is a syntactic or semantic restriction on how a language construct may be used. Constraints are the rules a program must satisfy beyond mere grammatical correctness: for example, a ``break`` statement is only valid inside a loop or ``switch``, and a class marked ``final`` cannot be extended.\n\nViolating a constraint typically produces a compile-time error, though some constraints are only checked at run time. Code that violates a constraint the engine does not check at all is a common source of undefined behavior.",
+    "code": "<?php\n\n    final class Sealed {}\n\n    // violates a constraint: a final class cannot be extended\n    class Broken extends Sealed {}\n\n?>",
+    "documentation": "https://phplang.org/spec/03-terms-and-definitions.html",
+    "related": [
+        "behavior",
+        "undefined-behavior",
+        "syntax-error",
+        "final"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://phplang.org/spec/03-terms-and-definitions.html"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP Constraints",
+            "url": "https://modelina.org/docs/constraints/php"
+        }
+    ],
+    "tags": [
+        "concept",
+        "specification"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 27 Aug 2026 05:07:54 +0000"
+}

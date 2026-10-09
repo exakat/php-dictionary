@@ -1,0 +1,64 @@
+{
+    "id": "sast",
+    "name": "Static Application Security Testing (SAST)",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/sast.html",
+    "aliases": [],
+    "description": "Static Application Security Testing, or SAST, is a branch of static analysis, dedicated to security. \n\nIt focuses on finding vulnerabilities before the source code hits production. \n\nFor example, SAST searches for injections, XSS, path traversal, insecure deserialization, weak cryptography, missing validation.",
+    "code": "",
+    "documentation": "https://en.wikipedia.org/wiki/Static_application_security_testing",
+    "related": [
+        "second-order-sql-injection",
+        "rce",
+        "sca",
+        "xss",
+        "csrf",
+        "sql-injection",
+        "path-traversal",
+        "insecure-deserialization",
+        "weak-cryptography",
+        "missing-validation",
+        "analysis",
+        "control-flow-analysis",
+        "data-flow-analysis",
+        "ldap-injection",
+        "pattern-based-analysis",
+        "semantic-analysis",
+        "symbolic-analysis"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Static_application_security_testing"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP SAST Papers",
+            "url": "https://github.com/LioTree/php-sast-papers"
+        }
+    ],
+    "tags": [
+        "acronym",
+        "static analysis"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": {
+        "DeepSource": "https://deepsource.com/",
+        "Snyk": "https://snyk.io/",
+        "SonarQube": "https://www.sonarsource.com/products/sonarqube/"
+    },
+    "popularity": "",
+    "modified": "Fri, 18 Sep 2026 05:00:04 +0000"
+}

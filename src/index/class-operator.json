@@ -1,0 +1,46 @@
+{
+    "id": "class-operator",
+    "name": "Class Operator",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/class-operator.html",
+    "aliases": [],
+    "description": "Class operator is the ``::class``, added to a class, interface, trait or enumeration identifier. It returns the fully qualified name of the class, according to the current code. \n\n``::class`` is affected by ``use`` expressions, but not by ``class_alias()`` function.",
+    "code": "<?php\n\n// class operator in action\n// This is an unknown class, so it displays A\\B\necho A\\B::class;\n\n// This is an 'use' class, so it displays A\\B\nuse A\\B as D;\necho D::class;\n\n// class_alias creates a new class, so it is different. \nclass E{}\nclass_alias('E', 'F');\necho F::class;\n\n?>",
+    "documentation": "https://www.php.net/manual/en/language.oop5.basic.php#language.oop5.basic.class.class",
+    "related": [
+        "use"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.oop5.basic.php#language.oop5.basic.class.class"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP: ::class keyword",
+            "url": "https://www.php.net/manual/en/language.oop5.constants.php#language.oop5.constants.class"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP RFC: Class Name Resolution As Scalar Via class Keyword",
+            "url": "https://wiki.php.net/rfc/class_name_scalars"
+        }
+    ],
+    "tags": [
+        "operator"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "Php/UseClassAlias",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Wed, 26 Aug 2026 04:23:57 +0000"
+}

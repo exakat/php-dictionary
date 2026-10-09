@@ -1,0 +1,58 @@
+{
+    "id": "strategy",
+    "name": "Strategy",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/strategy.html",
+    "aliases": [
+        "strategy-pattern"
+    ],
+    "description": "The Strategy design pattern defines a family of interchangeable algorithms, encapsulates each one in its own class, and lets the algorithm vary independently from the code that uses it. The calling code depends only on a common interface, and the concrete strategy is selected and injected at runtime.\n\nStrategy avoids long conditional structures, ``if``/``elseif`` or ``match``, that pick between several algorithms, replacing them with polymorphism. It is closely related to the Decorator pattern, but a strategy replaces behaviour, while a decorator adds to it.\n\nCommon PHP use cases include payment processing, sorting or pricing algorithms, and validation rules that vary by context.",
+    "code": "<?php\n\n    interface PaymentStrategy {\n        public function pay(float $amount): string;\n    }\n    \n    class CreditCardPayment implements PaymentStrategy {\n        public function pay(float $amount): string {\n            return \"Paid {$amount} by credit card\";\n        }\n    }\n    \n    class PaypalPayment implements PaymentStrategy {\n        public function pay(float $amount): string {\n            return \"Paid {$amount} via PayPal\";\n        }\n    }\n    \n    class Checkout {\n        public function __construct(\n            private PaymentStrategy $strategy,\n        ) {}\n    \n        public function process(float $amount): string {\n            return $this->strategy->pay($amount);\n        }\n    }\n    \n    $checkout = new Checkout(new PaypalPayment());\n    echo $checkout->process(42.0);\n\n?>",
+    "documentation": "https://refactoring.guru/design-patterns/strategy/php/example",
+    "related": [
+        "design-pattern",
+        "decorator",
+        "interface",
+        "command",
+        "dependency-injection",
+        "match"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://refactoring.guru/design-patterns/strategy/php/example"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Strategy pattern - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Strategy_pattern"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "DesignPatternsPHP: Strategy",
+            "url": "https://designpatternsphp.readthedocs.io/en/latest/Behavioral/Strategy/README.html"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Strategy vs Decorator in PHP: Choosing the Right Design Pattern",
+            "url": "https://phpconference.com/blog/strategy-vs-decorator-php-design-patterns/"
+        }
+    ],
+    "tags": [
+        "design pattern"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sun, 30 Aug 2026 07:35:05 +0000"
+}

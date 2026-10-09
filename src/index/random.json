@@ -1,0 +1,50 @@
+{
+    "id": "random",
+    "name": "Random",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/random.html",
+    "aliases": [],
+    "description": "Random generators generate numbers or strings.\n\n``random_bytes()``, ``random_int()`` and ``openssl_random_pseudo_bytes()`` produce pseudo-random data, suitable for cryptography.\n\nTraditional native functions, such as ``rand()`` and ``mt_rand()``, are not recommended for cryptography.",
+    "code": "<?php\n\n  $bytes = random_bytes(5);\n  var_dump(bin2hex($bytes));\n\n?>",
+    "documentation": "https://www.php.net/manual/en/function.random-bytes.php",
+    "related": [
+        "cryptography",
+        "deterministic",
+        "dataset",
+        "determinism",
+        "random_cryptosafeengine",
+        "random_engine",
+        "generator"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/function.random-bytes.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "How to Use the rand() Function in PHP",
+            "url": "https://pimylifeup.com/php-rand/"
+        }
+    ],
+    "tags": [
+        "cryptography",
+        "number"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [
+        "Structures/IncludeUsage"
+    ],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Mon, 07 Sep 2026 09:09:18 +0000"
+}

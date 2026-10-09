@@ -1,0 +1,48 @@
+{
+    "id": "method-overloading",
+    "name": "Method Overloading",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/method-overloading.html",
+    "aliases": [],
+    "description": "Method overloading is a feature that allows multiple definitions of a method, depending on the type of the passed parameters.\n\nMethod overloading is a PHP feature, based on the usage of the ``func_get_args()`` native function. It differs from other language's implementation as there is only one method definition, but multiple execution paths. Method overloading usually requires other features, such as typing or default values, to be handled manually.",
+    "code": "<?php\n\n//\nclass Elephpant {\n    // $a and $b could be typed array|int\n    // returntype could be array|int \n    // yet, it may end up being confusing\n    function substract($a, $b) {\n        if (is_int($a)) {\n            return $a - (int) $b; \n        }\n        \n        if (is_array($a)) {\n            return array_diff($a, (array) $b);\n        }\n    }\n}\n\n?>",
+    "documentation": "https://www.php.net/manual/en/language.oop5.overloading.php",
+    "related": [
+        "func_get_args"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.oop5.overloading.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "How Method Overloading Works in PHP",
+            "url": "https://www.freecodecamp.org/news/method-overloading-in-php/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP method overloading",
+            "url": "https://dev.to/xwero/php-method-overloading-5epg"
+        }
+    ],
+    "tags": [
+        "class"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+}

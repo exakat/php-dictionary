@@ -1,0 +1,47 @@
+{
+    "id": "lengthexception",
+    "name": "LengthException",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/lengthexception.html",
+    "aliases": [],
+    "description": "The LengthException exception is thrown if a length is invalid.\n\n``LengthException`` is one of the exception classes provided by the Standard PHP Library, called SPL, available since PHP 5.1. It extends ``LogicException``, which itself extends the base ``Exception`` class, placing it in the family of exceptions that represent errors in the program's logic, as opposed to runtime conditions that could not have been foreseen. Its intended use is to signal that a given length, whether of a string, an array, or any other measurable collection, does not meet the constraints expected by the code, for example a fixed-size buffer receiving too much data, or an argument that must contain a minimum number of characters.\n\nDespite being part of the SPL, ``LengthException`` is not thrown by any native PHP function or class: PHP's own standard library and internal functions instead raise ``ValueError`` or ``TypeError`` for equivalent situations since PHP 8. ``LengthException`` is therefore mostly a userland convention, adopted by libraries and frameworks that follow the SPL exception hierarchy to give callers a precise, catchable exception type when validating lengths themselves, rather than relying only on a generic ``Exception`` or ``InvalidArgumentException``.\n\nBecause it is a subclass of ``LogicException``, catching ``LogicException`` also catches ``LengthException``, which lets calling code choose the granularity of the ``catch`` block depending on whether it needs to react specifically to length problems, or to logic errors in general.",
+    "code": "<?php\n\n    function trumpet(string $sound) {\n        if (empty($sound)) {\n           throw new \\UnexpectedValueException('trumpet() expects a non-empty string');\n        }\n    }\n\n?>",
+    "documentation": "https://www.php.net/manual/en/class.lengthexception.php",
+    "related": [
+        "exception",
+        "logicexception"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/class.lengthexception.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "LogicException",
+            "url": "https://www.php.net/manual/en/class.logicexception.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP: SPL Exceptions",
+            "url": "https://www.php.net/manual/en/spl.exceptions.php"
+        }
+    ],
+    "tags": [
+        "exception"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "5.1",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+}

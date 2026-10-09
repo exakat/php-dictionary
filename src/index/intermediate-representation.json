@@ -1,0 +1,55 @@
+{
+    "id": "intermediate-representation",
+    "name": "Intermediate Representation (IR)",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/intermediate-representation.html",
+    "aliases": [
+        "ir"
+    ],
+    "description": "An intermediate representation, or IR, is a data structure or code that a compiler builds to represent a program somewhere between its original source text and the final target code. It sits after parsing, so it is already free of raw syntax details such as comments, whitespace, or parentheses, but before code generation, so it is not yet tied to a specific CPU or virtual machine instruction set.\n\nThe point of having an intermediate representation is decoupling: a compiler's optimization passes, dead code elimination, constant folding, inlining, and its static analysis, are written once against the IR, independently of both the source language's syntax and the target's instruction set. The same IR can, in principle, be produced from several front-ends and consumed by several back-ends. Well-known IRs include LLVM IR, GCC's GIMPLE and RTL, and the JVM's class-file bytecode.\n\nAn intermediate representation is a broad family, not a single format. Common shapes include:\n\n+ An abstract syntax tree, still tree-shaped and close to the source grammar. See ``ast``.\n+ Three-address code or a control-flow graph, where a program is flattened into a sequence, or a graph, of simple instructions, each combining at most two operands into one result.\n+ Static single assignment (SSA) form, a discipline layered on top of a lower-level IR where every variable is assigned exactly once, which considerably simplifies data-flow analysis.\n+ A stack-based or register-based bytecode, meant to be executed by a virtual machine rather than further compiled to native code.\n\nPHP's own compiler follows this pipeline: source is parsed into an AST, and the AST is then compiled into PHP's opcodes, a stack-of-frames, register-like bytecode that the Zend Engine's virtual machine executes. PHP's opcodes are, therefore, PHP's intermediate representation: an internal detail invisible to ordinary code, surfaced only through tools such as ``vld`` or the opcode cache. When the JIT compiler is enabled, PHP further translates hot opcode sequences, going through an SSA-based internal form, into native machine code at run time.",
+    "code": "",
+    "documentation": "https://en.wikipedia.org/wiki/Intermediate_representation",
+    "related": [
+        "opcode",
+        "ast",
+        "ssa",
+        "control-flow-graph",
+        "compiler",
+        "compile-time",
+        "jit",
+        "code-generation",
+        "multi-pass-algorithm"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Intermediate_representation"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP opcode \u2013 Improve application performance without changing your code",
+            "url": "https://inspector.dev/php-opcode-improve-application-performance-without-changing-your-code/"
+        }
+    ],
+    "tags": [
+        "acronym",
+        "engine",
+        "concept"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Fri, 25 Sep 2026 14:02:39 +0000"
+}

@@ -1,0 +1,53 @@
+{
+    "id": "fseek",
+    "name": "fseek()",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/fseek.html",
+    "aliases": [],
+    "description": "``fseek()`` is a native PHP function that sets the file position indicator for a file pointer.\n\nIt moves the file pointer to a specified position, allowing random access to file content. This is useful for reading or writing specific parts of a file without processing the entire file.",
+    "code": "<?php\n\n    $fp = fopen('/tmp/test.txt', 'r');\n    \n    // Skip first 10 bytes\n    fseek($fp, 10);\n    \n    // Move to end of file\n    fseek($fp, 0, SEEK_END);\n    \n    // Move back 5 bytes from current position\n    fseek($fp, -5, SEEK_CUR);\n\n?>",
+    "documentation": "https://www.php.net/manual/en/function.fseek.php",
+    "related": [
+        "file",
+        "fopen",
+        "ftell",
+        "rewind",
+        "file-mode"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/function.fseek.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "fopen",
+            "url": "https://www.php.net/manual/en/function.fopen.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "ftell",
+            "url": "https://www.php.net/manual/en/function.ftell.php;\nseeAlso[rewind] = https://www.php.net/manual/en/function.rewind.php"
+        }
+    ],
+    "tags": [
+        "native function",
+        "file"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sun, 09 Aug 2026 11:56:57 +0000"
+}

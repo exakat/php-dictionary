@@ -1,0 +1,45 @@
+{
+    "id": "ini_set",
+    "name": "ini_set()",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/ini_set.html",
+    "aliases": [],
+    "description": "``ini_set()`` is a PHP native function which can change PHP directive, during execution. This is useful to make a specific limit different, depending on the part of the application which runs. It might also be a security problem, when directives are used to protect the system, and are lifted with this function. However, some directives cannot be changed by this function, such as ``disable_classes`` for example.\n\nThe impact of ``ini_set()`` only applies to the current request. It will be reset to its default value with the next request.\n\nThe complement to this function is ``ini_get()``, which collect the value of a directive without changing it; and ``ini_restore()``, which reset the directives to their initial value.",
+    "code": "<?php\n\n    print ini_get('memory_limit'); // for example 128M\n\n    ini_set('memory_limit', '1024M'); // now, 1 Gb\n\n?>",
+    "documentation": "https://www.php.net/manual/en/function.ini-set.php",
+    "related": [
+        "php.ini",
+        "directive",
+        "max_execution_time"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/function.ini-set.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "The ini_set Function",
+            "url": "https://code.mu/en/php/manual/conf/ini_set/"
+        }
+    ],
+    "tags": [
+        "native function"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Mon, 15 Jun 2026 11:03:59 +0000"
+}

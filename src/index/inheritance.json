@@ -1,0 +1,52 @@
+{
+    "id": "inheritance",
+    "name": "Inheritance",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/inheritance.html",
+    "aliases": [],
+    "description": "Inheritance is a mechanism where a class is build from another class, and form a hierarchy of classes that share a set of attributes and methods.",
+    "code": "<?php\n\nclass elephpant {\n    public function trumpet() {\n        echo \"I am trumpet!\\n\";\n    }\n}\n\nclass calf extends elephpant {\n    public function stampede() {\n        echo \"I am stampede!\\n\";\n    }\n}\n\n$calf = new Calf();\n$calf->stampede(); // calling the stampede method, defined only with calf\n$calf->trumpet(); // calling the trumpet method, defined in elephpant, and inherited in calf\n\n?>",
+    "documentation": "https://www.php.net/manual/en/language.oop5.inheritance.php",
+    "related": [
+        "class",
+        "class-hierarchy",
+        "composition",
+        "constructor",
+        "operator-overloading",
+        "overwrite",
+        "base-class",
+        "base",
+        "mro",
+        "polymorphism"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.oop5.inheritance.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "This is why PHP don't have multiple inheritance",
+            "url": "https://www.amitmerchant.com/this-is-why-php-dont-have-multiple-inheritance/"
+        }
+    ],
+    "tags": [
+        "class"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+}

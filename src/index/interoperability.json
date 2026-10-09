@@ -1,0 +1,59 @@
+{
+    "id": "interoperability",
+    "name": "Interoperability",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/interoperability.html",
+    "aliases": [
+        "interoperatibility"
+    ],
+    "description": "Interoperability, sometimes misspelled ``interoperatibility``, is the ability of distinct software components or systems to exchange information and work together effectively, without special adaptation effort.\n\nIn the PHP ecosystem, interoperability is promoted by PHP-FIG, the PHP Framework Interop Group, through PSR standards, which define common interfaces for loggers, the PSR-3, HTTP messages, the PSR-7, dependency injection containers, the PSR-11, caches, the PSR-6 and PSR-16, event dispatchers, the PSR-14, and HTTP handlers, the PSR-15.\n\nDesigning against interfaces rather than concrete implementations enables components from different libraries and frameworks to be composed freely. This is the foundation of the modern PHP package ecosystem.\n\nInteroperability also extends beyond the PHP ecosystem itself: PHP natively handles many exchange formats, such as JSON, XML, YAML, CSV, and Protocol Buffers, which lets it talk to services and applications written in any other language. A PHP application can consume a JSON API served by a Node.js backend, exchange Protobuf messages with a Go microservice over gRPC, or parse a CSV export produced by a legacy system, without either side knowing what language the other is written in. The FFI extension pushes this further, allowing PHP to call C libraries directly, in process.",
+    "code": "<?php\n\n    use Psr\\Log\\LoggerInterface;\n    \n    // Any PSR-3 compliant logger may be injected\n    function process(LoggerInterface $logger): void {\n        $logger->info('Processing started');\n    }\n\n?>",
+    "documentation": "https://www.php-fig.org/",
+    "related": [
+        "psr",
+        "interface",
+        "php-fig",
+        "dependency-injection",
+        "composition",
+        "decoupling",
+        "compatibility",
+        "clock",
+        "ffi",
+        "json",
+        "xml",
+        "yaml",
+        "csv",
+        "protobuf",
+        "grpc",
+        "serialization",
+        "soap"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php-fig.org/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Understanding PSR Standards and Their Importance in Modern PHP Development",
+            "url": "https://dev.to/abhay_yt_52a8e72b213be229/understanding-psr-standards-and-their-importance-in-modern-php-development-32ho"
+        }
+    ],
+    "tags": [
+        "standard"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sun, 30 Aug 2026 11:40:53 +0000"
+}

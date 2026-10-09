@@ -1,0 +1,56 @@
+{
+    "id": "form",
+    "name": "Form",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/form.html",
+    "aliases": [],
+    "description": "A form is a web page component to collect and submit information. \n\nThe form submits the information using HTTP protocol, and the GET or POST method. It is generally processed by the browser.\n\nThe form defines variable, whose content is submitted to the PHP script. Those values are accessed with $_GET, $_POST, $_REQUEST.\n\nForm is an HTML element, in a web page. As such, it may be created by PHP, when PHP produces HTML documents.",
+    "code": "",
+    "documentation": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/form",
+    "related": [
+        "$_get",
+        "$_post",
+        "$_request",
+        "framework"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/form"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP manual: Handling external variables",
+            "url": "https://www.php.net/manual/en/language.variables.external.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Symfony Form component documentation",
+            "url": "https://symfony.com/doc/current/forms.html"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP manual: $_POST",
+            "url": "https://www.php.net/manual/en/reserved.variables.post.php"
+        }
+    ],
+    "tags": [
+        "web"
+    ],
+    "packagist": [
+        "symfony/form"
+    ],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sun, 09 Aug 2026 12:10:00 +0000"
+}

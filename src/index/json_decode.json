@@ -1,0 +1,61 @@
+{
+    "id": "json_decode",
+    "name": "json_decode()",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/json_decode.html",
+    "aliases": [],
+    "description": "``json_decode()`` decodes a JSON string into a data structure.\n\nIn case an error arise during parsing, a ``null`` value is returned, as the default value. This error may be confused with the decoding of the ``'null'`` string, which is a valid JSON value. It may also raise a ``ValueError``, when the function is configured by ``JSON_THROW_ON_ERROR``.\n",
+    "code": "<?php\n\n    $json = '[1,2,3]';\n    try {\n        $variable = json_decode($json, flags: JSON_THROW_ON_ERROR);\n    } catch(ValueError $e) {\n        print \"JSON decoding error\";\n    }\n    // $variable === [1,2,3];\n\n?>",
+    "documentation": "https://www.php.net/manual/en/function.json-decode.php",
+    "related": [
+        "json",
+        "json_encode",
+        "null",
+        "strpos-syndrom",
+        "valueerror",
+        "jsonc",
+        "jsonl",
+        "parquet",
+        "json-ld",
+        "open-data",
+        "parse_ini_file",
+        "parse_ini_string"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/function.json-decode.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "json_encode()",
+            "url": "https://www.php.net/manual/en/function.json-encode.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "JSON constants (JSON_THROW_ON_ERROR)",
+            "url": "https://www.php.net/manual/en/json.constants.php"
+        }
+    ],
+    "tags": [
+        "native function"
+    ],
+    "packagist": [],
+    "extensions": [
+        "json"
+    ],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Fri, 25 Sep 2026 21:30:05 +0000"
+}

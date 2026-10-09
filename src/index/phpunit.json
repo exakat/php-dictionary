@@ -1,0 +1,55 @@
+{
+    "id": "phpunit",
+    "name": "PHPunit",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/phpunit.html",
+    "aliases": [],
+    "description": "``PHPUnit`` is an open-source testing framework for the PHP programming language. It is designed to facilitate unit testing in applications. Unit testing is a software testing approach where individual units or components of a software application are tested in isolation to ensure they behave as expected.",
+    "code": "",
+    "documentation": "https://www.phpunit.org/",
+    "related": [
+        "test",
+        "test-framework",
+        "mutation-test",
+        "test-data-provider",
+        "testdox",
+        "pcov",
+        "red-green-refactor",
+        "regression",
+        "test-driven-development"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.phpunit.org/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "How to Test PHP Code With PHPUnit",
+            "url": "https://www.freecodecamp.org/news/test-php-code-with-phpunit/"
+        }
+    ],
+    "tags": [
+        "tool",
+        "brand",
+        "development",
+        "standard tools",
+        "default stack"
+    ],
+    "packagist": [
+        "phpunit/phpunit"
+    ],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+}

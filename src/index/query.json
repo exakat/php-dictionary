@@ -1,0 +1,53 @@
+{
+    "id": "query",
+    "name": "Query",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/query.html",
+    "aliases": [],
+    "description": "Query is a generic term. It refers to a command, written in a specific format, and that is processed by a separate engine. \n\nHence, query has several usages: \n\n+ SQL query, when sending command to a SQL server. This is possibly the most common usage. \n+ The query string, a part of the URL\n+ HTTP query, when processing or submitting command via HTTP\n+ LDAP query, when communicating with a LDAP server.",
+    "code": "",
+    "documentation": "https://en.wikipedia.org/wiki/Query_language",
+    "related": [
+        "sql",
+        "ldap",
+        "http",
+        "query-string",
+        "client",
+        "parse_str",
+        "response",
+        "server"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Query_language"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PDO in PHP",
+            "url": "https://www.php.net/manual/en/book.pdo.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "LDAP",
+            "url": "https://www.php.net/manual/en/book.ldap.php"
+        }
+    ],
+    "tags": [
+        "disambiguation"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Fri, 14 Aug 2026 07:56:55 +0000"
+}

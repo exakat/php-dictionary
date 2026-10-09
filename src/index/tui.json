@@ -1,0 +1,60 @@
+{
+    "id": "tui",
+    "name": "Terminal User Interface (TUI)",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/tui.html",
+    "aliases": [
+        "terminal-user-interface"
+    ],
+    "description": "A Terminal User Interface, or TUI for short, is a type of user interface that uses text-based graphics and keyboard interaction within a terminal or console, providing a richer experience than a plain CLI while avoiding the overhead of a graphical desktop. TUIs typically use character-based drawing to build menus, forms, and panels. TUI applications are often built with the CLI SAPI and libraries such as ``Termwind`` or ``php-tui``.",
+    "code": "<?php\n\n// example from https://php-tui.github.io/php-tui/docs/guides/getting-started/\ndeclare(strict_types=1);\n\nuse PhpTui\\Tui\\DisplayBuilder;\nuse PhpTui\\Tui\\Extension\\Core\\Shape\\MapResolution;\nuse PhpTui\\Tui\\Extension\\Core\\Shape\\MapShape;\nuse PhpTui\\Tui\\Extension\\Core\\Widget\\CanvasWidget;\n\nrequire 'vendor/autoload.php';\n\n$display = DisplayBuilder::default()->build();\n$display->clear();\n$display->draw(\n    CanvasWidget::fromIntBounds(-180, 180, -90, 90)\n        ->draw(\n            MapShape::default()->resolution(MapResolution::High)\n        )\n);",
+    "documentation": "https://en.wikipedia.org/wiki/Text-based_user_interface",
+    "related": [
+        "cli",
+        "sapi",
+        "desktop-app",
+        "application"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Text-based_user_interface"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Introducing the Symfony TUI component",
+            "url": "https://symfony.com/blog/introducing-the-symfony-tui-component"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Tetris in PHP",
+            "url": "https://github.com/ShawnMcCool/tetris"
+        }
+    ],
+    "tags": [
+        "acronym",
+        "application"
+    ],
+    "packagist": [
+        "php-tui/php-tui",
+        "thermage/thermage"
+    ],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": {
+        "php-tui": "https://phptui.dev/",
+        "Termwind": "https://github.com/nunomaduro/termwind"
+    },
+    "popularity": "",
+    "modified": "Fri, 18 Sep 2026 05:03:42 +0000"
+}

@@ -1,0 +1,58 @@
+{
+    "id": "grpc",
+    "name": "gRPC (Google Remote Procedure Call)",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/grpc.html",
+    "aliases": [],
+    "description": "``gRPC``, short for Google Remote Procedure Call, is a high-performance framework for building APIs and connecting services: especially in microservices architectures.\n\nIt was originally developed by Google and is now an open-source project under the Cloud Native Computing Foundation.",
+    "code": "",
+    "documentation": "https://grpc.io/docs/languages/php/quickstart/",
+    "related": [
+        "rest-api",
+        "rpc",
+        "webrtc",
+        "websocket",
+        "api",
+        "application"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://grpc.io/docs/languages/php/quickstart/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "gRPC Fundamental and Concept",
+            "url": "https://medium.com/swlh/grpc-fundamental-and-concept-93414d7956df"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "9 APIs explained",
+            "url": "https://www.youtube.com/watch?v=pBASqUbZgkY"
+        }
+    ],
+    "tags": [
+        "api"
+    ],
+    "packagist": [
+        "grpc/grpc",
+        "spiral/roadrunner-grpc"
+    ],
+    "extensions": [
+        "grpc"
+    ],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Fri, 03 Jul 2026 07:54:20 +0000"
+}

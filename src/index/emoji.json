@@ -1,0 +1,51 @@
+{
+    "id": "emoji",
+    "name": "Emoji",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/emoji.html",
+    "aliases": [],
+    "description": "Emojis are small digital images or icons used to express ideas, emotions, objects, or concepts in electronic communication. The word ``emoji`` comes from Japanese, combining ``e``, picture and ``moji``, character or letter.",
+    "code": "<?php\n\n    // Emoji, directly in the string, when the file is also supporting Unicode, like with UTF8\n    echo \"Hello \ud83d\ude0a\";\n    \n    // Emoji, with a PHP escape sequence\n    echo \"\\u{1F60A}\";\n    \n    // Emoji, with an HTML escape sequence\n    echo \"&#128522;\";\n\n?>",
+    "documentation": "https://unicode.org/emoji/charts/full-emoji-list.html",
+    "related": [
+        "escape-sequence",
+        "utf-8",
+        "unicode"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://unicode.org/emoji/charts/full-emoji-list.html"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Emoji list",
+            "url": "https://en.wikipedia.org/wiki/Emoji"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Where you can (and can't) use Emoji in PHP",
+            "url": "https://shkspr.mobi/blog/2024/04/where-you-can-and-cant-use-emoji-in-php/"
+        }
+    ],
+    "tags": [
+        "character",
+        "name"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Tue, 01 Sep 2026 05:31:03 +0000"
+}

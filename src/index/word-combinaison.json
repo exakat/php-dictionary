@@ -1,0 +1,53 @@
+{
+    "id": "word-combinaison",
+    "name": "Word Combination",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/word-combinaison.html",
+    "aliases": [
+        "word-combination"
+    ],
+    "description": "Word combination is the technique to build a new word by putting one or several words next to each other, and making the whole a distinct or specialized entity from the individual elements.\n\nWord combination is used to build passphrases or names, for methods, properties, by accumulating several notions at the same time.",
+    "code": "",
+    "documentation": "https://en.wikipedia.org/wiki/Compound_word",
+    "related": [
+        "passphrase",
+        "name",
+        "name-convention",
+        "prefix",
+        "suffix"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Compound_word"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PSR-1: Basic Coding Standard",
+            "url": "https://www.php-fig.org/psr/psr-1/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Camel case - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Camel_case"
+        }
+    ],
+    "tags": [
+        "naming",
+        "linguistics"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Mon, 07 Sep 2026 14:42:56 +0000"
+}

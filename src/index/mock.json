@@ -1,0 +1,65 @@
+{
+    "id": "mock",
+    "name": "Mock",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/mock.html",
+    "aliases": [
+        "test-double"
+    ],
+    "description": "A mock replaces a code dependency with an object, to make testing easier. Mocks are used when the dependency is difficult to set in a reproducible state: for example, in a rare state, or after a long set up.\n\nMocks turns the dependency into another piece of code, with total control over its behavior. \n\nOn the other hand, mocks have to be coded to replace the dependency, and emulates its behavior as closely as possible: any change to the dependency behavior has to be back-ported. \n\nMock objects are also called ``test double``.",
+    "code": "",
+    "documentation": "https://www.radview.com/glossary/what-is-mock-testing/",
+    "related": [
+        "test-data-provider",
+        "spy",
+        "fixture",
+        "use-alias"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.radview.com/glossary/what-is-mock-testing/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Test doubles",
+            "url": "https://docs.phpunit.de/en/13.1/test-doubles.html#test-doubles"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Mocking",
+            "url": "https://laravel.com/docs/13.x/mocking"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Avoid mocking repositories by using in-memory implementations",
+            "url": "https://danielrotter.at/2023/09/22/avoid-mocking-repositories-by-using-in-memory-implementations.html"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Testing without mocking frameworks",
+            "url": "https://blog.frankdejonge.nl/testing-without-mocking-frameworks/"
+        }
+    ],
+    "tags": [
+        "test",
+        "versionUpdate"
+    ],
+    "packagist": [
+        "mockery/mockery",
+        "phpspec/prophecy"
+    ],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Tue, 11 Aug 2026 14:21:58 +0000"
+}

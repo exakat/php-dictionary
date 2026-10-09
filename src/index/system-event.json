@@ -1,0 +1,45 @@
+{
+    "id": "system-event",
+    "name": "System Event",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/system-event.html",
+    "aliases": [
+        "signal"
+    ],
+    "description": "System events, also known as signals, are software interrupts sent to a program to indicate that an important event has occurred. \n\nBy default, PHP reacts to system events. It may also handle those events by configuring a handler the ``pcntl_signal()`` function.",
+    "code": "",
+    "documentation": "https://www.php.net/manual/en/function.pcntl-signal.php",
+    "related": [
+        "handler",
+        "pcntl",
+        "pcntl_signal"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/function.pcntl-signal.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "A Guide to the PHP PCNTL Library for Process Forking and Control",
+            "url": "https://reintech.io/blog/guide-to-php-pcntl-library-for-process-forking-and-control"
+        }
+    ],
+    "tags": [
+        "os"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Wed, 19 Aug 2026 08:25:40 +0000"
+}

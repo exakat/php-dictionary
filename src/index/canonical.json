@@ -1,0 +1,54 @@
+{
+    "id": "canonical",
+    "name": "Canonical",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/canonical.html",
+    "aliases": [
+        "non-canonical"
+    ],
+    "description": "Canonical PHP are the PHP recommended operators and functions. This adjective is often used in its non-canonical, to highlight that the feature exists, but is not recommended.\n\nThere are non-canonical functions, such as ``sizeof()`` versus ``count()``, cast operators, such as ``boolean`` versus ``bool``, property options, such as ``var`` versus ``public``, constants, such as ``true`` versus ``'on'``, etc.\n\nNon-canonical operators are often a simple duplicate name for the same feature: they do not had any significant performance loss. In the end, they may be a question of taste or habits.\n\nCanonical URL are HTML ``<link>`` tags that help prevent duplicate content issues by specifying the preferred or canonical version of a web page. This is crucial for SEO, because search engines penalize sites with duplicate content.\n",
+    "code": "<?php\n\n    $array = [1, 2, 3];\n    echo sizeof($array); // 3\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Canonical_form",
+    "related": [
+        "habit",
+        "cast",
+        "url",
+        "seo",
+        "php-function"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Canonical_form"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Canonicalization",
+            "url": "https://en.wikipedia.org/wiki/Canonicalization"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP: realpath()",
+            "url": "https://www.php.net/manual/en/function.realpath.php"
+        }
+    ],
+    "tags": [
+        "convention"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Wed, 26 Aug 2026 04:23:49 +0000"
+}

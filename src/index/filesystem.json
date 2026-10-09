@@ -1,0 +1,53 @@
+{
+    "id": "filesystem",
+    "name": "File System",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/filesystem.html",
+    "aliases": [
+        "files-ystem"
+    ],
+    "description": "A file system is a method or structure used by operating systems to organize, store, and manage files and data on storage devices such as hard drives, solid-state drives, USB drives, and network-attached storage. It provides a logical and efficient way to store and retrieve data on these storage media.",
+    "code": "<?php\n\n    file_put_contents('file.txt', 'some text.');\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/File_system",
+    "related": [
+        "file",
+        "dir",
+        "link",
+        "directory_separator",
+        "recursivedirectoryiterator",
+        "splfileinfo"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/File_system"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "File system",
+            "url": "https://www.php.net/manual/en/book.filesystem.php"
+        }
+    ],
+    "tags": [
+        "system",
+        "portability"
+    ],
+    "packagist": [
+        "league/flysystem",
+        "symfony/filesystem",
+        "nette/finder"
+    ],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Tue, 25 Aug 2026 19:12:45 +0000"
+}

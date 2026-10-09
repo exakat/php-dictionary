@@ -1,0 +1,45 @@
+{
+    "id": "end-to-end-test",
+    "name": "End To End Test",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/end-to-end-test.html",
+    "aliases": [
+        "e2e"
+    ],
+    "description": "End to end tests are integration tests that cover the entire application, so it checks that it works correctly from the user's perspective. End to end testing is simulating real user interactions through the actual UI, hitting real servers and databases.\n\nEnd to end tests are critical to ensure a smooth experience for the user. They also require a duplication of the server environment, and they include the user's scope, that may have high variability. E2E tests should be covering the most critical paths, not hundreds, as they're slow and fragile.\n",
+    "code": "",
+    "documentation": "https://en.wikipedia.org/wiki/Integration_testing",
+    "related": [
+        "test",
+        "integration-test",
+        "unit-test"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Integration_testing"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "End-To-End Testing: 2026 Guide for E2E Testing",
+            "url": "https://leapwork.com/blog/end-to-end-testing/"
+        }
+    ],
+    "tags": [
+        "test"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sat, 08 Aug 2026 14:31:44 +0000"
+}

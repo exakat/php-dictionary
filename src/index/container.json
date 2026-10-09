@@ -1,0 +1,55 @@
+{
+    "id": "container",
+    "name": "Container",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/container.html",
+    "aliases": [],
+    "description": "There are several usages of the word container:\n\n+ Docker container, for PHP or other related technologies\n+ Dependency injection container\n+ Any structure that stores data: variables, properties, array elements.",
+    "code": "",
+    "documentation": "https://en.wikipedia.org/wiki/Container_(abstract_data_type)",
+    "related": [
+        "dependency-injection-container",
+        "php-docker-container",
+        "docker-container",
+        "data-container",
+        "readable",
+        "registry",
+        "writable",
+        "writeable",
+        "docker-image",
+        "docker"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Container_(abstract_data_type)"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PSR-11: Container Interface",
+            "url": "https://www.php-fig.org/psr/psr-11/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Symfony: Service Container",
+            "url": "https://symfony.com/doc/current/service_container.html"
+        }
+    ],
+    "tags": [
+        "disambiguation"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Tue, 25 Aug 2026 12:17:01 +0000"
+}

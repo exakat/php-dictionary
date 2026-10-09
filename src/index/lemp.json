@@ -1,0 +1,49 @@
+{
+    "id": "lemp",
+    "name": "Linux Nginx Mysql PHP (LEMP)",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/lemp.html",
+    "aliases": [],
+    "description": "LEMP is a popular open-source software stack used to build and deploy web applications. The acronym stands for:\n\n+ Linux: the operating system\n+ Nginx: the application server\n+ MySQL: the database management system, or alternatives like MariaDB\n+ PHP: the programming language used for server-side scripting\n\nIt is very similar to LAMP.",
+    "code": "",
+    "documentation": "https://en.wikipedia.org/wiki/LAMP_(software_bundle)",
+    "related": [
+        "lamp",
+        "mysql",
+        "server",
+        "webserver",
+        "php"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/LAMP_(software_bundle)"
+        }
+    ],
+    "tags": [
+        "acronym",
+        "folklore",
+        "stack"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": {
+        "Linux": "https://www.linux.com/",
+        "Apache": "https://www.apache.org",
+        "MySQL": "https://www.mysql.com/",
+        "MariaDB": "https://mariadb.org/"
+    },
+    "popularity": "",
+    "modified": "Fri, 18 Sep 2026 05:06:57 +0000"
+}

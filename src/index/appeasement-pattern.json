@@ -1,0 +1,54 @@
+{
+    "id": "appeasement-pattern",
+    "name": "Appeasement Pattern",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/appeasement-pattern.html",
+    "aliases": [
+        "appeasement"
+    ],
+    "description": "The appeasement pattern is a code smell where validation, error checking, or security controls are weakened or bypassed to satisfy code quality tools, a demanding caller or to silence errors, instead of fixing the underlying issue.\n\nCommon PHP manifestations include: using the ``@`` error suppression operator to hide failures, loosening type checks to accept any input, adding special-case exceptions to a validator for a specific caller, or gradually degrading a strict check into a permissive one to avoid breakage.\n\nThe appeasement pattern also happens with static analysis: the tool may not support a particular syntax, lack helpful context or the code may simply be ambiguous. The appeasement pattern leads to more verbose or convoluted code, so as to allow extra configuration.\n\nThe appeasement pattern leads to fragile code where hidden failures accumulate silently, security assumptions erode, and bugs become much harder to diagnose. The correct approach is to fix the root cause rather than appease the symptom.",
+    "code": "<?php\n\n    // Appeasement: silencing an error instead of fixing it\n    $result = @file_get_contents($untrustedPath); // failure is hidden\n    \n    // Appeasement: loosening a type check to stop a caller from failing\n    function process(mixed $value): void {\n        // was: if (!is_int($value)) { throw new \\InvalidArgumentException(); }\n        // now silently coerces because one caller passes strings\n        $value = (int) $value;\n    }\n    \n    // SCA Appeasement: \n    // $url has already been checked for being a valid URL so this will always works\n    /** @var array{0: string, 1: string} $r */\n    preg_match(#(http)s?://#, $url, $r);\n    echo $r[0];\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Code_smell",
+    "related": [
+        "error-suppression",
+        "security",
+        "code-smell",
+        "implicit",
+        "hidden-state",
+        "vulnerability",
+        "distributed-state"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Code_smell"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Error suppression operator",
+            "url": "https://www.php.net/manual/en/language.operators.errorcontrol.php"
+        }
+    ],
+    "tags": [
+        "concept",
+        "security",
+        "code smell",
+        "static analysis"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Wed, 19 Aug 2026 08:25:46 +0000"
+}

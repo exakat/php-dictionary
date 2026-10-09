@@ -1,0 +1,83 @@
+{
+    "id": "sca",
+    "name": "Static Code Analysis (SCA)",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/sca.html",
+    "aliases": [
+        "static-code-analysis",
+        "static-analysis"
+    ],
+    "description": "Static code analysis, or SCA or static analysis, analyzes the source code: it reports possible bugs, conventions violations, incorrect structures, vulnerabilities, versions or OS portability incompatibilities, etc. \n\nPHP includes static code analysis, by reporting a wide range of errors before executing the code, at linting time. Then, the other errors are reported at execution time. SCA works in-between these two phases: after the code compiles, but before it is executed. \n\nSCA is usually invoked manually, during development time, at commit time, to avoid pushing incorrect code, and in CI/CD pipelines, to ensure it was correctly run.",
+    "code": "",
+    "documentation": "https://en.wikipedia.org/wiki/Static_program_analysis",
+    "related": [
+        "analysis",
+        "audit",
+        "autocompletion",
+        "ssa",
+        "tool",
+        "type-checking",
+        "sast",
+        "phpstan",
+        "psalm",
+        "control-flow-analysis",
+        "data-flow-analysis",
+        "semantic-analysis",
+        "symbolic-analysis",
+        "pattern-based-analysis",
+        "docblock",
+        "linting",
+        "ci",
+        "array-shape",
+        "gradual-typing",
+        "tokenizer",
+        "type-narrowing",
+        "type-parametricity",
+        "type-system",
+        "whitebox"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Static_program_analysis"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "How to Perform Static Code Analysis in PHP?",
+            "url": "https://www.geeksforgeeks.org/php/how-to-perform-static-code-analysis-in-php/"
+        }
+    ],
+    "tags": [
+        "acronym",
+        "tool",
+        "static analysis"
+    ],
+    "packagist": [
+        "phpstan/phpstan",
+        "phan/phan",
+        "psalm/psalm",
+        "exakat/exakat",
+        "mago/mago"
+    ],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": {
+        "exakat": "https://www.exakat.io",
+        "phpstan": "https://phpstan.org/",
+        "psalm": "https://psalm.dev/",
+        "phan": "https://github.com/phan/phan",
+        "mago": "https://github.com/carthage-software/mago"
+    },
+    "popularity": "",
+    "modified": "Thu, 17 Sep 2026 08:58:28 +0000"
+}

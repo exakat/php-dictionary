@@ -1,0 +1,60 @@
+{
+    "id": "future",
+    "name": "Future",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/future.html",
+    "aliases": [],
+    "description": "A future is a programming construct representing a value that is not yet available but will be resolved at some point. It is closely related to promises: a future is the read-only view of an asynchronous result, while a promise is the write side that resolves or rejects that future.\n\nIn languages like Java, Scala, and Dart, futures and promises are distinct objects. With languages like PHP, the distinction is often blurred, and the terms are used interchangeably within async libraries like ReactPHP or Amp.\n\nFutures enable non-blocking code by allowing a computation to proceed without waiting for a result that is not yet ready.",
+    "code": "",
+    "documentation": "https://en.wikipedia.org/wiki/Futures_and_promises",
+    "related": [
+        "promise",
+        "asynchronous",
+        "fibers",
+        "cancellation"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Futures_and_promises"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "ReactPHP: Promise",
+            "url": "https://reactphp.org/promise/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Amp documentation",
+            "url": "https://amphp.org/amp"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Fibers",
+            "url": "https://www.php.net/manual/en/language.fibers.php"
+        }
+    ],
+    "tags": [
+        "concept",
+        "design"
+    ],
+    "packagist": [
+        "amphp/amp",
+        "react/promise"
+    ],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Wed, 26 Aug 2026 10:02:51 +0000"
+}

@@ -1,0 +1,53 @@
+{
+    "id": "numeric-separator",
+    "name": "Numeric Separator",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/numeric-separator.html",
+    "aliases": [
+        "integer-separator"
+    ],
+    "description": "Since PHP 7.4, it is possible to add underscores as numeric separators, also called an integer separator within integer literals, within numeric literals to improve their readability. This feature allows to group digits, making them easier to read and understand. Numeric separators have no effect on the value of the number; they're purely for human-friendly formatting.",
+    "code": "<?php\n\n    $phone_fr = 1_33_61_23_45_67;\n    $phone_ca = 1_514_387_9947;\n    $hexadecimal = 0xff_ff_fff;\n    \n    // true;\n    var_dump(1_2_3 === 123);\n\n?>",
+    "documentation": "https://www.php.net/manual/en/language.types.integer.php#language.types.integer.syntax",
+    "related": [
+        "integer",
+        "float",
+        "underscore",
+        "separator"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.types.integer.php#language.types.integer.syntax"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Underscore numeric separator - PHP 7.4",
+            "url": "https://php.watch/versions/7.4/underscore_numeric_separator"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP RFC: Numeric Literal Separator",
+            "url": "https://wiki.php.net/rfc/numeric_literal_separator"
+        }
+    ],
+    "tags": [
+        "feature"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [
+        "Php/IntegerSeparatorUsage"
+    ],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "7.4",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+}

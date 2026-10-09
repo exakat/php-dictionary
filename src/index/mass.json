@@ -1,0 +1,46 @@
+{
+    "id": "mass",
+    "name": "Mass",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/mass.html",
+    "aliases": [],
+    "description": "``mass`` shows up in several distinct PHP and ORM concepts. They are easy to confuse because they all involve applying one operation to several attributes or rows at once:\n\n+ Mass assignment: filling several properties of a single object at once from an associative array, typically ``Model::create($data)`` or ``$model->fill($data)``. When the array comes from unfiltered user input, it is a well-known security vulnerability, since an attacker can inject extra keys the form never intended to expose.\n+ Mass update / mass deletion: running an ``update()`` or ``delete()`` directly against a query builder result, affecting every row that matches the query in a single SQL statement, without ever loading the matching models. This is a behavioral gotcha rather than a security issue: since the models are never retrieved, per-model events, mutators, and observers do not fire.\n+ Mass mailing: sending the same, or templated, email to a large number of recipients at once, usually through a dedicated queue or third-party service rather than PHP's synchronous ``mail()``.\n\nAbsent further context, ``mass`` in a PHP codebase or discussion most often refers to mass assignment.",
+    "code": "",
+    "documentation": "https://cheatsheetseries.owasp.org/cheatsheets/Mass_Assignment_Cheat_Sheet.html",
+    "related": [
+        "mass-assignment",
+        "orm",
+        "batch",
+        "mail"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://cheatsheetseries.owasp.org/cheatsheets/Mass_Assignment_Cheat_Sheet.html"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Eloquent: Getting Started - Mass Updates",
+            "url": "https://laravel.com/docs/eloquent#mass-updates"
+        }
+    ],
+    "tags": [
+        "disambiguation"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Mon, 07 Sep 2026 08:59:23 +0000"
+}

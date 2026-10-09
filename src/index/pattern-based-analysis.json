@@ -1,0 +1,54 @@
+{
+    "id": "pattern-based-analysis",
+    "name": "Pattern-Based Analysis",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/pattern-based-analysis.html",
+    "aliases": [
+        "pattern-matching-analysis"
+    ],
+    "description": "Pattern-based analysis is a static analysis technique that detects issues by matching source code against a library of known patterns, without building a full model of the program's execution.\n\nEach pattern describes a structural or textual signature that corresponds to a coding mistake, a security vulnerability, or a style violation. When the pattern matches, a finding is reported.\n\nPattern-based analysis is:\n\n+ Fast to implement and run, because it requires only a token stream or a partial AST\n+ Easy to extend, because new patterns can be added without modifying the analyser core\n+ Limited in depth, because it cannot reason about data flow, aliasing, or runtime state\n\nCommon uses include detecting calls to deprecated functions, flagging unsafe functions such as ``eval()``, ``exec()``, enforcing naming conventions, and finding trivially injected values.\n\nExakat uses pattern-based analysis for many of its rules, alongside deeper analyses.",
+    "code": "<?php\n\n    // Pattern-based analysis can flag the use of eval() regardless of context\n    $code = $_GET['snippet'] ?? '';\n    eval($code); // flagged by pattern: use of eval()\n\n?>",
+    "documentation": "https://www.geeksforgeeks.org/machine-learning/types-of-algorithms-in-pattern-recognition/",
+    "related": [
+        "analysis",
+        "lexical-analysis",
+        "semantic-analysis",
+        "control-flow-analysis",
+        "data-flow-analysis",
+        "symbolic-analysis",
+        "sast",
+        "ast",
+        "regex"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.geeksforgeeks.org/machine-learning/types-of-algorithms-in-pattern-recognition/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Pattern-based analysis \u2014 OWASP Code Review Guide",
+            "url": "https://owasp.org/www-project-code-review-guide/"
+        }
+    ],
+    "tags": [
+        "analysis",
+        "static analysis"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Mon, 20 Jul 2026 17:10:11 +0000"
+}

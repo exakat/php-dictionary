@@ -1,0 +1,48 @@
+{
+    "id": "class-entity",
+    "name": "Class Entities",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/class-entity.html",
+    "aliases": [],
+    "description": "An entity represents a single object, with a unique identifier and a set of properties. The entity is usually stored in a database for long times. The type of the entity is called its model.",
+    "code": "",
+    "documentation": "https://en.wikipedia.org/wiki/Entity",
+    "related": [
+        "html-entities",
+        "vo",
+        "entity"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Entity"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Entity-relationship model",
+            "url": "https://en.wikipedia.org/wiki/Entity%E2%80%93relationship_model"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Martin Fowler: EvansClassification",
+            "url": "https://martinfowler.com/bliki/EvansClassification.html"
+        }
+    ],
+    "tags": [
+        "concept"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Wed, 26 Aug 2026 04:23:49 +0000"
+}

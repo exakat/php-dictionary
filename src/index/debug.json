@@ -1,0 +1,62 @@
+{
+    "id": "debug",
+    "name": "Debug",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/debug.html",
+    "aliases": [
+        "debugging"
+    ],
+    "description": "Debugging is the action to diagnostic a bug, find its root cause, quick workaround and definitive fix for it.\n\nDebugging is a complex tasks.\n\nDebugging uses various tools of analysis: \n\n+ Log\n+ Event log\n+ Audit trail\n+ Traces, with ``print_r()``, ``var_dump()``, ``debug_backtrace()``\n+ Debuggers, such as ``xdebug``, ``php debugger``, ``php-dbg``.\n\n",
+    "code": "",
+    "documentation": "https://en.wikipedia.org/wiki/Debugging",
+    "related": [
+        "debugger",
+        "ide",
+        "xdebug",
+        "callstack",
+        "html_errors",
+        "troubleshoot"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Debugging"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP Debugger",
+            "url": "https://github.com/php-debugger/php-debugger"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Interactive PHP Debugger",
+            "url": "https://www.php.net/manual/en/book.phpdbg.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "How to Use a Debugger in PHP",
+            "url": "https://www.honeybadger.io/blog/php-debugger/"
+        }
+    ],
+    "tags": [
+        "tool"
+    ],
+    "packagist": [],
+    "extensions": [
+        "xdebug"
+    ],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": {
+        "Xdebug": "https://xdebug.org/"
+    },
+    "popularity": "",
+    "modified": "Fri, 18 Sep 2026 04:46:47 +0000"
+}

@@ -1,0 +1,53 @@
+{
+    "id": "tech-island",
+    "name": "Tech Island",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/tech-island.html",
+    "aliases": [],
+    "description": "A tech island is an organisational behaviour where a team replicates tools, libraries, or infrastructure internally rather than depending on external ones. The goal is to reduce exposure to outside dependencies: third-party APIs, open-source libraries that may be abandoned, or cloud services that may change pricing or availability.\n\nWhile this approach grants autonomy and control, it comes at the cost of reinventing the wheel: the internal replicas must be built, maintained, and kept up to date, diverting effort from the core product. Tech islands can drift from standards, accumulate hidden debt, and become a maintenance burden over time.\n\nTech island is distinct from a tech silo: an island deliberately avoids external tools, whereas a silo is a team that does not share its tools or knowledge with the rest of the organisation.",
+    "code": "",
+    "documentation": "https://en.wikipedia.org/wiki/Not_invented_here",
+    "related": [
+        "vendor-lockin",
+        "dependency",
+        "coupling",
+        "dry",
+        "tech-silo"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Not_invented_here"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Vendor lock-in - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Vendor_lock-in"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Conway's law - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Conway%27s_law"
+        }
+    ],
+    "tags": [
+        "architecture",
+        "organisation"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Fri, 28 Aug 2026 09:39:42 +0000"
+}

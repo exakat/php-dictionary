@@ -1,0 +1,62 @@
+{
+    "id": "dry",
+    "name": "Don't Repeat Yourself (DRY)",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/dry.html",
+    "aliases": [],
+    "description": "Don't repeat yourself, or DRY, is a principle of software development aimed at reducing repetition of software patterns.\n\nThe concept was coined in Andy Hunt and Dave Thomas's book ``The Pragmatic Programmer``, in 1999.\n\nThis principle is also known as Duplication Is Evil, or DIE. Its nemesis is ``WET``. It means write everything twice.",
+    "code": "",
+    "documentation": "https://en.wikipedia.org/wiki/Don%27t_repeat_yourself",
+    "related": [
+        "wet",
+        "solid",
+        "centralization",
+        "kiss",
+        "tech-island",
+        "yagni"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Don%27t_repeat_yourself"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "The Pragmatic Programmer",
+            "url": "https://en.wikipedia.org/wiki/The_Pragmatic_Programmer"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Why DRY is the most over-rated programming principle",
+            "url": "https://gordonc.bearblog.dev/dry-most-over-rated-programming-principle/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "DRY Principle in PHP",
+            "url": "https://agileparrot.com/2022/07/19/dry-principle-in-php/"
+        }
+    ],
+    "tags": [
+        "acronym",
+        "best practice"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [
+        "Classes/IdenticalMethods"
+    ],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": {
+        "Andy Hunt": "https://toolshed.com/",
+        "Dave Thomas": "https://en.wikipedia.org/wiki/Dave_Thomas_(programmer)"
+    },
+    "brand": "",
+    "popularity": "",
+    "modified": "Fri, 18 Sep 2026 04:49:43 +0000"
+}

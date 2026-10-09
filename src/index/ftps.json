@@ -1,0 +1,50 @@
+{
+    "id": "ftps",
+    "name": "File Transfer Protocol Secure (FTPS)",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/ftps.html",
+    "aliases": [],
+    "description": "FTPS stands for File Transfer Protocol Secure. It is a protocol to transfer files between servers, over a secure connection. \n\nPHP supports FTP and FTPS, through the ext/ftp extension, the ext/curl extension and the internal wrappers.",
+    "code": "<?php\n    $ftp = ftp_connect($ftpAddress); \n    \n    $upload = ftp_put($ftp, $destinationPath, $sourceFile, FTP_BINARY); \n    \n    if (!$upload) { \n        echo \"FTPS upload has failed!\";\n    } else {\n        echo \"Uploaded $source_file to $ftp_server as $destination_file\";\n    }\n    \n    ftp_close($ftp);\n?>",
+    "documentation": "https://www.php.net/manual/en/book.ftp.php",
+    "related": [
+        "wrapper",
+        "ftp"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/book.ftp.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "RFC 765",
+            "url": "https://datatracker.ietf.org/doc/html/rfc959"
+        }
+    ],
+    "tags": [
+        "protocol",
+        "acronym",
+        "rfc",
+        "hosting"
+    ],
+    "packagist": [],
+    "extensions": [
+        "ftp",
+        "curl"
+    ],
+    "analyzers": [
+        "Extensions/Extftp"
+    ],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Wed, 19 Aug 2026 08:16:57 +0000"
+}

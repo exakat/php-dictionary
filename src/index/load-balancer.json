@@ -1,0 +1,63 @@
+{
+    "id": "load-balancer",
+    "name": "Load Balancer",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/load-balancer.html",
+    "aliases": [
+        "load-balancing"
+    ],
+    "description": "A load balancer, performing load balancing, is a component that distributes incoming network traffic across multiple backend servers to improve availability, throughput, and fault tolerance.\n\nDuring deployment, the load balancer sits in front of a pool of PHP application servers, typically PHP-FPM behind Nginx or Apache. When a request arrives, the load balancer forwards it to one of the available servers according to a strategy: round-robin, least connections, IP hash, or weighted distribution.\n\nBecause requests can land on any server, PHP applications behind a load balancer must be stateless or externalise their state:\n\n+ Sessions must be stored in a shared backend server, not on the local filesystem\n+ Uploaded files must be written to shared storage, like NFS, an S3-compatible object store\n+ Caches should be shared or invalidated across all nodes\n+ Any resource that must persist between calls must be stored in a common server\n\nA load balancer also provides health checks, in order to remove unhealthy nodes automatically, SSL termination, and sticky sessions, where it is routing a user's requests to the same backend when true statelessness is not possible.",
+    "code": "<?php\n\n    // Detect the real client IP behind a trusted load balancer\n    $clientIp = $_SERVER['HTTP_X_FORWARDED_FOR'] ?? $_SERVER['REMOTE_ADDR'];\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Load_balancing_(computing)",
+    "related": [
+        "horizontal-scaling",
+        "stateless",
+        "session",
+        "distributed-state",
+        "server-architecture",
+        "cache",
+        "docker",
+        "availability",
+        "container-orchestration",
+        "kubernetes",
+        "qos",
+        "service-discovery",
+        "service-registry"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Load_balancing_(computing)"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Load Balancing PHP Applications",
+            "url": "https://www.nginx.com/resources/glossary/load-balancing/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "AWS Elastic Load Balancing with PHP",
+            "url": "https://docs.aws.amazon.com/elasticloadbalancing/"
+        }
+    ],
+    "tags": [
+        "architecture",
+        "infrastructure"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sun, 30 Aug 2026 14:48:52 +0000"
+}

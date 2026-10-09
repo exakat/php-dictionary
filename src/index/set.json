@@ -1,0 +1,57 @@
+{
+    "id": "set",
+    "name": "Set",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/set.html",
+    "aliases": [],
+    "description": "A set is a data structure that stores unique values with no particular order. PHP has no native set type, but sets can be simulated with array keys, which must be unique and in no particular order, or by using ``Ds\\Set`` from the ``ds`` extension.\n\nSets are useful for membership testing, deduplication, and set operations such as union, intersection, and difference.",
+    "code": "<?php\n\n    // Simulated set using array keys\n    $set = [];\n    $set['apple'] = true;\n    $set['banana'] = true;\n    $set['apple'] = true; // no-op, key already exists\n    \n    $isMember = isset($set['apple']); // true\n    \n    // Using ds extension\n    $set = new Ds\\Set([1, 2, 3, 2, 1]);\n    echo $set->count(); // 3\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Set_(mathematics)",
+    "related": [
+        "datastructure",
+        "collection",
+        "array",
+        "ds",
+        "splsubject"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Set_(mathematics)"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Ds\\Set",
+            "url": "https://www.php.net/manual/en/class.ds-set.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "array_unique()",
+            "url": "https://www.php.net/manual/en/function.array-unique.php"
+        }
+    ],
+    "tags": [
+        "data structure",
+        "collection"
+    ],
+    "packagist": [
+        "php-ds/php-ds"
+    ],
+    "extensions": [
+        "ds"
+    ],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Wed, 19 Aug 2026 08:26:08 +0000"
+}

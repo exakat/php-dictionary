@@ -1,0 +1,52 @@
+{
+    "id": "var_export",
+    "name": "var_export()",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/var_export.html",
+    "aliases": [],
+    "description": "``var_export()`` is a PHP native function that produces a representation of the passed data as PHP code.\n\n``var_export()`` is used for caching, by storing an intermediate result for later inclusion. ``var_export()`` is also used for storing PHP data, and later accessing them in their current form: it bypasses the process of serializing/unserializing by using PHP as the serialization itself.\n\n``var_export()`` is usually replaced by ``print_r()``, ``var_dump()`` or other adapted functions when it is immediately displayed, during a development session.\n",
+    "code": "<?php\n\n    print var_export(1); // 1\n    \n    print var_export(abc); // 'abc'\n    \n    $a = [1, 3, 4];\n    $a[] = 5;\n    print var_export($a); // \n    \n    class Elephpant {\n        public string $p = 'yes';\n    }\n\n    $trunk = new Elephpant();\n    $trunk->p = 'PHP rocks';\n    print var_export($a); //\n\n?>",
+    "documentation": "https://www.php.net/manual/en/function.debug-backtrace.php",
+    "related": [
+        "print_r",
+        "serialization",
+        "cache",
+        "var_dump"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/function.debug-backtrace.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP: var_export()",
+            "url": "https://www.php.net/manual/en/function.var-export.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP: serialize()",
+            "url": "https://www.php.net/manual/en/function.serialize.php"
+        }
+    ],
+    "tags": [
+        "debug",
+        "native function"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [
+        "Structures/VardumpUsage"
+    ],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+}

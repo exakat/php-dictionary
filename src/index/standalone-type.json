@@ -1,0 +1,47 @@
+{
+    "id": "standalone-type",
+    "name": "Standalone Types",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/standalone-type.html",
+    "aliases": [],
+    "description": "Types are standalone, as they can be use alone, in a type declaration. This is the case of almost any type of PHP, scalar, or class. The only exception used to be false and null.\n\n``null`` needed to be associated to another type, and was not standalone. ``false`` also was introduced as a non-standalone type, where it had to be associated with another type. \n\nSince PHP 8.2, and 8.3 for ``true``, those types are now standalone and can be used by themselves. They are also called a 'literal type' as they define both the type and the value.",
+    "code": "<?php\n\n    function trumpet(true $trunk) {\n        // $trunk can only be true\n        var_dump($trunk);\n    }\n\n?>",
+    "documentation": "https://www.php.net/manual/en/language.types.singleton.php",
+    "related": [
+        "special-typehint",
+        "type",
+        "true",
+        "false",
+        "null"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.types.singleton.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "What's the 'true' Standalone Type in PHP?",
+            "url": "https://www.designcise.com/web/tutorial/what-is-the-true-standalone-type-in-php"
+        }
+    ],
+    "tags": [
+        "type"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [
+        "Typehints/FTNStandaloneType"
+    ],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+}

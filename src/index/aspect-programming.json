@@ -1,0 +1,47 @@
+{
+    "id": "aspect-programming",
+    "name": "Aspect Oriented Programming",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/aspect-programming.html",
+    "aliases": [],
+    "description": "Aspect programming is a programming paradigm that separates business logic from cross-cutting concerns: things that affect many parts of the program but would pollute the happy path of the business logic. For example, validation, formatting, logging or error handling.",
+    "code": "",
+    "documentation": "https://en.wikipedia.org/wiki/Aspect-oriented_programming",
+    "related": [
+        "paradigm",
+        "aspect-oriented"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Aspect-oriented_programming"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Aspect-Oriented Programming",
+            "url": "https://flowframework.readthedocs.io/en/8.3/TheDefinitiveGuide/PartIII/AspectOrientedProgramming.html"
+        }
+    ],
+    "tags": [
+        "paradigm"
+    ],
+    "packagist": [
+        "goaop/framework",
+        "okapi/aop"
+    ],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Tue, 11 Aug 2026 20:52:42 +0000"
+}

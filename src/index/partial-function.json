@@ -1,0 +1,51 @@
+{
+    "id": "partial-function",
+    "name": "Partial Function",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/partial-function.html",
+    "aliases": [],
+    "description": "A partial function is a function that has some parameters already known, and still needs some final ones before execution. The function is said ``partial``, as it can be executed a little, but not fully.\n\nIn general, the partial function is built on with a closure or an arrow function, and the locally available parameters. It is then passed to other contexts, which holds the rest of the arguments.\n\nPartial function is related to functional programming.",
+    "code": "<?php\n\nfunction trumpet($trunk, $tusk, $ivory) { return $trunk + $tusk + $ivory; }\n\n$trunk = 1;\n$tusk = 2;\n$partial = function ($ivory) use ($trunk, $tusk) { return trumpet($trunk, $tusk, $ivory); };\n\n// as an arrow function\n$partial = fn ($ivory) => trumpet($trunk, $tusk, $ivory);\n\nforage($partial);\n\nfunction forage(callable $partial) {\n    $ivory = fetchDataSomewhere();\n\n    return $partial($ivory);\n}\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Partial_application",
+    "related": [
+        "functional-programming",
+        "partial-application"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Partial_application"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Currying - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Currying"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "The Difference Between Currying and Partially Applied Functions",
+            "url": "https://dzone.com/articles/difference-between-currying-amp-partially-applied"
+        }
+    ],
+    "tags": [
+        "concept"
+    ],
+    "packagist": [
+        "react/partial"
+    ],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+}

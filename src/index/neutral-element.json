@@ -1,0 +1,41 @@
+{
+    "id": "neutral-element",
+    "name": "Neutral Element",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/neutral-element.html",
+    "aliases": [],
+    "description": "A neutral element is a piece of data which has no effect with a particular operation.\n\nFor example, ``0`` is the neutral element for the addition, as ``0 + $a`` is the same as ``$a + 0`` and the same as ``$a``, without any type change.\n\nThe neutral element for the multiplication is ``1``; the neutral element for the concatenation is the empty string ``''``. \n\nIt is usually possible to define a neutral element for any operation or method call. For objects, they are called null objects, as they could replace the ``null`` scalar value.",
+    "code": "<?php\n\n    $a = 10;\n    \n    $a *= 1; // this does nothing\n    $a += 1; // this does nothing\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Identity_element",
+    "related": [
+        "nullpattern"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Identity_element"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Null Object Pattern",
+            "url": "https://en.wikipedia.org/wiki/Null_object_pattern"
+        }
+    ],
+    "tags": [
+        "concept"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Tue, 11 Aug 2026 21:01:37 +0000"
+}

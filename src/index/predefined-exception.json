@@ -1,0 +1,45 @@
+{
+    "id": "predefined-exception",
+    "name": "PHP Predefined Exception",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/predefined-exception.html",
+    "aliases": [],
+    "description": "PHP predefined exceptions are the exception and error classes that ship built into the engine itself, available in every PHP installation without requiring any extension, autoloading, or namespace import. They form a class hierarchy rooted in the ``Throwable`` interface, which splits into two main branches: ``Exception``, meant for conditions an application can reasonably anticipate and recover from, and Error, meant for problems in the program itself, such as type mismatches or calls to undefined functions, that are usually not meant to be caught during normal operation. Beyond the base ``Exception`` and ``Error`` classes, PHP and its Standard PHP Library provide a family of more specific predefined exceptions such as ``RuntimeException``, ``LogicException``, ``InvalidArgumentException``, ``OutOfRangeException``, ``OutOfBoundsException``, ``LengthException``, ``DomainException``, ``RangeException``, ``UnexpectedValueException``, ``TypeError``, ``ValueError``, ``ArgumentCountError``, ``ArithmeticError``, and ``DivisionByZeroError``, each documenting a narrower category of failure so that calling code can catch precisely the situations it knows how to handle. These classes evolve slightly from one PHP version to the next as new, more precise exceptions are introduced to replace generic ones, so the exact catalogue and inheritance chain should always be checked against the manual for the target PHP version rather than assumed from memory.",
+    "code": "<?php\n\n    try {\n        throw new RuntimeException('one error!');\n    } catch (Exception $e) {\n        print \"Caught an exception of type \".get_class($e);\n    }\n\n?>",
+    "documentation": "https://www.php.net/manual/en/reserved.exceptions.php",
+    "related": [
+        "throw",
+        "try-catch",
+        "exception",
+        "native"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/reserved.exceptions.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP: SPL Exceptions",
+            "url": "https://www.php.net/manual/en/spl.exceptions.php"
+        }
+    ],
+    "tags": [
+        "exception",
+        "php native"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 17 Sep 2026 07:51:17 +0000"
+}

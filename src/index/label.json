@@ -1,0 +1,49 @@
+{
+    "id": "label",
+    "name": "Goto Labels",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/label.html",
+    "aliases": [],
+    "description": "Labels are the receiving end of a goto call. They must be in the same context than the goto they relate to: there, they must be unique. There might be several goto for a single label.",
+    "code": "<?php\n\n    goto migrate;\n    echo 'Forage';\n\n    migrate:\n    echo 'Trumpet';\n\n?>",
+    "documentation": "https://www.php.net/manual/en/control-structures.goto.php",
+    "related": [
+        "goto",
+        "colon"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/control-structures.goto.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Goto (Wikipedia)",
+            "url": "https://en.wikipedia.org/wiki/Goto"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "break",
+            "url": "https://www.php.net/manual/en/control-structures.break.php"
+        }
+    ],
+    "tags": [
+        "feature"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [
+        "Php/Gotonames"
+    ],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+}

@@ -1,0 +1,71 @@
+{
+    "id": "cache-stampede",
+    "name": "Cache Stampede",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/cache-stampede.html",
+    "aliases": [
+        "thundering-herd",
+        "dog-piling"
+    ],
+    "description": "A cache stampede, also known as thundering herd or dog-piling, is a failure mode that occurs when many concurrent requests simultaneously discover that a cached value has expired or is missing. All requests then attempt to regenerate the cache at the same time, flooding the backend  with redundant work. This is especially destructive under high traffic because the backend, already under load, receives a sudden spike just when it is needed most.\n\nCommon mitigation strategies include: locking, where only one process regenerates the cache while others wait or serve stale data, probabilistic early expiration, where the cache refreshes slightly before it expires, based on a probability, and background revalidation, which returns stale data immediately while refreshing asynchronously.",
+    "code": "<?php\n\n    // Naive approach: prone to cache stampede\n    $value = $cache->get('key');\n    if ($value === null) {\n        // All concurrent requests reach here simultaneously on expiry\n        $value = expensiveComputation();\n        $cache->set('key', $value, ttl: 60);\n    }\n    \n    // Lock-based mitigation\n    $value = $cache->get('key');\n    if ($value === null) {\n        $lock = $cache->lock('key:lock', ttl: 5);\n        if ($lock->get()) {\n            try {\n                $value = expensiveComputation();\n                $cache->set('key', $value, ttl: 60);\n            } finally {\n                $lock->release();\n            }\n        } else {\n            // Wait for the lock holder to populate the cache\n            $lock->block(4);\n            $value = $cache->get('key');\n        }\n    }\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Cache_stampede",
+    "related": [
+        "cache",
+        "ttl",
+        "race-condition",
+        "mutex",
+        "lock",
+        "concurrency",
+        "rate-limit",
+        "availability",
+        "reliability",
+        "cache-warming",
+        "cold-cache",
+        "hot-cache",
+        "stale-while-revalidate"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Cache_stampede"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Laravel Cache Locks",
+            "url": "https://laravel.com/docs/cache#atomic-locks"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "XFetch: optimal probabilistic cache stampede prevention",
+            "url": "https://cseweb.ucsd.edu/~avattani/papers/cache_stampede.pdf"
+        }
+    ],
+    "tags": [
+        "architecture",
+        "performance",
+        "concurrency"
+    ],
+    "packagist": [
+        "symfony/lock",
+        "malkusch/lock",
+        "php-cache/stampede-protection",
+        "symfony/cache",
+        "ronnylt/redlock-php"
+    ],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sat, 12 Sep 2026 07:43:43 +0000"
+}

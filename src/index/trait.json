@@ -1,0 +1,92 @@
+{
+    "id": "trait",
+    "name": "Trait",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/trait.html",
+    "aliases": [
+        "traits"
+    ],
+    "description": "Traits are a mechanism for code reuse in single inheritance languages.\n\nTraits define methods and properties. They are included in one or several classes by the use of ``use`` expression.\n",
+    "code": "<?php\n\ntrait T {\n    const CONSTANT = 1;\n    \n    private $property;\n\n    function method() {}\n}\n\nclass x { \n    use t;\n}\n\n?>",
+    "documentation": "https://www.php.net/manual/en/language.oop5.traits.php",
+    "related": [
+        "class",
+        "cite",
+        "use",
+        "$this",
+        "const",
+        "constant-in-trait",
+        "use-trait",
+        "method-collision",
+        "method",
+        "mro",
+        "polymorphism",
+        "extension-method",
+        "mixin",
+        "open-class",
+        "soft-delete"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.oop5.traits.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Traits are not inherited",
+            "url": "https://doeken.org/tip/traits_are_not_inherited"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "What are traits",
+            "url": "https://riptutorial.com/php/example/10952/what-is-a-trait-"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Some lesser known facts of Traits in PHP",
+            "url": "https://www.amitmerchant.com/some-lesser-known-facts-traits-php/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "When to use a trait?",
+            "url": "https://matthiasnoback.nl/2022/07/when-to-use-a-trait/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "The difference between Traits, Interfaces, and Abstract Classes in PHP",
+            "url": "https://aschmelyun.com/blog/the-difference-between-traits-interfaces-and-abstract-classes-in-php/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "ext/traitify",
+            "url": "https://github.com/arshidkv12/traitify"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Traits",
+            "url": "https://phplang.org/spec/16-traits.html"
+        }
+    ],
+    "tags": [
+        "feature",
+        "structure",
+        "cite",
+        "keyword"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [
+        "Traits/TraitUsage"
+    ],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 27 Aug 2026 04:31:44 +0000"
+}

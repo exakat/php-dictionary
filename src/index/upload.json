@@ -1,0 +1,81 @@
+{
+    "id": "upload",
+    "name": "File Upload",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/upload.html",
+    "aliases": [
+        "file-upload"
+    ],
+    "description": "PHP is able to receive files as part of a form submission. \n\nPHP is capable of receiving file uploads from any RFC-1867, RFC-2854 compliant browser. It also supports ``multipart/form-data`` format, from the RFC-2388.\n\nFile upload code is based on the $_FILES superglobal, and ``move_uploaded_file()`` function. It also relies on several PHP directives: ``file_uploads``, ``upload_max_filesize``, ``upload_tmp_dir``, ``post_max_size`` and ``max_input_time``. \n",
+    "code": "<?php\n\n    $uploaddir = '/var/www/uploads/';\n    $uploadfile = $uploaddir . basename($_FILES['userfile']['name']);\n    \n    echo '<pre>';\n    if (move_uploaded_file($_FILES['userfile']['tmp_name'], $uploadfile)) {\n        echo 'File is valid, and was successfully uploaded.';\n    } else {\n        echo 'Possible file upload attack!';\n    }\n\n?>",
+    "documentation": "https://www.php.net/manual/en/features.file-upload.post-method.php",
+    "related": [
+        "$_FILES",
+        "web"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/features.file-upload.post-method.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Learn Everything About File Upload in PHP With Examples",
+            "url": "https://www.simplilearn.com/tutorials/php-tutorial/file-upload-in-php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Secure File Uploads in PHP",
+            "url": "https://slicker.me/php/secure_uploads.html"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "How to Upload Files in PHP (Step-by-Step Guide for Beginners)",
+            "url": "https://medium.com/@waiyan.toshima12/how-to-upload-files-in-php-step-by-step-guide-for-beginners-0015ce787763"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "RFC-1867",
+            "url": "https://www.rfc-editor.org/info/rfc1867/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "RFC-2854",
+            "url": "https://www.rfc-editor.org/info/rfc2854/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "RFC-2388",
+            "url": "https://www.rfc-editor.org/info/rfc2388/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "How Does File Upload in PHP Really Work?",
+            "url": "https://blog.newtum.com/file-upload-in-php-with-forms/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Exploiting a file upload vulnerability by bypassing a PHP extension filter using .php5,",
+            "url": "https://infosecwriteups.com/author-krish-gupta-f5b8bf96f1ba"
+        }
+    ],
+    "tags": [
+        "file",
+        "feature",
+        "rfc"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+}

@@ -1,0 +1,56 @@
+{
+    "id": "build",
+    "name": "Build",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/build.html",
+    "aliases": [
+        "build-process",
+        "build-tool"
+    ],
+    "description": "A build is the automated process of transforming source code into a deployable artifact, performed by a build tool. Build steps typically include: installing dependencies, running static analysis, executing tests, generating assets, and packaging the application.\n\nBuild processes are commonly driven by tools such as Make, Phing, Composer scripts, or shell scripts, and are integrated into a Continuous Integration pipeline.\n\nA reproducible build produces the same artifact from the same source code, which is essential for reliable deployments.",
+    "code": "<?php\n\n    // composer.json scripts section acts as a simple build runner\n    // { \"scripts\": { \"build\": [\"@lint\", \"@test\", \"@analyse\"] } }\n    \n    // Phing build.xml target example:\n    // <target name=\"build\" depends=\"lint,test,package\"/>\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Software_build",
+    "related": [
+        "ci",
+        "devops",
+        "composer",
+        "deploy",
+        "test",
+        "makefile"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Software_build"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Composer scripts",
+            "url": "https://getcomposer.org/doc/articles/scripts.md"
+        }
+    ],
+    "tags": [
+        "concept",
+        "devops"
+    ],
+    "packagist": [
+        "phing/phing",
+        "deployer/deployer"
+    ],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": {
+        "Phing": "https://www.phing.info/",
+        "Deployer": "https://deployer.org/"
+    },
+    "popularity": "",
+    "modified": "Thu, 17 Sep 2026 08:36:15 +0000"
+}

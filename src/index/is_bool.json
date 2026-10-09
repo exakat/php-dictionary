@@ -1,0 +1,55 @@
+{
+    "id": "is_bool",
+    "name": "is_bool()",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/is_bool.html",
+    "aliases": [],
+    "description": "``is_bool()`` is a PHP native function that checks whether a variable is of type ``bool``. It returns ``true`` only for the literal values ``true`` and ``false``.\n\n``is_bool()`` distinguishes true booleans from values that are merely truthy or falsy, such as ``0``, ``''``, ``null``, or ``1``, none of which are booleans themselves even though they may evaluate as such in a boolean context. This distinction matters when a function or API explicitly needs to know that a boolean, rather than any falsy or truthy value, was received.\n\nIt is commonly used in input validation, for instance when reading configuration values, decoded JSON, or user input, where the caller must confirm that a strict boolean was provided rather than a string like ``\"true\"`` or an integer like ``1``.",
+    "code": "<?php\n\n    var_dump(is_bool(true));   // true\n    var_dump(is_bool(false));  // true\n    var_dump(is_bool(1));      // false\n    var_dump(is_bool('true')); // false\n\n    $config = json_decode('{\"debug\": true}', true);\n    if (is_bool($config['debug'])) {\n        echo 'Debug mode: ' . ($config['debug'] ? 'on' : 'off');\n    }\n\n?>",
+    "documentation": "https://www.php.net/manual/en/function.is-bool.php",
+    "related": [
+        "boolean",
+        "is_array",
+        "is_int",
+        "is_string",
+        "is_iterable",
+        "gettype",
+        "type-checking",
+        "truthy",
+        "validation"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/function.is-bool.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Type comparison tables",
+            "url": "https://www.php.net/manual/en/types.comparisons.php"
+        }
+    ],
+    "tags": [
+        "function",
+        "type-checking",
+        "validation"
+    ],
+    "packagist": [],
+    "extensions": [
+        "standard"
+    ],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Tue, 01 Sep 2026 05:31:03 +0000"
+}

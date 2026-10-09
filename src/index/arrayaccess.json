@@ -1,0 +1,44 @@
+{
+    "id": "arrayaccess",
+    "name": "ArrayAccess",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/arrayaccess.html",
+    "aliases": [],
+    "description": "``ArrayAccess`` is an interface that allows objects to be accessed like arrays using square brackets, similar to accessing elements in a regular array. When a class implements the ``ArrayAccess`` interface, it must provide methods to define how the object behaves when accessed like an array.\n\n+ ``offsetExists($offset)``: this method is called to check if a specific offset exists in the object. It should return a boolean value: ``true`` if the offset exists, ``false`` otherwise.\n+ ``offsetGet($offset)``: this method is called to try to retrieve the value associated with a specific offset. It should return the value at that offset.\n+ ``offsetSet($offset, $value)``: this method is called to try to set a value for a specific offset. It takes two parameters: the offset and the value to be set.\n+ ``offsetUnset($offset)``: this method is called to unset or remove a value associated with a specific offset.\n\nImplementing ``ArrayAccess`` can be useful to create custom data structures or objects that mimic array behavior, providing a convenient and consistent way to work with data.\n\n``ArrayAccess`` is often complemented with ``Countable``, to make the object yet even more like an array.",
+    "code": "<?php\n\nclass LimitedArray implements ArrayAccess {\n    public $a = 1;\n    public $b = 1;\n    public $c = 1;\n\n    public function offsetSet($offset, $value): void {\n        if (in_array($offset, ['a', 'b', 'c'])) {\n            $this->$offset = $value;\n        }\n        // else ignore\n    }\n\n    public function offsetExists($offset): bool {\n        return in_array($offset, ['a', 'b', 'c']);\n    }\n\n    public function offsetUnset($offset): void {\n        // do nothing\n    }\n\n    public function offsetGet($offset): mixed {\n        if (in_array($offset, ['a', 'b', 'c'])) {\n            return $this->$offset;\n        }\n    }\n}\n\n$limitedArray = new LimitedArray();\n\n$limitedArray['a'] = 3;\n$limitedArray['d'] = 13;\n\necho $limitedArray['a']; // 3\necho $limitedArray['d']; // null\n\n?>",
+    "documentation": "https://www.php.net/manual/en/class.arrayaccess.php",
+    "related": [
+        "countable",
+        "iterable",
+        "associative-array",
+        "php-interface"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/class.arrayaccess.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Building Custom Collection class in PHP",
+            "url": "https://medium.com/@opadaalziede/building-custom-collection-class-in-php-908f4622efbd"
+        }
+    ],
+    "tags": [
+        "interface"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Tue, 04 Aug 2026 10:51:05 +0000"
+}

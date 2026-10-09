@@ -1,0 +1,74 @@
+{
+    "id": "arrow-function",
+    "name": "Arrow Functions",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/arrow-function.html",
+    "aliases": [
+        "fn"
+    ],
+    "description": "Arrow functions, introduced with the ``fn`` keyword, are a type of closure with a specific syntax. They only accept one expression, and automatically import all the variables from the local context of definition.\n\nArrow functions may also be marked as ``static``, to prevent this import.",
+    "code": "<?php\n\n    class Elephpant {\n        private int $p = 2;\n\n        function trumpet() {\n           $b = 10;\n           $fn = fn($a) => $a + $b + 2;\n           \n           $fn = static fn($a) => $a + $b + $this->p;\n\n           // $this is not allowed in static arrow function\n           $fn = static fn($a) => $a + $b + $this->p;\n        }\n    }\n\n?>",
+    "documentation": "https://www.php.net/manual/en/functions.arrow.php",
+    "related": [
+        "static",
+        "$this",
+        "function",
+        "closure",
+        "anonymous-function",
+        "first-class-callable",
+        "callable",
+        "callback",
+        "array-callable",
+        "custom-function",
+        "double-arrow",
+        "streamlining",
+        "currying",
+        "idiomatic",
+        "partial-application",
+        "recursion"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/functions.arrow.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Arrow functions in PHP",
+            "url": "https://drops-of-php.hi-folks.dev/functions/arrow/#_top"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP Arrow Functions \u2013 Simple, Short, and Effective",
+            "url": "https://dev.to/eddiegoldman/php-arrow-functions-simple-short-and-effective-3lb5"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Variable Scope in PHP: Global, Static, and Closures",
+            "url": "https://oatllo.com/course/php/function/php-variable-scope-guide"
+        }
+    ],
+    "tags": [
+        "keyword",
+        "function",
+        "feature",
+        "closure"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [
+        "Functions/UnusedArguments",
+        "Functions/UseArrowFunctions"
+    ],
+    "cobblers": [],
+    "rule": "Functions/UseArrowFunctions",
+    "phpVersionSince": "7.4",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+}

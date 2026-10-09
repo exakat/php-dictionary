@@ -1,0 +1,54 @@
+{
+    "id": "xhprof",
+    "name": "XHProf",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/xhprof.html",
+    "aliases": [],
+    "description": "``XHProf`` is a hierarchical, function-level profiler for PHP, originally developed at Facebook and later open-sourced. It measures wall-clock time, CPU time, and memory usage for every function call during a request, and produces a call graph that highlights the most expensive code paths.\n\nUnlike step debuggers such as Xdebug, ``XHProf`` is designed to run with low overhead in production or staging environments, sampling real traffic rather than a single manually-triggered debug session. Its output can be rendered as a flat report or as a visual call graph, ``callgrind`` style, to spot bottlenecks quickly.\n\nModern forks and alternatives, such as Tideways' extension or the ``excimer`` sampling profiler, build on the same ideas, but ``XHProf`` remains a common reference point when discussing PHP profiling.",
+    "code": "<?php\n\n    xhprof_enable(XHPROF_FLAGS_CPU | XHPROF_FLAGS_MEMORY);\n\n    run_expensive_task();\n\n    $data = xhprof_disable();\n\n    include_once '/path/to/xhprof_lib/utils/xhprof_lib.php';\n    include_once '/path/to/xhprof_lib/utils/xhprof_runs.php';\n\n    $xhprofRuns = new XHProfRuns_Default();\n    $runId = $xhprofRuns->save_run($data, 'my_app');\n\n?>",
+    "documentation": "https://www.php.net/manual/en/book.xhprof.php",
+    "related": [
+        "profiling",
+        "profiler",
+        "xdebug",
+        "flamegraph",
+        "bottleneck",
+        "micro-optimisation"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/book.xhprof.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "XHProf on GitHub",
+            "url": "https://github.com/longxinH/xhprof"
+        }
+    ],
+    "tags": [
+        "extension",
+        "brand",
+        "optimisation"
+    ],
+    "packagist": [],
+    "extensions": [
+        "xhprof"
+    ],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": {
+        "tideways": "https://tideways.com/"
+    },
+    "popularity": "",
+    "modified": "Thu, 17 Sep 2026 09:13:49 +0000"
+}

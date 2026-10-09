@@ -1,0 +1,47 @@
+{
+    "id": "latin1",
+    "name": "Latin1",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/latin1.html",
+    "aliases": [
+        "iso-8859-1"
+    ],
+    "description": "``Latin1``, also called ``ISO/IEC 8859-1`` and ``iso-8859-1``, is a character encoding.\n\nIn simple terms ``Latin-1`` lets computers represent common Western European characters like letters A\u2013Z and a\u2013z, numbers 0\u20139, punctuation, and special characters like \u00e9, \u00f1, \u00f6, \u00e7, \u00a3, \u20ac.\n\n``Latin1`` uses 1 byte per character. It can represent 256 characters. It is designed for Western European languages like English, French, Spanish, German and Dutch. These language are not totally covered by the Latin1: usually, it requires the usage of UTF-8.\n\nPHP used ``Latin1`` as the default character set for publishing text on the web. It has now replaced it with UTF-8.",
+    "code": "",
+    "documentation": "https://en.wikipedia.org/wiki/ISO/IEC_8859-1",
+    "related": [
+        "unicode",
+        "utf-8"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/ISO/IEC_8859-1"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "ASCII / ISO 8859-1 (Latin-1) Table with HTML Entity Names",
+            "url": "https://cs.stanford.edu/people/miles/iso8859.html"
+        }
+    ],
+    "tags": [
+        "encoding",
+        "text"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 23 Jul 2026 13:41:45 +0000"
+}

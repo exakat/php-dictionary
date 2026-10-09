@@ -1,0 +1,63 @@
+{
+    "id": "stream-filter",
+    "name": "Stream Filter",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/stream-filter.html",
+    "aliases": [
+        "stream-filters"
+    ],
+    "description": "A stream filter is a piece of code attached to a stream, which transforms the data as it is read from or written to that stream. Filters are applied on-the-fly, so the whole content never needs to be loaded in memory at once.\n\nPHP offers functions to manage filters on a stream: ``stream_filter_append()`` and ``stream_filter_prepend()`` attach a filter to a stream, ``stream_filter_remove()`` detaches it, and ``stream_get_filters()`` lists the available filters. Built-in filters include ``string.toupper``, ``string.rot13``, ``convert.base64-encode``, ``convert.base64-decode`` and ``zlib.deflate``.\n\nCustom filters are written by extending the ``php_user_filter`` class, implementing its ``filter()`` method, and registering the class with ``stream_filter_register()``.\n\nStream filters are different from the ``php://filter`` wrapper, which exposes filter chains through a URL. The data is only transformed on the fly, and a filter does not know about the origin of the stream.",
+    "code": "<?php\n\n    // append a built-in filter to a stream, uppercasing data while reading\n    $fp = fopen('data.txt', 'r');\n    stream_filter_append($fp, 'string.toupper', STREAM_FILTER_READ);\n    echo fread($fp, 1024);\n    fclose($fp);\n\n    // register and use a custom filter\n    class strtoupper_filter extends php_user_filter {\n        public function filter($in, $out, &$consumed, bool $closing): int {\n            while ($bucket = stream_bucket_make_writeable($in)) {\n                $bucket->data = strtoupper($bucket->data);\n                $consumed += $bucket->datalen;\n                stream_bucket_append($out, $bucket);\n            }\n            return PSFS_PASS_ON;\n        }\n    }\n\n    stream_filter_register('custom.toupper', 'strtoupper_filter');\n\n    $fp = fopen('data.txt', 'w');\n    stream_filter_append($fp, 'custom.toupper', STREAM_FILTER_WRITE);\n    fwrite($fp, 'hello world');\n    fclose($fp);\n\n?>",
+    "documentation": "https://www.php.net/manual/en/book.stream.php",
+    "related": [
+        "stream",
+        "wrapper-stream",
+        "php-filter",
+        "filter",
+        "fopen",
+        "fread",
+        "fwrite"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/book.stream.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Stream Filters",
+            "url": "https://www.php.net/manual/en/filters.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "stream_filter_append()",
+            "url": "https://www.php.net/manual/en/function.stream-filter-append.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "php_user_filter",
+            "url": "https://www.php.net/manual/en/class.php-user-filter.php"
+        }
+    ],
+    "tags": [
+        "feature",
+        "filesystem",
+        "filter"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "5.0",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Fri, 09 Oct 2026 14:24:04 +0000"
+}

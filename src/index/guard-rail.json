@@ -1,0 +1,47 @@
+{
+    "id": "guard-rail",
+    "name": "Guard Rail",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/guard-rail.html",
+    "aliases": [
+        "guardrail",
+        "guardrails"
+    ],
+    "description": "A guard rail is a constraint, check, or automated safeguard built into a system to keep it within safe boundaries, without necessarily stopping it outright the way a hard failure would.\n\nThe term comes from road safety, where a physical rail prevents a vehicle from leaving the road entirely, while still allowing some margin for error. Applied to software, guard rails include type declarations, assertions, validation rules, and static analysis checks, which catch invalid states early rather than letting them propagate into production.\n\nGuard rails differ from design by contract in scope: a contract formalises the obligations of a single function or class, while guard rails are broader, project-wide conventions, often enforced automatically by tooling such as linters, static analysers, or continuous integration pipelines.",
+    "code": "<?php\n\n    declare(strict_types = 1);\n\n    function setAge(int $age): void {\n        // Guard rail: reject an invalid state before it propagates.\n        if ($age < 0 || $age > 150) {\n            throw new InvalidArgumentException('Age out of range');\n        }\n\n        // ... proceed with a value guaranteed to be sane\n    }\n\n?>",
+    "documentation": "",
+    "related": [
+        "defensive-programming",
+        "assertion",
+        "validation",
+        "contract",
+        "type",
+        "circuit-breaker"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "What Is a Guardrail? - Xygeni",
+            "url": "https://xygeni.io/sscs-glossary/what-is-a-guardrail/"
+        }
+    ],
+    "tags": [
+        "concept",
+        "_noDocumentation"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Mon, 21 Sep 2026 19:22:54 +0000"
+}

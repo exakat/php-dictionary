@@ -1,0 +1,57 @@
+{
+    "id": "finite-state-machine",
+    "name": "Finite State Machine (FSM)",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/finite-state-machine.html",
+    "aliases": [
+        "state-machine",
+        "automaton",
+        "automata"
+    ],
+    "description": "A finite state machine, also called ``FSM``, also called a finite automaton, plural automata, is a mathematical model used to design systems that can be in one of a finite number of states at any given time. The machine transitions between these states in response to inputs or events, following a set of rules.",
+    "code": "",
+    "documentation": "https://en.wikipedia.org/wiki/Finite-state_machine",
+    "related": [
+        "algorithm",
+        "state"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Finite-state_machine"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Creating Finite State Machines in PHP 8.3",
+            "url": "https://www.phparch.com/2024/01/creating-finite-state-machines-in-php-8-3/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Creating a State Machine using PHP",
+            "url": "https://medium.com/cook-php/creating-a-state-machine-using-php-ddef9395430e"
+        }
+    ],
+    "tags": [
+        "code architecture",
+        "acronym"
+    ],
+    "packagist": [
+        "yohang/finite",
+        "sofa/state-machine"
+    ],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 03 Sep 2026 14:39:31 +0000"
+}

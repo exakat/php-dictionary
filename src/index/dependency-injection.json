@@ -1,0 +1,64 @@
+{
+    "id": "dependency-injection",
+    "name": "Dependency Injection",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/dependency-injection.html",
+    "aliases": [
+        "di"
+    ],
+    "description": "Dependency injection, or ``DI``, is a design pattern in which an object receives other objects that it depends on. Dependency injection is a design pattern where an object receives its dependencies from external sources rather than creating them internally. This promotes loose coupling, easier testing, and greater flexibility in code maintenance. By injecting dependencies, developers can swap implementations more easily, making systems more modular and adaptable to change.",
+    "code": "<?php\n\n    class MyObject {\n        function __construct(private readonly Connection $database) {}\n        \n        function load(int $id): self {\n            return $this->connection->select($id);\n        }\n    }\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Dependency_injection",
+    "related": [
+        "autowiring",
+        "clock",
+        "dependency-injection-container",
+        "injection",
+        "interoperability",
+        "dependency-inversion",
+        "green-field",
+        "magento",
+        "ports-and-adapters",
+        "first-class-module",
+        "service-container",
+        "service",
+        "strategy",
+        "testable"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Dependency_injection"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Road to dependency injection",
+            "url": "https://matthiasnoback.nl/2018/06/road-to-dependency-injection/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Dependency Injection in PHP: Laravel\u2019s Magic vs. Symfony\u2019s Explicitness",
+            "url": "https://lukaszzychal.medium.com/dependency-injection-in-php-laravels-magic-vs-symfony-s-explicitness-ce0170a30403"
+        }
+    ],
+    "tags": [
+        "concept",
+        "readonly"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": {
+        "PHP-DI": "https://php-di.org/"
+    },
+    "popularity": "",
+    "modified": "Fri, 18 Sep 2026 04:45:52 +0000"
+}

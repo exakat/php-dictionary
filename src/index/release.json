@@ -1,0 +1,53 @@
+{
+    "id": "release",
+    "name": "Release",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/release.html",
+    "aliases": [],
+    "description": "A release is a final version of a software. A release is published, or released to the public. \n\nA release may have a version number. For published software, this version is published, while for SaaS, it may be undocumented.",
+    "code": "",
+    "documentation": "https://en.wikipedia.org/wiki/Software_release_life_cycle",
+    "related": [
+        "version",
+        "semantic-versioning",
+        "saas",
+        "cd",
+        "ci",
+        "feature-flag",
+        "feature",
+        "artifact"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Software_release_life_cycle"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Semantic versioning",
+            "url": "https://semver.org/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Continuous delivery",
+            "url": "https://en.wikipedia.org/wiki/Continuous_delivery"
+        }
+    ],
+    "tags": [
+        "engine"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Tue, 01 Sep 2026 05:31:03 +0000"
+}

@@ -1,0 +1,42 @@
+{
+    "id": "__set_state",
+    "name": "__set_state() Method",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/__set_state.html",
+    "aliases": [],
+    "description": "``__set_state()`` is called when an object has been exported with ``var_export()``, and has to be instantiated again. \n\n``__set_state()`` is tasked with recreating the object, assigning the previous values to it, and recreating any missing properties, such as database connections or resources.\n\nThe ``__set_state()`` method has no counterpart: ``var_export()`` does not use any magic method.\n\n``__set_state()`` is a static method, unlike the other magic methods. ``__set_state()`` is a magic method.",
+    "code": "<?php\n\n    class Elephpant {\n        private $values = ['a' => 1,\n                           'b' => 2,\n                           ];\n    \n        // Checks the dictionary, or return 0\n        public static function __set_state($array) {\n            $object = new self();\n    \n            // This takes advantage of PHP object invasion\n            $object->values['a'] = $array['a'] ?? '0';\n            $object->values['b'] = $array['b'] ?? '0';\n            \n            return $object;\n        }\n    }\n\n?>",
+    "documentation": "https://www.php.net/manual/en/language.oop5.magic.php#object.set-state",
+    "related": [
+        "magic-method",
+        "object-invasion"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.oop5.magic.php#object.set-state"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "The Magic __set_state Method",
+            "url": "https://www.softcoded.com/articles/set_state.php"
+        }
+    ],
+    "tags": [
+        "magic method"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+}

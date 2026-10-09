@@ -1,0 +1,54 @@
+{
+    "id": "php-fig",
+    "name": "Framework Interoperability Group (FIG)",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/php-fig.html",
+    "aliases": [],
+    "description": "``FIG`` is the Framework Interoperability Group. It is moving PHP forward through collaboration and standards.\n\nIn particular, it discusses, writes and publish PSR, the PHP Standard Recommendations. They are currently numbered from 1 to 22, which some retired numbers.\n\nFamous PSR include: 12, Extended Coding Style Guide;  16, Simple Cache; 18 HTTP client.",
+    "code": "",
+    "documentation": "https://www.php-fig.org/",
+    "related": [
+        "psr",
+        "interoperability"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php-fig.org/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PSR-12: Extended Style Guide",
+            "url": "https://www.php-fig.org/psr/psr-12/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PSR-16",
+            "url": "https://www.php-fig.org/psr/psr-16/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PSR-18",
+            "url": "https://www.php-fig.org/psr/psr-18/"
+        }
+    ],
+    "tags": [
+        "group",
+        "acronym",
+        "folklore"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sat, 08 Aug 2026 08:10:54 +0000"
+}

@@ -1,0 +1,48 @@
+{
+    "id": "rewind",
+    "name": "rewind()",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/rewind.html",
+    "aliases": [],
+    "description": "``rewind()`` is a native PHP function that sets the file position indicator for a file pointer to the beginning of the file.\n\nIt is equivalent to ``fseek($fp, 0)`` and is useful when re-reading a file from the start without closing and reopening it. The ``rewind()`` function returns ``true`` on success, or ``false`` on failure. A ``E_WARNING`` error is emitted if the file pointer is not valid.",
+    "code": "<?php\n\n    $fp = fopen('/tmp/test.txt', 'r');\n    \n    // Read some content\n    $content = fread($fp, 100);\n    \n    // Rewind to the beginning to re-read\n    rewind($fp);\n    $contentAgain = fread($fp, 100);\n    \n    fclose($fp);\n\n?>",
+    "documentation": "https://www.php.net/manual/en/function.rewind.php",
+    "related": [
+        "fseek",
+        "ftell",
+        "fopen",
+        "fread",
+        "file"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/function.rewind.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "rewind() function",
+            "url": "https://www.w3docs.com/learn-php/rewind-in-php"
+        }
+    ],
+    "tags": [
+        "native function",
+        "file"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Mon, 13 Jul 2026 09:17:17 +0000"
+}

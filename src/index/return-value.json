@@ -1,0 +1,57 @@
+{
+    "id": "return-value",
+    "name": "Return Value",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/return-value.html",
+    "aliases": [],
+    "description": "Return value is the value returned by a method or function call. \n\nThat value may be typed with a data type. In that case, each call to ``return`` must return that type.\n\nIt may also be typed with ``never``, in case the method doesn't return anything. In that case, it would never ends, throw an exception or kill the execution.\n\nA value is returned with the keyword ``return``. When no such command is used, for example when a method doesn't have a return command and reach the end of the method's body, then ``null`` is returned.",
+    "code": "<?php\n\nfunction trumpet() : int {\n    return 1;\n}\n\nfunction forage() : never {\n    throw new Exception(\"Error\");\n}\n\nfunction migrate() : void {\n    echo __METHOD__;\n    // No return value\n}\n\n// returns null\nfunction stampede() { }\n\n?>",
+    "documentation": "https://www.php.net/manual/en/function.include.php",
+    "related": [
+        "null",
+        "never",
+        "void",
+        "throw",
+        "exit",
+        "infinite-loop"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/function.include.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "never return type - PHP 8.1",
+            "url": "https://php.watch/versions/8.1/never-return-type"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP void Keyword - Return Type Declarations in PHP",
+            "url": "https://zetcode.com/php/void-keyword/"
+        }
+    ],
+    "tags": [
+        "function"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [
+        "Files/MissingInclude",
+        "Files/InclusionWrongCase",
+        "Structures/IncludeUsage"
+    ],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": {
+        "A never-returning function must not return": "a-never-returning-function-must-not-return"
+    },
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+}

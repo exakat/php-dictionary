@@ -1,0 +1,49 @@
+{
+    "id": "percentile",
+    "name": "Percentile",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/percentile.html",
+    "aliases": [],
+    "description": "A percentile is a statistical measure indicating the value below which a given percentage of observations in a dataset fall. The 95th percentile, ``p95``, is the value below which 95% of the observations lie; the remaining 5% are equal to or greater than it.\n\nIn monitoring and performance analysis, percentiles are used to summarize distributions of measurements, such as request latency or response time, in a way an average cannot: an average is easily skewed by a few very fast requests, and it hides the experience of the slowest users. ``p50``, the median, ``p95``, and ``p99`` are commonly reported together, alongside the average, to describe both the typical case and the tail of a distribution.\n\nService Level Agreements often use percentiles for their commitments, for example ``95% of requests complete in under 200ms``, rather than an average, because tail latency is what real users notice.",
+    "code": "<?php\n\n    function percentile(array $values, float $p): float {\n        sort($values);\n        $index = ($p / 100) * (count($values) - 1);\n        $lower = (int) floor($index);\n        $upper = (int) ceil($index);\n        if ($lower === $upper) {\n            return $values[$lower];\n        }\n        $fraction = $index - $lower;\n        return $values[$lower] + $fraction * ($values[$upper] - $values[$lower]);\n    }\n\n    $latencies = [12, 45, 20, 300, 18, 22, 40, 15, 19, 500];\n    echo percentile($latencies, 95); // p95 latency\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Percentile",
+    "related": [
+        "monitoring",
+        "sla",
+        "metrics",
+        "apm",
+        "performance",
+        "latency"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Percentile"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Histograms and summaries",
+            "url": "https://prometheus.io/docs/practices/histograms/"
+        }
+    ],
+    "tags": [
+        "monitoring",
+        "statistics"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Wed, 19 Aug 2026 08:21:30 +0000"
+}

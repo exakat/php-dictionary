@@ -1,0 +1,49 @@
+{
+    "id": "non-instantiable",
+    "name": "Non-instantiable",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/non-instantiable.html",
+    "aliases": [],
+    "description": "Usually, classes are turned into objects via instantiation. Yet, some classes are not capable of that: they are non-instantiable.\n\nThis is the case of some native classes, such as SQLite3Result, which must be created by the dedicated methods: they can't be created by custom code. \n\nIn userland code, non-instantiable classes have a private constructor, which makes them impossible to instantiate, unless there is a named constructor.",
+    "code": "<?php\n\nclass Elephpant {\n    private function __construct() {}\n}\n\n//\nnew Elephpant();\n\n?>",
+    "documentation": "https://www.php.net/manual/en/language.oop5.basic.php",
+    "related": [
+        "instance"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.oop5.basic.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP: ReflectionClass::isInstantiable - Manual",
+            "url": "https://www.php.net/manual/en/reflectionclass.isinstantiable.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Private Constructors - Liam Hammett",
+            "url": "https://liamhammett.com/private-constructors"
+        }
+    ],
+    "tags": [
+        "class"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": {
+        "SQLite3result cannot be directly instantiated": "sqlite3result-cannot-be-directly-instantiated",
+        "Call to private X::__construct() from global scope": "call-to-%s-%s::%s()-from-global-scope"
+    },
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+}

@@ -1,0 +1,49 @@
+{
+    "id": "acid",
+    "name": "ACID",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/acid.html",
+    "aliases": [
+        "acid-transactions",
+        "acid-properties"
+    ],
+    "description": "ACID is an acronym for the four ACID properties that guarantee reliable database transactions. It stands for Atomicity, Consistency, Isolation, and Durability.\n\n+ Atomicity: a transaction either completes entirely or not at all. If any step fails, all changes are rolled back, leaving the database as if the transaction never started.\n+ Consistency: a transaction brings the database from one valid state to another, respecting all defined constraints, rules, and cascades. It cannot leave data in a logically invalid state.\n+ Isolation: concurrent transactions execute as if they were serial. The intermediate state of a transaction is not visible to other transactions. The degree of isolation is configurable.\n+ Durability: once a transaction is committed, it persists even in the event of a system crash. Achieved through write-ahead logging and durable storage.\n\nACID transactions are available through PDO via ``beginTransaction()``, ``commit()``, and ``rollBack()``. Most relational databases, ``MySQL/InnoDB``, ``PostgreSQL``, ``SQLite``, etc. provide full ACID compliance.",
+    "code": "<?php\n\n    $pdo = new PDO('mysql:host=localhost;dbname=shop', 'user', 'pass');\n    $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);\n    \n    $pdo->beginTransaction(); // start atomic unit\n    \n    try {\n        $pdo->exec('UPDATE accounts SET balance = balance - 100 WHERE id = 1');\n        $pdo->exec('UPDATE accounts SET balance = balance + 100 WHERE id = 2');\n        $pdo->commit(); // durable on success\n    } catch (PDOException $e) {\n        $pdo->rollBack(); // atomicity: undo both updates on failure\n        throw $e;\n    }\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/ACID",
+    "related": [
+        "database-commit",
+        "pdo",
+        "eventual-consistency",
+        "distributed-transactions",
+        "wal",
+        "transaction"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/ACID"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PDO::beginTransaction",
+            "url": "https://www.php.net/manual/en/pdo.begintransaction.php"
+        }
+    ],
+    "tags": [
+        "concept"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sun, 30 Aug 2026 08:49:33 +0000"
+}

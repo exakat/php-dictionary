@@ -1,0 +1,56 @@
+{
+    "id": "execve",
+    "name": "execve()",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/execve.html",
+    "aliases": [],
+    "description": "``execve()`` is the underlying Unix system call that replaces the currently running process's program, code, data, heap and stack, with a new one. Unlike forking, no new process is created: the process keeps the same PID, but everything it was running is discarded and replaced.\n\n``pcntl_exec()`` is a thin wrapper around ``execve()``. This makes it fundamentally different from ``exec()`` or ``shell_exec()``, which spawn a separate child process and return control to the calling PHP script once it finishes. Once ``pcntl_exec()`` succeeds, the PHP script that called it stops existing: there is no code left afterwards to return to, unless the call itself fails.\n\n``pcntl_exec()`` is typically used to replace a PHP worker process with another program after preparation work, such as setting up file descriptors or dropping privileges, has been done in the process.",
+    "code": "<?php\n\n    // Everything below this call never runs if pcntl_exec() succeeds:\n    // the PHP process is replaced in place by /usr/bin/php-fpm.\n    pcntl_exec('/usr/bin/php-fpm', ['--nodaemonize'], ['ENV' => 'production']);\n\n    // Only reached if execve() itself failed\n    exit('exec failed');\n\n?>",
+    "documentation": "https://www.php.net/manual/en/function.pcntl-exec.php",
+    "related": [
+        "exec",
+        "shell-exec",
+        "system-call",
+        "process",
+        "execution",
+        "pcntl"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/function.pcntl-exec.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Exec (system call) - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Exec_(system_call)"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Running programs in the current process space: pcntl_exec()",
+            "url": "http://www.hackingwithphp.com/16/1/8/running-programs-in-the-current-process-space"
+        }
+    ],
+    "tags": [
+        "native function",
+        "system"
+    ],
+    "packagist": [],
+    "extensions": [
+        "pcntl"
+    ],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Tue, 25 Aug 2026 11:41:20 +0000"
+}

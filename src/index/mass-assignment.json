@@ -1,0 +1,61 @@
+{
+    "id": "mass-assignment",
+    "name": "Mass Assignment",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/mass-assignment.html",
+    "aliases": [
+        "auto-binding",
+        "over-posting"
+    ],
+    "description": "Mass assignment is the practice of setting several properties of an object at once from an associative array, instead of assigning each property individually. It is a common convenience feature of ORMs and frameworks: ``Laravel``'s ``Eloquent`` models can be filled with ``Model::create($data)`` or ``$model->fill($data)``, and similar patterns exist in Doctrine, Symfony forms, and plain constructors that loop over an input array and set matching properties.\n\nThe convenience becomes a vulnerability when the array being assigned comes directly from user input, such as ``$request->all()``, without restricting which fields are allowed to be set. An attacker can then add extra keys to the submitted data, such as ``is_admin`` or ``role``, and have them silently written to the object alongside the fields the form actually intended to expose. This class of vulnerability is also known as auto-binding or over-posting, and was responsible for a well-known 2012 GitHub incident where a user added his own public key to any organization through a mass-assigned parameter.\n\nThe standard mitigation is allow-listing: explicitly declaring which properties may be mass-assigned, such as Eloquent's ``$fillable`` array, or the inverse deny-list ``$guarded``, which allow-listing is generally considered safer than. A stricter alternative is to avoid binding user input directly to domain or persistence objects altogether, and instead pass it through a dedicated Data Transfer Object that only exposes the fields the operation is meant to accept.\n\nA related but distinct case is mass variable assignment, done directly in userland code rather than through an ORM. ``extract()`` takes an associative array and creates one local variable per key in a single call, and ``compact()`` performs the reverse, packing a list of variable names into an associative array. This carries the same class of risk as ORM mass assignment when the array comes from unfiltered input: ``extract($_GET)`` silently creates or overwrites any local variable named by a request parameter, which is why ``extract()`` on untrusted data is generally discouraged, in favor of naming the expected variables explicitly.",
+    "code": "<?php\n\n    // Vulnerable: any key in the request can set any Eloquent attribute\n    class User extends Model {}\n    User::create($request->all());\n    // an attacker submitting ['name' => 'Bob', 'is_admin' => 1] becomes an admin\n\n    // Mitigated: only the allow-listed fields can be mass-assigned\n    class User extends Model\n    {\n        protected $fillable = ['name', 'email'];\n    }\n    User::create($request->all());\n    // 'is_admin' is silently ignored\n\n    // Mass variable assignment: extract() and compact()\n    $data = ['name' => 'Bob', 'age' => 42];\n    extract($data);\n    echo $name; // 'Bob', now a local variable\n\n    $packed = compact('name', 'age');\n    // ['name' => 'Bob', 'age' => 42], the reverse of extract()\n\n    // Vulnerable: any request parameter becomes a local variable\n    extract($_GET);\n\n?>",
+    "documentation": "https://cheatsheetseries.owasp.org/cheatsheets/Mass_Assignment_Cheat_Sheet.html",
+    "related": [
+        "mass",
+        "orm",
+        "dto",
+        "laravel",
+        "validation",
+        "extract",
+        "compact"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://cheatsheetseries.owasp.org/cheatsheets/Mass_Assignment_Cheat_Sheet.html"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Eloquent: Getting Started - Mass Assignment",
+            "url": "https://laravel.com/docs/eloquent#mass-assignment"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "What is mass assignment? - Snyk Learn",
+            "url": "https://learn.snyk.io/lesson/mass-assignment/"
+        }
+    ],
+    "tags": [
+        "security",
+        "vulnerability",
+        "orm"
+    ],
+    "packagist": [
+        "illuminate/database"
+    ],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 17 Sep 2026 07:51:48 +0000"
+}

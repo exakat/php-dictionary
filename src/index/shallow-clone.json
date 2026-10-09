@@ -1,0 +1,46 @@
+{
+    "id": "shallow-clone",
+    "name": "Shallow Clone",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/shallow-clone.html",
+    "aliases": [],
+    "description": "A shallow clone is an object cloning, where the cloned object keeps the same object properties as the original object. This is a fast way to share data between objects.\n\nShallow cloning is the default behavior.",
+    "code": "<?php\n\n    class Dog {\n        private $name = '';\n        private Address $address;\n    \n        function __construct(string $name, Address $address) {\n            $this->address->setName($address);\n        }\n        \n        function moves(string $address) {\n            $this->address->setName($address);\n        }\n    \n        // no __clone method\n    }\n    \n    $spike = new Dog('Spike', new Address('Acme city'));\n    $medor = clone $spike;\n    $medor->moves('Upstate farm');\n    \n    // spike and medor are still at the same address\n\n?>",
+    "documentation": "https://www.php.net/manual/en/language.oop5.cloning.php",
+    "related": [
+        "magic-method",
+        "__clone",
+        "deep-clone",
+        "clone"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.oop5.cloning.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "How to clone an object in PHP",
+            "url": "https://linuxhint.com/cloning_objects_php/"
+        }
+    ],
+    "tags": [
+        "object"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [
+        "Classes/ShouldDeepClone"
+    ],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sat, 08 Aug 2026 08:10:54 +0000"
+}

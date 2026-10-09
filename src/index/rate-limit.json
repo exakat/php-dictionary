@@ -1,0 +1,63 @@
+{
+    "id": "rate-limit",
+    "name": "Rate Limiting",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/rate-limit.html",
+    "aliases": [
+        "rate-limiting",
+        "throttling"
+    ],
+    "description": "Rate limiting is a technique that controls the frequency of requests a client can make to a service within a given time window. It protects services from abuse, denial-of-service attacks, and resource exhaustion.\n\nCommon strategies include fixed window, sliding window, token bucket, and leaky bucket algorithms. In applications, rate limiting is often implemented at the web server, reverse proxy, or application layer, using shared storage such as Redis or Memcached to track request counts across processes.\n\nRate limit apply both to external client submitting requests to PHP applications, and to PHP as a client, submitting requests to a remote server.",
+    "code": "",
+    "documentation": "https://en.wikipedia.org/wiki/Rate_limiting",
+    "related": [
+        "qos",
+        "ddos",
+        "availability",
+        "performance",
+        "middleware",
+        "cache",
+        "security",
+        "api-gateway",
+        "backoff",
+        "bulkhead",
+        "cache-stampede",
+        "jitter"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Rate_limiting"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "How to Implement Rate Limiting in PHP to Prevent Abuse",
+            "url": "https://dev.to/patoliyainfotech/how-to-implement-rate-limiting-in-php-to-prevent-abuse-4id2"
+        }
+    ],
+    "tags": [
+        "security",
+        "performance"
+    ],
+    "packagist": [
+        "symfony/rate-limiter",
+        "danharrin/livewire-rate-limiting",
+        "spatie/laravel-rate-limited-job-middleware",
+        "davedevelopment/stiphle"
+    ],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Fri, 14 Aug 2026 09:22:34 +0000"
+}

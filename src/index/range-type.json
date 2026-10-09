@@ -1,0 +1,48 @@
+{
+    "id": "range-type",
+    "name": "Range Type",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/range-type.html",
+    "aliases": [],
+    "description": "A first-class range type represents an interval of values, such as ``1..10`` in Rust or Kotlin, or ``1...10`` in Swift, as a value in its own right, with its own type. A range can be stored in a variable, passed to a function, matched against with pattern matching, or iterated lazily, and the language often overloads slicing and ``for`` syntax to accept it directly.\n\nBecause a range is a value, not just a loop construct, it can express things such as ``switch x { 1..5 => ..., 6..10 => ... }`` or a slice bound ``arr[2..5]`` using the same type.\n\nPHP has no range type. ``range()`` is an ordinary function that eagerly builds and returns a plain array of all the values in the interval; the interval itself is never represented as a value, cannot be matched with ``match``, and cannot be used as a slice boundary. Iterating lazily over an interval requires a ``Generator`` written by hand, or an external library.",
+    "code": "<?php\n\n// range() eagerly materializes the array; there is no interval value.\n$values = range(1, 10);\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Interval_(mathematics)",
+    "related": [
+        "range",
+        "yield-generator",
+        "array_slice",
+        "pattern-matching"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Interval_(mathematics)"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "range() manual page",
+            "url": "https://www.php.net/manual/en/function.range.php"
+        }
+    ],
+    "tags": [
+        "concept",
+        "type",
+        "not supported"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Mon, 07 Sep 2026 09:09:10 +0000"
+}

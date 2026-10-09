@@ -1,0 +1,52 @@
+{
+    "id": "stack",
+    "name": "Stack",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/stack.html",
+    "aliases": [],
+    "description": "A stack may have several meanings: \n\n+ Callstack: the structure that keeps track of nested calls during execution\n+ Data stack: a data structure, where the last added data are removed first\n+ LAMP stack: a collection of software that works well together. Here, Linux, Apache, MySQL, PHP.",
+    "code": "",
+    "documentation": "https://en.wikipedia.org/wiki/Stack_(abstract_data_type)",
+    "related": [
+        "callstack",
+        "datastack",
+        "lamp",
+        "ds",
+        "pop"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Stack_(abstract_data_type)"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Call stack",
+            "url": "https://en.wikipedia.org/wiki/Call_stack"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "SplStack",
+            "url": "https://www.php.net/manual/en/class.splstack.php"
+        }
+    ],
+    "tags": [
+        "disambiguation"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Fri, 28 Aug 2026 10:13:54 +0000"
+}

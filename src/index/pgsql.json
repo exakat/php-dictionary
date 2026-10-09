@@ -1,0 +1,62 @@
+{
+    "id": "pgsql",
+    "name": "PostgreSQL",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/pgsql.html",
+    "aliases": [
+        "postgresql"
+    ],
+    "description": "``pgsql`` is the name of the PHP extension that provides the interface to interact with the PostgreSQL database.\n\n``pgsql`` defines functions, constants and classes. It has been upgraded to use objects instead of resources.",
+    "code": "<?php\n\n    // example from the PHP manual : https://www.php.net/manual/en/pgsql.examples-basic.php\n    \n    // Connecting, selecting database\n    $dbconn = pg_connect('host=localhost dbname=publishing user=www password=foo')\n        or die('Could not connect: ' . pg_last_error());\n    \n    // Performing SQL query\n    $query = 'SELECT * FROM authors';\n    $result = pg_query($dbconn, $query) or die('Query failed: ' . pg_last_error());\n\n?>",
+    "documentation": "https://www.php.net/manual/en/book.pgsql.php",
+    "related": [
+        "database",
+        "sql",
+        "json",
+        "rdbms",
+        "sql-database"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/book.pgsql.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PostgreSQL homepage",
+            "url": "https://www.postgresql.org/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "How to Connect PHP and PostgreSQL",
+            "url": "https://www.zend.com/blog/php-and-postgresql"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "How to build an Application with PHP and PostgreSQL",
+            "url": "https://dev.to/officialozioma/how-to-build-an-application-with-php-and-postgresql-4iad"
+        }
+    ],
+    "tags": [
+        "database",
+        "extension",
+        "product",
+        "resource"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Mon, 15 Jun 2026 11:03:59 +0000"
+}

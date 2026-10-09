@@ -1,0 +1,64 @@
+{
+    "id": "index-array",
+    "name": "Index For Arrays",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/index-array.html",
+    "aliases": [
+        "key"
+    ],
+    "description": "A index, also called a key, is the identifier of an specific element in an array. They may automatically generated, by simply omitting them at creation time. \n\nPHP index may be integers or strings only. Other data types generate an error or a type conversion. For example, floats are turned into integer. integer-shaped strings will also be turned into integer.\n\nPHP index start at 0. They may be automatically assigned by appending a new value with the ``[]`` operator: then, they use the greatest available index + 1.",
+    "code": "<?php\n\n    $array = ['a', 'b', 'c'];\n\n    echo $array[0];\n\n?>",
+    "documentation": "https://www.php.net/manual/en/language.types.array.php",
+    "related": [
+        "array",
+        "data-container",
+        "collection",
+        "index",
+        "map",
+        "negative-index",
+        "square-bracket",
+        "array-element",
+        "array_keys",
+        "automatic-index",
+        "unset",
+        "array-dot-notation",
+        "array_column",
+        "array_push",
+        "offset",
+        "multidimensional-array"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.types.array.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP: Frankenstein arrays",
+            "url": "https://vazaha.blog/en/9/php-frankenstein-arrays"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Filtering an array by keys in PHP",
+            "url": "https://yellowduck.be/posts/filtering-an-array-by-keys-in-php"
+        }
+    ],
+    "tags": [
+        "array",
+        "data-container"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sun, 30 Aug 2026 11:40:36 +0000"
+}

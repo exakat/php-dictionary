@@ -1,0 +1,48 @@
+{
+    "id": "fuzzing",
+    "name": "Fuzzing",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/fuzzing.html",
+    "aliases": [],
+    "description": "Fuzzing refers to an automated software testing technique where the application is fed random, unexpected, or malformed data to discover bugs, vulnerabilities, and unexpected behaviors.",
+    "code": "",
+    "documentation": "https://en.wikipedia.org/wiki/Fuzzing",
+    "related": [
+        "test",
+        "security",
+        "mutation-test",
+        "pentest"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Fuzzing"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Fuzzing PHP for Fun and Profit",
+            "url": "https://www.tripwire.com/state-of-security/fuzzing-php-for-fun-and-profit"
+        }
+    ],
+    "tags": [
+        "test"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": {
+        "PHP-Fuzzer": "https://github.com/nikic/PHP-Fuzzer"
+    },
+    "popularity": "",
+    "modified": "Fri, 18 Sep 2026 04:51:24 +0000"
+}

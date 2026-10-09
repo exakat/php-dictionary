@@ -1,0 +1,62 @@
+{
+    "id": "scaling",
+    "name": "Scaling",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/scaling.html",
+    "aliases": [
+        "scalability"
+    ],
+    "description": "Scaling refers to the ability of an application to handle increased workload or traffic while maintaining performance, availability, and reliability. When a PHP application needs to scale, it means it needs to accommodate more users, handle more requests, or process more data without sacrificing its responsiveness or stability.\n\nThere are several aspects to consider when scaling an application: vertical scaling, horizontal scaling, caching, asynchronous processing, code optimisation, monitoring.",
+    "code": "",
+    "documentation": "https://en.wikipedia.org/wiki/Scalability",
+    "related": [
+        "performance",
+        "architecture",
+        "horizontal-scaling",
+        "vertical-scaling",
+        "server-architecture",
+        "container-orchestration",
+        "qos",
+        "shared-nothing",
+        "throughput"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Scalability"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Scaling PHP Applications: Strategies for High Traffic and Performance",
+            "url": "https://medium.com/@london.lingo.01/scaling-php-applications-strategies-for-high-traffic-and-performance-e20bd80aa466"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Horizontally Scaling PHP Applications",
+            "url": "https://www.digitalocean.com/blog/horizontally-scaling-php-applications"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Building Scalable PHP Applications: Best Practices for Performance and Security",
+            "url": "https://dev.to/olatejuthedev/building-scalable-php-applications-best-practices-for-performance-and-security-56jj"
+        }
+    ],
+    "tags": [
+        "production",
+        "architecture"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Tue, 01 Sep 2026 05:55:53 +0000"
+}

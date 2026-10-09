@@ -1,0 +1,51 @@
+{
+    "id": "imperative",
+    "name": "Imperative Programming",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/imperative.html",
+    "aliases": [],
+    "description": "Declarative programming is the programming style where each step is described to the program, which then, executes them one after the other.\n\nThis approach favors the control on the execution: it is easy to check the steps, and enforce that each step is done when expected. \n\nImperative programming does not leave room for optimisation, as the step order is controlled externally. Everything has to be written as expected, leading to extra labor.",
+    "code": "",
+    "documentation": "https://en.wikipedia.org/wiki/Imperative_programming",
+    "related": [
+        "paradigm",
+        "declarative-programming",
+        "functional-programming",
+        "procedural-programming"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Imperative_programming"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Declarative programming (Wikipedia)",
+            "url": "https://en.wikipedia.org/wiki/Declarative_programming"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Procedural programming (Wikipedia)",
+            "url": "https://en.wikipedia.org/wiki/Procedural_programming"
+        }
+    ],
+    "tags": [
+        "paradigm"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sun, 16 Aug 2026 07:46:06 +0000"
+}

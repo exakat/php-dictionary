@@ -1,0 +1,46 @@
+{
+    "id": "faas",
+    "name": "Function-as-a-Service (FaaS)",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/faas.html",
+    "aliases": [
+        "function-as-a-service"
+    ],
+    "description": "Function-as-a-Service, or FaaS, is a serverless execution model where individual functions are deployed, invoked on demand, and billed per execution. The cloud provider manages all infrastructure: provisioning, scaling, and teardown.\n\nEach function is stateless, short-lived, and triggered by an event, such as an HTTP request, a queue message, a scheduled cron, or an S3 upload. The provider scales instances automatically from zero to thousands.\n\nPHP runs on FaaS platforms through runtime layers. The most common approach is Bref, a PHP Lambda layer for AWS Lambda that handles bootstrapping the PHP runtime, forwarding events, and returning responses. Similar support exists for Google Cloud Functions and Azure Functions.\n\nThe main drawback of FaaS for PHP is cold start latency: the first invocation after an idle period must initialise the container and PHP runtime before executing. Subsequent invocations reuse the warm container and are fast.",
+    "code": "<?php\n\n// AWS Lambda handler via Bref (https://bref.sh)\n// File: index.php\n\nuse Bref\\Context\\Context;\n\nreturn function (array $event, Context $context): string {\n    $name = $event['name'] ?? 'world';\n    return 'Hello, ' . $name . '!';\n};\n\n// template.yaml (SAM):\n// Resources:\n//   HelloFunction:\n//     Type: AWS::Serverless::Function\n//     Properties:\n//       FunctionName: hello\n//       Runtime: provided.al2\n//       Layers:\n//         - !Sub arn:aws:lambda::534081306603:layer:php-83:x\n//       Handler: index.php\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Function_as_a_service",
+    "related": [
+        "serverless",
+        "cold-start",
+        "event-driven",
+        "stateless"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Function_as_a_service"
+        }
+    ],
+    "tags": [
+        "concept",
+        "acronym"
+    ],
+    "packagist": [
+        "bref/bref"
+    ],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": {
+        "Bref": "https://bref.sh"
+    },
+    "popularity": "",
+    "modified": "Fri, 18 Sep 2026 04:49:48 +0000"
+}

@@ -1,0 +1,52 @@
+{
+    "id": "magento",
+    "name": "Magento",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/magento.html",
+    "aliases": [
+        "adobe-commerce"
+    ],
+    "description": "Magento is an open-source PHP e-commerce platform. It provides a comprehensive feature set for building online stores, including product catalogue management, checkout, payment integration, and a flexible extension system.\n\nMagento was created by Varien and released in 2008. It was acquired by eBay in 2011, spun off as an independent company in 2015, and acquired by Adobe in 2018, where it continues under the name Adobe Commerce. The open-source edition remains available as Magento Open Source.\n\nMagento 2, released in 2015, is a full rewrite using modern PHP practices, including dependency injection, service contracts, and a modular architecture.",
+    "code": "",
+    "documentation": "https://developer.adobe.com/commerce/docs/",
+    "related": [
+        "framework",
+        "cms",
+        "dependency-injection",
+        "mvc",
+        "orm"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://developer.adobe.com/commerce/docs/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Magento Open Source",
+            "url": "https://github.com/magento/magento2"
+        }
+    ],
+    "tags": [
+        "brand",
+        "framework"
+    ],
+    "packagist": [
+        "magento/product-community-edition"
+    ],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Tue, 07 Jul 2026 05:11:09 +0000"
+}

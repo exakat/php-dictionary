@@ -1,0 +1,68 @@
+{
+    "id": "monkey-patch",
+    "name": "Monkey Patch",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/monkey-patch.html",
+    "aliases": [
+        "monkey-patching",
+        "duck-punching"
+    ],
+    "description": "A monkey patch is a runtime change to the behavior of existing code, typically a function, method, or built-in, without modifying its original source file. It is usually done to work around a bug, add missing behavior temporarily, or, most commonly, to isolate tests from non-deterministic dependencies such as ``time()``, ``rand()``, or the filesystem.\n\nPHP does not support ``open-class``, reopening a previously declared class or redefining an already-declared function directly: doing either a second time raises a fatal error. Real-world PHP monkey-patching instead relies on two mechanisms. The first, used almost exclusively in tests, exploits ``fallback-to-global``: an unqualified call to a built-in function, made from inside a namespace, resolves to a same-named function declared in that namespace first, and only falls back to the global one if none exists. Declaring a namespaced ``time()`` therefore patches every unqualified call to ``time()`` made from code living in that namespace, without touching the real global function. This is exactly how the ``php-mock/php-mock`` package works.\n\nThe second mechanism, more invasive and closer to what other languages call monkey-patching, uses the ``uopz`` extension to redefine an existing function or method's body in place, anywhere it is called from, no namespace trick required. This is more powerful, but also more dangerous: it mutates the engine's own view of the function, for the rest of the process.\n\nMonkey patches are invisible from the patched code's own source: nothing in ``Order`` hints that ``time()`` has been swapped out. They should generally be confined to test suites, and removed, ``disable()``-d, or scoped as narrowly as possible once the test that needed them is done.",
+    "code": "<?php\n\n    namespace App;\n    \n    // A namespaced time() shadows the global one for every unqualified\n    // call made from within the App namespace: a classic test-only monkey patch.\n    function time(): int {\n        return 1700000000; // frozen clock, no real system time involved\n    }\n    \n    class Order {\n        public function createdAt(): int {\n            return time(); // resolves to App\\time(), not the global \\time()\n        }\n    }\n    \n    $order = new Order();\n    echo $order->createdAt(); // 1700000000, every time, regardless of the real clock\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Monkey_patch",
+    "related": [
+        "fallback-to-global",
+        "open-class",
+        "uopz",
+        "mock",
+        "namespace",
+        "__call",
+        "decorator",
+        "test-data-provider"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Monkey_patch"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "php-mock/php-mock",
+            "url": "https://github.com/php-mock/php-mock"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP: Namespace fallback rule",
+            "url": "https://www.php.net/manual/en/language.namespaces.fallback.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "UOPZ repository",
+            "url": "https://github.com/krakjoe/uopz"
+        }
+    ],
+    "tags": [
+        "test",
+        "concept",
+        "namespace"
+    ],
+    "packagist": [
+        "php-mock/php-mock",
+        "php-mock/php-mock-phpunit"
+    ],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 17 Sep 2026 07:50:45 +0000"
+}

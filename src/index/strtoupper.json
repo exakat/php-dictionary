@@ -1,0 +1,51 @@
+{
+    "id": "strtoupper",
+    "name": "strtoupper()",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/strtoupper.html",
+    "aliases": [
+        "mb_strtoupper"
+    ],
+    "description": "``strtoupper()`` converts all ASCII alphabetic characters in a string to uppercase.\n\nIt only handles the 26 ASCII letters, from ``a`` to ``z``. Characters outside the ASCII range are not converted. For Unicode-aware uppercase, use ``mb_strtoupper()``, which respects the string encoding.\n\n``strtoupper()`` is used for display normalisation, case-insensitive comparisons, and formatting constants or labels.",
+    "code": "<?php\n\n    echo strtoupper('hello world');  // HELLO WORLD\n    echo strtoupper('php 8.4');      // PHP 8.4\n\n    // Unicode-aware version\n    echo mb_strtoupper('h\u00e9llo', 'UTF-8'); // H\u00c9LLO\n\n?>",
+    "documentation": "https://www.php.net/manual/en/function.strtoupper.php",
+    "related": [
+        "strtolower",
+        "string",
+        "case-sensitivity",
+        "mbstring",
+        "setlocale",
+        "normalisation"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/function.strtoupper.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP strtoupper() and strtolower() Functions: A Complete Guide",
+            "url": "https://reintech.io/blog/php-strtoupper-strtolower-functions-complete-guide"
+        }
+    ],
+    "tags": [
+        "native function",
+        "string"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+}

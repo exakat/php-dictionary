@@ -1,0 +1,52 @@
+{
+    "id": "http-method",
+    "name": "HTTP Method",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/http-method.html",
+    "aliases": [
+        "http-verb",
+        "request-method"
+    ],
+    "description": "An HTTP method, also called an HTTP verb, defines the intended action of an HTTP request. The most common methods are GET, POST, PUT, PATCH, DELETE, HEAD, and OPTIONS.\n\nMethods differ in their safety and idempotency guarantees. A method is safe if it does not modify server state, such as ``GET``, ``HEAD``, ``OPTIONS``. A method is idempotent if repeating it produces the same result as a single call ``GET``, ``HEAD``, ``PUT``, ``DELETE``. ``POST`` and ``PATCH`` are neither safe nor guaranteed idempotent by the specification, which is why APIs that use them for state-changing operations often implement explicit idempotency mechanisms such as idempotency keys.\n\nThe request method is available via ``$_SERVER['REQUEST_METHOD']`` or through framework helpers.",
+    "code": "<?php\n\n    $method = $_SERVER['REQUEST_METHOD']; // GET, POST, PUT, PATCH, DELETE ...\n\n?>",
+    "documentation": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods",
+    "related": [
+        "http",
+        "rest-api",
+        "idempotent",
+        "http-header",
+        "request",
+        "response"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "RFC 9110 \u2014 HTTP Semantics",
+            "url": "https://www.rfc-editor.org/rfc/rfc9110#name-methods"
+        }
+    ],
+    "tags": [
+        "web",
+        "concept"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Fri, 03 Jul 2026 07:54:45 +0000"
+}

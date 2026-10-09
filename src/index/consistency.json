@@ -1,0 +1,50 @@
+{
+    "id": "consistency",
+    "name": "Consistency",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/consistency.html",
+    "aliases": [],
+    "description": "Consistency means writing code that follows predictable patterns, standards, and conventions across a project or team. The reference may be public, and available throughout the community, or local, and specific to a project or a team.\n\nConsistency ensures that:\n\n+ Code behaves the same way in similar situations\n+ Style and structure are uniform, making it easier to read and maintain\n+ Team members can collaborate without confusion.\n",
+    "code": "",
+    "documentation": "https://en.wikipedia.org/wiki/Consistency_(database_systems)",
+    "related": [
+        "coding-convention",
+        "code-smell",
+        "quality"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Consistency_(database_systems)"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "ACID",
+            "url": "https://en.wikipedia.org/wiki/ACID"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "CAP theorem",
+            "url": "https://en.wikipedia.org/wiki/CAP_theorem"
+        }
+    ],
+    "tags": [
+        "concept"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Tue, 25 Aug 2026 12:17:01 +0000"
+}

@@ -1,0 +1,57 @@
+{
+    "id": "permission",
+    "name": "Permission",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/permission.html",
+    "aliases": [
+        "right",
+        "privilege",
+        "grant"
+    ],
+    "description": "A permission is the approval or consent given to someone or something to perform a specific action, access certain information, or use a resource. Permissions define what a person or system can and cannot do.\n\nA permission may be granted, or revoked. A permission to grant permission is called a grant.\n\nThere are permissions to access a database or a server; there are permissions to access files. Permission may also be related to visibility, which is the permission to access the internals of an object, depending on the calling context.\n",
+    "code": "",
+    "documentation": "https://en.wikipedia.org/wiki/File-system_permissions",
+    "related": [
+        "file",
+        "visibility",
+        "database",
+        "acl",
+        "authorize",
+        "fopen",
+        "rbac"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/File-system_permissions"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Linux File Permissions Explained: chmod, chown, umask",
+            "url": "https://www.strongdm.com/blog/linux-file-permissions"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Linux file permissions explained | Red Hat",
+            "url": "https://www.redhat.com/en/blog/linux-file-permissions-explained"
+        }
+    ],
+    "tags": [
+        "security",
+        "concept"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Fri, 21 Aug 2026 07:18:18 +0000"
+}

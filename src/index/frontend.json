@@ -1,0 +1,44 @@
+{
+    "id": "frontend",
+    "name": "Front-end",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/frontend.html",
+    "aliases": [],
+    "description": "Front-end refers to the software that runs on the client, and not on the servers. Javascript is a typical front-end language.\n\nThe complement to front-end is the backend.",
+    "code": "",
+    "documentation": "https://en.wikipedia.org/wiki/Frontend_and_backend",
+    "related": [
+        "backend",
+        "asset",
+        "css",
+        "headless"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Frontend_and_backend"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Symfony: Frontend assets management",
+            "url": "https://symfony.com/doc/current/frontend.html"
+        }
+    ],
+    "tags": [
+        "teamwork"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Mon, 10 Aug 2026 15:44:55 +0000"
+}

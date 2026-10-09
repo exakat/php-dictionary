@@ -1,0 +1,46 @@
+{
+    "id": "uninitialized",
+    "name": "Uninitialized",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/uninitialized.html",
+    "aliases": [],
+    "description": "A data container, such as a variable, a property, or an array index, is uninitialized, when it is used for reading, while no value was provided so far.\n\nDifferent behaviors happen, depending on the type of data container.\n\n+ Variable: a warning is emitted, and the variable's content is actually ``null``. The variable stays undefined\n+ Static Property: a Fatal error is emitted\n+ Undefined Normal Property: a warning is emitted. The property's content is actually ``null``\n+ Untyped Normal Property without default value: the property's content is actually ``null``. No warning nor error\n+ Typed Normal Property without default value: a fatal error is emitted\n+ Property with default value: the default value is used.\n\n",
+    "code": "<?php\n\n    echo $trunk; //  Undefined variable $trunk\n\n    class Elephpant {\n        public int $trunkLength;\n    }\n\n    echo Elephpant::$tusk; // Access to undeclared static property Elephpant::$tusk\n    new Elephpant()->tusk; //\n    new Elephpant()->trunkLength; // Typed property Elephpant::$trunkLength must not be accessed before initialization\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Uninitialized_variable",
+    "related": [
+        "initialisation",
+        "existence",
+        "type-declaration-property"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Uninitialized_variable"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Basics",
+            "url": "https://www.php.net/manual/en/language.variables.basics.php"
+        }
+    ],
+    "tags": [
+        "data-container"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": {
+        "Typed property %s::%s must not be accessed before initialization": "typed-property-%s::$%s-must-not-be-accessed-before-initialization",
+        "Uninitialized string offset": "uninitialized-string-offset"
+    },
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+}

@@ -1,0 +1,45 @@
+{
+    "id": "responsability",
+    "name": "Responsability",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/responsability.html",
+    "aliases": [],
+    "description": "Responsibility refers to a reason to change or a goal to achieve. A class, module, or function should have one, and only one, responsibility: this means it should do one thing and do it well.\n\nResponsibility often relates to the key idea of Single Responsibility Principle, the SRP.\n\nThe SRP is the ``S`` in SOLID, formalized by ``Robert C. Martin``. It states:  ``A class should have only one reason to change``.\n\nWhen a class handles both business rules and database storage, it has two responsibilities: and therefore two reasons to change. This happens when business rules change or when the database schema changes, or both.",
+    "code": "",
+    "documentation": "https://en.wikipedia.org/wiki/Single-responsibility_principle",
+    "related": [
+        "solid",
+        "srp",
+        "accountability"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Single-responsibility_principle"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Single Responsibility Principle(SRP) example using PHP",
+            "url": "https://medium.com/@Omojunior11/single-responsibility-principle-srp-example-using-php-337e33d739e"
+        }
+    ],
+    "tags": [
+        "code architecture"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sat, 08 Aug 2026 14:32:40 +0000"
+}

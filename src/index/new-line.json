@@ -1,0 +1,49 @@
+{
+    "id": "new-line",
+    "name": "New Line",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/new-line.html",
+    "aliases": [
+        "line-break"
+    ],
+    "description": "A new-line, or line break, ``\\n`` character. It may be represented by this string sequence, or an actual new line, within a string, or, also by the ``PHP_EOL`` native constant. \n\nPHP uses the ``\\r\\f`` representation for a new line: it is a combination of line feed and return carriage. This is the Linux standard. The ``PHP_EOL`` constant depends on the running platform: its value is adapted to the underlying OS.\n\nBy convention, PHP files are expected to end on a new line.\n\nIt was possible to use new lines within a namespace name, until PHP 8.0. This is not possible anymore.",
+    "code": "<?php\n\n    $string = \"one new line\nanother new line\\nAnd then another new line\" . PHP_EOL\n\n?>",
+    "documentation": "https://www.php.net/manual/en/language.types.string.php",
+    "related": [
+        "line-feed",
+        "return-carriage",
+        "php-constant",
+        "carriage-return"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.types.string.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Newline (\\n) in PHP",
+            "url": "https://ssojet.com/special-characters/newline-n-in-php"
+        }
+    ],
+    "tags": [
+        "character",
+        "portability"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sun, 30 Aug 2026 15:06:51 +0000"
+}

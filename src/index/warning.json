@@ -1,0 +1,46 @@
+{
+    "id": "warning",
+    "name": "Warning",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/warning.html",
+    "aliases": [],
+    "description": "A warning is a non-fatal runtime error that alerts developers about a problem in the code, but doesn't stop script execution at that point.\n\nWarnings are one of the error reporting levels, between error and notice.\n",
+    "code": "<?php\n\ninclude 'unknown-file.php'; // Warning, failed to open stream unknown-file.php\n\n?>",
+    "documentation": "https://www.php.net/manual/en/errorfunc.constants.php",
+    "related": [
+        "error",
+        "notice",
+        "error-reporting",
+        "fatal-error"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/errorfunc.constants.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Dealing with Warnings in PHP, the Right Way",
+            "url": "https://nyamsprod.com/blog/dealing-with-warnings-in-php-the-right-way/"
+        }
+    ],
+    "tags": [
+        "error"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Mon, 15 Jun 2026 11:03:59 +0000"
+}

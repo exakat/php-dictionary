@@ -1,0 +1,48 @@
+{
+    "id": "xmlreader",
+    "name": "XMLReader",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/xmlreader.html",
+    "aliases": [],
+    "description": "The ``XMLReader`` extension is an XML Pull parser. The reader acts as a cursor going forward on the document stream and stopping at each node on the way.",
+    "code": "<?php\n\n    //creating an XML documents that is to be parsed using XML reader to retrieve the contents\n    $xmlDocument = '<?xml version=\"1.0\"?>\n<books>\n<book>\n<title>Les miserables</title>\n<genre>Novel</genre>\n</book>\n<book>\n<title>The old man and the sea</title>\n<genre>Novel</genre>\n</book>\n<book>\n<title>The journey to the west</title>\n<genre>Epic</genre>\n</book>\n</books>';\n    //declaring an instance of XML Reader\n    $xml = new XMLReader();\n    $xml->XML($xmlDocument);\n    \n    //parsing the contents of the XML document and retrieving the required contents from the document\n    echo \"List of the book titles:\\n\";\n    while( $xml->read() )\n    {\n        if ($xml->name === 'title') {\n            print $xml->readInnerXML().PHP_EOL;\n            $xml->next();\n        }\n    }\n\n?>",
+    "documentation": "https://www.php.net/manual/en/book.xmlreader.php",
+    "related": [
+        "xmlwriter",
+        "xml",
+        "dom",
+        "domxml",
+        "simplexml",
+        "unicode"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/book.xmlreader.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP: Reading XML with XMLReader",
+            "url": "https://www.youtube.com/watch?v=xBuBjyLAxOI"
+        }
+    ],
+    "tags": [
+        "xml"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [
+        "Extension/Extxmlreader"
+    ],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "5.0+",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 20 Aug 2026 08:16:08 +0000"
+}

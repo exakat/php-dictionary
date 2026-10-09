@@ -1,0 +1,56 @@
+{
+    "id": "todo",
+    "name": "TODO",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/todo.html",
+    "aliases": [
+        "fixme",
+        "hack",
+        "xxx"
+    ],
+    "description": "``TODO`` is a conventional comment marker used in source code to flag unfinished work, known limitations, or planned improvements. It is not a PHP language feature, but a widely adopted convention recognized by IDE, static analyzers, and code-review tools.\n\nCommon variants include ``FIXME``, for broken code that must be repaired, ``HACK``, for a workaround that should be replaced, and ``XXX``, a warning that the code is dangerous or unclear.\n\nStatic analyzers can locate ``TODO`` comments in a codebase and report them as technical debt. Leaving ``TODO`` comments in production code is generally discouraged unless they are tied to a tracked issue.",
+    "code": "<?php\n\n    // TODO: replace this with a proper caching layer\n    function getUser(int $id): array\n    {\n        // FIXME: this query is missing an index on user_id\n        return $pdo->query(\"SELECT * FROM users WHERE id = $id\")->fetch();\n    }\n\n    // HACK: upstream library does not handle null, remove after upgrading to v3\n    $value = $result ?? '';\n\n    // XXX: this block mutates global state; refactor before next release\n    global $config;\n    $config['debug'] = true;\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Comment_(computer_programming)#Tags",
+    "related": [
+        "comment",
+        "rfu"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Comment_(computer_programming)#Tags"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Taming TODO and FIXME comments",
+            "url": "https://medium.com/@tangiblej/taming-todo-and-fixme-comments-7a4b6041e905"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "TODO and FIXME comments must have ownership",
+            "url": "https://docs.datadoghq.com/security/code_security/static_analysis/static_analysis_rules/python-best-practices/comment-fixme-todo-ownership/"
+        }
+    ],
+    "tags": [
+        "concept",
+        "sdlc"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [
+        "Structures/TodoInCode"
+    ],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 03 Sep 2026 14:37:06 +0000"
+}

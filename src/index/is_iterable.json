@@ -1,0 +1,53 @@
+{
+    "id": "is_iterable",
+    "name": "is_iterable()",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/is_iterable.html",
+    "aliases": [],
+    "description": "``is_iterable()`` is a PHP native function, introduced in version 7.1, that checks whether a variable can be iterated over with ``foreach``. It returns ``true`` if the value is either an ``array`` or an object implementing the ``Traversable`` interface, such as a ``Generator`` or an ``Iterator``.\n\n``is_iterable()`` is the runtime counterpart of the ``iterable`` pseudo-type, which may be used in type declarations for parameters, return types, and properties. It is looser than ``is_array()``, since it also accepts objects, but it does not accept plain objects that merely implement ``ArrayAccess`` without also being ``Traversable``.\n\nIt is typically used to validate arguments of functions designed to accept both arrays and generators or iterators interchangeably, before looping over them with ``foreach``.",
+    "code": "<?php\n\n    function process(iterable $items): void {\n        foreach ($items as $item) {\n            echo $item . PHP_EOL;\n        }\n    }\n\n    var_dump(is_iterable([1, 2, 3]));           // true\n    var_dump(is_iterable((function () { yield 1; })())); // true\n    var_dump(is_iterable('hello'));             // false\n    var_dump(is_iterable(new ArrayObject([1]))); // true\n\n?>",
+    "documentation": "https://www.php.net/manual/en/function.is-iterable.php",
+    "related": [
+        "iterable",
+        "traversable",
+        "iterator",
+        "yield-generator",
+        "is_array",
+        "is_object",
+        "gettype",
+        "type-checking"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/function.is-iterable.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Type comparison tables",
+            "url": "https://www.php.net/manual/en/types.comparisons.php"
+        }
+    ],
+    "tags": [
+        "function",
+        "type-checking"
+    ],
+    "packagist": [],
+    "extensions": [
+        "standard"
+    ],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "7.1",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Mon, 07 Sep 2026 09:09:10 +0000"
+}

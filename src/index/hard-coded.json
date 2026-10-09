@@ -1,0 +1,49 @@
+{
+    "id": "hard-coded",
+    "name": "Hard Coded",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/hard-coded.html",
+    "aliases": [
+        "hardcoded"
+    ],
+    "description": "Hard coded data in code happens when a value is set as a literal in the code, and can't be changed through any directives or parameters.\n\nHard-code becomes a security problem, when the hard-coded value is a password or a hash of it. This secret is now readable in the code.",
+    "code": "<?php \n\n// This is hard-coded\n$age = 1;\n\n// $weight has a default value, but may also be changed at execution time\nfunction trumpet($weight = 2) {\n    echo $weight;\n}\n\n ?>",
+    "documentation": "https://en.wikipedia.org/wiki/Hard_coding",
+    "related": [
+        "constant",
+        "magic-number",
+        "security",
+        "password",
+        "configuration"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Hard_coding"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "CWE-798: Use of Hard-coded Credentials",
+            "url": "https://cwe.mitre.org/data/definitions/798.html"
+        }
+    ],
+    "tags": [
+        "syntax"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [
+        "Functions/HardcodedPasswords"
+    ],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+}

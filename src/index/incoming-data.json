@@ -1,0 +1,53 @@
+{
+    "id": "incoming-data",
+    "name": "Incoming Data",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/incoming-data.html",
+    "aliases": [],
+    "description": "Incoming data are data submitted to PHP by the user. They may come in different ways: ``GET``, ``POST``, cookies or files; and, by extension, $_REQUEST.\n\nIncoming data should always be checked before usage. Their value may have been modified by the author of the source, and carry some malicious payload.\n\nThe encoding of the incoming data is controlled with the ``default_charset`` directive.\n\nBy extension, incoming data may be used to refer to every source of data that is not PHP itself: files, databases, API, etc. Then, they should be treated the same way, with checks on format and value before usage.",
+    "code": "<?php\n\n    if ($_GET['x'] === '1') {\n        print \"You provided a one digit. Thanks!\";\n    } else {\n        print \"No processable data was provided\";\n    }\n\n?>",
+    "documentation": "https://www.php.net/manual/en/ini.core.php#ini.default-charset",
+    "related": [
+        "$_request",
+        "$_post",
+        "$_FILES",
+        "$_get",
+        "outgoing-data",
+        "default_charset",
+        "filter"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/ini.core.php#ini.default-charset"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "filter_input",
+            "url": "https://www.php.net/manual/en/function.filter-input.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Data validation (Wikipedia)",
+            "url": "https://en.wikipedia.org/wiki/Data_validation"
+        }
+    ],
+    "tags": [
+        "data",
+        "http"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Wed, 19 Aug 2026 06:49:14 +0000"
+}

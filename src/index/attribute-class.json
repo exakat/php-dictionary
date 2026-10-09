@@ -1,0 +1,50 @@
+{
+    "id": "attribute-class",
+    "name": "Attribute Class",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/attribute-class.html",
+    "aliases": [],
+    "description": "This is a native PHP attribute, which tells the engine that a class is a PHP attribute.\n\nThis attribute is not necessary to make a class a valid attribute. Yet, it is recommended to use it and make the classes explicitly attributes.",
+    "code": "<?php\n\n    #[Attribute]\n    class ElephpantAttribute { }\n\n    #[ElephpantAttribute]\n    class Elephpant { }\n\n?>",
+    "documentation": "https://www.php.net/manual/en/language.attributes.classes.php",
+    "related": [
+        "override",
+        "nodiscard",
+        "attribute",
+        "php-attribute"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.attributes.classes.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Attributes in PHP 8",
+            "url": "https://php.watch/articles/php-attributes"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "A guide to PHP attributes",
+            "url": "https://www.honeybadger.io/blog/php-attributes-guide/"
+        }
+    ],
+    "tags": [
+        "attribute",
+        "php attribute"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "8.1+",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+}

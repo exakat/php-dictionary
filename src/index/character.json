@@ -1,0 +1,51 @@
+{
+    "id": "character",
+    "name": "Character",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/character.html",
+    "aliases": [],
+    "description": "A character is a unit of information, that represents represents letters, punctuation signs, ideogram, etc. \n\nCharacters may be represented as a byte, on 8 bits, but also on longer sequences, with UTF-8 or UTF-16. By default, PHP uses 8 bits, and there are several extensions to manipulate the encodings.\n\nThere is no dedicated type for characters: a string of one element is used for that purpose. There are some special constraints related to manipulating characters inside a string: it is possible to access individual character in a string, with the array syntax, both to read or modify them.",
+    "code": "<?php\n\n    $string = 'abc';\n    \n    echo $string[1]; // display b\n    \n    var_dump($string[1]);\n    //string(1) b\n\n?>",
+    "documentation": "https://www.php.net/manual/en/language.types.string.php",
+    "related": [
+        "encoding",
+        "utf-8",
+        "ascii",
+        "byte",
+        "encoding-text",
+        "null-byte"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.types.string.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP: mbstring",
+            "url": "https://www.php.net/manual/en/book.mbstring.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Character encoding",
+            "url": "https://en.wikipedia.org/wiki/Character_encoding"
+        }
+    ],
+    "tags": [
+        "encoding"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Wed, 26 Aug 2026 04:23:49 +0000"
+}

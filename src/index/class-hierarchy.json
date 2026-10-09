@@ -1,0 +1,44 @@
+{
+    "id": "class-hierarchy",
+    "name": "Class Hierarchy",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/class-hierarchy.html",
+    "aliases": [],
+    "description": "The class hierarchy is a list of classes, which are extending one from another. The extended classes are parents, and the extending classes are children. Classes extending the same class are also called siblings. \n\nThe depth of the class hierarchy is a measure of the complexity.",
+    "code": "<?php\n\n    class Elephpant {}\n\n    class AfricanElephpant extends Elephpant {}\n\n    class Calf extends AfricanElephpant {}\n\n    class PlayfulCalf extends Calf {}\n    class ShyCalf extends Calf {}\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Class_hierarchy",
+    "related": [
+        "parent",
+        "inheritance"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Class_hierarchy"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP classes",
+            "url": "https://phplang.org/spec/14-classes"
+        }
+    ],
+    "tags": [
+        "class"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+}

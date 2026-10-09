@@ -1,0 +1,44 @@
+{
+    "id": "binary-not",
+    "name": "Binary Not Operator",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/binary-not.html",
+    "aliases": [],
+    "description": "The tilde ``~`` operator returns the opposite value, bit by bit. The value is first converted to an integer, then, negated. This operator returns an integer.\n\n``~`` is often confused with ``!``, as some usages quite overlap.\n",
+    "code": "<?php\n\n    $a = 3;     // 3 \n    $b = ~$a;   // -4\n    $c = !$a;   // false\n\n?>",
+    "documentation": "https://www.php.net/manual/en/language.operators.bitwise.php",
+    "related": [
+        "not",
+        "tilde"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.operators.bitwise.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP Tilde Operator (~): Understanding Its Function and Why ~$a Returns -($a + 1)",
+            "url": "https://www.w3tutorials.net/blog/what-s-the-function-of-the-bitwise-operator-tilde/"
+        }
+    ],
+    "tags": [
+        "character"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Wed, 26 Aug 2026 10:49:40 +0000"
+}

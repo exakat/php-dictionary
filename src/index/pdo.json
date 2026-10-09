@@ -1,0 +1,51 @@
+{
+    "id": "pdo",
+    "name": "PHP Data Objects (PDO)",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/pdo.html",
+    "aliases": [],
+    "description": "PHP Data Objects, aka PDO, is an interface that abstract access to databases. The same interface may be used to access different databases. \n\nPDO provides access 10 different databases: \n\n+ CUBRID\n+ MS SQL Server\n+ Firebird\n+ IBM\n+ Informix\n+ MySQL\n+ MS SQL Server\n+ Oracle\n+ ODBC and DB2\n+ PostgreSQL\n+ SQLite 2 and 3\n\nThe different access relies on drivers and DSN to connect to a database. The DSN describes the server to reach, and the driver handles the communication protocol.",
+    "code": "<?php\n  $dbh = new PDO('mysql:host=localhost;dbname=test', $user, $pass);\n?>",
+    "documentation": "https://www.php.net/manual/en/book.pdo.php",
+    "related": [
+        "dsn",
+        "rdbms",
+        "abstraction-layer",
+        "dao",
+        "resource-leak",
+        "rollback",
+        "sql",
+        "sqlite3",
+        "database-commit",
+        "mysqli",
+        "oracle",
+        "transaction",
+        "connection-pool"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/book.pdo.php"
+        }
+    ],
+    "tags": [
+        "extension",
+        "acronym",
+        "noSeeAlso",
+        "dbal"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Tue, 25 Aug 2026 19:12:45 +0000"
+}

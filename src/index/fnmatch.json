@@ -1,0 +1,50 @@
+{
+    "id": "fnmatch",
+    "name": "fnmatch()",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/fnmatch.html",
+    "aliases": [],
+    "description": "``fnmatch()`` is a native function for matching. it applies the shell wildcard patterns to a string, and returns if it matches or not.\n\nWildcards include: \n\n+ ``*`` for anything\n+ ``?`` for zero or one character\n+ ``[]`` for a range of characters\n+ ``!`` to negate characters in a bracket syntax\n+ `` \\ `` as the escape character\n\nThe search is case sensitive.\n\nThis function is useful to emulate a common system of search.\n\nSimpler search tools include ``str_contains()`` and ``strpos()``, and more complex include ``preg_match()``.\n",
+    "code": "<?php\n\n    $message = 'PHP rocks';\n    if (fnmatch('*r[oi]cks', $message)) {\n      echo 'But, of course...';\n    }\n\n?>",
+    "documentation": "https://www.php.net/manual/en/function.fnmatch.php",
+    "related": [
+        "str_contains",
+        "strpos",
+        "preg_match",
+        "star",
+        "bang",
+        "square-bracket",
+        "question-mark",
+        "back-slash"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/function.fnmatch.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Understanding and Implementing PHP's fnmatch() Function",
+            "url": "https://reintech.io/blog/understanding-implementing-php-fnmatch-function"
+        }
+    ],
+    "tags": [
+        "native function"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sat, 15 Aug 2026 12:12:36 +0000"
+}

@@ -1,0 +1,54 @@
+{
+    "id": "default",
+    "name": "Default",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/default.html",
+    "aliases": [],
+    "description": "``default`` is a PHP keyword, used with ``switch()`` and ``match()`` structures. It represents any case that was not already considered.\n\nIn a ``switch()`` statement, ``default`` is optional, and may be placed anywhere among the ``case`` labels, though it is conventionally written last. It is only executed when none of the ``case`` values matches the tested expression, using loose comparison, ``==``. If a ``switch()`` has no ``default`` and no ``case`` matches, the statement simply does nothing, and execution continues after the block. Unlike ``case``, ``default`` never needs a value, since it always matches by exclusion.\n\nIn a ``match()`` expression, introduced in version 8.0, ``default`` plays the same role, but the comparison uses strict equality ``===``, and a missing ``default`` combined with no matching arm throws an ``UnhandledMatchError`` at runtime, rather than doing nothing. Because ``match()`` is an expression, its ``default`` arm must also return a value, just like every other arm.\n\nStatic analysis tools often flag a ``switch()`` without a ``default`` case as a potential source of silently unhandled values, especially when the tested expression can later gain new possible values, such as an enum case or a class constant.",
+    "code": "<?php\n\n    switch ($i) {\n        case 0:\n            echo 'i equals 0';\n            break;\n        case 1:\n            echo 'i equals 1';\n            break;\n        default:\n            echo 'i is not 0 nor 1';\n            break;\n    }\n\n?>",
+    "documentation": "https://www.php.net/manual/en/control-structures.switch.php",
+    "related": [
+        "switch",
+        "match",
+        "case",
+        "default-value",
+        "switch-case",
+        "switch-default"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/control-structures.switch.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP match vs. switch \u2013 What's the Difference?",
+            "url": "https://www.designcise.com/web/tutorial/what-is-the-difference-between-match-and-switch-in-php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Switch vs Match in PHP: Choosing the Right Control Structure for Your Code",
+            "url": "https://www.themagentoblog.com/2023/07/17/switch-vs-match-in-php-choosing-the-right-control-structure-for-your-code/"
+        }
+    ],
+    "tags": [
+        "keyword",
+        "disambiguation"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [
+        "Structures/SwitchWithoutDefault"
+    ],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Mon, 17 Aug 2026 09:06:21 +0000"
+}

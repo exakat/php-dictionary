@@ -1,0 +1,47 @@
+{
+    "id": "plain-text",
+    "name": "Plain Text",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/plain-text.html",
+    "aliases": [],
+    "description": "Plain Text refers to data that is human-readable, and not protected by any cryptography transformation. It may be read and understood as is.\n\nPlain text is the result of a cracking process, or deciphering, where the original data is crypted, and that transformation was lifted.",
+    "code": "<?php\n\n    $plainText = 'PHP Rocks!';\n    \n    $cryptedData = str_rot13($plainText); // cannot be read anymore\n    \n    $plainTextAgain = str_rot13($cryptedData);\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Plain_text",
+    "related": [
+        "crypt",
+        "rich-text",
+        "markdown",
+        "pdf",
+        "text"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Plain_text"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "RFC 2046: MIME Part Two, Media Types (text/plain)",
+            "url": "https://www.rfc-editor.org/rfc/rfc2046.html"
+        }
+    ],
+    "tags": [
+        "concept"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Wed, 19 Aug 2026 07:53:07 +0000"
+}

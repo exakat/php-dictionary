@@ -1,0 +1,58 @@
+{
+    "id": "recursivearrayiterator",
+    "name": "RecursiveArrayIterator",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/recursivearrayiterator.html",
+    "aliases": [],
+    "description": "``RecursiveArrayIterator`` extends ``ArrayIterator`` to allow recursive iteration over nested arrays and objects. It implements ``RecursiveIterator``, so it works with ``RecursiveIteratorIterator`` to traverse multidimensional arrays depth-first.",
+    "code": "<?php\n\n    $array = ['a', ['b', 'c'], ['d', ['e', 'f']]];\n    $iterator = new RecursiveIteratorIterator(\n        new RecursiveArrayIterator($array)\n    );\n    \n    foreach ($iterator as $value) {\n        echo $value . PHP_EOL;\n    }\n    // a b c d e f\n\n?>",
+    "documentation": "https://www.php.net/manual/en/class.recursivearrayiterator.php",
+    "related": [
+        "spl",
+        "iterator",
+        "array",
+        "recursion",
+        "recursive-array",
+        "recursiveiterator",
+        "splsubject"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/class.recursivearrayiterator.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Using SPL Iterators, Part 1",
+            "url": "https://www.sitepoint.com/using-spl-iterators-1/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP: Doing Recursion With Recursive IteratorIterators",
+            "url": "https://dev.to/gbhorwood/php-doing-recursion-with-recursive-iteratoriterators-fj1"
+        }
+    ],
+    "tags": [
+        "spl",
+        "iterator",
+        "array"
+    ],
+    "packagist": [],
+    "extensions": [
+        "spl"
+    ],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "5.1",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Tue, 18 Aug 2026 05:24:35 +0000"
+}

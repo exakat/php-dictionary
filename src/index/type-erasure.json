@@ -1,0 +1,58 @@
+{
+    "id": "type-erasure",
+    "name": "Types Erasure",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/type-erasure.html",
+    "aliases": [
+        "erased-type",
+        "erasing-type"
+    ],
+    "description": "Type Erasure is the removal of type annotations from the source code when going to production. \n\nThere may be several goals with this operation: \n\n+ Handle unsupported types, such as generics. They are supported by tooling, but not by the PHP engine, so after using them during the development phase, they are removed\n+ Speed up production code by removing execution-time checks. This requires that types are safe and sound\n\nType erasure is a transformation tool, akin to transpiling, that converts the developed code into production code: it is run at the deployment stage.\n\nOne alternative to type erasure is monomorphization, where every needed type is created.",
+    "code": "",
+    "documentation": "https://en.wikipedia.org/wiki/Type_erasure",
+    "related": [
+        "type",
+        "deploy",
+        "transpile",
+        "monomorphization",
+        "generics",
+        "performance",
+        "type-checking"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Type_erasure"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "mrsuh/php-generics",
+            "url": "https://github.com/mrsuh/php-generics"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Bound Erased Generic Types",
+            "url": "https://wiki.php.net/rfc/bound_erased_generic_types"
+        }
+    ],
+    "tags": [
+        "type",
+        "rfc"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Tue, 01 Sep 2026 05:31:03 +0000"
+}

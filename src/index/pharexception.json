@@ -1,0 +1,48 @@
+{
+    "id": "pharexception",
+    "name": "PharException",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/pharexception.html",
+    "aliases": [],
+    "description": "The PharException class is a phar-specific exception. It is raised my many Phar-related methods, and are generally differentiated based on their message, rather than having different types of exception. For example, ``'Cannot call constructor twice'`` or ``'Phar creation or opening failed'``.",
+    "code": "<?php\n\n    $phar = new Phar($myPhar);\n    try {\n      $phar->extractTo($directory, 'directory/', true);\n    } catch (PharException $ex) {\n        print \"An error happened while extracting the phar\";\n    }\n\n?>",
+    "documentation": "https://www.php.net/manual/en/class.pharexception.php",
+    "related": [
+        "exception"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/class.pharexception.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP Exception Handling - PharException",
+            "url": "https://blog.airbrake.io/blog/php-exception-handling/pharexception"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "A Beginner's Guide to the PHP Phar Library for Packaging and Distribution",
+            "url": "https://reintech.io/blog/beginners-guide-php-phar-library-packaging-distribution"
+        }
+    ],
+    "tags": [
+        "exception"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [
+        "Exceptions/CouldUseTry"
+    ],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Fri, 21 Aug 2026 07:18:25 +0000"
+}

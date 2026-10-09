@@ -1,0 +1,51 @@
+{
+    "id": "relative-name",
+    "name": "Relative Name",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/relative-name.html",
+    "aliases": [],
+    "description": "A relative name is a name that is completed by the current namespace to lead to the definition of the referenced structure.\n\nRelative names usually start without the leading ``\\``. In the case of names with a single name, it is either a relative name, or a local import.\n\nThe opposite of relative name is absolute name.",
+    "code": "<?php\n\nnamespace B\\A {\n    function B() {}\n    \n    class C {}\n\n}\n\nnamespace B {\n    use A\\B as C;\n    //import \n    new C();\n\n    // relative name\n    new A\\C(); // actually calls B \\ A\\C\n}\n\n?>",
+    "documentation": "https://www.php.net/manual/en/language.namespaces.basics.php",
+    "related": [
+        "import",
+        "absolute-name",
+        "identifier",
+        "namespaced-name"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.namespaces.basics.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Using namespaces: Aliasing/Importing",
+            "url": "https://www.php.net/manual/en/language.namespaces.importing.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Namespaces and dynamic language features",
+            "url": "https://www.php.net/manual/en/language.namespaces.dynamic.php"
+        }
+    ],
+    "tags": [
+        "namespace"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Fri, 14 Aug 2026 08:00:57 +0000"
+}

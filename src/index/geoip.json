@@ -1,0 +1,54 @@
+{
+    "id": "geoip",
+    "name": "GeoIP",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/geoip.html",
+    "aliases": [
+        "geo-ip",
+        "ip-geolocation"
+    ],
+    "description": "GeoIP is the technique of resolving an IP address to an approximate geographic location, typically a country, region, or city, by looking it up in a database that maps IP address ranges to places, such as MaxMind's GeoLite2 and GeoIP2 databases. PHP historically offered a dedicated geoip PECL extension for querying these lookups natively, but it has since been unbundled and is largely obsolete; modern PHP code instead uses a library such as geoip2/geoip2, which reads a local .mmdb database file, or calls a third-party HTTP API. Because the mapping is based on network allocation records rather than the device itself, GeoIP results are only approximate, accurate at the country level most of the time but often unreliable at the city level, and can be thrown off entirely by VPNs, proxies, or mobile carrier NAT. It is commonly used for content localization, geo-blocking, fraud scoring, and rough analytics, but should not be relied on where precise location is required.",
+    "code": "<?php\n\n    use GeoIp2\\Database\\Reader;\n    \n    $reader = new Reader('/path/to/GeoLite2-City.mmdb');\n    $record = $reader->city('128.101.101.101');\n    \n    echo $record->country->isoCode;   // 'US'\n    echo $record->city->name;         // 'Minneapolis'\n\n?>",
+    "documentation": "https://www.php.net/manual/en/book.geoip.php",
+    "related": [
+        "geolocation",
+        "ip",
+        "curl"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/book.geoip.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "How to Geolocate an IP Address with PHP: The Ultimate Guide",
+            "url": "https://www.abstractapi.com/guides/ip-geolocation/how-to-geolocate-an-ip-address-in-php"
+        }
+    ],
+    "tags": [
+        "extension",
+        "network",
+        "concept"
+    ],
+    "packagist": [
+        "geoip2/geoip2"
+    ],
+    "extensions": [
+        "geoip"
+    ],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Wed, 02 Sep 2026 15:00:24 +0000"
+}

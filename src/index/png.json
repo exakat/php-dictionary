@@ -1,0 +1,55 @@
+{
+    "id": "png",
+    "name": "Portable Network Graphics (PNG)",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/png.html",
+    "aliases": [
+        "portable-network-graphics"
+    ],
+    "description": "``PNG``, the Portable Network Graphics format, is a lossless raster image format that supports transparency through an alpha channel. It was designed as an improved, patent-free replacement for GIF.\n\n``PNG`` uses ``DEFLATE`` compression, which is lossless: no image data is discarded during compression. This makes PNG ideal for images with sharp edges, text, icons, and screenshots, but less efficient than JPEG for photographs.\n\nPHP's GD extension handles PNG images with functions such as ``imagecreatefrompng()``, ``imagepng()``, and ``imagecolortransparent()``. ``imagepng()`` accepts an optional compression level from 0, no compression, to 9, maximum compression.\n\nThe ``Imagick`` extension provides additional PNG manipulation capabilities using ``ImageMagick`` library.",
+    "code": "<?php\n\n    $image = imagecreatefrompng('input.png');\n    \n    // Add a watermark or transform...\n    \n    imagepng($image, 'output.png', 6); // Compression level 6\n    imagedestroy($image);\n\n?>",
+    "documentation": "https://www.php.net/manual/en/function.imagepng.php",
+    "related": [
+        "gif",
+        "jpg",
+        "image",
+        "gd",
+        "imagick",
+        "pdf"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/function.imagepng.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "How to generate an image: using PHP GD Library. (part 1)",
+            "url": "https://medium.com/@emmykolic/how-to-generate-an-image-using-php-gd-library-part-1-22042a9b09d1"
+        }
+    ],
+    "tags": [
+        "image",
+        "format",
+        "acronym"
+    ],
+    "packagist": [],
+    "extensions": [
+        "imagick",
+        "gd"
+    ],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+}

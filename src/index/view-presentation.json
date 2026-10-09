@@ -1,0 +1,51 @@
+{
+    "id": "view-presentation",
+    "name": "View In Presentation",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/view-presentation.html",
+    "aliases": [],
+    "description": "A view is the presentation layer in a MVC model. It is in charge of formatting the provided data to fit the target reader: ``HTML``, ``JSON``, ``XML``, etc.\n\nViews are also a synonym for renderer. They are built on templates, which provide a frame where custom data is inserted.",
+    "code": "",
+    "documentation": "https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller",
+    "related": [
+        "mvc",
+        "template",
+        "controller",
+        "model",
+        "view"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Laravel: Views",
+            "url": "https://laravel.com/docs/views"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Symfony: Creating and Using Templates",
+            "url": "https://symfony.com/doc/current/templates.html"
+        }
+    ],
+    "tags": [
+        "concept",
+        "presentation"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 27 Aug 2026 05:42:51 +0000"
+}

@@ -1,0 +1,77 @@
+{
+    "id": "deploy",
+    "name": "Deployment",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/deploy.html",
+    "aliases": [
+        "deployment",
+        "deploiment",
+        "rollout"
+    ],
+    "description": "Deployment, sometimes misspelled ``deploiment``, refers to the process of making a web application or website available for use on a server or hosting environment. It involves transferring the necessary files and configuring the environment to run the PHP code.",
+    "code": "",
+    "documentation": "https://en.wikipedia.org/wiki/Software_deployment",
+    "related": [
+        "environment",
+        "ship",
+        "cloud",
+        "devops",
+        "phar",
+        "rollback",
+        "artifact",
+        "hosting",
+        "build",
+        "docker-container",
+        "makefile",
+        "php-docker-container",
+        "production",
+        "type-erasure",
+        "whm"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Software_deployment"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "How to deploy code",
+            "url": "https://wikitech.wikimedia.org/wiki/How_to_deploy_code"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "5 ways to deploy PHP applications",
+            "url": "https://buddy.works/guides/5-ways-to-deploy-php-applications"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Why I built a Kubernetes deployment tool",
+            "url": "https://eric.mann.blog/why-i-built-a-kubernetes-deployment-tool/"
+        }
+    ],
+    "tags": [
+        "deployment",
+        "sdlc",
+        "hosting"
+    ],
+    "packagist": [
+        "deployer/deployer",
+        "bref/bref",
+        "acquia/blt"
+    ],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": {
+        "Deployer": "https://deployer.org/"
+    },
+    "popularity": "",
+    "modified": "Fri, 18 Sep 2026 04:46:05 +0000"
+}

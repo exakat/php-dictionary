@@ -1,0 +1,50 @@
+{
+    "id": "autowiring",
+    "name": "Autowiring",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/autowiring.html",
+    "aliases": [
+        "auto-wiring"
+    ],
+    "description": "Autowiring, or auto-wiring, is the ability of the framework to inject dependencies, based on the constructor signature.\n\nAutowiring is based on types, in the signature of the controller.\n\nAutowiring is  commonly used in dependency injection, ``DI`` containers.\n\nAutowiring reduces boilerplate code, enhances type usage and makes refactoring easier.",
+    "code": "<?php\n\n    class Renderer {\n        private View $view;\n    \n        function __construct(View $view) {\n            $this->view = $view;\n        }\n    }\n\n?>",
+    "documentation": "https://symfony.com/doc/current/service_container/autowiring.html",
+    "related": [
+        "dependency-injection",
+        "constructor",
+        "boilerplate",
+        "type",
+        "refactoring"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://symfony.com/doc/current/service_container/autowiring.html"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Autowiring - php-di",
+            "url": "https://php-di.org/doc/autowiring.html"
+        }
+    ],
+    "tags": [
+        "concept"
+    ],
+    "packagist": [
+        "nette/di",
+        "php-di/php-di"
+    ],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sun, 30 Aug 2026 09:00:37 +0000"
+}

@@ -1,0 +1,45 @@
+{
+    "id": "object-nullsafe-operator",
+    "name": "Object Nullsafe Operator ?->",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/object-nullsafe-operator.html",
+    "aliases": [
+        "nullsafe-operator"
+    ],
+    "description": "The object nullsafe operator is an operator which gives access to properties and methods of an object.\n\nDepending on the context, those properties and methods must be public or protected.\n\nObject Nullsafe Operator is directly related to the Object operator: the difference is that the former keeps on executing when the support object is null, while the second stops with a fatal error.",
+    "code": "<?php\n\n    $array = ['a' => (new stdClass)?->a, ];\n    \n    // displays 1\n    echo $array['a']?->a;\n    \n    // displays null, so nothing\n    echo $array['b']?->a;\n\n?>",
+    "documentation": "https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php",
+    "related": [
+        "scope-resolution-operator",
+        "object-operator"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Object Operator in PHP",
+            "url": "https://www.delftstack.com/howto/php/php-object-operator/"
+        }
+    ],
+    "tags": [
+        "feature",
+        "operator"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sat, 08 Aug 2026 08:10:54 +0000"
+}

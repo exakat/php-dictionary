@@ -1,0 +1,85 @@
+{
+    "id": "serialization",
+    "name": "Serialization",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/serialization.html",
+    "aliases": [
+        "serialize"
+    ],
+    "description": "Serialization refers to the process of converting a data structure or object into a format that can be easily stored, transmitted, or reconstructed later. In other words, it involves converting complex data, such as objects or data structures, into a linear sequence of bytes or characters that can be saved to a file, sent over a network, or otherwise persisted.\n\nSerialization is commonly used in computer science and software development for various purposes, such as:\n\n+ Data Storage: serialized data can be saved to files or databases, allowing it to be retrieved and reconstructed at a later time.\n+ Data Transmission: serialized data can be sent over a network or communication channel, allowing it to be transmitted between different systems or processes.\n+ Caching: serialized data can be stored in memory caches, improving the performance of applications by reducing the need to regenerate complex data structures.\n+ Remote Procedure Calls, RPC: serialized data can be used to pass function arguments and return values between remote systems or services.\n+ Message Queues: serialized data can be placed in message queues to enable communication between different components or microservices.\n+ State Persistence: serialized data can represent the state of an application, enabling it to be saved and restored across different sessions.\n\nCommon serialization formats include JSON, XML, Protocol Buffers, and ``MessagePack``, among others. Each format has its own characteristics, advantages, and use cases. The choice of serialization format often depends on factors such as data complexity, performance requirements, interoperability, and ease of use.\n\nDeserialization, also known as unserialization, is the reverse process, where the serialized data is converted back into its original form, such as objects or data structures, so that it can be used and manipulated within a program.\n\nThere are different ways to implement serialization. The native way is to rely on the ``serialize()`` and ``unserialize()``, which, in turn, rely on the ``__serialize()`` and ``__unserialize()`` magic method. Then, ``var_export()`` and ``require()`` make another serialization method. WDDX, XML, JSON or YAML all work as serialization, yet they usually are not considered, over speed or performance issues.",
+    "code": "<?php\n\n    class Elephpant {\n        private const HABITAT = 1;\n\n        function trumpet() {\n            // same as \\Elephpant::C;\n            return self::C;\n        }\n    }\n\n?>",
+    "documentation": "https://www.php.net/manual/en/language.oop5.serialization.php",
+    "related": [
+        "__serialize",
+        "__unserialize",
+        "jsonserializable",
+        "rpc",
+        "message-queue",
+        "cache",
+        "object-injection",
+        "deep-clone",
+        "serde",
+        "string",
+        "serializable",
+        "var_export",
+        "insecure-deserialization",
+        "serialize_precision",
+        "snapshot",
+        "hydrate",
+        "interoperability",
+        "metadata",
+        "protobuf"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.oop5.serialization.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Benchmarking serialization",
+            "url": "https://peakd.com/hive-168588/@crell/benchmarking-serialization"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Understanding Serialisation in PHP",
+            "url": "https://ryangjchandler.co.uk/posts/understanding-serialisation-in-php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "ProtoBuf in PHP for ultra-efficient and agnostic serialization",
+            "url": "https://blog.lepine.pro/en/protobuf-php-go/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "A Guide to Serialization in PHP",
+            "url": "https://ashallendesign.co.uk/blog/php-serialization"
+        }
+    ],
+    "tags": [
+        "data format",
+        "format",
+        "feature"
+    ],
+    "packagist": [
+        "google/protobuf",
+        "symfony/serializer",
+        "jms/serializer",
+        "symfony/var-exporter"
+    ],
+    "extensions": [
+        "protobuf"
+    ],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sat, 12 Sep 2026 07:51:06 +0000"
+}

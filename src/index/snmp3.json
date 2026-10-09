@@ -1,0 +1,43 @@
+{
+    "id": "snmp3",
+    "name": "SNMP3",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/snmp3.html",
+    "aliases": [],
+    "description": "``SNMP3``, the ``SNMP`` extension, provides a very simple and easily usable toolset for managing remote devices via the Simple Network Management Protocol.",
+    "code": "<?php\n\n    $syscontact = snmp2_get('127.0.0.1', 'public', 'system.SysContact.0');\n\n?>",
+    "documentation": "https://www.php.net/manual/en/book.snmp.php",
+    "related": [
+        "snmp"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/book.snmp.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "net-snmp.org",
+            "url": "https://www.net-snmp.org/"
+        }
+    ],
+    "tags": [
+        "extension"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [
+        "Extensions/Extsnmp"
+    ],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Fri, 11 Sep 2026 09:44:13 +0000"
+}

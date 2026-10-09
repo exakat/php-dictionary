@@ -1,0 +1,49 @@
+{
+    "id": "absolute-name",
+    "name": "Absolute Name",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/absolute-name.html",
+    "aliases": [],
+    "description": "An absolute name is a name that is independent from the current namespace. It is usually identified by the leading ``\\`` sign. \n\nAn absolute name does not require a ``use`` expression, and is faster to process, as there is no resolution involved. It may also be less readable, as it makes names longer. \n\nThe opposite of relative name is relative name.\n\nAbsolute names are similar to absolute path, in a file system, though applied to functions, constants and classes names.",
+    "code": "<?php\n\n    namespace Savanna {\n        function trumpet() {}\n\n        class Elephpant {}\n\n    }\n\n    namespace Waterhole {\n        //absolute name to call a function\n        \\Savanna\\trumpet();\n\n        //absolute name to create an object\n        new \\Savanna\\Elephpant();\n\n        //absolute name from the global space: no need to import it\n        strtolower(...) instanceof \\Closure;\n    }\n\n?>",
+    "documentation": "https://www.php.net/manual/en/language.namespaces.basics.php",
+    "related": [
+        "namespace",
+        "path",
+        "import",
+        "use-alias",
+        "readability",
+        "relative-name",
+        "namespaced-name"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.namespaces.basics.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "A Complete Guide to PHP Namespaces",
+            "url": "https://www.thoughtfulcode.com/a-complete-guide-to-php-namespaces/"
+        }
+    ],
+    "tags": [
+        "namespace"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+}

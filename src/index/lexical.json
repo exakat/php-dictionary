@@ -1,0 +1,47 @@
+{
+    "id": "lexical",
+    "name": "Lexical Variable",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/lexical.html",
+    "aliases": [
+        "lexical-variable"
+    ],
+    "description": "A lexical variable is the type of variable that appears in the ``use`` part of a closure definition. They are both variables of the current scope, which defines the closure, and parameters of the scope of the closure.",
+    "code": "<?php\n\n$c = 1;\n\nfunction ($a, $b) use ($c) {\n    // doSomething();\n}\n\n?>",
+    "documentation": "https://www.php.net/manual/en/functions.anonymous.php",
+    "related": [
+        "closure",
+        "variable",
+        "closure-binding",
+        "anonymous-function"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/functions.anonymous.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP Anonymous Functions",
+            "url": "https://www.phptutorial.net/php-tutorial/php-anonymous-functions/"
+        }
+    ],
+    "tags": [
+        "variable",
+        "closure"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Tue, 11 Aug 2026 09:04:17 +0000"
+}

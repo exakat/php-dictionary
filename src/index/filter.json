@@ -1,0 +1,53 @@
+{
+    "id": "filter",
+    "name": "filter",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/filter.html",
+    "aliases": [],
+    "description": "The ``filter`` extension is a built-in extension that provides an efficient way to filter, validate and sanitize data. Give it a string, and check that it satisfies a specific format.\n\n``filter`` works on incoming data, such as ``$_GET`` or ``$_POST``, but also on free variables.",
+    "code": "<?php\n\n$data = [\n    'age' => '123 years',\n    'name'  => 'John Doe',\n];\n\n$filters = [\n    'age'   => FILTER_VALIDATE_INT,\n    'name'   => FILTER_SANITIZE_ENCODED,\n];\n\nprint_r(filter_var_array($data, $filters));\n\n?>",
+    "documentation": "https://www.php.net/manual/en/book.xmlwriter.php",
+    "related": [
+        "extension",
+        "validation",
+        "sanitation",
+        "incoming-data",
+        "php-filter",
+        "ctype",
+        "email"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/book.xmlwriter.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP Filter and Filter Constant",
+            "url": "https://www.geeksforgeeks.org/php-filter-and-filter-constant/"
+        }
+    ],
+    "tags": [
+        "extension",
+        "validation"
+    ],
+    "packagist": [
+        "clue/stream-filter",
+        "laminas/laminas-filter"
+    ],
+    "extensions": [],
+    "analyzers": [
+        "Extension/Extfilter"
+    ],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "7.0+",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Tue, 11 Aug 2026 21:02:50 +0000"
+}

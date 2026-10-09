@@ -1,0 +1,60 @@
+{
+    "id": "include",
+    "name": "include",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/include.html",
+    "aliases": [
+        "include_once",
+        "require_once",
+        "require"
+    ],
+    "description": "Inclusion, often represented by the ``include`` keyword and more rarely by ``require``, is the process to read an external file, and evaluate with the current application for execution. It may define new structures, and execute code. \n\nInclusion relies on four language structures: ``include``, ``require``, ``include_once``, ``require_once``. \n\nInclusion is often only used in ``autoload()`` functions: the code is included class per class, upon request. Besides the ``include 'vendor/autoload.php';``, there might be another inclusion for functions and global constant, which must be included manually.\n\nInclusion runs easily into the ``already defined`` error: this happens when the same file is included twice, and it defines a structure, such as function, constant, class, etc. At the second inclusion, the structure is already defined, and cannot be included again. This is why there is the ``include_once`` command, which skips the inclusion if it already happened. This error was later reduced by using autoload, which is only called when a class, interface, trait or enumeration is used. ",
+    "code": "vars.php\n<?php\n\n    $color = 'green';\n    $fruit = 'apple';\n\n?>\n\ntest.php\n<?php\n\n    echo \"A $color $fruit\"; // A\n    \n    include 'vars.php';\n    \n    echo \"A $color $fruit\"; // A green apple\n\n?>",
+    "documentation": "https://www.php.net/manual/en/function.include.php",
+    "related": [
+        "autoload",
+        "file",
+        "inclusion-hell",
+        "namespace",
+        "local-file-inclusion",
+        "const",
+        "syntax",
+        "control-flow",
+        "order-of-execution"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/function.include.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "How to Use PHP Include and Require Statements",
+            "url": "https://www.scoutapm.com/blog/how-to-use-php-include-and-require-statements/"
+        }
+    ],
+    "tags": [
+        "feature",
+        "keyword",
+        "classic bug",
+        "language construct"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [
+        "Files/MissingInclude",
+        "Files/InclusionWrongCase",
+        "Structures/IncludeUsage"
+    ],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Mon, 14 Sep 2026 17:01:29 +0000"
+}

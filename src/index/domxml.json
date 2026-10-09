@@ -1,0 +1,47 @@
+{
+    "id": "domxml",
+    "name": "DOM",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/domxml.html",
+    "aliases": [],
+    "description": "The DOM extension is an extension that allows developers to work with XML documents using the Document Object Model, DOM, API. It provides a set of classes and functions to parse, manipulate, and generate XML documents.\n\nThe DOM extension provides a tree-based representation of an XML document, where each element, attribute, and text node is represented as an object. This allows developers to traverse and manipulate the XML document easily.",
+    "code": "<?php\n\n// from PHP manual : https://www.php.net/manual/en/class.domcomment.php\n\n   $xml = new DOMDocument();\n    $xml->loadXML('<?xml version=\\1.0\\ encoding=\\utf-8\\?>\n      <configuration version=\\2\\>\n      <!-- test &#45;&#45;&gt; -->\n      test &#45;&#45;&gt;\n      </configuration>'\n    );\n$xpath = new DOMXPath($xml);\n$comments = $xpath->query('//comment()');\n$elements = $xpath->query('//configuration');\n\necho $comments[0]->textContent;\n// result: test &#45;&#45;&gt;\n\necho $elements[0]->textContent;\n// result: test -->\n\n?>",
+    "documentation": "https://www.php.net/manual/en/book.dom.php",
+    "related": [
+        "xml",
+        "simplexml",
+        "xmlreader",
+        "xmlwriter",
+        "unicode",
+        "dom"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/book.dom.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Using PHP DOMDocument: Code Examples Explained",
+            "url": "https://www.bitdegree.org/learn/php-domdocument"
+        }
+    ],
+    "tags": [
+        "extension",
+        "dom"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Tue, 25 Aug 2026 19:12:45 +0000"
+}

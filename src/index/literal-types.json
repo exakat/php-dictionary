@@ -1,0 +1,48 @@
+{
+    "id": "literal-types",
+    "name": "Literal Types",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/literal-types.html",
+    "aliases": [],
+    "description": "Literal types are types which not only check the type of a value but also the value itself. PHP has support for two literal types: false as of PHP 8.0.0, and true as of PHP 8.2.0.",
+    "code": "<?php\n\n    // bool is a type\n    // false is a literal type : a bool, which value is false\n    function trumpet(bool $a) : false {\n        return false;\n    }\n\n?>",
+    "documentation": "https://www.php.net/manual/en/language.types.string.php",
+    "related": [
+        "scalar-type",
+        "union-type",
+        "relative-types"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.types.string.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP RFC: Allow null and false as stand-alone types",
+            "url": "https://wiki.php.net/rfc/null-false-standalone-types"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP RFC: Add true type",
+            "url": "https://wiki.php.net/rfc/true-type"
+        }
+    ],
+    "tags": [
+        "type"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "8.0",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+}

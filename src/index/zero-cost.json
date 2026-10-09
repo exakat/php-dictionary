@@ -1,0 +1,43 @@
+{
+    "id": "zero-cost",
+    "name": "Zero Cost",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/zero-cost.html",
+    "aliases": [],
+    "description": "``zero cost`` most commonly refers to zero-cost assertions, a feature introduced in version 7.0.\n\nZero cost assertions means that they can be turned off, and do not add any execution penalty. \n\nUntil PHP 7.0, assertions could be switched off, but their parsing and non-execution would still require some condition checks. Since PHP 7.0, disabled assertions are not even compiled into bytecode: they are completely removed from the code.\n\nZero-cost is associated with compiled languages, which are able to remove such code at compile time, with the correction options, debug or not. \n\nSome PHP packages and applications claim to be zero-cost. They are using some well place execution to reduce the impact on the execution time, like ``Kphp``, which compiles to C++ a subset of PHP.",
+    "code": "<?php\n\n    assert($a !== 0, '$a must not be zero.');\n\n?>",
+    "documentation": "https://www.php.net/manual/en/function.assert.php",
+    "related": [
+        "assertion"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/function.assert.php"
+        }
+    ],
+    "tags": [
+        "optimisation",
+        "production"
+    ],
+    "packagist": [
+        "olvlvl/composer-attribute-collector"
+    ],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": {
+        "KPHP": "https://vkcom.github.io/kphp/"
+    },
+    "popularity": "",
+    "modified": "Fri, 18 Sep 2026 05:04:14 +0000"
+}

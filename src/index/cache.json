@@ -1,0 +1,70 @@
+{
+    "id": "cache",
+    "name": "Cache",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/cache.html",
+    "aliases": [],
+    "description": "Cache, or caching, is a technique used to store and reuse the results of expensive operations to improve performance.\n\nThere are different types of caches, depending on where they are applied: opcode cache, data cache, query cache, etc.",
+    "code": "<?php\n\n    $count = count($array);\n    // $count is a cache for the number of elements in the array\n    // it saves a call to count() for every loop\n\n    for($i = 0; $i < $count; ++$i) {\n        doSomething($i);\n    }\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Cache_(computing)",
+    "related": [
+        "memoization",
+        "hoisting",
+        "horizontal-scaling",
+        "search-engine",
+        "seo",
+        "serialization",
+        "var_export",
+        "determinism",
+        "load-balancer",
+        "deduplication",
+        "fingerprint",
+        "latency",
+        "rate-limit",
+        "replay",
+        "ttl",
+        "cache-stampede",
+        "cdn",
+        "eventual-consistency",
+        "shared-memory",
+        "temporary",
+        "apcu",
+        "redis",
+        "source-of-truth",
+        "stale-while-revalidate",
+        "cache-warming",
+        "cold-cache",
+        "hot-cache",
+        "memcached",
+        "weakmap"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Cache_(computing)"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP cache",
+            "url": "https://www.php-cache.com/en/latest/"
+        }
+    ],
+    "tags": [
+        "architecture",
+        "design"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sat, 12 Sep 2026 07:43:43 +0000"
+}

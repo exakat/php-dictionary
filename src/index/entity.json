@@ -1,0 +1,49 @@
+{
+    "id": "entity",
+    "name": "Entities",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/entity.html",
+    "aliases": [],
+    "description": "Entities are different things: \n\n+ A type of data, which has an identity, independent from the properties\n+ A way to unambiguously represent characters in HTML, using a sequence of characters.",
+    "code": "",
+    "documentation": "https://en.wikipedia.org/wiki/Domain_model",
+    "related": [
+        "html-entities",
+        "class-entity",
+        "htmlentities",
+        "value-object"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Domain_model"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "htmlentities",
+            "url": "https://www.php.net/manual/en/function.htmlentities.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "html_entity_decode",
+            "url": "https://www.php.net/manual/en/function.html-entity-decode.php"
+        }
+    ],
+    "tags": [
+        "disambiguation"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sun, 09 Aug 2026 13:31:19 +0000"
+}

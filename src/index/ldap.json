@@ -1,0 +1,51 @@
+{
+    "id": "ldap",
+    "name": "Lightweight Directory Access Protocol (LDAP)",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/ldap.html",
+    "aliases": [],
+    "description": "LDAP, acronym of Lightweight Directory Access Protocol, is an open, vendor-neutral, industry standard application protocol for accessing and maintaining distributed directory information services over an Internet Protocol, IP network.",
+    "code": "<?php\n\n    // LDAP server details\n    $ldapServer = \"ldap://your-ldap-server.com\"; // or \"ldaps://\" for SSL\n    $ldapPort = 389; // 636 for LDAPS\n    $ldapDn = \"cn=admin,dc=example,dc=com\"; // Admin DN (Distinguished Name)\n    $ldapPassword = \"your-password\";\n    \n    // Connect to the LDAP server\n    $ldapConn = ldap_connect($ldapServer, $ldapPort);\n    if (!$ldapConn) {\n        die(\"Could not connect to LDAP server.\");\n    }\n    \n    // Set LDAP options (e.g., for protocol version)\n    ldap_set_option($ldapConn, LDAP_OPT_PROTOCOL_VERSION, 3);\n    ldap_set_option($ldapConn, LDAP_OPT_REFERRALS, 0);\n    \n    // Bind (authenticate) to the LDAP server\n    $ldapBind = @ldap_bind($ldapConn, $ldapDn, $ldapPassword);\n    if (!$ldapBind) {\n        die(\"LDAP bind failed: \" . ldap_error($ldapConn));\n    }\n    \n    // Search for a user\n    $searchBase = \"ou=People,dc=example,dc=com\";\n    $searchFilter = \"(cn=Damien Seguy)\";\n    $attributes = [\"cn\", \"mail\", \"uid\"]; // Attributes to retrieve\n    \n    $searchResult = ldap_search($ldapConn, $searchBase, $searchFilter, $attributes);\n    if (!$searchResult) {\n        die(\"LDAP search failed: \" . ldap_error($ldapConn));\n    }\n    \n    // Get the first entry\n    $entry = ldap_first_entry($ldapConn, $searchResult);\n    if (!$entry) {\n        die(\"No entries found.\");\n    }\n    \n    // Retrieve attributes\n    $attrs = ldap_get_attributes($ldapConn, $entry);\n    echo \"<pre>\";\n    print_r($attrs);\n    echo \"</pre>\";\n\n    // Close the connection\n    ldap_unbind($ldapConn);\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Lightweight_Directory_Access_Protocol",
+    "related": [
+        "ip",
+        "server",
+        "service",
+        "query",
+        "ssh",
+        "sso"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Lightweight_Directory_Access_Protocol"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "LDAP site",
+            "url": "https://ldap.com/"
+        }
+    ],
+    "tags": [
+        "acronym",
+        "server"
+    ],
+    "packagist": [],
+    "extensions": [
+        "ldap"
+    ],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Mon, 15 Jun 2026 11:03:59 +0000"
+}

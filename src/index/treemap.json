@@ -1,0 +1,51 @@
+{
+    "id": "treemap",
+    "name": "Treemap",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/treemap.html",
+    "aliases": [],
+    "description": "Treemaps are a visualization tool used to understand the relative weight of partitions. It works on file systems, and nested code structures. Each zone may be dimensioned by its weight, and also colored with another indicator.",
+    "code": "",
+    "documentation": "https://en.wikipedia.org/wiki/Treemapping",
+    "related": [
+        "graph",
+        "flamegraph",
+        "memory",
+        "benchmarking",
+        "performance"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Treemapping"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP Meminfo Treemap",
+            "url": "https://findley.dev/projects/php-meminfo-treemap/"
+        }
+    ],
+    "tags": [
+        "visualization"
+    ],
+    "packagist": [
+        "wikimedia/arc-lamp"
+    ],
+    "extensions": [
+        "codeagent/treemap"
+    ],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Fri, 19 Jun 2026 21:24:41 +0000"
+}

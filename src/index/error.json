@@ -1,0 +1,59 @@
+{
+    "id": "error",
+    "name": "Error",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/error.html",
+    "aliases": [],
+    "description": "The ``Error`` class is a base class for all internal PHP error exceptions. It represents an error that occurs during the execution of PHP code. The Error class extends the built-in Throwable interface, making it possible to catch and handle these error exceptions using try-catch blocks.\n\nThe Error class has several child classes that represent specific types of errors. Some common child classes include:\n\n+ ParseError: represents a syntax error that occurs during parsing of PHP code\n+ TypeError: represents a type-related error, such as passing an incorrect argument type to a function or method\n+ DivisionByZeroError: represents an error that occurs when dividing a number by zero\n+ OutOfMemoryError: represents an error that occurs when the PHP process runs out of memory\n\nSee the example that demonstrates catching and handling a ``ParseError`` below. In the example, the ``eval()`` function is used to evaluate a string of PHP code. However, the code contains a syntax error with a missing semicolon. This results in a ParseError being thrown. We use a try-catch block to catch the ParseError exception, and then display the error message using the ``getMessage()`` method.\n\nIt's important to note that these errors are only thrown by internal PHP errors. User-generated errors, e.g., triggered using the ``trigger_error()`` function, are not instances of the Error class. Instead, they are represented by the ErrorException class, which extends Exception.",
+    "code": "<?php\n\n    try {\n        eval('echo Hello, World!'); // Missing semicolon generates a ParseError\n    } catch (ParseError $e) {\n        echo 'Caught ParseError: ' . $e->getMessage();\n    }\n\n?>",
+    "documentation": "https://www.php.net/manual/en/class.error.php",
+    "related": [
+        "exception",
+        "throw",
+        "try-catch",
+        "parseerror",
+        "typeerror",
+        "divisionbyzeroerror",
+        "throwable",
+        "traversable",
+        "unhandledmatcherror",
+        "downtime",
+        "fatal-error",
+        "notice",
+        "valueerror",
+        "warning",
+        "error-suppression",
+        "html_errors",
+        "lint-wont-execute",
+        "troubleshoot"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/class.error.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP Types of Errors",
+            "url": "https://www.geeksforgeeks.org/php/php-types-of-errors/"
+        }
+    ],
+    "tags": [
+        "error",
+        "feature"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+}

@@ -1,0 +1,57 @@
+{
+    "id": "continue",
+    "name": "Continue",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/continue.html",
+    "aliases": [],
+    "description": "``continue`` is used within looping structures to skip the rest of the current loop iteration and resume the execution at the condition evaluation and then the beginning of the next iteration.\n\n``continue`` is not possible inside a ``switch()`` structure.",
+    "code": "<?php\n\n    foreach ($arr as $key => $value) {\n        if (!($key % 2)) { // skip even members\n            continue;\n        }\n        do_something_odd($value);\n    }\n\n?>",
+    "documentation": "https://www.php.net/manual/en/control-structures.continue.php",
+    "related": [
+        "break",
+        "control-flow",
+        "do-while",
+        "for",
+        "foreach",
+        "while",
+        "jump"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/control-structures.continue.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "break",
+            "url": "https://www.php.net/manual/en/control-structures.break.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Control Structures",
+            "url": "https://www.php.net/manual/en/language.control-structures.php"
+        }
+    ],
+    "tags": [
+        "keyword",
+        "feature"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [
+        "Structures/BreakOutsideLoop",
+        "Structures/Noscream",
+        "Structures/ContinueIsForLoop"
+    ],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Mon, 14 Sep 2026 17:02:25 +0000"
+}

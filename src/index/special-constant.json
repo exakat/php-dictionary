@@ -1,0 +1,49 @@
+{
+    "id": "special-constant",
+    "name": "Special Constant",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/special-constant.html",
+    "aliases": [],
+    "description": "The only special constant is the ``::class`` constant. It has the same syntax as a class constant, hence the name. Yet, it is always defined, and holds the fully qualified name of the related class, interface, trait or enumeration.\n\nIt is convenient for class name resolution, in particular with namespaced classes.\n\nThe resulting name does not include the initial ``\\``.\n\n``::class`` is similar to the ``get_class()`` function, although it is compatible with ``static``, ``self`` or ``parent``.\n\nThe notion of special constant is distinct from the magic constants, such as ``__FILE__``.",
+    "code": "<?php\n\n    use Herd\\Waterhole\\Elephpant as Trunk;\n\n    echo Herd::class;  // Herd\n\n    echo Trunk::class;  // Herd\\Waterhole\\Elephpant\n\n    class Calf {\n        function trumpet() {\n            echo static::class;  // Calf\n        }\n    }\n    \n    echo $object::class; // similar to get_class($object)\n\n?>",
+    "documentation": "https://www.php.net/manual/en/language.oop5.constants.php",
+    "related": [
+        "fully-qualified-name",
+        "class-constant",
+        "magic-constant",
+        "__file__"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.oop5.constants.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Magic Constants",
+            "url": "https://www.php.net/manual/en/language.constants.magic.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP: Predefined Constants",
+            "url": "https://www.php.net/manual/en/reserved.constants.php"
+        }
+    ],
+    "tags": [
+        "constant"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+}

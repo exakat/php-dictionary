@@ -1,0 +1,50 @@
+{
+    "id": "closed-source",
+    "name": "Closed Source",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/closed-source.html",
+    "aliases": [],
+    "description": "Closed source, also called proprietary software, means that the source code is not publicly available. Only the creator or owning company can view, modify, or distribute the code.",
+    "code": "",
+    "documentation": "https://simple.wikipedia.org/wiki/Closed_source",
+    "related": [
+        "open-source",
+        "licence",
+        "vendor-lockin"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://simple.wikipedia.org/wiki/Closed_source"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Proprietary software - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Proprietary_software"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Red Hat: What is open source?",
+            "url": "https://www.redhat.com/en/topics/open-source/what-is-open-source"
+        }
+    ],
+    "tags": [
+        "edition"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Fri, 28 Aug 2026 09:39:42 +0000"
+}

@@ -1,0 +1,46 @@
+{
+    "id": "preg_split",
+    "name": "preg_split()",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/preg_split.html",
+    "aliases": [],
+    "description": "``preg_split()`` splits strings with a regular expression. \n\nThat function allows for complex splitting of strings, including capturing the separators. For simpler splits where the separator is a static value, use ``explode()``.\n",
+    "code": "<?php\n\n$sentence = 'hypertext language, programming';\n\n$keywords = preg_split('/[\\s,]+/', $sentence);\n// ['hypertext', 'language', 'programming']\n\n// This needs the parenthesis in the regex. Multiple parenthesis are possible.\n$separators = preg_split('/([\\s,]+)/', $sentence, flags: PREG_SPLIT_DELIM_CAPTURE);\n// ['hypertext', ' ', 'language', ', ', 'programming']\nprint_r($separators);\n\n$words = explode(' ', $sentence);\n// ['hypertext', 'language,', 'programming']\n// comma is still collected\n\n?>",
+    "documentation": "https://www.php.net/manual/en/function.preg-split.php",
+    "related": [
+        "explode",
+        "preg_replace"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/function.preg-split.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Getting Started with PHP\u2019s preg_split() Function",
+            "url": "https://clouddevs.com/php/preg_split-function/"
+        }
+    ],
+    "tags": [
+        "native function"
+    ],
+    "packagist": [],
+    "extensions": [
+        "pcre"
+    ],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Wed, 02 Sep 2026 16:41:00 +0000"
+}

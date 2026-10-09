@@ -1,0 +1,44 @@
+{
+    "id": "dataset",
+    "name": "Dataset",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/dataset.html",
+    "aliases": [],
+    "description": "A dataset is an organized collection of data.\n\nThe data may be structured or not. The dataset needs a programming language to query it, or will be imported in a database for further processing.",
+    "code": "",
+    "documentation": "https://en.wikipedia.org/wiki/Data_set",
+    "related": [
+        "data",
+        "random",
+        "fixture",
+        "faker",
+        "batch",
+        "database",
+        "pagination"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Data_set"
+        }
+    ],
+    "tags": [
+        "concept"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": {
+        "Kaggle": "https://www.kaggle.com/"
+    },
+    "popularity": "",
+    "modified": "Fri, 18 Sep 2026 04:46:08 +0000"
+}

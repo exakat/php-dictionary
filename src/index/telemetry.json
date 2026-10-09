@@ -1,0 +1,45 @@
+{
+    "id": "telemetry",
+    "name": "Telemetry",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/telemetry.html",
+    "aliases": [],
+    "description": "Telemetry refers to the automated collection and transmission of data about performance, behavior, and health of an application. \n\nThis data is typically sent to a monitoring or observability platform, allowing developers and operations teams to analyze application performance, detect issues, and optimize both code and infrastructure.\n\nTelemetry can cover:\n\n+ Duration and time of execution\n+ Memory usage\n+ Error, warning and exceptions\n+ Database queries\n+ Remote calls\n+ Business metrics\n\nTelemetry goals are to optimize performance, detect and fix errors, improve scalability and drive development with data.\n\nTelemetry is implemented with Application Performance Monitoring tools, or ``APM``, ``OpenTelemetry`` or log based approach.",
+    "code": "",
+    "documentation": "https://www.logicmonitor.com/blog/what-is-telemetry",
+    "related": [
+        "apm",
+        "monitoring",
+        "log"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.logicmonitor.com/blog/what-is-telemetry"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "OpenTelemetry",
+            "url": "https://opentelemetry.io/"
+        }
+    ],
+    "tags": [
+        "monitoring"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Fri, 28 Aug 2026 10:27:50 +0000"
+}

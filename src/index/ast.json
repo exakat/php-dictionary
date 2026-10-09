@@ -1,0 +1,57 @@
+{
+    "id": "ast",
+    "name": "Abstract Syntactic Tree (AST)",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/ast.html",
+    "aliases": [],
+    "description": "An abstract syntax tree, also called an AST, is a tree representation of the abstract syntactic structure of PHP source code.\n\nIt is a representation of the code, that focuses on the syntactic elements that are later executed.",
+    "code": "",
+    "documentation": "https://en.wikipedia.org/wiki/Abstract_syntax_tree",
+    "related": [
+        "parser",
+        "analysis",
+        "token",
+        "homoiconicity",
+        "hygienic-macro",
+        "lexical-analysis",
+        "pattern-based-analysis",
+        "semantic-analysis",
+        "antlr4",
+        "code-generation",
+        "compiler",
+        "multi-pass-algorithm",
+        "intermediate-representation"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Abstract_syntax_tree"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP AST viewer",
+            "url": "https://php-ast-viewer.com/"
+        }
+    ],
+    "tags": [
+        "engine",
+        "acronym",
+        "static analysis"
+    ],
+    "packagist": [],
+    "extensions": [
+        "ast"
+    ],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "7.0",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sun, 20 Sep 2026 18:49:18 +0000"
+}

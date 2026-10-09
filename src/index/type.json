@@ -1,0 +1,98 @@
+{
+    "id": "type",
+    "name": "Type System",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/type.html",
+    "aliases": [
+        "typehint",
+        "type-hint"
+    ],
+    "description": "Type declarations can be added to function arguments, return values, and, as of PHP 7.4.0, class properties. They ensure that the value is of the specified type at call time, otherwise a ``TypeError`` is thrown. ",
+    "code": "<?php\n\n    function trumpet(Elephpant $trunk) : void {}\n\n    class Herd {\n        private Elephpant $tusk;\n    }\n\n?>",
+    "documentation": "https://www.php.net/manual/en/language.types.declarations.php",
+    "related": [
+        "dnf-type",
+        "false",
+        "mixed",
+        "never",
+        "nullable",
+        "object",
+        "property",
+        "return-type",
+        "strict_types",
+        "true",
+        "type-declaration-property",
+        "typed-property",
+        "intersection-type",
+        "object-type",
+        "scalar-type",
+        "special-typehint",
+        "union-type",
+        "variable",
+        "autowiring",
+        "propagation",
+        "pseudo-type",
+        "type-coverage",
+        "dependent-type",
+        "gradual-type-checking",
+        "relative-types",
+        "standalone-type",
+        "autocompletion",
+        "question-mark",
+        "resource",
+        "type-erasure",
+        "type-inference",
+        "alias-types",
+        "array",
+        "coercion",
+        "composite-type",
+        "parameter",
+        "return",
+        "type-checking",
+        "void"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.types.declarations.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Explore Your Types",
+            "url": "https://backendtea.com/post/explore-your-types/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Narrowing types for static analysis",
+            "url": "https://seld.be/notes/narrowing-types-for-static-analysis/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP Oddities",
+            "url": "https://flowtwo.io/post/php's-oddities"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Types",
+            "url": "https://phplang.org/spec/05-types.html"
+        }
+    ],
+    "tags": [
+        "type",
+        "feature"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "7.0",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+}

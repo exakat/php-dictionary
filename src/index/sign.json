@@ -1,0 +1,47 @@
+{
+    "id": "sign",
+    "name": "Sign",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/sign.html",
+    "aliases": [],
+    "description": "A signed expression is an expression that starts with the ``+`` or the ``-`` token. \n\n``+`` is the default value, and omitted most of the time. When present, it has no impact on the value, except that it forces the conversion to ``float`` or ``int``, depending on the value. It may also yield a type error, if the conversion is not possible.\n\n``-`` is the explicit value, and the most useful. When present, it turns the value into a ``float`` or ``int``, and multiplies it with ``-1``.\n\nPHP tolerates multiple distinct sign tokens: ``+-+-+1`` is the same as ``1``. It is strongly recommended to avoid using it. When an arbitrary number of sign changes must be executed, a multiplication by ``-1`` works well.\n\nThe signs are distinct from numeric values: ``-9`` is not ``minus nine``, but rather ``-1 * 9``. This is needed to handle expressions such as ``- ($a * 2)``, where ``-`` applies to the result of the parenthesis. \n\nIt also leads to the unexpected result that ``-3 ** 2 == -9``. In this case, ``**`` power has priority over ``-``, so this is really ``-(3 ** 2) == -9``.",
+    "code": "<?php\n\n    $a = 2;\n    $b = -$a; // -2\n    \n    $c = 123.4;\n    $d = +$c; // float(123.4)\n    \n    // Warning\n    \n    $e = -3 ** 2; // -9\n    \n    $f = +-+-+-+-+-4; // -4\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Sign_(mathematics)",
+    "related": [
+        "exponent",
+        "integer",
+        "float",
+        "cast",
+        "expression",
+        "convert",
+        "digital-signature",
+        "minus",
+        "positive-integer",
+        "plus"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Sign_(mathematics)"
+        }
+    ],
+    "tags": [
+        "syntax",
+        "math",
+        "noSeeAlso"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Tue, 01 Sep 2026 05:31:03 +0000"
+}

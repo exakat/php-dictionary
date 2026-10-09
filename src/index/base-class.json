@@ -1,0 +1,60 @@
+{
+    "id": "base-class",
+    "name": "Base Class",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/base-class.html",
+    "aliases": [
+        "superclass",
+        "parent-class"
+    ],
+    "description": "A base class, also called a superclass or a parent class, is a class that serves as the root of an inheritance hierarchy. Other classes extend it to inherit its properties and methods.\n\nA base class may be concrete, meaning it can be instantiated directly, or it may be abstract, preventing direct instantiation and forcing subclasses to implement its abstract methods.\n\nA PHP class may only extend one base class, but it may implement multiple interfaces.\n\nThere are native base classes, like ``Exception`` and ``Error``, from which all exceptions and errors inherit.",
+    "code": "<?php\n\n    class Animal {\n        public function breathe(): string {\n            return 'inhale/exhale';\n        }\n    }\n    \n    class Dog extends Animal {\n        public function speak(): string {\n            return 'woof';\n        }\n    }\n    \n    $dog = new Dog();\n    echo $dog->breathe(); // inherited from base class\n\n?>",
+    "documentation": "https://www.php.net/manual/en/language.oop5.inheritance.php",
+    "related": [
+        "inheritance",
+        "extends",
+        "parent",
+        "abstract-class",
+        "child-class",
+        "subclass",
+        "class",
+        "interface",
+        "base"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.oop5.inheritance.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP Inheritance - GeeksforGeeks",
+            "url": "https://www.geeksforgeeks.org/php/what-is-inheritance-in-php/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Understanding Class Inheritance (Child and Parent Classes) in Object-Oriented PHP",
+            "url": "https://wpshout.com/courses/object-oriented-php-for-wordpress-developers/understanding-class-inheritance-child-and-parent-classes-in-object-oriented-php/"
+        }
+    ],
+    "tags": [
+        "class",
+        "oop"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sun, 30 Aug 2026 09:00:44 +0000"
+}

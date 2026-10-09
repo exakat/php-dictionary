@@ -1,0 +1,44 @@
+{
+    "id": "unspecified-behavior",
+    "name": "Unspecified Behavior",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/unspecified-behavior.html",
+    "aliases": [],
+    "description": "Unspecified behavior is behavior for which the language specification provides two or more valid options, without requiring the engine to document which one it picked, or to stay consistent across calls. Unlike undefined behavior, every option is still a valid, non-erroneous outcome; unlike implementation-defined behavior, the engine does not have to commit to, or publish, a single choice.\n\nAn classic example is the order in which arguments are evaluated in a function call: the specification does not require left-to-right evaluation, so code that relies on a particular order, e.g. through side effects in the arguments, may behave differently between engine versions.",
+    "code": "<?php\n\n    function noop($value) { return $value; }\n    \n    $i = 0;\n    function next() {\n        global $i;\n        return $i++;\n    }\n    \n    // unspecified: the order in which next() is called for each argument\n    // is not guaranteed by the language\n    noop(next(), next());\n\n?>",
+    "documentation": "https://phplang.org/spec/03-terms-and-definitions.html",
+    "related": [
+        "behavior",
+        "implementation-defined-behavior",
+        "undefined-behavior"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://phplang.org/spec/03-terms-and-definitions.html"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Unspecified behavior - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Unspecified_behavior"
+        }
+    ],
+    "tags": [
+        "concept",
+        "specification"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+}

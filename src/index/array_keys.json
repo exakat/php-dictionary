@@ -1,0 +1,50 @@
+{
+    "id": "array_keys",
+    "name": "array_keys()",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/array_keys.html",
+    "aliases": [],
+    "description": "``array_keys()`` returns all keys, both integer and string, as a new numerically indexed array.\n\n``array_keys()`` has a second parameter, which filters the keys by their corresponding value. Only the keys with the provided value are reported.\n\n``array_keys()`` has a third parameter, which activates the identity comparison for the second argument, rather than the type-juggling default one.\n\n``array_keys()`` always returns a new array with numeric keys starting from 0. It preserves the order of appearance of the matching keys.\n\n``array_keys()`` returns an empty array, when provided with an empty array. It also works with multi-dimensional arrays, but only scans the first level.\n\n``array_keys()`` does not work on objects. It may work, with caveats, by casting the object to array with ``(array)``.\n\n``array_keys()`` is a complement to ``array_values``, which returns only the values. It is the partial contrary to ``array_combine()``.",
+    "code": "<?php\n\n    $array = [\n        'name'  => 'Alice',\n        10      => 'ten',\n        'age'   => 25,\n        'active'=> true\n    ];\n\n    $keys = array_keys($array);\n    // Result: ['name', 10, 'age', 'active']\n\n?>",
+    "documentation": "https://www.php.net/manual/en/function.array-keys.php",
+    "related": [
+        "multidimensional-array",
+        "cast",
+        "comparison",
+        "index-array",
+        "array_values",
+        "array_combine",
+        "array_unique"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/function.array-keys.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP array_keys: How to Extract Keys in Arrays with Examples",
+            "url": "https://flatcoding.com/tutorials/php/php-array_keys-how-to-extract-keys-in-arrays-with-examples/"
+        }
+    ],
+    "tags": [
+        "native function",
+        "array"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Wed, 02 Sep 2026 16:41:00 +0000"
+}

@@ -1,0 +1,48 @@
+{
+    "id": "regression",
+    "name": "Regression",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/regression.html",
+    "aliases": [],
+    "description": "A regression is a return to a previous, less developed state, typically a bug that was once fixed but has reappeared.\n\nIn software testing, regression testing is performed to ensure that changes to the code have not introduced new bugs or broken existing functionality.\n\nRegression tests are typically automated and run after every code change.",
+    "code": "",
+    "documentation": "https://en.wikipedia.org/wiki/Regression_testing",
+    "related": [
+        "test",
+        "test-framework",
+        "phpunit",
+        "ci",
+        "code-coverage"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Regression_testing"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Continuous integration",
+            "url": "https://en.wikipedia.org/wiki/Continuous_integration"
+        }
+    ],
+    "tags": [
+        "concept",
+        "testing"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Fri, 14 Aug 2026 08:06:57 +0000"
+}

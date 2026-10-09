@@ -1,0 +1,50 @@
+{
+    "id": "anonymous",
+    "name": "Anonymous",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/anonymous.html",
+    "aliases": [],
+    "description": "An anonymous structure is a structure that usually has a name, but may also go without it. When the structure is anonymous, some features are not available, such as creating or calling a new instance by using its name. Such operations must now handled by creating the asset, and handing it across the code base.\n\nThere a several structures which have an anonymous version: \n\n+ Functions: there are two types: closures and arrow functions\n+ Method: the magic method ``__invoke()``\n+ Classes\n+ Constants: basically, it is a literal value\n+ Catch: in this case, the exception is caught, but it is not provided in a related variable\n\nSome structures are always named: variables, properties, traits, interfaces, enums.\n\nAnonymous structures should not be confused with dynamic structures: these structures are defined with a name which is stored in a variable, or a similar data container. In fact, dynamic structures often rely on a name to be usable. This is the case of variables, with ``$$variable``.",
+    "code": "<?php\n\n    $closure = function () {} ; \n\n    $arrowFunction = fn() => 1;\n    \n    'literal value';\n    \n    // an object of an anonymous class\n    new class() {}; \n    \n    try {}\n    catch(Exception ) {}\n\n?>",
+    "documentation": "https://www.php.net/manual/en/language.oop5.anonymous.php",
+    "related": [
+        "anonymous-function",
+        "anonymous-class",
+        "anonymous-catch",
+        "dynamic-call",
+        "__invoke",
+        "anonymous-constant",
+        "name-convention",
+        "name",
+        "structure"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.oop5.anonymous.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "The Art of Being Anonymous in PHP",
+            "url": "https://www.exakat.io/the-art-of-being-anonymous-in-php/"
+        }
+    ],
+    "tags": [
+        "concept",
+        "adjective"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sat, 08 Aug 2026 08:10:54 +0000"
+}

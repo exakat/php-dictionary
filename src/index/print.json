@@ -1,0 +1,51 @@
+{
+    "id": "print",
+    "name": "Print",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/print.html",
+    "aliases": [],
+    "description": "``print()`` is a PHP language construct used to output text to the browser or the output stream. It is often used to display information to users on a web page or to debug and inspect variable values during development. The print construct can be used in two forms: with or without parentheses.\n\n``print()`` is a language construct of PHP. It only accepts one argument and it returns 1. \n\n``print()`` also has a closely related function called ``print_r()``, used for debugging.",
+    "code": "<?php\n\n    print 'Hello';\n    \n    print(' world!');\n\n?>",
+    "documentation": "https://www.php.net/manual/en/function.echo.php",
+    "related": [
+        "echo",
+        "print_r",
+        "php-output",
+        "printf",
+        "stdout"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/function.echo.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "The difference between echo and print in PHP",
+            "url": "https://roman-huliak.medium.com/the-difference-between-echo-and-print-in-php-5047006f5fc6"
+        }
+    ],
+    "tags": [
+        "feature",
+        "language construct"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [
+        "Security/DontEchoError",
+        "Structures/EchoWithConcat",
+        "Structures/PrintAndDie",
+        "Structures/NoParenthesisForLanguageConstruct"
+    ],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sat, 08 Aug 2026 08:10:54 +0000"
+}

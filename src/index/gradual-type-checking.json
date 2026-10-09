@@ -1,0 +1,60 @@
+{
+    "id": "gradual-type-checking",
+    "name": "Gradual Type Checking",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/gradual-type-checking.html",
+    "aliases": [],
+    "description": "Gradual type checking is the progressive introduction of types in a code base. When a code base is not fully typed, it is in a state of gradual typing. Types are introduced, which leads to various levels of validation and verifications, and a better stability.\n\nGradual Type Checking ends when the code is all typed: arguments, return types, properties, constants. There might be some ambiguous situations, such as with variables, yields and use. \n",
+    "code": "<?php\n\n    // partially typed function\n    function trumpet(int $i, $b) {\n        // some code\n    }\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Gradual_typing",
+    "related": [
+        "type",
+        "type-checking",
+        "type-inference",
+        "phantom-type",
+        "refinement-type",
+        "row-polymorphism",
+        "strict"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Gradual_typing"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Gradual Type Checking & Sorbet",
+            "url": "https://sorbet.org/docs/gradual"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "What is Gradual Typing",
+            "url": "https://jsiek.github.io/home/WhatIsGradualTyping.html"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP\u2019s Gradual Typing Journey: From Wild West to Almost Respectable",
+            "url": "https://www.javacodegeeks.com/2026/01/phps-gradual-typing-journey-from-wild-west-to-almost-respectable.html"
+        }
+    ],
+    "tags": [
+        "type",
+        "static analysis"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+}

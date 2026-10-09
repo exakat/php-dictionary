@@ -1,0 +1,57 @@
+{
+    "id": "colon",
+    "name": "Colon",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/colon.html",
+    "aliases": [],
+    "description": "Colons are used in a variety of situations: \n\n+ With named parameters, to separate the name from the value\n+ With labels, for goto\n+ With ternary operator, separated or not from the question mark\n+ In ``include_path`` and ``open_basedir``, double-colon is used as a separator\n\nThe double colon is a distinct operator.",
+    "code": "<?php\n\n    goto there;\n    there:\n\n    foo(a: 3); // \n\n    $b = $a ? 'a' : 'b';\n    $c = $c ?: 'a';\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Colon_(punctuation)",
+    "related": [
+        "goto",
+        "label",
+        "ternary",
+        "coalesce",
+        "named-parameter",
+        "separator",
+        "scope-resolution-operator",
+        "semicolon",
+        "static-class"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Colon_(punctuation)"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "goto",
+            "url": "https://www.php.net/manual/en/control-structures.goto.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Comparison operators",
+            "url": "https://www.php.net/manual/en/language.operators.comparison.php"
+        }
+    ],
+    "tags": [
+        "syntax",
+        "token",
+        "punctuation",
+        "character"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Tue, 01 Sep 2026 06:21:42 +0000"
+}

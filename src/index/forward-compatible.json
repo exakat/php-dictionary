@@ -1,0 +1,53 @@
+{
+    "id": "forward-compatible",
+    "name": "Forward Compatible",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/forward-compatible.html",
+    "aliases": [],
+    "description": "A forward compatible feature is a feature that will be available in future versions. In particular, it might be couple with a forward incompatible feature, which will be dropped, while the forward compatible feature will stay. \n\nFor example, PHP allows the increment of non-numeric strings. This feature might be deprecated, and could be removed in a future version, not defined at the time of writing. The functions ``str_increment()`` and ``str_decrement()`` were introduced in version 8.3. They can replace the current feature, and they will be available in the future versions, making them forward compatible.",
+    "code": "<?php\n\n    $a = 't';\n    echo ++$a; //u\n    \n    $a = str_increment($a);\n    echo $a; // v\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Forward_compatibility",
+    "related": [
+        "backward-compatible",
+        "backward-incompatible",
+        "deprecated",
+        "upgrade",
+        "version",
+        "delayedtargetvalidation"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Forward_compatibility"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP manual: Migrating from PHP 8.2.x to PHP 8.3.x",
+            "url": "https://www.php.net/manual/en/migration83.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "str_increment",
+            "url": "https://www.php.net/manual/en/function.str-increment.php"
+        }
+    ],
+    "tags": [
+        "backward-incompatible"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sun, 09 Aug 2026 12:07:27 +0000"
+}

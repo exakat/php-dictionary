@@ -1,0 +1,56 @@
+{
+    "id": "encoding-text",
+    "name": "Text Encoding",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/encoding-text.html",
+    "aliases": [
+        "text-encoding",
+        "character-set"
+    ],
+    "description": "Encoding, or text encoding, is the way characters are organized to hold a meaning while being transmitted, stored or manipulated. \n\nEncoding applies to PHP scripts, which should be UTF-8 encoded, although it might support other formats.\n\nEncoding applies to incoming and outgoing data.\n\nEncoding operations are provided with ``ext/mbstring``, ``ext/iconv`` and ``ext/intl`` extensions. \n\nEncoding is also used for code: the source is encoded when it is transformed in an unreadable yet still executable form.\n\nEncoding is also called a character set.",
+    "code": "<?php\n$text = 'This is the Euro symbol \u20ac.';\n\necho 'Original : ', $text, PHP_EOL;\necho 'TRANSLIT : ', iconv('UTF-8', 'ISO-8859-1//TRANSLIT', $text), PHP_EOL;\necho 'IGNORE   : ', iconv('UTF-8', 'ISO-8859-1//IGNORE', $text), PHP_EOL;\necho 'Plain    : ', iconv('UTF-8', 'ISO-8859-1', $text), PHP_EOL;\n\n?>",
+    "documentation": "https://www.php.net/manual/en/language.oop5.static.php#language.oop5.static.properties",
+    "related": [
+        "mbstring",
+        "iconv",
+        "intl",
+        "character",
+        "html-entity"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.oop5.static.php#language.oop5.static.properties"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Useful Encoding and decoding Functions You Need to Know",
+            "url": "https://medium.com/canopas/php-useful-encoding-and-decoding-functions-you-need-to-know-210e523a065f"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Character Encoding for PHP Developers: Unicode, UTF-8 and ASCII",
+            "url": "https://www.honeybadger.io/blog/php-character-encoding-unicode-utf8-ascii/"
+        }
+    ],
+    "tags": [
+        "concept",
+        "encoding",
+        "string",
+        "portability"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sun, 30 Aug 2026 10:14:10 +0000"
+}

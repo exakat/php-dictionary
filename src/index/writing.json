@@ -1,0 +1,50 @@
+{
+    "id": "writing",
+    "name": "Writing",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/writing.html",
+    "aliases": [
+        "write"
+    ],
+    "description": "Writing is the action to replace a value in a data container with another one. It does not need to be read. The value is simply changed.\n\nWriting happens when a value is being assigned a new value, used with some operators such as ``++`` or ``--``. \n\nThis operation is usually the counterpart of reading. It may also happen at the same time.",
+    "code": "<?php\n\n    $trunk = 1; // writing 1\n\n    ++$trunk; // reading 1 and writing 2\n\n    echo $trunk; // reading 2\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Assignment_(computer_science)",
+    "related": [
+        "reading"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Assignment_(computer_science)"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Assignment operators",
+            "url": "https://www.php.net/manual/en/language.operators.assignment.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Incrementing/Decrementing Operators",
+            "url": "https://www.php.net/manual/en/language.operators.increment.php"
+        }
+    ],
+    "tags": [
+        "concept"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+}

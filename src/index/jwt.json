@@ -1,0 +1,63 @@
+{
+    "id": "jwt",
+    "name": "JSON Web Token (JWT)",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/jwt.html",
+    "aliases": [
+        "json-web-token"
+    ],
+    "description": "A JSON Web Token, JWT, is a compact, URL-safe token format defined in RFC 7519, used to securely transmit claims between parties as a JSON object. JWTs are widely used for stateless authentication and authorisation in web APIs.\n\nA JWT consists of three Base64URL-encoded parts separated by dots:\n\n+ Header: the token type and signing algorithm, e.g. ``HS256``, ``RS256``, ...\n+ Payload: the data. It is often an arbitrary JSON structure with fields, plus registered properties such as ``iss`` for issuer, ``exp`` for expiration date, ``sub`` for subject\n+ Signature: computed over header + payload using a secret or private key\n\nBecause the signature is verified on receipt, the payload can be trusted without a database lookup, making JWTs ideal for stateless, horizontally-scaled services. However, JWTs carry risks: they cannot be revoked before expiry without extra infrastructure, ``alg: none`` attacks disable signature verification, and storing them in ``localStorage`` exposes them to XSS.\n\nJWTs are typically handled via libraries such as ``firebase/php-jwt`` or ``lcobucci/jwt``.",
+    "code": "<?php\n\n    use Firebase\\JWT\\JWT;\n    use Firebase\\JWT\\Key;\n    \n    $secret = 'my-secret';\n    $payload = ['sub' => 42, 'exp' => time() + 3600];\n    \n    $token = JWT::encode($payload, $secret, 'HS256');\n    $decoded = JWT::decode($token, new Key($secret, 'HS256'));\n    \n    echo $decoded->sub; // 42\n\n?>",
+    "documentation": "https://datatracker.ietf.org/doc/html/rfc7519",
+    "related": [
+        "authentication",
+        "token",
+        "sso",
+        "session",
+        "json",
+        "identity",
+        "oauth",
+        "hmac"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://datatracker.ietf.org/doc/html/rfc7519"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "JWT.io \u2014 Debugger and documentation",
+            "url": "https://jwt.io/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Common JWT vulnerabilities",
+            "url": "https://portswigger.net/web-security/jwt"
+        }
+    ],
+    "tags": [
+        "authentication",
+        "security",
+        "acronym",
+        "rfc"
+    ],
+    "packagist": [
+        "firebase/php-jwt",
+        "lcobucci/jwt"
+    ],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Tue, 07 Jul 2026 05:09:45 +0000"
+}

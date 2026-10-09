@@ -1,0 +1,65 @@
+{
+    "id": "parameter",
+    "name": "Parameter",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/parameter.html",
+    "aliases": [],
+    "description": "A parameter is a variable in a method definition. They have a name, and may have a default value and type. They may also be passed by reference, or by value, which is the default way.",
+    "code": "<?php\n\n    function trumpet($parameter) {}\n\n    $argument = 1;\n    trumpet($argument);\n\n?>",
+    "documentation": "https://www.php.net/manual/en/functions.arguments.php",
+    "related": [
+        "argument",
+        "static-expression",
+        "comma",
+        "reference",
+        "type",
+        "variadic",
+        "constant-scalar-expression",
+        "default-value",
+        "inherited-variable",
+        "new-in-initializer",
+        "optional-parameter",
+        "positional-parameter",
+        "named-parameter",
+        "arbitrary-argument",
+        "by-reference",
+        "by-value",
+        "composite-type",
+        "copy-on-write"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/functions.arguments.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP Default Parameters",
+            "url": "https://www.phptutorial.net/php-tutorial/php-default-parameters/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "How to create default function parameter in PHP?",
+            "url": "https://www.geeksforgeeks.org/php/how-to-create-default-function-parameter-in-php/"
+        }
+    ],
+    "tags": [
+        "parameter",
+        "function",
+        "feature"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Fri, 11 Sep 2026 08:47:00 +0000"
+}

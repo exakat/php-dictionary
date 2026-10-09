@@ -1,0 +1,55 @@
+{
+    "id": "dollar",
+    "name": "Dollar $",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/dollar.html",
+    "aliases": [
+        "$"
+    ],
+    "description": "``$`` is character, used in various situations: \n\n+ As the first character of a variable\n+ As an operator, for variable variables.\n\nWhen associated, PHP and ``$`` often leads to the conversion rate of dollars to Philippine Pesos.",
+    "code": "<?php\n\n$a = 'b';\n$b = 'c';\n\necho $$a; // 'c'\n\necho $\\{$a}; // C\n\n?>",
+    "documentation": "https://www.php.net/manual/en/language.variables.variable.php",
+    "related": [
+        "interpolation",
+        "variable",
+        "variable-variable",
+        "relaxed-keywords",
+        "single-quote"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.variables.variable.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Why Does PHP Use the $ Sign for Variables?",
+            "url": "https://medium.com/the-code-compass/why-does-php-use-the-sign-for-variables-c2c233f59991"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Programming archaeology: PHP's dollar sigil",
+            "url": "https://marianposaceanu.com/articles/programming-archaeology-phps-dollar-sigil"
+        }
+    ],
+    "tags": [
+        "disambiguation",
+        "character",
+        "folklore",
+        "_nocompileOK"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sat, 08 Aug 2026 14:34:15 +0000"
+}

@@ -1,0 +1,48 @@
+{
+    "id": "lvalue",
+    "name": "Lvalue",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/lvalue.html",
+    "aliases": [
+        "l-value"
+    ],
+    "description": "An lvalue is an expression that designates a storage location capable of holding a value, as opposed to an rvalue, which only produces a value. The name comes from ``left value``: historically, the kind of expression allowed on the left-hand side of an assignment.\n\nAn lvalue may be modifiable or non-modifiable. A modifiable lvalue, such as a variable, an array element or an object property, can be the target of an assignment or of a by-reference operation. A non-modifiable lvalue, such as a class constant or the result of a function returned by value, designates a location whose value cannot be changed through that expression.",
+    "code": "<?php\n\n    $a = 1;      // $a is a modifiable lvalue\n    $arr[0] = 2; // $arr[0] is a modifiable lvalue\n    \n    class Elephpant {\n        const HABITAT = 1;\n    }\n\n    // Elephpant::HABITAT is a non-modifiable lvalue: this is a compile-time error\n    // Elephpant::HABITAT = 2;\n\n?>",
+    "documentation": "https://phplang.org/spec/03-terms-and-definitions.html",
+    "related": [
+        "variable",
+        "assignment",
+        "reference",
+        "value",
+        "const"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://phplang.org/spec/03-terms-and-definitions.html"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Value (computer science): lvalue and rvalue - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Value_(computer_science)#lvalue_and_rvalue"
+        }
+    ],
+    "tags": [
+        "concept",
+        "specification"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+}

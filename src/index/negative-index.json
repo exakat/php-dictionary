@@ -1,0 +1,49 @@
+{
+    "id": "negative-index",
+    "name": "Negative Index",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/negative-index.html",
+    "aliases": [],
+    "description": "On PHP strings, a positive index starts at zero at the beginning of the string; and a negative index starts at the end of the string. \n\nNegative index was added in version 7.1.\n\nOn an array, negative indexes are supported, without any special meaning: they are only available when provided. Their behavior changed when using automatic indexing though.",
+    "code": "<?php\n\n    $string = 'abcd';\n    \n    echo $string[1]; // b\n    echo $string[-1]; // c\n\n?>",
+    "documentation": "https://www.php.net/manual/en/language.types.string.php#language.types.string.substr",
+    "related": [
+        "index-array",
+        "string"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.types.string.php#language.types.string.substr"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP: substr - Manual",
+            "url": "https://www.php.net/manual/en/function.substr.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP RFC: Negative String Offsets",
+            "url": "https://wiki.php.net/rfc/negative-string-offsets"
+        }
+    ],
+    "tags": [
+        "string"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "7.1",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sat, 22 Aug 2026 08:42:52 +0000"
+}

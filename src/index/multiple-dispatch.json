@@ -1,0 +1,55 @@
+{
+    "id": "multiple-dispatch",
+    "name": "Multiple Dispatch",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/multiple-dispatch.html",
+    "aliases": [
+        "multimethod"
+    ],
+    "description": "Multiple dispatch, also called a multimethod, as found in Common Lisp, Julia, and Dylan, selects which implementation of a function to run based on the runtime types of all of its arguments, not just the first one, the way ordinary object-oriented method calls do. A function defined for ``(Circle, Rectangle)`` and again for ``(Circle, Circle)`` will resolve to a different body depending on the runtime type of every argument passed, and this resolution happens at the call site, at runtime.\n\nThis differs from single dispatch, where a method call ``$shape->collidesWith($other)`` only considers the runtime type of ``$shape``; the type of ``$other`` is fixed by its declared parameter type and requires manual branching, such as ``instanceof`` checks or the double-dispatch visitor pattern, to react differently per combination.\n\nPHP performs single dispatch only: overloaded function declarations do not exist, and ``function collidesWith(Circle $a, Rectangle $b)`` cannot coexist with ``function collidesWith(Circle $a, Circle $b)`` as two resolvable overloads. Choosing behavior based on the combined runtime types of several arguments must be written by hand with ``match``, ``instanceof``, or the visitor pattern.",
+    "code": "<?php\n    \n    // PHP has no true overloading: this second declaration is a fatal error.\n    function collide(Circle $a, Circle $b) { /* ... */ }\n    function collide(Circle $a, Rectangle $b) { /* ... */ } // Fatal error: redeclaration\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Multiple_dispatch",
+    "related": [
+        "overloading",
+        "method-overloading",
+        "polymorphism",
+        "instanceof"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Multiple_dispatch"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Visitor pattern (Wikipedia)",
+            "url": "https://en.wikipedia.org/wiki/Visitor_pattern"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "match",
+            "url": "https://www.php.net/manual/en/control-structures.match.php"
+        }
+    ],
+    "tags": [
+        "concept",
+        "not supported",
+        "_nocompileOK"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Wed, 02 Sep 2026 16:41:00 +0000"
+}

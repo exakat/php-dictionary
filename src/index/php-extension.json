@@ -1,0 +1,41 @@
+{
+    "id": "php-extension",
+    "name": "PHP Extensions",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/php-extension.html",
+    "aliases": [],
+    "description": "Extensions are PHP engine module system. They are compiled into PHP, and offer extra features, such as functions, classes, traits and directive.\n\nExtensions are published in the PIE repository. They were used to be published in the PECL repository, but it is being sunset at the moment.\n\nSome are available by default, in the PHP standard configuration.",
+    "code": "<?php\n\n    // Example with the ext/pspell extensions, for orthographic checks\n    $pspell = pspell_new(\"en\");\n    \n    if (pspell_check($pspell, \"testt\")) {\n        echo \"This is a valid spelling\";\n    } else {\n        echo \"Sorry, wrong spelling\";\n    }\n\n?>",
+    "documentation": "https://packagist.org/search/",
+    "related": [
+        "engine"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://packagist.org/search/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PECL repository (deprecated)",
+            "url": "https://pecl.php.net/"
+        }
+    ],
+    "tags": [
+        "engine"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Tue, 01 Sep 2026 05:31:03 +0000"
+}

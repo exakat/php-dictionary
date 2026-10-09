@@ -1,0 +1,47 @@
+{
+    "id": "boilerplate",
+    "name": "Boilerplate",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/boilerplate.html",
+    "aliases": [],
+    "description": "Boilerplate refers to sections of code, documentation, or configuration that are repeated in multiple places with little or no variation. Boilerplate code is often necessary but can be tedious to write and maintain because it is standardized and reused frequently.\n\nCode generation and libraries reduce boilerplate code, by automating the generation of code.",
+    "code": "<?php\n\n// Example: Manual database connection and query: boilerplate is connexion, query, execution, fetch.\n$pdo = new PDO('mysql:host=localhost;dbname=test', 'user', 'pass');\n$stmt = $pdo->prepare('SELECT * FROM users WHERE id = ?');\n$stmt->execute([$id]);\n$user = $stmt->fetch(PDO::FETCH_ASSOC);\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Boilerplate_code",
+    "related": [
+        "scaffolding",
+        "autowiring",
+        "getter",
+        "tempest"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Boilerplate_code"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Build a kick-ass PHP Microsite in under 4h",
+            "url": "https://jenskuerschner.medium.com/build-a-kick-ass-php-microsite-in-under-4h-f21b27b904d2"
+        }
+    ],
+    "tags": [
+        "concept",
+        "architecture"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Fri, 19 Jun 2026 21:25:15 +0000"
+}

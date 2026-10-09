@@ -1,0 +1,48 @@
+{
+    "id": "increment",
+    "name": "Increment",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/increment.html",
+    "aliases": [],
+    "description": "Increment refers to the process of increasing or adding a small amount to a value, or simply one unit.\n\nIncrement usually refers to the pre-increment and post-increment operators. Increment applies to numbers, both decimal and integers. It also applies to strings, though the feature has been moved to functions. Increment works on booleans: it always produces 1 first, then, since it was turned into an integer, it goes on with numbers.",
+    "code": "<?php\n\n    $a = 1;\n    \n    echo ++$a; // pre plus plus : displays 1, and $a ends with 2\n    \n    echo $a++; // post plus plus \n    \n    echo $a += 1; // increment \n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Increment_and_decrement_operators",
+    "related": [
+        "pre-increment",
+        "post-increment",
+        "string-increment"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Increment_and_decrement_operators"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Incrementing/Decrementing Operators",
+            "url": "https://www.php.net/manual/en/language.operators.increment.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Arithmetic operators",
+            "url": "https://www.php.net/manual/en/language.operators.arithmetic.php"
+        }
+    ],
+    "tags": [
+        "concept"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sun, 16 Aug 2026 07:46:07 +0000"
+}

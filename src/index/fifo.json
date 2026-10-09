@@ -1,0 +1,51 @@
+{
+    "id": "fifo",
+    "name": "First In, First Out (FIFO)",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/fifo.html",
+    "aliases": [],
+    "description": "First In, First Out is the principle of management of a queue. The first added element is the first one to be removed. This is exactly how a queue behaves: it is also the way a line at the cashier behaves.\n\nThe other management is LIFO: last in, first out. \n",
+    "code": "",
+    "documentation": "https://en.wikipedia.org/wiki/Stack_(abstract_data_type)",
+    "related": [
+        "lifo",
+        "array_pop",
+        "array_push",
+        "array_unshift",
+        "pop",
+        "array_shift"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Stack_(abstract_data_type)"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Introduction to Stacks & Queues in PHP",
+            "url": "https://dev.to/matusstafura/introduction-to-stacks-queues-in-php-1lpf"
+        }
+    ],
+    "tags": [
+        "acronym"
+    ],
+    "packagist": [],
+    "extensions": [
+        "spl",
+        "ds"
+    ],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Mon, 15 Jun 2026 11:03:58 +0000"
+}

@@ -1,0 +1,54 @@
+{
+    "id": "inconsistent",
+    "name": "Inconsistent",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/inconsistent.html",
+    "aliases": [],
+    "description": "Inconsistent is a trait of written code, where different conventions or styles are used at the same time. Inconsistent source code is more difficult to understand and often leads to misunderstanding.\n\nOne way to fight inconsistency is to make the consistent rule explicit, and to use tools that both enforce and teach them to developers.\n\nCode may run correctly without being consistent. \n",
+    "code": "<?php\n\n    $first_name = 'PHP';\n    $lastName = 'Elephpant';\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Coding_conventions",
+    "related": [
+        "coding-convention"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Coding_conventions"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "How NOT to write code in PHP \u2014 5 Bad Examples",
+            "url": "https://sergheipogor.medium.com/how-not-to-write-code-in-php-5-bad-examples-9b4205f8de35"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Explaining Inconsistent Code",
+            "url": "https://cs.nyu.edu/~wies/publ/fse2013.pdf"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "The inconsistencies of PHP",
+            "url": "https://www.jamiebalfour.scot/articles/posts/the-inconsistencies-of-php"
+        }
+    ],
+    "tags": [
+        "coding",
+        "adjective"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sat, 08 Aug 2026 14:31:59 +0000"
+}

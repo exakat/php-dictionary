@@ -1,0 +1,47 @@
+{
+    "id": "close-tag",
+    "name": "Close Tag",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/close-tag.html",
+    "aliases": [],
+    "description": "PHP commands are placed between the PHP tags, ``<?php`` and ``?>``.  The second tag is called the closing tag. \n\nClosing tag allow to finish a PHP tag, and switch back to non-interpreted code. The text following the closing tag is then display raw, until the next PHP tag. \n\nWhen a file online contains PHP code, the closing tag is not necessary. Its absence even prevents the accidental adding of white space, which create output errors.",
+    "code": "<?php\n    // here, PHP code\n    \n    // the closing tag\n    ?>Here, raw text, always displayed\n    <?php\n    // more PHP code\n    \n    // No final closing tag",
+    "documentation": "https://www.php.net/manual/en/language.basic-syntax.phptags.php",
+    "related": [
+        "open-tag",
+        "short-tag"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.basic-syntax.phptags.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "You shouldn't use PHP Closing Tags",
+            "url": "https://www.youtube.com/watch?v=mXzUwcDBtkA"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Should You Close PHP Tags? The Debate Continues\u2026",
+            "url": "https://www.sitepoint.com/closing-php-tags-debate/"
+        }
+    ],
+    "tags": [
+        "tags"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sat, 15 Aug 2026 12:12:54 +0000"
+}

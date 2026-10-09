@@ -1,0 +1,57 @@
+{
+    "id": "business-logic",
+    "name": "Business Logic",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/business-logic.html",
+    "aliases": [
+        "domain-logic"
+    ],
+    "description": "Business logic, also called domain logic, is the part of the application that encodes the real-world rules, workflows, and decisions that the software is built to fulfill. It is the ultimate goal of the software: the reason it exists.\n\nBusiness logic answers questions like: how is an invoice calculated? What are the conditions for a user to be eligible for a discount? When is an order considered fulfilled? These rules come from the business domain, not from the technology.\n\nEverything else in the application, like HTTP routing, database persistence, authentication, caching, logging, is infrastructure. Infrastructure exists to serve the business logic, not the other way around. A common design mistake is to scatter business rules across controllers, SQL queries, or framework callbacks, making them hard to find, test, and change.\n\nWell-structured applications isolate business logic from infrastructure. Domain-Driven Design, Hexagonal Architecture, and Clean Architecture all promote this separation. The domain layer, which holds the business logic, should have no dependencies on frameworks, databases, or external services. This makes it independently testable and resilient to technology changes.\n\nBusiness logic often leaks into controllers, the infamous ``fat controllers``, Eloquent models, the ``fat models``, or stored procedures, which are anti-patterns that couple the domain to infrastructure concerns.",
+    "code": "",
+    "documentation": "https://en.wikipedia.org/wiki/Business_logic",
+    "related": [
+        "ddd",
+        "clean-architecture",
+        "hexagonal",
+        "architecture",
+        "fat-controller",
+        "separation-of-concerns",
+        "mvc",
+        "service",
+        "domain",
+        "specification",
+        "testable"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Business_logic"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Patterns of Enterprise Application Architecture (Fowler)",
+            "url": "https://martinfowler.com/books/eaa.html"
+        }
+    ],
+    "tags": [
+        "concept",
+        "architecture",
+        "sdlc"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sun, 30 Aug 2026 09:21:14 +0000"
+}

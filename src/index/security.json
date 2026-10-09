@@ -1,0 +1,102 @@
+{
+    "id": "security",
+    "name": "Security",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/security.html",
+    "aliases": [],
+    "description": "Security involves implementing measures and best practices to protect the application and its data from malicious attacks and vulnerabilities.\n\nSecurity risks may be of different nature: data privacy, identity usurpation, resource abuse, privilege escalation, resource access. \n\nSecurity applies to PHP itself, and also to the application written with it.",
+    "code": "<?php\n\n   // classic example of a XSS injection\n   echo $_GET['a'];\n\n?>",
+    "documentation": "https://www.php.net/manual/en/security.php",
+    "related": [
+        "audit-trail",
+        "attack-surface",
+        "framework",
+        "taint",
+        "toctou",
+        "data-leak",
+        "nonce",
+        "owasp",
+        "sensitiveparameter",
+        "code-review",
+        "ddos",
+        "race-condition",
+        "zero-day",
+        "hash_equals",
+        "html_entity_decode",
+        "htmlspecialchars",
+        "insecure-deserialization",
+        "privacy",
+        "acl",
+        "appeasement-pattern",
+        "dynamic-loading",
+        "escape-character",
+        "php-filter",
+        "poisoned-pipeline-execution",
+        "fuzzing",
+        "hard-coded",
+        "hash-comparison",
+        "oauth",
+        "shell-exec",
+        "ctf",
+        "mfa",
+        "obfuscation",
+        "rate-limit",
+        "crlf-injection",
+        "escapeshellarg",
+        "image-injection",
+        "ldap-injection",
+        "escapeshellcmd",
+        "shell-injection",
+        "ssrf",
+        "steganography",
+        "c2-framework",
+        "csp",
+        "exif",
+        "wrapper-file"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/security.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP Security Best Practices, Vulnerabilities and Attacks",
+            "url": "https://www.vaadata.com/en/blog/php-security-best-practices-vulnerabilities-and-attacks/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP Security",
+            "url": "https://www.aquasec.com/cloud-native-academy/application-security/php-security/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Senior PHP Developers Make These Security Mistakes Too \u2014 And Nobody Talks About It",
+            "url": "https://medium.com/@paunikarjayesh1/senior-php-developers-make-these-security-mistakes-too-and-nobody-talks-about-it-b6c581a30035"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "The Quiet Shift Reshaping PHP Security",
+            "url": "https://www.linkedin.com/pulse/quiet-shift-reshaping-php-security-matthew-weier-o-phinney-fgquc/"
+        }
+    ],
+    "tags": [
+        "concept",
+        "security",
+        "sdl"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Fri, 04 Sep 2026 09:39:51 +0000"
+}

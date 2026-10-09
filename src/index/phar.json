@@ -1,0 +1,46 @@
+{
+    "id": "phar",
+    "name": "Phar",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/phar.html",
+    "aliases": [],
+    "description": "Phar is the PHP Archive. It groups multiple files into a single one, and allows the direct execution or inclusion of that code.\n\next/phar is also a PHP extension, used to create and read the PHAR archives. \n\nPhar archives may be zipped.",
+    "code": "<?php\n\n    $phar = new Phar('myphar.phar');\n    $pgz = $phar->convertToExecutable(Phar::TAR, Phar::GZ); // makes myphar.phar.tar.gz\n\n?>",
+    "documentation": "https://www.php.net/manual/en/book.phar.php",
+    "related": [
+        "deploy",
+        "source",
+        "archive",
+        "unexpectedvalueexception"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/book.phar.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Phar executable compiling utility",
+            "url": "https://github.com/yannoff/phpcc"
+        }
+    ],
+    "tags": [
+        "extension"
+    ],
+    "packagist": [],
+    "extensions": [
+        "phar"
+    ],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Mon, 24 Aug 2026 07:41:09 +0000"
+}

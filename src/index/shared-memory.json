@@ -1,0 +1,60 @@
+{
+    "id": "shared-memory",
+    "name": "Shared Memory",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/shared-memory.html",
+    "aliases": [],
+    "description": "Shared memory is a technique that allows multiple processes to access the same region of memory, enabling fast inter-process communication, ``IPC``, without the overhead of serialization or network transfers.\n\nPHP provides several mechanisms for shared memory:\n\n+ ``Shmop`` extension: low-level shared memory operations using ``SysV`` shared memory segments. Functions include ``shmop_open()``, ``shmop_read()``, ``shmop_write()``, ``shmop_close()``, and ``shmop_delete()``. Uses a key ``shm_key`` to identify segments.\n\n+ ``APCu``, ``APC User Cache``: a widely-used in-memory key-value store that provides shared memory caching across requests. Functions like ``apcu_store()``, ``apcu_fetch()``, and ``apcu_delete()`` are commonly used for application-level caching.\n\n+ ``msg_send()`` / ``msg_receive()``: message queue functions that enable structured communication between processes.\n\n+ ``sysvsem``: system V semaphore functions for synchronization between processes accessing shared memory.\n\n+ ``OPcache``: while not directly a shared memory API, ``OPcache`` stores compiled PHP bytecode in shared memory, allowing all PHP processes to reuse compiled scripts.\n\nShared memory is essential for:\n\n+ Session handling in load-balanced environments\n+ Application-level caching, ``APCu``\n+ Inter-process communication in worker pools\n+ Real-time data sharing between processes\n+ Reducing database load through in-memory caching\n\nNote that shared memory segments persist until explicitly deleted or the system is restarted, which requires careful lifecycle management.",
+    "code": "<?php\n   \n    // adapted from the PHP manual : https://www.php.net/manual/en/shmop.examples-basic.php\n    // Create 100 byte shared memory block with system id of 0xff3\n    $shm_id = shmop_open(0xff3, 'c', 0644, 100);\n    if (!$shm_id) {\n        echo \"Couldn't create shared memory segment\\n\";\n    }\n    \n    // Lets write a test string into shared memory\n    $shm_bytes_written = shmop_write($shm_id, my shared memory block, 0);\n    if ($shm_bytes_written != strlen(my shared memory block)) {\n        echo \"Couldn't write the entire length of data\\n\";\n    }\n    \n    // Now lets read the string back\n    $my_string = shmop_read($shm_id, 0, $shm_size);\n    if (!$my_string) {\n        echo \"Couldn't read from shared memory block\\n\";\n    }\n    echo \"The data inside shared memory was: \" . $my_string . \"\\n\";\n\n?>",
+    "documentation": "https://www.php.net/manual/en/shmop.examples-basic.php",
+    "related": [
+        "memory",
+        "actor-model",
+        "borrow-checking",
+        "channel",
+        "memory-arena",
+        "software-transactional-memory",
+        "cache",
+        "apcu",
+        "ipc",
+        "session",
+        "opcache",
+        "concurrency",
+        "mutex",
+        "memcached",
+        "sem",
+        "shared",
+        "shmop"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/shmop.examples-basic.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "A Guide to the PHP SHMOP Library for Shared Memory Operations",
+            "url": "https://reintech.io/blog/a-guide-to-php-shmop-library-for-shared-memory-operations"
+        }
+    ],
+    "tags": [
+        "architecture",
+        "concurrency"
+    ],
+    "packagist": [],
+    "extensions": [
+        "shmop"
+    ],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Wed, 02 Sep 2026 16:41:00 +0000"
+}

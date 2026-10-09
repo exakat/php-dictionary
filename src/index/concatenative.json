@@ -1,0 +1,44 @@
+{
+    "id": "concatenative",
+    "name": "Concatenative",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/concatenative.html",
+    "aliases": [],
+    "description": "A concatenative structure is a structure that is valid after placing values one after the other. \n\nFor example, strings are concatenative, using the ``.`` dot operator. On the other hand, JSON is not concatenative, as two JSON strings placed one after the other does not create a valid JSON.\n\nThere are concatenative programming languages, and natural languages.",
+    "code": "<?php\n\n    $fullName = 'John' . ' ' . 'Doe';\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Concatenative_programming_language",
+    "related": [
+        "concatenation"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Concatenative_programming_language"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Concatenative Morphology",
+            "url": "https://inlpglossary.ca/concatenative-morphology/"
+        }
+    ],
+    "tags": [
+        "concept",
+        "neologism"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Tue, 01 Sep 2026 05:31:03 +0000"
+}

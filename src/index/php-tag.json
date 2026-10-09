@@ -1,0 +1,42 @@
+{
+    "id": "php-tag",
+    "name": "PHP Tags",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/php-tag.html",
+    "aliases": [],
+    "description": "When PHP parses a file, it looks for opening and closing tags, which are ``<?php`` and ``?>`` which tell PHP to start and stop interpreting the code between them. \n\nThe classic PHP tag is ``<?php``, and it also has a short version, for better serving xml tags: ``<?``. This one relies on the ``short_open_tag`` directive.\n\nPreviously, PHP supported also Javascript-style and ASP-style tags, though these are now unsupported.",
+    "code": "<?php\n  // This is the classic PHP tag\n\n?>\n<?\n  // This is the short PHP tag\n\n?><?= \"Hello world\";\n  // This is the short echo PHP tag\n\n?>",
+    "documentation": "https://www.php.net/manual/en/language.basic-syntax.phptags.php",
+    "related": [
+        "short-tag",
+        "echo-tag"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.basic-syntax.phptags.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP Syntax and tags",
+            "url": "https://www.w3resource.com/php/syntax/syntax.php"
+        }
+    ],
+    "tags": [
+        "tags"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Tue, 01 Sep 2026 06:21:35 +0000"
+}

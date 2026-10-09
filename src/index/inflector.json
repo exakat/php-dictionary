@@ -1,0 +1,50 @@
+{
+    "id": "inflector",
+    "name": "Inflector",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/inflector.html",
+    "aliases": [],
+    "description": "An inflector processes strings to adapt them for various situations, such as singular/plural, or for uppercase/lowercase.\n\nTypical inflector operations include pluralizing and singularizing nouns, ``browsers`` to ``browser``, converting between naming conventions such as ``camelCase``, ``snake_case``, and ``kebab-case``, deriving class or table names from words ``classify()``, ``tableize()``, and producing ordinal forms ``1st``, ``2nd``. Because English pluralization has many irregular forms such as ``child``/``children``, ``mouse``/``mice``, inflectors rely on ordered rule tables and exception lists rather than a single suffix rule.\n\nIn the PHP ecosystem, ``doctrine/inflector`` is the most widely used standalone implementation and is also embedded inside Doctrine ORM for generating table and column names from entity and property names; Symfony's ``symfony/string`` component ships its own ``Inflector`` service; Laravel's ``Illuminate\\Support\\Str::plural()``/``singular()`` helpers perform the equivalent inflection; and CakePHP bundles inflection rules in its utility package for generating model and route names.",
+    "code": "<?php\n\n    // example using doctrine/inflector\n    \n    $inflector = InflectorFactory::create()->build();\n    echo $inflector->singularize('browsers'); // browser\n\n?>",
+    "documentation": "https://www.doctrine-project.org/projects/inflector.html",
+    "related": [
+        "internationalization"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.doctrine-project.org/projects/inflector.html"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Inflection (Wikipedia)",
+            "url": "https://en.wikipedia.org/wiki/Inflection"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Symfony String component",
+            "url": "https://symfony.com/doc/current/components/string.html"
+        }
+    ],
+    "tags": [
+        "text"
+    ],
+    "packagist": [
+        "doctrine/inflector",
+        "symfony/inflector",
+        "cakephp/utility"
+    ],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Tue, 01 Sep 2026 05:31:03 +0000"
+}

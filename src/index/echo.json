@@ -1,0 +1,52 @@
+{
+    "id": "echo",
+    "name": "Echo",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/echo.html",
+    "aliases": [],
+    "description": "``echo`` is a language construct used to output text to the browser or the output stream. It's commonly used to display content on a web page, generate HTML, or provide feedback to users. The echo construct is often used to generate dynamic content that is sent to the client's web browser.\n\n``echo`` is a language construct of PHP, not a function: it may be not be used as a callback. \n\n``echo`` works without parenthesis: then, it accepts an arbitrary number of arguments.",
+    "code": "<?php\n\n    echo 'Hello', ' ', 'world!';\n\n?>",
+    "documentation": "https://www.php.net/manual/en/function.echo.php",
+    "related": [
+        "print",
+        "language-construct",
+        "php-output",
+        "print_r",
+        "printf",
+        "stdout"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/function.echo.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "The difference between echo and print in PHP",
+            "url": "https://roman-huliak.medium.com/the-difference-between-echo-and-print-in-php-5047006f5fc6"
+        }
+    ],
+    "tags": [
+        "feature",
+        "language construct"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [
+        "Security/DontEchoError",
+        "Structures/EchoWithConcat",
+        "Structures/PrintAndDie",
+        "Structures/NoParenthesisForLanguageConstruct"
+    ],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sat, 08 Aug 2026 08:10:54 +0000"
+}

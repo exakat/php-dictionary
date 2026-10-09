@@ -1,0 +1,51 @@
+{
+    "id": "carriage-return",
+    "name": "Carriage Return",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/carriage-return.html",
+    "aliases": [],
+    "description": "A carriage return is a whitespace character, that historically represents moving the cursor to the beginning of the line, without changing line. It is often combined to the line feed: on a typewriter, that combination is needed to move the carriage to the beginning of the next line. This does not apply anymore on computers.\n\nA carriage return is represented by the escape sequence ``\\r``, in double quote strings. It is also the ASCII code 13.\n\nCarriage return are important when formatting code, as they are at the end of a line.",
+    "code": "<?php\n\n    echo \"\\r\";\n    echo chr(13); // ASCII code 13\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Carriage_return",
+    "related": [
+        "new-line",
+        "line-feed",
+        "ascii",
+        "php_eol"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Carriage_return"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP: Predefined Constants",
+            "url": "https://www.php.net/manual/en/reserved.constants.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Newline",
+            "url": "https://en.wikipedia.org/wiki/Newline"
+        }
+    ],
+    "tags": [
+        "character"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Wed, 26 Aug 2026 10:12:14 +0000"
+}

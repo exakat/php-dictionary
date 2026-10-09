@@ -1,0 +1,49 @@
+{
+    "id": "relative",
+    "name": "Relative",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/relative.html",
+    "aliases": [],
+    "description": "A ``relative`` value is dependent on the context in which it operates. \n\nThe notion of ``relative`` has several usages:\n\n+ There are relative names, which depends on the local namespace\n+ There are relative path, which are path that starts at the current working directory\n+ There are relative type, which are types that depends on the current class context, such as ``self``, ``static`` and ``parent``\n\nThe notion of relative is the opposite of the notion of absolute, which does not depend on a local context.",
+    "code": "<?php\n\n    class Calf extends Elephpant {\n        // relative type, that may be copy-pasted without a change\n        function trumpet() : self {}\n\n        // absolute type, that represents the current class\n        function forage() : Calf {}\n    }\n\n?>",
+    "documentation": "https://www.php.net/manual/en/language.namespaces.basics.php",
+    "related": [
+        "fully-qualified-name",
+        "relative-types",
+        "path",
+        "absolute"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.namespaces.basics.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Path (computing)",
+            "url": "https://en.wikipedia.org/wiki/Path_(computing)"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Late Static Bindings",
+            "url": "https://www.php.net/manual/en/language.oop5.late-static-bindings.php"
+        }
+    ],
+    "tags": [
+        "disambiguation"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+}

@@ -1,0 +1,52 @@
+{
+    "id": "digital-signature",
+    "name": "Digital Signature",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/digital-signature.html",
+    "aliases": [],
+    "description": "A digital signature is a method to ensure that a message was sent by a specific recipient. It uses mathematical methods to combine the original message, plain text or not, with a private key, to produce a piece of data which may be verified later with the public key. Then, the pair of private key and public key gives a high level of confidence that the message was coming from the known sender.\n\nPHP can sign data with ``openssl`` and ``sodium`` extensions. \n\nA checksum can be considered a signature without a private key: it computes a short version of a file, and is difficult to reproduce without the original data. Any attempt at modifying the original data can then be detected, although the checksum itself has now to be trusted.\n\nA signature is distinct from the sign of a number, ``+`` or ``-``.\n",
+    "code": "<?php\n\n    function trumpet(string $message): string {\n\n        // adapted from the PHP manual\n        // fetch private key from file and ready it\n        $pkeyid = openssl_pkey_get_private(file://src/openssl-0.9.6/php/sign/key.pem);\n\n        // compute signature\n        openssl_sign($message, $signature, $pkeyid);\n\n        // free the key from memory\n        openssl_free_key($pkeyid);        \n        \n        // This returns the signature of the message for 'php' user.\n        // It may be checked with the public key\n        return $signature;\n    }\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Digital_signature",
+    "related": [
+        "method-signature",
+        "signature",
+        "sign",
+        "checksum"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Digital_signature"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "How to Explain Public-Key Cryptography and Digital Signatures to Non-Techies",
+            "url": "https://auth0.com/blog/how-to-explain-public-key-cryptography-digital-signatures-to-anyone/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Public Key Signature: What It Is & Why It's Everywhere",
+            "url": "https://www.thesslstore.com/blog/public-key-signature/"
+        }
+    ],
+    "tags": [
+        "disambiguation"
+    ],
+    "packagist": [],
+    "extensions": [
+        "sodium",
+        "openssl"
+    ],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+}

@@ -1,0 +1,53 @@
+{
+    "id": "fixture",
+    "name": "Fixture",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/fixture.html",
+    "aliases": [],
+    "description": "A fixture is a set of test data. They are used to set up the environment in a known state, so that to run the test in good conditions.\n\nFixtures typically populate a database, a filesystem, or an object graph with predictable values before a test runs, and are torn down afterward so that one test cannot leak state into the next. With ``PHPUnit``, this is often done through ``setUp()`` and ``tearDown()`` methods, or through dedicated fixture files loaded per test case or test suite.\n\nGood fixtures make tests deterministic and repeatable: the same input state produces the same result every time, regardless of the order in which tests run or what ran before them. Poorly managed fixtures, by contrast, are a common source of flaky tests, since hidden dependencies between tests can make outcomes depend on execution order.",
+    "code": "",
+    "documentation": "https://en.wikipedia.org/wiki/Test_fixture",
+    "related": [
+        "mock",
+        "dataset",
+        "phpunit"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Test_fixture"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Fixtures in PHPUnit",
+            "url": "https://docs.phpunit.de/en/12.5/fixtures.html"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Working with fixture data in your tests",
+            "url": "https://dyrynda.com.au/blog/working-with-test-fixtures"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Fixture Factory in PHP",
+            "url": "https://medium.com/ticketswap/fixture-factory-in-php-7969efd9c5d7"
+        }
+    ],
+    "tags": [
+        "test"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sat, 08 Aug 2026 08:10:54 +0000"
+}

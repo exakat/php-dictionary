@@ -1,0 +1,70 @@
+{
+    "id": "clone",
+    "name": "Clone",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/clone.html",
+    "aliases": [],
+    "description": "Clone creates a duplicate of an object.\n\nBy default, PHP creates a shallow clone: it only makes a copy of the scalar properties, and it keeps the references and any objects untouched. This means that object properties are shared between an object and its clone. \n\nTo perform a deep clone, aka to clone an object and its referenced properties, there is the magic method ``__clone()``.\n\nUntil PHP 8.5, ``clone`` was only an operator. Ever since, it is also a native PHP function, which accepts a second argument to update the public properties. That argument prevents using the magic method ``__clone``, although both may happen at the same time. When ``__clone`` and ``clone()`` update the same property, the ``clone()`` is applied last, and stays.\n\nCloning had a conflict with the ``readonly`` properties, until updating readonly during the cloning operation was allowed, in version 8.5.",
+    "code": "<?php\n\n    class Elephpant {\n        protected $weight = 1;\n\n        function __clone() {\n            $this->weight = 2;\n        }\n    }\n\n    // instantiation\n    $original = new Elephpant;\n\n    // cloning\n    $twin = clone $original;\n\n    $secondTwin = clone($original);  // parenthesis are now useful\n    echo $secondTwin->weight;  // 2\n    $customTwin = clone($original, ['weight' => 3]);\n    echo $customTwin->weight;\n\n?>",
+    "documentation": "https://www.php.net/manual/en/language.oop5.cloning.php",
+    "related": [
+        "shallow-clone",
+        "deep-clone",
+        "prototype",
+        "readonly",
+        "reference",
+        "object",
+        "identity",
+        "object-type"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.oop5.cloning.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "What happens when we clone?",
+            "url": "https://doeken.org/blog/what-happens-when-we-clone"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "How to clone an object in PHP",
+            "url": "https://linuxhint.com/cloning_objects_php/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP Clone All The Things",
+            "url": "https://jolicode.com/blog/php-clone-all-the-things"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Clone version 2",
+            "url": "https://wiki.php.net/rfc/clone_with_v2"
+        }
+    ],
+    "tags": [
+        "keyword",
+        "feature",
+        "concept",
+        "oop",
+        "native function",
+        "rfc"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [
+        "Classes/CloningUsage"
+    ],
+    "cobblers": [],
+    "rule": "Classes/CloningUsage",
+    "phpVersionSince": "4.0+",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+}

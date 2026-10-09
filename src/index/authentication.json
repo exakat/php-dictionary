@@ -1,0 +1,58 @@
+{
+    "id": "authentication",
+    "name": "Authentication",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/authentication.html",
+    "aliases": [],
+    "description": "Authentication is the proof that a user is indeed who he claims to be. In a couple ``username/password``, the password is the authentication, as only the user is supposed to know it. Identification is the other aspect of the problem.",
+    "code": "",
+    "documentation": "https://en.wikipedia.org/wiki/Authentication",
+    "related": [
+        "identification",
+        "framework",
+        "hash_equals",
+        "null",
+        "privacy",
+        "acl",
+        "identity",
+        "jwt",
+        "otp",
+        "mfa",
+        "sso",
+        "oauth",
+        "api-gateway",
+        "firewall",
+        "openid",
+        "saml"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Authentication"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "HTTP authentication with PHP",
+            "url": "https://www.php.net/manual/en/features.http-auth.php"
+        }
+    ],
+    "tags": [
+        "security"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [
+        "Functions/DontUseVoid"
+    ],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "8.0",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sat, 12 Sep 2026 07:43:43 +0000"
+}

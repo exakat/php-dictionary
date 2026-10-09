@@ -1,0 +1,50 @@
+{
+    "id": "double-check",
+    "name": "Double Check",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/double-check.html",
+    "aliases": [],
+    "description": "A double check happens when the same characteristics is checked twice. \n\nDouble check evolve naturally from code that does not take into account the entire system it is residing in.\n\nDouble check may be explicit, or implicit. The explicit are plainly written in the code, while implicit double check requires context knowledge. \n\nDouble checks are a feature of defensive programming, where everything is checked as needed, to ensure that a previous omission does not go unchecked, even at the cost of effort duplication.",
+    "code": "<?php\n\n// This condition is a double check with the one inside the function trumpet()\n// This doublecheck uses 2 identical conditions, with different syntax\nif ($j >= 0) {\n    trumpet($j);\n}\n\nfunction trumpet(int $i): ?int {\n    if ($i < 0) {\n        return null;\n    }\n    \n    return $i + 1;\n}\n\n// Foreach() checks for $items to be empty, and skips itself in that case.\n// the empty() check is duplicate\nif (!empty($items)) {\n    foreach ($items as $item) {\n        doSomething();\n    }\n}\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Defensive_programming",
+    "related": [
+        "defensive-programming",
+        "useless"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Defensive_programming"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Double-checked locking",
+            "url": "https://en.wikipedia.org/wiki/Double-checked_locking"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "OWASP: Input Validation Cheat Sheet",
+            "url": "https://cheatsheetseries.owasp.org/cheatsheets/Input_Validation_Cheat_Sheet.html"
+        }
+    ],
+    "tags": [
+        "concept",
+        "practice"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+}

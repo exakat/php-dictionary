@@ -1,0 +1,47 @@
+{
+    "id": "outofrangeexception",
+    "name": "OutOfRangeException",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/outofrangeexception.html",
+    "aliases": [],
+    "description": "``OutOfRangeException`` is a built-in exception class that is used to indicate that an index or value is outside the acceptable range. It is a subclass of the LogicException class.\n\nThe ``OutOfRangeException`` is typically thrown when accessing an array or collection with an index that is either negative or exceeds the valid range of indices. It can also be thrown when working with iterators or other data structures that have a defined range of valid values.",
+    "code": "<?php\n\n    $list = new SplDoublyLinkedList();\n    \n    try {\n        // Adding 5 at index 2, while it should be added a 0 (empty list)\n        $list->add(2,5);\n    } catch (OutOfRangeException $e) {\n        echo 'Exception: '.$e->getMessage().\"\\n\";\n    }\n\n?>",
+    "documentation": "https://www.php.net/manual/en/class.outofrangeexception.php",
+    "related": [
+        "exception",
+        "logicexception"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/class.outofrangeexception.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP: SPL Exceptions",
+            "url": "https://www.php.net/manual/en/spl.exceptions.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "How to use built-in SPL exception classes for better error handling",
+            "url": "https://codeutopia.net/blog/2011/05/06/how-to-use-built-in-spl-exception-classes-for-better-error-handling/"
+        }
+    ],
+    "tags": [
+        "exception"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sat, 15 Aug 2026 08:25:12 +0000"
+}

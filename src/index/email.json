@@ -1,0 +1,49 @@
+{
+    "id": "email",
+    "name": "Email",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/email.html",
+    "aliases": [],
+    "description": "Email, short for electronic mail, is a method of exchanging digital messages between people using electronic devices. These messages can contain text, attachments, images, and other multimedia elements. Email is a widely used communication tool for both personal and professional purposes.\n\nPHP can send emails with the ``mail()`` function. PHP doesn't receive emails, as it requires a server, so it relies on the ``imap`` extension. \n\nPHP also offers special filter to validate email addresses, with the filter extension.",
+    "code": "<?php\n\n$to = 'destination@example.com';\n$subject = 'Test Email';\n$message = 'This is a test email.';\n\n// Send the email\nmail($to, $subject, $message);\n\n?>",
+    "documentation": "https://www.php.net/manual/fr/function.mail.php",
+    "related": [
+        "filter",
+        "smtp"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/fr/function.mail.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "How to Send Email in PHP: Complete Guide with Code Examples",
+            "url": "https://sendlayer.com/blog/how-to-send-email-in-php/"
+        }
+    ],
+    "tags": [
+        "feature"
+    ],
+    "packagist": [
+        "phpmailer/phpmailer",
+        "symfony/mailer",
+        "swiftmailer/swiftmailer",
+        "php-imap/php-imap"
+    ],
+    "extensions": [
+        "imap"
+    ],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Mon, 15 Jun 2026 11:03:58 +0000"
+}

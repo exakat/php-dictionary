@@ -1,0 +1,46 @@
+{
+    "id": "class_implements",
+    "name": "class_implements()",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/class_implements.html",
+    "aliases": [],
+    "description": "``class_implements()`` returns an array of all interfaces implemented by a given class, including interfaces implemented by its parent classes. The keys and values of the returned array are both the interface names.\n\nAn optional second parameter, by default ``true``, controls whether the autoloader should be invoked if the class does not yet exist. Pass ``false`` to suppress autoloading.\n\n``class_implements()`` returns ``false`` if the class does not exist and autoloading is disabled.\n\nRelated functions are ``class_parents()``, which returns parent classes, and ``class_uses()``, which returns traits used by the class.\n",
+    "code": "<?php\n\ninterface Countable {}\ninterface Stringable {}\n\nclass MyCollection implements Countable, Stringable {\n    public function count(): int { return 0; }\n    public function __toString(): string { return ''; }\n}\n\n$interfaces = class_implements(MyCollection::class);\n// ['Countable' => 'Countable', 'Stringable' => 'Stringable']\n\n// Also works with a string class name\n$interfaces = class_implements('MyCollection');\n\n// Works on instances too\n$obj = new MyCollection();\n$interfaces = class_implements($obj);\n\nvar_dump(isset($interfaces['Countable'])); // true\n\n?>",
+    "documentation": "https://www.php.net/class_implements",
+    "related": [
+        "interface",
+        "implements",
+        "introspection"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/class_implements"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "class_implements - PHP Manual",
+            "url": "https://www.php.net/manual/en/function.class-implements.php"
+        }
+    ],
+    "tags": [
+        "reflection",
+        "oop"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "5.1",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Fri, 17 Jul 2026 09:18:04 +0000"
+}

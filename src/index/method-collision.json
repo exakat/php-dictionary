@@ -1,0 +1,53 @@
+{
+    "id": "method-collision",
+    "name": "Method Collision",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/method-collision.html",
+    "aliases": [],
+    "description": "A method collision happens when a trait is imported in a class, and it holds a method that already exists in the class.\n\nTo solve such a collision, the code must use ``insteadof`` and ``use`` keywords, in the ``use`` expression.\n\nThere is no collision between the imported trait and the parent of the class, as the trait has priority over the parent. There is also no collision when a trait imports another trait: the last method has precedence.",
+    "code": "<?php\n\n    trait Herd {\n        function trumpet() { echo __METHOD__; }\n    }\n\n    trait Waterhole {\n        function trumpet() { echo __METHOD__; }\n    }\n\n    class Elephpant {\n        use waterhole, herd {\n            use herd::trumpet instead of waterhole;\n        }\n    }\n\n    new elephpant()->stampede();\n\n?>",
+    "documentation": "https://www.php.net/manual/en/language.oop5.traits.php#language.oop5.traits.conflict",
+    "related": [
+        "trait",
+        "insteadof",
+        "use-trait",
+        "method"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.oop5.traits.php#language.oop5.traits.conflict"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP Tutorial => Conflict Resolution",
+            "url": "https://riptutorial.com/php/example/7271/conflict-resolution"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "What are Traits in PHP and how to avoid collision",
+            "url": "https://medium.com/@sandeep20284/what-are-traits-in-php-and-how-to-avoid-collision-a01feaea22bc"
+        }
+    ],
+    "tags": [
+        "trait",
+        "feature",
+        "_nocompileOK"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+}

@@ -1,0 +1,63 @@
+{
+    "id": "best-practice",
+    "name": "Best Practices",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/best-practice.html",
+    "aliases": [],
+    "description": "Best practices, or also called good practices, are rules and guidelines that are known to produce a desirable outcome. \n\nFor example, 'comment the code', 'use meaningful names' and 'optimisation is the root of all evil' are such rules. \n\nBest practices are often grouped in a ruleset, such as ``SOLID``, ``DRY`` or ``Calisthenics``. \n\nIt takes some effort to understand the value of the rules, without running into the errors they protect against.\n\nSome best practices focus on syntax level elements, such as forbidding usage of ``@`` operator, or always using ``strict_types``.\n\nBest practices may be at odds one with another one. They may also be rejected by some developers while adored by others. There is no common list of best practices, and it evolves with time.",
+    "code": "",
+    "documentation": "https://en.wikipedia.org/wiki/Best_practice",
+    "related": [
+        "design-pattern",
+        "pattern",
+        "convention",
+        "explanation",
+        "habit",
+        "standard",
+        "dry",
+        "solid",
+        "calisthenics",
+        "dog-food",
+        "idiomatic",
+        "red-green-refactor",
+        "sota"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Best_practice"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP - Best Practices 2019",
+            "url": "https://odan.github.io/2019/12/06/php-best-practice-2019.html"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP: The Right Way \u2014 Design Patterns",
+            "url": "https://phptherightway.com/pages/Design-Patterns.html"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Modern PHP Development: Best Practices for Today",
+            "url": "https://dev.to/sepehr/modern-php-development-best-practices-for-today-322f"
+        }
+    ],
+    "tags": [
+        "best practice"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 17 Sep 2026 07:36:43 +0000"
+}

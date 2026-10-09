@@ -1,0 +1,51 @@
+{
+    "id": "vendor-lockin",
+    "name": "Vendor Lock-in",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/vendor-lockin.html",
+    "aliases": [],
+    "description": "Vendor lock-in is a situation where a user becomes dependent on a specific vendor's products or services, making it difficult, expensive, or risky to switch to another provider.",
+    "code": "",
+    "documentation": "https://en.wikipedia.org/wiki/Vendor_lock-in",
+    "related": [
+        "open-source",
+        "closed-source",
+        "library",
+        "tech-island"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Vendor_lock-in"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Understanding Vendor Lock-In: What Every Developer Needs to Know",
+            "url": "https://www.deployhq.com/blog/understanding-vendor-lock-in-what-every-developer-needs-to-know"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Don't get locked up into avoiding lock-in",
+            "url": "https://martinfowler.com/articles/oss-lockin.html"
+        }
+    ],
+    "tags": [
+        "dependency"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Fri, 19 Jun 2026 21:25:02 +0000"
+}

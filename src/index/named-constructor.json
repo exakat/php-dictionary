@@ -1,0 +1,55 @@
+{
+    "id": "named-constructor",
+    "name": "Named Constructors",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/named-constructor.html",
+    "aliases": [],
+    "description": "Named constructor is a class organisation, where several static factories are created to instantiate the object, based on arguments. They usually prepare the argument, to call the constructor the right way. \n\nThat approaches makes the construction of the object simpler, and reduces the number of conditionals. \n\nAs ``Matthias Verraes`` puts it: ``Don't limit yourself by PHP's single constructor. Use static factory methods``.",
+    "code": "<?php\n\n    // parse a single string\n    $user = Person::createFromTitle('Mr John Smith');\n    \n    $user = Person::createFromNames('John', 'Smith');\n    \n    class Person {\n        // constructor is private, $parameters are not documented\n        private function __construct( ) {}\n        \n        static public function createFromNames(string $firstName, string $lastName) : self {\n            // assign the argument to the right parameter of the constructor\n        }\n    \n        static public function createFromTitle(string $fullName) : self {\n            // parse the string, and calls the constructor\n        }\n    }\n\n?>",
+    "documentation": "https://localheinz.com/articles/2022/03/26/naming-constructors-in-php/",
+    "related": [
+        "static-method",
+        "constructor"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://localheinz.com/articles/2022/03/26/naming-constructors-in-php/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Named Constructors in PHP",
+            "url": "https://verraes.net/2014/06/named-constructors-in-php/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "How to mimic multiple constructors in PHP ?",
+            "url": "https://www.geeksforgeeks.org/php/how-to-mimic-multiple-constructors-in-php/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Multiple constructors in PHP",
+            "url": "https://www.amitmerchant.com/multiple-constructors-php/"
+        }
+    ],
+    "tags": [
+        "class",
+        "pattern"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": {
+        "Mathias Verraes": "https://verraes.net/"
+    },
+    "brand": "",
+    "popularity": "",
+    "modified": "Fri, 18 Sep 2026 04:54:44 +0000"
+}

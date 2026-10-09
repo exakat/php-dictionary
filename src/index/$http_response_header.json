@@ -1,0 +1,43 @@
+{
+    "id": "$http_response_header",
+    "name": "$http_response_header",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/%24http_response_header.html",
+    "aliases": [],
+    "description": "``$http_response_header`` contains the list of HTTP headers, as returned after a remote URI call, with ``fopen()`` or ``file_get_contents()``. It is the same as the result of the function ``get_headers()``.\n\n``$http_response_header`` is not a superglobal: it is created in the local scope where the HTTP call was made, and is not automatically available in the calling scope.\n\nThis feature is deprecated in version 8.5.",
+    "code": "<?php\n\n    // Example extracted from the manual\n    function get_contents() {\n        file_get_contents('http://example.com');\n        var_dump($http_response_header); // variable is populated in the local scope\n    }\n\n    get_contents();\n    var_dump($http_response_header); // a call to get_contents() does not populate the variable outside the function scope\n\n?>",
+    "documentation": "https://www.php.net/manual/en/reserved.variables.httpresponseheader.php",
+    "related": [
+        "fopen",
+        "file_get_contents"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/reserved.variables.httpresponseheader.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP $http_response_header",
+            "url": "https://www.tutorialspoint.com/article/php-http-response-header"
+        }
+    ],
+    "tags": [
+        "php variable",
+        "deprecated"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "9.0",
+    "phpVersionDeprecated": "8.5",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 13 Aug 2026 05:37:15 +0000"
+}

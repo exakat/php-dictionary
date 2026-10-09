@@ -1,0 +1,51 @@
+{
+    "id": "extends",
+    "name": "extends",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/extends.html",
+    "aliases": [],
+    "description": "``extends`` is an operator of the class inheritance. It indicates that a class is built from another one, or an interface is built from another interface. As such, the properties, constants and methods of the parent class or interface are available to the newly created class, unless when they are marked with ``private`` visibility. \n\n``extends`` is optional. \n\n``extends`` is unique with a class: it is not possible to extend several classes at the same time. \n\n``extends`` may be multiple with interfaces.\n\n``extends`` has a different mechanism than ``implements``: ``implements`` provide method signature but no implementation; ``extends`` provides both.",
+    "code": "<?php\n\n    class Elephpant {\n        function trumpet() { echo 'Elephpant'; }\n    }\n\n    class Calf extends Elephpant { }\n\n    // Both methods are possible\n    (new Elephpant)->trumpet();\n    (new Calf)->trumpet();\n\n?>",
+    "documentation": "https://www.php.net/manual/en/language.oop5.inheritance.php",
+    "related": [
+        "implements",
+        "base-class",
+        "class"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.oop5.inheritance.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Stop using \u201cextends\u201d in PHP",
+            "url": "https://blog.devgenius.io/stop-using-extends-in-php-37c9da1cce83"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Extend or implement",
+            "url": "https://stitcher.io/blog/extends-vs-implements"
+        }
+    ],
+    "tags": [
+        "keyword",
+        "feature"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+}

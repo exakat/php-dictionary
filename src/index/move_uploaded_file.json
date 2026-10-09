@@ -1,0 +1,54 @@
+{
+    "id": "move_uploaded_file",
+    "name": "move_uploaded_file()",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/move_uploaded_file.html",
+    "aliases": [],
+    "description": "``move_uploaded_file()`` is a native PHP function that moves a file that was uploaded via an HTTP POST request to a new destination.\n\nUnlike a generic filesystem move, ``move_uploaded_file()`` first checks, using the same mechanism as ``is_uploaded_file()``, that the source file was genuinely uploaded through PHP's upload mechanism during the current request. This prevents an attacker from tricking a script into moving or overwriting an arbitrary file on the server by forging the ``tmp_name`` value.\n\n``move_uploaded_file()`` doesn't validate the file's content, type, or size: it must be combined with checks such as ``finfo``, an extension ``allowlist``, and a destination outside the web root to build a secure upload feature.\n",
+    "code": "<?php\n\n    $uploaddir = '/var/www/uploads/';\n    $uploadfile = $uploaddir . basename($_FILES['userfile']['name']);\n\n    if (move_uploaded_file($_FILES['userfile']['tmp_name'], $uploadfile)) {\n        echo 'File is valid, and was successfully uploaded.';\n    } else {\n        echo 'Possible file upload attack!';\n    }\n\n?>",
+    "documentation": "https://www.php.net/manual/en/function.move-uploaded-file.php",
+    "related": [
+        "upload",
+        "$_FILES",
+        "finfo"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/function.move-uploaded-file.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP move_uploaded_file - Handling File Uploads in PHP",
+            "url": "https://zetcode.com/php-filesystem/move-uploaded-file/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "How to securely upload files with PHP?",
+            "url": "https://docs.php.earth/security/uploading/"
+        }
+    ],
+    "tags": [
+        "native function",
+        "file",
+        "security"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [
+        "Security/MoveUploadedFile"
+    ],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Fri, 09 Oct 2026 17:27:52 +0000"
+}

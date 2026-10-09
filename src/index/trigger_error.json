@@ -1,0 +1,45 @@
+{
+    "id": "trigger_error",
+    "name": "trigger_error()",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/trigger_error.html",
+    "aliases": [],
+    "description": "``trigger_error()`` is a PHP native function, which raises an error, in the style of PHP engine. It can raise ``notice``, ``warning``, ``deprecated`` and ``error``.",
+    "code": "<?php\n\n    echo $a;\n\n    trigger_error('This is a warning, that says: Undefined variable $x', E_USER_WARNING);\n\n?>",
+    "documentation": "https://www.php.net/manual/en/function.trigger-error.php",
+    "related": [
+        "noscream",
+        "error-reporting",
+        "set_error_handler"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/function.trigger-error.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "The trigger_error Function",
+            "url": "https://code.mu/en/php/manual/error/trigger_error/"
+        }
+    ],
+    "tags": [
+        "error suppression"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Mon, 15 Jun 2026 11:03:59 +0000"
+}

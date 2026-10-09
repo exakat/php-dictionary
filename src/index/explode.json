@@ -1,0 +1,44 @@
+{
+    "id": "explode",
+    "name": "explode()",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/explode.html",
+    "aliases": [],
+    "description": "The ``explode()`` function is used to break an array into a list of elements, based on a separator.\n\n``explode()`` uses the first argument as the separator, and the second as the string. \n\n``explode()`` has an alias called ``split()``.\n\n``explode()`` creates an empty string when the separator is at the beginning or the end of the strings. It also build empty strings when the separator are next to each other. \n\nThe separator has to be a static string. For dynamic separators, there is the ``preg_split()`` function.\n\n``explode()`` has a third parameter to limit the number of read elements. It is useful to avoid spending too much resources, such as time or memory, working on the string, when a maximum number of expected elements is known, and the string is not.",
+    "code": "<?php\n\n    print_r(explode('&', '&a=3&b') );\n    // ['', 'a=3', 'b']\n\n?>",
+    "documentation": "https://www.php.net/manual/en/function.implode.php",
+    "related": [
+        "preg_split",
+        "separator"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/function.implode.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Beginner's Guide to PHP explode() Function (With Code Examples!)",
+            "url": "https://zerotomastery.io/blog/php-explode-beginners-guide/"
+        }
+    ],
+    "tags": [
+        "native function"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Mon, 20 Jul 2026 16:45:56 +0000"
+}

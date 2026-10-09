@@ -1,0 +1,57 @@
+{
+    "id": "feature-flag",
+    "name": "Feature Flag",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/feature-flag.html",
+    "aliases": [
+        "feature-switch",
+        "feature-toggle"
+    ],
+    "description": "A feature flag, also known as a feature toggle or feature switch, is a software development technique used to enable or disable certain features or functionalities in an application or system. Instead of deploying new features directly to all users, developers can use feature flags to control the visibility and activation of these features.\n\nFeature flags are typically implemented as conditional statements in the codebase, allowing developers to selectively enable or disable features based on various criteria such as user roles, user segments, environment conditions, or A/B testing groups. This allows for gradual feature rollouts, experimentation, and controlled releases, which can help mitigate risks associated with introducing new features or changes to a system.",
+    "code": "<?php\n\n    // feature flag implemented via PHP directives\n    if (ini_get('date_is_visible')) {\n        echo date('r');\n    }\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Feature_toggle",
+    "related": [
+        "configuration",
+        "feature",
+        "feature-testing",
+        "release",
+        "switch",
+        "circuit-breaker"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Feature_toggle"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "How to use feature flags in a PHP application",
+            "url": "https://configcat.com/blog/2022/09/16/how-to-use-feature-flags-in-php/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Unleash: Feature flags in PHP",
+            "url": "https://chrastecky.dev/programming/unleash-feature-flags-in-php"
+        }
+    ],
+    "tags": [
+        "development",
+        "continuous-deployment"
+    ],
+    "packagist": [
+        "ylsideas/feature-flags"
+    ],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Wed, 02 Sep 2026 16:41:00 +0000"
+}

@@ -1,0 +1,56 @@
+{
+    "id": "prepared-query",
+    "name": "Prepared Query",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/prepared-query.html",
+    "aliases": [
+        "prepared-statement"
+    ],
+    "description": "A prepared query is a compiled query, where data are provided as parameters.\n\nInstead of executing the query at once, the query is compiled first, and placeholders are filled later with the actual data. This prevents injections, as the data and the query are separated.\n\nMost PHP DB extensions support prepared statements. Prepared statements may also be available with other systems than SQL databases, such as Gremlin server.",
+    "code": "<?php\n\n    // Example from PHP manual\n    /* Execute a prepared statement by passing an array of values */\n    $sth = $dbh->prepare('SELECT name, colour, calories\n        FROM fruit\n        WHERE calories < ? AND colour = ?');\n    $sth->execute([150, 'red']);\n    $red = $sth->fetchAll();\n    $sth->execute([175, 'yellow']);\n    $yellow = $sth->fetchAll();\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Prepared_statement",
+    "related": [
+        "sql",
+        "mysqli",
+        "sql-injection"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Prepared_statement"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Prepared Statements (Mysqli)",
+            "url": "https://www.php.net/manual/en/mysqli.quickstart.prepared-statements.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "What are prepared statements in PHP?",
+            "url": "https://www.educative.io/answers/what-are-prepared-statements-in-php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Prepared statements in Manticore Search",
+            "url": "https://manticoresearch.com/blog/prepared-statements/"
+        }
+    ],
+    "tags": [
+        "security",
+        "sql"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "5.0+",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Fri, 28 Aug 2026 09:10:53 +0000"
+}

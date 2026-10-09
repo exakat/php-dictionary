@@ -1,0 +1,47 @@
+{
+    "id": "each",
+    "name": "each",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/each.html",
+    "aliases": [],
+    "description": "``each()`` was a native function, that would yield each element in an array. It was used in ``while()`` loops, to traverse lists.\n\nIt was deprecated during PHP 7.x and it is completely removed in version 8.0.\n\nThe classic ``while(list($key, $value) = each($array)`` structure, shown below, is, nowadays, advantageously replaced by a ``foreach()`` loop.",
+    "code": "<?php\n\n    $array = ['a' => 1, 'b' => 3, 'c' => 5];\n    while(list($key, $value) = each($array)) {\n        print $key . ' => ' . $value . PHP_EOL;\n    }\n\n?>",
+    "documentation": "https://www.php.net/manual/en/function.each.php",
+    "related": [
+        "array-element"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/function.each.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP each() Function",
+            "url": "https://www.zetcode.com/php-array/each/"
+        }
+    ],
+    "tags": [
+        "native function",
+        "removed feature"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [
+        "Structures/ShouldUseForeach"
+    ],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "1.0",
+    "phpVersionUntil": "8.0",
+    "phpVersionDeprecated": "7.2",
+    "phpErrors": {
+        "The each() function is deprecated. This message will be suppressed on further calls": "the-each()-function-is-deprecated.-this-message-will-be-suppressed-on-further-calls",
+        "Call to undefined function each()": "call-to-undefined-function-%s()"
+    },
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Wed, 02 Sep 2026 16:41:00 +0000"
+}

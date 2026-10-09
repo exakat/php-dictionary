@@ -1,0 +1,53 @@
+{
+    "id": "getter",
+    "name": "Class Getter Method",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/getter.html",
+    "aliases": [],
+    "description": "Getters are methods used to access the values of a property. Getters may include formatting, or not. \n\nGetters are usually created with a setter method.\n\nGetters are built on top of private properties: that way, the getter is the main way to reach the data.\n\nGetters may be replaced by a property hook.\n\nGetters generate a lot of boilerplate code, as they must be created for each property, and are often reduced to returning the property itself. This does not help performance either, as a call to a property is now replaced by a method call.\n",
+    "code": "<?php\n\n    class Elephpant {\n        private $property;\n        \n        public function getProperty() {\n            return $this->property;\n        }\n    }\n\n?>",
+    "documentation": "https://www.geeksforgeeks.org/php/what-are-getters-and-setters-methods-in-php/",
+    "related": [
+        "class",
+        "setter",
+        "wither",
+        "property-hook",
+        "visibility",
+        "boilerplate",
+        "encapsulation",
+        "implements"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.geeksforgeeks.org/php/what-are-getters-and-setters-methods-in-php/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP Getters and Setters Tutorial: Encapsulation Guide",
+            "url": "https://oatllo.com/course/php/objective-programming/php-getter-setter-guide"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "The Magic of PHP Getters, Setters, and Readonly Classes: Crafting Clean and Efficient Code",
+            "url": "https://medium.com/@lordNeic/the-magic-of-php-getters-setters-and-readonly-classes-crafting-clean-and-efficient-code-edf7c852f340"
+        }
+    ],
+    "tags": [
+        "method type"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "5.0+",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+}

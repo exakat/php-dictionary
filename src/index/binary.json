@@ -1,0 +1,51 @@
+{
+    "id": "binary",
+    "name": "Binary",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/binary.html",
+    "aliases": [],
+    "description": "Binary has several distinct usages: \n\n+ Binary integers: a way to represent numbers with 0 and 1\n+ Binary operators: operators that use 2 arguments\n+ Binary search: a search technique over a sorted array\n+ Binary executable: the compiled version of PHP, not as source code\n\nGenerally, binary refers to the binary integers.",
+    "code": "<?php\n\n    // 12 in binary \n    $binary = 0b1100;\n    \n    // > is a binary operator: it takes 2 arguments\n    var_dump($binary > 13);\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Binary_number",
+    "related": [
+        "binary-integer",
+        "binary-operator",
+        "php-runtime",
+        "base",
+        "one",
+        "zero"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Binary_number"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Binary Number System - Definition, Conversion, Examples",
+            "url": "https://www.geeksforgeeks.org/maths/binary-number-system/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Binary number system | Britannica",
+            "url": "https://www.britannica.com/science/binary-number-system"
+        }
+    ],
+    "tags": [
+        "disambiguation"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 20 Aug 2026 07:35:12 +0000"
+}

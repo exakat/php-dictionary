@@ -1,0 +1,47 @@
+{
+    "id": "shmop",
+    "name": "Shared Memory Operations (SHMOP)",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/shmop.html",
+    "aliases": [],
+    "description": "``shmop`` is a PHP extension that gives direct, low-level access to Unix shared memory segments. It exposes a small set of functions, ``shmop_open()``, ``shmop_read()``, ``shmop_write()``, ``shmop_size()``, and ``shmop_delete()``, to allocate a block of shared memory, read from it, write to it, and release it.\n\nBecause the memory segment is identified by a system id and lives outside the memory of any single PHP process, it can be opened and shared by multiple, otherwise unrelated processes: several PHP-FPM workers, or a mix of PHP and non-PHP processes, can all attach to the same segment and see each other's writes immediately, without going through a database, a file, or a network round-trip.\n\n``shmop`` provides no built-in locking or synchronization, so concurrent writers must coordinate themselves, typically using the ``sysvsem`` semaphore functions, to avoid corrupting the segment with interleaved writes.",
+    "code": "<?php\n\n    // adapted from the PHP manual: https://www.php.net/manual/en/shmop.examples-basic.php\n    $shm_id = shmop_open(0xff3, 'c', 0644, 100);\n\n    $data = 'shared payload';\n    shmop_write($shm_id, $data, 0);\n\n    $read = shmop_read($shm_id, 0, strlen($data));\n    echo $read . PHP_EOL;\n\n    shmop_delete($shm_id);\n\n?>",
+    "documentation": "https://www.php.net/manual/en/book.shmop.php",
+    "related": [
+        "shared-memory",
+        "shared",
+        "sem",
+        "concurrency"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/book.shmop.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "shmop basic examples",
+            "url": "https://www.php.net/manual/en/shmop.examples-basic.php"
+        }
+    ],
+    "tags": [
+        "extension",
+        "acronym"
+    ],
+    "packagist": [],
+    "extensions": [
+        "shmop"
+    ],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sat, 11 Jul 2026 09:32:12 +0000"
+}

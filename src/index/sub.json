@@ -1,0 +1,51 @@
+{
+    "id": "sub",
+    "name": "Sub (prefix)",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/sub.html",
+    "aliases": [
+        "sub-prefix"
+    ],
+    "description": "``sub`` is a prefix, that is added to existing structure, to express that they are depending on a larger similar structure, which acts as a parent \n\nIt applies to several concepts: \n\n+ Subclasses: classes that extends another class\n+ Subnamespaces: a namespace that share a prefix with another one\n\nWhile ``sub-`` is a generic prefix, it is not applied to every possible words, as they are seldom used. It may still produce neologisms, which sound funny, but may become mainstream. For example, a ``sub-interface`` makes sense, but is not used; a sub-trait makes no sense.",
+    "code": "<?php\n\nnamespace A { }\n\n// this is a subnamespace\nnamespace A\\B { }\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Inheritance_(object-oriented_programming)",
+    "related": [
+        "subnamespace",
+        "subclass"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Inheritance_(object-oriented_programming)"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Exploring Inheritance in PHP",
+            "url": "https://linu.us/exploring-inheritance-in-php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Clean code with PHP namespaces",
+            "url": "https://www.honeybadger.io/blog/php-namespaces/"
+        }
+    ],
+    "tags": [
+        "concept"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Fri, 10 Jul 2026 09:16:37 +0000"
+}

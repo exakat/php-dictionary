@@ -1,0 +1,55 @@
+{
+    "id": "dsn",
+    "name": "Data Source Name (DSN)",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/dsn.html",
+    "aliases": [],
+    "description": "A DSN is a string that describes a database location and access. \n\nThe format of a DSN is usually specified by the target database. For example: \n\n+ MySQL: 'mysql:host=localhost;dbname=test'\n+ Oracle: 'oci:dbname=//localhost:1521/mydb'\n+ PostgreSQL: 'pgsql:host=localhost;port=5432;dbname=testdb;user=bruce;password=mypass'\n+ SQLite: 'sqlite:/opt/databases/mydb.sq3'\n\nDSN is closely related to the PDO extension.",
+    "code": "<?php\n\n    $dbh = new PDO('mysql:host=localhost;dbname=test', $user, $pass);\n\n?>",
+    "documentation": "https://www.php.net/manual/en/pdo.connections.php",
+    "related": [
+        "configuration",
+        "connection",
+        "database",
+        "pdo",
+        "uri"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/pdo.connections.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PDO_MYSQL DSN",
+            "url": "https://www.php.net/manual/en/ref.pdo-mysql.connection.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PDO_PGSQL DSN",
+            "url": "https://www.php.net/manual/en/ref.pdo-pgsql.connection.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PDO_SQLITE DSN",
+            "url": "https://www.php.net/manual/en/ref.pdo-sqlite.connection.php"
+        }
+    ],
+    "tags": [
+        "acronym"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sat, 08 Aug 2026 14:31:02 +0000"
+}

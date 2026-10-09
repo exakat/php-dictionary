@@ -1,0 +1,61 @@
+{
+    "id": "big-o-notation",
+    "name": "Big-o-notation",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/big-o-notation.html",
+    "aliases": [],
+    "description": "Big O notation is a way to describe how fast an algorithm's runtime or memory usage grows as the input size gets very large. It answers the question: 'What happens when I give this algorithm 1000 items instead of 10?'\n\nIt describes the shape of the curve on a graph, not the exact speed.",
+    "code": "",
+    "documentation": "https://en.wikipedia.org/wiki/Big_O_notation",
+    "related": [
+        "algorithm",
+        "algorithmic-complexity",
+        "datastructure"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Big_O_notation"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "List of Big-O for PHP functions",
+            "url": "https://codemia.io/knowledge-hub/path/list_of_big-o_for_php_functions"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Simple Big-O Notations using PHP CLI",
+            "url": "https://medium.com/@monstm/simple-big-o-notations-using-php-cli-b895b381e873"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Algorithm Complexity & Big O Notation",
+            "url": "https://codewithphp.com/series/php-algorithms/chapters/01-algorithm-complexity-big-o-notation/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Big O Cheat Sheet \u2013 Time Complexity Chart",
+            "url": "https://www.freecodecamp.org/news/big-o-cheat-sheet-time-complexity-chart/"
+        }
+    ],
+    "tags": [
+        "concept",
+        "csi"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Mon, 17 Aug 2026 07:41:16 +0000"
+}

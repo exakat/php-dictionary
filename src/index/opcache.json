@@ -1,0 +1,52 @@
+{
+    "id": "opcache",
+    "name": "Opcache",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/opcache.html",
+    "aliases": [],
+    "description": "``OPcache`` is a cache for PHP byte code. ``OPcache`` improves PHP performance by storing precompiled script bytecode in shared memory, thereby removing the need for PHP to load and parse scripts on each request.",
+    "code": "",
+    "documentation": "https://www.php.net/manual/en/book.opcache.php",
+    "related": [
+        "opcode",
+        "jit",
+        "vertical-scaling",
+        "compile-time-evaluation",
+        "memory-arena",
+        "opcache-preloading",
+        "shared-memory",
+        "apcu",
+        "cache-warming",
+        "cold-cache",
+        "compiler-optimized-function"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/book.opcache.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Fixing Our OPcache Config Sped Up Our PHP Application By 3x",
+            "url": "https://engineering.oneutilitybill.co/fixing-our-opcache-config-sped-up-our-php-application-by-3x-871c6fe49be1"
+        }
+    ],
+    "tags": [
+        "configuration",
+        "engine"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Mon, 21 Sep 2026 04:20:32 +0000"
+}

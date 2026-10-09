@@ -1,0 +1,56 @@
+{
+    "id": "seekableiterator",
+    "name": "SeekableIterator",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/seekableiterator.html",
+    "aliases": [],
+    "description": "``SeekableIterator`` extends the ``Iterator`` interface by adding a ``seek(int $offset)`` method to jump directly to a specific position without iterating through preceding elements.\n\nIt is implemented by ``ArrayIterator`` and ``SplFixedArray``. Attempting to seek to an invalid position should throw an ``OutOfBoundsException``.",
+    "code": "<?php\n\n    $iterator = new ArrayIterator(['a', 'b', 'c', 'd', 'e']);\n    $iterator->seek(3);\n    echo $iterator->current(); // d\n\n?>",
+    "documentation": "https://www.php.net/manual/en/class.seekableiterator.php",
+    "related": [
+        "iterator",
+        "interface",
+        "spl",
+        "php-interface",
+        "splsubject"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/class.seekableiterator.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Basic example of PHP function SeekableIterator::seek()",
+            "url": "https://www.basicexamples.com/example/php/seekableiterator-seek"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Iterator",
+            "url": "https://www.php.net/manual/en/class.iterator.php"
+        }
+    ],
+    "tags": [
+        "spl",
+        "iterator",
+        "interface"
+    ],
+    "packagist": [],
+    "extensions": [
+        "spl"
+    ],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "5.1",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sat, 22 Aug 2026 08:43:42 +0000"
+}

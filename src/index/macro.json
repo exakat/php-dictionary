@@ -1,0 +1,60 @@
+{
+    "id": "macro",
+    "name": "Macro",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/macro.html",
+    "aliases": [
+        "macros"
+    ],
+    "description": "A macro is a rule or pattern that maps a source text or syntax fragment to a replacement, which is then substituted before or during compilation. Macros operate at the level of source text, for example the C preprocessor, tokens, for example Rust ``macro_rules!``, or AST nodes, asin Lisp and Elixir, and allow programmers to extend the syntax of a language or eliminate repetitive code without the overhead of a function call.\n\nTwo main families of macros exist:\n\n+ Textual macros non-hygienic: the C preprocessor ``#define`` replaces a name with a literal text fragment. Variable names inside the macro can accidentally shadow names in the calling scope, leading to subtle bugs.\n+ Hygienic macros: as in Scheme's ``syntax-rules``, Rust's ``macro_rules!``, and Elixir's ``defmacro``, each identifier introduced by the macro is automatically renamed to prevent accidental capture of caller variables.\n\nPHP has no native macro system. PHP source code is parsed and executed directly by the Zend Engine; there is no macro-expansion phase. The mechanisms that approximate macros are:\n\n+ ``eval()``: executes a PHP string at runtime, but provides no hygiene and operates after parsing.\n+ Token-level preprocessors such as ``yay`` run before the PHP parser and perform textual or token-level substitutions, but offer no hygiene guarantees.\n+ ``nikic/php-parser`` allows full AST rewriting via a visitor pattern, enabling macro-like transformations with explicit, manually implemented scope tracking.\n+ Compile-time constants ``const`` and class constants serve a narrow, value-substitution role similar to object-like C macros, but without the generality of function-like macros.\n\nSee also hygienic macro for the hygiene-specific aspects of macro systems.",
+    "code": "<?php\n\n    // PHP has no macro expansion. Constants are the closest equivalent\n    // to simple object-like C macros (#define MAX 100).\n    const MAX_RETRIES = 3;\n\n    // For function-like macros, PHP uses ordinary functions.\n    // No inline expansion; call overhead applies.\n    function clamp(int $value, int $min, int $max): int {\n        return max($min, min($max, $value));\n    }\n\n    // Token-level macro with the yay preprocessor (external tool, run before PHP):\n    //   macro {clamp(\u00b7v, \u00b7lo, \u00b7hi)} >> {max(\u00b7lo, min(\u00b7hi, \u00b7v))}\n    // This expands inline but is not hygienic.\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Macro_(computer_science)",
+    "related": [
+        "hygienic-macro",
+        "metaprogramming",
+        "homoiconicity",
+        "eval",
+        "token",
+        "code-generation",
+        "const"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Macro_(computer_science)"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "yay: PHP macro preprocessor",
+            "url": "https://github.com/marcioAlmada/yay"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "nikic/php-parser",
+            "url": "https://github.com/nikic/PHP-Parser"
+        }
+    ],
+    "tags": [
+        "concept",
+        "metaprogramming",
+        "not supported"
+    ],
+    "packagist": [
+        "marcioalmada/yay"
+    ],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Wed, 02 Sep 2026 16:41:00 +0000"
+}

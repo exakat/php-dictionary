@@ -1,0 +1,50 @@
+{
+    "id": "infiniteiterator",
+    "name": "InfiniteIterator",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/infiniteiterator.html",
+    "aliases": [],
+    "description": " The InfiniteIterator allows one to infinitely iterate over an iterator without having to manually rewind the iterator upon reaching its end.\n\nInfinite iterator works with other iterators. The loop may be broken, as usual, with a ``break`` keyword.",
+    "code": "<?php\n\n$versions = [1, 2, 3, 4, 5, 7, 8];\n\n$infinite = new InfiniteIterator(new ArrayIterator($versions));\nforeach ($infinite as $value) {\n    print \"$value\\n\";\n}\n\n?>",
+    "documentation": "https://www.php.net/manual/en/class.infiniteiterator.php",
+    "related": [
+        "loop",
+        "infinite-loop",
+        "break"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/class.infiniteiterator.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Iterator",
+            "url": "https://www.php.net/manual/en/class.iterator.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "LimitIterator",
+            "url": "https://www.php.net/manual/en/class.limititerator.php"
+        }
+    ],
+    "tags": [
+        "iterator"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sun, 16 Aug 2026 07:46:07 +0000"
+}

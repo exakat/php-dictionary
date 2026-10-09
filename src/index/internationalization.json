@@ -1,0 +1,51 @@
+{
+    "id": "internationalization",
+    "name": "Internationalization",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/internationalization.html",
+    "aliases": [
+        "i18n",
+        "localization",
+        "localisation"
+    ],
+    "description": "Internationalization, often discussed alongside localization or localisation, is the process of making the human interface of a program available in a local language.\n\nPHP includes some internationalization capabilities, via the locale, for dates or money format, or with the ext/intl extension. \n\nMost of the interface translations for an application are done with specific components, such as ``Symfony/translation``. Translation of interface messages is part of this concept.\n\nInternationalization is also called ``i18n``, aka i, 18 letters and n. This is shorter to write. This word may be written with a z or an s, depending on the flavor of English being used.",
+    "code": "<?php\n/* Configure le script en hollandais */\nsetlocale(LC_ALL, 'nl_NL');\n\n/* Affiche : vrijdag 22 december 1978 */\necho strftime('%A %e %B %Y', mktime(0, 0, 0, 12, 22, 1978));\n\n?>",
+    "documentation": "https://www.php.net/manual/en/book.intl.php",
+    "related": [
+        "locale",
+        "intl",
+        "gettext"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/book.intl.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP internationalization - i18n mechanisms tutorial",
+            "url": "https://lingohub.com/blog/2013/06/php-internationalization-i18n-mechanisms-tutorial"
+        }
+    ],
+    "tags": [
+        "short name"
+    ],
+    "packagist": [
+        "Symfony/translation"
+    ],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Wed, 02 Sep 2026 16:41:00 +0000"
+}

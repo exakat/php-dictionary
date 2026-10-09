@@ -1,0 +1,50 @@
+{
+    "id": "and",
+    "name": "And Operator",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/and.html",
+    "aliases": [],
+    "description": "``and`` is the logical operator of the same name. It returns ``true`` only when both operands are ``true``; otherwise, it returns ``false``. \n\nIt is a synonym for the symbolic operator ``&&``, though it has a different precedence level.\n\nThere is also a bitwise ``and`` operator: ``&``\n\n``and`` is a PHP keyword.",
+    "code": "<?php\n\n    $a = 1 && 2;\n\n?>",
+    "documentation": "https://www.php.net/manual/en/language.operators.logical.php",
+    "related": [
+        "bitwise-operator",
+        "logical-operator",
+        "keyword",
+        "dnf-type"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.operators.logical.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP logical operators - AND, OR, XOR, NOT",
+            "url": "https://www.w3resource.com/php/operators/logical-operators.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Operator precedence, or how does 'or die()' work",
+            "url": "https://phpdelusions.net/articles/or_die"
+        }
+    ],
+    "tags": [
+        "keyword",
+        "operator"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Fri, 18 Sep 2026 09:36:15 +0000"
+}

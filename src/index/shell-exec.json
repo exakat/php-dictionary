@@ -1,0 +1,54 @@
+{
+    "id": "shell-exec",
+    "name": "Shell Exec",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/shell-exec.html",
+    "aliases": [],
+    "description": "Shell execution runs operating system commands from PHP code. Functions include ``shell_exec()``, ``exec()``, ``system()``, ``passthru()``, ``popen()``, and the backtick operator.\n\nUsing shell commands with user-supplied input without proper escaping is a critical security vulnerability enabling Remote Code Execution. Always use ``escapeshellarg()`` or ``escapeshellcmd()`` when building shell commands, or prefer purpose-built PHP functions.",
+    "code": "<?php\n\n    // Dangerous: user input in shell command\n    $file = $_GET['file'];\n    $output = shell_exec('cat ' . $file); // RCE vulnerability\n    \n    // Safe: escape the argument\n    $file = escapeshellarg($_GET['file']);\n    $output = shell_exec('cat ' . $file);\n\n?>",
+    "documentation": "https://www.php.net/manual/en/function.shell-exec.php",
+    "related": [
+        "shell_exec",
+        "shell",
+        "engine",
+        "exec",
+        "rce",
+        "security",
+        "system-call",
+        "execution",
+        "splsubject",
+        "escapeshellarg"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/function.shell-exec.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Command injection",
+            "url": "https://owasp.org/www-community/attacks/Command_Injection"
+        }
+    ],
+    "tags": [
+        "security",
+        "system",
+        "feature"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sat, 12 Sep 2026 08:40:07 +0000"
+}

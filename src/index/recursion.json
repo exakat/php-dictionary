@@ -1,0 +1,55 @@
+{
+    "id": "recursion",
+    "name": "Recursion",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/recursion.html",
+    "aliases": [
+        "recursive",
+        "infinite-recursion"
+    ],
+    "description": "Recursion is a method or a function which calls itself. \n\nWhile the method calls itself, it also must have a branch where it does not call itself: otherwise, the call will never end and result in infinite recursion.\n\nFunctions, methods, closures and arrow functions may be recursive.\n\nRecursion is an abstract notion. It is also used in the PHP name itself: ``PHP: Hypertext Preprocessor``.",
+    "code": "<?php\n\n    function factorial(int $number) { \n        if ($number < 2) { \n            return 1; \n        }\n    \n        return ($number * factorial($number - 1)); \n    }\n    \n    // recursive closure\n    $factorial = function( $n ) use ( &$factorial ) {\n        if( $n == 1 ) return 1;\n        return $factorial( $n - 1 ) * $n;\n    };\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Recursion",
+    "related": [
+        "function",
+        "directoryiterator",
+        "recursive-array",
+        "recursivearrayiterator",
+        "arrow-function",
+        "method",
+        "closure",
+        "infinite"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Recursion"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "All the recursive Functions in PHP",
+            "url": "https://www.exakat.io/all-the-recursive-functions-in-php/"
+        }
+    ],
+    "tags": [
+        "self-reference",
+        "concept"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [
+        "Functions/Recursive",
+        "Structures/InfiniteRecursion"
+    ],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sat, 08 Aug 2026 14:32:34 +0000"
+}

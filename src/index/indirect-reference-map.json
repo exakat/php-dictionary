@@ -1,0 +1,51 @@
+{
+    "id": "indirect-reference-map",
+    "name": "Indirect Reference Map",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/indirect-reference-map.html",
+    "aliases": [
+        "indirect-object-reference"
+    ],
+    "description": "An indirect reference map, or indirect object reference, is a technique that replaces a direct, guessable reference to an internal object, such as a sequential database id, with an unpredictable substitute, such as a UUID or a random per-session token. The application keeps an internal mapping between the substitute value and the real object, and translates one into the other on each request.\n\nIndirect reference maps mitigate id enumeration and reduce the surface for IDOR: an attacker who cannot guess or increment a valid reference cannot casually reach another user's object by tampering with the value.\n\nAn indirect reference map is not, by itself, an authorization check. A random identifier only makes an object harder to guess; it does not verify that the requesting user is entitled to access it. It should be combined with an explicit ownership or permission check on every request, not used as a substitute for one.",
+    "code": "<?php\n\n    // Direct reference: sequential id is guessable and exposes enumeration\n    // GET /invoice?id=1042\n    $invoice = $db->find('invoices', $_GET['id']);\n\n    // Indirect reference: unguessable UUID mapped back to the real id\n    // GET /invoice?ref=e194da7f-3d74-48e9-ac49-4c72e1b02eeb\n    $id = $referenceMap->resolve($_GET['ref']);\n    $invoice = $db->find('invoices', $id);\n\n    // Still required: an explicit ownership check, regardless of the reference used\n    if ($invoice->userId !== $currentUser->id) {\n        throw new UnauthorizedException();\n    }\n\n?>",
+    "documentation": "https://cheatsheetseries.owasp.org/cheatsheets/Insecure_Direct_Object_Reference_Prevention_Cheat_Sheet.html",
+    "related": [
+        "idor",
+        "bola",
+        "broken-access-control",
+        "authorize",
+        "uuid",
+        "vulnerability"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://cheatsheetseries.owasp.org/cheatsheets/Insecure_Direct_Object_Reference_Prevention_Cheat_Sheet.html"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "IDOR Vulnerability: Analysis, Impact, Mitigation",
+            "url": "https://www.huntress.com/threat-library/vulnerabilities/idor"
+        }
+    ],
+    "tags": [
+        "security",
+        "concept"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sun, 30 Aug 2026 11:40:41 +0000"
+}

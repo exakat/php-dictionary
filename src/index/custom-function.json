@@ -1,0 +1,56 @@
+{
+    "id": "custom-function",
+    "name": "Custom Function",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/custom-function.html",
+    "aliases": [
+        "user-defined-function"
+    ],
+    "description": "A custom function, or user-defined function, is a function declared by the developer, as opposed to a native PHP function provided by the engine or an extension. Custom functions encapsulate reusable logic under a named callable.\n\nFunctions are declared with the ``function`` keyword and may be defined in any scope. Unlike many languages, PHP functions are global by default once declared: a function defined inside a conditional block or another function is still globally accessible after that point is reached at runtime.\n\nCustom functions can be:\n\n+ Regular functions: ``function myFunction() {}``\n+ Closures: ``$fn = function() {}``\n+ Arrow functions: ``$fn = fn() => expression``\n+ Static methods: functions bound to a class\n\nPHP also supports first-class callables, since PHP 8.1, and can call custom functions by name stored in a variable, as a dynamic calls.\n",
+    "code": "<?php\n\n    // Regular custom function\n    function clamp(int $value, int $min, int $max): int {\n        return max($min, min($max, $value));\n    }\n    \n    echo clamp(150, 0, 100); // 100\n    \n    // Anonymous function stored in a variable\n    $double = function(int $n): int {\n        return $n * 2;\n    };\n    \n    echo $double(5); // 10\n    \n    // Arrow function\n    $triple = fn(int $n): int => $n * 3;\n    echo $triple(5); // 15\n    \n    // First-class callable syntax (PHP 8.1)\n    $fn = clamp(...);\n    echo $fn(42, 0, 50); // 42\n\n?>",
+    "documentation": "https://www.php.net/manual/en/functions.user-defined.php",
+    "related": [
+        "function",
+        "anonymous-function",
+        "arrow-function",
+        "first-class-callable",
+        "closure",
+        "php-function"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/functions.user-defined.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP: Function Arguments",
+            "url": "https://www.php.net/manual/en/functions.arguments.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP: Returning Values",
+            "url": "https://www.php.net/manual/en/functions.returning-values.php"
+        }
+    ],
+    "tags": [
+        "function",
+        "concept"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Tue, 25 Aug 2026 12:17:01 +0000"
+}

@@ -1,0 +1,59 @@
+{
+    "id": "change-data-capture",
+    "name": "Change Data Capture",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/change-data-capture.html",
+    "aliases": [
+        "CDC"
+    ],
+    "description": "Change Data Capture, or CDC, is a pattern that tracks and records row-level changes in a database, such as inserts, updates, and deletes, and makes them available to other systems in near real-time.\n\nInstead of periodically polling the database for differences, CDC taps into the database's transaction log, such as the Write-Ahead Log in PostgreSQL or the binary log in MySQL, to detect changes as they are committed. This makes it both efficient and low-latency.\n\nCDC is commonly used to feed downstream consumers such as search indexes, caches, analytics pipelines, or microservices that need to react to data changes without being tightly coupled to the originating system.\n\nIt is a natural complement to event-driven architectures: each database change becomes an event that can be published to a message broker like Kafka, allowing consumers to process it independently and asynchronously.\n\nCDC also supports data replication and synchronization across heterogeneous systems, making it a key building block in ETL pipelines, data warehousing, and zero-downtime migrations.",
+    "code": "",
+    "documentation": "https://martinfowler.com/articles/201701-event-driven.html",
+    "related": [
+        "event-sourcing",
+        "event-driven",
+        "message-queue",
+        "pubsub",
+        "audit-trail",
+        "database",
+        "cqrs",
+        "migration"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://martinfowler.com/articles/201701-event-driven.html"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Understanding Change Data Capture with Debezium",
+            "url": "https://dev.to/mohhddhassan/understanding-change-data-capture-with-debezium-34km"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Debezium",
+            "url": "https://debezium.io/"
+        }
+    ],
+    "tags": [
+        "paradigm",
+        "architecture",
+        "acronym"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Wed, 26 Aug 2026 04:23:49 +0000"
+}

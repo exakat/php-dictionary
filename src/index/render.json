@@ -1,0 +1,48 @@
+{
+    "id": "render",
+    "name": "Render",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/render.html",
+    "aliases": [
+        "rendering"
+    ],
+    "description": "To render, or rendering, is the action of taking a template and its related data to produce a target format.\n\nUsually, the rules to render the format are complex: they cannot be reduced to simple commands, so they are collected in an engine, called the renderer.\n\nFor example, rendering an HTML page, JavaScript, PDF, YAML, etc.\n\nRendering is related to templates, formats and optimisation.",
+    "code": "<?php\n\n    $name = \"elephpant\";\n    $template = \"Hello NAME\";\n    \n    // very simple rendering\n    \n    echo str_replace('NAME', $name, $template);\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Rendering_(computer_graphics)",
+    "related": [
+        "view",
+        "template",
+        "renderer",
+        "recursivetreeiterator"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Rendering_(computer_graphics)"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Model-view-controller",
+            "url": "https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller"
+        }
+    ],
+    "tags": [
+        "concept"
+    ],
+    "packagist": [
+        "friendsofcake/cakepdf"
+    ],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Wed, 19 Aug 2026 06:47:17 +0000"
+}

@@ -1,0 +1,47 @@
+{
+    "id": "renderer",
+    "name": "Renderer",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/renderer.html",
+    "aliases": [],
+    "description": "A renderer is a piece of code that applies the rules to produce a target format. For example, rendering an HTML page, javascript, PDF, YAML, etc..",
+    "code": "<?php\n\n    $name = \"elephpant\";\n    $template = \"Hello NAME\";\n    \n    // very simple rendering\n    \n    echo str_replace('NAME', $name, $template);\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Template_processor",
+    "related": [
+        "render",
+        "mvc"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Template_processor"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Model-view-controller",
+            "url": "https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Twig",
+            "url": "https://twig.symfony.com/"
+        }
+    ],
+    "tags": [
+        "concept"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Mon, 24 Aug 2026 07:40:40 +0000"
+}

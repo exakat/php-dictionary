@@ -1,0 +1,49 @@
+{
+    "id": "$php_errormsg",
+    "name": "$php_errormsg",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/%24php_errormsg.html",
+    "aliases": [],
+    "description": "``$php_errormsg`` contains the last error message, emitted by PHP. \n\nIn general, ``error_get_last()`` should be used instead of ``$php_errormsg``, although this function returns an array, not a string.\n\nThis feature was removed in version 8.0.",
+    "code": "<?php\n\n    // Warning: Undefined variable $php_errormsg \n    // in PHP 8.0 (sic)\n    echo $php_errormsg;\n\n    print_r(error_get_last());\n\n?>",
+    "documentation": "https://www.php.net/manual/en/reserved.variables.phperrormsg.php",
+    "related": [
+        "$globals",
+        "$this"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/reserved.variables.phperrormsg.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "How to catch a fatal error in PHP",
+            "url": "https://www.php.net/manual/en/function.error-get-last.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "track_errors is deprecated since PHP 7.2 and removed as of PHP 8.0.0",
+            "url": "https://issues.joomla.org/tracker/joomla-cms/41667"
+        }
+    ],
+    "tags": [
+        "php variable"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [
+        "Php/PhpErrorMsgUsage"
+    ],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "8.0",
+    "phpVersionDeprecated": "7.2",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Mon, 24 Aug 2026 08:33:46 +0000"
+}

@@ -1,0 +1,56 @@
+{
+    "id": "result-type",
+    "name": "Result Type",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/result-type.html",
+    "aliases": [],
+    "description": "A result type is a built-in sum type, such as Rust's ``Result<T, E>`` or Swift's ``Result<Success, Failure>``, that represents either a successful outcome carrying a value, or a failure carrying an error. It is returned by ordinary functions instead of being thrown, so error handling becomes part of the type signature: the compiler forces the caller to check which case occurred before using the value, typically through pattern matching.\n\nResult types turn recoverable errors into regular data, and are usually reserved for expected failure modes, such as a parse error or a missing file, while unrecoverable conditions still use panics or exceptions.\n\nPHP has no native result type. Recoverable failure is normally reported by throwing an exception, which unwinds the stack and must be caught with ``try``/``catch``, or by returning a sentinel such as ``false`` or ``null``, which the caller can silently ignore. A result type can be approximated in userland with a class holding either a value or an error, combined with ``match`` or ``instanceof`` checks, but the engine does not enforce that the caller handles both cases.",
+    "code": "<?php\n\n    // Approximation, not a native construct.\n    abstract class Result {}\n    final class Ok extends Result {\n        public function __construct(public readonly mixed $value) {}\n    }\n    final class Err extends Result {\n        public function __construct(public readonly string $error) {}\n    }\n    \n    function divide(int $a, int $b): Result {\n        if ($b === 0) {\n            return new Err('division by zero');\n        }\n        return new Ok($a / $b);\n    }\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Result_type",
+    "related": [
+        "exception",
+        "union-type",
+        "sum-type",
+        "algebraic-data-type",
+        "enum",
+        "pattern-matching",
+        "railroad-programming"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Result_type"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Error Handling Approaches: Exceptions or Result Types?",
+            "url": "https://dev.to/merbayerp/error-handling-approaches-exceptions-or-result-types-47bm"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Error Handling - The Rust Programming Language",
+            "url": "https://doc.rust-lang.org/book/ch09-00-error-handling.html"
+        }
+    ],
+    "tags": [
+        "concept",
+        "type",
+        "not supported"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Wed, 02 Sep 2026 16:41:00 +0000"
+}

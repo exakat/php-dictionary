@@ -1,0 +1,47 @@
+{
+    "id": "hg",
+    "name": "hg",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/hg.html",
+    "aliases": [
+        "mercurial"
+    ],
+    "description": "``HG`` is another name for Mercurial, which is a distributed version control system, DVCS, similar to Git. Mercurial is designed to help developers manage and track changes to source code and other files, like Subversion and Git. It is often used for collaborative software development and version control of various types of digital assets.",
+    "code": "",
+    "documentation": "https://www.mercurial-scm.org/",
+    "related": [
+        "vcs",
+        "git",
+        "svn",
+        "vcs-commit",
+        "cvs"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.mercurial-scm.org/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Mercurial for Git users",
+            "url": "https://www.mercurial-scm.org/wiki/GitConcepts"
+        }
+    ],
+    "tags": [
+        "vcs"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sat, 08 Aug 2026 08:10:54 +0000"
+}

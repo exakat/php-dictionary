@@ -1,0 +1,44 @@
+{
+    "id": "adapter",
+    "name": "Adapters",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/adapter.html",
+    "aliases": [],
+    "description": "Adapters are the link between the application and the rest of the universe. They take incoming data and shape them into an internal format, and vice-versa.\n\nAdapters are heavily used in hexagonal architecture. They are also a classic design pattern.\n\nAdapters are related to decoupling code. They bridge two pieces of code that evolve independently.\n",
+    "code": "",
+    "documentation": "https://en.wikipedia.org/wiki/Adapter_pattern",
+    "related": [
+        "hexagonal",
+        "facade",
+        "decoupling",
+        "onion-architecture"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Adapter_pattern"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Adapter in PHP",
+            "url": "https://refactoring.guru/design-patterns/adapter/php/example"
+        }
+    ],
+    "tags": [
+        "design pattern"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Wed, 19 Aug 2026 06:47:17 +0000"
+}

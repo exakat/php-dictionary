@@ -1,0 +1,47 @@
+{
+    "id": "backtrace",
+    "name": "Backtrace",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/backtrace.html",
+    "aliases": [],
+    "description": "A backtrace is a snapshot of the callstack at a specific point in the program's execution. This is typically needed when an error or exception occurs.",
+    "code": "<?php\n\n    function migrate() {\n        trumpet();\n    }\n\n    function trumpet() {\n        debug_print_backtrace();\n    }\n\n    migrate();\n\n    /**\n    #0 /in/a4eQc(3): trumpet()\n    #1 /in/a4eQc(10): migrate()\n    */\n\n?>",
+    "documentation": "https://www.php.net/manual/en/function.debug-backtrace.php",
+    "related": [
+        "debugger",
+        "callstack"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/function.debug-backtrace.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "debug_print_backtrace",
+            "url": "https://www.php.net/manual/en/function.debug-print-backtrace.php"
+        }
+    ],
+    "tags": [
+        "debug"
+    ],
+    "packagist": [
+        "spatie/backtrace",
+        "axy/backtrace"
+    ],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+}

@@ -1,0 +1,42 @@
+{
+    "id": "fossilized-method",
+    "name": "Fossilized Methods",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/fossilized-method.html",
+    "aliases": [],
+    "description": "A method become fossilized when it is overwritten many times, creating a difficult update of the method signature, without impacting many parts of the code.\n\nThe easiest solution to this situation is to refrain from updating the signature anymore. At that point, the method is fossilized.\n",
+    "code": "<?php\n\nclass Elephpant {\n    function trumpet(Herd $a) : array {}\n}\n\nclass AfricanElephpant extends Elephpant {\n    function trumpet(Herd $a) : array {}\n}\n\nclass AsianElephpant extends Elephpant {\n    function trumpet(Herd $a) : array {}\n}\n\n// Updating this method means updating AsianElephpant, AfricanElephpant, Elephpant...\nclass Calf extends Elephpant {\n    function trumpet(Herd $a) : array {}\n}\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Technical_debt",
+    "related": [
+        "method"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Technical_debt"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Method fossilisation",
+            "url": "https://www.exakat.io/en/method-fossilisation/"
+        }
+    ],
+    "tags": [
+        "structure",
+        "static analysis"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+}

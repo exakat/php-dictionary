@@ -1,0 +1,46 @@
+{
+    "id": "intl",
+    "name": "Internationalization Functions",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/intl.html",
+    "aliases": [],
+    "description": "The internationalization extension performs operations with locales. For example, it formats dates according to country and language configurations. The operations include, and are not limited to, formatting, transliteration, encoding conversion, calendar operations, \u00bb UCA-conformant collation, locating text boundaries and working with locale identifiers, timezones and graphemes.\n\nThis extension is closely linked to the ICU library.",
+    "code": "<?php\n$us = new NumberFormatter('en_US', NumberFormatter::DECIMAL);\necho $us->format(1234567).PHP_EOL;\n//1,234,567\n\n$zh = new NumberFormatter('zh_ZH', NumberFormatter::DECIMAL);\necho $zh->format(1234567).PHP_EOL;\n//1,234,567\n\n$fr = new NumberFormatter('fr_FR', NumberFormatter::DECIMAL);\necho $fr->format(1234567).PHP_EOL;\n//1\u202f234\u202f567\n\n?>",
+    "documentation": "https://www.php.net/manual/en/book.intl.php",
+    "related": [
+        "locale",
+        "normalisation",
+        "accessibility",
+        "encoding-text",
+        "internationalization",
+        "setlocale"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/book.intl.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "ICU lib",
+            "url": "https://icu.unicode.org/docs/"
+        }
+    ],
+    "tags": [
+        "extension"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+}

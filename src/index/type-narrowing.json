@@ -1,0 +1,64 @@
+{
+    "id": "type-narrowing",
+    "name": "Type Narrowing",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/type-narrowing.html",
+    "aliases": [
+        "flow-sensitive-typing"
+    ],
+    "description": "Type narrowing is the general process of refining the type of a value to a more specific subtype within a scope, based on information gathered from a preceding check: a type test, a comparison, an assignment, or a control-flow branch. It is a property of the type system or of the analysis performed on top of it, not of any single language feature.\n\nType narrowing shows up under many names depending on where it is enforced: TypeScript calls it ``control flow analysis``, Kotlin calls the compiler-enforced form a ``smart cast``, Flow and ``mypy`` narrow types across ``isinstance``/``typeof`` guards, and Rust's borrow checker narrows ``Option<T>`` after a ``match`` arm destructures it. In all these systems the compiler tracks, statement by statement, which subtype a variable is guaranteed to hold, and rejects code that contradicts that guarantee.\n\nPHP's engine performs no static narrowing: types are checked at runtime, not tracked through control flow at compile time. Narrowing code is therefore always the work of an external tool:\n\n+ Some static analysis tools narrow variables inside ``instanceof``, ``is_string()``/``is_int()``/etc., ``isset()``, ``array_key_exists()``, and ``match``/``switch`` branches, purely for static-analysis purposes.\n+ Custom assertions, ``@psalm-assert`` and ``@phpstan-assert`` annotations, extend narrowing to user-defined predicate functions.\n+ None of this narrowing is enforced by the PHP runtime; a value can still be used inconsistently with the narrowed type and only fail, if at all, when the offending operation actually executes.\n\n``smart-cast`` names the specific compiler-enforced flavor of narrowing found in languages like Kotlin and TypeScript; type narrowing is the broader concept those features are instances of.",
+    "code": "<?php\n\n    function describe(int|string $value): string {\n        if (is_int($value)) {\n            // Static analysers narrow $value to int in this branch;\n            // the PHP engine performs no such tracking.\n            return \"int: \" . ($value + 1);\n        }\n    \n        // Narrowed to string here, again only for the analyser's benefit.\n        return \"string: \" . strtoupper($value);\n    }\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Type_system#Type_narrowing",
+    "related": [
+        "smart-cast",
+        "type-widening",
+        "instanceof",
+        "type-system",
+        "type-checking",
+        "gradual-type-checking",
+        "union-type",
+        "sca"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Type_system#Type_narrowing"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "TypeScript type narrowing",
+            "url": "https://www.typescriptlang.org/docs/handbook/2/narrowing.html"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHPStan type narrowing",
+            "url": "https://phpstan.org/writing-php-code/narrowing-types"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Psalm \u2013 Typing in Psalm",
+            "url": "https://psalm.dev/docs/annotating_code/type_syntax/atomic_types/"
+        }
+    ],
+    "tags": [
+        "concept",
+        "type",
+        "not supported"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Wed, 02 Sep 2026 16:41:00 +0000"
+}

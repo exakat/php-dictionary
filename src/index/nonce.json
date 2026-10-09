@@ -1,0 +1,48 @@
+{
+    "id": "nonce",
+    "name": "Nonce",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/nonce.html",
+    "aliases": [],
+    "description": "A nonce is a security token used to protect actions against unauthorized or malicious requests.\n\nThe word nonce comes from ``number used once``. It is common in the WordPress ecosystem.",
+    "code": "",
+    "documentation": "https://en.wikipedia.org/wiki/Cryptographic_nonce",
+    "related": [
+        "security",
+        "csrf",
+        "otp"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Cryptographic_nonce"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Nonces",
+            "url": "https://developer.wordpress.org/apis/security/nonces/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Understanding WordPress Nonces: Enhance Site Security Effectively",
+            "url": "https://pressidium.com/blog/nonces-in-wordpress-all-you-need-to-know/"
+        }
+    ],
+    "tags": [
+        "security"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Wed, 19 Aug 2026 06:49:44 +0000"
+}

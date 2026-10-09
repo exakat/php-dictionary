@@ -1,0 +1,55 @@
+{
+    "id": "git",
+    "name": "git",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/git.html",
+    "aliases": [],
+    "description": "Git is a distributed version control system that is widely used for tracking changes in source code during software development. It was created by Linus Torvalds in 2005 and has since become one of the most popular and essential tools in the software development industry. Git allows multiple developers to collaborate on a project, manage different versions of code, and track changes over time.",
+    "code": "",
+    "documentation": "https://git-scm.com/",
+    "related": [
+        "cvs",
+        "revision",
+        "sha",
+        "vcs",
+        "devops",
+        "rollback",
+        "vcs-commit",
+        "worktree",
+        "contribution",
+        "hg"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://git-scm.com/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "php-src on git",
+            "url": "https://github.com/php/php-src"
+        }
+    ],
+    "tags": [
+        "vcs"
+    ],
+    "packagist": [
+        "czproject/git-php",
+        "gitonomy/gitlib"
+    ],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": {
+        "Linus Torvalds": "https://en.wikipedia.org/wiki/Linus_Torvalds"
+    },
+    "brand": "",
+    "popularity": "",
+    "modified": "Fri, 18 Sep 2026 04:50:58 +0000"
+}

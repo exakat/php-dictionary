@@ -1,0 +1,50 @@
+{
+    "id": "defensive-programming",
+    "name": "Defensive Programming",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/defensive-programming.html",
+    "aliases": [],
+    "description": "Defensive programming is a programming approach where the code is written assuming that things can go wrong, even when they shouldn't, and it should actively guard against incorrect input, unexpected states, or misuse.",
+    "code": "<?php\n\ntry {\n    $number = random_int(0, 10);\n} catch (Random\\RandomException $e) {\n    // This handle cases where no entropy sources are found \n    // This is very rare\n}\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Defensive_programming",
+    "related": [
+        "offensive-programming",
+        "paradigm",
+        "double-check"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Defensive_programming"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Learn 5 defensive programming techniques from experts",
+            "url": "https://www.techtarget.com/searchsoftwarequality/feature/Learn-5-defensive-programming-techniques-from-experts"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Defensive programming: the good, the bad and the ugly",
+            "url": "https://enterprisecraftsmanship.com/posts/defensive-programming/"
+        }
+    ],
+    "tags": [
+        "paradigm"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Mon, 17 Aug 2026 09:06:21 +0000"
+}

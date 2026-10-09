@@ -1,0 +1,54 @@
+{
+    "id": "browser",
+    "name": "Browser",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/browser.html",
+    "aliases": [
+        "navigator"
+    ],
+    "description": "A browser, short for web browser and also called a navigator, is a software application designed to access, retrieve, and display content from the World Wide Web. It allows users to view and interact with websites, web applications, and online services.\n\nPHP features ``get_browser()`` native function, which lists some of the requesting browser capabilities.\n\nPHP acts as a http client rather than a browser, when using the ``http://`` wrappers, the curl extension or the components like ``guzzle``, ``amphp``, ``reactphp``, etc.",
+    "code": "",
+    "documentation": "https://en.wikipedia.org/wiki/Web_browser",
+    "related": [
+        "web",
+        "browscap",
+        "get_browser",
+        "wrapper-http",
+        "user-agent",
+        "feature-detection"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Web_browser"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "List of web browsers",
+            "url": "https://en.wikipedia.org/wiki/List_of_web_browsers"
+        }
+    ],
+    "tags": [
+        "web"
+    ],
+    "packagist": [
+        "guzzle/guzzle",
+        "amphp/http-client",
+        "react/http"
+    ],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Mon, 07 Sep 2026 09:12:28 +0000"
+}

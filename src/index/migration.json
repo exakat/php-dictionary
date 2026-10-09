@@ -1,0 +1,58 @@
+{
+    "id": "migration",
+    "name": "Migration",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/migration.html",
+    "aliases": [
+        "database-migration",
+        "framework-migration",
+        "version-migration"
+    ],
+    "description": "Migration is the incremental upgrade of a piece of code. \n\nIt is often used for databases, for example, with Laravel database migrations; for components and frameworks, a framework migration: for example, CakePHP migration. Migration applies to versions, a version migration, within a framework, or between two distinct framework.\n\nUsually, migration requires some action from the user, although a migration script may be provided.\n\nMigration may also be called upgrades. They may be paired with a rollback, which allows to go back to the previous state, and try again later.",
+    "code": "",
+    "documentation": "https://en.wikipedia.org/wiki/Data_migration",
+    "related": [
+        "database",
+        "upgrade",
+        "version",
+        "backward-compatible",
+        "compatibility",
+        "rollback",
+        "refactoring",
+        "etl",
+        "referential-integrity"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Data_migration"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Database: Migrations",
+            "url": "https://laravel.com/docs/9.x/migrations"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Migrating from PHP 8.0.x to PHP 8.1.x",
+            "url": "https://www.php.net/manual/en/migration81.php"
+        }
+    ],
+    "tags": [
+        "concept"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sun, 30 Aug 2026 14:49:43 +0000"
+}

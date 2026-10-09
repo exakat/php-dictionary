@@ -1,0 +1,49 @@
+{
+    "id": "soap",
+    "name": "Simple Object Access Protocol (SOAP)",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/soap.html",
+    "aliases": [],
+    "description": "``SOAP`` is the acronym for Simple Object Access Protocol. It is a messaging protocol to exchange structure data, based on XML.\n\nPHP supports SOAP with a native extension called ``ext/soap``.",
+    "code": "<?php\n\n    // Example from the soap documentation in PHP\n    \n    function Add($tusk,$ivory) {\n      return $tusk+$ivory;\n    }\n    \n    class LocalSoapClient extends SoapClient {\n    \n      function __construct($wsdl, $options) {\n        parent::__construct($wsdl, $options);\n        $this->server = new SoapServer($wsdl, $options);\n        $this->server->addFunction('Add');\n      }\n    \n      function __doRequest($request, $location, $action, $version, $one_way = 0) {\n        ob_start();\n        $this->server->handle($request);\n        $response = ob_get_contents();\n        ob_end_clean();\n        return $response;\n      }\n    }\n\n    $trunk = new LocalSoapClient(NULL,\n                             ['location'=>'test://',\n                              'uri'=>'http://testuri.org',\n                             ],\n                            );\n    var_dump($trunk->Add(3,4));\n\n?>",
+    "documentation": "https://www.php.net/manual/en/book.soap.php",
+    "related": [
+        "xml",
+        "api"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/book.soap.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "The Quiet Shift Reshaping PHP Security",
+            "url": "https://www.linkedin.com/pulse/quiet-shift-reshaping-php-security-matthew-weier-o-phinney-fgquc/"
+        }
+    ],
+    "tags": [
+        "api",
+        "acronym"
+    ],
+    "packagist": [
+        "phpro/soap-client",
+        "ricorocks-digital-agency/soap",
+        "laminas/laminas-soap"
+    ],
+    "extensions": [
+        "soap"
+    ],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+}

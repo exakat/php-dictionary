@@ -1,0 +1,44 @@
+{
+    "id": "deterministic",
+    "name": "Deterministic",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/deterministic.html",
+    "aliases": [],
+    "description": "A deterministic function is a function that produces the same output, based on the same input. \n\n``strlen()`` is a deterministic function: it always returns the length of a string the same way. \n\n``time()`` is not a deterministic function: it always returns a different value, as time passes. ``rand()``, ``time()`` are non-deterministic.\n\nA function becomes non-deterministic when it relies on systems that may change between two calls. This is the case for files or database accesses.",
+    "code": "",
+    "documentation": "https://www.simplethread.com/pure-and-deterministic-functions/",
+    "related": [
+        "random",
+        "testable",
+        "determinism",
+        "random_engine"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.simplethread.com/pure-and-deterministic-functions/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Understanding the differences between deterministic and probabilistic observability",
+            "url": "https://docs.blackfire.io/continuous-profiling-cookbooks/understanding"
+        }
+    ],
+    "tags": [
+        "concept"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Mon, 24 Aug 2026 07:40:58 +0000"
+}

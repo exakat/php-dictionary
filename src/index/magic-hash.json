@@ -1,0 +1,52 @@
+{
+    "id": "magic-hash",
+    "name": "Magic Hash",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/magic-hash.html",
+    "aliases": [
+        "magic-hashes"
+    ],
+    "description": "A magic hash is a hash string which is mistakenly compared to another hash. \n\nIn the example below, the same MD5 hash is taken for two distinct strings, which ends up being identical, per ``==``. \n\nIn reality, the two hashes are different strings: ``0e462097431906509019562988736854`` and ``0e830400451993494058024219903391`` respectively. When they are compared, as strings, PHP identifies the initial 0 of the strings, and assume the comparison should be an integer comparison.\n\nEach string is turned into a int, which are 0 in both cases. Hence, the comparison succeeds, yet it wrong.\n\nThe protection against magic hashes is to use the identity operator ``===``, rather than the equality. It makes a type comparison and do not apply type juggling, which leads to the two hashes above different. \n\nThis example is applicable with any hash algorithm which produces a string that starts with 0. Check the magic hash repository for examples with SHA256, HAVAL, PHOTON, RIPEMD or SPONGENT.\n\nThere are PHP functions and operators that perform safe comparisons ,such as ``===``, ``!==`` and ``hash_equals()``.",
+    "code": "<?php\n\n    var_dump(md5('240610708') == md5('QNKCDZO'));\n    \n    //md5('240610708')\n    //0e462097431906509019562988736854\n    //md5('QNKCDZO')\n    //0e830400451993494058024219903391\n\n?>",
+    "documentation": "https://github.com/spaze/hashes",
+    "related": [
+        "hash",
+        "comparison",
+        "type-juggling",
+        "magic-byte"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://github.com/spaze/hashes"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Magic Hashes",
+            "url": "https://www.whitehatsec.com/blog/magic-hashes/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Can you find the bug in this piece of php code?",
+            "url": "https://dev.to/nombrekeff/can-you-find-the-bug-in-this-piece-of-php-code-g7l"
+        }
+    ],
+    "tags": [
+        "classic bug",
+        "security"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sat, 08 Aug 2026 08:10:54 +0000"
+}

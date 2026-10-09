@@ -1,0 +1,62 @@
+{
+    "id": "polyfill",
+    "name": "Polyfill",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/polyfill.html",
+    "aliases": [],
+    "description": "A polyfill is a piece of code that provides modern functionality on older browsers or environments that lack support for certain features. Polyfills are used to bridge the gap between the capabilities of modern web standards and the limitations of older browsers that might not fully support those standards.\n\nThe term polyfill is a combination of poly, meaning many, and fill, meaning to provide what's missing. Essentially, a polyfill fills in the missing functionality by replicating the behavior of the modern feature using JavaScript or other technologies, allowing developers to write code using modern APIs and standards without worrying about compatibility with older browsers.\n\nThere are polyfills for PHP versions, for specific extensions, in case they are not compiled with PHP or component versions.\n\nThere are polyfills available in packagist, like the family of packages ``symfony/polyfill-*``, or manually coded in the sources.\n\nPolyfills exist for PHP, but also for any framework. \n",
+    "code": "<?php\n\n    // hand-made polyfill\n    if (!function_exists('str_contains')) {\n        function str_contains(string $a, string $b) : bool {\n            return substr($a, $b) !== false;\n        }\n    }\n\n?>",
+    "documentation": "https://symfony.com/components/Polyfill%20PHP%208.0",
+    "related": [
+        "backward-compatible",
+        "feature-detection"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://symfony.com/components/Polyfill%20PHP%208.0"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Polyfill Symfony",
+            "url": "https://github.com/symfony/polyfill"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Polyfill PHPUnit",
+            "url": "https://github.com/Yoast/PHPUnit-Polyfills.git"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP and the use of Polyfills",
+            "url": "https://roman-huliak.medium.com/php-and-the-use-of-polyfills-3c399b100c7e"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "In defense of polyfills",
+            "url": "https://lea.verou.me/blog/2026/polyfills/"
+        }
+    ],
+    "tags": [
+        "compatibility"
+    ],
+    "packagist": [
+        "symfony/polyfill-php83",
+        "paragonie/random_compat",
+        "guzzlehttp/uri-template",
+        "yoast/phpunit-polyfills"
+    ],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Mon, 07 Sep 2026 09:12:30 +0000"
+}

@@ -1,0 +1,49 @@
+{
+    "id": "preg_match",
+    "name": "Preg_match",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/preg_match.html",
+    "aliases": [],
+    "description": "``preg_match()`` searches a string for a match to the regular expression given in pattern.\n\n``preg_match()`` only returns the first found match. When several matches are expected, use this function recursively with the ``$offset`` pattern, or call ``preg_match_all()``.\n\nThe first argument is the regex, and the second argument is the string being searched. \n\nThe third argument, when provided, receives the results of the search, if any. It also contains the capturing sub patterns results. The variable content is replaced by an array: references are also lost. When an error occurs, the variable is left intact.\n\nAn ``$offset`` argument is available, to start the search beyond the beginning of the string.\n\n``preg_match()`` returns 1 if there is at least one matched string, and 0 otherwise. It also returns ``false`` in case of error during execution, such as invalid regex, or passing backtracking limits. It is recommended to use ``===`` with its result.",
+    "code": "<?php\n\n    preg_match('/(a)/i', 'aAba', $r);\n    print_r($r); // ['a', 'a']\n\n?>",
+    "documentation": "https://www.php.net/manual/en/function.preg-match.php",
+    "related": [
+        "regex",
+        "strpos-syndrom",
+        "fnmatch",
+        "str_contains",
+        "preg_replace"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/function.preg-match.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP string substring detection: powerful application of preg_match",
+            "url": "https://global.php.cn/faq/1797073498.html"
+        }
+    ],
+    "tags": [
+        "native function"
+    ],
+    "packagist": [],
+    "extensions": [
+        "pcre"
+    ],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sat, 08 Aug 2026 14:32:23 +0000"
+}

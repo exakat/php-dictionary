@@ -1,0 +1,49 @@
+{
+    "id": "iteratoraggregate",
+    "name": "IteratorAggregate",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/iteratoraggregate.html",
+    "aliases": [],
+    "description": "``IteratorAggregate`` is an interface to create a custom iterator. \n\nIt requires a single method, that returns an iterator that will be used with PHP native functions. \n\nIt also suggest that several iterators may be merged in one, by creating a class that merges them.\n",
+    "code": "<?php\n\n    declare(strict_types=1);\n    \n    class MergedIteratorAggregate implements IteratorAggregate\n    {\n        /** @var iterable[] */\n        private array $iterables = [];\n    \n        public function addIterable(iterable $iterable): void\n        {\n            $this->iterables[] = $iterable;\n        }\n    \n        public function getIterator(): Traversable\n        {\n            foreach ($this->iterables as $iterable) {\n                // yield from works with arrays AND Traversable objects\n                yield from $iterable;\n            }\n        }\n    }\n    \n    $aggregate = new MergedIteratorAggregate();\n\n    function diceRoll() {\n        yield rand(0, 10);\n\n    }\n\n    // Using iterator with generators\n    $aggregate->addIterable(diceRoll());\n    $aggregate->addIterable(diceRoll());\n    foreach($aggregate as $value) {\n        print $value.PHP_EOL;\n    }\n\n?>",
+    "documentation": "https://www.php.net/manual/en/class.iteratoraggregate.php",
+    "related": [
+        "interface",
+        "iterator",
+        "traversable",
+        "foreach",
+        "spl",
+        "outeriterator",
+        "php-interface"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/class.iteratoraggregate.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "SPL: Using the iteratorAggregate interface",
+            "url": "https://adayinthelifeof.nl/2011/12/04/spl-using-the-iteratoraggregate-interface/"
+        }
+    ],
+    "tags": [
+        "iterator"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+}

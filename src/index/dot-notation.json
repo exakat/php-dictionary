@@ -1,0 +1,47 @@
+{
+    "id": "dot-notation",
+    "name": "Dot Notation",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/dot-notation.html",
+    "aliases": [],
+    "description": "The dot notation refers to a syntax to access deeply-nested elements in arrays. Instead of repeating the classic ``[index]`` notation, dot notation offers a way to chain the indices with dots to reach the value. \n\nDot notation is easier to read, in particular when there are numerous elements. \n\nDot notation is not a PHP native feature. It is available via independent packages or as a feature of frameworks.",
+    "code": "<?php\n\n    // example from https://github.com/adbario/php-dot-notation\n    \n    $array['info']['home']['address'] = 'Kings Square';\n    \n    echo $array['info']['home']['address'];\n    \n    // Kings Square\n    \n    $dot->set('info.home.address', 'Kings Square');\n    \n    echo $dot->get('info.home.address');\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Property_(programming)",
+    "related": [
+        "array",
+        "multidimensional-array"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Property_(programming)"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Dot Notation",
+            "url": "https://medium.com/@assertchris/dot-notation-3fd3e42edc61"
+        }
+    ],
+    "tags": [
+        "non-native"
+    ],
+    "packagist": [
+        "dflydev/dot-access-data",
+        "adbario/php-dot-notation"
+    ],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+}

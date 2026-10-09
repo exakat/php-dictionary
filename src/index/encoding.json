@@ -1,0 +1,51 @@
+{
+    "id": "encoding",
+    "name": "Encoding",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/encoding.html",
+    "aliases": [],
+    "description": "Encoding is a generic term, and is used in different places:\n\n+ Text encoding, for manipulations with iconv or mbstring\n+ Declare encoding, with the declare keyword\n+ HTTP encoding, for input and output operations\n\nText encoding is the process of converting characters into a specific format that can be stored, processed, or transmitted by computers. Different encodings represent characters as a series of bytes. The default encoding for text is UTF-8, which as the most general usage. Many other encoding exist.",
+    "code": "",
+    "documentation": "https://en.wikipedia.org/wiki/Character_encoding",
+    "related": [
+        "declare-encoding",
+        "encoding-text",
+        "http-encoding",
+        "iconv",
+        "mbstring",
+        "character",
+        "default_charset",
+        "utf-8",
+        "whatwg",
+        "html-entity"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Character_encoding"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Supported Character Encodings",
+            "url": "https://www.php.net/manual/en/mbstring.supported-encodings.php"
+        }
+    ],
+    "tags": [
+        "disambiguation",
+        "portability"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Tue, 01 Sep 2026 05:31:03 +0000"
+}

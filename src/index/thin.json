@@ -1,0 +1,52 @@
+{
+    "id": "thin",
+    "name": "Thin",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/thin.html",
+    "aliases": [
+        "thin-controller",
+        "thin-class"
+    ],
+    "description": "Thin is an informal qualifier applied to a class that takes very few responsibilities. It receives input, calls one collaborator, and returns output. It contains no business logic of its own.\n\nA thin controller delegates all domain work to services, repositories, or domain objects. This makes it trivially testable and easy to replace.\n\nThe term is often used in the phrase ``thin controllers, fat models``, which is a common recommendation in MVC frameworks.\n\nThe opposite is a fat class. Taken to the extreme, a thin class becomes a mere pass-through: at that point it may be unnecessary altogether.",
+    "code": "<?php\n\n    // Thin controller example\n    class ArticleController {\n        public function __construct(private ArticleService $articles) {}\n    \n        public function show(int $id): Response {\n            return response()->json(\n                $this->articles->findOrFail($id)\n            );\n        }\n    }\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller",
+    "related": [
+        "fat",
+        "slim",
+        "thin-method",
+        "fat-controller",
+        "controller",
+        "srp",
+        "service"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Thin controllers, fat models",
+            "url": "https://symfony.com/doc/current/best_practices.html#controllers"
+        }
+    ],
+    "tags": [
+        "concept",
+        "adjective",
+        "mvc"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Mon, 31 Aug 2026 17:33:42 +0000"
+}

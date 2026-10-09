@@ -1,0 +1,62 @@
+{
+    "id": "race-condition",
+    "name": "Race Condition",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/race-condition.html",
+    "aliases": [],
+    "description": "A Race Condition is a broad term for any situation where the outcome of a program depends on the timing of uncontrollable events.\n\nRace conditions happen in file systems, database accesses, sessions, cache, global variables, signals. \n\nRace conditions may be mitigated by using atomic operations, transactions, locks and unique identifiers.",
+    "code": "<?php\n\n    if (!file_exists('/path/to/directory')) {\n        // race condition\n        mkdir('/path/to/directory', 0755); // This might fail as the directory may be created between the time of the previous check and now\n    }\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Race_condition",
+    "related": [
+        "atomic-operation",
+        "unique-identifier",
+        "lock",
+        "transaction",
+        "session",
+        "security",
+        "toctou",
+        "actor-model",
+        "cache-stampede",
+        "concurrency",
+        "mutex",
+        "software-transactional-memory"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Race_condition"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP Race Condition Vulnerability Example",
+            "url": "http://blog.hoangdoan.io/2015/11/php-race-condition-vulnerability-example.html"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP MySQLi - Race condition \ud83c\udfc1",
+            "url": "https://github.com/wzul/PHP-MySQLi-Race-Condition"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Symfony Lock + Workflow: Taming the Race Condition that will hit you in production",
+            "url": "https://nicolas-jourdan.medium.com/symfony-lock-workflow-taming-the-race-condition-that-will-hit-you-in-production-d04613e0b6a8"
+        }
+    ],
+    "tags": [
+        "security"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sat, 08 Aug 2026 14:32:31 +0000"
+}

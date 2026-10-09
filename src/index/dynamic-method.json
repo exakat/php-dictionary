@@ -1,0 +1,43 @@
+{
+    "id": "dynamic-method",
+    "name": "Dynamic Method",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/dynamic-method.html",
+    "aliases": [],
+    "description": "A dynamic method is a method which is defined at execution time. \n\nThis is convenient for module systems or SOAP clients, where the actual methods are defined at the remote server.\n\nPHP calls this overloading.",
+    "code": "<?php\n\n    class Elephpant {\n        function __call($name, $args) {\n            if ($name === 'trumpet') {\n                echo 'OK';\n                return;\n            }\n    \n            if ($name === 'forage') {\n                echo 'OK';\n                return;\n            }\n    \n            echo 'KO';\n        }\n    }\n    \n    $elephpant = new Elephpant;\n    $elephpant->trumpet(); // OK\n    $elephpant->forage(); // OK\n    $elephpant->fly(); // KO\n\n?>",
+    "documentation": "https://www.php.net/manual/en/language.oop5.overloading.php",
+    "related": [
+        "dynamic",
+        "overloading"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.oop5.overloading.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP: Dynamic method calling",
+            "url": "https://medium.com/@erlandmuchasaj/php-dynamic-method-calling-3c5dfbe816a2"
+        }
+    ],
+    "tags": [
+        "dynamic",
+        "feature"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Fri, 11 Sep 2026 08:43:12 +0000"
+}

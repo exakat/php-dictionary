@@ -1,0 +1,55 @@
+{
+    "id": "user-agent",
+    "name": "User-Agent",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/user-agent.html",
+    "aliases": [
+        "ua"
+    ],
+    "description": "The ``User-Agent`` is an HTTP request header sent by a browser, bot, or any other HTTP client, describing what sent the request. It may be an application name, a rendering engine, an operating system, and a version number, packed into a single free-form string. It is read from ``$_SERVER['HTTP_USER_AGENT']``.\n\nThe string has no enforced format, and grew increasingly cluttered over the browser wars, as vendors kept adding tokens that impersonate older or competing browsers to avoid being blocked by sites that checked it too strictly; a modern Chrome ``User-Agent`` string still contains the substring ``Mozilla/5.0`` for that reason. Because of this, ``User-Agent`` sniffing, parsing the string to decide what a browser can do, has always been fragile: the string is freely spoofable by the client, and PHP's own ``get_browser()``, backed by a ``browscap.ini`` database, needs constant updates to stay accurate as new browser versions ship.\n\n``User-Agent`` is still useful for coarse purposes such as logging, analytics, or bot detection, but deciding what markup or JavaScript to serve based on it is considered an anti-pattern, in favor of feature detection. Google's User-Agent Client Hints proposal, exposed via headers such as ``Sec-CH-UA``, is a more structured, opt-in replacement, though PHP's ``$_SERVER`` superglobal only exposes it like any other request header, with no dedicated parsing support.",
+    "code": "<?php\n\n    $userAgent = $_SERVER['HTTP_USER_AGENT'] ?? '';\n\n    // fragile: guessing capabilities from a spoofable string\n    $isMobile = str_contains($userAgent, 'Mobile');\n\n    // coarse but reasonable: logging or bot detection\n    $isBot = preg_match('/bot|crawl|spider/i', $userAgent) === 1;\n\n?>",
+    "documentation": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/User-Agent",
+    "related": [
+        "http-headers",
+        "browser",
+        "browscap",
+        "get_browser",
+        "feature-detection"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/User-Agent"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "User-Agent Client Hints",
+            "url": "https://developer.chrome.com/docs/privacy-security/user-agent-client-hints"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Browser detection using the user agent (MDN)",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/Browser_detection_using_the_user_agent"
+        }
+    ],
+    "tags": [
+        "http",
+        "web"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Fri, 18 Sep 2026 09:35:09 +0000"
+}

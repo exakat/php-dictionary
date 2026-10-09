@@ -1,0 +1,49 @@
+{
+    "id": "sanitation",
+    "name": "Sanitation",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/sanitation.html",
+    "aliases": [
+        "sanitization"
+    ],
+    "description": "Sanitation is the process to clean data and remove any unwanted parts. The data may end up modified by this process, sometimes quite a lot. There are native and extension functions to perform sanitation, as long as components.",
+    "code": "<?php\n\n    echo 'TRANSLIT : ', iconv(\"UTF-8\", \"ISO-8859-1//TRANSLIT\", $text), PHP_EOL;\n\n?>",
+    "documentation": "https://www.php.net/manual/en/filter.examples.validation.php",
+    "related": [
+        "validation",
+        "filter",
+        "parse",
+        "parser",
+        "htmlpurifier"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/filter.examples.validation.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Data sanitization",
+            "url": "https://en.wikipedia.org/wiki/Data_sanitization"
+        }
+    ],
+    "tags": [
+        "chore"
+    ],
+    "packagist": [
+        "waavi/sanitizer"
+    ],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sat, 08 Aug 2026 08:10:54 +0000"
+}

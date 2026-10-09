@@ -1,0 +1,56 @@
+{
+    "id": "empty-string",
+    "name": "Empty String",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/empty-string.html",
+    "aliases": [],
+    "description": "The empty string is a string without any content. It may be built with single quotes, double quotes or the Heredoc and NowDoc syntaxes.\n\nThe empty string is the neutral element for concatenation: concatenating an empty string to another string does not change the latter.\n\nThe empty string may be used as an error report: for example, ``substr()`` returns an empty string when the offset is beyond the string range.\n\nThe empty string often serves as a default value, for properties and variables.\n\nComparisons between ``''`` and other falsy values, such as ``0``, changed with PHP 8.0: it was true and became false.\n\nThe empty string is falsy: it is converted to the ``false`` boolean when implicit conversion is needed, such as in a condition.",
+    "code": "<?php\n\n    $emptyString1 = '';  // single quote\n    $emptyString2 = \"\";  // double quote\n    $emptyString3 = <<<STRING\nSTRING;\n    $emptyString4 = <<<'STRING'\nSTRING;\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Empty_string",
+    "related": [
+        "string",
+        "heredoc",
+        "nowdoc",
+        "falsy",
+        "file_put_contents",
+        "str_contains",
+        "zero"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Empty_string"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Strings",
+            "url": "https://www.php.net/manual/en/language.types.string.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Comparison operators",
+            "url": "https://www.php.net/manual/en/language.operators.comparison.php"
+        }
+    ],
+    "tags": [
+        "falsy"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": {
+        "Providing an empty string is deprecated": "providing-an-empty-string-is-deprecated"
+    },
+    "changedBehavior": [
+        "stringIntegerComparison"
+    ],
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Tue, 11 Aug 2026 14:42:13 +0000"
+}

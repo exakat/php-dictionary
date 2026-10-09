@@ -1,0 +1,55 @@
+{
+    "id": "filter_var",
+    "name": "Filter_var()",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/filter_var.html",
+    "aliases": [],
+    "description": "``filter_var()`` filters a single variable with a specified filter, either validating its content or sanitizing it.\n\nThe first argument is the value to filter. The second argument is one of the ``FILTER_VALIDATE_*`` or ``FILTER_SANITIZE_*`` constants, such as ``FILTER_VALIDATE_EMAIL``, ``FILTER_VALIDATE_INT`` or ``FILTER_SANITIZE_FULL_SPECIAL_CHARS``, defaulting to ``FILTER_DEFAULT`` when omitted.\n\nValidation filters return the filtered value, converted to the expected type, or ``false`` when the value does not pass validation. Since ``false`` is also a legitimate filtered value for some filters, it is recommended to compare the result with ``===`` rather than relying on truthiness. An optional third argument accepts flags and options, such as a regular expression for ``FILTER_VALIDATE_REGEXP``.",
+    "code": "<?php\n\n    $email = 'user@example.com';\n    \n    if (filter_var($email, FILTER_VALIDATE_EMAIL) === false) {\n        print 'Invalid email address';\n    } else {\n        print 'Valid email address';\n    }\n\n?>",
+    "documentation": "https://www.php.net/manual/en/function.filter-var.php",
+    "related": [
+        "filter",
+        "php-filter",
+        "preg_match",
+        "is_int",
+        "is_string",
+        "sanitation"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/function.filter-var.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP: Validate Filters",
+            "url": "https://www.php.net/manual/en/filter.constants.php#constant.filter-validate-bool"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP: Sanitize Filters",
+            "url": "https://www.php.net/manual/en/filter.constants.php#constant.filter-sanitize-string"
+        }
+    ],
+    "tags": [
+        "native function"
+    ],
+    "packagist": [],
+    "extensions": [
+        "filter"
+    ],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "5.2",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sat, 29 Aug 2026 07:33:37 +0000"
+}

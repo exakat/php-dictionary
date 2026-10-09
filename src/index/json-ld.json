@@ -1,0 +1,57 @@
+{
+    "id": "json-ld",
+    "name": "JSON-LD",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/json-ld.html",
+    "aliases": [
+        "jsonld"
+    ],
+    "description": "JSON-LD, short for JSON for Linking Data, is a W3C standard serialization format for RDF: it lets ordinary JSON, the format most PHP applications already produce and consume, carry linked-data meaning by adding a small number of reserved keywords, most notably @context, which maps the document's plain property names to globally unique URIs, and @id and @type, which identify a resource and its class. Because a JSON-LD document is still syntactically valid JSON, it can be parsed with ``json_decode()`` like any other payload, while tools built for linked data can additionally interpret it as a graph of RDF triples, expand or compact it against different contexts, or convert it to other RDF serializations such as Turtle or N-Quads. The lanthaler/JsonLD library provides a fully conforming JSON-LD processor implementing the official expansion, compaction, flattening, and framing algorithms, plus an object-oriented API for building and querying documents programmatically, and it is commonly paired with libraries like EasyRdf when a full RDF toolchain is needed. Its most common real-world use in web applications is embedding structured data inside a ``<script type=\"application/ld+json\">`` tag so that search engines and other crawlers can understand a page's content, such as a product, an article, or an event, without needing to parse the visible HTML.",
+    "code": "<?php\n\n    $document = (object) [\n        '@context' => 'https://schema.org',\n        '@type'    => 'Article',\n        'headline' => 'Understanding JSON-LD',\n        'author'   => (object) ['@type' => 'Person', 'name' => 'Ada Lovelace'],\n    ];\n    \n    echo json_encode($document, JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES);\n\n?>",
+    "documentation": "https://www.w3.org/TR/json-ld11/",
+    "related": [
+        "json",
+        "json_decode",
+        "rdf"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.w3.org/TR/json-ld11/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "lanthaler/JsonLD",
+            "url": "https://github.com/lanthaler/JsonLD"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "JSON-LD home",
+            "url": "https://json-ld.org/"
+        }
+    ],
+    "tags": [
+        "standard",
+        "format",
+        "semantic-web",
+        "acronym"
+    ],
+    "packagist": [
+        "ml/json-ld"
+    ],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 03 Sep 2026 09:05:06 +0000"
+}

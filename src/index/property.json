@@ -1,0 +1,78 @@
+{
+    "id": "property",
+    "name": "Properties",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/property.html",
+    "aliases": [
+        "member"
+    ],
+    "description": "Class properties are variables, local to an object or a class.\n\nClass properties might have visibility, chosen among: public, protected and private. public is the default.\n\nClass properties might have an asymmetric visibility for writing, chosen among: ``public(set)``, ``protected(set)`` and ``private(set)``. By default, it is the same as the read visibility.\n\nClass properties might have a default value. By default it is ``null``.\n\nClass properties might have a type, since PHP 7.4\n\nClass properties might be readonly, for properties which are only set once, and cannot be modified. \n\nClass properties might be static, and not related to an object, but to a class. \n\nA property must be uniquely defined in a class. Class properties may be redefined in children or parent when the visibility allows it.\n\nProperties are also called members.",
+    "code": "<?php\n\n    class Elephpant {\n        private $trunkLength = 1;\n    }\n\n?>",
+    "documentation": "https://www.php.net/manual/en/language.oop5.properties.php",
+    "related": [
+        "visibility",
+        "static",
+        "class",
+        "interface",
+        "trait",
+        "enum",
+        "readonly",
+        "attribute",
+        "default-value",
+        "magic-property",
+        "dynamic-property",
+        "property-hook",
+        "type",
+        "asymmetric-visibility",
+        "data-container",
+        "static-property",
+        "stdclass",
+        "typed-property",
+        "method",
+        "readable",
+        "virtual-property",
+        "writable",
+        "get_object_vars",
+        "promoted-property",
+        "type-declaration-property",
+        "var",
+        "writeable",
+        "non-static",
+        "state",
+        "computed-property",
+        "data-hiding",
+        "modifier",
+        "mutable-state"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.oop5.properties.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Class properties",
+            "url": "https://www.php-cpp.com/documentation/properties"
+        }
+    ],
+    "tags": [
+        "attribute",
+        "feature",
+        "readonly",
+        "data-container"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 17 Sep 2026 07:38:40 +0000"
+}

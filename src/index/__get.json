@@ -1,0 +1,51 @@
+{
+    "id": "__get",
+    "name": "__get() Method",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/__get.html",
+    "aliases": [],
+    "description": "``__get()`` is a magic method: it is utilized for reading data from inaccessible, either protected or private, or non-existing properties.\n\nThat way, it is possible to dynamically create properties, without hardcoding them.\n\nThe ``__get()`` method is usually paired with the ``__set()`` method.\n\nThe method signature is ``public function __get(string $name): mixed``. The ``$name`` argument is the name of the property being interacted with. \n\nThe method must be declared as ``public``, or it is implicit. Arguments cannot be passed by reference. Property overloading only works in object context and will not be triggered in static context. \n\n``__get()`` is never called when chaining assignments together like ``$a = $obj->b = 8;``. PHP will not call an overloaded method from within the same overloaded method: writing ``return $this->foo`` inside of ``__get()`` will return ``null`` and raise an ``E_WARNING`` if there is no ``foo`` property defined, rather than calling ``__get()`` a second time.",
+    "code": "<?php\n\n    class Elephpant {\n        private $values = ['a' => 1,\n                           'b' => 2,\n                           ];\n\n        // Checks the dictionary, or return 0\n        function __get($name) {\n            if (isset($this->values[$name])) {\n                return $this->values[$name];\n            }\n            \n            return 0;\n        }\n    }\n\n?>",
+    "documentation": "https://www.php.net/manual/en/language.oop5.magic.php",
+    "related": [
+        "__set",
+        "__isset",
+        "magic-constant",
+        "magic-method",
+        "magic-property",
+        "property-hook"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.oop5.magic.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "What are magic methods and how to use them in PHP ?",
+            "url": "https://www.geeksforgeeks.org/what-are-magic-methods-and-how-to-use-them-in-php/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "__get(), __set(), __isset() and __unset()",
+            "url": "https://riptutorial.com/php/example/3635/--get------set------isset---and---unset--"
+        }
+    ],
+    "tags": [
+        "magic method"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+}

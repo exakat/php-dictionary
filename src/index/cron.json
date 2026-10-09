@@ -1,0 +1,52 @@
+{
+    "id": "cron",
+    "name": "Cron",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/cron.html",
+    "aliases": [
+        "cronjob",
+        "scheduler"
+    ],
+    "description": "A cron job is a scheduled task that runs PHP code automatically at specified times or intervals, without a web request.\n\nIt's usually handled by the operating system, such as Linux/Unix cron daemon, not by PHP itself. \n\nThere are many cron alternatives, like ``systemd`` timers, framework schedulers, components schedulers, Windows Task Scheduler, ``Kubernetes CronJobs``, cloud-native schedulers, database-backed schedulers, HTTP-based scheduling, and workflow schedulers.",
+    "code": "",
+    "documentation": "https://en.wikipedia.org/wiki/Cron",
+    "related": [
+        "jobqueue",
+        "task"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Cron"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "How to Create PHP Cron Jobs on Linux Server",
+            "url": "https://blog.radwebhosting.com/create-php-cron-jobs-on-linux-server/"
+        }
+    ],
+    "tags": [
+        "architecture"
+    ],
+    "packagist": [
+        "symfony/scheduler",
+        "peppeocchi/php-cron-scheduler",
+        "crunzphp/crunz",
+        "woocommerce/action-scheduler"
+    ],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Mon, 17 Aug 2026 07:43:59 +0000"
+}

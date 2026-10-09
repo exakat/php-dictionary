@@ -1,0 +1,58 @@
+{
+    "id": "cdn",
+    "name": "Content Delivery Network (CDN)",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/cdn.html",
+    "aliases": [
+        "content-delivery-network"
+    ],
+    "description": "A Content Delivery Network, or CDN, is a geographically distributed network of proxy servers that delivers content to end-users from the node closest to them, reducing latency and offloading traffic from the origin server.\n\nCDNs cache static assets, images, CSS, JavaScript, fonts, etc. and serve them with appropriate HTTP headers. They can also handle dynamic content acceleration, DDoS mitigation, TLS termination, and edge-side logic.\n\nPHP contributes by setting correct HTTP caching headers so the CDN knows what to cache, for how long, and when to revalidate.",
+    "code": "<?php\n\n    // Tell the CDN it may cache this response for 1 day; browsers for 1 hour\n    header('Cache-Control: public, max-age=3600, s-maxage=86400');\n    header('Vary: Accept-Encoding');\n    \n    // Provide an ETag so the CDN can validate without a full download\n    $etag = md5_file(__DIR__ . '/asset.js');\n    header('ETag: \"' . $etag . '\"');\n    \n    if (isset($_SERVER['HTTP_IF_NONE_MATCH']) && $_SERVER['HTTP_IF_NONE_MATCH'] === '\"' . $etag . '\"') {\n        http_response_code(304);\n        exit;\n    }\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Content_delivery_network",
+    "related": [
+        "cache",
+        "latency",
+        "http-header",
+        "load-balancer",
+        "edge-computing",
+        "horizontal-scaling",
+        "ttl"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Content_delivery_network"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Using a PHP CDN Setup",
+            "url": "https://www.keycdn.com/support/php-cdn"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "CDN PHP (a lightweight CDN)",
+            "url": "https://github.com/babeuloula/cdn-php"
+        }
+    ],
+    "tags": [
+        "architecture",
+        "performance",
+        "web",
+        "frontend",
+        "acronym"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 17 Sep 2026 08:30:18 +0000"
+}

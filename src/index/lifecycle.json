@@ -1,0 +1,53 @@
+{
+    "id": "lifecycle",
+    "name": "Lifecycle",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/lifecycle.html",
+    "aliases": [],
+    "description": "The lifecycle of an application spans from initial development to decommissioning, covering stages like specifications, prototyping, coding, testing, deployment, maintenance, and eventual retirement. \n\nUnderstanding the lifecycle helps teams build, deploy, and manage applications efficiently while ensuring reliability, security, and scalability.\n\nThe lifecycle is different depending on the team building it, and factors like community effort, personal interest or company mission.\n\nAs such, PHP itself has a lifecycle, with the regular release of a new version every year.\n\nLifecycle also refers to the execution cycle or request lifecycle, from starting the PHP engine, executing the code and terminating.\n",
+    "code": "",
+    "documentation": "https://en.wikipedia.org/wiki/Systems_development_life_cycle",
+    "related": [
+        "sdlc",
+        "execution",
+        "bootstrap",
+        "code-freeze",
+        "tco"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Systems_development_life_cycle"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Learning the PHP lifecycle",
+            "url": "https://www.phpinternalsbook.com/php7/extensions_design/php_lifecycle.html"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP Community Support Lifecycle Changes: What Do They Mean for Your Team?",
+            "url": "https://www.zend.com/blog/php-release-cycle-changes"
+        }
+    ],
+    "tags": [
+        "lifecycle",
+        "disambiguation"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sat, 11 Jul 2026 14:51:00 +0000"
+}

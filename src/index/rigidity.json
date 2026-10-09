@@ -1,0 +1,45 @@
+{
+    "id": "rigidity",
+    "name": "Rigidity",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/rigidity.html",
+    "aliases": [],
+    "description": "Rigidity is when a change in one place forces changes in many other places. The code resists modification: one pull one thread and the whole sweater unravels.\n\nRigidity is reduced by using abstraction or modularity.\n\nThe opposite of rigidity is flexibility.\n",
+    "code": "",
+    "documentation": "https://en.wikipedia.org/wiki/SOLID",
+    "related": [
+        "flexibility",
+        "module",
+        "direct-output"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/SOLID"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP: The Flexibility that can Make or Break your Team Project",
+            "url": "https://www.linkedin.com/pulse/php-flexibility-can-make-break-your-team-project-gerrit-vermeulen"
+        }
+    ],
+    "tags": [
+        "code architecture"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sat, 08 Aug 2026 14:32:42 +0000"
+}

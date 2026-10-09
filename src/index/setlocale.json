@@ -1,0 +1,48 @@
+{
+    "id": "setlocale",
+    "name": "setlocale",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/setlocale.html",
+    "aliases": [],
+    "description": "``setlocale()`` is a built-in PHP function that sets locale information, affecting string functions such as ``strtolower()``, ``strtoupper()``, ``strcmp()``, ``strftime()`` and number formatting.\n\n``setlocale()`` changes a global state: once called, it affects all subsequent locale-sensitive operations in the same process. This makes it fragile in long-running applications or when multiple locales are needed simultaneously. The locale must be available on the host system, and availability varies across platforms.\n\nFor locale-aware string handling, the ``Intl`` extension provides a more robust and portable alternative, with classes such as ``Collator``, ``NumberFormatter``, and ``IntlDateFormatter``.\n\n``setlocale()`` returns the new locale string on success, or ``false`` if the locale cannot be set.\n",
+    "code": "<?php\n\n    // Set locale to French\n    setlocale(LC_ALL, 'fr_FR.UTF-8');\n\n    // Affects string and number functions globally\n    echo strtolower('\u00c9'); // may behave differently depending on locale\n\n    // Locale may not be available on all systems\n    if (setlocale(LC_ALL, 'fr_FR.UTF-8') === false) {\n        // locale not available on this host\n    }\n\n    // Prefer Intl for portable locale-aware operations\n    $formatter = new NumberFormatter('fr_FR', NumberFormatter::DECIMAL);\n    echo $formatter->format(1234567.89); // 1 234 567,89\n\n?>",
+    "documentation": "https://www.php.net/manual/en/function.setlocale.php",
+    "related": [
+        "intl",
+        "strtolower",
+        "strtoupper",
+        "locale"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/function.setlocale.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "setlocale() and its six personalities",
+            "url": "https://www.exakat.io/setlocale-and-its-six-personalities/"
+        }
+    ],
+    "tags": [
+        "native function"
+    ],
+    "packagist": [],
+    "extensions": [
+        "intl"
+    ],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Wed, 02 Sep 2026 14:56:58 +0000"
+}

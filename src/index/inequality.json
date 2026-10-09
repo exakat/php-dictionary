@@ -1,0 +1,44 @@
+{
+    "id": "inequality",
+    "name": "Inequality",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/inequality.html",
+    "aliases": [],
+    "description": "Inequalities are the mathematical comparison of values, with the ``>``,  ``>=``,  ``<`` and ``<=`` operators.\n\nUnlike the equality operators, they do not have a strict version, which takes into account the type of the values. Hence, the compared values are always adapted to each other's type.",
+    "code": "<?php\n\n// displays false\nvar_dump(\"3\" > 3);\n\n// displays true\nvar_dump(4 >= 0)\n\n?>",
+    "documentation": "https://www.php.net/manual/en/language.operators.comparison.php",
+    "related": [
+        "equal"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.operators.comparison.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP hack: Testing for inequality in switch statements",
+            "url": "https://dev.to/zenulabidin/php-hack-testing-for-inequality-in-switch-statements-253d"
+        }
+    ],
+    "tags": [
+        "math",
+        "comparison"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Wed, 19 Aug 2026 06:49:15 +0000"
+}

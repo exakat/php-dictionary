@@ -1,0 +1,62 @@
+{
+    "id": "proxy-class",
+    "name": "Proxy Class",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/proxy-class.html",
+    "aliases": [
+        "lazy-proxy",
+        "virtual-proxy"
+    ],
+    "description": "A proxy class is a class that stands in for another class, intercepting calls and delegating them to the real object. Proxy classes are used to add behaviour transparently: lazy initialisation, access control, logging, or caching.\n\nPHP 8.4 introduced native lazy objects at the engine level, enabling the creation of proxy instances that defer construction of the wrapped object until it is first accessed. This replaces many library-based approaches for virtual proxies.\n\nBefore PHP 8.4, proxy classes were typically generated at runtime using tools such as ``ocramius/proxy-manager`` or Symfony's lazy service proxies. These tools generate a subclass that overrides every method to intercept calls, then delegates to the real instance.\n\nA proxy class must implement the same interface or extend the same base class as the proxied object so that it is transparent to callers.",
+    "code": "<?php\n\n// PHP 8.4 native lazy proxy\nclass HeavyService\n{\n    public function __construct()\n    {\n        // Expensive initialization\n    }\n\n    public function compute(): int\n    {\n        return 42;\n    }\n}\n\n$reflector = new ReflectionClass(HeavyService::class);\n$proxy = $reflector->newLazyProxy(function (HeavyService $proxy): HeavyService {\n    return new HeavyService(); // called only on first access\n});\n\n// HeavyService::__construct() has not been called yet\necho $proxy->compute(); // triggers initialisation, outputs 42\n\n?>",
+    "documentation": "https://www.php.net/manual/en/language.oop5.lazy-objects.php",
+    "related": [
+        "proxy",
+        "lazy-objects",
+        "lazy-loading",
+        "interface",
+        "design-pattern",
+        "decorator",
+        "direct-output",
+        "flexibility"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.oop5.lazy-objects.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Using PHP 8.4's Lazy Objects",
+            "url": "https://www.phparch.com/2025/01/using-php-8-4s-lazy-objects/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP 8.4: Lazy Objects\u2014Ghost vs Proxy (When to Use Which)",
+            "url": "https://idnasirasira.com/blog/php-84-lazy-objects-ghost-vs-proxy"
+        }
+    ],
+    "tags": [
+        "design pattern",
+        "object",
+        "php 8.4"
+    ],
+    "packagist": [
+        "ocramius/proxy-manager"
+    ],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "8.4",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Tue, 18 Aug 2026 05:24:21 +0000"
+}

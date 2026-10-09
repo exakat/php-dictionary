@@ -1,0 +1,50 @@
+{
+    "id": "borrow-checking",
+    "name": "Ownership",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/borrow-checking.html",
+    "aliases": [
+        "ownership"
+    ],
+    "description": "Ownership, and Borrow Checking, is a compile-time memory model, central to Rust, in which every value has exactly one owning variable at a time. Moving a value transfers ownership and invalidates the previous owner; borrowing lets code use a value temporarily through a reference, either one mutable borrow or any number of read-only borrows at once, but never both simultaneously. The borrow checker enforces these rules at compile time, which is how Rust prevents data races and use-after-free bugs without a garbage collector.\n\nBecause the rules are purely static, a program that violates them is simply rejected by the compiler before it ever runs; there is no runtime cost and no runtime check.\n\nPHP has no ownership model and no borrow checker. Objects are reference-counted and garbage-collected: a value can be referenced from as many variables as needed, simultaneously and without restriction, and the engine tracks lifetime automatically rather than the type system enforcing exclusive access. This removes an entire class of bugs the borrow checker targets, at the cost of PHP being unable to statically guarantee the absence of concurrent, conflicting mutation of the same object from unrelated parts of a program.",
+    "code": "",
+    "documentation": "view-source:https://en.wikipedia.org/wiki/Rust_(programming_language)#Ownership_and_references",
+    "related": [
+        "move-semantics",
+        "readonly",
+        "immutable",
+        "garbage-collection",
+        "shared-memory"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "view-source:https://en.wikipedia.org/wiki/Rust_(programming_language)#Ownership_and_references"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Ownership in Rust",
+            "url": "https://doc.rust-lang.org/book/ch04-01-what-is-ownership.html"
+        }
+    ],
+    "tags": [
+        "concept",
+        "not supported"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Wed, 02 Sep 2026 16:41:00 +0000"
+}

@@ -1,0 +1,55 @@
+{
+    "id": "monetary",
+    "name": "Monetary Formatting",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/monetary.html",
+    "aliases": [
+        "money_format"
+    ],
+    "description": "Monetary formatting is the locale-aware presentation of a numeric value as a currency amount, correctly choosing the currency symbol, its position before or after the number, the decimal and thousands separators, and the number of decimal places for the target locale and currency; the same value of 1234.56 should display as $1,234.56 in the United States and as 1 234,56 \u20ac in France. PHP originally handled this through ``setlocale(LC_MONETARY, ...)`` together with ``localeconv()``, which exposes the current locale's monetary conventions as an array, and the dedicated ``money_format()`` function, but ``money_format()`` was deprecated in version 7.4 and removed entirely in version 8.0. The modern replacement is the NumberFormatter class from the ``intl`` extension, constructed with a locale and the ``NumberFormatter::CURRENCY`` style, whose ``formatCurrency()`` method produces a correctly formatted string for any given locale and ISO 4217 currency code, and whose companion ``parseCurrency()`` method can parse a formatted string back into a numeric value and currency code. Because formatting money incorrectly is an easy and visible mistake in international applications, using ``NumberFormatter`` rather than manual string concatenation is the recommended approach in current PHP code.",
+    "code": "<?php\n\n    $fmt = new NumberFormatter('fr_FR', NumberFormatter::CURRENCY);\n    echo $fmt->formatCurrency(1234.56, 'EUR');\n    // 1 234,56 \u20ac\n    \n    $fmt = new NumberFormatter('en_US', NumberFormatter::CURRENCY);\n    echo $fmt->formatCurrency(1234.56, 'USD');\n    // $1,234.56\n\n?>",
+    "documentation": "https://www.php.net/manual/en/numberformatter.formatcurrency.php",
+    "related": [
+        "intl",
+        "locale",
+        "setlocale"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/numberformatter.formatcurrency.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "How to format currencies in PHP",
+            "url": "https://www.koladechris.com/blog/how-to-format-currencies-in-php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Death by a Thousand Rounds: PHP meets Money",
+            "url": "https://phpconference.nl/session/death-by-a-thousand-rounds-php-meets-money/"
+        }
+    ],
+    "tags": [
+        "extension",
+        "concept"
+    ],
+    "packagist": [],
+    "extensions": [
+        "intl"
+    ],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 17 Sep 2026 07:51:59 +0000"
+}

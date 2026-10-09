@@ -1,0 +1,48 @@
+{
+    "id": "cross-cutting-concerns",
+    "name": "Cross-cutting Concerns",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/cross-cutting-concerns.html",
+    "aliases": [
+        "crosscutting-concerns"
+    ],
+    "description": "Cross-cutting concerns are aspects of a system that affect multiple layers or components but cannot be cleanly encapsulated in any single module. They cut across the boundaries of the architecture rather than living within one well-defined layer.\n\nCommon examples: logging, authentication and authorisation, caching, transaction management, error handling, input validation, and metrics collection.\n\nThe problem is that naively implementing a cross-cutting concern leads to code duplication: the same logging or auth check is copy-pasted into dozens of classes. When the requirement changes, every copy must be updated.\n\nPossible solutions:\n\n- Middleware, PSR-15: ``HTTP`` pipeline stages that wrap every request/response\n- Event listeners / hooks: framework events dispatched at lifecycle points\n- Decorators: wrap a service class to add behaviour without modifying it\n- PHP Attributes + compile-time code generation, such as AOP with Spiral Framework\n- Aspect-Oriented Programming, AOP: intercepts method calls to inject cross-cutting logic.",
+    "code": "<?php\n\n// Middleware: authentication as a cross-cutting concern\nclass AuthMiddleware implements MiddlewareInterface {\n    public function process(ServerRequestInterface $req, RequestHandlerInterface $next): ResponseInterface {\n        $token = $req->getHeaderLine('Authorization');\n        if (!$this->auth->validate($token)) {\n            return new Response(401);\n        }\n        return $next->handle($req); // all subsequent handlers see an authenticated request\n    }\n}\n\n// Decorator: caching as a cross-cutting concern\nclass CachedOrderRepository implements OrderRepository {\n    public function __construct(\n        private OrderRepository $inner,\n        private CacheInterface  $cache,\n    ) {}\n\n    public function findById(int $id): ?Order {\n        return $this->cache->get(order:$id, fn() => $this->inner->findById($id));\n    }\n}\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Cross-cutting_concern",
+    "related": [
+        "aspect-oriented",
+        "middleware",
+        "decorator",
+        "separation-of-concerns",
+        "layered-architecture",
+        "log-file"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Cross-cutting_concern"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Modeling Cross Cutting Concerns",
+            "url": "https://docs.typo3.org/m/typo3/reference-coreapi/6.2/en-us/CodingGuidelines/PhpArchitecture/ModelingCrossCuttingConcerns/Index.html"
+        }
+    ],
+    "tags": [
+        "concept"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Tue, 01 Sep 2026 05:31:03 +0000"
+}

@@ -1,0 +1,45 @@
+{
+    "id": "autovivification",
+    "name": "Autovivification",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/autovivification.html",
+    "aliases": [],
+    "description": "Autovivification is the automatic creation of an array when a value is dereferenced.\n\nAutovivification from scalars, including true, is deprecated since PHP 7.4 and removed in version 8.0. \n\nAutovivification from ``false`` is deprecated since PHP 8.1. \n\nAutovivification from null is valid.",
+    "code": "<?php\n\n    $a = false;\n    $a[1] = 2;\n    \n    $b = null;\n    $b[3] = 4;\n\n?>",
+    "documentation": "https://www.php.net/manual/en/migration81.deprecated.php#migration81.deprecated.core.autovivification-false",
+    "related": [
+        "null",
+        "false",
+        "array",
+        "default-value"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/migration81.deprecated.php#migration81.deprecated.core.autovivification-false"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Autovivification on wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Autovivification"
+        }
+    ],
+    "tags": [
+        "false",
+        "null"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "5.0",
+    "phpVersionUntil": "8.0",
+    "phpVersionDeprecated": "8.1",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sat, 08 Aug 2026 08:10:54 +0000"
+}

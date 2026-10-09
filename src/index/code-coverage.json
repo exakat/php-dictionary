@@ -1,0 +1,57 @@
+{
+    "id": "code-coverage",
+    "name": "Code Coverage",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/code-coverage.html",
+    "aliases": [],
+    "description": "Code coverage lists all the source code lines that were used while executing a test.\n\nEach line that is reported by code coverage is a line that contributed to the success of the test. By extension, each line that was not part of the code coverage may be hosting an unexpected behavior, leading to a bug.",
+    "code": "",
+    "documentation": "https://en.wikipedia.org/wiki/Code_coverage",
+    "related": [
+        "test",
+        "coverage",
+        "mutation-test",
+        "test-framework"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Code_coverage"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHPUnit: Code Coverage Analysis",
+            "url": "https://docs.phpunit.de/en/13.3/code-coverage.html#code-coverage"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Xdebug: Code Coverage",
+            "url": "https://xdebug.org/docs/code_coverage"
+        }
+    ],
+    "tags": [
+        "quality",
+        "test"
+    ],
+    "packagist": [
+        "phpunit/php-code-coverage"
+    ],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": {
+        "PHPUnit": "https://phpunit.de/",
+        "Xdebug": "https://xdebug.org/"
+    },
+    "popularity": "",
+    "modified": "Fri, 18 Sep 2026 04:45:08 +0000"
+}

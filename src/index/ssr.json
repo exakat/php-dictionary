@@ -1,0 +1,52 @@
+{
+    "id": "ssr",
+    "name": "Server-Side Rendering (SSR)",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/ssr.html",
+    "aliases": [
+        "server-side-rendering"
+    ],
+    "description": "Server-side rendering, or SSR, is the technique of generating a complete HTML page on the server, before sending it to the browser, rather than building the page dynamically in the client with JavaScript.\n\nPHP is intrinsically a server-side rendering language: templates and echoed markup are assembled into HTML on each request, and the browser receives a fully formed page. This differs from client-side rendering, where a browser downloads a mostly empty page plus a JavaScript bundle, and builds the DOM after the scripts run.\n\nServer-side rendering improves the time to first paint, and it helps search engines and other crawlers, which may not execute JavaScript, to index the content directly. Frameworks that render client-side, like React or Vue, can still adopt server-side rendering for their first render, then hand off interactivity to the client: this hybrid approach is called hydration.",
+    "code": "<?php\n\n    // Server-side rendering: PHP builds the full HTML page for each request.\n    $items = ['Coffee', 'Tea', 'Cocoa'];\n\n    echo '<ul>';\n    foreach ($items as $item) {\n        echo '<li>' . htmlspecialchars($item) . '</li>';\n    }\n    echo '</ul>';\n    // The browser receives complete, ready-to-display markup.\n\n?>",
+    "documentation": "https://developer.mozilla.org/en-US/docs/Glossary/SSR",
+    "related": [
+        "spa",
+        "template",
+        "twig",
+        "mvc",
+        "seo",
+        "javascript"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://developer.mozilla.org/en-US/docs/Glossary/SSR"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Client-side rendering (CSR) - MDN",
+            "url": "https://developer.mozilla.org/en-US/docs/Glossary/CSR"
+        }
+    ],
+    "tags": [
+        "acronym",
+        "concept",
+        "architecture"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Mon, 21 Sep 2026 19:22:43 +0000"
+}

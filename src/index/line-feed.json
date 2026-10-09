@@ -1,0 +1,51 @@
+{
+    "id": "line-feed",
+    "name": "Line Feed",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/line-feed.html",
+    "aliases": [],
+    "description": "A line feed is a whitespace character, that historically represents moving the cursor to the next line, without going back to the beginning of the line.\n\nA line feed is represented by the escape sequence ``\\f``, in double quote strings. It is also the ASCII code 12.\n\nLine feed are important when formatting code, as they are at the end of a line.",
+    "code": "<?php\n\n    echo \"\\f\";\n    echo chr(12); // ASCII code 12\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Newline",
+    "related": [
+        "new-line",
+        "carriage-return",
+        "ascii",
+        "return-carriage"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Newline"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Double quoted strings escape sequences",
+            "url": "https://www.php.net/manual/en/language.types.string.php#language.types.string.syntax.double"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Carriage return (Wikipedia)",
+            "url": "https://en.wikipedia.org/wiki/Carriage_return"
+        }
+    ],
+    "tags": [
+        "character"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sat, 15 Aug 2026 12:09:39 +0000"
+}

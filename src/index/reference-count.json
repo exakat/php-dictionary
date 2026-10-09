@@ -1,0 +1,51 @@
+{
+    "id": "reference-count",
+    "name": "Reference Count",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/reference-count.html",
+    "aliases": [
+        "refcount"
+    ],
+    "description": "Reference counting is the way PHP keeps track of the usage of a value.\n\nThe count starts at 1 when the value is created, and it is increased when the value is passed around. It is decreased when the value is deleted or modified. When the reference count is zero, the value may be removed from the memory safely. \n\nReference counting is a feature of the PHP engine: code usually uses it transparently. The only possible interaction is when using the garbage collector.",
+    "code": "",
+    "documentation": "https://www.php.net/manual/en/features.gc.refcounting-basics.php",
+    "related": [
+        "garbage-collection",
+        "zval"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/features.gc.refcounting-basics.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Garbage Collection",
+            "url": "https://www.php.net/manual/en/features.gc.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "gc_collect_cycles",
+            "url": "https://www.php.net/manual/en/function.gc-collect-cycles.php"
+        }
+    ],
+    "tags": [
+        "memory",
+        "engine",
+        "reference"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Fri, 09 Oct 2026 17:25:39 +0000"
+}

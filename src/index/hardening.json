@@ -1,0 +1,56 @@
+{
+    "id": "hardening",
+    "name": "Hardening",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/hardening.html",
+    "aliases": [],
+    "description": "Hardening refers to raising the security level in the installation of PHP, and other related technologies. It means reviewing the default or installed configurations and set ups, to make them safer.\n\nFor example, by default, PHP displays its version number in the HTTP headers, with ``X-Powered-By``. This may be hidden, so as not to disclose any information, by setting ``expose_php`` directive to off, or ``0`` in the ``php.ini`` file.",
+    "code": "",
+    "documentation": "https://cheatsheetseries.owasp.org/cheatsheets/PHP_Configuration_Cheat_Sheet.html",
+    "related": [
+        "expose_php"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://cheatsheetseries.owasp.org/cheatsheets/PHP_Configuration_Cheat_Sheet.html"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "How to Hide PHP Version Number in HTTP Header",
+            "url": "https://www.tecmint.com/hide-php-version-http-header/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP Hardening: Strategies to Meet Compliance Requirements",
+            "url": "https://www.zend.com/blog/php-hardening-strategies"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Modern PHP Security Part 2: Breaching and hardening the PHP engine",
+            "url": "https://labs.detectify.com/security-guidance/modern-php-security-part-2-breaching-and-hardening-the-php-engine/"
+        }
+    ],
+    "tags": [
+        "security"
+    ],
+    "packagist": [
+        "drupal/core-vendor-hardening",
+        "jvmtech/neos-hardening"
+    ],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Tue, 11 Aug 2026 20:51:53 +0000"
+}

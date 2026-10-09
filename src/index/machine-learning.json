@@ -1,0 +1,53 @@
+{
+    "id": "machine-learning",
+    "name": "Machine Learning",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/machine-learning.html",
+    "aliases": [],
+    "description": "Machine learning is a field of artificial intelligence, which teaches an application how to react to a vast number of situations with a training dataset, before applying these teachings on new situations.",
+    "code": "",
+    "documentation": "https://en.wikipedia.org/wiki/Machine_learning",
+    "related": [
+        "ai",
+        "neural-network",
+        "algorithm",
+        "llm"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Machine_learning"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Artificial intelligence (Wikipedia)",
+            "url": "https://en.wikipedia.org/wiki/Artificial_intelligence"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP-ML",
+            "url": "https://packagist.org/packages/php-ai/php-ml"
+        }
+    ],
+    "tags": [
+        "concept"
+    ],
+    "packagist": [],
+    "extensions": [
+        "fann"
+    ],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sat, 15 Aug 2026 12:09:17 +0000"
+}

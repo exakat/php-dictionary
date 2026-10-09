@@ -1,0 +1,77 @@
+{
+    "id": "package-manager",
+    "name": "Package Manager",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/package-manager.html",
+    "aliases": [
+        "dependency-manager"
+    ],
+    "description": "A package manager is a tool that automates the process of installing, upgrading, configuring, and removing software packages. Packages are reusable units of code, often called libraries or dependencies.\n\nIn the PHP ecosystem, Composer is the dominant package manager. It resolves dependency trees, downloads packages from Packagist, and generates an autoloader. The ``composer.json`` file declares direct dependencies, while ``composer.lock`` pins the exact versions of every resolved package.\n\nOther ecosystems have their own package managers: npm and Yarn for JavaScript, pip for Python, gem for Ruby, and apt or brew at the OS level. PHP also has PEAR, older, mostly replaced by Composer, and PIE, a modern extension installer.\n\nPackage managers bring reproducibility, security auditability, and semantic versioning to dependency management.",
+    "code": "",
+    "documentation": "https://getcomposer.org/",
+    "related": [
+        "composer",
+        "packagist",
+        "pear",
+        "pie",
+        "dependency",
+        "installation",
+        "supply-chain",
+        "semantic-versioning",
+        "checksum"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://getcomposer.org/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Composer documentation",
+            "url": "https://getcomposer.org/doc/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "phpkg",
+            "url": "https://phpkg.com/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Fusion",
+            "url": "https://gitlab.com/valvoid/fusion/code"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "pcomposer",
+            "url": "https://github.com/rgodiyal/pcomposer"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "phive",
+            "url": "https://github.com/phar-io/phive"
+        }
+    ],
+    "tags": [
+        "tool",
+        "dependency",
+        "ecosystem"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": {
+        "Composer": "https://getcomposer.org/"
+    },
+    "popularity": "",
+    "modified": "Fri, 18 Sep 2026 04:55:50 +0000"
+}

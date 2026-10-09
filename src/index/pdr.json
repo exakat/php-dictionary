@@ -1,0 +1,45 @@
+{
+    "id": "pdr",
+    "name": "Product Requirements Document (PDR)",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/pdr.html",
+    "aliases": [],
+    "description": "A Product Requirements Document, or PRD, is a formal document used in product management to outline the purpose, features, functionality, and behavior of a product or feature before development begins. It serves as a blueprint for the product team, developers, designers, and stakeholders, ensuring everyone is aligned on what needs to be built and why.",
+    "code": "",
+    "documentation": "https://en.wikipedia.org/wiki/Product_requirements_document",
+    "related": [
+        "documentation",
+        "adr"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Product_requirements_document"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Product Requirements Document",
+            "url": "https://www.productplan.com/glossary/product-requirements-document/"
+        }
+    ],
+    "tags": [
+        "documentation",
+        "acronym"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Mon, 15 Jun 2026 11:03:59 +0000"
+}

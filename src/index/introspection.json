@@ -1,0 +1,52 @@
+{
+    "id": "introspection",
+    "name": "Introspection",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/introspection.html",
+    "aliases": [],
+    "description": "Introspection is the ability to examine the properties and behavior of objects, classes, and functions at runtime. It allows code to discover and inspect its own structure.\n\nPHP provides many native introspection functions: ``get_class()``, ``get_object_vars()``, ``get_class_vars()``, ``get_class_methods()``, ``method_exists()``, ``property_exists()``, ``function_exists()``, ``is_a()``, ``instanceof``, and others.\n\nFor deeper introspection, the Reflection API provides programmatic access to class hierarchies, method signatures, parameter types, and attributes.",
+    "code": "<?php\n\n    class Dog {\n        public string $name = 'Rex';\n        public function bark(): void {}\n    }\n    \n    $dog = new Dog();\n    \n    var_dump(get_class($dog));             // string(3) \"Dog\" \n    var_dump(get_object_vars($dog));       // Array ( [name] => Rex )\n    var_dump(get_class_methods($dog));     // Array ( [0] => bark )\n    var_dump(method_exists($dog, 'bark')); // bool(true)\n\n?>",
+    "documentation": "https://www.php.net/manual/en/book.reflection.php",
+    "related": [
+        "reflection",
+        "get_class",
+        "get_class_vars",
+        "get_object_vars",
+        "class_implements",
+        "reflector"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/book.reflection.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP Introspection Functions and Example Program",
+            "url": "https://www.computerscienceai.com/2019/11/php-introspective-functions-and-example-program.html"
+        }
+    ],
+    "tags": [
+        "concept",
+        "introspection",
+        "animal"
+    ],
+    "packagist": [],
+    "extensions": [
+        "reflection"
+    ],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Mon, 03 Aug 2026 16:09:23 +0000"
+}

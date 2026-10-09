@@ -1,0 +1,43 @@
+{
+    "id": "stubs",
+    "name": "Stubs Files",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/stubs.html",
+    "aliases": [],
+    "description": "Stubs files are PHP code, that contains only the definitions of classic PHP structures. Functions, constants, classes, interfaces, are defined, without any actual code in their body. They provide the definitions and signatures, in particular for type analysis or static code analysis reviews.\n\nStubs files are also used for PHP code templates: they are mostly made of PHP code, with placeholders, for later generations.",
+    "code": "<?php\n\n    $a = 0; // $a is getting overwritten\n    $array = extract(['a' => 1, 'b' => 2]);\n\n    echo $a + $b; // 2\n\n?>",
+    "documentation": "https://www.php.net/manual/en/function.extract.php",
+    "related": [
+        "compact"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/function.extract.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Stub Files - PHPStan User Guide",
+            "url": "https://phpstan.org/user-guide/stub-files"
+        }
+    ],
+    "tags": [
+        "concept"
+    ],
+    "packagist": [
+        "php-stubs/generator"
+    ],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Mon, 31 Aug 2026 17:35:28 +0000"
+}

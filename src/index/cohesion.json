@@ -1,0 +1,54 @@
+{
+    "id": "cohesion",
+    "name": "Cohesion",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/cohesion.html",
+    "aliases": [
+        "high-cohesion"
+    ],
+    "description": "Cohesion measures how closely related and focused the responsibilities of a single module, class, or function are. High cohesion means that a unit has a single, well-defined purpose and all its parts work toward that purpose. Low cohesion means it handles many unrelated concerns.\n\nHigh cohesion is a desirable property: it makes code easier to understand, test, maintain, and reuse. It is the ``C`` in the SOLID principle of Single Responsibility, or SRP, and is the counterpart of low coupling.\n\n``Robert C. Martin``'s common forms of cohesion, from weakest to strongest:\n\n+ Coincidental: parts are grouped arbitrarily, worst case\n+ Logical: parts perform similar operations, e.g., a utility class\n+ Temporal: parts are executed at the same time\n+ Procedural: parts follow a sequence of steps\n+ Communicational: parts operate on the same data\n+ Sequential: output of one part is input to the next\n+ Functional: all parts contribute to a single well-defined task, best case\n\nArchitectes aim for high cohesion and low coupling.",
+    "code": "<?php\n\n    // Low cohesion: the class does too many unrelated things\n    class Utilities {\n        public function sendEmail(string $to, string $body): void { /* ... */ }\n        public function calculateTax(float $price): float { return $price * 0.2; }\n        public function parseDate(string $date): DateTime { return new DateTime($date); }\n    }\n    \n    // High cohesion: each class has one focused responsibility\n    class Mailer {\n        public function send(string $to, string $body): void { /* ... */ }\n    }\n    \n    class TaxCalculator {\n        public function calculate(float $price): float { return $price * 0.2; }\n    }\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Cohesion_(computer_science)",
+    "related": [
+        "coupling",
+        "decoupling",
+        "srp",
+        "solid",
+        "separation-of-concerns",
+        "god-object",
+        "tech-silo"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Cohesion_(computer_science)"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP and Microservices: Balancing Cohesion and Coupling",
+            "url": "https://php-include.com/php-and-microservices-balancing-cohesion-and-coupling/"
+        }
+    ],
+    "tags": [
+        "concept",
+        "architecture"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": {
+        "Robert C. Martin": "http://blog.cleancoder.com/"
+    },
+    "brand": "",
+    "popularity": "",
+    "modified": "Fri, 18 Sep 2026 04:44:55 +0000"
+}

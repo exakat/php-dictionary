@@ -1,0 +1,50 @@
+{
+    "id": "imagickpixelexception",
+    "name": "ImagickPixelException",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/imagickpixelexception.html",
+    "aliases": [],
+    "description": "``ImagickPixelException`` is an exception class that is used to handle exceptions related to problems with ``ImagickPixel`` objects.\n\n``ImagickPixelException`` happens when using invalid color specification.\n\n``ImagickPixelException`` is related to the ``Imagick`` extension.",
+    "code": "<?php\n\n    try {\n        // valid creation\n        new ImagickPixel(\"LightCoral\");\n        \n        // invalid creation\n        new ImagickPixel(\"LightCorral\");\n    } catch (ImagickPixelException $e) {\n        log(\"Error while creating a pixel\");\n    }\n\n?>",
+    "documentation": "https://www.php.net/manual/en/imagickpixel.construct.php",
+    "related": [
+        "exception",
+        "imagick",
+        "imagickexception"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/imagickpixel.construct.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "ImagickException",
+            "url": "https://www.php.net/manual/en/class.imagickexception.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Exception handling (Wikipedia)",
+            "url": "https://en.wikipedia.org/wiki/Exception_handling"
+        }
+    ],
+    "tags": [
+        "exception"
+    ],
+    "packagist": [],
+    "extensions": [
+        "imagick"
+    ],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sun, 16 Aug 2026 07:46:06 +0000"
+}

@@ -1,0 +1,47 @@
+{
+    "id": "ide",
+    "name": "Integrated Environment of Development (IDE)",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/ide.html",
+    "aliases": [],
+    "description": "An IDE is a development tools which thrive to gather all needed tools in one place to allow for a full development experience.\n\n+ Syntax Highlighting\n+ Code Completion\n+ Snippets & Templates\n+ Refactoring Tools\n+ Multiple Cursors/Selections\n+ Static Code Analysis\n+ Debugging\n+ PHPDoc Support\n+ Framework Awareness\n+ Project Navigation\n+ Version Control\n+ Database Tools\n+ Composer & Dependency Management\n+ Remote Development\n+ Linters & Formatters\n+ Code Review Tools\n+ Testing Support\n+ Performance Profiling\n+ Plugin Ecosystem\n+ Custom Themes & Keymaps\n+ Multi-Language Support\n\nIDE are often compared to editor, which focus on reactivity and a more limited set of features, and AI editors, where the AI handles management of the complementary tools.",
+    "code": "",
+    "documentation": "https://en.wikipedia.org/wiki/Integrated_development_environment",
+    "related": [
+        "php-editor",
+        "php-ai-editor",
+        "autocompletion",
+        "debug",
+        "debugger",
+        "language-service-protocol",
+        "xdebug"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Integrated_development_environment"
+        }
+    ],
+    "tags": [
+        "tool"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": {
+        "PhpStorm": "https://www.jetbrains.com/phpstorm/promo/",
+        "VS Code": "https://code.visualstudio.com/",
+        "Eclipse": "https://eclipseide.org/",
+        "NetBeans": "https://netbeans.apache.org/front/main/index.html"
+    },
+    "popularity": "",
+    "modified": "Fri, 18 Sep 2026 05:06:57 +0000"
+}

@@ -1,0 +1,53 @@
+{
+    "id": "standard",
+    "name": "Standard",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/standard.html",
+    "aliases": [
+        "norm"
+    ],
+    "description": "A standard, in the context of programming languages and software development, refers to a set of rules, specifications, or guidelines that ensure consistency, interoperability, and quality. \n\nStandards are established to:\n\n+ Define Behavior: specify how a language, library, or protocol should work\n+ Ensure Interoperability: allow different implementations to work together seamlessly\n+ Promote Best Practices: encourage reliability, security, and maintainability\n+ Facilitate Adoption: provide a common reference for developers, vendors, and users\n\nStandards emerge from practice, or are specified first, then implemented.",
+    "code": "",
+    "documentation": "https://en.wikipedia.org/wiki/De_facto_standard",
+    "related": [
+        "audit",
+        "best-practice",
+        "compliance",
+        "whatwg"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/De_facto_standard"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP-FIG: PSR Standards",
+            "url": "https://www.php-fig.org/psr/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "W3C Standards",
+            "url": "https://www.w3.org/standards/"
+        }
+    ],
+    "tags": [
+        "concept"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Fri, 11 Sep 2026 09:39:31 +0000"
+}

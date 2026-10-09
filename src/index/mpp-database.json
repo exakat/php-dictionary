@@ -1,0 +1,52 @@
+{
+    "id": "mpp-database",
+    "name": "Massively Parallel Processing Database (MPP)",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/mpp-database.html",
+    "aliases": [
+        "mpp"
+    ],
+    "description": "A massively parallel processing database, or MPP database, is a database architecture where a query is split into fragments and executed simultaneously across many independent nodes, each with its own CPU, memory and storage.\n\nThis shared-nothing design contrasts with a single-server database: instead of one machine reading every row, the data is partitioned ahead of time across the nodes, and each node scans and processes only its own share, before the partial results are combined into the final answer.\n\nMPP architectures are common in analytical, OLAP-style workloads, such as data warehouses, where a handful of queries scan billions of rows, rather than transactional, OLTP-style workloads, made of many small reads and writes. Amazon Redshift, Google BigQuery and Vertica are widely used MPP databases; PHP applications typically reach them through a standard SQL driver, the same way they would connect to a regular relational database.",
+    "code": "",
+    "documentation": "https://en.wikipedia.org/wiki/Massively_parallel",
+    "related": [
+        "database",
+        "sql",
+        "distributed-systems",
+        "horizontal-scaling",
+        "etl",
+        "cloud"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Massively_parallel"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Amazon Redshift - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Amazon_Redshift"
+        }
+    ],
+    "tags": [
+        "acronym",
+        "concept",
+        "architecture"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Fri, 25 Sep 2026 14:29:12 +0000"
+}

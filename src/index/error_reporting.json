@@ -1,0 +1,59 @@
+{
+    "id": "error_reporting",
+    "name": "Error Reporting",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/error_reporting.html",
+    "aliases": [],
+    "description": "Error reporting is the process to report any issue while executing the code. It is also the name of the eponymous function ``error_reporting()`` and also a ``php.ini`` directive: ``error_reporting``. They all control the way errors are handled.\n\nError reporting is set by calling the ``error_reporting()`` function, with a combination of constants: ``E_ERROR``, ``E_WARNING``, ``E_PARSE``, ``E_NOTICE``, ``E_CORE_ERROR``, ``E_CORE_WARNING``, ``E_COMPILE_ERROR``, ``E_COMPILE_WARNING``, ``E_USER_ERROR``, ``E_USER_WARNING``, ``E_USER_NOTICE``, ``E_STRICT``, ``E_RECOVERABLE_ERROR``, ``E_DEPRECATED``, ``E_USER_DEPRECATED``, ``E_ALL``. They are combined as a bitfield, or may be replaced by their integer counterpart. One special value is ``-1``, which is the universal error reporting: it activates all types of errors, past present and future.\n\n``error_reporting``, the directive, is set in the ``php.ini`` file. It doesn't support the bitfield, so it must be set as an integer.",
+    "code": "<?php\n\n    // Turn off all error reporting\n    error_reporting(0);\n    \n    // Report simple running errors\n    error_reporting(E_ERROR | E_WARNING | E_PARSE);\n    \n    // Reporting E_NOTICE can be good too (to report uninitialized\n    // variables or catch variable name misspellings ...)\n    error_reporting(E_ERROR | E_WARNING | E_PARSE | E_NOTICE);\n    \n    // Report all errors except E_NOTICE\n    error_reporting(E_ALL & ~E_NOTICE);\n\n?>",
+    "documentation": "https://www.php.net/manual/en/function.error-reporting.php",
+    "related": [
+        "set_error_handler",
+        "constant-combinaison",
+        "log-file"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/function.error-reporting.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "How to Enable PHP Error Reporting",
+            "url": "https://www.scoutapm.com/blog/how-to-enable-php-error-reporting/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "error_reporting, the directive",
+            "url": "https://www.php.net/manual/en/errorfunc.configuration.php#ini.error-reporting"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "How to Display All PHP Errors: A Detailed Guide",
+            "url": "https://stackify.com/display-php-errors/"
+        }
+    ],
+    "tags": [
+        "directive",
+        "native function",
+        "error"
+    ],
+    "packagist": [
+        "filp/whoops"
+    ],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sat, 08 Aug 2026 14:31:02 +0000"
+}

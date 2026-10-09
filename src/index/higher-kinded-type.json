@@ -1,0 +1,55 @@
+{
+    "id": "higher-kinded-type",
+    "name": "Higher-Kinded Type",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/higher-kinded-type.html",
+    "aliases": [
+        "HKT"
+    ],
+    "description": "A higher-kinded type, or ``HKT``, is a type that abstracts over type constructors rather than over concrete types. Where a generic type parameter ``T`` ranges over types like ``int`` or ``string``, a higher-kinded parameter ``F`` ranges over types that themselves take a type argument, such as ``List``, ``Maybe``, or ``Promise``.\n\nThe canonical example is the ``Functor`` typeclass in Haskell: ``fmap :: (a -> b) -> f a -> f b``. Here ``f`` is a higher-kinded variable: it stands for any one-argument type constructor. This allows writing a single abstraction that works uniformly over ``List a``, ``Maybe a``, ``IO a``, and any other functor, without knowing the concrete constructor in advance.\n\nHigher-kinded types are what make purely functional abstractions like Functor, Monad, Applicative, and Foldable expressible without code duplication. Languages that support them natively include Haskell, Scala, PureScript, and Rust, partially through associated types.\n\nPHP does not support higher-kinded types. PHP lacks native generics entirely, which is a prerequisite. Even PHPStan and Psalm ``@template`` annotations cover first-order generics only; they cannot abstract over parameterized type constructors. Functional PHP libraries such as ``marcosh/lamphpda`` approximate monadic abstractions at runtime using conventions, but without static type-level verification.",
+    "code": "",
+    "documentation": "https://en.wikipedia.org/wiki/Kind_(type_theory)",
+    "related": [
+        "generics",
+        "type-system",
+        "polymorphism",
+        "functional-programming",
+        "type-erasure",
+        "monomorphization",
+        "algebraic-data-type"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Kind_(type_theory)"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Higher-Kinded Types in Depth",
+            "url": "https://www.numberanalytics.com/blog/higher-kinded-types-in-depth"
+        }
+    ],
+    "tags": [
+        "concept",
+        "type",
+        "not supported"
+    ],
+    "packagist": [
+        "marcosh/lamphpda"
+    ],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Wed, 02 Sep 2026 16:41:00 +0000"
+}

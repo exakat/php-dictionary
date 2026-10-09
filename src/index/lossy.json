@@ -1,0 +1,55 @@
+{
+    "id": "lossy",
+    "name": "Lossy",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/lossy.html",
+    "aliases": [
+        "lossy-compression"
+    ],
+    "description": "Lossy refers to any encoding, compression, or conversion process that permanently discards some of the original data in order to reduce size or simplify the representation. Once a lossy operation has been applied, the discarded data cannot be recovered.\n\nIn image processing, lossy formats such as JPEG and WebP reduce file size by approximating colour information and discarding fine detail that the human eye is less sensitive to. Higher compression levels increase the degree of loss, introducing visible artefacts such as blocking and ringing. Lossy compression is well suited to photographs where a small quality reduction is imperceptible.\n\nRepeated encode/decode cycles with a lossy format degrade quality cumulatively, because each cycle discards additional data.\n\nPHP's GD extension produces lossy output with ``imagejpeg()``. The optional quality parameter, 0\u2013100, controls the trade-off between file size and fidelity.",
+    "code": "<?php\n\n    // JPEG is lossy: quality 60 discards more data than quality 90\n    $image = imagecreatefromjpeg('photo.jpg');\n    imagejpeg($image, 'compressed.jpg', 60);\n    imagedestroy($image);\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Lossy_compression",
+    "related": [
+        "lossless",
+        "compression",
+        "jpg",
+        "image",
+        "encode",
+        "decode"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Lossy_compression"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Difference between Lossy Compression and Lossless Compression",
+            "url": "https://www.geeksforgeeks.org/computer-networks/difference-between-lossy-compression-and-lossless-compression/"
+        }
+    ],
+    "tags": [
+        "image",
+        "compression",
+        "format"
+    ],
+    "packagist": [],
+    "extensions": [
+        "gd",
+        "imagick"
+    ],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Wed, 12 Aug 2026 04:19:17 +0000"
+}

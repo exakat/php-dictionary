@@ -1,0 +1,42 @@
+{
+    "id": "fallback-function",
+    "name": "Fallback Function",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/fallback-function.html",
+    "aliases": [],
+    "description": "A fallback function is a function that replaces a function if its definition is not available in the current namespace. \n\nPHP has implemented a mechanism so that functions that are undefined in the current namespace, have a fallback in the global space. This is important for backward compatibility, and the native PHP versions.",
+    "code": "<?php\n\n    namespace A {\n        // A\\strtolower doesn't exist, \n        // it falls back on \\strtolower(), in the global space\n        echo strtolower('A');\n    }\n\n?>",
+    "documentation": "https://www.php.net/manual/en/language.namespaces.fallback.php",
+    "related": [
+        "function",
+        "fallback"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.namespaces.fallback.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Function Arguments in PHP: Optional Parameters and Default Values",
+            "url": "https://oatllo.com/course/php/function/php-function-arguments-guide"
+        }
+    ],
+    "tags": [
+        "compatibility"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Mon, 10 Aug 2026 15:43:05 +0000"
+}

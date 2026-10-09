@@ -1,0 +1,57 @@
+{
+    "id": "type-widening",
+    "name": "Type Widening",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/type-widening.html",
+    "aliases": [
+        "type-promotion"
+    ],
+    "description": "Type widening is the conversion of a value or a declared type toward a broader, more general one: a narrower numeric type is promoted to a wider one in an expression, or a specific literal type loses its precision and is generalized to its base type once it escapes the context that produced it.\n\nTwo distinct mechanisms both go by this name:\n\n+ Numeric widening: Java and C promote ``byte``/``short``/``int`` operands to ``long``, ``float``, or ``double`` as needed so an arithmetic operation can proceed without loss of the smaller operand's value.\n+ Literal widening in type inference: TypeScript infers the literal type ``'red'`` for a ``const``, but widens it to the general type ``string`` as soon as the value is assigned to a mutable ``let`` binding, because the compiler can no longer assume the value stays that one literal.\n\nWidening is the opposite of narrowing: narrowing makes a type more specific from context, widening makes it more general.\n\nPHP has a limited, one-directional form of numeric widening: an ``int`` argument is silently widened to ``float`` when passed to a parameter or property declared ``float``, and this conversion is allowed even under ``declare(strict_types=1)`` as the sole documented exception to strict type checking. PHP has no literal types to widen in the TypeScript sense, and no user-visible widening between other scalar types: any other conversion, such as ``string`` to ``int``, is coercion, governed by ``strict_types``, rather than widening a value that already fits within a numeric hierarchy.",
+    "code": "<?php\n\n    declare(strict_types=1);\n    \n    function scale(float $factor): float {\n        return $factor * 2;\n    }\n    \n    // int is widened to float here, even under strict_types:\n    // this is the one implicit conversion the engine still performs.\n    echo scale(3);\n\n?>",
+    "documentation": "https://www.php.net/manual/en/language.types.declarations.php#language.types.declarations.strict",
+    "related": [
+        "type-narrowing",
+        "strict_types",
+        "cast",
+        "literal-types",
+        "type-system",
+        "gradual-type-checking"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.types.declarations.php#language.types.declarations.strict"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "TypeScript literal widening",
+            "url": "https://www.typescriptlang.org/docs/handbook/type-inference.html#widening-and-narrowing-in-typescript"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Java widening primitive conversion",
+            "url": "https://docs.oracle.com/javase/specs/jls/se17/html/jls-5.html#jls-5.1.2"
+        }
+    ],
+    "tags": [
+        "concept",
+        "type",
+        "feature"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "7.0",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Fri, 10 Jul 2026 09:15:33 +0000"
+}

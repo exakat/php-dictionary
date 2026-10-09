@@ -1,0 +1,58 @@
+{
+    "id": "open-source",
+    "name": "Open Source",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/open-source.html",
+    "aliases": [],
+    "description": "Open source means that the source code of software is publicly available, and people are allowed to view, use, modify, and share it under a specific license. \n\nPHP is using an open source licence. It was under the PHP licence until 2026: that licence was ``OSI`` approved. Later, the licence was turned to BSD.\n\nPHP software may use a different licence than PHP itself.\n\nOpen source is often related to free, as in freedom to access the code and modify it. It needs to be distinguished from free as in gratis, or without fee, although both are often going together.",
+    "code": "",
+    "documentation": "https://simple.wikipedia.org/wiki/Open_source",
+    "related": [
+        "closed-source",
+        "licence",
+        "vendor-lockin",
+        "contribution",
+        "community",
+        "free",
+        "cms",
+        "forum",
+        "library",
+        "proprietary-source",
+        "source"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://simple.wikipedia.org/wiki/Open_source"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP Licence 3.0.1",
+            "url": "https://www.php.net/license/3_01.txt"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Good First Issue/PHP",
+            "url": "https://goodfirstissue.dev/language/php"
+        }
+    ],
+    "tags": [
+        "php"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Mon, 03 Aug 2026 17:16:07 +0000"
+}

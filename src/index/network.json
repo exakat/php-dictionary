@@ -1,0 +1,56 @@
+{
+    "id": "network",
+    "name": "Network",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/network.html",
+    "aliases": [],
+    "description": "A network is a collection of computers, linked together with communication capabilities. \n\nThe group of computers may be characterized further as a local network, with computers in close proximity, WLAN with a larger dispersion area and internet, which stands as the largest possible network.\n\nThe World Wide Web is a network, linking servers with the HTTP protocol. \n\nThe network notion may also be generalized as a collection of objects with common links, and it is also called a graph.\n",
+    "code": "",
+    "documentation": "https://en.wikipedia.org/wiki/Computer_network",
+    "related": [
+        "graph",
+        "web",
+        "http",
+        "internet",
+        "socket",
+        "osi-model",
+        "egress-filtering",
+        "latency",
+        "p2p",
+        "socket-ext"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Computer_network"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Types of Computer Network: What is LAN, MAN and WAN",
+            "url": "https://www.guru99.com/types-of-computer-network.html"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Types of Computer Networks - GeeksforGeeks",
+            "url": "https://www.geeksforgeeks.org/computer-networks/types-of-computer-networks/"
+        }
+    ],
+    "tags": [
+        "concept",
+        "web"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Fri, 09 Oct 2026 17:14:27 +0000"
+}

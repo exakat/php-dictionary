@@ -1,0 +1,58 @@
+{
+    "id": "deduplication",
+    "name": "Deduplication",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/deduplication.html",
+    "aliases": [
+        "dedup"
+    ],
+    "description": "Deduplication is the process of detecting and discarding duplicate occurrences of an operation, message, or record. It ensures that even when the same input arrives more than once, it is processed only once.\n\nDeduplication is related to, but distinct from, idempotency. An idempotent operation can safely be executed multiple times because repeated executions have no additional effect. Deduplication prevents the repeated execution from happening at all, typically by tracking a unique identifier and short-circuiting on a match.\n\nIn applications, deduplication is commonly applied to webhook deliveries, queue message processing, and form submissions, using a cache or database table to record seen identifiers within a retention window.",
+    "code": "",
+    "documentation": "https://en.wikipedia.org/wiki/Data_deduplication",
+    "related": [
+        "idempotent",
+        "fingerprint",
+        "webhook",
+        "retry",
+        "cache",
+        "ttl",
+        "queue",
+        "duplicate"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Data_deduplication"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Idempotency vs Deduplication: Demystifying Two Essential Concepts for Reliable Systems",
+            "url": "https://nemanjatanaskovic.com/idempotency-vs-deduplication-demystifying-two-essential-concepts-for-reliable-systems/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "A Detailed Guide to Idempotency, Delivery Semantics, and Deduplication",
+            "url": "https://blog.bytebytego.com/p/a-detailed-guide-to-idempotency-delivery"
+        }
+    ],
+    "tags": [
+        "concept",
+        "architecture"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Mon, 17 Aug 2026 09:06:21 +0000"
+}

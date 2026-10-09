@@ -1,0 +1,46 @@
+{
+    "id": "uopz",
+    "name": "User Operations For Zend (UOPZ)",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/uopz.html",
+    "aliases": [],
+    "description": "The ``UOPZ`` extension, ``User Operations for Zend``, exposes Zend Engine functionality normally used at compilation and execution time in order to allow modification of the internal structures that represent PHP code, and for user code to interact with the engine.",
+    "code": "<?php\n\n    // Dynamically adds an interface to a class with UOPZ\n    \n    interface myInterface {}\n    \n    class myClass {}\n    \n    uopz_implement(myClass::class, myInterface::class);\n    \n    var_dump(class_implements(myClass::class));\n\n?>",
+    "documentation": "https://www.php.net/manual/en/book.uopz.php",
+    "related": [
+        "internals",
+        "engine",
+        "monkey-patch"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/book.uopz.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "UOPZ repository",
+            "url": "https://github.com/krakjoe/uopz"
+        }
+    ],
+    "tags": [
+        "debug",
+        "acronym"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [
+        "Extensions/Extuopz"
+    ],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Tue, 15 Sep 2026 16:15:40 +0000"
+}

@@ -1,0 +1,45 @@
+{
+    "id": "array-callable",
+    "name": "Callable Arrays",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/array-callable.html",
+    "aliases": [],
+    "description": "An callable array is an array with index ``0`` and ``1``. The first index is a string, that represents a valid class, or an object. The second argument is a string, which is a method name.\n\nWith such a configuration, it is possible to use that array as a callback: either with a static method call, or a normal method call.",
+    "code": "<?php\n\nclass Elephpant {\n    static function stampede() { echo __METHOD__;}\n           function trumpet() { echo __METHOD__;}\n}\n\n$callable1 = [new Elephpant, 'trumpet'];\n$callable1(); // Elephpant::trumpet\n\n$callable2 = ['Elephpant', 'stampede'];\n$callable2(); // Elephpant::stampede\n\n$callable3 = [Elephpant::class, 'stampede'];\n$callable3(); // Elephpant::stampede\n\n?>",
+    "documentation": "https://www.php.net/manual/en/language.types.callable.php",
+    "related": [
+        "callable",
+        "closure",
+        "one",
+        "zero",
+        "arrow-function"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.types.callable.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "The Wonderful World of Callbacks",
+            "url": "https://markbakeruk.net/2021/12/22/the-wonderful-world-of-callbacks/"
+        }
+    ],
+    "tags": [
+        "function"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+}

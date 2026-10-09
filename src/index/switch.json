@@ -1,0 +1,68 @@
+{
+    "id": "switch",
+    "name": "Switch",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/switch.html",
+    "aliases": [
+        "endswitch"
+    ],
+    "description": "The ``switch`` expression branches evaluation based on an equality check of a value. It also handles a ``default`` case, when none of the explicit cases match.\n\nEach case is an expression, and shall be used that way. \n\n``switch`` use a relaxed comparison between the parameter value and the case values. This means that some type juggling happens, and some literals might behave as identical.",
+    "code": "<?php\n\n    $b = 1;\n    switch ($i) {\n        case 0:\n            echo 'i equals 0';\n            break;\n        case 1:\n            echo 'i equals 1';\n            break;\n        case $b + 1:\n            echo 'i equals '.($b + 1);\n            break;\n        default:\n            echo 'i is none of the expected values.';\n    }\n    \n    switch (false) {\n        case null:\n            // false == null so this is the case\n            echo 'This is null';\n            break;\n        case '':\n            echo 'This is empty string';\n            break;\n        default:\n            echo 'This is none of the expected values.';\n    }\n\n?>",
+    "documentation": "https://www.php.net/manual/en/control-structures.switch.php",
+    "related": [
+        "match",
+        "default",
+        "strict-comparison",
+        "simple-switch",
+        "if-then",
+        "break",
+        "case",
+        "comparison",
+        "conditional-structure",
+        "control-flow",
+        "relaxed-comparison",
+        "semicolon",
+        "switch-case",
+        "switch-default",
+        "feature-flag"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/control-structures.switch.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Compact switch alternative",
+            "url": "https://tomlankhorst.nl/compact-switch-alternative-php/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP switch best practices",
+            "url": "https://www.exakat.io/well-structured-switch-command-in-php/"
+        }
+    ],
+    "tags": [
+        "feature",
+        "keyword",
+        "control flow"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [
+        "Structures/SwitchWithoutDefault",
+        "Structures/Fallthrough",
+        "Structures/SwitchToSwitch"
+    ],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "4.0",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Mon, 14 Sep 2026 17:02:53 +0000"
+}

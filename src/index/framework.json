@@ -1,0 +1,78 @@
+{
+    "id": "framework",
+    "name": "Framework",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/framework.html",
+    "aliases": [],
+    "description": "A framework is a library of code and practices that helps building PHP applications. Frameworks provide common features, such as forms, authentications, templating, database access and security. \n\nFrameworks are often described as a platform: they stand as a layer above PHP, with its own conventions and behaviors. PHP is the language of the framework, and the language used to extend the framework.\n\nFrameworks provide a set of tools and components to build applications, though they usually do not provide a comprehensive service out of the box: the framework must be used to build the application, usually in an original and creative way. For example, a framework may be used to build a forum or a CMS, while the opposite is rarely possible.\n\nThere are lots of frameworks written with PHP. In alphabetical order, here is a non exhaustive list: \n\n+ `Aura <https://auraphp.com/>`_\n+ `Bolt CMS <https://boltcms.io/>`_\n+ `Code Igniter <https://codeigniter.com/>`_\n+ `CakePHP <https://cakephp.org/>`_\n+ `Cappuccino <https://www.cappuccino.dev/>`_\n+ `Drupal <https://www.drupal.org/>`_\n+ `e107 <https://e107.org/>`_\n+ `FuelPHP <https://fuelphp.com/>`_\n+ `Gyroscope <https://www.gyro-php.org/>`_\n+ `Hyperf <https://github.com/hyperf/hyperf>`_\n+ `Ibexa <https://www.ibexa.co/>`_\n+ `Joomla <https://www.joomla.org/>`_\n+ `Koala <http://www.koala-framework.org/>`_\n+ `Laminas <https://getlaminas.org/>`_\n+ `Laravel <https://laravel.com/>`_\n+ `Leafphp <https://leafphp.dev/>`_\n+ `Light-php <https://github.com/bakeiro/Light-PHP.git>`_\n+ `LightMVC <https://github.com/lightmvc/lightmvcskel.git>`_\n+ `Lithium <https://li3.me/>`_\n+ `Medoo <https://medoo.in/>`_\n+ `Nette <https://nette.org/en/>`_\n+ `October <https://octobercms.com/>`_\n+ `Phalcon <https://phalcon.io/en-us>`_\n+ `Prado <http://www.pradoframework.net/site/>`_\n+ `Qcodo <https://github.com/qcodo/qcodo.git>`_\n+ `redcatphp <https://github.com/redcatphp/redcatphp>`_\n+ `Slim <https://www.slimframework.com/>`_\n+ `Symfony <https://symfony.com/>`_\n+ `Typo3 <https://typo3.org/>`_\n+ `Ubiquity <https://github.com/phpMv/ubiquity>`_\n+ `Wordpress <https://www.wordpress.org/>`_\n+ `X <https://github.com/clue/framework-x.git>`_\n+ `Yii <https://www.yiiframework.com/>`_\n+ `Zend Framework <https://framework.zend.com/>`_\n\nThis is not an exhaustive list.",
+    "code": "",
+    "documentation": "https://en.wikipedia.org/wiki/Software_framework",
+    "related": [
+        "form",
+        "authentication",
+        "security",
+        "template",
+        "database",
+        "cms",
+        "forum",
+        "laravel",
+        "nativephp",
+        "symfony",
+        "tempest",
+        "library",
+        "marketplace",
+        "microframework",
+        "spiral",
+        "xdebug",
+        "magento",
+        "opinionated",
+        "wiki",
+        "zero-code"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Software_framework"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP framework list",
+            "url": "https://www.exakat.io/en/php-framework-list/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "10 Best PHP Frameworks for Web Development in 2025",
+            "url": "https://www.cloudways.com/blog/best-php-frameworks/"
+        }
+    ],
+    "tags": [
+        "concept",
+        "dependency",
+        "animal",
+        "_singleQuote"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [
+        "Vendors/Laravel",
+        "Vendors/Symfony",
+        "Vendors/Wordpress"
+    ],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": {
+        "Drupal": "https://www.drupal.org",
+        "Joomla": "https://www.joomla.org",
+        "TYPO3": "https://typo3.org",
+        "WordPress": "https://wordpress.org",
+        "October CMS": "https://octobercms.com/"
+    },
+    "popularity": "",
+    "modified": "Fri, 18 Sep 2026 04:50:48 +0000"
+}

@@ -1,0 +1,72 @@
+{
+    "id": "generics",
+    "name": "Generics",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/generics.html",
+    "aliases": [
+        "parametered-polymorphism"
+    ],
+    "description": "Generics, sometimes called ``parametered polymorphism``, or more precisely parametric polymorphism, are a style of types, where the type of a property, parameter or return is specified at the declaration level.\n\nThe generics syntax looks like: ``$users = new List<User>();`` where ``List`` is a class that holds a list of items, and those items are of the type between brackets. Here, it is ``User``.\n\nGenerics allows the creation of general classes, that can process several types of data. The actual application's type is declared in the type itself. This is similar to configure an array to only handle one type of elements.\n\nGenerics have been submitted as RFC since 2016, and are currently not implemented, in the foreseeable future. \n\nOne implementation of generics is available, with transpiling: see ``mrsuh/php-generics``.\n\nGenerics are generally considered to be not supported, although external tools provide this feature, such as static analysis. Generics are not supported at the engine level.",
+    "code": "",
+    "documentation": "https://stitcher.io/blog/generics-in-php-1",
+    "related": [
+        "type-checking",
+        "polymorphism",
+        "collection",
+        "monomorphization",
+        "type-erasure",
+        "algebraic-data-type",
+        "existential-type",
+        "gadt",
+        "higher-kinded-type",
+        "phantom-type",
+        "row-polymorphism",
+        "template-metaprogramming",
+        "type-system"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://stitcher.io/blog/generics-in-php-1"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Why we can't have generics in PHP",
+            "url": "https://stitcher.io/blog/generics-in-php-3"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP RFC: Generic Types and Functions",
+            "url": "https://wiki.php.net/rfc/generics"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "mrsuh/php-generics",
+            "url": "https://github.com/mrsuh/php-generics"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "How To Start Using Generic Types In PHP",
+            "url": "https://dev.to/jszutkowski/how-to-start-using-generic-types-in-php-2f1k"
+        }
+    ],
+    "tags": [
+        "rfc",
+        "not supported",
+        "generics"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 17 Sep 2026 07:42:26 +0000"
+}

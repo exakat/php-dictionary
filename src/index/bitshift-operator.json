@@ -1,0 +1,44 @@
+{
+    "id": "bitshift-operator",
+    "name": "Bitshift Operators",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/bitshift-operator.html",
+    "aliases": [
+        "bitshift"
+    ],
+    "description": "Bitshift operators ``<<`` and ``>>`` move bits within an integer. The bits are shifted by an number of position, to the right or to the left. They are equivalent to multiplying or dividing by a power of 2.",
+    "code": "<?php\n\n$a = 3;       // binary : 11\necho $a >> 1; // binary : 1 (the last 1 is lost)\necho $a << 2; // binary : 1100 \n\n?>",
+    "documentation": "https://www.php.net/manual/en/language.operators.bitwise.php",
+    "related": [
+        "logical-operator",
+        "bitwise-operator"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.operators.bitwise.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Are Bitwise Operators Still Relevant in Modern PHP?",
+            "url": "https://www.sitepoint.com/bitwise-operators-still-relevant-modern-php/"
+        }
+    ],
+    "tags": [
+        "operator"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sat, 08 Aug 2026 08:10:54 +0000"
+}

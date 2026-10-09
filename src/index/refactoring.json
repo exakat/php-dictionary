@@ -1,0 +1,68 @@
+{
+    "id": "refactoring",
+    "name": "Refactoring",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/refactoring.html",
+    "aliases": [],
+    "description": "Refactoring, as in any programming language, refers to the process of restructuring and improving the codebase of an application without changing its external behavior. The primary goal of refactoring is to make the code more readable, maintainable, and efficient while reducing code duplication and potential bugs. \n\nRefactoring is an essential practice in software development to ensure that the code remains clean and adaptable as the project evolves.\n\nThe constraint of rewriting the code without changing the external behavior is somewhat misleading: for example, changing the algorithm to speed up the processing of a piece of data, changes its behavior as it is faster. Such behavior is usually desirable, so it is not considered as a change in behavior: at least, not a negative one. Yet, it still may have consequences on the rest of the application.",
+    "code": "<?php\n\n    function factorial(int $n) : int {\n        $return = 2;\n        for($i = 3; $i <= $n; ++$i) {\n            $return *= $i;\n        }\n        \n        return $return;\n    }\n    \n    function factorialr(int $n) : int {\n        if ($n === 2) { return 1; }\n        \n        return factorialr($n - 1);\n    \n        return $return;\n    }\n    \n    // Note : checks on $n >= 1 are omitted here.\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Code_refactoring",
+    "related": [
+        "test",
+        "autowiring",
+        "drop-in",
+        "legacy",
+        "streamlining",
+        "maintenance",
+        "tco",
+        "brownfield",
+        "fat",
+        "rector",
+        "test-driven-development"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Code_refactoring"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Refactoring without tests should be fine",
+            "url": "https://matthiasnoback.nl/2022/10/refactoring-without-tests-should-be-fine/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Refactoring Guru",
+            "url": "https://refactoring.guru/refactoring"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP Refactoring: The Art of Improving Code Quality and Maintainability",
+            "url": "https://www.fuseweb.nl/en/blog/2023/05/10/php-refactoring-code-quality-maintainability"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Refactoring Techniques in PHP",
+            "url": "https://devm.io/php/refactoring-techniques-in-php"
+        }
+    ],
+    "tags": [
+        "concept"
+    ],
+    "packagist": [
+        "bmitch/churn-php"
+    ],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 27 Aug 2026 08:58:31 +0000"
+}

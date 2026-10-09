@@ -1,0 +1,56 @@
+{
+    "id": "array-zip",
+    "name": "Array Zip",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/array-zip.html",
+    "aliases": [
+        "transpose"
+    ],
+    "description": "Array zip is the operation of combining several arrays element-by-element and by position. The first zipped element groups together every array's first item, the second zipped element groups together every array's second item, and so on. It is also called a transpose, since it turns a list of parallel arrays into a list of rows, the way ``array_column()`` turns a list of rows into a single column.\n\nPHP has no native ``zip()`` function, but ``array_map()`` performs exactly this operation when its callback is ``null``: instead of applying a callback, ``array_map()`` groups the corresponding elements of the arrays it receives into an array of arrays.\n\nJust like ``array_merge()``, this pattern accepts an arbitrary number of arrays, which may be collected in one array and passed with the spread operator. If the arrays have different lengths, ``array_map()`` pads the shorter ones with ``null``, so the result always has as many rows as the longest input array.\n\nArray zip is not related to the zip archive, which compress data.\n",
+    "code": "<?php\n\n    $names = ['Alice', 'Bob', 'Carol'];\n    $ages  = [30, 25, 35];\n\n    $zipped = array_map(null, $names, $ages);\n    // [['Alice', 30], ['Bob', 25], ['Carol', 35]]\n\n    $arrays = [$names, $ages]; // may be more...\n    array_map(null, ...$arrays);\n    // [['Alice', 30], ['Bob', 25], ['Carol', 35]]\n\n    // shorter arrays are padded with null\n    array_map(null, [1, 2, 3], ['a', 'b']);\n    // [[1, 'a'], [2, 'b'], [3, null]]\n\n?>",
+    "documentation": "https://www.php.net/manual/en/function.array-map.php",
+    "related": [
+        "array_map",
+        "array_merge",
+        "array_column",
+        "array_combine",
+        "array",
+        "zip"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/function.array-map.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Python: zip()",
+            "url": "https://docs.python.org/3/library/functions.html#zip"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Zipping up multiple arrays using array_map in PHP",
+            "url": "https://www.amitmerchant.com/zipping-up-multiple-arrays-using-array-map-in-php/"
+        }
+    ],
+    "tags": [
+        "concept",
+        "arbitrary number of argument"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Mon, 31 Aug 2026 17:30:05 +0000"
+}

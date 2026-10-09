@@ -1,0 +1,43 @@
+{
+    "id": "scaffolding",
+    "name": "Scaffolding",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/scaffolding.html",
+    "aliases": [],
+    "description": "Scaffolding is the automated generation of PHP code to set up a complex operation. For example, store and retrieve objects in the database; set up the base code for an extension... \n\nFrameworks such as CakePHP and Spiral offer scaffolding.",
+    "code": "",
+    "documentation": "https://en.wikipedia.org/wiki/Scaffold_(programming)",
+    "related": [
+        "boilerplate",
+        "code-generator"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Scaffold_(programming)"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Scaffold tool",
+            "url": "https://getscaffold.dev/"
+        }
+    ],
+    "tags": [
+        "concept",
+        "tool"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sat, 08 Aug 2026 08:10:54 +0000"
+}

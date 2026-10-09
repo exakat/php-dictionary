@@ -1,0 +1,54 @@
+{
+    "id": "yoda",
+    "name": "Yoda Condition",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/yoda.html",
+    "aliases": [
+        "yoda-condition"
+    ],
+    "description": "Yoda condition is a way to write a condition by using any literal value on the left, instead of the right.\n\nThis prevents errors where the comparison operator is shortened, and turned into an assignation, which is usually true.",
+    "code": "<?php\n\n    // Yoda condition\n    if (0 == $a) {}\n    \n    // Assignation, instead of comparison and bug\n    if ($a = 0) {}\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Yoda_conditions",
+    "related": [
+        "coding-convention",
+        "pattern",
+        "condition",
+        "explicit-boolean-comparison"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Yoda_conditions"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Why using Yoda conditions you should probably not be",
+            "url": "https://dev.to/greg0ire/why-using-yoda-conditions-you-should-probably-not"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Rule yoda_style",
+            "url": "https://cs.symfony.com/doc/rules/control_structure/yoda_style.html"
+        }
+    ],
+    "tags": [
+        "coding convention",
+        "best practice"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [
+        "Structures/YodaComparison"
+    ],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Tue, 11 Aug 2026 14:40:29 +0000"
+}

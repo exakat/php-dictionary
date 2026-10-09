@@ -1,0 +1,51 @@
+{
+    "id": "urbanisation",
+    "name": "Urbanisation",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/urbanisation.html",
+    "aliases": [
+        "urbanization",
+        "it-urbanisation"
+    ],
+    "description": "Urbanisation is the practice of organising an information system the way a city planner organises a city: into zones, districts and blocks, connected by shared roads and utilities, rather than as a single undifferentiated sprawl.\n\nThe approach groups business capabilities into zones, such as billing or customer management, and defines the allowed interactions between them, much like a city plan defines which roads connect which districts. Existing applications are mapped onto this plan, revealing duplication and gaps, and new projects are then built to fit into the target zones instead of adding uncontrolled connections.\n\nUrbanisation grew out of French enterprise architecture practice in the late nineties, and overlaps heavily with what is now generally called enterprise architecture. A monolith is the opposite outcome: a single block with no internal zoning, where every part can reach every other part directly.",
+    "code": "",
+    "documentation": "",
+    "related": [
+        "architecture",
+        "monolith",
+        "microservice",
+        "soa"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Information System Urbanization - Green IT Consulting",
+            "url": "https://www.greenit-monaco.com/en/urbanization.html"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "The Enterprise Architecture IT Project: The Urbanisation Paradigm",
+            "url": "https://www.researchgate.net/publication/294264149_The_Enterprise_Architecture_IT_Project_The_Urbanisation_Paradigm"
+        }
+    ],
+    "tags": [
+        "concept",
+        "architecture",
+        "_noDocumentation"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Fri, 25 Sep 2026 18:46:16 +0000"
+}

@@ -1,0 +1,46 @@
+{
+    "id": "trailing-comma",
+    "name": "Trailing Comma",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/trailing-comma.html",
+    "aliases": [],
+    "description": "The trailing comma is the possibility to leave the last element of a list empty. This is for presentation reasons. In particular, VCS will be able to treat the last line just like any other previous line, with a final comma. This reduces the amount of diff.\n\nTrailing commas were introduced progressively. In version 7.2, in use statements; in version 7.3, in method calls; in version 8.0, in method declarations; in older versions, in array declarations.\n",
+    "code": "<?php\n\n    $a = [1,\n          2,\n          3,\n          // Adding a new element in this array only creates\n          // a one line diff, when using the trailing comma\n         ];\n\n?>",
+    "documentation": "https://www.php.net/manual/en/functions.arguments.php#functions.arguments",
+    "related": [
+        "comma",
+        "convention"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/functions.arguments.php#functions.arguments"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "How I learned to stop worrying and love the trailing comma",
+            "url": "https://c-harrison.medium.com/how-i-learned-to-stop-worrying-and-love-the-trailing-comma-480f3a73d203"
+        }
+    ],
+    "tags": [
+        "syntax"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [
+        "Php/TrailingComma",
+        "Php/GroupUseTrailingComma",
+        "Php/UseTrailingUseComma"
+    ],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "7.2",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sat, 08 Aug 2026 14:31:03 +0000"
+}

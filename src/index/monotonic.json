@@ -1,0 +1,52 @@
+{
+    "id": "monotonic",
+    "name": "Monotonic",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/monotonic.html",
+    "aliases": [],
+    "description": "A monotonic value only ever moves in one direction. It is either always non-decreasing or always non-increasing, and it never goes backward.\n\nApplied to time, a monotonic clock is a time source that cannot jump backward or forward because of NTP synchronization, manual clock changes, or Daylight Saving Time. PHP exposes such a clock through ``hrtime()``, unlike ``microtime()`` or ``time()``, which read the wall clock and can be affected by these adjustments. Measuring an elapsed duration should always rely on a monotonic source, otherwise the computed duration could turn out negative.\n\nApplied to identifiers or sequences, monotonic means each new value is guaranteed to be greater than the previous one, a property required by auto-increment database columns, ULIDs, and Snowflake-style distributed IDs.\n",
+    "code": "<?php\n\n    $timeStart = hrtime(true);\n\n    // some work happens here, even if the system clock is adjusted\n    usleep(100);\n\n    $timeEnd = hrtime(true);\n\n    // always positive, thanks to the monotonic clock\n    $elapsedNanoseconds = $timeEnd - $timeStart;\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Monotonic_function",
+    "related": [
+        "hrtime",
+        "clock",
+        "microtime",
+        "determinism"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Monotonic_function"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "High-Resolution Monotonic Timer",
+            "url": "https://thephp.cc/articles/high-resolution-monotonic-timer"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Getting the monotonic time",
+            "url": "https://drops-of-php.hi-folks.dev/01-system/13-sys-hrtime/"
+        }
+    ],
+    "tags": [
+        "concept",
+        "time"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Tue, 01 Sep 2026 07:51:21 +0000"
+}

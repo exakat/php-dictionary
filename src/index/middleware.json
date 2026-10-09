@@ -1,0 +1,62 @@
+{
+    "id": "middleware",
+    "name": "Middleware Pattern",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/middleware.html",
+    "aliases": [
+        "middleware-pattern"
+    ],
+    "description": "A middleware, or middleware pattern, is a design pattern used to extend the behavior of a component by chaining layers that can modify inputs, outputs, or short-circuit the call, dynamically at runtime.\n\nUnlike the Decorator pattern, middlewares can be added at runtime, conditionally, from configuration. This pattern is inspired by PSR-15, which standardizes HTTP middleware for request handlers.\n\nThe key characteristic is that the $next parameter is typed to the component's own interface, enabling IDE autocompletion and type safety throughout the chain. Implementing the middleware stack requires some glue code to chain the layers together; see the documentation link below for a complete implementation.",
+    "code": "<?php\n\n    interface HtmlRendererInterface\n    {\n        public function render(string $template, array $data = []): string;\n    }\n    \n    // The middleware interface mirrors the component interface,\n    // with an additional $next parameter typed to HtmlRendererInterface\n    interface MiddlewareInterface\n    {\n        public function render(\n            string $template,\n            array $data,\n            HtmlRendererInterface $next,\n        ): string;\n    }\n    \n    // Before pattern: modify input, then delegate\n    class TimestampMiddleware implements MiddlewareInterface\n    {\n        public function render(\n            string $template,\n            array $data,\n            HtmlRendererInterface $next,\n        ): string {\n            $data['generatedOn'] = date(DateTime::ATOM);\n    \n            return $next->render($template, $data);\n        }\n    }\n    \n    // Before+After pattern: wrap $next to also process output\n    class CacheMiddleware implements MiddlewareInterface\n    {\n        private array $cache = [];\n    \n        public function render(\n            string $template,\n            array $data,\n            HtmlRendererInterface $next,\n        ): string {\n            $key = hash('sha256', $template . serialize($data));\n    \n            if (isset($this->cache[$key])) {\n                return $this->cache[$key]; // short-circuit: return early without calling $next\n            }\n    \n            $this->cache[$key] = $next->render($template, $data);\n    \n            return $this->cache[$key];\n        }\n    }\n\n?>",
+    "documentation": "https://maximegosselin.com/posts/using-the-middleware-pattern-to-extend-php-libraries/",
+    "related": [
+        "design-pattern",
+        "decorator",
+        "psr",
+        "pipeline",
+        "response",
+        "aspect-oriented",
+        "message-bus",
+        "microframework",
+        "api-gateway",
+        "cross-cutting-concerns",
+        "rate-limit",
+        "request",
+        "slim"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://maximegosselin.com/posts/using-the-middleware-pattern-to-extend-php-libraries/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PSR-15",
+            "url": "https://www.php-fig.org/psr/psr-15/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Extending with Middleware",
+            "url": "https://backslashphp.github.io/docs/customization/extending-with-middleware/"
+        }
+    ],
+    "tags": [
+        "design pattern"
+    ],
+    "packagist": [
+        "backslashphp/backslash"
+    ],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sun, 30 Aug 2026 14:49:40 +0000"
+}

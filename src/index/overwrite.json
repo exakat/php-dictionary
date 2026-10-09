@@ -1,0 +1,55 @@
+{
+    "id": "overwrite",
+    "name": "Overwrite",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/overwrite.html",
+    "aliases": [
+        "overwriting"
+    ],
+    "description": "Overwriting is the process to replace an existing structure, with another one, entirely different. The replaced structure may be a method, a property, class constant, a variable. The first ones are related to OOP programming and inheritance, the latter is variable behavior.\n\nOverwriting is applicable to constants, methods and properties. Methods still should have a compatible signature with their parent's equivalent, while properties and constants may change their default value.\n\nOverwriting methods is prevented by the ``final`` keyword, or the ``private`` visibility.\n\nOverwriting is also called overloading.",
+    "code": "<?php\n\nclass x {\n    const Y = 1;\n    const Z = 2;\n}\n\nclass xx extends x {\n    // Z is inherited, and its value is 2    \n    // Y used to be 1, it is now 31\n    const Y = 31;\n    const A = 3;\n}\n\n$a = 1; \n$a = 2; // The first value of $a is overwritten\n\n// a silent overwrite\n$a = function() use ($a) {}; \n\n?>",
+    "documentation": "https://www.php.net/manual/en/language.oop5.inheritance.php",
+    "related": [
+        "final",
+        "private",
+        "inheritance",
+        "override",
+        "assignation",
+        "child-class",
+        "overriding",
+        "parent"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.oop5.inheritance.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP: The final Keyword - Manual",
+            "url": "https://www.php.net/manual/en/language.oop5.final.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "How to Override Method in PHP",
+            "url": "https://www.phptutorial.net/php-oop/php-override-method/"
+        }
+    ],
+    "tags": [
+        "concept"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sat, 08 Aug 2026 08:10:54 +0000"
+}

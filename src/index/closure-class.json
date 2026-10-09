@@ -1,0 +1,43 @@
+{
+    "id": "closure-class",
+    "name": "Closure Class",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/closure-class.html",
+    "aliases": [],
+    "description": "``Closure`` is a PHP native class that is the result of the closure syntax. It is also the result of an arrow function syntax, and a call to first class callable. \n\nThe ``Closure`` class offers methods to call the closure, bind it to new objects, or create more, from a callable.",
+    "code": "<?php\n\n$closure = function ($a) use ($b) {\n    return $a + $b + 1;\n};\nvar_dump($closure);\n\n$arrowFunction = fn () => 1;\nvar_dump($arrowFunction);\n\n$firstClassCallable = strtolower(...);\nvar_dump($firstClassCallable);\n\n?>",
+    "documentation": "https://www.php.net/manual/en/class.closure.php",
+    "related": [
+        "closure"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/class.closure.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Closures in PHP",
+            "url": "https://medium.com/@serhii.shkarupa/closures-in-php-54f18b2f9dc1"
+        }
+    ],
+    "tags": [
+        "function",
+        "native class",
+        "closure"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Tue, 25 Aug 2026 19:12:45 +0000"
+}

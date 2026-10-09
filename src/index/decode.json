@@ -1,0 +1,45 @@
+{
+    "id": "decode",
+    "name": "Decode",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/decode.html",
+    "aliases": [],
+    "description": "To decode is to transform a piece of data, from a specialized format to a human readable one.\n\nThe conversion is lossless, and shall be reverted with an encode operation.",
+    "code": "<?php\n\n    // convert an array to a JSON string\n    // This is also called 'encoding', and may be decoded\n    $array = ['a' => 1];\n    $json = json_encode($array);\n    \n    $original = json_decode($json);\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Code",
+    "related": [
+        "encode",
+        "convert"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Code"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP: Useful Encoding and decoding Functions You Need to Know",
+            "url": "https://canopas.com/php-useful-encoding-and-decoding-functions-you-need-to-know-210e523a065f"
+        }
+    ],
+    "tags": [
+        "concept",
+        "data"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Fri, 19 Jun 2026 21:24:01 +0000"
+}

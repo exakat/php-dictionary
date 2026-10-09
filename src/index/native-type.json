@@ -1,0 +1,65 @@
+{
+    "id": "native-type",
+    "name": "PHP Natives",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/native-type.html",
+    "aliases": [],
+    "description": "PHP offers a selection of natives, which are not directly derived from a class, interface or enumeration name. They cover cases that are not object related, or not even data related.\n\n+ null\n+ ``bool``\n+ int\n+ float\n+ string\n+ array\n+ object\n+ resource\n+ never\n+ void\n+ self\n+ parent\n+ static\n+ false\n+ true\n+ callable\n+ iterable\n+ stringable.\n\nNatives fall into two broad groups. Scalar and compound types: ``null``, ``bool``, ``int``, ``float``, ``string``, ``array``, ``object``, ``resource``, which describe the shape of a value; Pseudo-types and contextual types, such as ``never``, ``void``, ``self``, ``parent``, ``static``, ``false``, ``true``, ``callable``, ``iterable``, ``stringable``, which are mostly meaningful in type declarations and don't correspond to a single concrete kind of value: ``self`` and ``static`` refer to the enclosing or called class, ``callable`` and ``iterable`` describe a capability rather than a structure, and ``never``/``void`` describe what a function does not return.\n\nSince PHP 7.0, most of these names can be used as parameter and return type declarations, and PHP 8.0 added support for union types, allowing a single declaration such as ``int|string`` to accept more than one native type. Because these are reserved words tied directly to the engine's type system, they cannot be reused as class or interface names.",
+    "code": "<?php\n\n    function trumpet(int $i, callable $c) : never {\n        die();\n    }\n\n?>",
+    "documentation": "https://www.php.net/manual/en/language.types.php",
+    "related": [
+        "null",
+        "boolean",
+        "integer",
+        "float",
+        "string",
+        "array",
+        "object",
+        "resource",
+        "never",
+        "void",
+        "self",
+        "parent",
+        "static",
+        "false",
+        "true",
+        "callable",
+        "iterable",
+        "stringable"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.types.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP: rfc:scalar-pseudo-type",
+            "url": "https://wiki.php.net/rfc/scalar-pseudo-type"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP Data Types - PHP Tutorial",
+            "url": "https://www.phptutorial.net/php-tutorial/php-data-types/"
+        }
+    ],
+    "tags": [
+        "type"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Fri, 09 Oct 2026 17:26:12 +0000"
+}

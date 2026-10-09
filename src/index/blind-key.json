@@ -1,0 +1,52 @@
+{
+    "id": "blind-key",
+    "name": "Blind Variable",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/blind-key.html",
+    "aliases": [
+        "blind-variable"
+    ],
+    "description": "A blind variable is a variable that is needed in an expression, but doesn't carry much semantic value. This is the case in loops, where the local variable is needed for the processing of each element, but is often a generic name.\n\nBlind variables are defined in the host structure. \n\nBlind variables are expected to be used only within their structure, although they do exist beyond.",
+    "code": "<?php\n\n    // $key and $value are blind variables\n    foreach(source() as $key => $value) {\n        doSomething($key, $value);\n    }\n    \n    \n    // standard loop syntax\n    for($i = 0; $i < 10; ++$i) {\n        doSomething($i);\n    }\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Loop_variable",
+    "related": [
+        "foreach",
+        "for"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Loop_variable"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "When writing a 'for' loop, why does everyone name the variable as 'i'?",
+            "url": "https://www.quora.com/When-writing-a-for-loop-why-does-everyone-name-the-variable-as-i"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Stop the i, j, k Confusion: A Clearer Approach to Loop Index Naming",
+            "url": "https://dev.to/mogera551/stop-the-i-j-k-confusion-a-clearer-approach-to-loop-index-naming-2g4e"
+        }
+    ],
+    "tags": [
+        "concept",
+        "variable",
+        "foreach",
+        "for"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 20 Aug 2026 07:35:12 +0000"
+}

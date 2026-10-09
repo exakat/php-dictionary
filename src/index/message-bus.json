@@ -1,0 +1,60 @@
+{
+    "id": "message-bus",
+    "name": "Message Bus",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/message-bus.html",
+    "aliases": [
+        "event-bus"
+    ],
+    "description": "A message bus is a communication mechanism that allows different components or services to exchange messages in a decoupled manner. It acts as an intermediary channel through which senders publish messages and receivers consume them, without either party having direct knowledge of the other.\n\nIn applications, a message bus is typically implemented as an synchronous in-process dispatcher or as a wrapper around an asynchronous external message broker. The Symfony Messenger component is a popular PHP implementation that supports both modes and can route messages to queues backed by AMQP, Redis, Doctrine, or other transports.\n\nA message bus often covers three patterns:\n\n+ Command bus: routes commands to a single handler.\n+ Event bus: broadcasts domain events to multiple listeners.\n+ Query bus: routes queries to a single handler that returns a result.\n\nUsing a message bus decouples the code that sends a message from the code that handles it, improving maintainability, testability, and scalability.",
+    "code": "<?php\n\n    // Symfony Messenger: dispatching a command\n    use App\\Message\\SendEmailNotification;\n    use Symfony\\Component\\Messenger\\MessageBusInterface;\n    \n    final class UserRegistrationService\n    {\n        public function __construct(\n            private readonly MessageBusInterface $bus,\n        ) {}\n    \n        public function register(string $email): void\n        {\n            // ... persist the user ...\n    \n            $this->bus->dispatch(new SendEmailNotification($email));\n        }\n    }\n\n?>",
+    "documentation": "https://symfony.com/doc/current/messenger.html",
+    "related": [
+        "message-queue",
+        "command-bus",
+        "cqrs",
+        "event-driven",
+        "event-sourcing",
+        "pubsub",
+        "listener",
+        "middleware",
+        "decoupling"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://symfony.com/doc/current/messenger.html"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "The Message Bus Pattern",
+            "url": "https://en.wikipedia.org/wiki/Message_bus"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Tactician Command Bus",
+            "url": "https://tactician.thephpleague.com/"
+        }
+    ],
+    "tags": [
+        "architecture",
+        "messaging"
+    ],
+    "packagist": [
+        "symfony/messenger",
+        "league/tactician"
+    ],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Tue, 07 Jul 2026 05:11:48 +0000"
+}

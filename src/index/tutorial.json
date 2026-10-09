@@ -1,0 +1,51 @@
+{
+    "id": "tutorial",
+    "name": "Tutorial",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/tutorial.html",
+    "aliases": [
+        "how-to"
+    ],
+    "description": "Tutorial is a type of documentation. \n\nA tutorial is a step-by-step instructional guide designed to teach a specific skill, concept, or process. It breaks down complex topics into manageable, easy-to-follow instructions, often with practical examples or hands-on exercises. Tutorials are commonly used in education, software development, and self-learning to help users or developers understand and apply new knowledge efficiently.",
+    "code": "",
+    "documentation": "https://en.wikipedia.org/wiki/Tutorial",
+    "related": [
+        "documentation"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Tutorial"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "phptutorial",
+            "url": "https://www.phptutorial.net/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "learn PHP",
+            "url": "https://www.learn-php.org/"
+        }
+    ],
+    "tags": [
+        "concept",
+        "documentation"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Mon, 15 Jun 2026 11:03:59 +0000"
+}

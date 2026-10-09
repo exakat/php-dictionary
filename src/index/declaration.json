@@ -1,0 +1,41 @@
+{
+    "id": "declaration",
+    "name": "Declaration",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/declaration.html",
+    "aliases": [],
+    "description": "A declaration is a statement that defines a structure, such as a function, a class, method, property, etc. A declaration must occur before the usage of the declared resource.\n\nPHP requires a declaration for some structures, and allows its omission for others. For example, a class must be declared before usage, while a variable can be used without declaration. Properties are currently being moved to a compulsory declaration.",
+    "code": "<?php\n\n// cannot call a function before defining it\ntrumpet();\n\nfunction trumpet() {}\n\nclass Elephpant {\n    function forage() {\n        // This is a warning since PHP 8.2, planned to be a fatal error in PHP 9.0\n        $this->undeclaredProperty = 1;\n        \n        // $b is undefined. It creates a warning, but the code keeps executing.\n        $a = $b + 1;\n    }\n}\n\n?>",
+    "documentation": "https://www.php.net/manual/en/language.variables.basics.php",
+    "related": [
+        "definition"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.variables.basics.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Difference between Definition and Declaration",
+            "url": "https://www.geeksforgeeks.org/compiler-design/difference-between-definition-and-declaration/"
+        }
+    ],
+    "tags": [
+        "concept"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+}

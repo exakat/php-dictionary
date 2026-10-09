@@ -1,0 +1,48 @@
+{
+    "id": "internet",
+    "name": "Internet",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/internet.html",
+    "aliases": [],
+    "description": "The internet is a global network of interconnected computers and devices that communicate using shared protocols.\n\nIt's billions of devices, phones, servers, laptops, routers, etc. all linked together so they can send data to each other, anywhere in the world.",
+    "code": "",
+    "documentation": "https://en.wikipedia.org/wiki/Internet",
+    "related": [
+        "web",
+        "network"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Internet"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP: cURL",
+            "url": "https://www.php.net/manual/en/book.curl.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "World Wide Web (Wikipedia)",
+            "url": "https://en.wikipedia.org/wiki/World_Wide_Web"
+        }
+    ],
+    "tags": [
+        "concept",
+        "web"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sun, 16 Aug 2026 08:03:18 +0000"
+}

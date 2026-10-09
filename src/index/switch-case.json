@@ -1,0 +1,51 @@
+{
+    "id": "switch-case",
+    "name": "Switch Case",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/switch-case.html",
+    "aliases": [],
+    "description": "A switch case, also called case, is an option in a ``switch()`` or a ``match()`` expression. \n\nIn a ``switch()``, several cases may be used in a row, to apply the same code. This is not possible with ``match()``.\n\nIn a`` switch()``, the case's code is executed until the end of the ``switch()``, or a ``break`` command. A case that uses its own code, and the following case's code is called a fallthrough. \n\nThere is a default case, which is called when all other cases fail.\n\nIn the event of multiple identical cases, the first one is used. PHP adapts the type of the values while looking for the right case.",
+    "code": "<?php\n\n    switch($trunk) {\n        case 'a':\n        case 'c':\n            $a = 1;\n            // fall through\n\n        case 'b' :\n            $a =2;\n            break 1;\n\n        // default case, when $trunk is not 'a' 'b' or 'c'\n        default :\n            $a = 3;\n    }\n\n?>",
+    "documentation": "https://www.php.net/manual/en/control-structures.switch.php",
+    "related": [
+        "default",
+        "break",
+        "switch",
+        "match",
+        "switch-default",
+        "case"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/control-structures.switch.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "match",
+            "url": "https://www.php.net/manual/en/control-structures.match.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Switch statement (fallthrough) - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Switch_statement#Fallthrough"
+        }
+    ],
+    "tags": [
+        "keyword"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+}

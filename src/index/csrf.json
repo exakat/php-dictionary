@@ -1,0 +1,58 @@
+{
+    "id": "csrf",
+    "name": "Cross Site Request Forgery (CSRF)",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/csrf.html",
+    "aliases": [
+        "xsrf"
+    ],
+    "description": "A ``CSRF``, or ``XSRF`` attack happens when a malicious website tricks a logged-in user's browser into sending an unwanted request to another application. CSRF requires both an intermediate website and a victim website.\n\n``CSRF`` is often confused with SSRF, the server-side request forgery, but the two are distinct: ``CSRF`` forges a request from the victim's browser, while ``SSRF`` forges a request from the server itself.",
+    "code": "",
+    "documentation": "https://en.wikipedia.org/wiki/Cross-site_request_forgery",
+    "related": [
+        "xss",
+        "ssrf",
+        "nonce",
+        "hash_equals",
+        "sast",
+        "session-highjacking",
+        "vulnerability"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Cross-site_request_forgery"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "CSRF vs XSS: What are their similarity and differences",
+            "url": "https://brightsec.com/blog/csrf-vs-xss/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Cross Site Request Forgery (CSRF)",
+            "url": "https://owasp.org/www-community/attacks/csrf"
+        }
+    ],
+    "tags": [
+        "security",
+        "acronym",
+        "vulnerability"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Wed, 08 Jul 2026 14:57:20 +0000"
+}

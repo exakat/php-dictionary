@@ -1,0 +1,56 @@
+{
+    "id": "popo",
+    "name": "Plain Old PHP Object (POPO)",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/popo.html",
+    "aliases": [],
+    "description": "``Plain Old PHP Object``, or ``POPO`` for shorts, refers to a simple PHP class that does not depend on any framework, library, or special inheritance. ``POPO`` are just basic classes with properties and methods, used to represent data or logic without any external dependencies. They are often contrasted with objects that are tied to frameworks, like Doctrine entities in Symfony, or use magic methods or reflection heavily.\n\n``Plain Old <Language> Object`` also works for any other programming language.",
+    "code": "<?php\n\n    class User {\n        public string $name;\n        public string $email;\n    \n        public function __construct(string $name, string $email)\n        {\n            $this->name = $name;\n            $this->email = $email;\n        }\n    \n        public function getInfo(): string\n        {\n            return \"Name: {$this->name}, Email: {$this->email}\";\n        }\n    }\n    \n    // Usage\n    $user = new User('Elephpant PHP', 'elephpant@php.net');\n    echo $user->getInfo(); // Output: Name: Elephpant PHP, Email: elephpant@php.net\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Plain_old_Java_object",
+    "related": [
+        "dto",
+        "vo",
+        "stdclass"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Plain_old_Java_object"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "POPO \u2014 What is it, and why should you not use it?",
+            "url": "https://medium.com/@damiankryger/popo-what-is-it-and-why-should-you-not-use-it-29c1487e2740"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Plain old PHP Object - Usability and benefits in modern PHP programming",
+            "url": "https://dev.to/fuadardiono/plain-old-php-object-usability-and-benefits-in-modern-php-programming-32oc"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Do not Forget POPO, the Plain Old PHP Object approach",
+            "url": "https://ivonascimento.com/2014/03/06/do-not-forget-popo-the-plain-old-php-object-approach/"
+        }
+    ],
+    "tags": [
+        "class",
+        "acronym"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+}

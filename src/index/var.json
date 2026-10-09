@@ -1,0 +1,63 @@
+{
+    "id": "var",
+    "name": "Var",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/var.html",
+    "aliases": [],
+    "description": "``var`` keyword for introducing PHP properties in classes. It originates from PHP 4, where it was the only way to declare class properties. Since PHP 5, visibility keywords like ``public``, ``private``, ``protected`` replaced it as the idiomatic syntax.\n\n``var`` is equivalent to ``public``: a property declared with ``var`` is publicly accessible. It is considered legacy syntax and is not recommended.\n\nModern property declarations support additional modifiers unavailable with ``var``, such as ``final``, ``static``, ``readonly``, and type declarations. \n\n``var`` may be omitted with other options such as ``final``, ``static``, ``readonly``, or asymmetric visibility: then, the property is publicly accessible.",
+    "code": "<?php\n\n    class Elephpant {\n        var $tusk;   // public $tusk\n        final $ivory; // public final $ivory;\n    }\n\n?>",
+    "documentation": "https://www.php.net/manual/en/language.oop5.properties.php#language.oop5.properties",
+    "related": [
+        "visibility",
+        "protected",
+        "private",
+        "public",
+        "property",
+        "static",
+        "final",
+        "readonly",
+        "type-declaration-property",
+        "promoted-property",
+        "asymmetric-visibility",
+        "oop",
+        "dynamic-property",
+        "legacy"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.oop5.properties.php#language.oop5.properties"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP RFC: var Deprecation",
+            "url": "https://wiki.php.net/rfc/var_deprecation"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Drop 'public' not 'var'!",
+            "url": "https://evertpot.com/drop-public-not-var/"
+        }
+    ],
+    "tags": [
+        "keyword"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [
+        "Classes/OldStyleVar"
+    ],
+    "cobblers": [
+        "Classes/VarToPublic"
+    ],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+}

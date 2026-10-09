@@ -1,0 +1,48 @@
+{
+    "id": "hrtime",
+    "name": "hrtime()",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/hrtime.html",
+    "aliases": [],
+    "description": "``hrtime()`` is a native PHP function and an PIE extension. As a function, ``hrtime()`` returns the high precision time of the system. \n\n``HRT`` represents an acronym of ``High Resolution Time``. \n\nThe time is of high precision, but counted from an arbitrary point of time: the value of this function is in calculating differences between two ``hrtime()`` calls, rather than the obtained value.\n\n``hrtime()`` is a modern replacement for ``microtime()``.",
+    "code": "<?php\n\n    $timeStart = hrtime(true);\n    \n    // Sleep some time\n    usleep(100);\n    \n    $timeEnd = hrtime(true);\n    $time = $timeEnd - $timeStart;\n    \n    echo \"Slept for $time micro-seconds\\n\";\n    \n?>",
+    "documentation": "https://www.php.net/manual/fr/function.hrtime.php",
+    "related": [
+        "microtime",
+        "micro-second",
+        "sleep"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/fr/function.hrtime.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP hrtime Function",
+            "url": "https://zetcode.com/php/hrtime/"
+        }
+    ],
+    "tags": [
+        "micro",
+        "time",
+        "native function",
+        "date"
+    ],
+    "packagist": [],
+    "extensions": [
+        "hrtime"
+    ],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Tue, 25 Aug 2026 19:12:45 +0000"
+}

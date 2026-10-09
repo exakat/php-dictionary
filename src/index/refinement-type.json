@@ -1,0 +1,54 @@
+{
+    "id": "refinement-type",
+    "name": "Refinement Type",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/refinement-type.html",
+    "aliases": [
+        "predicate-type"
+    ],
+    "description": "A refinement type is a base type combined with a logical predicate that every value of that type must satisfy. Instead of just ``int``, a refinement type allows ``{ x: int | x > 0 }`` meaning a positive integer, or ``{ s: string | length(s) <= 255 }`` meaning a short string. The predicate is part of the type definition and is checked statically by the type system, not at runtime.\n\nRefinement types shift constraint validation from runtime guards into the type system itself. A function accepting a ``PositiveInt`` can never be called with a negative number without a type error; the caller must prove the precondition, typically by producing a value through a smart constructor.\n\nLanguages with native or library-based refinement type support include Liquid Haskell, via SMT-solver-backed liquid types, F*, and some dependently-typed systems. TypeScript libraries such as ``io-ts`` and ``zod`` approximate refinements at the boundary layer.\n\nPHP does not support refinement types. The closest approximations are:\n\n+ Value objects with a constructor that throws on invalid input, enforcing the predicate at instantiation.\n+ Psalm and PHPStan assertion annotations ``@psalm-assert positive-int $n`` which let static analysis track some refinements across control flow.\n+ PHP 8.0 ``assert()`` in development mode for runtime checks.\n\nNone of these approaches enforces the predicate at the type system level in a way that is verified statically across all call sites.",
+    "code": "<?php\n\n    // PHP approximation: smart constructor enforcing the predicate at runtime\n    final class PositiveInt {\n        public readonly int $value;\n\n        private function __construct(int $value) {\n            if ($value <= 0) {\n                throw new \\InvalidArgumentException('Must be positive');\n            }\n            $this->value = $value;\n        }\n\n        public static function of(int $value): self {\n            return new self($value);\n        }\n    }\n\n    function divide(int $dividend, PositiveInt $divisor): float {\n        return $dividend / $divisor->value;\n    }\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Refinement_type",
+    "related": [
+        "dependent-type",
+        "type-system",
+        "type-checking",
+        "value-object",
+        "invariant",
+        "validation",
+        "gradual-type-checking",
+        "assertion"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Refinement_type"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Liquid Haskell",
+            "url": "https://ucsd-progsys.github.io/liquidhaskell/"
+        }
+    ],
+    "tags": [
+        "concept",
+        "type",
+        "not supported"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Wed, 02 Sep 2026 16:41:00 +0000"
+}

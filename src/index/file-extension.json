@@ -1,0 +1,48 @@
+{
+    "id": "file-extension",
+    "name": "File Extension",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/file-extension.html",
+    "aliases": [],
+    "description": "File extensions are the suffixes at the end of file names that indicate the type or format of the file. They typically come after a period ``.`` in the file name. \n\nFile extensions help PHP recognize the file type and determine which program should be used to open it. They should not be used as a security feature, but rather as a hint of the content.",
+    "code": "<?php\n\n$files = glob(\"directory/*.ini\");\n\nforeach($files as $file) {\n    // displays the file name, without the file extension\n    print basename($file, '.ini').PHP_EOL;\n}\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Filename_extension",
+    "related": [
+        "file"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Filename_extension"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "pathinfo",
+            "url": "https://www.php.net/manual/en/function.pathinfo.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "basename",
+            "url": "https://www.php.net/manual/en/function.basename.php"
+        }
+    ],
+    "tags": [
+        "file"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Wed, 19 Aug 2026 06:48:14 +0000"
+}

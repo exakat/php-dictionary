@@ -1,0 +1,61 @@
+{
+    "id": "existence",
+    "name": "Existence",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/existence.html",
+    "aliases": [],
+    "description": "Existence is the general concept of checking whether something is available before using it. PHP provides several dedicated functions and constructs for this, each targeting a different kind of entity.\n\n``isset()`` checks whether a variable exists and is not ``null``. It is a language construct, not a function, so it does not trigger an error on undefined variables. It is commonly used to guard access to array keys or object properties before reading them.\n\n``defined()`` checks whether a constant has been defined, either with ``define()`` or ``const``. It is the counterpart of ``isset()`` for constants, since constants are not variables and ``isset()`` cannot be used on them.\n\n``file_exists()`` checks whether a file or directory exists on the filesystem at a given path. It is used before reading, including, or operating on a file, to avoid errors on missing paths.\n\n``class_exists()``, ``interface_exists()``, and ``trait_exists()`` check whether a class, interface, or trait has been loaded or can be autoloaded. They are useful in conditional compatibility code, plugin systems, or when working with optional dependencies.\n\nThe underlying concept is the same across all these cases: verify that an entity is available in its respective scope before attempting to use it. Failing to check existence is a common source of warnings, errors, and undefined-behavior bugs.",
+    "code": "<?php\n\n    // Variable existence\n    if (isset($config['timeout'])) {\n        $timeout = $config['timeout'];\n    }\n\n    // Constant existence\n    if (defined('APP_ENV')) {\n        echo APP_ENV;\n    }\n\n    // File existence\n    if (file_exists('/path/to/config.php')) {\n        include '/path/to/config.php';\n    }\n\n    // Class existence\n    if (class_exists(SomeOptionalLibrary::class)) {\n        $obj = new SomeOptionalLibrary();\n    }\n\n?>",
+    "documentation": "https://www.php.net/manual/en/function.isset.php",
+    "related": [
+        "isset",
+        "defined",
+        "undefined",
+        "null",
+        "file",
+        "autoload",
+        "class",
+        "uninitialized"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/function.isset.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "defined",
+            "url": "https://www.php.net/manual/en/function.defined.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "file_exists",
+            "url": "https://www.php.net/manual/en/function.file-exists.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "class_exists",
+            "url": "https://www.php.net/manual/en/function.class-exists.php"
+        }
+    ],
+    "tags": [
+        "concept",
+        "native function"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sat, 04 Jul 2026 08:21:02 +0000"
+}

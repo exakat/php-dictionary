@@ -1,0 +1,58 @@
+{
+    "id": "docblock",
+    "name": "Docblock",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/docblock.html",
+    "aliases": [],
+    "description": "A docblock, or docblock comment, is a special kind of comment used to document any structure: classes, constants, traits, interfaces, variables, functions, methods, and properties. It is written in a specific format and is typically placed just before the element it describes. Docblocks are used by tools like phpDocumentor, PHPDoc, and IDEs to generate documentation and provide code hints.\n\nDocblocks improve readability, enable IDE features, and automate reference documentation generation.",
+    "code": "<?php\n\n/**\n * A brief description of the function.\n *\n * A more detailed description, if needed.\n *\n * @param type $parameter_name Description of the parameter\n * @return type Description of the return value\n */\nfunction exampleFunction($parameter_name) {\n    // Function code here\n    return $result;\n}\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/PHPDoc",
+    "related": [
+        "self-documenting",
+        "documentation",
+        "readability",
+        "block",
+        "explanation",
+        "effect-system",
+        "metadata",
+        "phpstan",
+        "psalm",
+        "sca",
+        "type-parametricity"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/PHPDoc"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHPDoc reference",
+            "url": "https://docs.phpdoc.org/guide/references/phpdoc/index.html#phpdoc-reference"
+        }
+    ],
+    "tags": [
+        "comment",
+        "documentation"
+    ],
+    "packagist": [
+        "phpdocumentor/phpdocumentor",
+        "php-di/phpdoc-reader",
+        "phpowermove/docblock"
+    ],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Fri, 14 Aug 2026 07:52:14 +0000"
+}

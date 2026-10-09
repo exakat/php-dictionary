@@ -1,0 +1,51 @@
+{
+    "id": "time-travel",
+    "name": "Time Travel",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/time-travel.html",
+    "aliases": [],
+    "description": "Time travel debugging is a technique in software development that allows the program to step backward as well as forward through its execution path.",
+    "code": "",
+    "documentation": "https://en.wikipedia.org/wiki/Time_travel_debugging",
+    "related": [
+        "event-sourcing"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Time_travel_debugging"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Event Sourcing is like Time traveling",
+            "url": "https://newsletter.systemdesignclassroom.com/p/event-sourcing-is-like-time-traveling"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Mastering CQRS & Event Sourcing: Architecting Scalable, Resilient Systems",
+            "url": "https://devcookies.medium.com/mastering-cqrs-event-sourcing-architecting-scalable-resilient-systems-765964e76180"
+        }
+    ],
+    "tags": [
+        "debug",
+        "clock",
+        "datetime",
+        "date"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Tue, 25 Aug 2026 19:12:45 +0000"
+}

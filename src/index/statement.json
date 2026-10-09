@@ -1,0 +1,43 @@
+{
+    "id": "statement",
+    "name": "Statement",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/statement.html",
+    "aliases": [],
+    "description": "A statement can be an assignment, a function call, a loop, a conditional statement or even a statement that does nothing, an empty statement. \n\nStatements usually end with a semicolon. \n\nIn addition, statements can be grouped into a statement-group by encapsulating a group of statements with curly braces. A statement-group is a statement by itself as well.",
+    "code": "",
+    "documentation": "https://www.php.net/manual/en/control-structures.intro.php",
+    "related": [
+        "semicolon",
+        "control-flow",
+        "instruction"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/control-structures.intro.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Statements",
+            "url": "https://phplang.org/spec/11-statements.html"
+        }
+    ],
+    "tags": [
+        "syntax"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 27 Aug 2026 04:31:44 +0000"
+}

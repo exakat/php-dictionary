@@ -1,0 +1,56 @@
+{
+    "id": "oop",
+    "name": "OOP (Object Oriented Programming)",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/oop.html",
+    "aliases": [
+        "object-oriented-programming"
+    ],
+    "description": "Procedural Programming is a programming paradigm where a program is structured as a series of step-by-step instructions, using procedures, or functions, and control flow statements like loops, conditionals, and function calls. It focuses on 'what to do next', in a sequential, top-down manner.\n\nPHP supports functions and global variables needed for Functional programming.\n\nA lot of legacy PHP code is written in a procedural style. It usually evolved to OOP, Object Oriented Programming.",
+    "code": "",
+    "documentation": "https://www.php.net/manual/en/language.oop5.php",
+    "related": [
+        "functional-programming",
+        "encapsulation",
+        "paradigm",
+        "procedural-programming",
+        "var",
+        "anemic-domain-model",
+        "data-hiding",
+        "modifier",
+        "polymorphism",
+        "rich-domain-model"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.oop5.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Functional Programming in PHP \u00b7 2nd Edition",
+            "url": "https://www.functionalphp.com/"
+        }
+    ],
+    "tags": [
+        "programming",
+        "acronym",
+        "paradigm"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Tue, 14 Jul 2026 06:21:34 +0000"
+}

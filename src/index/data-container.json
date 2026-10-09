@@ -1,0 +1,41 @@
+{
+    "id": "data-container",
+    "name": "Data Container",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/data-container.html",
+    "aliases": [],
+    "description": "A data container is a structure that stores data. It is a generic concept, that covers variables, both local and global, properties, both static and simple, and array elements.",
+    "code": "<?php\n\n    $a = 1;\n    $object->property = 'b';\n    $array = ['a', 3, 4.4];\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Container_(abstract_data_type)",
+    "related": [
+        "container",
+        "variable",
+        "property",
+        "static-property",
+        "index-array"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Container_(abstract_data_type)"
+        }
+    ],
+    "tags": [
+        "concept",
+        "noSeeAlso"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Tue, 04 Aug 2026 11:29:39 +0000"
+}

@@ -1,0 +1,56 @@
+{
+    "id": "count",
+    "name": "count()",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/count.html",
+    "aliases": [],
+    "description": "``count()`` is a native PHP function, that returns the number of elements in the argument. \n\n``count()`` is basically meant to work on arrays: it returns the number of elements in the array. ``count()`` is also able to run recursively, when provided the second argument. \n\nBy extension, ``count()`` works on classes of objects that implement the ``Countable`` interface.\n\nIt is a Fatal error to call ``count()`` on an object that can't be counted. Use ``is_countable()`` or type validation to make sure the data may be counted.",
+    "code": "<?php\n\necho count([1,2,3]); // 3\n\necho count([1,2,3, [4, 5]], COUNT_RECURSIVE); // 6 == 4 + 2 \n\nclass Elephpant implements Countable {\n    function count() : int {\n        // arbitrary count\n        return 7;\n    }\n}\n\necho count(new Elephpant); // 7\n\n?>",
+    "documentation": "https://www.php.net/manual/en/function.count.php",
+    "related": [
+        "countable",
+        "array",
+        "iterable",
+        "recursion",
+        "multidimensional-array",
+        "compiler-optimized-function"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/function.count.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP: sizeof()",
+            "url": "https://www.php.net/manual/en/function.sizeof.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP: Countable Interface",
+            "url": "https://www.php.net/manual/en/class.countable.php"
+        }
+    ],
+    "tags": [
+        "native function",
+        "array"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [
+        "Performances/NotCountNull"
+    ],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": {
+        "Argument #1 ($value) must be of type Countable|array, object given ": "parameter-must-be-an-array-or-an-object-that-implements-countable"
+    },
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Fri, 18 Sep 2026 15:28:56 +0000"
+}

@@ -1,0 +1,74 @@
+{
+    "id": "try-catch",
+    "name": "Try-catch",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/try-catch.html",
+    "aliases": [
+        "try"
+    ],
+    "description": "Try-catch is a PHP command, which runs a block of code, and catches some configured exceptions that the block may throw. It may be completed with a finally block.\n\nThe catch clause may be anonymous, when it only specifies the type of caught exception, without providing a variable name.\n",
+    "code": "<?php\n\ntry {\n    callSomeMethod();\n} catch (\\Exception $e) {\n    // process the error here\n}\n\n?>",
+    "documentation": "https://www.php.net/manual/en/language.exceptions.php",
+    "related": [
+        "finally",
+        "anonymous-catch",
+        "argumentcounterror",
+        "arithmeticerror",
+        "catch",
+        "error",
+        "exception-chain",
+        "exception-handler",
+        "exception",
+        "mysqli_sql_exception",
+        "predefined-exception",
+        "throw",
+        "syntax",
+        "fatal-error",
+        "resource-leak",
+        "eval",
+        "ignored-catch",
+        "set_error_handler",
+        "transaction"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.exceptions.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP: Try and Catch me if you can!",
+            "url": "https://medium.com/@erlandmuchasaj/php-try-and-catch-me-if-you-can-824bc6bb6698"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "How to Implement Try Catch Finally Blocks in PHP",
+            "url": "https://rollbar.com/blog/php-try-catch-finally/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "A PHP Pattern To Avoid Try/Catch Blocks Repetition",
+            "url": "https://medium.com/better-programming/a-php-pattern-to-avoid-try-catch-blocks-repetition-1e3fe2038dc1"
+        }
+    ],
+    "tags": [
+        "keyword",
+        "feature"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [
+        "Exceptions/ForgottenThrown"
+    ],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Fri, 11 Sep 2026 13:48:49 +0000"
+}

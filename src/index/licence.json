@@ -1,0 +1,54 @@
+{
+    "id": "licence",
+    "name": "Licence",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/licence.html",
+    "aliases": [
+        "license"
+    ],
+    "description": "The licence refers to legal terms under which a source code is distributed and can be used.\n\nPHP has its own licence, which is Open Source. \n\nPHP source code may have a different licence. Common licences are MIT licence, Apache License 2.0, BSD License, GPL, LGPL, Copyleft Licenses.\n",
+    "code": "",
+    "documentation": "https://www.php.net/license/3_01.txt",
+    "related": [
+        "open-source",
+        "proprietary-source",
+        "closed-source",
+        "free"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/license/3_01.txt"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP Licensing",
+            "url": "https://www.php.net/license/index.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "The retirement of the PHP license",
+            "url": "https://lwn.net/Articles/1071253/"
+        }
+    ],
+    "tags": [
+        "distribution",
+        "business"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sat, 11 Jul 2026 14:50:40 +0000"
+}

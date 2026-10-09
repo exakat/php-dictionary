@@ -1,0 +1,49 @@
+{
+    "id": "checksum",
+    "name": "Checksum",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/checksum.html",
+    "aliases": [],
+    "description": "A checksum is a small, fixed-size value derived from a longer piece of data, used to detect errors or verify integrity. It is akin to a fingerprint or a signature.\n\nThere are several algorithms to create a checksum: crc32, md5, sha1, sha256.\n\nChecksums are extensively used to check file downloads and network transmissions; to verify stored data, identify revisions in VCS and validate components versions with package managers.",
+    "code": "<?php\n\n    echo md5('PHP rocks!');\n    \n    echo md5_file('/tmp/text.txt');\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Checksum",
+    "related": [
+        "crc32",
+        "md5",
+        "sha",
+        "vcs",
+        "fingerprint",
+        "package-manager",
+        "digital-signature"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Checksum"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "An introduction to Checksums",
+            "url": "https://johnothecoder.uk/2018/12/29/checksum-tutorial/"
+        }
+    ],
+    "tags": [
+        "security"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sat, 08 Aug 2026 14:31:02 +0000"
+}

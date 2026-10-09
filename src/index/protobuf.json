@@ -1,0 +1,57 @@
+{
+    "id": "protobuf",
+    "name": "Protocol Buffers",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/protobuf.html",
+    "aliases": [
+        "protocol-buffers"
+    ],
+    "description": "``protobuf`` is a PIE extension implementing Protocol Buffers, Google's language-neutral, binary serialization format. Messages are defined once in a ``.proto`` schema file, then compiled by the ``protoc`` compiler into PHP classes, generated getters, setters, and serialization code, that the extension accelerates at runtime.\n\nProtobuf-encoded messages are smaller and faster to encode and decode than JSON or XML, because the format is binary and schema-driven: field names are not repeated in every message, only compact field tags are. This makes it a natural fit for high-throughput RPC, most notably as the wire format used by gRPC, and for systems that need forward- and backward-compatible schema evolution, since fields can be added or deprecated without breaking older readers.\n\nThe extension provides a native C implementation of the generated message classes; without it, the pure-PHP runtime from the ``google/protobuf`` Composer package is used instead, which works but is considerably slower for large messages.",
+    "code": "<?php\n\n    // person.proto defines:\n    //   message Person { string name = 1; int32 id = 2; }\n    // compiled with: protoc --php_out=. person.proto\n\n    $person = new Person();\n    $person->setName('Ada');\n    $person->setId(1);\n\n    $binary = $person->serializeToString();\n\n    $decoded = new Person();\n    $decoded->mergeFromString($binary);\n    echo $decoded->getName();\n\n?>",
+    "documentation": "https://protobuf.dev/reference/php/",
+    "related": [
+        "grpc",
+        "json",
+        "serialization",
+        "pie"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://protobuf.dev/reference/php/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "gRPC PHP tutorial for microservices architecture",
+            "url": "https://tsh.io/blog/grpc-php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Basics tutorial | PHP | gRPC",
+            "url": "https://grpc.io/docs/languages/php/basics/"
+        }
+    ],
+    "tags": [
+        "extension",
+        "acronym",
+        "serialization"
+    ],
+    "packagist": [
+        "google/protobuf"
+    ],
+    "extensions": [
+        "protobuf"
+    ],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Tue, 18 Aug 2026 05:24:18 +0000"
+}

@@ -1,0 +1,51 @@
+{
+    "id": "local-file-inclusion",
+    "name": "Local File Inclusion",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/local-file-inclusion.html",
+    "aliases": [
+        "lfi"
+    ],
+    "description": "A local file inclusion is a security vulnerability, where an external attacker can choose which file from the local system is processed by the called script. \n\nThis vulnerability is often used to access password files, such as ``/etc/passwd``, or other hidden files. They might be read and displayed, or furthermore processed and modified.",
+    "code": "<?php\n\n    // Input URL : http://vulnerable_host/preview.php?file=../../../../etc/passwd\n    file_get_contents($_GET['file']); \n\n?>",
+    "documentation": "",
+    "related": [
+        "vulnerability",
+        "rce",
+        "include",
+        "php-filter"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Exploiting Local File Inclusion (LFI) Using PHP Wrapper",
+            "url": "https://gupta-bless.medium.com/exploiting-local-file-inclusion-lfi-using-php-wrapper-89904478b225"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Local File Inclusion (LFI): Understanding and Preventing LFI Attacks",
+            "url": "https://brightsec.com/blog/local-file-inclusion-lfi/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "From LFI to RCE via expect:// PHP Wrapper \u2014 A Deep Dive with Practical Examples",
+            "url": "https://medium.com/@zoningxtr/from-lfi-to-rce-via-expect-php-wrapper-a-deep-dive-with-practical-examples-699690073fe8"
+        }
+    ],
+    "tags": [
+        "security"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Fri, 25 Sep 2026 14:03:12 +0000"
+}

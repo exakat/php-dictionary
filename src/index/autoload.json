@@ -1,0 +1,67 @@
+{
+    "id": "autoload",
+    "name": "Class Autoloading",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/autoload.html",
+    "aliases": [
+        "autoloading"
+    ],
+    "description": "Autoloading provides a hook to allow the loading of a class, the first time PHP requires it. This is a more flexible way to handle the class definitions than the traditional inclusions, which requires good planning.\n\nAutoloading requires each class, trait, interface or enumeration to be stored in a distinct file. This is the most popular way, yet autoloading allows any other strategy of storage, as long as the class may be loaded based only on its name.\n\nAutoloading relies on the ``spl_autoload_register()`` function. Prior to PHP 8.0, it was possible to define the  ``__autoload()`` method, and this function has been deprecated since PHP 7.2.\n\nAutoloading does not work for global constants and functions. Those still require a specific inclusion mechanism.\n\nIn modern PHP, not using class autoloading is considered a bad practice.",
+    "code": "<?php\n\n    spl_autoload_register(function ($class_name) {\n        include $class_name . '.php';\n    });\n    \n    $obj  = new MyClass1();\n    $obj2 = new MyClass2(); \n\n?>",
+    "documentation": "https://www.php.net/manual/en/language.oop5.autoload.php",
+    "related": [
+        "autowiring",
+        "inclusion-hell",
+        "definition",
+        "call",
+        "__autoload",
+        "class-hoisting",
+        "spl",
+        "existence",
+        "hoisting",
+        "library",
+        "order-of-execution",
+        "include"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.oop5.autoload.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Use autoloading and namespaces in PHP",
+            "url": "https://opensource.com/article/23/4/autoloading-namespaces-php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Autoloading Performance \u2013 Avoid These 5 Mistakes!",
+            "url": "https://tideways.com/profiler/blog/autoloading-performance-avoid-these-5-mistakes"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Understanding Autoloading in PHP: How to Implement and Use It Efficiently",
+            "url": "https://dev.to/abhay_yt_52a8e72b213be229/understanding-autoloading-in-php-how-to-implement-and-use-it-efficiently-3a44"
+        }
+    ],
+    "tags": [
+        "best practice",
+        "feature"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [
+        "Php/Autoload"
+    ],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "5.0",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Fri, 11 Sep 2026 09:01:56 +0000"
+}

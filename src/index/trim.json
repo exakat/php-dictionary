@@ -1,0 +1,43 @@
+{
+    "id": "trim",
+    "name": "trim",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/trim.html",
+    "aliases": [],
+    "description": "The ``trim()`` function is used to remove whitespaces from the beginning and end of a string, at the same time. \n\nBy default, it removes any of the following characters from the start and end of the string:\n\n+ Space ``\" \"``\n+ Horizontal tab ``\\t``\n+ Newline ``\\n``\n+ Carriage return ``\\r``\n+ Null-byte ``\\0``\n\nUnbreakable spaces are not considered here, nor any other character, unless specified.\n\nThis function does not support multi-byte characters. It actually uses single-byte characters, and may leave inconsistent characters, or, with luck, it may actually remove the characters. Multibyte trim shall be done with ``mb_trim()``.\n\n``trim()`` removes all the provided characters, as long as it finds them leading or trailing the string. It is not possible to remove only one character with this function.\n\n``trim()`` is completed with ``ltrim()``, which is removing characters on the left part of the string, and  with ``rtrim()``, which is removing characters on the right part of the string.",
+    "code": "<?php\n\n    $string = \"\\n\\t PHP \";\n    $trimmed = trim($string);\n    // 'PHP'\n\n    $b = 'aaaaaab';\n    print trim($a, 'a'); //b\n\n    $a = '\u6211\u662f\u6cd5\u56fd\u4eba';\n    print $a;               //\u6211\u662f\u6cd5\u56fd\u4eba\n    print trim($a, '\u4eba\u6211'); //\ufffd\ufffd\u6cd5\u56fd \n\n?>",
+    "documentation": "https://www.php.net/manual/en/function.trim.php",
+    "related": [
+        "non-breakable-space"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/function.trim.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "How to trim strings with PHP",
+            "url": "https://benjamincrozat.com/php-trim"
+        }
+    ],
+    "tags": [
+        "native function"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Tue, 11 Aug 2026 20:51:30 +0000"
+}

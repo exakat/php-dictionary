@@ -1,0 +1,46 @@
+{
+    "id": "crc32",
+    "name": "Cyclic Redundancy Check 32-bit (CRC32)",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/crc32.html",
+    "aliases": [],
+    "description": "``CRC32`` stands for Cyclic Redundancy Check 32-bit. It is a hash function that produces a 32-bit, or 8-character hexadecimal, checksum or hash value from a given input, typically a sequence of bytes or a string. The primary purpose of CRC32 is error-checking and data integrity verification.\n\nPHP calculates CRC32 values with the native ``crc32()`` function, and the ``hash()`` function, although with slight differences.",
+    "code": "<?php\n    \n    $checksum = crc32(\"The quick brown fox jumped over the lazy dog.\");\n    printf(\"%u\\n\", $checksum);\n    \n    hash('crc32b', $str) === str_pad(dechex(crc32($str)), 8, '0', STR_PAD_LEFT);\n\n?>",
+    "documentation": "https://www.php.net/manual/en/function.crc32.php",
+    "related": [
+        "crypt",
+        "hash",
+        "checksum"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/function.crc32.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "php hash('crc32') and crc32() return different value",
+            "url": "https://stackoverflow.com/questions/40741707/php-hashcrc32-and-crc32-return-different-value"
+        }
+    ],
+    "tags": [
+        "native function",
+        "acronym"
+    ],
+    "packagist": [],
+    "extensions": [
+        "hash"
+    ],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 09 Jul 2026 08:56:16 +0000"
+}

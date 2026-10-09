@@ -1,0 +1,62 @@
+{
+    "id": "instanceof",
+    "name": "instanceof",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/instanceof.html",
+    "aliases": [],
+    "description": "``instanceof`` is used to determine whether a PHP variable is an instantiated object of a certain class. It is related to the function ``is_a()``.\n\n``instanceof`` has a higher precedence than ``!`` operator, so it is applied before the latter. In case of confusion, use parenthesis.\n\n``instanceof`` does not check that the checked class exists: it just checks that the provided object match the class name. If a typo happens in the class name or the class does not exists, the operator fails every time.\n\n",
+    "code": "<?php\n\n    if ($user instanceof Administrator) {\n        $user->admin();\n    }\n    \n    // If The user is not of class User...\n    if ( !$user instanceof User ) {\n    //if ( !($user instanceof User) ) {\n        $user->admin();\n    }\n    \n    var_dump($user instanceof UndefinedClass); // false\n\n?>",
+    "documentation": "https://www.php.net/manual/en/language.operators.type.php#language.operators.type",
+    "related": [
+        "operator",
+        "is_a",
+        "type-checking",
+        "object",
+        "polymorphism",
+        "is_object",
+        "object-type",
+        "multiple-dispatch",
+        "smart-cast",
+        "sum-type",
+        "type-narrowing"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.operators.type.php#language.operators.type"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "is_a",
+            "url": "https://www.php.net/manual/en/function.is-a.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Polymorphism (computer science)",
+            "url": "https://en.wikipedia.org/wiki/Polymorphism_(computer_science)"
+        }
+    ],
+    "tags": [
+        "feature",
+        "object",
+        "confusion",
+        "classic bug",
+        "silent behavior"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [
+        "Classes/UnresolvedInstanceof"
+    ],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+}

@@ -1,0 +1,46 @@
+{
+    "id": "camel-case",
+    "name": "Camel Case",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/camel-case.html",
+    "aliases": [],
+    "description": "Camel case, also written ``camelCase`` is a way of writing names without spaces, where:\n\n+ The first word starts with a lowercase letter\n+ Each following word starts with an uppercase letter\n\nThe capital letters create ``humps`` like a camel's back: this is the origin of the name.\n\nCamel case is often used for method and variable names. Class names, on the other hand, use Pascal case.",
+    "code": "<?php\n\n    function calculatePrice(int $price): int {\n        return $price * SALE_TAX_RATE;\n    }\n\n?>",
+    "documentation": "https://stringcase.org/cases/camel/",
+    "related": [
+        "pascal-case",
+        "snake-case",
+        "constant-case"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://stringcase.org/cases/camel/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "stringcase website",
+            "url": "https://stringcase.org/"
+        }
+    ],
+    "tags": [
+        "convention",
+        "animal"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 09 Jul 2026 09:08:09 +0000"
+}

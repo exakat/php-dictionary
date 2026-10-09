@@ -1,0 +1,68 @@
+{
+    "id": "constructor",
+    "name": "Constructor",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/constructor.html",
+    "aliases": [
+        "__construct"
+    ],
+    "description": "The constructor is a magic method in a class, which is called at instantiation of an object, with the provided arguments. It is called ``__construct``.\n\nThe constructor is an optional method: a class may be created without it. Though, it is very common to have it. \n\nParent's constructor are not automatically called, when a child class defines a constructor. They have to be called explicitly. \n\nWhen a class has a parent, with a constructor, and not constructor itself, then the parent constructor is automatically called, by inheritance.\n\nA constructor may have a visibility, and be not available to the outside. In particular, when creating named constructors, the magic method ``__construct`` is usually made ``private`` and object instantiation happens in a static method of that same class.\n",
+    "code": "<?php\n\n    class Elephpant {\n        private $trunkLength;\n\n        function __construct($value) {\n            $this->trunkLength = $value;\n        }\n    }\n\n    $elephpant = new Elephpant(1);\n\n?>",
+    "documentation": "https://www.php.net/manual/en/language.oop5.decon.php",
+    "related": [
+        "destructor",
+        "inheritance",
+        "visibility",
+        "named-constructor",
+        "autowiring",
+        "instance",
+        "promoted-property"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.oop5.decon.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "What and Why We Should Use PHP Constructors",
+            "url": "https://laracasts.com/discuss/channels/php/what-and-why-we-should-use-php-constructors"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP OOP Constructor: How It Works in a Class with Examples",
+            "url": "https://flatcoding.com/tutorials/php/php-oop-constructors-guide/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Constructor in PHP: Syntax, Types, Examples",
+            "url": "https://www.scientecheasy.com/2025/11/constructor-in-php.html/"
+        }
+    ],
+    "tags": [
+        "concept",
+        "oop",
+        "method type"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [
+        "Classes/Constructor",
+        "Classes/RedefinedDefault",
+        "Classes/ParentFirst",
+        "Classes/WrongName",
+        "Php/CouldUsePromotedProperties",
+        "Php/MustCallParentConstructor"
+    ],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+}

@@ -1,0 +1,46 @@
+{
+    "id": "debug_backtrace",
+    "name": "debug_backtrace()",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/debug_backtrace.html",
+    "aliases": [],
+    "description": "``debug_backtrace()`` is a PHP native function that generates a backtrace.\n\n``debug_backtrace()`` is used for inline debugging, or to collect more information before logging errors.\n\n``debug_backtrace()`` returns a dataset concerning the current situation of execution. It does not display anything: that function is either custom made, or devoted to ``debug_print_backtrace()``.\n",
+    "code": "<?php\n\n    function trumpet() {\n        print_r(debug_backtrace());\n        /**\n        Array\n(\n    [0] => Array\n        (\n            [file] => /tmp.php\n            [line] => 7\n            [function] => trumpet\n            [args] => Array\n                (\n                )\n\n        )\n\n)\n*/\n    }\n\n    trumpet();\n\n?>",
+    "documentation": "https://www.php.net/manual/en/function.debug-backtrace.php",
+    "related": [
+        "print_r",
+        "trace",
+        "var_dump"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/function.debug-backtrace.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "debug_print_backtrace",
+            "url": "https://www.php.net/manual/en/function.debug-print-backtrace.php"
+        }
+    ],
+    "tags": [
+        "debug",
+        "native function"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [
+        "Structures/VardumpUsage"
+    ],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+}

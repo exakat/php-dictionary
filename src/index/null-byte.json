@@ -1,0 +1,51 @@
+{
+    "id": "null-byte",
+    "name": "Null Byte",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/null-byte.html",
+    "aliases": [
+        "null-character"
+    ],
+    "description": "The null character, also called null byte, is a control character with the ASCII value ``0``. It is represented in strings as ``\\0`` or ``chr(0)``.\n\nUnlike in the C programming language, where a null byte marks the end of a string, PHP strings are binary-safe: they can contain null bytes anywhere, and the string's length is stored separately. This means PHP itself will not truncate a string when it encounters a ``\\0``.\n\nHowever, problems arise when PHP passes such strings to underlying C libraries, i.e. for file system operations, network functions, and certain extensions such as LDAP. Those C functions treat the null byte as a terminator, causing them to ignore everything after it. This discrepancy can lead to security vulnerabilities, like path truncation, bypassing file extension checks or directory traversal filters; hostname truncation, like circumventing SSRF protections.",
+    "code": "<?php\n\n    echo chr(0);\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Null_character",
+    "related": [
+        "null",
+        "character"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Null_character"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Null bytes related issues",
+            "url": "https://www.php.net/manual/en/security.filesystem.nullbytes.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "CVE-2025-1220: Null byte trickery bypasses hostname allowlists in PHP",
+            "url": "https://hadrian.io/blog/cve-2025-1220-null-byte-trickery-bypasses-hostname-allowlists-in-php"
+        }
+    ],
+    "tags": [
+        "character"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Mon, 15 Jun 2026 11:03:59 +0000"
+}

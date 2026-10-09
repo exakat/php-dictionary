@@ -1,0 +1,47 @@
+{
+    "id": "hosting",
+    "name": "Hosting",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/hosting.html",
+    "aliases": [],
+    "description": "Hosting is a server that stores the application code, and is accessible to an audience for usage. It means storing your scripts and applications on a remote server, which is managed and maintained by a host. It aims to provide the user with all the tools to set up the perfect environment for code development.",
+    "code": "",
+    "documentation": "https://en.wikipedia.org/wiki/Web_hosting_service",
+    "related": [
+        "server",
+        "cloud",
+        "deploy",
+        "iaas",
+        "paas",
+        "saas"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Web_hosting_service"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "What is web hosting?",
+            "url": "https://www.geeksforgeeks.org/web-tech/what-is-a-web-hosting/"
+        }
+    ],
+    "tags": [
+        "architecture",
+        "hosting"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Wed, 19 Aug 2026 08:16:48 +0000"
+}

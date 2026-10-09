@@ -1,0 +1,54 @@
+{
+    "id": "property-based-testing",
+    "name": "Property-Based Testing",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/property-based-testing.html",
+    "aliases": [
+        "generative-testing"
+    ],
+    "description": "Property-based testing is a testing technique where, instead of writing individual examples, the developer describes properties that should always hold for a function, then a framework generates a large number of random inputs to try to falsify them. For instance, ``reverse(reverse($array)) === $array`` should hold for any array.\n\nWhen a failing case is found, most property-based testing frameworks shrink the input to the smallest counter-example that still fails, which makes the root cause much easier to identify than with a single random failure.\n\nThis approach complements example-based unit tests: it explores the input space more broadly and often uncovers edge cases, such as empty arrays, negative numbers, or unicode strings, that developers would not have thought to write by hand.\n\nPopular PHP implementations include Eris and PHP-Quickcheck, inspired by Haskell's QuickCheck.",
+    "code": "<?php\n\n    use Eris\\Generator;\n    use Eris\\TestTrait;\n\n    class ReverseTest extends \\PHPUnit\\Framework\\TestCase\n    {\n        use TestTrait;\n\n        public function testReverseIsInvolution(): void\n        {\n            $this->forAll(Generator\\seq(Generator\\int()))\n                ->then(function (array $array) {\n                    $this->assertEquals($array, array_reverse(array_reverse($array)));\n                });\n        }\n    }\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Software_testing#Property_testing",
+    "related": [
+        "test",
+        "unit-test",
+        "fuzzing",
+        "mutation-test",
+        "edge-case",
+        "test-framework",
+        "assertion"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Software_testing#Property_testing"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "QuickCheck",
+            "url": "https://en.wikipedia.org/wiki/QuickCheck"
+        }
+    ],
+    "tags": [
+        "testing",
+        "methodology"
+    ],
+    "packagist": [
+        "giorgiosironi/eris"
+    ],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sun, 02 Aug 2026 06:45:57 +0000"
+}

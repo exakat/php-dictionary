@@ -1,0 +1,54 @@
+{
+    "id": "column-database",
+    "name": "Column Database",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/column-database.html",
+    "aliases": [
+        "columnar-database",
+        "column-oriented-database",
+        "column-store"
+    ],
+    "description": "A column database, or column-oriented database, columnar database, or column-store, stores data by column rather than by row. In a traditional row-oriented database, all the fields of a record are stored together. In a columnar database, each column's values are stored contiguously.\n\nThis layout is particularly efficient for analytical queries that read only a few columns across a large number of rows, OLAP workloads, because:\n\n+ Only the columns needed for a query need to be read from disk\n+ Columnar storage compresses well, since similar values are adjacent\n+ Aggregate functions, such as SUM, AVG, COUNT, etc. operate on contiguous memory\n\nPopular columnar databases used with PHP include ClickHouse, Apache Parquet and its file format, Amazon Redshift, and Google BigQuery.\n\nRow-oriented databases, such as MariaDB, MySQL, PostgreSQL, remain better for OLTP workloads that access full records.\n",
+    "code": "<?php\n\n    // Example: querying ClickHouse (columnar DB) via HTTP\n    $ch = curl_init('http://localhost:8123/?query=SELECT+sum(price)+FROM+orders+FORMAT+JSON');\n    curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);\n    $result = curl_exec($ch);\n    curl_close($ch);\n    \n    $data = json_decode($result, true);\n    echo $data['data'][0]['sum(price)'];\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Column-oriented_DBMS",
+    "related": [
+        "database",
+        "sql-database",
+        "graph-database",
+        "nosql-database",
+        "parquet"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Column-oriented_DBMS"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "ClickHouse Documentation",
+            "url": "https://clickhouse.com/docs"
+        }
+    ],
+    "tags": [
+        "database",
+        "concept"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": {
+        "Apache Parquet": "https://parquet.apache.org/"
+    },
+    "popularity": "",
+    "modified": "Fri, 18 Sep 2026 04:45:12 +0000"
+}

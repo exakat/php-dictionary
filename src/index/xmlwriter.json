@@ -1,0 +1,57 @@
+{
+    "id": "xmlwriter",
+    "name": "XMLwriter",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/xmlwriter.html",
+    "aliases": [],
+    "description": "The ``XMLWriter`` PHP extension is a built-in extension that provides a simple and efficient way to generate XML documents. It allows to create XML elements, attributes, text nodes, and other XML constructs using a procedural interface.\n\nThe ``XMLWriter`` extension offers several benefits when working with XML:\n\n+ Efficient and low memory usage: the extension is designed to generate XML incrementally, allowing to write large XML documents without consuming excessive memory\n+ Stream-oriented output: ``XMLWriter`` writes XML data to a stream, which can be a file, memory, or an HTTP connection. This enables the generation of XML directly without the need to store the entire document in memory\n+ Namespace support: ``XMLWriter`` supports XML namespaces, allowing to define and assign namespaces to elements and attributes\n+ Character encoding and formatting: ``XMLWriter`` provides methods to set the character encoding of the XML document and control the formatting options, such as indentation and line breaks\n+ Validity and well-formedness checking: ``XMLWriter`` performs automatic validation and well-formedness checking while writing XML, ensuring that the generated XML document is compliant with XML standards.",
+    "code": "<?php\n\n// adapted from PHP Manual\n\n$xw = xmlwriter_open_memory();\nxmlwriter_set_indent($xw, 1);\n$res = xmlwriter_set_indent_string($xw, ' ');\n\nxmlwriter_start_document($xw, '1.0', 'UTF-8');\n\n// A first element\nxmlwriter_start_element($xw, 'tag1');\n\n// Attribute 'att1' for element 'tag1'\nxmlwriter_start_attribute($xw, 'att1');\nxmlwriter_text($xw, 'valueofatt1');\nxmlwriter_end_attribute($xw);\n\nxmlwriter_end_document($xw);\n\necho xmlwriter_output_memory($xw);\n\n?>",
+    "documentation": "https://www.php.net/manual/en/book.xmlwriter.php",
+    "related": [
+        "xmlreader",
+        "xml",
+        "dom",
+        "domxml",
+        "simplexml",
+        "unicode"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/book.xmlwriter.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP XMLWriter",
+            "url": "https://www.educba.com/php-xmlwriter/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Create an XML file using XMLWriter",
+            "url": "https://riptutorial.com/php/example/2731/create-an-xml-file-using-xmlwriter"
+        }
+    ],
+    "tags": [
+        "extension",
+        "xml"
+    ],
+    "packagist": [
+        "sabre/xml",
+        "fluentdom/fluentdom"
+    ],
+    "extensions": [],
+    "analyzers": [
+        "Extension/Extxmlwriter"
+    ],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "5.0+",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sat, 08 Aug 2026 08:10:54 +0000"
+}

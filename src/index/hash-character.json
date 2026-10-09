@@ -1,0 +1,43 @@
+{
+    "id": "hash-character",
+    "name": "Hash #",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/hash-character.html",
+    "aliases": [],
+    "description": "``#`` is character, used in various situations: \n\n+ One line comment: ``# comments after the character``\n+ Separator in a URL, for the anchor: ``https://www.php.net/ChangeLog-8.php#8.5.3``\n\nA hash may also be a type of arrays.",
+    "code": "<?php\n\n    file_get_contents('https://www.php.net/ChangeLog-8.php#8.5.3');\n\n    echo 1; # A single line comment\n\n?>",
+    "documentation": "https://www.php.net/manual/en/language.basic-syntax.comments.php",
+    "related": [
+        "comment",
+        "hash"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.basic-syntax.comments.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Number sign",
+            "url": "https://en.wikipedia.org/wiki/Number_sign"
+        }
+    ],
+    "tags": [
+        "disambiguation",
+        "character"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sat, 08 Aug 2026 08:10:54 +0000"
+}

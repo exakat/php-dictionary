@@ -1,0 +1,54 @@
+{
+    "id": "dependency-injection-container",
+    "name": "Dependency Injection Container",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/dependency-injection-container.html",
+    "aliases": [],
+    "description": "A dependency injection container is a tool to make dependency injection easy to use. \n\nThe application requests an object of class Foo to the container. The container then build any dependency for that object, then build that object and returns it. \n\nPSR-11 is related to containers.",
+    "code": "",
+    "documentation": "https://en.wikipedia.org/wiki/Dependency_injection",
+    "related": [
+        "dependency-injection",
+        "psr",
+        "container"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Dependency_injection"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Dependency Injection (DI) Container in PHP",
+            "url": "https://medium.com/tech-tajawal/dependency-injection-di-container-in-php-a7e5d309ccc6"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Create PHP Dependency Injection Container and Learn How Laravel Initiate Controller and Method with Dependency and Parameter",
+            "url": "https://dev.to/emrancu/let-s-create-php-dependency-injection-container-24lm"
+        }
+    ],
+    "tags": [
+        "code architecture"
+    ],
+    "packagist": [
+        "psr/container",
+        "pimple/pimple",
+        "php-di/php-di",
+        "illuminate/container",
+        "nette/di"
+    ],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sat, 08 Aug 2026 08:10:54 +0000"
+}

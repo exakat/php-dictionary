@@ -1,0 +1,53 @@
+{
+    "id": "html_errors",
+    "name": "html_errors",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/html_errors.html",
+    "aliases": [],
+    "description": "When ``html_errors`` is enabled, the error message includes HTML tags, to be included in HTML pages. \n\nThe error message includes links to the official documentation. \n\nBy default, this directive is activated.\n",
+    "code": "",
+    "documentation": "https://www.php.net/manual/en/errorfunc.configuration.php#ini.html-errors",
+    "related": [
+        "directive",
+        "error",
+        "display_errors",
+        "debug",
+        "php",
+        "error-reporting"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/errorfunc.configuration.php#ini.html-errors"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Error handling and logging configuration",
+            "url": "https://www.php.net/manual/en/errorfunc.configuration.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "display_errors",
+            "url": "https://www.php.net/manual/en/errorfunc.configuration.php#ini.display-errors"
+        }
+    ],
+    "tags": [
+        "directive"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sun, 09 Aug 2026 13:14:49 +0000"
+}

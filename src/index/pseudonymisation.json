@@ -1,0 +1,56 @@
+{
+    "id": "pseudonymisation",
+    "name": "Pseudonymisation",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/pseudonymisation.html",
+    "aliases": [
+        "pseudonymization"
+    ],
+    "description": "Pseudonymisation is the processing of personal data so that it can no longer be attributed to a specific individual without additional information, which is kept separately and protected.\n\nUnlike anonymisation, pseudonymisation is reversible: the original identity can be recovered by combining the pseudonymised data with the separately-held mapping. Under the GDPR, pseudonymised data is still considered personal data, whereas properly anonymised data is not.\n\nA common implementation replaces a direct identifier, such as an email address, with a token, hash, or surrogate key, while keeping the correspondence table isolated from the rest of the system.",
+    "code": "<?php\n\n    function pseudonymize(string $userId, string $secret): string\n    {\n        // reversible only by whoever holds the mapping / secret\n        return hash_hmac('sha256', $userId, $secret);\n    }\n\n    $token = pseudonymize('user-1234', $secretKey);\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Pseudonymization",
+    "related": [
+        "anonymize",
+        "privacy",
+        "cryptography",
+        "secret",
+        "hash"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Pseudonymization"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "GDPR Article 4(5): Definitions",
+            "url": "https://gdpr-info.eu/art-4-gdpr/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "GDPR Article 32: Security of Processing",
+            "url": "https://gdpr-info.eu/art-32-gdpr/"
+        }
+    ],
+    "tags": [
+        "security",
+        "compliance",
+        "concept"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sun, 16 Aug 2026 07:54:29 +0000"
+}

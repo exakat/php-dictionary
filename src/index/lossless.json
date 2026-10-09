@@ -1,0 +1,56 @@
+{
+    "id": "lossless",
+    "name": "Lossless",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/lossless.html",
+    "aliases": [
+        "lossless-compression"
+    ],
+    "description": "Lossless refers to any encoding, compression, or conversion process that preserves all of the original data exactly. After a lossless operation, the original content can be reconstructed bit-for-bit from the encoded form.\n\nIn image processing, lossless formats such as PNG and GIF use lossless compression: every pixel is preserved and no image quality is sacrificed to reduce file size. Lossless compression is suited to images with sharp edges, text, icons, and screenshots, where artefacts introduced by lossy compression would be visible.\n\nIn data serialisation and encoding, lossless round-trips guarantee that encoding then decoding returns the original input, with no data truncated or altered.\n\nPHP's GD extension produces lossless output with ``imagepng()`` and ``imagegif()``. The compression level passed to ``imagepng()`` affects file size but not image fidelity.",
+    "code": "<?php\n\n// PNG is lossless: every pixel survives the encode/decode cycle\n$image = imagecreatefrompng('original.png');\nimagepng($image, 'copy.png', 6); // level 6 compression, still lossless\nimagedestroy($image);\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Lossless_compression",
+    "related": [
+        "lossy",
+        "compression",
+        "png",
+        "gif",
+        "image",
+        "encode",
+        "decode"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Lossless_compression"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "What Is Lossless Audio?",
+            "url": "https://www.howtogeek.com/744383/what-is-lossless-audio/"
+        }
+    ],
+    "tags": [
+        "image",
+        "compression",
+        "format"
+    ],
+    "packagist": [],
+    "extensions": [
+        "gd",
+        "imagick"
+    ],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Wed, 12 Aug 2026 04:18:41 +0000"
+}

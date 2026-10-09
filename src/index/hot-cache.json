@@ -1,0 +1,66 @@
+{
+    "id": "hot-cache",
+    "name": "Hot Cache",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/hot-cache.html",
+    "aliases": [
+        "lru-cache",
+        "lru"
+    ],
+    "description": "A hot cache holds the subset of data that is currently accessed often enough to stay in fast storage, close to the application: in memory, in an in-process cache, or in the first tier of a multi-level cache. Data that stops being requested gradually turns cold, see ``cold-cache``, and is eventually evicted to make room for hotter entries.\n\nThe most common technique for keeping a cache hot is the ``LRU``, Least Recently Used, eviction policy: every access moves an item to the hottest end of an ordering, and whenever the cache reaches its capacity, the item at the coldest end is discarded. Other eviction policies exist, such as ``LFU``, Least Frequently Used, or plain ``TTL``-based expiry, but ``LRU`` remains the default in most cache implementations, including Redis, APCu, and Symfony's cache adapters.\n\nA cache is hot right after a period of steady traffic, when the most relevant data is already loaded and hit rates are high. It runs cold right after a restart, a deployment, or a flush, forcing requests to fall back to the slower source of truth until the cache warms back up, see ``cache-warming``.",
+    "code": "<?php\n\n    class LruCache\n    {\n        private array $items = []; // ordered by recency: oldest (coldest) first\n    \n        public function __construct(private int $capacity) {}\n    \n        public function get(string $key): mixed\n        {\n            if (!array_key_exists($key, $this->items)) {\n                return null; // miss: this key isn't hot, or was never cached\n            }\n    \n            $value = $this->items[$key];\n            unset($this->items[$key]);\n            $this->items[$key] = $value; // re-insert last: now the hottest entry\n    \n            return $value;\n        }\n    \n        public function set(string $key, mixed $value): void\n        {\n            unset($this->items[$key]);\n            $this->items[$key] = $value;\n    \n            if (count($this->items) > $this->capacity) {\n                $coldestKey = array_key_first($this->items);\n                unset($this->items[$coldestKey]); // evict the least-recently-used entry\n            }\n        }\n    }\n    \n    $cache = new LruCache(capacity: 2);\n    $cache->set('user:1', 'Alice');\n    $cache->set('user:2', 'Bob');\n    $cache->get('user:1');           // touched: now the hottest entry\n    $cache->set('user:3', 'Carol');  // capacity exceeded: evicts 'user:2', the coldest entry\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Cache_replacement_policies",
+    "related": [
+        "cache",
+        "cold-cache",
+        "cache-warming",
+        "cache-stampede",
+        "ttl",
+        "memoization",
+        "apcu",
+        "redis",
+        "latency",
+        "performance",
+        "stale-while-revalidate"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Cache_replacement_policies"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Redis: eviction policies",
+            "url": "https://redis.io/docs/latest/develop/reference/eviction/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Symfony Cache component",
+            "url": "https://symfony.com/doc/current/components/cache.html"
+        }
+    ],
+    "tags": [
+        "architecture",
+        "performance",
+        "concept"
+    ],
+    "packagist": [
+        "symfony/cache",
+        "cache/cache"
+    ],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 17 Sep 2026 07:45:37 +0000"
+}

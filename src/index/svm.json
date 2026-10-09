@@ -1,0 +1,53 @@
+{
+    "id": "svm",
+    "name": "Support Vector Machine (SVM)",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/svm.html",
+    "aliases": [],
+    "description": "``SVM`` stands for Support Vector Machine. It is the name of a machine learning algorithm which classify data by taking into account n dimensions. \n\nThe algorithm looks for a way to distinguish two sets, by using those nth dimensions. \n\nPHP supports ``SVM`` with the ``ext/svm`` extension and ``rubix/ml`` package.\n\nThis acronym is easy to confuse with ``SVN``, which is a source control software.",
+    "code": "",
+    "documentation": "https://www.php.net/manual/en/book.svm.php",
+    "related": [
+        "svn",
+        "svmexception"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/book.svm.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "php-svm",
+            "url": "https://github.com/ianbarber/php-svm"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Support Vector Machine \u2014 Introduction to Machine Learning Algorithms",
+            "url": "https://towardsdatascience.com/support-vector-machine-introduction-to-machine-learning-algorithms-934a444fca47"
+        }
+    ],
+    "tags": [
+        "machine learning",
+        "algorithm",
+        "acronym"
+    ],
+    "packagist": [
+        "rubix/ml"
+    ],
+    "extensions": [
+        "svm"
+    ],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Fri, 28 Aug 2026 10:28:41 +0000"
+}

@@ -1,0 +1,49 @@
+{
+    "id": "__line__",
+    "name": "__LINE__",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/__line__.html",
+    "aliases": [],
+    "description": "``__LINE__`` holds the current line number in the current file.\n\nThe line numbers starts at 1. It is always available.\n\n``__LINE__`` is often used with ``__FILE__``, which holds the file name.\n\nThis constant is written in uppercase, by convention. It is case insensitive, and may be used with any combination of uppercase and lower case.",
+    "code": "<?php\n\n    function trumpet() {\n        echo __FILE__.':'.__LINE__; // /tmp/test.php:4\n    }\n\ntrumpet();\n\n?>",
+    "documentation": "https://www.php.net/manual/en/language.constants.magic.php",
+    "related": [
+        "magic-constant",
+        "__file__"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.constants.magic.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP Magic Constants - DevChunks",
+            "url": "https://devchunks.com/php/php-magic-constants"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP's Magic Constants: __LINE__, __FILE__, __FUNCTION__, __CLASS__, and __METHOD__",
+            "url": "https://davidwalsh.name/php-magic-constants"
+        }
+    ],
+    "tags": [
+        "magic constant"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+}

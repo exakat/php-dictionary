@@ -1,0 +1,54 @@
+{
+    "id": "variadic",
+    "name": "Variadic",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/variadic.html",
+    "aliases": [
+        "splat",
+        "spread"
+    ],
+    "description": "Three dots, aka ellipsis, is an operator to spread or collect array values. \n\nApplied to an array, it spreads the values of the array as distinct elements.\n\nUsed in a function signature, it collects all the values into one array.\n",
+    "code": "<?php\n\n    $array = [1, 2, 3];\n\n    // same as trumpet(0, 1,2, 3);\n    trumpet(0, ...$array);\n\n\n    function trumpet($special, ...$others) {\n        // with the above call\n        // $special === 0\n        // $others === [1, 2, 3, 4]\n    }\n\n?>",
+    "documentation": "https://www.php.net/manual/en/functions.arguments.php#functions.variable-arg-list",
+    "related": [
+        "variable-argument",
+        "array-spread",
+        "ellipsis",
+        "unpacking",
+        "arbitrary-argument",
+        "func_get_args",
+        "wildcard"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/functions.arguments.php#functions.variable-arg-list"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Variadic Function in PHP",
+            "url": "https://dev.to/sharminshanta/variadic-function-in-php-49c1"
+        }
+    ],
+    "tags": [
+        "parameter",
+        "feature",
+        "arbitrary number of argument"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [
+        "Php/EllipsisUsage"
+    ],
+    "cobblers": [],
+    "rule": "Php/EllipsisUsage",
+    "phpVersionSince": "5.6",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+}

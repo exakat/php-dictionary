@@ -1,0 +1,119 @@
+{
+    "id": "interface",
+    "name": "Interface",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/interface.html",
+    "aliases": [
+        "interfaces"
+    ],
+    "description": "Object interfaces allow to create code which specifies which methods a class must implement, without having to define how these methods are implemented.\n\nInterfaces may have methods signatures, without a body, constants. Since version 8.4, they may also have properties, as long as the property is public, and the hooks are abstract, or without body.",
+    "code": "<?php\n\n    // Declare the interface 'Template'\n    interface Template\n    {\n        public const A = 1;\n\n        public string $p {\n            get;\n        }\n\n        public function setVariable($name, $var);\n        public function getHtml($template);\n    }\n    \n    // Implement the interface\n    class WorkingTemplate implements Template\n    {\n        private $vars = [];\n      \n        public string $p {\n            get => 2;\n        }\n\n        public function setVariable($name, $var)\n        {\n            $this->vars[$name] = $var;\n        }\n      \n        public function getHtml($template)\n        {\n            foreach($this->vars as $name => $value) {\n                $template = str_replace('{' . $name . '}', $value, $template);\n            }\n     \n            return $template;\n        }\n    }\n\n?>",
+    "documentation": "https://www.php.net/manual/en/language.oop5.interfaces.php",
+    "related": [
+        "fluent-interface",
+        "backedenum",
+        "cite",
+        "object",
+        "unitenum",
+        "countable",
+        "expressive-interface",
+        "flexibility",
+        "polymorphism",
+        "program-to-interface",
+        "direct-output",
+        "interoperability",
+        "intersection-type",
+        "proxy",
+        "facade",
+        "proxy-class",
+        "splobserver",
+        "splsubject",
+        "base-class",
+        "class_implements",
+        "datetimeinterface",
+        "decorator",
+        "domchildnode",
+        "domparentnode",
+        "iteratoraggregate",
+        "random_cryptosafeengine",
+        "random_engine",
+        "reflector",
+        "seekableiterator",
+        "sessionhandlerinterface",
+        "sessionidinterface",
+        "sessionupdatetimestamphandlerinterface",
+        "dependency-inversion",
+        "existential-type",
+        "ports-and-adapters",
+        "row-polymorphism",
+        "first-class-module",
+        "pattern",
+        "abstract-class",
+        "structural-typing",
+        "type-class",
+        "marker-interface",
+        "conditioned",
+        "implements",
+        "nominal-type",
+        "property",
+        "strategy"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.oop5.interfaces.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Interfaces vs Abstract Classes in PHP",
+            "url": "https://ashallendesign.co.uk/blog/interfaces-vs-abstract-classes-in-php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Interfaces - the misunderstood concept",
+            "url": "http://radify.io/blog/interfaces-the-misunderstood-concept/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Granular interfaces",
+            "url": "https://sebastiandedeyne.com/granular-interfaces/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "When to add an interface to a class",
+            "url": "https://matthiasnoback.nl/2018/08/when-to-add-an-interface-to-a-class/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Code to an interface!",
+            "url": "https://blog.oussama-mater.tech/code-to-an-interface/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Interfaces",
+            "url": "https://phplang.org/spec/15-interfaces.html"
+        }
+    ],
+    "tags": [
+        "feature",
+        "keyword",
+        "cite",
+        "structure"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [
+        "Interfaces/InterfaceUsage"
+    ],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+}

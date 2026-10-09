@@ -1,0 +1,46 @@
+{
+    "id": "anonymous-catch",
+    "name": "Anonymous Catch",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/anonymous-catch.html",
+    "aliases": [],
+    "description": "Traditionally, the catch statement requires specifying both an Exception class and an identifier variable to hold the caught exception.\n\nPHP 8.0 introduced a new language construct that makes the identifier variable optional, allowing for a fully anonymous catch statement. This means there is no need to specify a variable to hold the caught exception.\n\nThe motivation behind this proposal is to simplify exception handling code, especially in cases where there is no need to use the caught exception object. It leads to cleaner and more concise code, especially when the specific details of the exception are not interesting and can be handled generically.",
+    "code": "<?php\n\n    try {\n        $a / 0;\n    } catch (DivisionByZero) {\n    \n    }\n\n?>",
+    "documentation": "https://www.php.net/manual/en/language.exceptions.php",
+    "related": [
+        "catch",
+        "exception",
+        "try-catch",
+        "finally",
+        "anonymous"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.exceptions.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP RFC: Support for anonymous catches",
+            "url": "https://wiki.php.net/rfc/anonymous_catch"
+        }
+    ],
+    "tags": [
+        "rfc",
+        "feature"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "8.0",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+}

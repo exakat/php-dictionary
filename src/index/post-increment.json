@@ -1,0 +1,51 @@
+{
+    "id": "post-increment",
+    "name": "Post-increment",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/post-increment.html",
+    "aliases": [],
+    "description": "Post-increment is the ``++`` operator, used on a variable, when it is placed after the variable. This means that the increment happens after the variable is read: in this case, the first echo displays 1, as the increment happens after the echo call. \n\nThere is also a post-decrement, which uses the operator ``--``, and reduces the variable by 1.\n\nPost-increment and post-decrement have a corresponding pre-increment and pre-decrement.",
+    "code": "<?php\n\n    $a = 1;\n    echo $a++; // displays 2\n    echo $a;   // displays 2\n\n?>",
+    "documentation": "https://www.php.net/manual/en/language.operators.increment.php",
+    "related": [
+        "pre-increment",
+        "variable",
+        "increment",
+        "one",
+        "double",
+        "minus",
+        "addition",
+        "operator"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.operators.increment.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Pre-increment and post-increment aren't the same",
+            "url": "http://www.hackingwithphp.com/18/1/8/pre-increment-and-post-increment-arent-the-same"
+        }
+    ],
+    "tags": [
+        "operator",
+        "feature"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Mon, 14 Sep 2026 17:10:45 +0000"
+}

@@ -1,0 +1,49 @@
+{
+    "id": "php-rfc",
+    "name": "PHP RFC",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/php-rfc.html",
+    "aliases": [
+        "change-proposal"
+    ],
+    "description": "PHP evolution is organized by RFC, a Request for comments. They are also called change proposals. \n\nOn the PHP wiki, a section is dedicated to PHP new features: they are presented, then voted upon.",
+    "code": "",
+    "documentation": "https://wiki.php.net/rfc",
+    "related": [
+        "engine",
+        "php-foundation",
+        "contribution",
+        "rfc",
+        "rfchange"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://wiki.php.net/rfc"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "How To Create an RFC",
+            "url": "https://wiki.php.net/rfc/howto"
+        }
+    ],
+    "tags": [
+        "acronym",
+        "php group",
+        "rfc"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sat, 08 Aug 2026 08:10:54 +0000"
+}

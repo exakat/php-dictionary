@@ -1,0 +1,41 @@
+{
+    "id": "reflectionexception",
+    "name": "ReflectionException",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/reflectionexception.html",
+    "aliases": [],
+    "description": "ReflectionException is thrown whenever the Reflection API encounters an error.\n\nCommon reasons for encountering a ReflectionException include:\n\n+ Class Not Found\n+ Property Not Found\n+ Method Not Found\n+ Invalid Argument.",
+    "code": "<?php\n\n    try\n    {\n        $ref = new ReflectionClass($class);\n    }\n    catch (ReflectionException $e)\n    {\n        var_dump($e->getMessage());\n    }\n\n?>",
+    "documentation": "https://www.php.net/manual/en/class.reflectionexception.php",
+    "related": [
+        "reflection"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/class.reflectionexception.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "ReflectionClass Class",
+            "url": "https://www.php.net/manual/en/class.reflectionclass.php"
+        }
+    ],
+    "tags": [
+        "exception"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Fri, 14 Aug 2026 08:00:00 +0000"
+}

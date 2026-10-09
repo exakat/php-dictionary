@@ -1,0 +1,59 @@
+{
+    "id": "escapeshellcmd",
+    "name": "escapeshellcmd()",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/escapeshellcmd.html",
+    "aliases": [],
+    "description": "``escapeshellcmd()`` is a native function that escapes shell metacharacters in a full command string, preventing shell interpretation of characters such as ``&``, ``;``, ``|``, ``(``, ``)``, ``[``, ``]``, ``{``, ``}``, ``$``, `` \\` ``, ``\\``, ``\"``, ``'``, and whitespace sequences that could alter the intended command.\n\nUnlike ``escapeshellarg()``, which wraps a single argument in quotes, ``escapeshellcmd()`` is applied to the entire command string and escapes individual special characters with a backslash. It is suitable when the command itself is dynamic, not just its arguments.\n\nImportant caveats:\n\n+ ``escapeshellcmd()`` does not make arbitrary shell strings safe. It is designed for use with ``exec()``, ``system()``, ``passthru()``, and ``shell_exec()``, but cannot protect against every shell injection vector. Prefer ``escapeshellarg()`` on each argument individually, as this is generally more reliable.\n+ On Windows, ``escapeshellcmd()`` has different behaviour: it escapes a different set of special characters. Code relying on it must be tested on the target platform.\n+ The safest approach to shell execution is to avoid building a command string at all. Use ``proc_open()`` with an array argument form, where available via wrapper libraries, or pass arguments as an explicit array, which bypasses the shell entirely.",
+    "code": "<?php\n\n    $userInput = $_GET['path'] ?? '';\n    \n    // Escapes metacharacters in the whole command string\n    $cmd = escapeshellcmd('ls -la ' . $userInput);\n    exec($cmd, $output);\n    \n    // Preferred: escape each argument individually with escapeshellarg()\n    $safeInput = escapeshellarg($userInput);\n    exec('ls -la ' . $safeInput, $output);\n    \n    // Safest: avoid shell entirely with proc_open + array (Symfony Process component)\n    // $process = new \\Symfony\\Component\\Process\\Process(['ls', '-la', $userInput]);\n    // $process->run();\n\n?>",
+    "documentation": "https://www.php.net/manual/en/function.escapeshellcmd.php",
+    "related": [
+        "escapeshellarg",
+        "shell-injection",
+        "injection",
+        "shell-exec",
+        "exec",
+        "system",
+        "security",
+        "escape-data"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/function.escapeshellcmd.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "escapeshellarg() \u2014 PHP Manual",
+            "url": "https://www.php.net/manual/en/function.escapeshellarg.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Symfony Process component",
+            "url": "https://symfony.com/doc/current/components/process.html"
+        }
+    ],
+    "tags": [
+        "security",
+        "function",
+        "_singleQuote"
+    ],
+    "packagist": [
+        "symfony/process"
+    ],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Tue, 11 Aug 2026 15:12:15 +0000"
+}

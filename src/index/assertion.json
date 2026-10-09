@@ -1,0 +1,69 @@
+{
+    "id": "assertion",
+    "name": "Assertions",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/assertion.html",
+    "aliases": [
+        "assert"
+    ],
+    "description": "Assertions are checks that take effect in development and testing environments, but are optimised away to have zero cost in production. \n\nAssertions are disabled in production, by using the ``zend.assertions`` directive. Then, they are said zero-cost: they are completely omitted in the code, and not executed.\n\nAssertions are a development tool, and should not be used in production. Be aware that the removal of the assertion may leave the system running with unchecked data. \n\nThere are packages providing assertions features and more.",
+    "code": "<?php\n\n    $a = foo();\n    assert($a !== null, 'Sorry, we got a NULL from foo()!');\n\n?>",
+    "documentation": "https://www.php.net/manual/en/function.assert.php",
+    "related": [
+        "zend-assertions",
+        "zero-cost",
+        "assumption",
+        "runtime-checks",
+        "assertionerror",
+        "print_r",
+        "engine",
+        "property-based-testing",
+        "red-green-refactor",
+        "refinement-type"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/function.assert.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP assertions and their usage",
+            "url": "https://www.exakat.io/en/php-assertions-usage/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Assertions in PHP",
+            "url": "https://aleksandertabor.com/blog/assertions-in-php/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Assertion101 Proving Grounds Walkthrough",
+            "url": "https://infosecwriteups.com/assertion101-proving-grounds-walkthrough-intermediate-complete-write-up-0dc4b987dd31"
+        }
+    ],
+    "tags": [
+        "feature",
+        "code option"
+    ],
+    "packagist": [
+        "webmozart/assert",
+        "beberlei/assert"
+    ],
+    "extensions": [],
+    "analyzers": [
+        "Php/AssertionUsage",
+        "Php/AssertFunctionIsReserved"
+    ],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+}

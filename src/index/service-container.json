@@ -1,0 +1,55 @@
+{
+    "id": "service-container",
+    "name": "Service Container",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/service-container.html",
+    "aliases": [],
+    "description": "A service container is a design pattern used in software development to manage and provide services as dependencies. \n\nInstead of creating objects manually all over the code, the container builds and supplies them when needed. This class is a part of dependency injection.\n\nServices can be used across different parts of an application, reducing code duplication.",
+    "code": "",
+    "documentation": "https://en.wikipedia.org/wiki/Dependency_injection",
+    "related": [
+        "encapsulation",
+        "dependency-injection",
+        "service"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Dependency_injection"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Symfony: Service Container",
+            "url": "https://symfony.com/doc/current/service_container.html"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Service Container in Laravel",
+            "url": "https://laravel.com/docs/13.x/container"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Service Container",
+            "url": "https://leafphp.dev/docs/config/container"
+        }
+    ],
+    "tags": [
+        "code architecture"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Tue, 01 Sep 2026 05:31:03 +0000"
+}

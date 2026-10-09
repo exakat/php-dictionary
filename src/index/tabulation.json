@@ -1,0 +1,51 @@
+{
+    "id": "tabulation",
+    "name": "Tabulation",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/tabulation.html",
+    "aliases": [],
+    "description": "A tabulation is a whitespace character, that often represents the equivalent of four space characters.\n\nA tabulation is represented by the escape sequence ``\\t``, in double quote strings. It is also the ASCII code 9.\n\nTabulations are important when formatting code, and are opposed to spaces. \n\nTabulations are important for heredoc syntax, in particular in its relaxed syntax.\n\nThere are horizontal tabulations, which are the most commonly used, and vertical tabulations, with the ASCII code 11 and sequence ``\\v``.",
+    "code": "<?php\n\n    echo \"\\t\";\n    echo chr(9); // ASCII code 9\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Tab_character",
+    "related": [
+        "space",
+        "heredoc",
+        "indentation",
+        "nowdoc"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Tab_character"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Vertical Tab (\\v) in PHP",
+            "url": "https://compile7.org/special-characters/how-to-use-vertical-tab-v-in-php/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Elastic tabstops - a better way to indent and align code",
+            "url": "https://nick-gravgaard.com/elastic-tabstops/"
+        }
+    ],
+    "tags": [
+        "character"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 01 Oct 2026 09:27:50 +0000"
+}

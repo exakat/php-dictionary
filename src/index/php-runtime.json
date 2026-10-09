@@ -1,0 +1,63 @@
+{
+    "id": "php-runtime",
+    "name": "PHP Runtime",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/php-runtime.html",
+    "aliases": [
+        "php-vm",
+        "php-binary"
+    ],
+    "description": "The PHP runtime is the engine that executes PHP code. It includes the PHP core extensions, and the custom ones.\n\nThere is an official PHP runtime, provided by the PHP official website. It is maintained by the PHP Foundation. It is mostly written in C.\n\nThere are also custom runtimes, which take the PHP code as input, and execute it. They are built with other languages, and strive to execute as much as possible of PHP's features, though they have to make trade-offs to fit specific features: for example, extension libraries are not always available.\n\n+ PHP on Rust\n+ PHP on Zig\n+ PHP on Java, via Quercus\n+ PHP on Wasm\n\nThese projects are complete rewrites of PHP with another technology. This is distinct from embedding PHP, where an original PHP engine is incorporated in another language.\n",
+    "code": "",
+    "documentation": "https://www.php.net/manual/en/introduction.php",
+    "related": [
+        "embed",
+        "transpile",
+        "binary"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/introduction.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP on Rust",
+            "url": "https://github.com/turbine-dev/turbine"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP on Zig",
+            "url": "https://github.com/nvms/zphp"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP on Java",
+            "url": "https://www.caucho.com/resin-3.1/doc/quercus.xtp"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP on wasm",
+            "url": "https://github.com/seanmorris/php-wasm"
+        }
+    ],
+    "tags": [
+        "php"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Tue, 01 Sep 2026 11:41:33 +0000"
+}

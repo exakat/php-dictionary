@@ -1,0 +1,60 @@
+{
+    "id": "docker-container",
+    "name": "Docker Container",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/docker-container.html",
+    "aliases": [],
+    "description": "A Docker container is a lightweight, standalone, executable unit of software that packages code and all its dependencies, like libraries, system tools, runtime, settings, so that the application runs quickly and reliably across different computing environments.",
+    "code": "",
+    "documentation": "https://en.wikipedia.org/wiki/Docker_(software)",
+    "related": [
+        "docker",
+        "deploy",
+        "system",
+        "cloud",
+        "container",
+        "devops",
+        "image",
+        "docker-image"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Docker_(software)"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "php docker images",
+            "url": "https://hub.docker.com/_/php?xk=ShowRecommendedBadge&xt=Disabled"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "docker library php",
+            "url": "https://github.com/docker-library/php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Create a Docker image for PHP",
+            "url": "https://codefresh.io/docs/docs/example-catalog/ci-examples/php/"
+        }
+    ],
+    "tags": [
+        "tool"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Wed, 02 Sep 2026 16:41:00 +0000"
+}

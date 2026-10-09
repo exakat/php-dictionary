@@ -1,0 +1,49 @@
+{
+    "id": "toml",
+    "name": "Tom's Obvious Minimal Language (TOML)",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/toml.html",
+    "aliases": [],
+    "description": "TOML stands for ``Tom's Obvious, Minimal Language``.\n\nIt's a configuration file format designed to be human-readable, unambiguous, easy to parse and minimal but expressive.\n\nTOML is considered as a cleaner, stricter alternative to ``INI``, and more readable than JSON for configuration files.",
+    "code": "",
+    "documentation": "https://toml.io/en/",
+    "related": [
+        "serde",
+        "ini",
+        "json",
+        "parquet"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://toml.io/en/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Introduction to TOML Configuration in PHP",
+            "url": "https://laravel-news.com/toml-configuration-in-php"
+        }
+    ],
+    "tags": [
+        "acronym",
+        "format"
+    ],
+    "packagist": [
+        "yosymfony/toml"
+    ],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Mon, 10 Aug 2026 17:03:16 +0000"
+}

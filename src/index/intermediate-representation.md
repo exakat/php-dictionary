@@ -1,0 +1,30 @@
+# Intermediate Representation (IR)
+An intermediate representation, or IR, is a data structure or code that a compiler builds to represent a program somewhere between its original source text and the final target code. It sits after parsing, so it is already free of raw syntax details such as comments, whitespace, or parentheses, but before code generation, so it is not yet tied to a specific CPU or virtual machine instruction set.
+
+The point of having an intermediate representation is decoupling: a compiler's optimization passes, dead code elimination, constant folding, inlining, and its static analysis, are written once against the IR, independently of both the source language's syntax and the target's instruction set. The same IR can, in principle, be produced from several front-ends and consumed by several back-ends. Well-known IRs include LLVM IR, GCC's GIMPLE and RTL, and the JVM's class-file bytecode.
+
+An intermediate representation is a broad family, not a single format. Common shapes include:
+
++ An abstract syntax tree, still tree-shaped and close to the source grammar. See ``ast``.
++ Three-address code or a control-flow graph, where a program is flattened into a sequence, or a graph, of simple instructions, each combining at most two operands into one result.
++ Static single assignment (SSA) form, a discipline layered on top of a lower-level IR where every variable is assigned exactly once, which considerably simplifies data-flow analysis.
++ A stack-based or register-based bytecode, meant to be executed by a virtual machine rather than further compiled to native code.
+
+PHP's own compiler follows this pipeline: source is parsed into an AST, and the AST is then compiled into PHP's opcodes, a stack-of-frames, register-like bytecode that the Zend Engine's virtual machine executes. PHP's opcodes are, therefore, PHP's intermediate representation: an internal detail invisible to ordinary code, surfaced only through tools such as ``vld`` or the opcode cache. When the JIT compiler is enabled, PHP further translates hot opcode sequences, going through an SSA-based internal form, into native machine code at run time.
+<script type="application/ld+json">{"@context":["https:\/\/schema.org",{"skos":"http:\/\/www.w3.org\/2004\/02\/skos\/core#"}],"@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/intermediate-representation.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/intermediate-representation.html","name":"Intermediate Representation (IR)","inDefinedTermSet":{"@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html#dictionary"},"isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 25 Sep 2026 14:02:39 +0000","dateModified":"Fri, 25 Sep 2026 14:02:39 +0000","description":"An intermediate representation, or IR, is a data structure or code that a compiler builds to represent a program somewhere between its original source text and the final target code","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/intermediate-representation.html"]}],"alternateName":["ir"],"keywords":["acronym","engine","concept"],"skos:related":[{"@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/opcode.html"},{"@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/ast.html"},{"@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/ssa.html"},{"@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/control-flow-graph.html"},{"@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/compiler.html"},{"@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/compile-time.html"},{"@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/jit.html"},{"@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/code-generation.html"},{"@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/multi-pass-algorithm.html"}],"citation":[{"@type":"CreativeWork","name":"Documentation","url":"https:\/\/en.wikipedia.org\/wiki\/Intermediate_representation"},{"@type":"CreativeWork","name":"PHP opcode \u2013 Improve application performance without changing your code","url":"https:\/\/inspector.dev\/php-opcode-improve-application-performance-without-changing-your-code\/"}]},{"@type":"DefinedTermSet","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html#dictionary","name":"The PHP Dictionary","alternateName":"PHP Dictionary","description":"A dictionary of PHP terms, keywords, functions, concepts and jargon.","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html","inLanguage":"en","version":"1.1.38","creator":{"@type":"Organization","name":"Exakat","url":"https:\/\/www.exakat.io\/"}},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"The PHP Dictionary","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html"},{"@type":"ListItem","position":2,"name":"Index","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/index.html"},{"@type":"ListItem","position":3,"name":"intermediate-representation"}]}]}</script>
+**[Documentation](https://en.wikipedia.org/wiki/Intermediate_representation)**
+## See Also
+
++ [PHP opcode – Improve application performance without changing your code](https://inspector.dev/php-opcode-improve-application-performance-without-changing-your-code/)
+
+## Related
+
++ [Opcode](opcode.html)
++ [Abstract Syntactic Tree (AST)](ast.html)
++ [Static Single Assignment Form (SSA)](ssa.html)
++ [Control Flow Graph (CFG)](control-flow-graph.html)
++ [Compiler](compiler.html)
++ [Compile Time](compile-time.html)
++ [Just In Time (JIT)](jit.html)
++ [Code Generation](code-generation.html)
++ [Multi-pass Algorithm](multi-pass-algorithm.html)

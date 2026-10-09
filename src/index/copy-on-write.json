@@ -1,0 +1,47 @@
+{
+    "id": "copy-on-write",
+    "name": "Copy On Write (COW)",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/copy-on-write.html",
+    "aliases": [],
+    "description": "``Copy on write``, or COW, is a data management technique where data is shared between contexts, until it is actually modified. When a modification happens, the data is then duplicated, to avoid polluting the original data. Otherwise, simple reads keep the data intact, and save a copy operation and memory. \n\nPHP uses this technique for arrays and strings, unless they are passed by reference. It is totally transparent for the code.",
+    "code": "<?php\n\n    $array = [1,2,3];\n    \n    function trumpet($a) {\n        echo $a[1]; // \n        \n        $a[2] = 4; // $a is copied, then modified.\n    }\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Copy-on-write",
+    "related": [
+        "internals",
+        "parameter"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Copy-on-write"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Writing PHP Extensions: Copy on Write",
+            "url": "https://www.zend.com/resources/php-extensions/copy-on-write"
+        }
+    ],
+    "tags": [
+        "engine",
+        "acronym",
+        "feature",
+        "animal"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+}

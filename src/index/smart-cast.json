@@ -1,0 +1,64 @@
+{
+    "id": "smart-cast",
+    "name": "Smart Cast",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/smart-cast.html",
+    "aliases": [
+        "compiler-enforced-type-narrowing"
+    ],
+    "description": "A smart cast, also called compiler-enforced type narrowing, is a feature where the compiler automatically refines the static type of a variable inside a branch, based on a preceding type-check, without requiring the programmer to insert an explicit cast expression.\n\nIn Kotlin, after ``if (x is String)`` the compiler knows that ``x`` is a ``String`` inside that branch, and all ``String`` methods become available without casting. In TypeScript, a type guard such as ``typeof x === 'string'`` narrows ``x`` from ``string | number`` to ``string`` in the truthy branch. In both cases the narrowing is enforced by the compiler or type-checker: code that tries to use the variable as a different type is a compile-time error.\n\nPHP does not support smart casts. PHP's type system is verified at runtime, not compile time. Within an ``instanceof`` or ``is_string()`` branch, PHP will call the correct methods, but:\n\n+ There is no compile-time enforcement: the type-checker integrated into IDEs can simulate narrowing, but the PHP engine itself makes no such guarantee.\n+ The programmer may still write code that uses the variable as a different type, and PHP will only raise an error, or silently coerce, at runtime.\n+ PHP does not have union-type narrowing built into the runtime in the sense that Kotlin's compiler tracks flow.\n\nStatic analysis tools approximate smart-cast behaviour through flow-sensitive type inference, but this is a tool-level feature, not a language-engine feature.",
+    "code": "<?php\n\n    // PHP runtime checks: no compiler-enforced narrowing.\n    function process(int|string $value): string {\n        if (is_string($value)) {\n            // SCA will narrow $value to string here,\n            // but the PHP engine itself does not enforce this at compile time.\n            return strtoupper($value);\n        }\n    \n        // $value is int here: again, tools narrow, not the engine.\n        return (string) ($value * 2);\n    }\n    \n    // instanceof narrows for IDEs and static analysers, not for the runtime.\n    function describe(object $obj): string {\n        if ($obj instanceof \\DateTimeImmutable) {\n            // Tools know $obj is DateTimeImmutable; PHP does not enforce it statically.\n            return $obj->format('Y-m-d');\n        }\n        return get_class($obj);\n    }\n\n?>",
+    "documentation": "https://kotlinlang.org/docs/typecasts.html#smart-casts",
+    "related": [
+        "cast",
+        "instanceof",
+        "type-declaration-property",
+        "typed-property",
+        "type-narrowing"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://kotlinlang.org/docs/typecasts.html#smart-casts"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Kotlin smart casts",
+            "url": "https://kotlinlang.org/docs/typecasts.html#smart-casts"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "TypeScript type narrowing",
+            "url": "https://www.typescriptlang.org/docs/handbook/2/narrowing.html"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHPStan type narrowing",
+            "url": "https://phpstan.org/writing-php-code/narrowing-types"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Psalm \u2013 Typing in Psalm",
+            "url": "https://psalm.dev/docs/annotating_code/type_syntax/atomic_types/"
+        }
+    ],
+    "tags": [
+        "not supported",
+        "type",
+        "cast"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Fri, 25 Sep 2026 14:25:49 +0000"
+}

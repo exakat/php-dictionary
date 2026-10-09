@@ -1,0 +1,78 @@
+{
+    "id": "xss",
+    "name": "Cross Site Scripting (XSS)",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/xss.html",
+    "aliases": [],
+    "description": "XSS is a web security vulnerability where an attacker injects malicious JavaScript into a website, and that script then runs in other users' browsers.\n\nXSS happens when a Web application accepts user input, and fails to validate it properly. That input is used in the resulting web page, and it executes there, either as HTML or JavaScript or any other available resource.\n\nXSS is dangerous as it allows the attacker to steal important information such as cookies, impersonate the user, read or modify the page content.",
+    "code": "",
+    "documentation": "https://owasp.org/www-community/attacks/xss/",
+    "related": [
+        "csrf",
+        "html_entity_decode",
+        "htmlspecialchars",
+        "sast",
+        "session-highjacking",
+        "vulnerability",
+        "anchor",
+        "css",
+        "stored-xss",
+        "escape-character",
+        "link",
+        "html-entity",
+        "crlf-injection",
+        "data-flow-analysis",
+        "image-injection",
+        "twig",
+        "blade",
+        "csp",
+        "htmlpurifier",
+        "write-context"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://owasp.org/www-community/attacks/xss/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP Security 3: XSS and Password Storage",
+            "url": "https://www.acunetix.com/websitesecurity/php-security-3/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "What is cross-site scripting (XSS) and how to prevent it?",
+            "url": "https://portswigger.net/web-security/cross-site-scripting"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "The Quiet Shift Reshaping PHP Security",
+            "url": "https://www.linkedin.com/pulse/quiet-shift-reshaping-php-security-matthew-weier-o-phinney-fgquc/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "XSS Prevention in Laravel \u2014 Why {!! !!} Is the Line Between Safe and Hacked",
+            "url": "https://medium.com/@jnchiminyi/xss-prevention-in-laravel-why-is-the-line-between-safe-and-hacked-352101b9243a"
+        }
+    ],
+    "tags": [
+        "acronym",
+        "vulnerability"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Mon, 24 Aug 2026 07:41:07 +0000"
+}

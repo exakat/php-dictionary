@@ -1,0 +1,56 @@
+{
+    "id": "pure-function",
+    "name": "Pure Function",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/pure-function.html",
+    "aliases": [],
+    "description": "A pure function is a function with no side effects. It adheres to two fundamental principles:\n\n+ Determinism: for the same input, a pure function will always return the same output. There are no hidden dependencies or side effects that could change the result.\n+ No side-effect: a pure function does not modify any external state or data. It does not change variables outside its scope, write to a database, modify a file, or perform any action that affects the world outside the function.\n\nA function that is not pure is an impure function. \n\nThis notion applies to functions, methods, native and custom functions, closures and arrow functions. \n",
+    "code": "<?php\n\n    function add(int $a, int $b): int {\n        return $a + $b;\n    }\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Pure_function",
+    "related": [
+        "function",
+        "method",
+        "return",
+        "side-effect",
+        "impure-function",
+        "determinism",
+        "memoization",
+        "testable"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Pure_function"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Pure Functions",
+            "url": "https://leanpub.com/read/thinking-functionally-in-php/leanpub-auto-pure-functions"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Functional Programming in PHP: Part 2",
+            "url": "https://agiroloki.medium.com/functional-programming-in-php-part-2-9db0f5443cdf"
+        }
+    ],
+    "tags": [
+        "function",
+        "functional programming"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sat, 15 Aug 2026 12:11:42 +0000"
+}

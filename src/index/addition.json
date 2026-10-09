@@ -1,0 +1,55 @@
+{
+    "id": "addition",
+    "name": "Addition",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/addition.html",
+    "aliases": [],
+    "description": "PHP additions apply to two different types: numbers and arrays.\n\nFor numbers, ``int`` and ``float``, this is the classic mathematical addition. \n\nFor arrays, this is a special version of array merge: the arrays are merged, and keys are kept once they are written. This features only exists for addition and arrays. Substraction is not available.\n\nWith boolean, addition first cast the boolean to an integer, 0 or 1, and then, operates as a math addition.\n\nWith string, addition first try to convert the string to a numeric value. If it succeed, it operates as a math addition. Otherwise, it emits a type error.\n\nWith objects or resources, a type error is emitted.",
+    "code": "<?php\n\n$a = 1 + 2.3; // 3.3\n\n$a2 = 1 + -2.3; // -1.3\n\n$b = [1] + [3, 4]; // [1, 4]\n\n?>",
+    "documentation": "https://www.php.net/manual/en/language.operators.arithmetic.php",
+    "related": [
+        "array",
+        "integer",
+        "float",
+        "typeerror",
+        "division",
+        "operand",
+        "plus",
+        "single"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.operators.arithmetic.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Array operators",
+            "url": "https://www.php.net/manual/en/language.operators.array.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Combining arrays using + versus array_merge in PHP",
+            "url": "https://www.texelate.co.uk/blog/combining-arrays-using-plus-versus-array-merge-in-php"
+        }
+    ],
+    "tags": [
+        "math"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": {
+        "Unsupported operand types: %s + %s": "unsupported-operand-types:-%s-%s-%s"
+    },
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sat, 08 Aug 2026 08:10:54 +0000"
+}

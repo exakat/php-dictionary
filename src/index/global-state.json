@@ -1,0 +1,54 @@
+{
+    "id": "global-state",
+    "name": "Global State",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/global-state.html",
+    "aliases": [],
+    "description": "Global state refers to data that is accessible from anywhere in the application, typically stored in global variables, superglobals, or static class properties.\n\nGlobal state is often considered an anti-pattern because it makes code harder to test, debug, and reason about. It creates hidden dependencies between components.\n\nCommon sources of global state include:\n\n+ ``$GLOBALS`` superglobal\n+ Static class properties\n+ Constants defined with ``define()``\n+ Files included with require/include\n+ Environment variables.",
+    "code": "<?php\n\n    // Global state via static property\n    class Config {\n        public static array $settings = [];\n    }\n    \n    // Global state via $GLOBALS\n    $GLOBALS['db_host'] = 'localhost';\n\n?>",
+    "documentation": "https://www.ituonline.com/it-glossary/global-state/",
+    "related": [
+        "global-variable",
+        "$globals",
+        "state",
+        "immutable",
+        "side-effect",
+        "unit-test"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.ituonline.com/it-glossary/global-state/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Singleton Pattern in PHP: Refactoring Global State the Right Way",
+            "url": "https://dev.to/codecraft_diary_3d13677fb/singleton-pattern-in-php-refactoring-global-state-the-right-way-1gbl"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Design Patterns in PHP: Singletons",
+            "url": "https://coderoncode.com/design-patterns/programming/php/development/2014/01/27/design-patterns-php-singletons.html"
+        }
+    ],
+    "tags": [
+        "concept",
+        "anti-pattern"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Fri, 07 Aug 2026 14:40:13 +0000"
+}

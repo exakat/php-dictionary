@@ -1,0 +1,57 @@
+{
+    "id": "orm",
+    "name": "Object Relational Mapping (ORM)",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/orm.html",
+    "aliases": [],
+    "description": "Object Relational Mapping is a tool that bridges the OOP world to databases: in general, and SQL in particular.\n\nAs its definition implies, such tool is able to take data from an object, and place it in a database's table. The transfer may be straightforward, when the object is stored in one table. Or, it may be complex, when the same data are spread over multiple tables. \n\nPHP has several ORM: ``Doctrine``, ``Redbean``, ``Eloquent``, ``Propel``, etc..",
+    "code": "",
+    "documentation": "https://en.wikipedia.org/wiki/Object%E2%80%93relational_mapping",
+    "related": [
+        "dbal",
+        "code-generator",
+        "data-mapper",
+        "n-query",
+        "sql",
+        "doctrine",
+        "magento",
+        "metadata",
+        "soft-delete",
+        "mass-assignment"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Object%E2%80%93relational_mapping"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PDO in PHP",
+            "url": "https://www.php.net/manual/en/book.pdo.php"
+        }
+    ],
+    "tags": [
+        "dbal",
+        "acronym"
+    ],
+    "packagist": [
+        "doctrine/orm",
+        "illuminate/database",
+        "propel/propel",
+        "gabordemooij/redbean",
+        "thecodingmachine/tdbm"
+    ],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Mon, 07 Sep 2026 08:38:17 +0000"
+}

@@ -1,0 +1,47 @@
+{
+    "id": "wet",
+    "name": "Write Everything Twice (WET)",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/wet.html",
+    "aliases": [],
+    "description": "Write Everything Twice, WET, is a principle of software development aimed at reducing abstraction levels and decoupling code.\n\nThe basic idea is that centralizing pieces of code, just because they are the same, leads to extra abstraction layers, that end up counter productive. It is more reasonable to duplicate code as needed, and review what parts of the code are truly shared before centralizing them.\n\nThis principle's nemesis is DRY: ``Don't Repeat Yourself``.",
+    "code": "",
+    "documentation": "https://en.wikipedia.org/wiki/Don%27t_repeat_yourself",
+    "related": [
+        "dry",
+        "pattern"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Don%27t_repeat_yourself"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "DRY or WET and Why?",
+            "url": "https://medium.com/@nrk25693/dry-or-wet-and-why-867ac3096483"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "We Should All Be Writing WET Code",
+            "url": "https://dev.to/nettab/we-should-all-be-writing-wet-code-3d95"
+        }
+    ],
+    "tags": [
+        "acronym"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Tue, 11 Aug 2026 20:59:03 +0000"
+}

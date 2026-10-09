@@ -1,0 +1,41 @@
+{
+    "id": "code-reuse",
+    "name": "Code Reuse",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/code-reuse.html",
+    "aliases": [],
+    "description": "Code reuse, as in any programming language, refers to the practice of writing code that can be used in multiple parts of an application or across different projects. This approach offers several benefits, including:\n\n+ Efficiency: instead of writing the same functionality multiple times, the code is written once and used wherever needed\n+ Consistency: reusing code promotes consistency across the application and projects, as the same logic is used in multiple places\n+ Maintenance: when the code needs to be updated or fixed, there is only one place to do it, reducing the time to spread the fix\n\nCode reuse can be achieved through various techniques, including functions, classes, traits, file inclusions and composer components.",
+    "code": "<?php\n\n    // list elements like humans.\n    function implodeWithAnd(array $array) : string {\n        $last = array_pop($array);\n        return implode(', ', $array).' and '.$last;\n    }\n    \n    print implodeWithAnd(['Alice', 'Bob', 'Eve']);\n    \n    print implodeWithAnd(['Tom', 'Jerry']);\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Code_reuse",
+    "related": [
+        "code-architecture"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Code_reuse"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "What is code reuse and why is it important?",
+            "url": "https://www.opslevel.com/resources/what-is-code-reuse-and-why-is-it-important"
+        }
+    ],
+    "tags": [
+        "practice"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Mon, 15 Jun 2026 11:03:58 +0000"
+}

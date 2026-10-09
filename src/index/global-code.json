@@ -1,0 +1,42 @@
+{
+    "id": "global-code",
+    "name": "Global Code",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/global-code.html",
+    "aliases": [],
+    "description": "The global code is the code that doesn't belong to any method or function. Since PHP has no ``main()`` method that is called upon execution, the global code in the first file called is used. It is responsible to make the first calls to objects and functions.\n\nGlobal code is usually organised in a sequential manner. Once the bootstrapping, which create the first objects, install autoload, detect environment, is done, the global code calls one object and let it handle the request.",
+    "code": "<?php\n\n// This is the global code\ntrumpet();\n\nfunction trumpet() {}\n\n?>",
+    "documentation": "https://www.php.net/manual/en/language.basic-syntax.phpmode.php",
+    "related": [
+        "bootstrap",
+        "order-of-execution"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.basic-syntax.phpmode.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP Code Execution Flow",
+            "url": "https://webkul.com/blog/php-code-execution-flow/"
+        }
+    ],
+    "tags": [
+        "syntax"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+}

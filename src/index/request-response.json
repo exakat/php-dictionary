@@ -1,0 +1,51 @@
+{
+    "id": "request-response",
+    "name": "Request-Response",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/request-response.html",
+    "aliases": [],
+    "description": "Request-response is a communication pattern where a caller, the client, sends a request and synchronously waits for the callee, the server, to return a response before continuing. It is the fundamental interaction model of HTTP, RPC, and most database queries.\n\nIn the request-response pattern, the caller is blocked while the server processes the request. The server handles the request, computes a result, and sends it back. The caller then resumes with the result. Both parties must be available simultaneously.\n\nThis is distinct from fire-and-forget, with no response expected, pub/sub, with no direct coupling between publisher and subscriber, and streaming, with continuous flow of data rather than a single response.\n\nPHP's traditional execution model is built entirely around request-response: the browser, as the client, sends an HTTP request, PHP processes it synchronously and returns an HTTP response. This model is simple and debuggable but imposes a one-request-per-worker constraint without async extensions.",
+    "code": "<?php\n\n    // PHP is the server side of the HTTP request-response pattern\n    // Every PHP-FPM request follows this lifecycle:\n    \n    // 1. Client sends: GET /orders/42 HTTP/1.1\n    // 2. PHP receives, processes, and returns:\n    http_response_code(200);\n    header('Content-Type: application/json');\n    echo json_encode(['id' => 42, 'status' => 'shipped']);\n    \n    // PHP as the client side (HTTP request-response to a downstream service):\n    $response = $httpClient->get('https://payment-service/status/42');\n    // Client blocks here until payment-service responds\n    $status = $response->toArray()['status'];\n    \n    // Contrast with fire-and-forget (no wait):\n    $queue->push(new SendEmailJob($user)); // returns immediately, no response\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Request%E2%80%93response",
+    "related": [
+        "http",
+        "synchronous",
+        "fire-and-forget",
+        "pubsub",
+        "asynchronous",
+        "api-gateway"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Request%E2%80%93response"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Request/Reply vs. Pub/Sub",
+            "url": "https://ayende.com/blog/3265/request-reply-vs-pub-sub"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Request-response vs. publish-subscribe, part 1: What's the diff?",
+            "url": "https://blog.opto22.com/optoblog/request-response-vs-pub-sub-part-1"
+        }
+    ],
+    "tags": [
+        "concept"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Tue, 18 Aug 2026 05:24:42 +0000"
+}

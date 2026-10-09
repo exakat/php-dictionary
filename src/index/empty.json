@@ -1,0 +1,57 @@
+{
+    "id": "empty",
+    "name": "Empty",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/empty.html",
+    "aliases": [],
+    "description": "Empty is a language structure, which determines whether a variable is empty. \n\nA variable is considered empty if it does not exist or if its value equals false. This may overlap with the usage of ``isset()``.\n\n``empty()`` has an error suppression feature, that masks various errors, such as undefined offset or undefined variables. Some other errors, like an invalid type as offset, are still reported.",
+    "code": "<?php\n\n    // True\n    var_dump(empty($a));\n    \n    $b = [];\n    // True\n    var_dump(empty($b));\n\n?>",
+    "documentation": "https://www.php.net/manual/en/language.oop5.static.php#language.oop5.static.properties",
+    "related": [
+        "language-construct",
+        "isset",
+        "null",
+        "short-ternary"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.oop5.static.php#language.oop5.static.properties"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP isset() vs. empty() vs. is_null()",
+            "url": "https://code.tutsplus.com/php-isset-vs-empty-vs-is_null--cms-37162t"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Avoiding empty() in PHP",
+            "url": "https://localheinz.com/articles/2023/05/10/avoiding-empty-in-php/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Never use `empty` function in PHP",
+            "url": "https://dev.to/klnjmm/never-use-empty-function-in-php-4pb0"
+        }
+    ],
+    "tags": [
+        "language construct",
+        "feature",
+        "keyword",
+        "error suppression"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 17 Sep 2026 07:40:57 +0000"
+}

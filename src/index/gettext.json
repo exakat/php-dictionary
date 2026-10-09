@@ -1,0 +1,53 @@
+{
+    "id": "gettext",
+    "name": "gettext Extension",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/gettext.html",
+    "aliases": [],
+    "description": "``gettext`` is a library that provides features to translate messages for the users. It includes the famous ``gettext()`` function, and its alias ``_()``, the underscore.\n\nIt is based on the locale system, and the ``.mo`` files.",
+    "code": "<?php\n\n    // example from the PHP manual: https://www.php.net/manual/en/function.gettext.php\n    // Set language to German\n    putenv('LC_ALL=de_DE');\n    setlocale(LC_ALL, 'de_DE');\n    \n    // Specify location of translation tables\n    bindtextdomain(\"myPHPApp\", \"./locale\");\n    \n    // Choose domain\n    textdomain(\"myPHPApp\");\n    \n    // Translation is looking for in ./locale/de_DE/LC_MESSAGES/myPHPApp.mo now\n    \n    // Print a test message\n    echo gettext(\"Welcome to My PHP Application\");\n    \n    // Or use the alias _() for gettext()\n    echo \"_(Have a nice day)\";\n\n?>",
+    "documentation": "https://www.php.net/manual/en/ref.gettext.php",
+    "related": [
+        "extension",
+        "internationalization",
+        "locale",
+        "underscore"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/ref.gettext.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "gettext site",
+            "url": "https://www.gnu.org/software/gettext/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "GNU gettext (.po, .pot, .mo)",
+            "url": "https://www.locize.com/file-formats/gettext"
+        }
+    ],
+    "tags": [
+        "extension"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [
+        "Extensions/Extgettext"
+    ],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 03 Sep 2026 08:40:24 +0000"
+}

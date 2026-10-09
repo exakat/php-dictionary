@@ -1,0 +1,47 @@
+{
+    "id": "desktop-app",
+    "name": "Desktop Application",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/desktop-app.html",
+    "aliases": [
+        "desktop-application"
+    ],
+    "description": "A desktop application runs natively on a user's local operating system and has direct access to the file system, hardware, and system APIs. PHP is not traditionally used for desktop applications, but projects like NativePHP wrap a PHP runtime inside Electron or NativeApp to ship PHP code as a cross-platform desktop app. Desktop apps differ from web apps in that they do not require a browser or a remote server to function.",
+    "code": "",
+    "documentation": "https://en.wikipedia.org/wiki/Application_software",
+    "related": [
+        "nativephp",
+        "cli",
+        "tui",
+        "web-app",
+        "mobile-app",
+        "application"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Application_software"
+        }
+    ],
+    "tags": [
+        "application"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": {
+        "NativePHP": "https://nativephp.com/"
+    },
+    "popularity": "",
+    "modified": "Fri, 18 Sep 2026 04:49:39 +0000"
+}

@@ -1,0 +1,54 @@
+{
+    "id": "logarithm",
+    "name": "Logarithm",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/logarithm.html",
+    "aliases": [
+        "log10",
+        "log1p"
+    ],
+    "description": "The logarithm is a family of mathematical functions, where ``log($a * $b) == log($a) + log($b)``. There are two logarithm functions: the natural logarithm, where ``log(M_E) == 1``, and the base-10 logarithm, where ``log(10) == 1``.\n\nPHP also offers ``log1p($x) == log(1 + $x)``. This function exists because ``log($x)`` is very close to 0 when ``$x`` is close to 1. To avoid rounding errors, ``log1p()`` is dedicated to this calculations and immediately yields the decimal part of the logarithm.\n\nThe opposite function of the logarithm is exponential, ``exp()``, and the ``**`` operator. \n\nA logarithm is not the same as an algorithm, or a log file.\n",
+    "code": "<?php\n\n    echo log(M_E);\n    print PHP_EOL;  // 1\n    \n    echo log(1); \n    print PHP_EOL;  // 0\n    \n    echo log(1.001); \n    print PHP_EOL;  // 0.00099950033308342\n    \n    echo log1p(0.001); //0.00099950033308353\n    print PHP_EOL;\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Logarithm",
+    "related": [
+        "algorithm",
+        "exponential",
+        "exponent",
+        "float",
+        "zero",
+        "one",
+        "log-file",
+        "e",
+        "log"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Logarithm"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP Math Functions: A Comprehensive Guide with Examples",
+            "url": "https://codingeasypeasy.com/blog/php-math-functions-a-comprehensive-guide-with-examples/"
+        }
+    ],
+    "tags": [
+        "math"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Tue, 01 Sep 2026 05:31:03 +0000"
+}

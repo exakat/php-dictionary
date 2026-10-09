@@ -1,0 +1,51 @@
+{
+    "id": "rbac",
+    "name": "Role Based Access Control (RBAC)",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/rbac.html",
+    "aliases": [],
+    "description": "RBAC, or Role-Based Access Control, is a security model used to restrict system access based on user roles. It ensures that users only have the permissions necessary to perform their tasks.\n\nAlternatives to RBAC include Attribute Based Access Control for granular, rule-based policies; Relationship Based Access Control for dynamic permissions; Access Control Lists for simple user-level restrictions.",
+    "code": "",
+    "documentation": "https://en.wikipedia.org/wiki/Role-based_access_control",
+    "related": [
+        "permission",
+        "acl",
+        "authorize",
+        "sso"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Role-based_access_control"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Implementing Role-Based Access Control (RBAC) in PHP",
+            "url": "https://medium.com/@wwwebadvisor/implementing-role-based-access-control-rbac-in-php-85c0ea7bc86b"
+        }
+    ],
+    "tags": [
+        "acronym",
+        "security"
+    ],
+    "packagist": [
+        "zizaco/entrust",
+        "spatie/laravel-permission",
+        "casbin/casbin"
+    ],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Mon, 15 Jun 2026 11:03:59 +0000"
+}

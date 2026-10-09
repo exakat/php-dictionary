@@ -1,0 +1,51 @@
+{
+    "id": "nested-attribute",
+    "name": "Nested Attributes",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/nested-attribute.html",
+    "aliases": [],
+    "description": "Nested Attributes is a feature where an attribute may be called with other attributes.\n\nArguments of attributes may be literals, such as integer or strings: they can also be other objects. \n\nThis feature was introduced in version 8.1. The objects must be created with a new expression, with their respective argument position or name. The created object is not necessarily an attribute itself, and they may also be created with another new expression.",
+    "code": "<?php\n\n    #[\n        MyAttribute(\n            new OptionA('a'),\n            new OptionB(new OptionC(), 3)\n        )\n    ]\n    function headers() : never {\n    }\n\n?>",
+    "documentation": "https://wiki.php.net/rfc/new_in_initializers",
+    "related": [
+        "attribute",
+        "nesting"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://wiki.php.net/rfc/new_in_initializers"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP 8.1: new in initializers | stitcher.io",
+            "url": "https://stitcher.io/blog/php-81-new-in-initializers"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP 8.1 RFC: new in initializers - php.watch",
+            "url": "https://php.watch/rfcs/new_in_initializers"
+        }
+    ],
+    "tags": [
+        "attribute",
+        "feature",
+        "rfc"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [
+        "Php/NestedAttributes"
+    ],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "8.1+",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sat, 22 Aug 2026 08:06:32 +0000"
+}

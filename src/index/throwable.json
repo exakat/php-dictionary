@@ -1,0 +1,51 @@
+{
+    "id": "throwable",
+    "name": "Throwable",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/throwable.html",
+    "aliases": [],
+    "description": "``Throwable`` is a PHP native interface, which is required for any object to be used with thrown, such as ``Exception`` and ``Error``.\n\nThis interface may be used with catch clauses, to catch everything that is thrown. Yet, this interface cannot be implemented directly. It should be acquired by extending ``Exception``: extending ``Error`` should be avoided.",
+    "code": "<?php\n\nclass elephpant extends \\Exception implements \\Throwable {}\n\nthrow new Elephpant();\n\n?>",
+    "documentation": "https://www.php.net/manual/en/class.throwable.php",
+    "related": [
+        "catch",
+        "exception",
+        "error",
+        "typerror",
+        "php-interface"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/class.throwable.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP: Exception",
+            "url": "https://www.php.net/manual/en/class.exception.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP: Error",
+            "url": "https://www.php.net/manual/en/class.error.php"
+        }
+    ],
+    "tags": [
+        "php interface",
+        "php native"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "7.0",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+}

@@ -1,0 +1,51 @@
+{
+    "id": "sota",
+    "name": "State of the Art (SOTA)",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/sota.html",
+    "aliases": [
+        "state-of-the-art"
+    ],
+    "description": "State of the Art, abbreviated SOTA, refers to the highest level of development achieved in a field at a given point in time. It designates the best-performing approach, technique, or tool currently known, typically established by benchmarks or peer recognition.\n\nIn software engineering and AI, a method or model is described as SOTA when it outperforms all previously published alternatives on a standard benchmark. The term is relative and time-bound: today's SOTA becomes tomorrow's baseline.\n\nIn the PHP ecosystem, SOTA is used informally to refer to current best practices, the most capable available libraries, or the leading techniques for a given problem such as password hashing, serialisation, or static analysis.",
+    "code": "",
+    "documentation": "https://en.wikipedia.org/wiki/State_of_the_art",
+    "related": [
+        "best-practice",
+        "benchmarking",
+        "ai",
+        "llm",
+        "machine-learning",
+        "quality"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/State_of_the_art"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "State-of-the-Art (SOTA) AI Models: The Complete Guide",
+            "url": "https://acecloud.ai/blog/state-of-the-art-models/"
+        }
+    ],
+    "tags": [
+        "concept",
+        "acronym"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sat, 08 Aug 2026 08:01:43 +0000"
+}

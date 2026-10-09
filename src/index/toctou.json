@@ -1,0 +1,43 @@
+{
+    "id": "toctou",
+    "name": "Time Of Check To Time Of Use (TOCTOU)",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/toctou.html",
+    "aliases": [],
+    "description": "``TOCTOU``, which stands for Time Of Check To Time Of Use, is a class of bug where there is a time interval between checking a resource and then using it. This interval may be used by an attacker to replace the checked resource, and fool the code.\n",
+    "code": "<?php\n\n    function trumpet($file) {\n        // Checking is the file exists\n        if (!file_exists($file)) {\n            return false;\n        }\n        \n        $fp = fopen($file, 'r');\n        // $fp should be available, because it was checked just before\n        // The TOCTOU is here\n        $string = fget($fp, 1000);\n    }\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Time-of-check_to_time-of-use",
+    "related": [
+        "security",
+        "race-condition"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Time-of-check_to_time-of-use"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Practical Race Condition Vulnerabilities in Web Applications",
+            "url": "https://defuse.ca/race-conditions-in-web-applications.htm"
+        }
+    ],
+    "tags": [
+        "security",
+        "acronym"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+}

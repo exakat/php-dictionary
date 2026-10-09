@@ -1,0 +1,43 @@
+{
+    "id": "c2-framework",
+    "name": "C2 Framework",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/c2-framework.html",
+    "aliases": [],
+    "description": "A C2 framework is a library of tools to use with a vulnerability, to discover and escalate services on a target website. C2 Framework is also known as a C&C framework, or command-and-control framework.\n\nAmong the possible tasks, there are running command system, creating, editing and removing files, starting reverse shells, etc. \n\nC2-framework shall be used once a backdoor has been installed, to widen the control over the target server. The installation of the backdoor is not included in the C2 framework.",
+    "code": "<?php\n\n    // example of a simple backdoor, based on the GET method \n    echo @eval($_GET['command']); \n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Command_and_control",
+    "related": [
+        "documentation",
+        "security",
+        "vulnerability"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Command_and_control"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHPSPLO1T",
+            "url": "https://github.com/nil0x42/phpsploit"
+        }
+    ],
+    "tags": [
+        "security"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Wed, 12 Aug 2026 08:14:22 +0000"
+}

@@ -1,0 +1,51 @@
+{
+    "id": "escapeshellarg",
+    "name": "escapeshellarg()",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/escapeshellarg.html",
+    "aliases": [],
+    "description": "``escapeshellarg()`` is a PHP function that wraps a string in single quotes and escapes any existing single quotes within it, making the string safe to pass as a single argument to a shell command.\n\nIt is used together with ``exec()``, ``system()``, ``passthru()``, or ``shell_exec()`` when the argument is derived from user input or any untrusted source.\n\nOn Windows, ``escapeshellarg()`` uses double quotes and escapes double quotes, percent signs, and exclamation marks instead.\n\nNote that ``escapeshellarg()`` escapes a single argument only. When the full command string needs to be sanitised, ``escapeshellcmd()`` should be used, though combining both functions correctly is preferred.",
+    "code": "<?php\n\n    $filename = $_GET['file'] ?? '';\n    $safe     = escapeshellarg($filename);\n    \n    // Safe: $safe is a quoted, escaped argument\n    exec('convert ' . $safe . ' output.png', $output, $exitCode);\n\n?>",
+    "documentation": "https://www.php.net/manual/en/function.escapeshellarg.php",
+    "related": [
+        "escape-data",
+        "injection",
+        "shell-injection",
+        "exec",
+        "system",
+        "shell-exec",
+        "escapeshellcmd",
+        "security"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/function.escapeshellarg.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "escapeshellcmd() \u2014 PHP Manual",
+            "url": "https://www.php.net/manual/en/function.escapeshellcmd.php"
+        }
+    ],
+    "tags": [
+        "security",
+        "function"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sun, 12 Jul 2026 19:59:01 +0000"
+}

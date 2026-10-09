@@ -1,0 +1,58 @@
+{
+    "id": "jpg",
+    "name": "JPEG",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/jpg.html",
+    "aliases": [
+        "jpeg"
+    ],
+    "description": "JPEG, the Joint Photographic Experts Group, is a lossy image compression format widely used for photographs and complex images. It is identified by the file extensions ``.jpg`` and ``.jpeg``.\n\nJPEG compression reduces file size by discarding some image data, making it suitable for photographs but less ideal for images with sharp edges or text.\n\nPHP's GD extension handles JPEG images with functions such as ``imagecreatefromjpeg()``, ``imagejpeg()``, and ``imagecolorat()``. ``imagejpeg()`` accepts an optional quality parameter from 0 to 100.",
+    "code": "<?php\n\n$image = imagecreatefromjpeg('input.jpg');\n\n// Resize or manipulate...\n\nimagejpeg($image, 'output.jpg', 85); // Save at quality 85\nimagedestroy($image);\n\n?>",
+    "documentation": "https://www.php.net/manual/en/function.imagejpeg.php",
+    "related": [
+        "gif",
+        "png",
+        "image",
+        "gd",
+        "pdf"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/function.imagejpeg.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "JPEG (Wikipedia)",
+            "url": "https://en.wikipedia.org/wiki/JPEG"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "GD and Image Functions",
+            "url": "https://www.php.net/manual/en/book.image.php"
+        }
+    ],
+    "tags": [
+        "image",
+        "format",
+        "acronym"
+    ],
+    "packagist": [],
+    "extensions": [
+        "gd"
+    ],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sat, 15 Aug 2026 08:26:32 +0000"
+}

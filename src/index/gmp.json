@@ -1,0 +1,52 @@
+{
+    "id": "gmp",
+    "name": "GNU Multiple Precision (GMP)",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/gmp.html",
+    "aliases": [],
+    "description": "``gmp`` is a PHP extension that stands for \"GNU Multiple Precision\". It provides functionality to process mathematically arbitrary-length integers .\n\nThe ``gmp`` extension allows the basic calculations, like addition, multiplication,... some advanced math functions such as square roots, prime test, legendre symbol, GCD, etc.",
+    "code": "<?php\n\n    echo 'TRANSLIT : ', iconv(\"UTF-8\", \"ISO-8859-1//TRANSLIT\", $text), PHP_EOL;\n    // TRANSLIT : This is the Euro symbol 'EUR'.\n\n?>",
+    "documentation": "https://www.php.net/manual/en/book.gmp.php",
+    "related": [
+        "bcmath",
+        "math",
+        "real"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/book.gmp.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "GNU MP library",
+            "url": "https://gmplib.org/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "A Beginner's Guide to the PHP GMP Library for Arbitrary Precision Arithmetic",
+            "url": "https://reintech.io/blog/beginners-guide-php-gmp-library-arbitrary-precision-arithmetic"
+        }
+    ],
+    "tags": [
+        "acronym",
+        "extension",
+        "math"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [
+        "Extensions/Extgmp"
+    ],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sat, 08 Aug 2026 08:10:54 +0000"
+}

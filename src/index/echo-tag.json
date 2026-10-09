@@ -1,0 +1,50 @@
+{
+    "id": "echo-tag",
+    "name": "Echo Tag",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/echo-tag.html",
+    "aliases": [
+        "short-echo-tag"
+    ],
+    "description": "Echo tag is a special PHP opening tag: ``<?=``. It combines the opening tag, and a call to the echo function.\n\nThe echo tag should not be confused with PHP short tags ``<?``.\n\nIt is also called the short echo tag.",
+    "code": "<?php $a = 1; ?><?= $a; ?>",
+    "documentation": "https://www.php.net/manual/en/language.basic-syntax.phptags.php",
+    "related": [
+        "php-tag",
+        "short-tag",
+        "open-tag"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.basic-syntax.phptags.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "echo",
+            "url": "https://www.php.net/manual/en/function.echo.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Alternative syntax for control structures",
+            "url": "https://www.php.net/manual/en/control-structures.alternative-syntax.php"
+        }
+    ],
+    "tags": [
+        "syntax"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sun, 09 Aug 2026 13:30:55 +0000"
+}

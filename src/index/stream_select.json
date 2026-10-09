@@ -1,0 +1,46 @@
+{
+    "id": "stream_select",
+    "name": "stream_select()",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/stream_select.html",
+    "aliases": [],
+    "description": "``stream_select()`` is a native PHP function that waits until one or more streams are ready for reading, writing, or have an exceptional condition, using the system ``select()`` call.\n\nIt takes three arrays of streams, passed by reference: ``$read``, ``$write`` and ``$except``. On return, each array is reduced to the streams that are ready; the others are removed. The fourth and fifth arguments set the timeout in seconds and microseconds. A ``null`` timeout blocks until at least one stream is ready.\n\nThe function returns the number of streams that changed state, ``0`` if the timeout expired before any stream was ready, or ``false`` on error. Because the arrays are modified in place, the original list of streams must be kept separately if it is needed again.",
+    "code": "<?php\n\n    $read   = [$socket1, $socket2];\n    $write  = null;\n    $except = null;\n\n    // Wait up to 5 seconds for data on either socket\n    $changed = stream_select($read, $write, $except, 5);\n\n    if ($changed === false) {\n        die('stream_select() failed');\n    }\n\n    if ($changed === 0) {\n        echo 'Timeout: no data received';\n    } else {\n        foreach ($read as $stream) {\n            echo fread($stream, 1024);\n        }\n    }\n\n?>",
+    "documentation": "https://www.php.net/manual/en/function.stream-select.php",
+    "related": [
+        "stream",
+        "socket",
+        "polling",
+        "non-blocking"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/function.stream-select.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "stream_select",
+            "url": "https://www.php.net/manual/en/function.stream-select.php"
+        }
+    ],
+    "tags": [
+        "native function"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Fri, 09 Oct 2026 17:16:49 +0000"
+}

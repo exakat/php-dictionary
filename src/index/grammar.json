@@ -1,0 +1,51 @@
+{
+    "id": "grammar",
+    "name": "Grammar",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/grammar.html",
+    "aliases": [],
+    "description": "The grammar of a language is the formal set of rules that describes which sequences of tokens form valid statements and expressions. PHP's grammar is defined in a Yacc/Bison file, in ``Zend/zend_language_parser.y`` of the engine source code, that is compiled into the parser used by the Zend Engine.\n\nThe grammar operates on tokens produced by the lexer/tokenizer, and is distinct from semantics: a piece of code may be grammatically valid, yet still fail at compile-time or run-time. For example, calling an undefined function.\n\nAmbiguities or changes in the grammar are a common source of backward-incompatible changes between PHP versions, such as the reinterpretation of nested ternary operators or the introduction of new reserved keywords.",
+    "code": "<?php\n\n    // Grammatically valid, but each statement fails differently\n    $a = ; // parse error: grammar violation, no expression after '='\n    \n    foo(); // grammar is fine, but 'foo' is undefined: a runtime error, not a grammar one\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Formal_grammar",
+    "related": [
+        "parser",
+        "tokenizer",
+        "syntax",
+        "syntax-error",
+        "reserved-name"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Formal_grammar"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP's zend_language_parser.y (source)",
+            "url": "https://github.com/php/php-src/blob/master/Zend/zend_language_parser.y"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Grammar",
+            "url": "https://phplang.org/spec/19-grammar.html"
+        }
+    ],
+    "tags": [
+        "source code",
+        "concept"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Tue, 01 Sep 2026 05:31:03 +0000"
+}

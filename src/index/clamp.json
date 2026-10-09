@@ -1,0 +1,49 @@
+{
+    "id": "clamp",
+    "name": "clamp()",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/clamp.html",
+    "aliases": [],
+    "description": "``clamp()`` is a native PHP function that limits a value to a range. It returns the value when it lies between ``min`` and ``max``; otherwise, it returns the nearest bound.\n\nIts semantics match the clamp functions of other languages, such as ``std::clamp`` in C++ and ``Math.clamp`` in Java.\n\nIf ``min`` is greater than ``max``, or if either bound is ``NAN``, a ``ValueError`` is thrown. The function is not limited to numbers: it works with any values that PHP can compare, so the usual comparison coercion rules apply.\n\nBefore PHP 8.6, a userland ``clamp`` package provides the same behavior.",
+    "code": "<?php\n\n    echo clamp(10, min: 0, max: 100);  // 10\n    echo clamp(101, min: 0, max: 100); // 100\n    echo clamp(-1, min: 0, max: 100);  // 0\n\n?>",
+    "documentation": "https://wiki.php.net/rfc/clamp_v2",
+    "related": [
+        "array_filter",
+        "comparison"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://wiki.php.net/rfc/clamp_v2"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP 8.6: New clamp function",
+            "url": "https://php.watch/versions/8.6/clamp"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP 8.6 RFC: clamp v2",
+            "url": "https://php.watch/rfcs/clamp_v2"
+        }
+    ],
+    "tags": [
+        "native function"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "8.6",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Fri, 09 Oct 2026 17:22:02 +0000"
+}

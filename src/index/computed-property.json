@@ -1,0 +1,59 @@
+{
+    "id": "computed-property",
+    "name": "Computed Property",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/computed-property.html",
+    "aliases": [
+        "computed-properties"
+    ],
+    "description": "A computed property is a property whose value is derived from an expression at the point of access, with no explicit getter method in user code. The computation is declared inline with the property itself, and the language runtime invokes it transparently when the property is read.\n\nLanguages such as Swift, Kotlin, and C# offer computed properties as a first-class syntax:\n\n+ In Swift, ``var area: Double { width * height }`` defines a read-only computed property.\n+ In C#, ``public int Area => Width * Height;`` uses an expression-bodied property.\n+ In Kotlin, ``val area get() = width * height`` attaches a getter expression directly to the declaration.\n\nIn all these cases the computation is expressed as part of the property declaration, not as a separate method the programmer must name and call.\n\nPHP does not support computed properties natively. PHP 8.4 introduced property hooks, with ``get`` and ``set``, which come close: they attach getter and setter logic to a property declaration. However, property hooks still require explicit block or arrow syntax inside the property body and are closer to accessor methods than to the lightweight ``expr``-body computed properties found in Swift or Kotlin.\n\nBefore PHP 8.4, the only option was a dedicated ``getter`` method, e.g. ``getArea()``, which is a named method, not a property.",
+    "code": "<?php\n\n    // PHP 8.4 property hook: closest available approximation.\n    class Rectangle {\n        public function __construct(\n            public float $width,\n            public float $height,\n        ) {}\n    \n        // get hook \u2014 behaves like a computed property, but requires\n        // explicit hook syntax rather than a bare expression.\n        public float $area {\n            get => $this->width * $this->height;\n        }\n    }\n    \n    $r = new Rectangle(3.0, 4.0);\n    echo $r->area; // 12.0\n    \n    // Before PHP 8.4, a dedicated method was the only option:\n    // public function getArea(): float { return $this->width * $this->height; }\n\n?>",
+    "documentation": "https://www.php.net/manual/en/language.oop5.property-hooks.php",
+    "related": [
+        "property-hook",
+        "virtual-property",
+        "property",
+        "__get",
+        "getter"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.oop5.property-hooks.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Swift computed properties",
+            "url": "https://docs.swift.org/swift-book/documentation/the-swift-programming-language/properties/#Computed-Properties"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Kotlin properties",
+            "url": "https://kotlinlang.org/docs/properties.html"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "C# properties",
+            "url": "https://learn.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/properties"
+        }
+    ],
+    "tags": [
+        "not supported",
+        "property",
+        "class"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Wed, 02 Sep 2026 16:41:00 +0000"
+}

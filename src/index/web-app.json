@@ -1,0 +1,58 @@
+{
+    "id": "web-app",
+    "name": "Web Application",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/web-app.html",
+    "aliases": [
+        "web-application"
+    ],
+    "description": "A web application is software that runs in a web browser and is delivered over HTTP/HTTPS from a web server. PHP is the dominant server-side language for web applications, powering frameworks such as Laravel, Symfony, and WordPress. A web application may follow the traditional request/response cycle, use a Single Page Application or SPA pattern, or combine both with partial hydration. Unlike a website, a web application typically involves significant user interaction, business logic, authentication, and data persistence.",
+    "code": "",
+    "documentation": "https://en.wikipedia.org/wiki/Web_application",
+    "related": [
+        "spa",
+        "web",
+        "webserver",
+        "http",
+        "mobile-app",
+        "desktop-app",
+        "rest-api",
+        "mvc",
+        "application"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Web_application"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP The Right Way",
+            "url": "https://phptherightway.com/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Laravel",
+            "url": "https://laravel.com"
+        }
+    ],
+    "tags": [
+        "application"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 27 Aug 2026 08:55:16 +0000"
+}

@@ -1,0 +1,67 @@
+{
+    "id": "match",
+    "name": "Match",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/match.html",
+    "aliases": [],
+    "description": "The ``match`` expression is the remote cousin of the ``switch``. It takes a value, branch among a list of cases, or fallback to a default one, and returns a unique value. \n\n``match`` use a strict comparison for the comparison. ``match`` raise an error if no case match, unless the ``default`` case is provided. \n\n``match`` is an expression, to be used in an assignment, while ``switch`` is a command, and must be used alone.",
+    "code": "<?php\n\n    $return_value = match ($food) {\n        'apple' => 'This food is an apple',\n        'bar'   => 'This food is a bar',\n        'cake'  => 'This food is a cake',\n        default => 'This is not food'\n    };\n\n?>",
+    "documentation": "https://www.php.net/manual/en/control-structures.match.php",
+    "related": [
+        "switch",
+        "default",
+        "if-then",
+        "unhandledmatcherror",
+        "case",
+        "comparison",
+        "conditional-structure",
+        "control-flow",
+        "fallthrough",
+        "simple-switch",
+        "strict-comparison",
+        "switch-case",
+        "switch-default",
+        "arm",
+        "control-structure",
+        "identical",
+        "streamlining",
+        "exhaustiveness",
+        "idiomatic",
+        "strict",
+        "sum-type"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/control-structures.match.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP Tricks: Multi-value match()",
+            "url": "https://peakd.com/hive-168588/@crell/php-tricks-multi-value-match"
+        }
+    ],
+    "tags": [
+        "feature",
+        "keyword",
+        "expression",
+        "control flow"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [
+        "Php/UseMatch",
+        "Php/ReservedMatchKeyword"
+    ],
+    "cobblers": [],
+    "rule": "Php/UseMatch",
+    "phpVersionSince": "8.0",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Mon, 14 Sep 2026 17:03:13 +0000"
+}

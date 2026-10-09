@@ -1,0 +1,48 @@
+{
+    "id": "traversable",
+    "name": "Traversable",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/traversable.html",
+    "aliases": [],
+    "description": "Traversable is a specific PHP interface that represents an object that can be iterated over.\n\nTraversable is an abstract interface: it cannot be implemented directly, and instead, it must be implemented by either ``IteratorAggregate`` or ``Iterator``. \n\nThe traversable interface is used for typing purposes.",
+    "code": "<?php\n\n    try {\n        doSomething();\n    } catch (\\Traversable $e) {\n        print \"Some error was raised during processing: \". $e::class;\n    }\n\n?>",
+    "documentation": "https://www.php.net/manual/en/class.traversable.php",
+    "related": [
+        "exception",
+        "error",
+        "iterable",
+        "outeriterator",
+        "php-interface",
+        "yield-from",
+        "iteratoraggregate"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/class.traversable.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Traversable interface in PHP",
+            "url": "https://blog.eduonix.com/web-programming-tutorials/traversable-interface-in-php/"
+        }
+    ],
+    "tags": [
+        "interface",
+        "php interface"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sat, 08 Aug 2026 08:00:39 +0000"
+}

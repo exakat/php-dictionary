@@ -1,0 +1,51 @@
+{
+    "id": "undefined",
+    "name": "Undefined",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/undefined.html",
+    "aliases": [],
+    "description": "Something ``undefined`` has not been defined yet. The definition may vary from structure to structure: a variable is created upon its first writing, while a class needs a declaration.\n\nThere are many error messages, that are raised when attempting to use an undefined structure. The reasons include typos, missing compiled or custom code, order of execution.\n",
+    "code": "<?php\n\n// class Elephpant is defined, or declared\nclass Elephpant {}\n\n// variable $trunk is undefined\necho $trunk;\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Undefined_variable",
+    "related": [
+        "variable",
+        "function",
+        "class",
+        "existence",
+        "hoisting",
+        "undefined-behavior"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Undefined_variable"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP now has support for undefined!?",
+            "url": "https://hbgl.dev/php-now-has-support-for-undefined/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Technically undefined",
+            "url": "https://voskoboinyk.com/posts/2026-05-14-technically-undefined"
+        }
+    ],
+    "tags": [
+        "concept"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+}

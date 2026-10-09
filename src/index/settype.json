@@ -1,0 +1,42 @@
+{
+    "id": "settype",
+    "name": "settype()",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/settype.html",
+    "aliases": [],
+    "description": "``settype()`` converts a variable to a given type, in place, modifying the variable itself rather than returning a converted copy.\n\nThe target type is given as a string, among ``integer``, ``float``, ``string``, ``boolean``, ``array``, ``object`` and ``null``, and PHP applies the same coercion rules as an explicit cast: a numeric string becomes the matching number, an empty array becomes an empty string when cast to string, and so on. The function returns true on success.\n\n``settype()`` is the mutating counterpart of a cast expression: ``(int) $value`` produces a new value without touching ``$value``, while ``settype($value, 'integer')`` changes ``$value`` itself. Because it takes its argument by reference, it cannot be used directly on the result of a function call or an array element accessed through a complex expression.",
+    "code": "<?php\n\n    $value = '42';\n    settype($value, 'integer');\n\n    var_dump($value); // int(42)\n\n?>",
+    "documentation": "https://www.php.net/manual/en/function.settype.php",
+    "related": [
+        "gettype",
+        "cast",
+        "type-juggling",
+        "var_dump"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/function.settype.php"
+        }
+    ],
+    "tags": [
+        "native function",
+        "type"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Fri, 25 Sep 2026 18:46:26 +0000"
+}

@@ -1,0 +1,56 @@
+{
+    "id": "iac",
+    "name": "Infrastructure as Code (IaC)",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/iac.html",
+    "aliases": [],
+    "description": "Infrastructure as Code, aka ``IaC``, is the practice of managing and provisioning infrastructure through machine-readable configuration files rather than manual processes or interactive configuration tools.\n\nTools such as Terraform, Ansible, Pulumi, and AWS CloudFormation are commonly used for ``IaC``. PHP applications deployed with ``IaC`` benefit from reproducible, version-controlled environments.\n\nPHP developers typically use ``IaC`` to define server configurations, container orchestration, and cloud resource provisioning for their applications.",
+    "code": "",
+    "documentation": "https://en.wikipedia.org/wiki/Infrastructure_as_code",
+    "related": [
+        "devops",
+        "docker"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Infrastructure_as_code"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Configuration management (Wikipedia)",
+            "url": "https://en.wikipedia.org/wiki/Configuration_management"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "DevOps (Wikipedia)",
+            "url": "https://en.wikipedia.org/wiki/DevOps"
+        }
+    ],
+    "tags": [
+        "devops",
+        "concept",
+        "acronym"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": {
+        "Terraform": "https://www.terraform.io/",
+        "Ansible": "https://www.ansible.com/",
+        "Pulumi": "https://www.pulumi.com/",
+        "AWS CloudFormation": "https://aws.amazon.com/cloudformation/"
+    },
+    "popularity": "",
+    "modified": "Fri, 18 Sep 2026 04:50:14 +0000"
+}

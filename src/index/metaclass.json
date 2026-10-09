@@ -1,0 +1,59 @@
+{
+    "id": "metaclass",
+    "name": "Metaclass",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/metaclass.html",
+    "aliases": [
+        "meta-class"
+    ],
+    "description": "A metaclass is a class whose instances are themselves classes. In a language with a full metaclass system, every class is an object, and that object is an instance of a metaclass. The metaclass controls how the class is created, how its instances are instantiated, and how method resolution, attribute access, and inheritance work. Python's ``type`` is the default metaclass; a custom metaclass inherits from ``type`` and overrides ``__new__``, ``__init__``, or ``__call__`` to intercept class creation.\n\nSmalltalk was the original language to formalise the idea: every class in Smalltalk has a corresponding metaclass that describes the class's own behaviour. Ruby's eigenclasses, singleton classes, serve a related role.\n\nPHP does not have metaclasses. PHP classes are not objects that can be instantiated from a metaclass, and there is no hook point at which user code can intercept or modify class creation at the language level.\n\nPHP approximations of metaclass-like behaviour:\n\n+ Abstract classes and interfaces constrain what a class must look like without controlling how it is created.\n+ The Reflection API ``ReflectionClass`` allows runtime introspection of a class's structure but cannot alter it.\n+ Magic methods ``__get``, ``__set``, ``__call``, and ``__callStatic`` intercept property and method access on instances, approximating some MOP hooks.\n+ Attribute-driven frameworks such as Doctrine or Symfony DI read class-level ``#[Attribute]`` annotations and generate or register behaviour at build time, simulating what a metaclass might do during class creation in Python.\n+ ``class_alias()`` can create alternative names for classes but cannot redefine their behaviour.",
+    "code": "<?php\n\n    // PHP has no metaclass. The Reflection API offers read-only introspection.\n    $rc = new ReflectionClass(DateTime::class);\n    echo $rc->getName() . ' has ' . count($rc->getMethods()) . \" methods\\n\";\n\n    // Attribute-driven behaviour: closest PHP equivalent to metaclass registration.\n    #[\\Attribute(\\Attribute::TARGET_CLASS)]\n    final class Entity {\n        public function __construct(public readonly string $table) {}\n    }\n\n    #[Entity(table: 'users')]\n    class User {\n        public function __construct(\n            public readonly int $id,\n            public readonly string $name,\n        ) {}\n    }\n\n    // A framework reads the attribute at build or boot time \u2014 similar to what\n    // a Python metaclass __init_subclass__ hook would do automatically.\n    $attr = (new ReflectionClass(User::class))\n        ->getAttributes(Entity::class)[0]\n        ->newInstance();\n    echo $attr->table; // 'users'\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Metaclass",
+    "related": [
+        "meta-object-protocol",
+        "metaprogramming",
+        "reflection",
+        "attribute",
+        "magic-method",
+        "abstract-class",
+        "__call"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Metaclass"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP Reflection API",
+            "url": "https://www.php.net/manual/en/book.reflection.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Python metaclasses",
+            "url": "https://docs.python.org/3/reference/datamodel.html#metaclasses"
+        }
+    ],
+    "tags": [
+        "concept",
+        "oop",
+        "metaprogramming",
+        "not supported"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Wed, 02 Sep 2026 16:41:00 +0000"
+}

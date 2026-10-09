@@ -1,0 +1,49 @@
+{
+    "id": "simplexml",
+    "name": "SimpleXML",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/simplexml.html",
+    "aliases": [],
+    "description": "The SimpleXML extension provides a very simple and easily usable toolset to convert XML to an object that can be processed with normal property selectors and array iterators.",
+    "code": "<?php\n$books = new SimpleXMLElement('<?xml version=\\1.0\\?>\n<books>\n<book>\n<title>Les miserables</title>\n<genre>Novel</genre>\n</book>\n<book>\n<title>The old man and the sea</title>\n<genre>Novel</genre>\n</book>\n<book>\n<title>The journey to the west</title>\n<genre>Epic</genre>\n</book>\n</books>');\n\necho $movies->books[0]->title;\n?>",
+    "documentation": "https://www.php.net/manual/en/book.simplexml.php",
+    "related": [
+        "xmlwriter",
+        "xmlreader",
+        "xml",
+        "unicode",
+        "dom",
+        "domxml"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/book.simplexml.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP Master | Parsing XML With SimpleXML",
+            "url": "https://www.sitepoint.com/parsing-xml-with-simplexml/"
+        }
+    ],
+    "tags": [
+        "extension",
+        "dom"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [
+        "Extension/Extsimplexml"
+    ],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "5.0+",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Tue, 25 Aug 2026 19:12:45 +0000"
+}

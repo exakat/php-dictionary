@@ -1,0 +1,55 @@
+{
+    "id": "assertionerror",
+    "name": "AssertionError",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/assertionerror.html",
+    "aliases": [],
+    "description": "``AssertionError`` is thrown when an assertion made with ``assert()`` fails.\n\nUnlike most engine errors, ``AssertionError`` is raised by user-controlled code: it only fires when the ``zend.assertions`` directive enables assertion execution, and the ``assert.exception`` directive is left at its default of ``1``, so that a failed assertion is turned into a thrown error instead of a silent or warning-based failure.\n\n``AssertionError`` extends ``Error``, not ``Exception``, which places it alongside engine-level failures such as ``TypeError`` and ``ArithmeticError`` rather than the SPL exception hierarchy. Since assertions are meant to be a zero-cost development aid, ``AssertionError`` should generally not be relied upon in production flow control: when ``zend.assertions`` is set to ``-1`` the assertion code is not even compiled, and no error is thrown at all.",
+    "code": "<?php\n\n    $age = -5;\n    \n    try {\n        assert($age >= 0, 'Age cannot be negative');\n    } catch (AssertionError $e) {\n        print 'Assertion failed: ' . $e->getMessage();\n    }\n\n?>",
+    "documentation": "https://www.php.net/manual/en/class.assertionerror.php",
+    "related": [
+        "assertion",
+        "zend-assertions",
+        "error",
+        "typeerror",
+        "arithmeticerror",
+        "runtime-checks"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/class.assertionerror.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "assert - Manual",
+            "url": "https://www.php.net/manual/en/function.assert.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP assertions and their usage",
+            "url": "https://www.exakat.io/en/php-assertions-usage/"
+        }
+    ],
+    "tags": [
+        "error",
+        "native error"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [
+        "Php/AssertionUsage",
+        "Php/AssertFunctionIsReserved"
+    ],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "7.0",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Fri, 28 Aug 2026 10:17:36 +0000"
+}

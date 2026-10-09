@@ -1,0 +1,43 @@
+{
+    "id": "short-syntax",
+    "name": "Short Syntax",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/short-syntax.html",
+    "aliases": [],
+    "description": "A short syntax is the fusion of a binary operator with the ``=`` operator. That way, the operator is applied to the right hand operand, and the left variable, then, assigned to that variable. \n\nIt is convenient when the variable has to be processed then assigned again to itself.\n",
+    "code": "<?php\n\n    $a = 0;\n    // Adds 2 to $a\n    $a = $a + 2;\n    \n    // short syntax to add 3 to $a\n    $a += 3;\n\n?>",
+    "documentation": "https://www.php.net/manual/en/language.operators.assignment.php",
+    "related": [
+        "assignation",
+        "operator"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.operators.assignment.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP.INI settings Disable exec, shell_exec, system, popen and Other Functions To Improve Security",
+            "url": "https://www.cyberciti.biz/faq/linux-unix-apache-lighttpd-phpini-disable-functions/"
+        }
+    ],
+    "tags": [
+        "syntax",
+        "feature"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Fri, 11 Sep 2026 08:41:03 +0000"
+}

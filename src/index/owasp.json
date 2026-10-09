@@ -1,0 +1,54 @@
+{
+    "id": "owasp",
+    "name": "OWASP",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/owasp.html",
+    "aliases": [],
+    "description": "OWASP stands for Open Web Application Security Project. It is an organization that educates people to design, code and maintain secure applications.\n\nOWASP is famous for the TOP 10: a list of the top 10 threats to web applications. It is updated every three years.",
+    "code": "",
+    "documentation": "https://owasp.org/",
+    "related": [
+        "security",
+        "audit",
+        "vulnerability",
+        "insecure-deserialization",
+        "broken-access-control",
+        "cheatsheet",
+        "ctf",
+        "idor"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://owasp.org/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "TOP 10 2021",
+            "url": "https://owasp.org/Top10/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "OWASP Top 10:2025 for PHP Developers",
+            "url": "https://slicker.me/php/security.htm"
+        }
+    ],
+    "tags": [
+        "security",
+        "acronym"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Wed, 02 Sep 2026 14:57:15 +0000"
+}

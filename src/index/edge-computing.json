@@ -1,0 +1,48 @@
+{
+    "id": "edge-computing",
+    "name": "Edge Computing",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/edge-computing.html",
+    "aliases": [
+        "edge",
+        "compute-at-the-edge"
+    ],
+    "description": "Edge computing, also called compute at the edge, is a distributed computing paradigm that processes data at or near the source: at the network edge, close to the user or device, rather than routing all computation to a centralised data centre. The goal is to reduce latency, bandwidth consumption, and round-trip time.\n\nIn web development, the edge typically refers to CDN Points of Presence, PoPs, distributed globally. Logic executed at the edge runs within milliseconds of the end user, avoiding the latency of a transatlantic round trip to an origin server.\n\nPHP at the edge is an emerging area. Cloudflare Workers do not natively support PHP, but experimental projects explore WebAssembly-compiled PHP. FrankenPHP supports edge-style persistent workers. AWS Lambda@Edge runs serverless functions at CloudFront PoPs, and Bref enables PHP on Lambda.\n\nCommon edge use cases: ``A/B testing``, personalisation headers, authentication token validation, geo-routing, bot detection, and serving cached responses without hitting the origin.",
+    "code": "<?php\n\n    // PHP on the edge via AWS Lambda@Edge (using Bref)\n    // Triggered at CloudFront request/response lifecycle\n    \n    return function (array $event): array {\n        $request = $event['Records'][0]['cf']['request'];\n        $headers = $request['headers'];\n    \n        // Geo-routing: redirect based on CloudFront-provided country header\n        $country = $headers['cloudfront-viewer-country'][0]['value'] ?? 'US';\n    \n        if ($country === 'DE') {\n            return [\n                'status'      => '302',\n                'statusDescription' => 'Found',\n                'headers'     => [\n                    'location' => [['key' => 'Location', 'value' => 'https://de.example.com' . $request['uri']]],\n                ],\n            ];\n        }\n    \n        return $request; // pass through to origin\n    };\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Edge_computing",
+    "related": [
+        "serverless",
+        "faas",
+        "iot",
+        "latency",
+        "cdn"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Edge_computing"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP in the Cloud: Serverless and Edge Computing",
+            "url": "https://www.phpeveryday.com/articles/php-in-the-cloud-serverless-and-edge-computing/"
+        }
+    ],
+    "tags": [
+        "concept"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sun, 30 Aug 2026 10:14:00 +0000"
+}

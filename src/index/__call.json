@@ -1,0 +1,48 @@
+{
+    "id": "__call",
+    "name": "__call() Method",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/__call.html",
+    "aliases": [],
+    "description": "``__call()`` is a magic method: it is called when a method cannot be accessed, either because it doesn't exist, or because its visibility prevents it.\n\nThat way, it is possible to dynamically create methods, without hardcoding them.\n\nThe ``__call()`` method receives the name of the target-method, and a list of arguments, as an array.\n\nThe ``__call()`` method has a related version for static methods, called ``__callStatic()``.",
+    "code": "<?php\n\n    class Elephpant {\n        private $values = ['a' => 1,\n                           'b' => 2,\n                           ];\n\n        // Checks the dictionary, or return 0\n        function __call($name, $args) {\n            if (method_exists($this, $name)) {\n                return $this->$name(...$args);\n            }\n            \n            return 0;\n        }\n    }\n\n?>",
+    "documentation": "https://www.php.net/manual/en/language.oop5.magic.php",
+    "related": [
+        "__callstatic",
+        "magic-method",
+        "method",
+        "proxy",
+        "meta-object-protocol",
+        "metaclass",
+        "metaprogramming",
+        "open-class"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.oop5.magic.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP _call (Lesson 3: PHP Magic Methods)",
+            "url": "https://dev.to/cleancodestudio/php-call-lesson-3-php-magic-methods-5bi0"
+        }
+    ],
+    "tags": [
+        "magic method"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+}

@@ -1,0 +1,49 @@
+{
+    "id": "finally",
+    "name": "Finally",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/finally.html",
+    "aliases": [],
+    "description": "Finally is the default clause of a try-catch expression. It is run after all the catch clauses have been called.\n\nFinally is run every time after a try, with or without any catch clause. It is also run before the return expression, if any.",
+    "code": "<?php\n\n    try {\n        doSomething();\n    } catch (\\Exception $e) {\n        print \"An exception was raised and caught\";\n    } finally {\n        print \"Finally\\n\";\n    }\n\n?>",
+    "documentation": "https://www.php.net/manual/en/language.exceptions.php#language.exceptions.finally",
+    "related": [
+        "try-catch",
+        "catch",
+        "exit",
+        "resource-leak"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.exceptions.php#language.exceptions.finally"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "How to use Try - Catch - Finally in PHP",
+            "url": "https://thecodeprogram.com/blog/how-to-use-try---catch---finally-in-php/"
+        }
+    ],
+    "tags": [
+        "keyword",
+        "feature"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [
+        "Structures/NoReturnInFinally",
+        "Structures/UnreachableCode",
+        "Structures/TryFinally"
+    ],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "7.0",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+}

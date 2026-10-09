@@ -1,0 +1,58 @@
+{
+    "id": "interpreted",
+    "name": "Interpreted",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/interpreted.html",
+    "aliases": [],
+    "description": "An interpreted language is a programming language in which the source code is executed line by line by another program called an interpreter, rather than being converted directly into machine code by a compiler.\n\nAn interpreted language has no compile phase, and runs immediately. It gives it a shorter cycle to update the code and test it. \n\nOn the other hand, compiled languages take more time to review the code at compile time, and also add an optimisation phase: in the end, the result is often smaller and faster.\n\nPHP is known to be an interpreted language. This is not strictly the case, as PHP make keep the code compiled in bytecode, or use JIT to compile the frequent code faster. \n\nThere are also tools to compile PHP directly to binary code for compiled execution.",
+    "code": "",
+    "documentation": "https://en.wikipedia.org/wiki/Interpreter_(computing)",
+    "related": [
+        "transpile",
+        "compile",
+        "jit",
+        "opcode",
+        "aot"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Interpreter_(computing)"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Can You Compile PHP Code Into a Binary-Like File to Run via Bytecode Interpreter? Explained",
+            "url": "https://www.codegenes.net/blog/can-you-compile-php-code-and-upload-a-binary-ish-file-which-will-just-be-run-by-the-byte-code-interpreter/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Is PHP Compiled or Interpreted? The Truth About PHP Execution Explained",
+            "url": "https://www.tutorialpedia.org/blog/is-php-compiled-or-interpreted/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Why do some developers compare PHP and NodeJS?",
+            "url": "https://dev.to/developerkwame/why-do-some-developers-compare-php-and-nodejs-3495"
+        }
+    ],
+    "tags": [
+        "concept",
+        "adjective"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Wed, 02 Sep 2026 16:41:00 +0000"
+}

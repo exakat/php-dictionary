@@ -1,0 +1,55 @@
+{
+    "id": "splfileobject",
+    "name": "SplFileObject",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/splfileobject.html",
+    "aliases": [],
+    "description": "``SplFileObject`` is an SPL class that offers an object-oriented interface for reading and writing files. It extends ``SplFileInfo`` and implements ``SeekableIterator``, allowing line-by-line iteration over a file with a ``foreach`` loop.\n\n``SplFileObject`` supports reading modes ``r`` and ``r+``, writing modes ``w`` and ``a``, and CSV parsing via the ``setFlags()`` method combined with the ``READ_CSV`` flag.\n\nIt is a convenient alternative to the procedural ``fopen()``/``fgets()``/``fclose()`` trio when an object-oriented approach is preferred.",
+    "code": "<?php\n\n    $file = new SplFileObject('data.txt', 'r');\n    $file->setFlags(SplFileObject::DROP_NEW_LINE);\n\n    foreach ($file as $line) {\n        echo $line . PHP_EOL;\n    }\n\n?>",
+    "documentation": "https://www.php.net/manual/en/class.splfileobject.php",
+    "related": [
+        "spl",
+        "splfileinfo",
+        "iterator",
+        "fopen",
+        "file"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/class.splfileobject.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Reading large files in PHP with SplFileObject",
+            "url": "https://write.corbpie.com/reading-large-files-in-php-with-splfileobject/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "php native SplFileObject class in CTF",
+            "url": "https://medium.com/@lyltvip/php-native-splfileobject-class-in-ctf-b5c1355c0340"
+        }
+    ],
+    "tags": [
+        "spl",
+        "file"
+    ],
+    "packagist": [],
+    "extensions": [
+        "spl"
+    ],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "5.1",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 18 Jun 2026 13:58:35 +0000"
+}

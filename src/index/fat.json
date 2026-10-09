@@ -1,0 +1,57 @@
+{
+    "id": "fat",
+    "name": "Fat",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/fat.html",
+    "aliases": [
+        "fat-model",
+        "fat-class"
+    ],
+    "description": "Fat is an informal qualifier applied to a class, most commonly a controller or a model, that has grown too large in terms of responsibilities, methods, and lines of code.\n\nA fat class violates the Single Responsibility Principle. It is harder to test, understand, and maintain. Common symptoms include: many unrelated methods, large amounts of private helper code, direct database access mixed with business logic, and deep dependencies on infrastructure.\n\nThe opposite is a thin class, which delegates most work to collaborators. The right balance depends on architecture: an MVC application typically favours thin controllers and rich domain models or services.\n\nRelated terms: fat controller, fat model, god class, big ball of mud.",
+    "code": "",
+    "documentation": "https://en.wikipedia.org/wiki/God_object",
+    "related": [
+        "fat-controller",
+        "thin",
+        "slim",
+        "srp",
+        "god-object",
+        "refactoring",
+        "business-logic"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/God_object"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Large Class code smell",
+            "url": "https://refactoring.guru/smells/large-class"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Thin controllers, fat models",
+            "url": "https://symfony.com/doc/current/best_practices.html#controllers"
+        }
+    ],
+    "tags": [
+        "anti-pattern",
+        "concept",
+        "adjective"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Tue, 01 Sep 2026 06:03:07 +0000"
+}

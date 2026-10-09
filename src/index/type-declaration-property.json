@@ -1,0 +1,60 @@
+{
+    "id": "type-declaration-property",
+    "name": "Property Type Declaration",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/type-declaration-property.html",
+    "aliases": [],
+    "description": "Type declaration property, also known as typed properties, is a feature introduced in version 7.4 that allows specifying the type of a class property.\n\nWith typed properties, the type of a property is explicitly defined, ensuring that only values of the specified type can be assigned to that property. This helps enforce type safety and prevents accidental assignments of incompatible values.\n\nTyped properties support any type format: simple, union, intersection or DNF. Nullable types are expressed with a leading ``?``, such as ``?string``.\n\nA typed property that has not been initialized before it is read triggers an ``Error`` exception. Typed properties must be explicitly assigned before use, either in the constructor or at the declaration site.\n\nSince PHP 8.1, typed properties may also be declared ``readonly``, which prevents any assignment after the initial one.\n",
+    "code": "<?php\n\n    class Elephpant {\n        private Typed $tusk;\n    }\n\n?>",
+    "documentation": "https://www.php.net/manual/en/language.types.declarations.php",
+    "related": [
+        "type",
+        "union-type",
+        "intersection-type",
+        "dnf-type",
+        "readonly",
+        "nullable",
+        "property",
+        "uninitialized",
+        "typeerror",
+        "return-type",
+        "promoted-property",
+        "property-hook",
+        "asymmetric-visibility",
+        "static",
+        "var"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.types.declarations.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP RFC: Typed Properties 2.0",
+            "url": "https://wiki.php.net/rfc/typed_properties_v2"
+        }
+    ],
+    "tags": [
+        "feature"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [
+        "Classes/TypedProperties"
+    ],
+    "cobblers": [
+        "Classes/RemoveTypeDeclaration",
+        "Functions/SetTypehints"
+    ],
+    "rule": "",
+    "phpVersionSince": "7.4",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+}

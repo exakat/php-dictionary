@@ -1,0 +1,53 @@
+{
+    "id": "comma",
+    "name": "Comma",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/comma.html",
+    "aliases": [],
+    "description": "Commas are syntax elements, to separate elements when provided as a list. There are several situations where a list of elements may be provided: \n\n+ Argument separator, including with ``echo``\n+ Parameter separator\n+ Trait name separator, in ``use`` expression when importing a trait in a class\n+ Array element separator\n+ List separator, where unused values may be omitted, leaving commas back to back\n\nComma are important in the CSV and JSON formats, and other such formats.\n\nComma do not have a value by themselves.",
+    "code": "<?php\n\n    function trumpet($trunk, $tusk) {\n        return [$trunk, 2, $tusk];\n    }\n\n    list($herd, ,$ivory) = trumpet(1, 2);\n\n    [$herd, ,$ivory] = trumpet(1, 2);\n    \n    echo 'a', 'b', 'c';\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Comma",
+    "related": [
+        "parameter",
+        "argument",
+        "array",
+        "list",
+        "csv",
+        "json",
+        "trailing-comma"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Comma"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP RFC: Trailing Comma in Function Calls",
+            "url": "https://wiki.php.net/rfc/trailing-comma-function-calls"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP 7.3: Trailing Commas in Function Calls",
+            "url": "https://laravel-news.com/php-trailing-commas-functions"
+        }
+    ],
+    "tags": [
+        "token",
+        "punctuation"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+}

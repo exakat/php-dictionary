@@ -1,0 +1,57 @@
+{
+    "id": "multiplication",
+    "name": "Multiplication",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/multiplication.html",
+    "aliases": [
+        "*"
+    ],
+    "description": "Multiplication is the mathematical multiplication. It applies to numbers: integers and float. \n\nIt also works with booleans and null, which are first converted to integers. Other types are not allowed for multiplication and yield a fatal error.\n\nThe operator for multiplication is the star ``*``. A double star ``**`` is the power operator. The opposite operation is the division ``\\``.\n",
+    "code": "<?php\n\n    $a = 10 * 2.3; // 23.0\n    $b = 0.5 * 2;  // 1\n\n?>",
+    "documentation": "https://www.php.net/manual/en/language.operators.arithmetic.php",
+    "related": [
+        "array",
+        "integer",
+        "float",
+        "division",
+        "exponent",
+        "modulo",
+        "one",
+        "single",
+        "star"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.operators.arithmetic.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Array operators",
+            "url": "https://www.php.net/manual/en/language.operators.array.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Combining arrays using + versus array_merge in PHP",
+            "url": "https://www.texelate.co.uk/blog/combining-arrays-using-plus-versus-array-merge-in-php"
+        }
+    ],
+    "tags": [
+        "math",
+        "character"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Tue, 01 Sep 2026 06:21:35 +0000"
+}

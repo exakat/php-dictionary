@@ -1,0 +1,55 @@
+{
+    "id": "debugger",
+    "name": "Debugger",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/debugger.html",
+    "aliases": [],
+    "description": "A debugger is an extension or an external program that is used to help when searching for bugs or issues in source code. They provide extra visibility on the internal working of the application, including variable content.\n\nAs there are many tactics to search for a bug, there are many tools available.\n\nThe PHP ecosystem of debuggers includes:\n\n+ PHP native functions such as ``var_dump()``, ``print_r()``, ``debug_backtrace()``...\n+ PHP external components like ``kint``, ``whoops``, ``krumo``\n+ Debuggers: interactive PHP Debugger, xdebug, PHP debugger, etc.\n\nDebugging includes executing the code step by step, displaying and modifying the content of variables.\n\nDebuggers are integrated into IDEs, or work as standalone applications.\n",
+    "code": "<?php\n\n    // simple debug system with native PHP print_r\n    print_r($_GET);\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Debugger",
+    "related": [
+        "debug",
+        "ide",
+        "var_dump",
+        "print_r",
+        "backtrace",
+        "php-editor",
+        "profiler",
+        "tool"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Debugger"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Interactive PHP Debugger",
+            "url": "https://www.php.net/manual/en/book.phpdbg.php"
+        }
+    ],
+    "tags": [
+        "tool"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": {
+        "Xdebug": "https://xdebug.org/",
+        "Kint": "https://github.com/kint-php/kint",
+        "Whoops": "https://github.com/filp/whoops",
+        "Krumo": "http://krumo.kaloyan.info/",
+        "Quo": "https://github.com/Protoqol/Quo",
+        "buggregator": "https://buggregator.dev/"
+    },
+    "popularity": "",
+    "modified": "Fri, 18 Sep 2026 04:46:47 +0000"
+}

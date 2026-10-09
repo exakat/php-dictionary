@@ -1,0 +1,47 @@
+{
+    "id": "artifact",
+    "name": "Artifact",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/artifact.html",
+    "aliases": [],
+    "description": "An artifact refers to any intermediate or final output that is produced during the development process. This could include compiled code, cache content, libraries, executable files, documentation, diagrams, configuration files, and more. Artifacts are the tangible results of the development process and are often used for testing, deployment, and maintenance of software applications.",
+    "code": "",
+    "documentation": "https://en.wikipedia.org/wiki/Artifact_(software_development)",
+    "related": [
+        "deploy",
+        "ci",
+        "release",
+        "compile",
+        "vcs",
+        "build"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Artifact_(software_development)"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "How to Use Artifacts in GitLab CI",
+            "url": "https://oneuptime.com/blog/post/2025-12-21-artifacts-gitlab-ci/view"
+        }
+    ],
+    "tags": [
+        "concept",
+        "deployment"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Fri, 25 Sep 2026 13:43:51 +0000"
+}

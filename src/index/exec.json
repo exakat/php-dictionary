@@ -1,0 +1,53 @@
+{
+    "id": "exec",
+    "name": "exec",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/exec.html",
+    "aliases": [],
+    "description": "``exec()`` is used to execute a command with the underlying operating system. It is the equivalent of ``shell_exec()`` and back-ticks. \n\n``exec()`` has specific arguments to collect both the result of the command, one line per element in an array, and the resulting code. This differs from ``shell_exec()``, which only returns the result, and as a string.",
+    "code": "<?php\n\n$dir = exec('ls', $result);\nprint_r($result);\n\n?>",
+    "documentation": "https://www.php.net/manual/en/function.exec.php",
+    "related": [
+        "shell_exec",
+        "backtick",
+        "execution",
+        "shell-exec",
+        "system-call",
+        "escapeshellarg",
+        "escapeshellcmd",
+        "execve",
+        "shell-injection"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/function.exec.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP shell_exec() vs exec() Function",
+            "url": "https://www.geeksforgeeks.org/php/php-shell_exec-vs-exec-function/"
+        }
+    ],
+    "tags": [
+        "native function"
+    ],
+    "packagist": [],
+    "extensions": [
+        "system"
+    ],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Tue, 01 Sep 2026 06:21:34 +0000"
+}

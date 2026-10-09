@@ -1,0 +1,49 @@
+{
+    "id": "pecl",
+    "name": "PHP Extension C Library (PECL)",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/pecl.html",
+    "aliases": [],
+    "description": "PECL is a repository for PHP Extensions, providing a directory of all known extensions and hosting facilities for downloading and development of PHP extensions.\n\nSince 2024, PECL is being replaced by ``PIE``.\n\n``PECL`` is pronounced ``pickle``.",
+    "code": "",
+    "documentation": "https://pecl.php.net/",
+    "related": [
+        "extension",
+        "pie"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://pecl.php.net/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PIE vs PECL: A Composer-Style Revolution for PHP Extensions",
+            "url": "https://phpconference.com/blog/pie-vs-pecl-php-extension-installer/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "What is the difference between PEAR, Composer and PECL in PHP?",
+            "url": "https://www.quora.com/What-is-the-difference-between-PEAR-Composer-and-PECL-in-PHP"
+        }
+    ],
+    "tags": [
+        "tool",
+        "acronym",
+        "folklore"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Fri, 21 Aug 2026 07:18:17 +0000"
+}

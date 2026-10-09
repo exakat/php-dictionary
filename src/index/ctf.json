@@ -1,0 +1,54 @@
+{
+    "id": "ctf",
+    "name": "Capture The Flag (CTF)",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/ctf.html",
+    "aliases": [
+        "capture-the-flag"
+    ],
+    "description": "Capture The Flag, abbreviated CTF, is a type of cybersecurity competition in which participants solve security challenges to find hidden strings called flags. Each flag, once submitted, awards points. Challenges span categories such as web exploitation, binary exploitation, reverse engineering, cryptography, and forensics.\n\nWeb CTF challenges frequently involve PHP applications with intentional vulnerabilities: type juggling, code injection via ``eval()``, file inclusion via unsanitised input, insecure deserialisation, or logic flaws in authentication. Solving them requires understanding both the PHP language and common attack patterns.\n\nCTFs are used for learning, hiring, and security research. They are legal and controlled environments for practising offensive techniques that would be illegal on real targets.",
+    "code": "",
+    "documentation": "https://en.wikipedia.org/wiki/Capture_the_flag_(cybersecurity)",
+    "related": [
+        "security",
+        "pentest",
+        "vulnerability",
+        "type-juggling",
+        "eval",
+        "local-file-inclusion",
+        "insecure-deserialization",
+        "code-injection",
+        "owasp"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Capture_the_flag_(cybersecurity)"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "CTF101 \u2014 Web Exploitation",
+            "url": "https://ctf101.org/web-exploitation/overview/"
+        }
+    ],
+    "tags": [
+        "security",
+        "acronym"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Wed, 19 Aug 2026 06:49:23 +0000"
+}

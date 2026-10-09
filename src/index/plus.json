@@ -1,0 +1,45 @@
+{
+    "id": "plus",
+    "name": "Plus +",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/plus.html",
+    "aliases": [],
+    "description": "``+`` is a native PHP operator. It has three usages: \n\n+ The addition, as in mathematics, on numbers. This works on integers and floats.\n+ The merging of arrays. This merge sets the keys once, then omits the next values. This is distinct from ``array_merge()``.\n+ The + sign in front of a number, to make it explicitly positive. This is optional, and may be repeated.",
+    "code": "<?php\n\n    $a = 1 + 2; // 3\n    \n    $b = [1, 2] + [3, 4, 5]; // [1,2, 5]\n    \n    $c = +6; // 6 \n\n?>",
+    "documentation": "https://www.php.net/manual/en/language.operators.arithmetic.php",
+    "related": [
+        "array_merge",
+        "sign",
+        "addition",
+        "minus"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.operators.arithmetic.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Another cast to int",
+            "url": "https://php-tips.readthedocs.io/en/latest/tips/cast_to_int.html"
+        }
+    ],
+    "tags": [
+        "disambiguation",
+        "character"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Mon, 31 Aug 2026 17:34:15 +0000"
+}

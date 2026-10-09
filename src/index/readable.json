@@ -1,0 +1,57 @@
+{
+    "id": "readable",
+    "name": "Readable",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/readable.html",
+    "aliases": [],
+    "description": "Something is readable when its current value may be accessed. For example, a variable is readable, as it may be read at any moment. On the other hand, a property may be unreadable, depending on the context, because of the visibility configuration.\n\nVariable, properties with the correct visibility, static properties, constants, class constants with the correct visibility, array elements are readable.\n\nFiles are another object that requires permissions. This time, the operating system provides the permissions. A file is readable when the ``is_readable()`` function returns true.\n",
+    "code": "<?php\n\n    $trunk = 3;\n    echo $trunk;\n\n?>",
+    "documentation": "https://www.php.net/manual/en/function.is-readable.php",
+    "related": [
+        "visibility",
+        "variable",
+        "static-property",
+        "property",
+        "container",
+        "array-element",
+        "writeable",
+        "debt",
+        "fopen",
+        "maintenability",
+        "writable",
+        "float"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/function.is-readable.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Visibility",
+            "url": "https://www.php.net/manual/en/language.oop5.visibility.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "is_writable",
+            "url": "https://www.php.net/manual/en/function.is-writable.php"
+        }
+    ],
+    "tags": [
+        "concept"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+}

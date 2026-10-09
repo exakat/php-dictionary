@@ -1,0 +1,59 @@
+{
+    "id": "captcha",
+    "name": "CAPTCHA",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/captcha.html",
+    "aliases": [],
+    "description": "A ``CAPTCHA`` is a security test used on websites to tell whether the user is a human or a computer program, aka bot. The acronym ``CAPTCHA`` stands for ``Completely Automated Public Turing test to tell Computers and Humans Apart``.\n\n``CAPTCHA`` comes in various shapes: they may be a difficult to read picture, a somewhat noisy sound, or various challenges where shapes have to be spotted inside a picture, or place above profiles.",
+    "code": "",
+    "documentation": "https://en.wikipedia.org/wiki/CAPTCHA",
+    "related": [
+        "web",
+        "web-spider",
+        "webscraping"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/CAPTCHA"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "How CAPTCHAs work | What does CAPTCHA mean?",
+            "url": "https://www.cloudflare.com/learning/bots/how-captchas-work/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP CAPTCHA Tutorial: Build a Custom Image CAPTCHA with GD",
+            "url": "https://phppot.com/php/php-captcha/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "How to Integrate Google reCAPTCHA v3 in a React App (Frontend + Backend)",
+            "url": "https://www.murtazapatel.dev/blog/captcha-v3-setup-guide-react"
+        }
+    ],
+    "tags": [
+        "security",
+        "bot"
+    ],
+    "packagist": [
+        "gregwar/captcha",
+        "karser/karser-recaptcha3-bundle"
+    ],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Fri, 14 Aug 2026 08:50:22 +0000"
+}

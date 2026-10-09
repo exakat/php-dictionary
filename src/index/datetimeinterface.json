@@ -1,0 +1,56 @@
+{
+    "id": "datetimeinterface",
+    "name": "DateTimeInterface",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/datetimeinterface.html",
+    "aliases": [],
+    "description": "``DateTimeInterface`` is a PHP interface implemented by both ``DateTime`` and ``DateTimeImmutable``. It defines the common API shared by both mutable and immutable date-time objects.\n\nUsing ``DateTimeInterface`` as a type in function signatures accepts either class, making code agnostic to mutability. It cannot be implemented by user-defined classes directly; it exists solely to type both built-in date-time classes.\n\n``DateTimeInterface`` exposes methods such as ``format()``, ``getTimestamp()``, ``getTimezone()``, and ``diff()``.",
+    "code": "<?php\n\n    function formatDate(DateTimeInterface $date): string {\n        return $date->format('Y-m-d');\n    }\n    \n    // both classes satisfy the type\n    echo formatDate(new DateTime('2024-01-15'));\n    echo formatDate(new DateTimeImmutable('2024-06-03'));\n\n?>",
+    "documentation": "https://www.php.net/manual/en/class.datetimeinterface.php",
+    "related": [
+        "datetime",
+        "interface",
+        "date",
+        "dateinterval",
+        "php-interface"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/class.datetimeinterface.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "For a Great Time, Make it a DateTime",
+            "url": "https://stevegrunwell.com/blog/php-datetime/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "DateTimeImmutable",
+            "url": "https://derickrethans.nl/immutable-datetime.html"
+        }
+    ],
+    "tags": [
+        "native class",
+        "interface",
+        "date"
+    ],
+    "packagist": [],
+    "extensions": [
+        "date"
+    ],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "5.5",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Tue, 01 Sep 2026 06:21:34 +0000"
+}

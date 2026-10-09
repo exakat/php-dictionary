@@ -1,0 +1,54 @@
+{
+    "id": "docker-image",
+    "name": "Docker Image",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/docker-image.html",
+    "aliases": [],
+    "description": "A Docker image is a read-only template used to create Docker containers. It bundles the application code, runtime, libraries, environment variables, and configuration files needed to run an application.\n\nImages are built from a ``Dockerfile`` and are composed of stacked, immutable layers. Each instruction in the ``Dockerfile`` adds a new layer; unchanged layers are cached and reused to speed up builds.\n\nOfficial PHP images are available on Docker Hub in several variants: ``cli``, ``fpm``, ``apache``, and ``zts``, each based on Debian or Alpine Linux.",
+    "code": "",
+    "documentation": "https://docs.docker.com/get-started/docker-concepts/the-basics/what-is-an-image/",
+    "related": [
+        "docker",
+        "docker-container",
+        "php-docker-container",
+        "container",
+        "registry",
+        "image"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://docs.docker.com/get-started/docker-concepts/the-basics/what-is-an-image/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Official PHP Docker images",
+            "url": "https://hub.docker.com/_/php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Create a Docker image for PHP",
+            "url": "https://codefresh.io/docs/docs/example-catalog/ci-examples/php/"
+        }
+    ],
+    "tags": [
+        "tool",
+        "devops"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Wed, 02 Sep 2026 16:41:00 +0000"
+}

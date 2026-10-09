@@ -1,0 +1,66 @@
+{
+    "id": "polymorphism",
+    "name": "Polymorphism",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/polymorphism.html",
+    "aliases": [],
+    "description": "Polymorphism is a fundamental concept in object-oriented programming, or OOP. It allows different classes to be treated as instances of a common base class, interface, or abstract class, and it allows writing code that works with these objects without needing to know their specific types.\n\nPolymorphism is achieved through method overriding and interfaces. A class may only extend a single parent class, though that parent may itself extend another, forming a chain of inheritance. On the other hand, implementing interfaces can be arbitrarily chosen for any class and its children, and a class may implement several interfaces at once.",
+    "code": "<?php\n\n    class Object {}\n    \n    // the interfaces are empty for better readability\n    interface hasMedian {}\n    \n    interface hasInscribedCircle {}\n    \n    class Triangle extends Object implements hasInscribedCircle, hasMedian {}\n    \n    class Square extends Object implements hasInscribedCircle {}\n    \n    class Pentagon extends Object {}\n\n?>",
+    "documentation": "https://www.php.net/manual/en/language.oop5.inheritance.php",
+    "related": [
+        "interface",
+        "class",
+        "inheritance",
+        "trait",
+        "generics",
+        "instanceof",
+        "intersection-type",
+        "is_a",
+        "oop",
+        "monomorphization",
+        "existential-type",
+        "higher-kinded-type",
+        "mixin",
+        "row-polymorphism",
+        "sealed-class",
+        "multiple-dispatch",
+        "pattern",
+        "structural-typing",
+        "type-class"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.oop5.inheritance.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP Polymorphism Explained ( By Examples )",
+            "url": "https://www.scaler.com/topics/php-tutorial/polymorphism-in-php/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Polymorphism in PHP With Example",
+            "url": "https://mohasin-dev.medium.com/polymorphism-in-php-with-example-83de1792c89d"
+        }
+    ],
+    "tags": [
+        "oop",
+        "concept",
+        "not supported"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Wed, 02 Sep 2026 16:41:00 +0000"
+}

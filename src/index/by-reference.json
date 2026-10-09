@@ -1,0 +1,43 @@
+{
+    "id": "by-reference",
+    "name": "Passing By Reference",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/by-reference.html",
+    "aliases": [],
+    "description": "When calling a method, or returning from it, data may be passed by value or by reference. \n\nBy reference, a reference to the data is passed: any modification on that value inside the method will be reflected in the original value.\n\nThis is the alternative way of passing data to methods: the default way is to use by value, which copies the data. \n\nPassing by reference is the default behavior with object. Otherwise, it needs to be declared with the ``&`` operator, in the function signature.\n\nReturned values are passed back to the calling context with the same rule as for parameters.",
+    "code": "<?php\n\n    $trunk = 0;\n    trumpet($trunk);  // displays 1\n    print $trunk; // displays 1\n    \n    function trumpet(&$trunk) {\n        ++$trunk;\n        echo $trunk;\n    }\n\n?>",
+    "documentation": "https://www.php.net/manual/en/language.references.pass.php",
+    "related": [
+        "by-value",
+        "parameter"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.references.pass.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP References: How They Work, and When to Use Them",
+            "url": "https://www.elated.com/php-references/"
+        }
+    ],
+    "tags": [
+        "feature",
+        "reference"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Fri, 11 Sep 2026 08:32:45 +0000"
+}

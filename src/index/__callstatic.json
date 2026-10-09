@@ -1,0 +1,48 @@
+{
+    "id": "__callstatic",
+    "name": "__callStatic() Method",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/__callstatic.html",
+    "aliases": [],
+    "description": "``__callStatic()`` is a magic method: it is called when a static method cannot be accessed: either because it doesn't exist or because its visibility prevents it. \n\n``__callStatic()`` is not called when the method exists and is not static.\n\nThat way, it is possible to create dynamically static methods, without hardcoding them. \n\nThe ``__callStatic()`` method receives the name of the target-method, and a list of arguments. \n\nThe ``__callStatic()`` method has a related version for non-static methods, called ``__call()``.",
+    "code": "<?php\n\n    class Elephpant {\n        // Checks the dictionary, or return 0\n        static function __callStatic($name, $args) {\n            if (method_exists(self::class, $name)) {\n                return Elephpant::$name(...$args);\n            }\n\n            return 0;\n        }\n\n        private static function trumpet() {\n            print __METHOD__;\n        }\n    }\n\n    Elephpant::trumpet(); // Elephpant::trumpet\n    Elephpant::forage(); // nothing\n\n?>",
+    "documentation": "https://www.php.net/manual/en/language.oop5.magic.php",
+    "related": [
+        "magic-method",
+        "__call",
+        "visibility"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.oop5.magic.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Understand more magic methods: __callStatic()",
+            "url": "https://dev.to/ngodinhcuong/understand-more-magic-methods-callstatic-2828"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP __callStatic",
+            "url": "https://www.phptutorial.net/php-oop/php-__callstatic/"
+        }
+    ],
+    "tags": [
+        "magic method"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+}

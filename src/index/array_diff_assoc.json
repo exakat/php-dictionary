@@ -1,0 +1,53 @@
+{
+    "id": "array_diff_assoc",
+    "name": "array_diff_assoc()",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/array_diff_assoc.html",
+    "aliases": [],
+    "description": "``array_diff_assoc()`` is a PHP native function that computes the difference between arrays, comparing both keys and values, using their string representation.\n\n``array_diff_assoc()`` takes an array ``$array``, and one or several other arrays ``...$arrays``. It returns a new array made of the elements of ``$array`` whose key/value pair is not present, with the same key and the same value, in any of the other arrays.\n\nAn element is only excluded when both its key and its value match an entry in another array; the same value under a different key, or the same key with a different value, is kept in the result. Values are compared as strings, so the same false-positive risk as ``array_diff()`` applies when comparing objects, arrays, or mixed types sharing a string representation.\n\nThe complement function is ``array_intersect_assoc()``, which returns the elements whose key/value pair is shared amongst the arrays. ``array_diff_key()`` compares keys only, and plain ``array_diff()`` compares values only.\n",
+    "code": "<?php\n\n    $array1 = ['a' => 'green', 'b' => 'brown', 'c' => 'blue', 'red'];\n    $array2 = ['a' => 'green', 'yellow', 'red'];\n\n    $result = array_diff_assoc($array1, $array2);\n    print_r($result);\n    // ['b' => 'brown', 'c' => 'blue', 0 => 'red']\n\n?>",
+    "documentation": "https://www.php.net/manual/en/function.array-diff-assoc.php",
+    "related": [
+        "array_diff",
+        "array_diff_key",
+        "array_intersect_assoc",
+        "in_array"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/function.array-diff-assoc.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP array_diff_assoc - Array Comparison in PHP",
+            "url": "https://zetcode.com/php-array/array-diff-assoc/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP array_diff_assoc() - Difference of arrays - Examples",
+            "url": "https://www.tutorialkart.com/php/php-array-diff-assoc/"
+        }
+    ],
+    "tags": [
+        "native function",
+        "array",
+        "arbitrary number of argument"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Wed, 26 Aug 2026 10:49:40 +0000"
+}

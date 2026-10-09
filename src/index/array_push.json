@@ -1,0 +1,50 @@
+{
+    "id": "array_push",
+    "name": "array_push()",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/array_push.html",
+    "aliases": [],
+    "description": "``array_push()`` adds the second argument, and all the next, to the end of the array, passed as first argument. A new index is created for each new entry, in order.\n\n``array_push()`` adds the new elements and creates the new keys. It is not possible to specify a key with this function: one should use the ``$array['key'] = $value`` syntax.\n\n``array_pop()`` is the equivalent operation of the ``[]`` append operator. It is the opposite of ``array_push()``. With these functions, it is possible to build FIFO stack.\n",
+    "code": "<?php\n\n    $array = [0, 1, 2];\n    print array_push($array, 3, 4); // 5, the number of elements\n    // $array == [0, 1, 2, 3, 4];\n\n    $array = [0, 1, 2];\n    $array[] = 3; \n    // $array == [0, 1, 2, 3];\n\n    $array = [0, 1, 2];\n    $array[33] = 3; \n    // $array == [0, 1, 2, 33 => 3];\n    \n?>",
+    "documentation": "https://www.php.net/manual/fr/function.array-pop.php",
+    "related": [
+        "index-array",
+        "array_pop",
+        "fifo",
+        "array_shift",
+        "array_unshift",
+        "pop",
+        "prepend"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/fr/function.array-pop.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Introduction to Stacks & Queues in PHP",
+            "url": "https://dev.to/matusstafura/introduction-to-stacks-queues-in-php-1lpf"
+        }
+    ],
+    "tags": [
+        "array",
+        "arbitrary number of argument"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Wed, 26 Aug 2026 10:49:40 +0000"
+}

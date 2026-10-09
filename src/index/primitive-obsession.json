@@ -1,0 +1,41 @@
+{
+    "id": "primitive-obsession",
+    "name": "Primitive Obsession",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/primitive-obsession.html",
+    "aliases": [],
+    "description": "Primitive Obsession is a bias in the way the code is written. It happens when the code uses too many primitive types, even to represent complex concepts.",
+    "code": "<?php\n\nclass Person\n{\n    public string $id;\n\n    public string $firstName;\n    public string $lastName;\n\n    public string $address;\n    public string $postCode;\n    public string $city;\n    public string $country;\n}\n\n?>",
+    "documentation": "https://medium.com/@alt.wibbing/primitive-obsession-the-anti-pattern-6339efb82c87",
+    "related": [
+        "scalar-type"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://medium.com/@alt.wibbing/primitive-obsession-the-anti-pattern-6339efb82c87"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Primitive Obsession",
+            "url": "https://refactoring.guru/smells/primitive-obsession"
+        }
+    ],
+    "tags": [
+        "code smell"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Tue, 11 Aug 2026 21:00:33 +0000"
+}

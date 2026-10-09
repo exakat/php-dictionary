@@ -1,0 +1,48 @@
+{
+    "id": "declarative-programming",
+    "name": "Declarative Programming",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/declarative-programming.html",
+    "aliases": [
+        "declarative"
+    ],
+    "description": "Declarative programming is a programming style, where the goal of the task is described, but not the method to reach it. This is left to the source code to solve it in the way it sees fit.\n\nDeclarative programming is flexible in the way it expresses its requirements. It leaves room to optimization: as long as a step fulfills its mission, it may be used. On the other hand, several versions of the step may be created, with various optimisations. When several options are available, it requires a way to make a choice.",
+    "code": "",
+    "documentation": "https://en.wikipedia.org/wiki/Declarative_programming",
+    "related": [
+        "paradigm",
+        "imperative",
+        "functional-programming",
+        "procedural-programming"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Declarative_programming"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Declarative Programming in PHP: A Comprehensive Overview and Comparison with Imperative Programming",
+            "url": "https://mderis.medium.com/declarative-programming-in-php-a-comprehensive-overview-and-comparison-with-imperative-programming-f85587b44011"
+        }
+    ],
+    "tags": [
+        "paradigm"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Mon, 15 Jun 2026 11:03:58 +0000"
+}

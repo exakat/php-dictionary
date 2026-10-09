@@ -1,0 +1,51 @@
+{
+    "id": "fingerprint",
+    "name": "Fingerprint",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/fingerprint.html",
+    "aliases": [
+        "request-fingerprint"
+    ],
+    "description": "A fingerprint is a compact, deterministic identifier derived by hashing a set of attributes that together describe something uniquely. The same inputs always produce the same fingerprint; different inputs produce a different one.\n\nIn the context of HTTP request idempotency, a request fingerprint is computed from the method, route, query string, payload, and content type. It is stored alongside the idempotency key so that retried requests carrying the same key but a different payload can be detected and rejected.\n\nMore broadly, fingerprinting is used for cache keying, change detection, file integrity checks, and browser device identification.",
+    "code": "<?php\n\n$fingerprint = hash('sha256', implode('|', [\n    $request->method(),\n    $request->path(),\n    $request->getQueryString() ?? '',\n    $request->getContent(),\n    $request->header('Content-Type', ''),\n]));\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Fingerprint_(computing)",
+    "related": [
+        "hash-function",
+        "idempotent",
+        "deduplication",
+        "cache",
+        "checksum",
+        "payload"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Fingerprint_(computing)"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "How to generate a browser fingerprint with PHP",
+            "url": "https://fingerprint.com/blog/browser-fingerprint-php/"
+        }
+    ],
+    "tags": [
+        "concept",
+        "security"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Fri, 19 Jun 2026 21:25:24 +0000"
+}

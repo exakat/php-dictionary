@@ -1,0 +1,53 @@
+{
+    "id": "semantics",
+    "name": "Semantics",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/semantics.html",
+    "aliases": [],
+    "description": "Semantics is related with the meaning of things. In particular, when naming structures, such as variables, classes, methods, properties, goto labels, use alias, functions or constants, the name should be meaningful. \n\nWhile naming doesn't impact the code itself, as names are free, they do have a serious impact on human understanding of the code. \n\nIt is also possible to find inconsistencies between the name and its usage. For example, when a name is used for an unexpected type.",
+    "code": "<?php\n\n    function trumpet(User $commenter) { }\n\n    // Inconsistence between the parameter name and its type\n    function forage(array $string) { }\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Semantics_(computer_science)",
+    "related": [
+        "name",
+        "name-convention",
+        "typo"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Semantics_(computer_science)"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP syntax and semantics",
+            "url": "https://en.wikipedia.org/wiki/PHP_syntax_and_semantics"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "KPHP: An Executable Formal Semantics for PHP",
+            "url": "https://phpsemantics.org/"
+        }
+    ],
+    "tags": [
+        "concept",
+        "semantic"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [
+        "Functions/SemanticTyping",
+        "Functions/MismatchParameterAndType",
+        "Structures/PropertyVariableConfusion"
+    ],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+}

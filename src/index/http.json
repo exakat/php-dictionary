@@ -1,0 +1,68 @@
+{
+    "id": "http",
+    "name": "Hyper Text Transfer Protocol (HTTP)",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/http.html",
+    "aliases": [],
+    "description": "The Hypertext Transfer Protocol, or http, is an application layer protocol in the Internet protocol. \n\nIt is also a wrapper for network communication, allowing it to be used directly with functions such as ``file_get_contents()``.\n\nHTTP is related to HTTPS, the secure version of HTTP.",
+    "code": "",
+    "documentation": "https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol",
+    "related": [
+        "html",
+        "https",
+        "http-3",
+        "wrapper",
+        "protocol",
+        "http-header",
+        "cookie",
+        "php-input",
+        "php-output",
+        "query",
+        "headers",
+        "http-headers",
+        "network",
+        "web-app",
+        "whatwg",
+        "ajax",
+        "asset",
+        "domain-name",
+        "http-code",
+        "parse_url",
+        "redirect",
+        "http-method",
+        "payload",
+        "retry",
+        "webhook",
+        "file_get_contents"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Copy-Pasting HTTP Fakes by Hand? Laravel Http Automock Can Do It For You",
+            "url": "https://dev.to/michiruf/copy-pasting-http-fakes-by-hand-laravel-http-automock-can-do-it-for-you-kok"
+        }
+    ],
+    "tags": [
+        "network",
+        "web",
+        "acronym"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 20 Aug 2026 08:38:07 +0000"
+}

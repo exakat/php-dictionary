@@ -1,0 +1,71 @@
+{
+    "id": "datetime",
+    "name": "DateTime",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/datetime.html",
+    "aliases": [
+        "datetimeimmutable"
+    ],
+    "description": "``DateTime`` and ``DateTimeImmutable`` is a class for the representation of date and time. It has two variants: ``DateTimeImmutable`` cannot be modified after creation, while ``DateTime`` can. \n\nBoth classes comes with the ``DateTimeInterface``, for typing purposes.\n\n``DateTime`` objects may be created with the constructor, and with several specific methods, such as ``createFromInterface``, ``createFromFormat`` or ``createFromImmutable``.",
+    "code": "<?php\n\n    $date = new DateTimeImmutable('2024-02-24 11:45 America/Montreal');\n    \n    $mutable = DateTime::createFromInterface($date);\n    \n    $date = new DateTime('2014-06-20 11:45 Europe/Amsterdam');\n\n?>",
+    "documentation": "https://www.php.net/manual/en/class.datetime.php",
+    "related": [
+        "date",
+        "calendar",
+        "dateinterval",
+        "day-in-seconds",
+        "micro-second",
+        "clock",
+        "datetime-trap",
+        "datetimeinterface"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/class.datetime.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "The DateTime Class",
+            "url": "https://www.phparch.com/2022/10/the-php-datetime-class/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Dates and periods in PHP",
+            "url": "https://dev.to/xwero/dates-and-periods-in-php-46o1"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Tokei is a new PHP library dedicated to time-of-day",
+            "url": "https://nyamsprod.com/blog/tokei-a-time-handling-library-for-php/"
+        }
+    ],
+    "tags": [
+        "native class",
+        "date",
+        "datetime"
+    ],
+    "packagist": [
+        "bakame/tokei",
+        "nesbot/carbon",
+        "cakephp/chronos",
+        "brick/date-time"
+    ],
+    "extensions": [
+        "date"
+    ],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Fri, 04 Sep 2026 09:39:51 +0000"
+}

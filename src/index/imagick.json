@@ -1,0 +1,55 @@
+{
+    "id": "imagick",
+    "name": "imagick",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/imagick.html",
+    "aliases": [],
+    "description": "``imagick`` is the native PHP extension to create and modify images using the ``ImageMagick`` library.\n\n``imagick`` is also known by the name ``Image Magick``. It is able to convert between various formats, to edit, combine and optimize images.",
+    "code": "<?php\n\n    $imagick = new Imagick($imagePath);\n    \n    $imagick->resizeImage($width, $height, Imagick::FILTER_TRIANGLE , 0);\n    \n    $width = $imagick->getImageWidth();\n    $height = $imagick->getImageHeight();\n    \n    $newWidth = $width / 2;\n    $newHeight = $height / 2;\n    \n    // crop image to half the middle of the image\n    $imagick->cropimage(\n        $newWidth,\n        $newHeight,\n        ($width - $newWidth) / 2,\n        ($height - $newHeight) / 2\n    );\n    \n    // resize the picture to bigger size (4 times)\n    $imagick->scaleimage(\n        $imagick->getImageWidth() * 4,\n        $imagick->getImageHeight() * 4\n    );\n    \n    // write the image to disk\n    $imagick->writeImage($imagePath.'.2');\n\n?>",
+    "documentation": "https://www.php.net/manual/en/imagick.cropimage.php",
+    "related": [
+        "gd",
+        "imagickexception",
+        "imagickpixelexception",
+        "png"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/imagick.cropimage.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP Imagick by Example",
+            "url": "https://phpimagick.com/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Installing Imagick for PHP on AWS EC2: Everything You Need to Know",
+            "url": "https://www.jeeviacademy.com/installing-imagick-for-php-on-aws-ec2-everything-you-need-to-know/"
+        }
+    ],
+    "tags": [
+        "extension"
+    ],
+    "packagist": [],
+    "extensions": [
+        "imagic"
+    ],
+    "analyzers": [
+        "Extensions/Extimagick"
+    ],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Fri, 14 Aug 2026 07:52:09 +0000"
+}

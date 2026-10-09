@@ -1,0 +1,50 @@
+{
+    "id": "enable",
+    "name": "Enable",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/enable.html",
+    "aliases": [],
+    "description": "To enable is to activate a feature and allow it to perform. For example, using ``--enable-soap`` when compiling PHP makes the ``ext/soap`` extension available. By default, it is disabled.\n\nTo enable implies a permanent state: it is different from a conditional statement.",
+    "code": "",
+    "documentation": "https://www.php.net/manual/en/configure.about.php",
+    "related": [
+        "disable",
+        "directive",
+        "disable-functions"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/configure.about.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "List of php.ini directives",
+            "url": "https://www.php.net/manual/en/ini.list.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP manual: SOAP extension",
+            "url": "https://www.php.net/manual/en/book.soap.php"
+        }
+    ],
+    "tags": [
+        "concept"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Wed, 19 Aug 2026 07:58:33 +0000"
+}

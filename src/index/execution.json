@@ -1,0 +1,54 @@
+{
+    "id": "execution",
+    "name": "Execution",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/execution.html",
+    "aliases": [
+        "code-execution"
+    ],
+    "description": "Execution refers to the ability to run code or system commands dynamically at runtime. There is the execution of PHP code, and the execution of external code from within PHP.\n\nLanguage-level code execution uses ``eval()``, which parses and executes a PHP string as code. System-level execution delegates to the operating system shell via ``exec()``, ``shell_exec()``, ``system()``, ``passthru()``, ``popen()``, or the backtick operator.\n\nThe execution of PHP code is based on the PHP engine, though it may also be achieved by other PHP runtimes, or be delegated to other engine via transpiling of the code.\n\nThe flow of execution may be hijacked by a code injection, which route the execution to arbitrary code. It is a security vulnerability.\n",
+    "code": "<?php\n\n    // DANGEROUS: user-controlled input passed to eval()\n    $template = $_GET['tpl'];\n    eval('echo ' . $template . ';');  // RCE risk\n\n    // DANGEROUS: user input in a shell command\n    $file = $_GET['file'];\n    exec('ls ' . $file);              // command injection risk\n\n    // SAFER: escape shell arguments\n    $file = escapeshellarg($_GET['file']);\n    exec('ls ' . $file);\n\n?>",
+    "documentation": "https://www.php.net/manual/en/function.eval.php",
+    "related": [
+        "eval",
+        "exec",
+        "shell-exec",
+        "system",
+        "virtual-machine",
+        "code-injection",
+        "rce",
+        "lifecycle",
+        "order-of-execution"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/function.eval.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP: exec",
+            "url": "https://www.php.net/manual/en/function.exec.php"
+        }
+    ],
+    "tags": [
+        "concept",
+        "security"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Tue, 01 Sep 2026 05:31:03 +0000"
+}

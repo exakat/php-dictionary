@@ -1,0 +1,53 @@
+{
+    "id": "wildcard",
+    "name": "Wildcard",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/wildcard.html",
+    "aliases": [],
+    "description": "The wildcard, for example the ``*``, ``%``, ``_``, ``~`` characters, is a placeholder that matches anything.\n\nWildcards are used in various places:\n\n+ Glob patterns, to match any number of characters: ``*.php`` matches any PHP file\n+ Regex patterns, with ``.*`` or ``.*?``\n+ ``mixed`` type is a wildcard type\n+ ``~`` in autoloading definition, which defines a minimum version\n\nIn autoloading, wildcards allow mapping entire namespaces at once.",
+    "code": "<?php\n\n    // glob patterns with wildcard\n    foreach (glob('*.php') as $filename) {\n        echo \"$filename\\n\";\n    }\n    \n    // Variadic arguments (spread operator)\n    function trumpet(...$args) {\n        print_r($args);\n    }\n\n    trumpet(1, 2, 3);\n\n    // mixed type (PHP 8.0+)\n    function forage(mixed $value): mixed {\n        return $value;\n    }\n\n?>",
+    "documentation": "https://www.php.net/manual/en/language.basic-syntax.php",
+    "related": [
+        "glob",
+        "mixed",
+        "variadic",
+        "regex",
+        "tilde",
+        "star"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.basic-syntax.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP: glob()",
+            "url": "https://www.php.net/manual/en/function.glob.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Wildcard character - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Wildcard_character"
+        }
+    ],
+    "tags": [
+        "pattern"
+    ],
+    "packagist": [
+        "okapi/wildcards"
+    ],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+}

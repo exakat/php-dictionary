@@ -1,0 +1,53 @@
+{
+    "id": "osi-model",
+    "name": "OSI Model",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/osi-model.html",
+    "aliases": [
+        "open-systems-interconnection-model"
+    ],
+    "description": "The OSI Model, Open Systems Interconnection Model, is a conceptual framework that standardizes how computer systems communicate over a network, by splitting communication into seven abstract layers.\n\n+ Layer 7, Application: protocols used directly by applications, such as HTTP, FTP, DNS\n+ Layer 6, Presentation: data formatting, encryption, and compression, such as TLS, character encoding\n+ Layer 5, Session: establishes, manages, and terminates connections between applications\n+ Layer 4, Transport: end-to-end delivery, such as TCP and UDP, including reliability and flow control\n+ Layer 3, Network: routing of packets across networks, such as IP\n+ Layer 2, Data Link: node-to-node delivery within the same local network, such as Ethernet and MAC addresses\n+ Layer 1, Physical: the actual transmission of raw bits over a physical medium, such as cables or radio waves\n\nPHP applications mostly operate at the Application layer: a script sending an HTTP request or reading from a socket does not deal with the layers below, as they are handled by the operating system and the network stack. Understanding the model is still useful to reason about where a problem happens, whether it is a DNS resolution failure, a TCP handshake issue, a TLS certificate problem, or an application-level bug.\n\nThe modern internet does not strictly follow the OSI model; it more closely follows the simpler, four-layer TCP/IP suite, but the OSI model remains a common reference for troubleshooting and teaching networking concepts.",
+    "code": "",
+    "documentation": "https://en.wikipedia.org/wiki/OSI_model",
+    "related": [
+        "tcp",
+        "udp",
+        "ip",
+        "http",
+        "socket",
+        "network",
+        "layered-architecture",
+        "abstraction-layer"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/OSI_model"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "What Is the OSI Model?",
+            "url": "https://www.cloudflare.com/learning/ddos/glossary/open-systems-interconnection-model-osi/"
+        }
+    ],
+    "tags": [
+        "network",
+        "concept"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Wed, 19 Aug 2026 08:21:24 +0000"
+}

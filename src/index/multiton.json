@@ -1,0 +1,43 @@
+{
+    "id": "multiton",
+    "name": "Multiton",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/multiton.html",
+    "aliases": [],
+    "description": "A multiton is a singleton which holds several instances of itself. Each instance is identified with a distinct name, and may be reached independently.",
+    "code": "<?php\n\nclass Database {\n    private static $instances = [];\n\n    private function __construct() { }\n\n    public static function getInstance(string $name) {\n \n        // Check if an instance exists with this key already\n        if(!isset(self::$instances[$key])) {\n            self::$instances[$name] = match($name) {\n                'write' => new Connection(self::WRITE_CREDENTIALS),\n                'read' => new Connection(self::READ_CREDENTIALS),\n                'blackhole' => new NullObject(),\n                default => throw new Exception('No such database access')\n            };\n        }\n \n        // Return the correct instance of this class\n        return self::$instances[$name];\n    }\n\n    private function __clone() { }\n}\n \n// Create first instance to the master database\n$master = Database::getInstance('read');\nvar_dump($master); // object(Database)#1 (0) { }\n \n// Create second instance of this class for a logger database\n$logger = Database::getInstance('write');\nvar_dump($logger); // object(Database)#2 (0) { }\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Multiton_pattern",
+    "related": [
+        "singleton"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Multiton_pattern"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Multiton in PHP",
+            "url": "https://www.jakowicz.com/multitons-in-php/"
+        }
+    ],
+    "tags": [
+        "pattern"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Mon, 15 Jun 2026 11:03:59 +0000"
+}

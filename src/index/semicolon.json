@@ -1,0 +1,52 @@
+{
+    "id": "semicolon",
+    "name": "Semicolon ;",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/semicolon.html",
+    "aliases": [
+        ";"
+    ],
+    "description": "Semicolon ``;`` is used to mark the end of a statement. \n\nIt is also used in the ``for()`` statement, to separate the initialization, the termination and the increment. When using several statement between those semicolons, they must be separated with a comma.\n\nSemicolons may also be used instead of colons, in a case statement.\n\nSemicolons may be omitted, before a closing PHP tag.",
+    "code": "<?php\n\n    $a = 1; $b = 2;\n    \n    // multi-statement usage in for()\n    for($i = 0, $j = 0; $i < 10; ++$i, ++$j) {\n        print \"$i $j\\n\";\n    }\n    \n    switch($a) {\n        case 1;\n            $a = 2;\n            break;\n            \n        default; \n            $a = 1;\n    }\n    \n    // semi colon may be omitted before the closing tag.\n    $c = 1\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Semicolon#Computing",
+    "related": [
+        "colon",
+        "switch",
+        "for",
+        "statement",
+        "control-flow",
+        "csv-injection",
+        "sql-injection"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Semicolon#Computing"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP: Instruction separation - Manual",
+            "url": "https://www.php.net/manual/en/language.basic-syntax.instruction-separation.php"
+        }
+    ],
+    "tags": [
+        "syntax",
+        "token",
+        "character",
+        "punctuation"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sat, 08 Aug 2026 08:10:54 +0000"
+}

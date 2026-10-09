@@ -1,0 +1,66 @@
+{
+    "id": "compiler",
+    "name": "Compiler",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/compiler.html",
+    "aliases": [
+        "compilation"
+    ],
+    "description": "A compiler is a program that performs compilation: it translates source code into another form, typically machine code or bytecode.\n\nThe term compiler can refer to:\n\n+ The PHP compiler that translates PHP source code into opcodes\n+ Tools like KPHP or static-php-cli that compile PHP to binary\n+ The halt-compiler construct that signals end of PHP code in a file\n+ The PHP-Parser library which provides a compiler-like AST transformation.",
+    "code": "",
+    "documentation": "https://en.wikipedia.org/wiki/Compiler",
+    "related": [
+        "compile",
+        "transpile",
+        "aot",
+        "jit",
+        "opcode",
+        "ast",
+        "__halt_compiler",
+        "interpreted",
+        "hoisting",
+        "multi-pass-algorithm",
+        "phpinfo",
+        "source",
+        "ternary",
+        "tokenizer",
+        "compiler-optimized-function"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Compiler"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Zend Engine",
+            "url": "https://en.wikipedia.org/wiki/Zend_Engine"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP OPcache",
+            "url": "https://www.php.net/manual/en/book.opcache.php"
+        }
+    ],
+    "tags": [
+        "concept",
+        "lifecycle",
+        "_noCode"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Fri, 18 Sep 2026 15:28:41 +0000"
+}

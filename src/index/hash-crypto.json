@@ -1,0 +1,49 @@
+{
+    "id": "hash-crypto",
+    "name": "Cryptographic Hash",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/hash-crypto.html",
+    "aliases": [],
+    "description": "A cryptographic hash is an algorithm which maps a string to a fixed sized string, with a method that is difficult or impossible to revert.\n\nSome famous algorithms:  ``MD5``,  ``SHA1``,  ``SHA256``,  ``HAVAL``,  ``Bcrypt``.\n\nOther algorithms include  ``crc32()``, though it is not considered a cryptography. \n\nWhile the extension ``hash `` only process hashes, there are other extensions which offer these features:  ``openssl``, ``sodium `` and  ``password hashing``. ``Mhash`` and ``mcrypt`` are older PHP extensions, which are now discontinued.",
+    "code": "<?php\n\n    echo hash('ripemd160', 'The quick brown fox jumped over the lazy dog.');\n    // produces ec457d0a974c48d5685a7efa03d137dc8bbde7e3\n\n?>",
+    "documentation": "https://www.php.net/manual/en/book.hash.php",
+    "related": [
+        "hash-function",
+        "hash",
+        "array",
+        "map",
+        "crack",
+        "hash_equals",
+        "otp"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/book.hash.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Cryptographic hash function",
+            "url": "https://en.wikipedia.org/wiki/Cryptographic_hash_function"
+        }
+    ],
+    "tags": [
+        "concept",
+        "extension",
+        "animal"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sat, 08 Aug 2026 08:10:54 +0000"
+}

@@ -1,0 +1,52 @@
+{
+    "id": "promoted-property",
+    "name": "Promoted Properties",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/promoted-property.html",
+    "aliases": [],
+    "description": "Promoted properties are a class's arguments, which are declared as properties and automatically assigned their value at instantiation.\n\nIntroduced in version 8.0, constructor property promotion lets a visibility modifier, ``public``, ``protected``, or ``private``, and optionally a type declaration, be added directly to a constructor parameter. PHP then declares a property of the same name on the class and assigns it the parameter's value automatically, without any explicit ``$this->property = $property;`` line inside the constructor body.\n\nThis mainly removes boilerplate in classes whose constructor does nothing but assign incoming arguments to properties, such as data transfer objects or value objects. Promoted and non-promoted parameters can be mixed in the same constructor, but a promoted property cannot also have a separate property declaration elsewhere in the class, and the feature is not available in abstract constructors or interface methods, since those have no body to promote into.",
+    "code": "<?php\n    \n    class Elephpant {\n        function __construct($trunkLength, public int $promotedProperty) {\n            $this->trunkLength = $trunkLength; // manual initialization\n\n            // not initilization of $this->promotedProperty, as it is automatic\n            echo $promotedProperty; // the variable version is available for further processing\n            echo $this->promotedProperty; // the property is available immediately\n        }\n    }\n    \n?>",
+    "documentation": "https://www.php.net/manual/en/language.oop5.decon.php#language.oop5.decon.constructor.promotion",
+    "related": [
+        "parameter",
+        "property",
+        "class",
+        "constructor",
+        "type-declaration-property",
+        "var"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.oop5.decon.php#language.oop5.decon.constructor.promotion"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Class constructor property promotion",
+            "url": "https://php.watch/versions/8.0/constructor-property-promotion"
+        }
+    ],
+    "tags": [
+        "property",
+        "feature"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [
+        "Classes/PromotedProperties",
+        "Php/CouldUsePromotedProperties"
+    ],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "8.0",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": {
+        "Cannot declare promoted property in an abstract constructor": "cannot-declare-promoted-property-in-an-abstract-constructor"
+    },
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Mon, 14 Sep 2026 17:04:38 +0000"
+}

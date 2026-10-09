@@ -1,0 +1,62 @@
+{
+    "id": "scope-resolution-operator",
+    "name": "Scope Resolution Operator ::",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/scope-resolution-operator.html",
+    "aliases": [
+        "double-colon",
+        "class-name-resolution",
+        "paamayim-nekudotayim"
+    ],
+    "description": "The Scope Resolution Operator ``::`` is a token that allows access to static, constant, and overridden properties or methods of a class.\n\nTraditionally, this used to be a feature of the function ``get_class()``. The operator is more modern and faster. \n\nThe double colon operator is used to access class related elements, such as \n\n+ Static properties, ``X::$property``\n+ Static methods, ``X::method()``\n+ Static constants, ``X::CONSTANT``\n+ Class name, ``X::class``\n\nThis operator is often called double-colon, or ``paamayim-nekudotayim``: this means ``double-colon`` in Hebrew. It is said to be a lot easier to google than ``::``.\n\nPHP also has a single colon operator ``:``, used for goto labels, ternary operator, etc.",
+    "code": "<?php\n\n    $a = new stdClass();\n    \n    echo $a::class;\n    \n    // identical to \n    echo get_class($a);\n\n?>",
+    "documentation": "https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php",
+    "related": [
+        "object-operator",
+        "object-nullsafe-operator",
+        "static-method",
+        "class-constant",
+        "static-class",
+        "static-property",
+        "colon",
+        "double",
+        "class",
+        "nullsafe-object-operator"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Scope Resolution operator in PHP",
+            "url": "https://www.geeksforgeeks.org/php/scope-resolution-operator-in-php/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Scope Resolution operator (in PHP)",
+            "url": "https://parsifar.com/scope-resolution-operator-in-php/"
+        }
+    ],
+    "tags": [
+        "feature",
+        "operator",
+        "surprise",
+        "folklore"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sat, 12 Sep 2026 08:42:13 +0000"
+}

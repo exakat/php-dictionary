@@ -1,0 +1,56 @@
+{
+    "id": "writeable",
+    "name": "Writeable",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/writeable.html",
+    "aliases": [],
+    "description": "Something is writeable when its current value may be modified. For example, a variable is writeable, as it may be changed at any moment: it may be unset, appended, prepended, replaced, or incremented. \n\nOn the other hand, a property may be unwriteable, depending on the context, because of the visibility configuration.\n\nVariable, properties with the correct visibility, static properties, array elements are all writeable. To check if a property is writeable or not, one should use the reflection engine. Most often, it is base on code knowledge.\n\nProperties may be ``readonly``, which means they can be written once, and won't change value later. Modification limiting, and fine grained access may be achieved with property hooks.\n\nWriteable also applies to files, as the operating system may or may not allow the modification of files. This may be checked with ``is_writeable()`` function.\n",
+    "code": "<?php\n\n    $tusk = 3;\n    ++$tusk; // $tusk was incremented\n\n    class Elephpant {\n        private int $trunkLength;\n\n        function __construct() {\n            // The property trunkLength is writeable in this part of the code\n            $this->trunkLength = 1;\n        }\n    }\n\n    $trunk = new Elephpant();\n    // The property trunkLength is not writeable from this part of the code\n\n?>",
+    "documentation": "https://www.php.net/manual/en/function.is-writeable.php",
+    "related": [
+        "visibility",
+        "variable",
+        "static-property",
+        "property",
+        "container",
+        "array-element",
+        "readable",
+        "reflection",
+        "readonly",
+        "property-hook",
+        "fopen"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/function.is-writeable.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Visibility",
+            "url": "https://www.php.net/manual/en/language.oop5.visibility.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP RFC: Readonly properties 2.0",
+            "url": "https://wiki.php.net/rfc/readonly_properties_v2"
+        }
+    ],
+    "tags": [
+        "concept"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+}

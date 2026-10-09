@@ -1,0 +1,51 @@
+{
+    "id": "mail",
+    "name": "Mail",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/mail.html",
+    "aliases": [],
+    "description": "``mail()`` is the PHP native function that sends emails. It is a relay to system commands that actually send the mail.\n\n``mail()`` does not provide support to structure mail, in particular attachments. This is left to custom components, such as PHPMailer.",
+    "code": "<?php\n\n    $message = World;\n\n    mail('contact@php.net', 'Hello!', $message);\n\n?>",
+    "documentation": "https://www.php.net/manual/en/function.mail.php",
+    "related": [
+        "smtp",
+        "mass"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/function.mail.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Guide: How to send emails in PHP (with examples)",
+            "url": "https://www.mailersend.com/blog/php-send-email"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP mail() function: how to send email in PHP safely",
+            "url": "https://www.mailslurp.com/blog/php-mail-function/"
+        }
+    ],
+    "tags": [
+        "native function"
+    ],
+    "packagist": [
+        "phpmailer/phpmailer"
+    ],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Mon, 07 Sep 2026 08:38:25 +0000"
+}

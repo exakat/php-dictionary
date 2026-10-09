@@ -1,0 +1,60 @@
+{
+    "id": "one",
+    "name": "one",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/one.html",
+    "aliases": [],
+    "description": "One is the ``1`` integer. One is part of the truthy values: it is the equivalent of ``true``. \n\nMultiplying, or dividing, a string by 1 turns it into an integer, just like the cast operator ``(int)`` does.\n\n1 is one of the two valid index when building a callback with an array, along with 0.\n\n1 is a classic magic number, although it has so many uses that it is usually look over, as generating too many false positives or scattered issues.",
+    "code": "<?php\n\n    $one = 1;\n\n    $four = 4 * 1;\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Magic_number_(programming)",
+    "related": [
+        "false",
+        "callback",
+        "zero",
+        "multiplication",
+        "array-callable",
+        "array-callback",
+        "minus-one",
+        "truthy",
+        "magic-number",
+        "logarithm",
+        "post-increment",
+        "zend-assertions"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Magic_number_(programming)"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "phpmnd: PHP Magic Number Detector",
+            "url": "https://github.com/povils/phpmnd"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP: Booleans - Manual",
+            "url": "https://www.php.net/manual/en/language.types.boolean.php"
+        }
+    ],
+    "tags": [
+        "truthy",
+        "magic number"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Fri, 04 Sep 2026 09:39:51 +0000"
+}

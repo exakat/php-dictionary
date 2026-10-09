@@ -1,0 +1,56 @@
+{
+    "id": "hash_equals",
+    "name": "hash_equals()",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/hash_equals.html",
+    "aliases": [],
+    "description": "``hash_equals()`` is a built-in PHP function that compares two strings in constant time, regardless of where they differ.\n\nIt is specifically designed to prevent timing attacks: a regular ``==`` or ``===`` comparison short-circuits as soon as it finds a differing byte, leaking information about the compared value through the response time. ``hash_equals()`` always takes the same amount of time, making it safe for security-sensitive comparisons such as comparing password hashes, HMAC signatures, CSRF tokens, or API keys.\n\nThe function returns ``true`` if both strings are equal, ``false`` otherwise. If the two arguments are not strings, a ``TypeError`` is raised.\n\nA common mistake is to compare hashes with ``===``, which is semantically correct but vulnerable to timing attacks. ``hash_equals()`` should be used whenever the compared value could be guessed by an attacker through repeated requests.\n",
+    "code": "<?php\n\n    $expected = hash_hmac('sha256', $message, $secret);\n    $received = $_POST['signature'];\n\n    // Vulnerable: === leaks timing information\n    if ($expected === $received) {\n        // ...\n    }\n\n    // Safe: constant-time comparison\n    if (hash_equals($expected, $received)) {\n        // ...\n    }\n\n?>",
+    "documentation": "https://www.php.net/manual/en/function.hash-equals.php",
+    "related": [
+        "timing-attack",
+        "hash-comparison",
+        "hash-crypto",
+        "authentication",
+        "csrf",
+        "security",
+        "hmac"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/function.hash-equals.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Timing attacks explained",
+            "url": "https://codahale.com/a-lesson-in-timing-attacks/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "The Clock That Cracks Passwords",
+            "url": "https://www.exakat.io/the-clock-that-cracks-passwords/"
+        }
+    ],
+    "tags": [
+        "native function",
+        "security",
+        "cryptography"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "5.6",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Wed, 02 Sep 2026 15:08:32 +0000"
+}

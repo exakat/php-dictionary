@@ -1,0 +1,55 @@
+{
+    "id": "crypt",
+    "name": "To Crypt",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/crypt.html",
+    "aliases": [],
+    "description": "To crypt is to apply a data transformation that keeps the original information, but makes it impossible to read without decrypting. Usually, the transformation involves a key, which stays secret, and is only known from the author or the receiver of the data.\n\nCrypting data may be done for the transit of information, or its storage, in a database, until its usage. In both cases, privacy is critical.\n\nSince the data may be decrypted, it is always possible that an unwanted actor accesses the crypted data. The notion of impossible to read is related to the difficulty to perform the decryption without the critical key. \n\nThe opposite to crypt is to decrypt, when it is a legit operation, or to crack, when it is an unwanted operation.",
+    "code": "<?php\n\n    // Encryption\n    $key = openssl_random_pseudo_bytes(32); // 256-bit key\n    $iv = openssl_random_pseudo_bytes(openssl_cipher_iv_length('aes-256-cbc'));\n    \n    $plaintext = 'PHP rocks';\n    $ciphertext = openssl_encrypt($plaintext, 'aes-256-cbc', $key, OPENSSL_RAW_DATA, $iv);\n    $encrypted = base64_encode($iv . $ciphertext);\n    \n    // Decryption\n    $decoded = base64_decode($encrypted);\n    $iv = substr($decoded, 0, openssl_cipher_iv_length('aes-256-cbc'));\n    $ciphertext = substr($decoded, openssl_cipher_iv_length('aes-256-cbc'));\n    $decrypted = openssl_decrypt($ciphertext, 'aes-256-cbc', $key, OPENSSL_RAW_DATA, $iv);\n    \n    echo 'Encrypted: ' . $encrypted . PHP_EOL;\n    echo 'Decrypted: ' . $decrypted . PHP_EOL;\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Encryption",
+    "related": [
+        "asymmetric-cryptography",
+        "decrypt",
+        "crack",
+        "convert",
+        "crc32",
+        "plain-text",
+        "rich-text"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Encryption"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "password_hash",
+            "url": "https://www.php.net/manual/en/function.password-hash.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "ext/sodium",
+            "url": "https://www.php.net/manual/en/book.sodium.php"
+        }
+    ],
+    "tags": [
+        "concept",
+        "verb"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Tue, 25 Aug 2026 18:20:55 +0000"
+}

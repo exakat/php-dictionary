@@ -1,0 +1,53 @@
+{
+    "id": "pop",
+    "name": "Pop",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/pop.html",
+    "aliases": [],
+    "description": "Pop is the operation of removing and returning the last element of a stack or array. It is the counterpart of push, and together they implement the Last-In, First-Out, LIFO, behaviour that defines a stack.\n\n``array_pop()`` removes and returns the last element of an array, reducing its length by one. The array is passed by reference. If the array is empty, ``array_pop()`` returns ``null``.\n\nFor queue semantics, the counterpart operation is ``array_shift()``, which removes the first element.\n\nPHP's ``SplStack`` and ``SplDoublyLinkedList`` also expose a ``pop()`` method that follows the same LIFO contract.",
+    "code": "<?php\n\n    $stack = [1, 2, 3, 4];\n    \n    $last = array_pop($stack);\n    echo $last;        // 4\n    print_r($stack);   // [1, 2, 3]\n    \n    // Using SplStack\n    $splStack = new SplStack();\n    $splStack->push('a');\n    $splStack->push('b');\n    $splStack->push('c');\n    \n    echo $splStack->pop(); // c\n\n?>",
+    "documentation": "https://www.php.net/manual/en/function.array-pop.php",
+    "related": [
+        "array_push",
+        "array_pop",
+        "stack",
+        "splstack",
+        "lifo",
+        "fifo",
+        "datastructure",
+        "array",
+        "insecure-deserialization"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/function.array-pop.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "SplStack",
+            "url": "https://www.php.net/manual/en/class.splstack.php"
+        }
+    ],
+    "tags": [
+        "native function",
+        "array",
+        "data structure"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Wed, 19 Aug 2026 08:00:57 +0000"
+}

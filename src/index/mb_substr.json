@@ -1,0 +1,44 @@
+{
+    "id": "mb_substr",
+    "name": "mb_substr()",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/mb_substr.html",
+    "aliases": [],
+    "description": "``mb_substr()`` extracts a portion of a string, counting positions in characters rather than in bytes, so it works correctly on multibyte text such as UTF-8.\n\nThe function takes a start position and an optional length, both counted in characters: a negative start counts from the end of the string, and a negative length stops that many characters before the end, the same conventions used by ``substr()``. Unlike ``substr()``, which can cut a multi-byte character in half and produce invalid text, ``mb_substr()`` always returns whole characters.\n\nThe encoding is normally taken from the internal encoding configured with ``mb_internal_encoding()``, but it can also be passed explicitly as a fourth argument, which is safer in code that may run under different default encodings.",
+    "code": "<?php\n\n    $text = 'H\u00e9llo W\u00f6rld';\n\n    echo mb_substr($text, 0, 5);   // 'H\u00e9llo'\n    echo mb_substr($text, -5);     // 'W\u00f6rld'\n    echo substr($text, 0, 5);      // mangled: cuts a multi-byte character\n\n?>",
+    "documentation": "https://www.php.net/manual/en/function.mb-substr.php",
+    "related": [
+        "substr",
+        "mbstring",
+        "encoding",
+        "unicode"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/function.mb-substr.php"
+        }
+    ],
+    "tags": [
+        "native function",
+        "string"
+    ],
+    "packagist": [],
+    "extensions": [
+        "mbstring"
+    ],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Fri, 25 Sep 2026 18:46:46 +0000"
+}

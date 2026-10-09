@@ -1,0 +1,46 @@
+{
+    "id": "event-storming",
+    "name": "Event Storming",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/event-storming.html",
+    "aliases": [],
+    "description": "Event storming is a workshop, aiming at discovering the domain for an application. It describes the business process with stickers of various colors, posted on a wide wall, by involving experts to share their knowledge.",
+    "code": "",
+    "documentation": "https://en.wikipedia.org/wiki/Event_storming",
+    "related": [
+        "cqrs",
+        "ddd",
+        "event-driven",
+        "event-sourcing"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Event_storming"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Event storming workshop",
+            "url": "https://www.eventstorming.com/"
+        }
+    ],
+    "tags": [
+        "conception"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 03 Sep 2026 10:55:01 +0000"
+}

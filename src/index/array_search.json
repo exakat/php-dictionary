@@ -1,0 +1,49 @@
+{
+    "id": "array_search",
+    "name": "array_search",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/array_search.html",
+    "aliases": [],
+    "description": "``array_search()`` is a native PHP function that searches an array for a value and returns the corresponding key if found, or ``false`` if not found.\n\nIt is often used to check if a value exists in an array. When the presence of the value is the main goal of the check, it is advantageously replaced by ``in_array()``. Otherwise, this function is prone to the same trap as ``strpos()``: the returned key may be ``0``, the first element, which is confused with ``false`` in a loose comparison.\n\n``array_search()`` performs a loose comparison by default. Pass ``true`` as the third argument to enable strict comparison.\n",
+    "code": "<?php\n\n    $colors = ['red', 'green', 'blue'];\n\n    if(array_search('red', $colors)) {\n        print \"Found red.\";\n    }\n\n    // Error! 'red' is at key 0, which is confused with false\n    if(array_search('red', $colors)) {\n        print \"Found red.\";\n    }\n\n    // This is OK\n    if(array_search('red', $colors) !== false) {\n        print \"Found red.\";\n    }\n\n?>",
+    "documentation": "https://www.php.net/manual/en/function.array-search.php",
+    "related": [
+        "strpos-syndrom",
+        "identical",
+        "in_array",
+        "array_find",
+        "array_find_key",
+        "array_key_first",
+        "sentinel"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/function.array-search.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "How to Search in a PHP Associative Array \u2014 Fast tips",
+            "url": "https://medium.com/@valerio_27709/how-to-search-in-a-php-associative-array-fast-tips-5890cdf818e0"
+        }
+    ],
+    "tags": [
+        "native function"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Mon, 13 Jul 2026 09:36:53 +0000"
+}

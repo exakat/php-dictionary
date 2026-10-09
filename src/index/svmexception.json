@@ -1,0 +1,42 @@
+{
+    "id": "svmexception",
+    "name": "SVMException",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/svmexception.html",
+    "aliases": [],
+    "description": "The ``SVMException`` exception is thrown by the ``SVM::train()`` method. It happens when the model could not be trained. More generally, ``SVMException`` is the error class used throughout the ``svm`` extension, which provides PHP bindings to the ``libsvm`` library for support vector machine classification and regression. It can also be thrown by other methods, such as ``SVM::crossvalidate()``, ``SVMModel::load()``, or ``SVMModel::save()``, typically because of malformed training data, invalid kernel or cost parameters, or file I/O failures.",
+    "code": "<?php\n\n    $svm = new SVM();\n    try {\n        $model = $svm->train($data);\n    } catch (SVMException $e) {\n        print $e->getMessage();\n    }\n\n?>",
+    "documentation": "https://www.php.net/manual/en/book.svm.php",
+    "related": [
+        "exception",
+        "svm"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/book.svm.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Machine Learning with PHP: using Support Vector Machine (SVM) via ext-svm",
+            "url": "https://medium.datadriveninvestor.com/machine-learning-with-php-using-support-vector-machine-svm-via-ext-svm-37ef9c3027cd"
+        }
+    ],
+    "tags": [
+        "machine learning"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Tue, 01 Sep 2026 08:39:42 +0000"
+}

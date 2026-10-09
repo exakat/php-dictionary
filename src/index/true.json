@@ -1,0 +1,52 @@
+{
+    "id": "true",
+    "name": "True",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/true.html",
+    "aliases": [],
+    "description": "``true`` has two usages, as PHP keyword. It is the opposite of ``false``, as a boolean value and it is also a standalone type for methods and functions that may return a boolean, but only true, never ``false``.",
+    "code": "<?php\n\n    function trumpet($a) : true|Elephpant {\n        if ($a == 1) {\n            return true;\n        } else {\n            return new Elephpant();\n        }\n    }\n\n?>",
+    "documentation": "https://www.php.net/manual/en/language.types.boolean.php",
+    "related": [
+        "boolean",
+        "type",
+        "false",
+        "logical-operator",
+        "minus-one",
+        "native-type",
+        "standalone-type",
+        "truthy"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.types.boolean.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP Boolean: Assigning True or False to a Variable",
+            "url": "https://flatcoding.com/tutorials/php/php-boolean-true-and-false/"
+        }
+    ],
+    "tags": [
+        "type",
+        "boolean",
+        "value"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "8.2",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+}

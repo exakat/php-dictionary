@@ -1,0 +1,42 @@
+{
+    "id": "by-value",
+    "name": "Passing By Value",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/by-value.html",
+    "aliases": [],
+    "description": "When calling a method, or returning from it, data may be passed by value or by reference. \n\nBy value, a copy of the data is passed: any modification on that value inside the method will not be reflected in the original value. \n\nThis is the default way of passing data to methods: the alternative way is to use by reference. \n\nPassing by value may be memory-intensive when passing a large array. This is not the case for objects, which are always passed by reference.\n\nReturned values are passed back to the calling context with the same rule as for parameters.",
+    "code": "<?php\n\n    $trunk = 0;\n    trumpet($trunk);  // displays 1\n    print $trunk; // displays 0\n    \n    function trumpet($trunk) {\n        ++$trunk;\n        echo $trunk;\n    }\n\n?>",
+    "documentation": "https://www.php.net/manual/en/functions.arguments.php",
+    "related": [
+        "by-reference",
+        "parameter"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/functions.arguments.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP Copy by Value vs Reference",
+            "url": "https://www.zetcode.com/php/copy-value-reference/"
+        }
+    ],
+    "tags": [
+        "feature"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Fri, 11 Sep 2026 08:33:03 +0000"
+}

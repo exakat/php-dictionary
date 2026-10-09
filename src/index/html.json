@@ -1,0 +1,58 @@
+{
+    "id": "html",
+    "name": "HyperText Markup Language (HTML)",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/html.html",
+    "aliases": [],
+    "description": "HyperText Markup Language, or HTML is the standard language used to create and structure content on the web.\n\nHTML defines the structure of the page. It is completed by CSS, for styling, and Javascript, for behavior.",
+    "code": "<?php\n\n    // PHP outputing HTML code\n    echo '<p>'. nl2br('Hello,\nworld').'</p>';\n\n?>",
+    "documentation": "https://developer.mozilla.org/en-US/docs/Web/HTML",
+    "related": [
+        "javascript",
+        "css",
+        "htmlentities",
+        "http",
+        "template",
+        "web",
+        "seo",
+        "sitemap",
+        "svg",
+        "whatwg",
+        "anchor",
+        "dom",
+        "html-entity",
+        "link",
+        "w3c"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/HTML"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP and HTML",
+            "url": "https://www.php.net/manual/en/faq.html.php"
+        }
+    ],
+    "tags": [
+        "acronym",
+        "format"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Wed, 05 Aug 2026 08:16:24 +0000"
+}

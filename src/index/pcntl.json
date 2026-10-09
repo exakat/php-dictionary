@@ -1,0 +1,44 @@
+{
+    "id": "pcntl",
+    "name": "Process Control (pcntl)",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/pcntl.html",
+    "aliases": [],
+    "description": "Process Control is a set of native PHP function, that handles signals coming from the OS. \n\n``pcntl`` is suited for CLI operations, and not for web serving operations. \n\n``pcntl`` manage process creation, program execution, signal handling and process termination.",
+    "code": "<?php\n\n$pid = pcntl_fork();\nif ($pid == -1) {\n     die('could not fork');\n} else if ($pid) {\n     // we are the parent\n     pcntl_wait($status); //Protect against Zombie children\n} else {\n     // we are the child\n}\n\n?>",
+    "documentation": "https://www.php.net/manual/en/book.pcntl.php",
+    "related": [
+        "handler",
+        "shell",
+        "system-event",
+        "pcntl_signal"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/book.pcntl.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Example: Parallel processing in PHP using pcntl_fork()",
+            "url": "https://gist.github.com/nicksantamaria/21dce5ff2a6640cdff76ce7bc57d2981"
+        }
+    ],
+    "tags": [
+        "extension"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sat, 08 Aug 2026 08:10:54 +0000"
+}

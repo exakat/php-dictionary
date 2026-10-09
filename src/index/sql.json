@@ -1,0 +1,62 @@
+{
+    "id": "sql",
+    "name": "Structured Query Language (SQL)",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/sql.html",
+    "aliases": [],
+    "description": "Structured Query Language, SQL, is a database query language, used to access and update data in a relational database management system.\n\nPHP supports several RDBMS natively, such as: ``Mysql``, ``Oracle``, ``IBM db2``, ``DBA``, ``ODBC``. PHP also offers a database abstraction layer, called PDO.",
+    "code": "<?php\n\n    mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);\n    $mysqli = new mysqli('example.com', 'user', 'password', 'database');\n    \n    $mysqli->query('DROP TABLE IF EXISTS test');\n    $mysqli->query('CREATE TABLE test(id INT)');\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/SQL",
+    "related": [
+        "pdo",
+        "rdbms",
+        "orm",
+        "active-record",
+        "prepared-query",
+        "query",
+        "sqlite3",
+        "sql-database",
+        "graph-database",
+        "n-query",
+        "pgsql",
+        "star",
+        "escape-character",
+        "mysqli"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/SQL"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP and SQLite",
+            "url": "https://dev.to/_russell/an-introduction-to-php-and-sqlite-2agg"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PostgreSQL PHP",
+            "url": "https://neon.com/postgresql/php"
+        }
+    ],
+    "tags": [
+        "acronym",
+        "language"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": {
+        "phpMyAdmin": "https://www.phpmyadmin.net/"
+    },
+    "popularity": "",
+    "modified": "Fri, 18 Sep 2026 05:00:21 +0000"
+}

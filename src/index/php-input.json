@@ -1,0 +1,48 @@
+{
+    "id": "php-input",
+    "name": "php://input",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/php-input.html",
+    "aliases": [],
+    "description": "``php://input`` is a special read-only stream that gives access the raw body of an incoming HTTP request. It does not work with CLI environment.\n\nWhen a browser sends data to the web server, PHP parses it into superglobals like ``$_POST``. But sometimes the exact raw payload is needed: that's where ``php://input`` comes in.\n\nThe raw data used to be accessed via ``$HTTP_RAW_POST_DATA``, but this is a deprecated feature.",
+    "code": "<?php\n\n    $incoming = file_get_contents('php://input');\n\n?>",
+    "documentation": "https://www.php.net/manual/en/wrappers.php.php",
+    "related": [
+        "http",
+        "stream",
+        "file_get_contents",
+        "$HTTP_RAW_POST_DATA",
+        "php-output"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/wrappers.php.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "How to receive JSON POST with PHP ?",
+            "url": "https://www.geeksforgeeks.org/php/how-to-receive-json-post-with-php/"
+        }
+    ],
+    "tags": [
+        "http",
+        "php stream"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Mon, 15 Jun 2026 11:03:59 +0000"
+}

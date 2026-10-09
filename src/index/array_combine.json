@@ -1,0 +1,51 @@
+{
+    "id": "array_combine",
+    "name": "array_combine()",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/array_combine.html",
+    "aliases": [],
+    "description": "``array_combine()`` creates an array from an array of keys and an array of values. \n\nBoth arguments are treated as lists: their respective keys are discarded, and only their positions are used. The arrays are not sorted. \n\nBoth arguments must have the same number of elements.\n\n``array_combine()`` is the opposite of ``array_keys`` and ``array_values`` together.\n",
+    "code": "<?php\n\n    // adapted from the PHP manual example\n    $a = ['green',  4 => 'red', 'c' => 'yellow'];\n    $b = ['avocado', 'apple', 'banana'];\n    $c = array_combine($a, $b);\n\n    print_r($c);\n    \n    /**\n       Array\n    (\n        [green] => avocado\n        [red] => apple\n        [yellow] => banana\n    )\n    */\n    \n    var_dump($a === array_combine(array_keys($a), array_values($a)));\n\n?>",
+    "documentation": "https://www.php.net/manual/en/function.array-combine.php",
+    "related": [
+        "array_keys",
+        "array_values",
+        "array_column"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/function.array-combine.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP array_combine() Function - W3Schools",
+            "url": "https://www.w3schools.com/php/func_array_combine.asp"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP's array_combine() Function: A Complete Guide",
+            "url": "https://reintech.io/blog/phps-array-combine-function-a-complete-guide"
+        }
+    ],
+    "tags": [
+        "native function",
+        "array"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Wed, 02 Sep 2026 16:41:00 +0000"
+}

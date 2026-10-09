@@ -1,0 +1,57 @@
+{
+    "id": "whatwg",
+    "name": "Web Hypertext Application Technology Working Group (WHATWG)",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/whatwg.html",
+    "aliases": [
+        "web-hypertext-application-technology-working-group"
+    ],
+    "description": "``WHATWG``, the Web Hypertext Application Technology Working Group, is a community that develops and maintains web standards, including the HTML Living Standard, ``DOM``, Fetch, URL, and Streams specifications.\n\n``WHATWG`` was founded in 2004 by ``Apple``, ``Mozilla``, and ``Opera`` in response to the ``W3C``'s direction. It introduced the concept of a living standard: a continuously updated specification with no versioned releases.\n\nPHP developers encounter ``WHATWG`` specifications when implementing URL parsing compliant with the ``WHATWG`` URL Standard, HTML sanitation, stream handling, or building server-side applications that must align with browser behavior.",
+    "code": "",
+    "documentation": "https://whatwg.org/",
+    "related": [
+        "dom",
+        "html",
+        "url",
+        "stream",
+        "http",
+        "web",
+        "w3c",
+        "encoding",
+        "standard"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://whatwg.org/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "HTML Living Standard",
+            "url": "https://html.spec.whatwg.org/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "WHATWG URL Standard",
+            "url": "https://url.spec.whatwg.org/"
+        }
+    ],
+    "tags": [
+        "standard",
+        "acronym"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Mon, 03 Aug 2026 17:03:29 +0000"
+}

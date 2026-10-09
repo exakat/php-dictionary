@@ -1,0 +1,47 @@
+{
+    "id": "dictionary",
+    "name": "Dictionary",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/dictionary.html",
+    "aliases": [],
+    "description": "A dictionary is a data structure that holds a collection of values with a unique identifier. Each identifier is an integer or a string and may be other types in rarer occasions. The related values may be of any type. \n\nA dictionary structure relies often on the array data structure.",
+    "code": "<?php\n\n$dictionary = ['a' => 'blue',\n               'b' => 'pink',\n               'c' => ['green', 'yellow'],\n              ];\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Associative_array",
+    "related": [
+        "hash",
+        "associative-array"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Associative_array"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Associative Arrays in PHP",
+            "url": "https://www.scaler.com/topics/php-tutorial/associative-array-in-php/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Understanding and Using PHP Associative Arrays",
+            "url": "https://codesignal.com/learn/courses/mastering-complex-data-structures-in-php/lessons/understanding-and-using-php-associative-arrays"
+        }
+    ],
+    "tags": [
+        "data structure"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Wed, 19 Aug 2026 08:26:01 +0000"
+}

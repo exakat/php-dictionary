@@ -1,0 +1,52 @@
+{
+    "id": "coercion",
+    "name": "Type Coercion",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/coercion.html",
+    "aliases": [
+        "weak-typing",
+        "type-coercion"
+    ],
+    "description": "Type coercion, a form of weak typing, is the automatic conversion of a value to match a declared type, when it does not already have that type.\n\nIt happens with typed function parameters, return types, and typed properties, whenever ``strict_types`` is not active. In that mode, PHP accepts a wider range of scalar values, and converts them to the expected type: a string like ``'42'`` is coerced to the integer ``42`` when a parameter expects ``int``, a number is coerced to a string, and so on.\n\nNot every value can be coerced: an array cannot be coerced to an ``int``, and a non-numeric string cannot be coerced to a ``float``. In such cases, PHP still raises a ``TypeError``, even without ``strict_types``.\n\nCoercion only applies to scalar type declarations. Objects, arrays, and ``callable`` are never coerced: they must already match the declared type, or a ``TypeError`` is raised, regardless of ``strict_types``.\n\nCoercion is a specific case of type juggling, restricted to the boundary of typed declarations, such as parameters, return values and properties.",
+    "code": "<?php\n\n    function double(int $trunk): int {\n        return $trunk * 2;\n    }\n\n    echo double('21'); // 42 : the string is coerced to an int\n\n    echo double('abc');\n    // TypeError: double(): Argument #1 ($trunk) must be of type int, string given\n\n?>",
+    "documentation": "https://www.php.net/manual/en/language.types.declarations.php#language.types.declarations.strict",
+    "related": [
+        "strict_types",
+        "type-juggling",
+        "cast",
+        "scalar-type",
+        "type-checking",
+        "typeerror",
+        "type",
+        "alias-types"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.types.declarations.php#language.types.declarations.strict"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP type declarations",
+            "url": "https://www.php.net/manual/en/language.types.declarations.php"
+        }
+    ],
+    "tags": [
+        "type",
+        "feature"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "7.0",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sat, 12 Sep 2026 07:50:36 +0000"
+}

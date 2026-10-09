@@ -1,0 +1,44 @@
+{
+    "id": "object-type",
+    "name": "Object Type",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/object-type.html",
+    "aliases": [],
+    "description": "``object`` is a PHP type, which represents an object of any class, including anonymous classes. \n\n``object`` may be used with properties, arguments and returntype, but not with ``instanceof``.",
+    "code": "<?php\n\nforeach([11,12,13] as $id => $value) {\n    print \"$id => $value\\n\";\n}\n\nfor ($i = 1; $i <= 10; $i++) {\n    echo $i;\n}\n\n$i = 10;\nwhile ($i <= 10) {\n    echo $i++;  \n}\n\n$i = 10;\ndo {\n    echo $i++;  \n} while ($i <= 10);\n\n$a = new A;\nvar_dump($a instanceof object);\n\n?>",
+    "documentation": "https://www.php.net/manual/en/language.oop5.php",
+    "related": [
+        "magic-method",
+        "clone",
+        "type",
+        "instanceof"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.oop5.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "TYPE HINT ALL THE THINGS!",
+            "url": "https://thecodingmachine.io/type-hint-all-the-things"
+        }
+    ],
+    "tags": [
+        "type"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sat, 08 Aug 2026 08:10:54 +0000"
+}

@@ -1,0 +1,55 @@
+{
+    "id": "format",
+    "name": "Format",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/format.html",
+    "aliases": [],
+    "description": "Format is a set of rules to structure a piece of text, and make it parsable by a specific engine. A piece of text may be in the format: then, it is usable as a command for another technology. \n\nFormats have various shapes. Here are some examples of formats: \n\n+ ``SQL`` Structure Query Language: ``SELECT column FROM table`` \n+ Date and time: ``2020-01-01`` \n+ ``sprintf()``, with ``%d 9`` \n+ Regular expressions\n+ ``YAML``\n+ ``INI``\n+ ``CSV``\n+ ``JSON``\n\nIt is possible to define one's custom format. Common formats have comprehensive specifications, such as how to build them, and assorted tools, to encode, decode, use, combine, etc.",
+    "code": "<?php\n\n    // displays 123 with 9 characters, and fills with dots any empty characters\n    // ......123\n    echo sprintf(\"%'.9d\\n\", 123);\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/File_format",
+    "related": [
+        "string",
+        "csv",
+        "yaml",
+        "json",
+        "data",
+        "sprintf",
+        "printf",
+        "ini",
+        "leading-zero-means-octal",
+        "markdown"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/File_format"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "sprintf",
+            "url": "https://www.php.net/manual/en/function.sprintf.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "date",
+            "url": "https://www.php.net/manual/en/function.date.php"
+        }
+    ],
+    "tags": [
+        "concept"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sat, 15 Aug 2026 08:22:04 +0000"
+}

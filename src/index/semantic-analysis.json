@@ -1,0 +1,56 @@
+{
+    "id": "semantic-analysis",
+    "name": "Semantic Analysis",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/semantic-analysis.html",
+    "aliases": [],
+    "description": "Semantic analysis is the phase of compilation or static analysis that checks the meaning of a program after its structure has been parsed. Where lexical analysis identifies tokens and parsing builds a syntax tree, semantic analysis verifies that the program makes sense according to the rules of the language.\n\nTypical checks performed during semantic analysis include:\n\n+ Type checking: verifying that values are used with compatible types\n+ Scope resolution: ensuring that every identifier refers to a declared symbol\n+ Arity checking: confirming that functions are called with the correct number of arguments\n+ Constant folding: evaluating expressions whose values are known at compile time\n+ Dead branch elimination: detecting conditions that are always true or always false\n\nIn static analysis, semantic analysis underpins the type inference and undefined-variable checks performed by tools.",
+    "code": "<?php\n\n    function greet(string $name): string {\n        return 'Hello, ' . $name;\n    }\n    \n    // Semantic analysis detects the type mismatch: int passed where string is expected\n    greet(42);\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Semantic_analysis_(compilers)",
+    "related": [
+        "analysis",
+        "lexical-analysis",
+        "ast",
+        "type-system",
+        "control-flow-analysis",
+        "data-flow-analysis",
+        "symbolic-analysis",
+        "pattern-based-analysis",
+        "sast"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Semantic_analysis_(compilers)"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Semantic Analysis in Compiler Design",
+            "url": "https://www.geeksforgeeks.org/compiler-design/semantic-analysis-in-compiler-design/"
+        }
+    ],
+    "tags": [
+        "analysis",
+        "static analysis",
+        "compiler"
+    ],
+    "packagist": [
+        "phpstan/phpstan",
+        "vimeo/psalm"
+    ],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sat, 08 Aug 2026 08:01:43 +0000"
+}

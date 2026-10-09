@@ -1,0 +1,56 @@
+{
+    "id": "egress-filtering",
+    "name": "Egress Filtering",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/egress-filtering.html",
+    "aliases": [
+        "egress-control"
+    ],
+    "description": "Egress filtering, or egress control, is the practice of monitoring and restricting outbound network traffic leaving a server or network, as opposed to ingress filtering, which controls incoming traffic.\n\nRules are typically enforced at the firewall, proxy or cloud security group level, allowing outbound connections only to known destinations, ports and protocols, and blocking or logging everything else.\n\nFor a PHP application, egress filtering is a defense-in-depth measure against Server-Side Request Forgery: even if an attacker manages to make the application issue an outbound request to an internal service or a malicious host, a properly configured egress rule can block the connection before it reaches its target.\n\nEgress filtering also limits the damage of a successful compromise, by preventing a hijacked process from exfiltrating data or reaching a command-and-control server.",
+    "code": "",
+    "documentation": "https://www.twingate.com/blog/glossary/egress-filtering",
+    "related": [
+        "ssrf",
+        "security",
+        "firewall",
+        "network",
+        "curl"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.twingate.com/blog/glossary/egress-filtering"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Ingress & Egress Filtering",
+            "url": "https://www.ncsc.gov.ie/emailsfrom/reports/ddos/ddos-resources/ingress-egress/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Egress Filtering 101: What it is and how to do it",
+            "url": "https://www.calyptix.com/educational-resources/egress-filtering-101-what-it-is-and-how-to-do-it/"
+        }
+    ],
+    "tags": [
+        "security",
+        "network",
+        "concept"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sun, 30 Aug 2026 10:14:05 +0000"
+}

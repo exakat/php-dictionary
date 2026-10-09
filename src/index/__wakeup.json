@@ -1,0 +1,48 @@
+{
+    "id": "__wakeup",
+    "name": "__wakeup() Method",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/__wakeup.html",
+    "aliases": [],
+    "description": "``__wakeup()`` is a magic method: it is called when an object is being deserialized, so that the object may be restored to its working condition. \n\nIn particular, some resources, such as database connections or files cannot be serialized. They should be closed, stored as a path in ``__sleep()``, and reopened later with ``__wakeup()``.\n\nThe ``__wakeup()`` method is usually paired with the ``__sleep()`` method.",
+    "code": "<?php\n\n    class Elephpant {\n        private $file;\n        private $path;\n\n        function __sleep() {\n            fclose($this->file);\n            return ['path'];\n        }\n\n        function __wakeup() {\n            $this->file = fopen($this->path, 'r');\n        }\n    }\n\n?>",
+    "documentation": "https://www.php.net/manual/en/language.oop5.magic.php#object.sleep",
+    "related": [
+        "magic-method",
+        "__sleep",
+        "insecure-deserialization"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.oop5.magic.php#object.sleep"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP __sleep And __wakeup Magic Methods: How And When To Use Them?",
+            "url": "https://medium.com/@lukaspereyra8/php-sleep-and-wakeup-magic-methods-how-and-when-to-use-them-938591584bdcbb"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "__sleep() and __wakeup()",
+            "url": "https://riptutorial.com/php/example/4604/--sleep---and---wakeup--"
+        }
+    ],
+    "tags": [
+        "magic method"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+}

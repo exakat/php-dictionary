@@ -1,0 +1,64 @@
+{
+    "id": "ci",
+    "name": "Continuous Integration (CI)",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/ci.html",
+    "aliases": [],
+    "description": "Continuous integration refers to the automation of the build and test phase of development. \n\nEvery revision that is committed triggers an automated build and test. With continuous delivery, code changes are automatically tested, reviewed, and built for a release to production.\n\nSince a lot of these operations a executed one after the other, they are called a pipeline. \n\nContinuous integration is a building block for continuous delivery. This extended notion also include the automated release in production of the code.",
+    "code": "",
+    "documentation": "https://en.wikipedia.org/wiki/Continuous_integration",
+    "related": [
+        "pipeline",
+        "release",
+        "revision",
+        "cd",
+        "analysis",
+        "devops",
+        "metrics",
+        "task-runner",
+        "test",
+        "tool",
+        "artifact",
+        "poisoned-pipeline-execution",
+        "test-framework",
+        "build",
+        "git-hook",
+        "makefile",
+        "regression",
+        "test-driven-development",
+        "phpstan",
+        "psalm",
+        "sca",
+        "test-impact-analysis"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Continuous_integration"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Continuous Integration and Continuous Delivery",
+            "url": "https://www.phparch.com/2023/08/continuous-integration-and-continuous-delivery/"
+        }
+    ],
+    "tags": [
+        "deployment",
+        "acronym",
+        "ci"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 17 Sep 2026 09:06:40 +0000"
+}

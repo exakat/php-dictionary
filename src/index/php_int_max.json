@@ -1,0 +1,50 @@
+{
+    "id": "php_int_max",
+    "name": "PHP_INT_MAX",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/php_int_max.html",
+    "aliases": [],
+    "description": "``PHP_INT_MAX`` is the largest integer that can be processed by PHP. \n\nNowadays, ``PHP_INT_MAX`` is often 9223372036854775807. This value depends on the underlying machine: in particular, 64-bit machine and OS have larger values of ``PHP_INT_MAX``, while 32-bit ones have smaller. The hardware and the software have to be compatible to provide a larger value of ``PHP_INT_MAX``.\n\nBeyond ``PHP_INT_MAX``, integers are often converted to floats, and loose precision. \n\nThere is also ``PHP_INT_MIN``, which is the negative version of ``PHP_INT_MAX``, minus one.",
+    "code": "<?php\n\n$max = PHP_INT_MAX;\n\nvar_dump(is_int($max)); // true\n\n?>",
+    "documentation": "https://www.php.net/manual/en/reserved.constants.php",
+    "related": [
+        "integer",
+        "float",
+        "php_int_min",
+        "precision",
+        "absolute-value",
+        "implementation-defined-behavior",
+        "php_eol",
+        "signed-integer"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/reserved.constants.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP Integers Guide: Types, Limits, and Conversions",
+            "url": "https://flatcoding.com/tutorials/php/php-int/"
+        }
+    ],
+    "tags": [
+        "native constant"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sun, 30 Aug 2026 15:10:34 +0000"
+}

@@ -1,0 +1,50 @@
+{
+    "id": "open-class",
+    "name": "Open Class",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/open-class.html",
+    "aliases": [
+        "reopening-class"
+    ],
+    "description": "Open classes allow external code to add or replace methods on an existing class after it has been defined, including built-in or third-party classes. This is sometimes called controlled ``monkey-patch``ing when the language provides guard-rails to avoid unintended conflicts.\n\nLanguages such as Ruby expose this feature natively: any class can be reopened with ``class X ... end`` and new methods are merged in. The class remains open throughout the program's lifetime, so any part of the codebase can contribute methods.\n\nPHP does not support open classes. Once a class is defined its set of methods is fixed. The closest approximations are:\n\n+ Traits, which must be composed at the point of class definition, not after.\n+ ``__call`` / ``__callStatic`` magic methods, which dispatch unknown method calls dynamically but without type-level visibility.\n+ Wrapper or decorator classes that delegate to the original.\n\nNone of these allow retrofitting a method onto a class that has already been fully declared.",
+    "code": "<?php\n\n    // PHP does not support reopening a class.\n    // The following is illustrative of what the feature would look like,\n    // but it is a syntax error in PHP.\n    \n    class MyString {\n        public function upper(): string { return strtoupper($this->value); }\n    }\n    \n    // Hypothetical open-class syntax (NOT valid PHP):\n    // open class MyString {\n    //     public function lower(): string { return strtolower($this->value); }\n    // }\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Monkey_patch",
+    "related": [
+        "trait",
+        "use-trait",
+        "__call",
+        "__callstatic",
+        "mixin",
+        "monkey-patch"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Monkey_patch"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Ruby open classes",
+            "url": "https://ruby-doc.org/docs/ruby-doc-bundle/ProgrammingRuby/book/classes.html"
+        }
+    ],
+    "tags": [
+        "not supported",
+        "class",
+        "oop"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Tue, 15 Sep 2026 16:15:36 +0000"
+}

@@ -1,0 +1,50 @@
+{
+    "id": "library-loading",
+    "name": "Library Loading",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/library-loading.html",
+    "aliases": [],
+    "description": "PHP has a modular structure, which allows it to load extensions. The extensions may be part of PHP at compilation time, and always available: this is the case for ``core``, or ``string``. \n\nOn the other hand, some extensions are loaded dynamically, with the ``dl()`` function. This is done during execution. It usually has an impact on performance, and security, and was restricted to be used only in command line, not on web servers.",
+    "code": "<?php\n\n    if (!extension_loaded('sqlite3')) {\n        dl('sqlite3.so');\n    }\n\n?>",
+    "documentation": "https://www.php.net/manual/en/function.dl.php",
+    "related": [
+        "extension",
+        "ffi"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/function.dl.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "extension_loaded()",
+            "url": "https://www.php.net/manual/en/function.extension-loaded.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "enable_dl directive",
+            "url": "https://www.php.net/manual/en/ini.core.php#ini.enable-dl"
+        }
+    ],
+    "tags": [
+        "engine",
+        "extension"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sat, 15 Aug 2026 12:08:42 +0000"
+}

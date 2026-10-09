@@ -1,0 +1,42 @@
+{
+    "id": "day-in-seconds",
+    "name": "Days Are Not 86400 Seconds",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/day-in-seconds.html",
+    "aliases": [],
+    "description": "Days in seconds is a classic bug when dealing with dates. It happens when adding 86400 seconds to a time to get the same time on the next day. \n\nThe bug will happen most commonly twice a year, at the change of time from winter to summer time. Those days are one hour longer or shorter and lead to calculating the wrong time on the next day. \n\nThis bug may also have an impact when the internal clock of the server is updated, or when extra leap seconds are added, on ``December 31st`` or ``June 30th``. It depends on the years.\n\nWhen dealing with days, it is recommended to use an interval, or use a relative expression like ``'tomorrow'``.",
+    "code": "<?php\n\n    $tomorrow = new DateTime('tomorrow');\n    $secondsLeft = $tomorrow->getTimestamp() - time();\n    echo $secondsLeft;\n\n?>",
+    "documentation": "https://medium.com/@dotcom.software/a-day-is-not-86400-seconds-51d95848b622",
+    "related": [
+        "days-in-month",
+        "datetime"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://medium.com/@dotcom.software/a-day-is-not-86400-seconds-51d95848b622"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Adding 86400 seconds to Oct. 25 1998 gives wrong answer",
+            "url": "https://bugs.php.net/bug.php?id=741"
+        }
+    ],
+    "tags": [
+        "classic bug"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Tue, 11 Aug 2026 20:52:53 +0000"
+}

@@ -1,0 +1,53 @@
+{
+    "id": "asymmetric-visibility",
+    "name": "Asymmetric Visibility",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/asymmetric-visibility.html",
+    "aliases": [
+        "set-visibility"
+    ],
+    "description": "Asymmetric visibility, also called set visibility, is a feature of PHP class properties. They refer to the situation where different scopes may read, or ``get`` or write, or ``set``.\n\nTraditionally, the visibility options, ``private``, ``protected`` and ``public``, constrain the access to the property, both in reading and writing. With asymmetric visibility, there may be contexts that have different rights of access.",
+    "code": "<?php\n\nclass Elephpant {\n    public private(set) string $weight = 'abc';\n\n    function setWeight($weight) {\n        $this->weight = $weight;\n    }\n}\n\n$elephpant = new Elephpant();\necho $elephpant->weight; // abc\n$elephpant->setWeight('def');\necho $elephpant->weight; // def\n\n//\n$elephpant->weight = 'ghi';\n\n?>",
+    "documentation": "https://www.php.net/manual/en/language.oop5.visibility.php",
+    "related": [
+        "visibility",
+        "property",
+        "asymmetric-property",
+        "type-declaration-property",
+        "var"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.oop5.visibility.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP Asymmetric Visibility RFC: An In-Depth Look",
+            "url": "https://developerjoy.co/blog/php-asymmetric-visibility-rfc-an-in-depth-look"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "New in PHP 8.5: Asymmetric Visibility for Static Properties",
+            "url": "https://chrastecky.dev/programming/new-in-php-8-5-asymmetric-visibility-for-static-properties"
+        }
+    ],
+    "tags": [
+        "visibility",
+        "rfc"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+}

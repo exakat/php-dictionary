@@ -1,0 +1,51 @@
+{
+    "id": "method-signature",
+    "name": "Method Signature",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/method-signature.html",
+    "aliases": [
+        "closure-signature",
+        "function-signature"
+    ],
+    "description": "The signature of a method or a function is the list of arguments and constraints that apply when calling it. \n\nIn its simplest form, signature of a method is its name, its argument's type and list, though modern syntax also includes default values, visibilities, attributes and parameter names.\n\nMethod signature also applies to functions and closures, where it is also called a function signature or closure signature. It may also be referenced as signature.\n",
+    "code": "<?php\n\n    function trumpet(string &$s = 'abc') {}\n\n    class Elephpant {\n        function trumpet(string &$s = 'abc') {}\n    }\n\n?>",
+    "documentation": "https://www.php.net/manual/en/functions.arguments.php",
+    "related": [
+        "signature",
+        "digital-signature"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/functions.arguments.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Function Signature Explained",
+            "url": "https://www.ituonline.com/it-glossary/function-signature/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Signature (functions)",
+            "url": "https://developer.mozilla.org/en-US/docs/Glossary/Signature/Function"
+        }
+    ],
+    "tags": [
+        "method",
+        "concept"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+}

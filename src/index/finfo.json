@@ -1,0 +1,56 @@
+{
+    "id": "finfo",
+    "name": "finfo",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/finfo.html",
+    "aliases": [
+        "fileinfo"
+    ],
+    "description": "``finfo`` is a native PHP class, part of the ``Fileinfo`` extension, that detects the MIME type and encoding of a file or a string buffer by inspecting its content, using the ``libmagic`` library, rather than trusting its filename or extension.\n\n``finfo`` is instantiated with a mode constant, such as ``FILEINFO_MIME_TYPE``, and then queried with ``$finfo->file($path)`` or ``$finfo->buffer($content)``.\n\nSince the value provided by ``$_FILES[...]['type']`` is supplied by the client and cannot be trusted, ``finfo`` is the recommended way to validate the real type of an uploaded file before storing or processing it. It replaces the deprecated ``mime_content_type()`` function.\n",
+    "code": "<?php\n\n    $finfo = new finfo(FILEINFO_MIME_TYPE);\n    $mimeType = $finfo->file($_FILES['userfile']['tmp_name']);\n\n    if ($mimeType !== 'image/png') {\n        throw new RuntimeException('Only PNG files are allowed.');\n    }\n\n?>",
+    "documentation": "https://www.php.net/manual/en/class.finfo.php",
+    "related": [
+        "upload",
+        "$_FILES",
+        "magic-byte",
+        "filesystem"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/class.finfo.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP - FileInfo finfo class",
+            "url": "https://www.tutorialspoint.com/php/php_fileinfo_class_function.htm"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "MIME type detection for PHP file uploads",
+            "url": "https://www.web-development-blog.com/php-mime-type-detection/"
+        }
+    ],
+    "tags": [
+        "native class",
+        "file"
+    ],
+    "packagist": [],
+    "extensions": [
+        "fileinfo"
+    ],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "5.3",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Tue, 01 Sep 2026 08:32:28 +0000"
+}

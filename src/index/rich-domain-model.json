@@ -1,0 +1,54 @@
+{
+    "id": "rich-domain-model",
+    "name": "Rich Domain Model",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/rich-domain-model.html",
+    "aliases": [
+        "rich-model",
+        "behavioural-domain-model"
+    ],
+    "description": "A rich domain model is one where domain objects, entities, aggregates, value objects, encapsulate both state and the business behaviour that depends on that state. Business rules, invariants, and domain logic live inside the objects themselves, not in external service classes.\n\nA rich domain model is the alternative to the anemic domain model. Rather than exposing raw setters and relying on service classes to enforce rules, a rich entity exposes meaningful, intention-revealing methods that internally validate state transitions and enforce invariants.\n\nRich domain models align with the principles of Domain-Driven Design: the domain layer is the most important part of the codebase, the language of the code mirrors the language of the domain experts, and the objects protect themselves from invalid state.\n\nBuilding a rich domain model means: using private properties with no public setters, returning new instances or recording domain events from methods, and throwing domain exceptions when a requested transition is invalid. Value objects are immutable and validated at construction.",
+    "code": "<?php\n\n    // Rich domain entity: Order enforces its own lifecycle\n    final class Order {\n        private OrderStatus $status;\n        private Money       $total;\n        private array       $events = [];\n    \n        private function __construct(OrderStatus $status, Money $total) {\n            $this->status = $status;\n            $this->total  = $total;\n        }\n    \n        public static function place(CustomerId $customer, array $items): self {\n            if (empty($items)) {\n                throw new \\DomainException('An order must have at least one item.');\n            }\n            $total = Money::sum(array_map(fn($i) => $i->price, $items));\n            $order = new self(OrderStatus::Pending, $total);\n            $order->events[] = new OrderPlaced($customer, $total);\n            return $order;\n        }\n    \n        public function pay(Payment $payment): void {\n            if (!$this->status->isPending()) {\n                throw new \\DomainException('Only pending orders can be paid.');\n            }\n            if (!$payment->covers($this->total)) {\n                throw new \\DomainException('Payment is insufficient.');\n            }\n            $this->status   = OrderStatus::Paid;\n            $this->events[] = new OrderPaid($payment->id);\n        }\n    \n        public function releaseEvents(): array {\n            $events       = $this->events;\n            $this->events = [];\n            return $events;\n        }\n    }\n\n?>",
+    "documentation": "https://martinfowler.com/bliki/AnemicDomainModel.html",
+    "related": [
+        "anemic-domain-model",
+        "ddd",
+        "domain",
+        "value-object",
+        "event-sourcing",
+        "oop"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://martinfowler.com/bliki/AnemicDomainModel.html"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Anemic Domain Model vs Rich Domain Model with Examples",
+            "url": "https://thevaluable.dev/anemic-domain-model/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Rich vs Anemic Entities in PHP with Doctrine: How to Structure Your Business Logic Right",
+            "url": "https://dev.to/mykola_vantukh/rich-vs-anemic-entities-in-php-how-to-structure-your-business-logic-right-7a0"
+        }
+    ],
+    "tags": [
+        "concept"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Fri, 10 Jul 2026 09:33:57 +0000"
+}

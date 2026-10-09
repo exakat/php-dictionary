@@ -1,0 +1,61 @@
+{
+    "id": "global-variable",
+    "name": "Global Variables",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/global-variable.html",
+    "aliases": [],
+    "description": "Global variables reside in the global scope, and may be imported in a local scope with the ``global`` keyword.\n\nTo become a global variable, a variable may use one of the following ways: \n\n+ Be declared as such with the ``global`` keyword\n+ Be created in the ``$GLOBALS`` variable, which is a global variable itself\n+ Be created outside any function, method, closure\n+ Be a super-global\n\nGlobal variables provide a way to share data in different and remote scopes. They also provide a way for data to be modified by another part of the code, without warning.",
+    "code": "<?php\n\n    global $count;\n    $count = 0;\n    \n    function counter() {\n        global $count;\n        \n        // no return here\n        ++$count;\n    }\n    \n    counter(); \n    echo $count; // print 1\n    counter(); \n    echo $count; // print 2\n\n?>",
+    "documentation": "https://www.php.net/manual/en/language.variables.scope.php#language.variables.scope.static",
+    "related": [
+        "variable",
+        "static-variable",
+        "variable-variable",
+        "$globals",
+        "global",
+        "superglobal",
+        "distributed-state",
+        "hidden-state",
+        "implicit-state",
+        "legacy",
+        "local-variable"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.variables.scope.php#language.variables.scope.static"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "How to Declare a Global Variable in PHP?",
+            "url": "https://www.geeksforgeeks.org/php/how-to-declare-a-global-variable-in-php/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP Variable Scope Explained: Globals, Superglobals, and Best Practices",
+            "url": "https://blog.servermania.com/server-manias-complete-guide-to-global-variables-in-php"
+        }
+    ],
+    "tags": [
+        "keyword",
+        "feature"
+    ],
+    "packagist": [
+        "sebastian/global-state"
+    ],
+    "extensions": [],
+    "analyzers": [
+        "Variables/Globals"
+    ],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Tue, 11 Aug 2026 20:59:33 +0000"
+}

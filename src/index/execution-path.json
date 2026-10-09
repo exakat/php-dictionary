@@ -1,0 +1,48 @@
+{
+    "id": "execution-path",
+    "name": "Execution Path",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/execution-path.html",
+    "aliases": [],
+    "description": "The execution path refers to the sequence in which the PHP interpreter processes and executes the code. By default, expressions are executed one after the other, and the execution path has many possible paths:\n\n+ Code Entry Point, such as the called file, but also controllers, in mvc frameworks\n+ Sequential Execution, where expressions are processed one after the other\n+ Includes and Requires, which stop the execution in the current file and move to another file\n+ Function and Method Calls, which stop the execution in the current file and move it to another part of the code\n+ Control Structures, like ``goto``, ``foreach``, ``ifthen``, which choose a path or another with the current file\n+ Error Handling, with error triggers and exceptions, and unhandled issues\n+ Exit and Die, or simply the end of the file.\n",
+    "code": "",
+    "documentation": "https://en.wikipedia.org/wiki/Control_flow",
+    "related": [
+        "call-graph"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Control_flow"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Control Structures",
+            "url": "https://www.php.net/manual/en/language.control-structures.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "goto",
+            "url": "https://www.php.net/manual/en/control-structures.goto.php"
+        }
+    ],
+    "tags": [
+        "concept"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sun, 09 Aug 2026 13:31:59 +0000"
+}

@@ -1,0 +1,57 @@
+{
+    "id": "wal",
+    "name": "Write-Ahead Logging (WAL)",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/wal.html",
+    "aliases": [
+        "write-ahead-logging",
+        "write-ahead-log"
+    ],
+    "description": "Write-Ahead Logging, also called ``WAL``, is a standard technique for ensuring data integrity in databases. Before modifying data pages on disk, the database first appends a record of the change to a durable sequential log. If a crash occurs mid-transaction, the database replays the log at startup to reach a consistent state.\n\n``WAL`` is the durability mechanism behind ACID transactions in PostgreSQL, SQLite with its ``WAL`` journal mode, and MySQL/``InnoDB``, with its redo log. It also enables streaming replication: replicas consume the primary's ``WAL`` stream to stay in sync.\n\nPHP applications interact with ``WAL`` indirectly through PDO or ``MySQLi``. SQLite's ``WAL`` mode can be activated explicitly and improves read concurrency because readers no longer block writers.",
+    "code": "<?php\n\n    // Enable WAL journal mode in SQLite for better read concurrency\n    $pdo = new PDO('sqlite:/var/db/app.db');\n    $pdo->exec('PRAGMA journal_mode=WAL');\n    \n    $mode = $pdo->query('PRAGMA journal_mode')->fetchColumn();\n    echo $mode; // 'wal'\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Write-ahead_logging",
+    "related": [
+        "acid",
+        "transaction",
+        "database-commit",
+        "rollback",
+        "pdo",
+        "distributed-transactions",
+        "eventual-consistency"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Write-ahead_logging"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "SQLite WAL mode",
+            "url": "https://www.sqlite.org/wal.html"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PostgreSQL WAL introduction",
+            "url": "https://www.postgresql.org/docs/current/wal-intro.html"
+        }
+    ],
+    "tags": [
+        "acronym",
+        "concept",
+        "database"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 06 Aug 2026 05:31:25 +0000"
+}

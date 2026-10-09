@@ -1,0 +1,44 @@
+{
+    "id": "mutation-test",
+    "name": "Mutation Testing",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/mutation-test.html",
+    "aliases": [],
+    "description": "Mutation testing is a way to enhance the quality of tests by checking how they react to a small perturbation of the code source.\n\nAfter writing a suite of tests and having it pass, mutation testing adds a modification to the code: for example, replacing a ``+`` by a ``-``. Then, it runs the test suite again, and the expectation is that one test, at least, should spot the error. That way, the code is well bordered by the tests. \n\nWhen the suite is still green after mutating the code, this means that the test suite is not sufficient to spot it. The code is now a mutant, and the test suite should be updated.\n\n``Infection`` is a PHP mutation Testing framework.",
+    "code": "",
+    "documentation": "https://en.wikipedia.org/wiki/Mutation_testing",
+    "related": [
+        "test",
+        "unit-test",
+        "fuzzing",
+        "code-coverage",
+        "phpunit"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Mutation_testing"
+        }
+    ],
+    "tags": [
+        "test"
+    ],
+    "packagist": [
+        "infection/infection"
+    ],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": {
+        "Infection": "https://infection.github.io/"
+    },
+    "popularity": "",
+    "modified": "Fri, 18 Sep 2026 04:54:41 +0000"
+}

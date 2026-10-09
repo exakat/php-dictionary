@@ -1,0 +1,49 @@
+{
+    "id": "log-file",
+    "name": "Log File",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/log-file.html",
+    "aliases": [
+        "logging"
+    ],
+    "description": "Log, or logging, is a list of events that happen during execution of a piece of software. Logs are often referred to as log file, though they might be handled by specific servers, nowadays.\n\nLog reports meaningful events during execution. They are used after execution to provide overview of the process: performance, exceptional events, etc.\n\nLogs may be saved on the local machine, or exported to external storage.\n\nLog is also the short name for logarithm.",
+    "code": "",
+    "documentation": "https://en.wikipedia.org/wiki/Logging_(computing)",
+    "related": [
+        "error_reporting",
+        "logarithm",
+        "log"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Logging_(computing)"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "How to Get Started with Monolog Logging in PHP",
+            "url": "https://betterstack.com/community/guides/logging/how-to-start-logging-with-monolog/"
+        }
+    ],
+    "tags": [
+        "monitoring"
+    ],
+    "packagist": [
+        "psr/log",
+        "monolog/monolog",
+        "sentry/sentry"
+    ],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sun, 30 Aug 2026 14:48:55 +0000"
+}

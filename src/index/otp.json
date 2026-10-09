@@ -1,0 +1,66 @@
+{
+    "id": "otp",
+    "name": "One-Time Password (OTP)",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/otp.html",
+    "aliases": [
+        "one-time-password",
+        "totp",
+        "hotp"
+    ],
+    "description": "A One-Time Password, the OTP, is a password that is valid for only one authentication session or transaction. Unlike static passwords, OTPs are generated dynamically and expire quickly, making them much more resistant to replay attacks.\n\nThere are two main OTP algorithms: ``TOTP``, Time-based One-Time Password RFC 6238, which generates a code based on the current time, and ``HOTP``, HMAC-based One-Time Password RFC 4226, which generates a code based on a counter.\n\nTOTP is the standard used by authenticator apps such as Google Authenticator, Authy, and hardware tokens. Each code is typically 6 digits long and valid for 30 seconds.\n\nOTP generation is commonly handled by libraries such as ``spomky-labs/otphp``, ``OTPHP`` in the Symfony ecosystem, or ``pragmarx/google2fa`` for Laravel applications.",
+    "code": "<?php\n\n    use OTPHP\\TOTP;\n    \n    $totp = TOTP::generate();\n    echo 'Secret: ' . $totp->getSecret();\n    echo 'Current OTP: ' . $totp->now();\n    \n    // Verify a code provided by the user\n    $userCode = '123456';\n    if ($totp->verify($userCode)) {\n        echo 'Valid OTP';\n    }\n\n?>",
+    "documentation": "https://www.php.net/manual/en/book.hash.php",
+    "related": [
+        "authentication",
+        "mfa",
+        "cryptography",
+        "hash-crypto",
+        "hmac",
+        "nonce",
+        "secret",
+        "password",
+        "sso"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/book.hash.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "RFC 6238 \u2013 TOTP",
+            "url": "https://datatracker.ietf.org/doc/html/rfc6238"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "RFC 4226 \u2013 HOTP",
+            "url": "https://datatracker.ietf.org/doc/html/rfc4226"
+        }
+    ],
+    "tags": [
+        "security",
+        "authentication",
+        "acronym",
+        "rfc"
+    ],
+    "packagist": [
+        "spomky-labs/otphp",
+        "pragmarx/google2fa"
+    ],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Fri, 10 Jul 2026 09:21:15 +0000"
+}

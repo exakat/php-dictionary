@@ -1,0 +1,49 @@
+{
+    "id": "collation",
+    "name": "Collation",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/collation.html",
+    "aliases": [],
+    "description": "Collation is the set of rules that define how strings are compared and sorted, and it is far less obvious than it sounds because different languages order the same characters differently. A naive comparison, such as PHP's strcmp or a plain ``sort()``, compares strings byte by byte according to the underlying encoding, which places accented letters, ligatures, and non-Latin scripts in positions that look wrong to a human reader; for example, byte order alone may sort 'p\u00eache' after 'z' instead of next to 'pomme' as a French speaker would expect. Proper, locale-aware sorting instead follows the Unicode Collation Algorithm, aka UCA, which PHP exposes through the Collator class in the intl extension: constructing a Collator for a given locale and calling its ``sort()`` or ``compare()`` methods orders strings the way a native reader of that language expects, correctly handling accents, case, and script-specific ordering rules. The same underlying idea also appears outside PHP itself, notably as the COLLATE clause in databases like MySQL and PostgreSQL, which determines how that database engine compares and indexes text columns.",
+    "code": "<?php\n\n    $words = ['pomme', 'poire', 'p\u00eache', 'prune'];\n    \n    $collator = new Collator('fr_FR');\n    $collator->sort($words);\n    \n    print_r($words);\n    // p\u00eache, poire, pomme, prune\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Collation",
+    "related": [
+        "intl",
+        "locale",
+        "setlocale"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Collation"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Collator",
+            "url": "https://www.php.net/manual/en/class.collator.php"
+        }
+    ],
+    "tags": [
+        "extension",
+        "string",
+        "comparison"
+    ],
+    "packagist": [],
+    "extensions": [
+        "intl"
+    ],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 03 Sep 2026 09:04:41 +0000"
+}

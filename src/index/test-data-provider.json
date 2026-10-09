@@ -1,0 +1,43 @@
+{
+    "id": "test-data-provider",
+    "name": "Test Data Provider",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/test-data-provider.html",
+    "aliases": [],
+    "description": "A test data provider is a mechanism or component that supplies the necessary data for executing test cases. Test data providers are particularly useful when a set of test cases needs to be executed with different input values or configurations. They help ensure that your tests cover a variety of scenarios and edge cases.",
+    "code": "",
+    "documentation": "https://docs.phpunit.de/en/12.0/writing-tests-for-phpunit.html#data-providers",
+    "related": [
+        "phpunit",
+        "mock"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://docs.phpunit.de/en/12.0/writing-tests-for-phpunit.html#data-providers"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "How to use Data Providers in PHPUnit",
+            "url": "https://blog.martinhujer.cz/how-to-use-data-providers-in-phpunit/"
+        }
+    ],
+    "tags": [
+        "test",
+        "data"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Wed, 19 Aug 2026 06:48:43 +0000"
+}

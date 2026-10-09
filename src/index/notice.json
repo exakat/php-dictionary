@@ -1,0 +1,46 @@
+{
+    "id": "notice",
+    "name": "Notice",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/notice.html",
+    "aliases": [],
+    "description": "A notice is a non-critical runtime error that alerts developers about potential problems in the code, but doesn't stop script execution at that point.\n\nNotices are one of the error reporting levels, below error and warning.",
+    "code": "<?php\n\necho $trunk; // Notice, undefined variable\n\n?>",
+    "documentation": "https://www.php.net/manual/en/errorfunc.constants.php",
+    "related": [
+        "error",
+        "warning",
+        "error-reporting",
+        "fatal-error"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/errorfunc.constants.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "How to Display All PHP Errors: A Detailed Guide",
+            "url": "https://stackify.com/display-php-errors/"
+        }
+    ],
+    "tags": [
+        "error"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+}

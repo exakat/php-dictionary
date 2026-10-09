@@ -1,0 +1,53 @@
+{
+    "id": "preg_replace",
+    "name": "preg_replace()",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/preg_replace.html",
+    "aliases": [],
+    "description": "``preg_replace()`` searches a string for matches of a regular expression, and replaces them with a replacement string. It is the regex-powered counterpart of ``str_replace()``, which only handles literal substrings.\n\nThe first argument is the pattern, or an array of patterns, the second is the replacement, or an array of replacements, and the third is the subject string, or an array of subjects. Captured groups from the pattern may be reused in the replacement with ``$1``, ``$2``, etc.\n\nAn optional ``limit`` argument caps the number of replacements per subject, and an optional ``count`` reference receives the total number of replacements performed. ``preg_replace()`` returns ``null`` on error, so its result should not be used without checking, especially when the pattern comes from a variable.\n\nWhen the replacement needs to run arbitrary code rather than a static string, ``preg_replace_callback()`` should be used instead; the historic ``/e`` modifier that allowed code execution directly inside ``preg_replace()`` was removed in version 7.0+.",
+    "code": "<?php\n\n    $result = preg_replace('/\\s+/', ' ', 'too    many    spaces');\n    // 'too many spaces'\n\n    $result = preg_replace('/(\\w+)@(\\w+)/', '$2@$1', 'user@host');\n    // 'host@user'\n\n?>",
+    "documentation": "https://www.php.net/manual/en/function.preg-replace.php",
+    "related": [
+        "regex",
+        "preg_match",
+        "preg_split",
+        "str_replace"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/function.preg-replace.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "preg_replace_callback()",
+            "url": "https://www.php.net/manual/en/function.preg-replace-callback.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Replace only the first occurrence of a string",
+            "url": "https://php-tips.readthedocs.io/en/latest/tips/replace_one.html"
+        }
+    ],
+    "tags": [
+        "native function"
+    ],
+    "packagist": [],
+    "extensions": [
+        "pcre"
+    ],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Wed, 02 Sep 2026 16:41:00 +0000"
+}

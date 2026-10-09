@@ -1,0 +1,52 @@
+{
+    "id": "jsonexception",
+    "name": "JsonException",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/jsonexception.html",
+    "aliases": [],
+    "description": "Exception thrown if ``JSON_THROW_ON_ERROR`` option is set for ``json_encode()`` or ``json_decode()``. code contains the error type, for possible values see ``json_last_error()``.",
+    "code": "<?php\n\ntry {\n    $data = json_decode($incomingJSON, JSON_THROW_ON_ERROR);\n\n    return base64_encode($data);\n} catch (JsonException $e) {\n    print 'Could not decrypt the data.';\n}\n\n?>",
+    "documentation": "https://www.php.net/manual/en/class.jsonexception.php",
+    "related": [
+        "json"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/class.jsonexception.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "json_last_error()",
+            "url": "https://www.php.net/manual/en/function.json-last-error.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "JsonSerializable",
+            "url": "https://www.php.net/manual/en/class.jsonserializable.php"
+        }
+    ],
+    "tags": [
+        "exception"
+    ],
+    "packagist": [],
+    "extensions": [
+        "json"
+    ],
+    "analyzers": [
+        "Extension/Extjson"
+    ],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "5.0+",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sat, 15 Aug 2026 12:10:01 +0000"
+}

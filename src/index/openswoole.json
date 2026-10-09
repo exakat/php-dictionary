@@ -1,0 +1,51 @@
+{
+    "id": "openswoole",
+    "name": "OpenSwoole",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/openswoole.html",
+    "aliases": [],
+    "description": "``OpenSwoole`` is a PIE extension providing an event-driven, asynchronous, coroutine-based programming framework for PHP. It is a community fork of Swoole, created after a licensing and governance disagreement, and both projects share most of their API and internals.\n\nOpenSwoole replaces PHP's traditional request/response, process-per-request model with a long-running server process: an HTTP, WebSocket, or TCP/UDP server that stays resident in memory, handles many connections concurrently through coroutines, and dispatches blocking calls, such as database queries or file I/O, transparently as non-blocking, cooperative tasks. This removes most of the per-request bootstrap cost, such as re-parsing configuration or re-establishing framework state, that a classic PHP-FPM request pays every time.\n\nBecause the process is long-running, code that assumes a fresh, request-scoped global state, a common assumption in traditional PHP applications, must be written carefully to avoid leaking state between requests handled by the same worker.",
+    "code": "<?php\n\n    $server = new OpenSwoole\\Http\\Server('0.0.0.0', 9501);\n\n    $server->on('request', function ($request, $response) {\n        $response->header('Content-Type', 'text/plain');\n        $response->end('Hello from OpenSwoole' . PHP_EOL);\n    });\n\n    $server->start();\n\n?>",
+    "documentation": "https://openswoole.com/docs",
+    "related": [
+        "swoole",
+        "coroutine",
+        "fibers",
+        "green-thread",
+        "asynchronous",
+        "parallel"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://openswoole.com/docs"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "OpenSwoole project",
+            "url": "https://openswoole.com/"
+        }
+    ],
+    "tags": [
+        "extension",
+        "concurrency"
+    ],
+    "packagist": [
+        "openswoole/core"
+    ],
+    "extensions": [
+        "openswoole"
+    ],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Tue, 14 Jul 2026 05:36:43 +0000"
+}

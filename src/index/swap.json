@@ -1,0 +1,53 @@
+{
+    "id": "swap",
+    "name": "Swap",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/swap.html",
+    "aliases": [],
+    "description": "Swap have several meanings.\n\n+ Memory, when it is stored on the disk.\n+ The operation to exchange two things, one for another. For example, variable swap, which exchange their value.",
+    "code": "<?php\n\n    // simple swap technique : \n    // list and array are used for readability\n    list($a, $b) = array($a, $b);\n    \n    // modern version\n    [$a, $b] = [$a, $b];\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Swap_(computer_programming)",
+    "related": [
+        "list",
+        "array",
+        "variable",
+        "algorithm",
+        "sort"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Swap_(computer_programming)"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP: list()",
+            "url": "https://www.php.net/manual/en/function.list.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "XOR swap algorithm - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/XOR_swap_algorithm"
+        }
+    ],
+    "tags": [
+        "disambiguation",
+        "_arrayOK"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Tue, 01 Sep 2026 07:45:55 +0000"
+}

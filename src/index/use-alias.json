@@ -1,0 +1,48 @@
+{
+    "id": "use-alias",
+    "name": "Use Alias",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/use-alias.html",
+    "aliases": [],
+    "description": "The ``use`` operator can create aliases for a class, function or constant. After the declaration of the alias, it is possible to use the original class with the alias name. \n\nWith PHP fallback mechanism, it is possible to declare locally a function with the name of a native PHP function. This is useful to mock such functions.",
+    "code": "<?php\n\nuse Elephpant as Pachyderm;\nuse const HABITAT as ENCLOSURE;\nuse function trumpet as strtlower; // very confusing\n\n\nclass Elephpant {}\n\nnew Elephpant;\nnew Pachyderm;\n\n?>",
+    "documentation": "https://www.php.net/manual/en/language.namespaces.importing.php",
+    "related": [
+        "alias",
+        "as",
+        "namespace-alias",
+        "namespace",
+        "use",
+        "mock",
+        "collision",
+        "global-space"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.namespaces.importing.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "class_alias",
+            "url": "https://www.php.net/manual/en/function.class-alias.php"
+        }
+    ],
+    "tags": [
+        "use"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+}

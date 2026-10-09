@@ -1,0 +1,48 @@
+{
+    "id": "open-tag",
+    "name": "Open Tag",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/open-tag.html",
+    "aliases": [],
+    "description": "PHP commands are placed between the PHP tags: ``<?php`` and ``?>``.  The first tag is called the open tag. \n\nThe open tag is mandatory for PHP to execute the code. Anything before the open tag is output as is, without modification.\n\nThere is another open tag, called ``echo tag``. ``<?=`` starts PHP execution, and outputs the first command.",
+    "code": "<?php\n// here, PHP code\n\n// the closing tag\n?>Here, raw text, always displayed\n<?php\n// more PHP code\n\n// No final closing tag",
+    "documentation": "https://www.php.net/manual/en/language.basic-syntax.phptags.php",
+    "related": [
+        "echo-tag",
+        "short-tag",
+        "close-tag"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.basic-syntax.phptags.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP Short Open Tag: Convenient Shortcut or Short Changing Security?",
+            "url": "https://perishablepress.com/php-short-open-tag/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "What does '<?=' short open tag mean in PHP?",
+            "url": "https://www.geeksforgeeks.org/php/what-does-short-open-tag-mean-in-php/"
+        }
+    ],
+    "tags": [
+        "tags"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sat, 08 Aug 2026 08:10:54 +0000"
+}

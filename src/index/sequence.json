@@ -1,0 +1,53 @@
+{
+    "id": "sequence",
+    "name": "Sequence",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/sequence.html",
+    "aliases": [],
+    "description": "A sequence is an ordered collection of values accessed by integer index starting from 0. PHP arrays natively act as sequences when keys are consecutive integers. The ``ds`` extension provides a dedicated ``Ds\\Sequence`` interface implemented by ``Ds\\Vector`` and ``Ds\\Deque``.\n\nUnlike sets or maps, sequences allow duplicate values and maintain insertion order.",
+    "code": "<?php\n\nuse Ds\\Vector;\n\n$seq = new Vector([1, 2, 3, 4]);\n$seq->push(5);\necho $seq->get(2); // 3\necho $seq->count(); // 5\n\n?>",
+    "documentation": "https://www.php.net/manual/en/class.ds-sequence.php",
+    "related": [
+        "datastructure",
+        "collection",
+        "array",
+        "list",
+        "ds",
+        "splsubject"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/class.ds-sequence.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Ds\\Vector",
+            "url": "https://www.php.net/manual/en/class.ds-vector.php"
+        }
+    ],
+    "tags": [
+        "data structure",
+        "collection"
+    ],
+    "packagist": [
+        "php-ds/php-ds"
+    ],
+    "extensions": [
+        "ds"
+    ],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Wed, 19 Aug 2026 08:26:08 +0000"
+}

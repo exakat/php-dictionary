@@ -1,0 +1,50 @@
+{
+    "id": "code-injection",
+    "name": "Code Injection",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/code-injection.html",
+    "aliases": [],
+    "description": "A code injection is a vulnerability, where external data is used as PHP code.\n\nIn the example below, ``$_GET`` is directly used in the ``eval()`` function. By using a clever string, as shown in the illustration below, it is possible to assign the variable, and run the ``phpinfo()`` command.\n\nAmong the solutions to mitigate this problem: filter adequately the incoming data; use prepared statements.\n\nSome PHP functions are sensitive to this kind of attack: ``eval()``, ``include()``, ``include_once()``, ``require()``, ``require_once()``. Dynamic calls are also susceptible to code injection.",
+    "code": "<?php\n\n    // $_GET['userInput'] = '1; phpinfo()';\n    eval($myvar = $userInput);\n    \n    // $_GET['method'] = 'getSafe';\n    // Any method may be called on the safe object\n    $data->$method();\n\n?>",
+    "documentation": "https://owasp.org/www-community/attacks/Code_Injection",
+    "related": [
+        "eval",
+        "include",
+        "dynamic-call",
+        "execution",
+        "injection"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://owasp.org/www-community/attacks/Code_Injection"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP Security 2: Directory Traversal & Code Injection",
+            "url": "https://www.acunetix.com/websitesecurity/php-security-2/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP code injection",
+            "url": "https://beaglesecurity.com/blog/vulnerability/php-code-injection.html"
+        }
+    ],
+    "tags": [
+        "security"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Fri, 11 Sep 2026 08:59:52 +0000"
+}

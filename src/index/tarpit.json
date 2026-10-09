@@ -1,0 +1,46 @@
+{
+    "id": "tarpit",
+    "name": "Tarpit",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/tarpit.html",
+    "aliases": [
+        "tar-pit"
+    ],
+    "description": "A tar pit is a deliberate slowdown of abusive or unwanted requests to waste an attacker's time and resources. It is related to the honeypot, but also slightly different.",
+    "code": "",
+    "documentation": "https://en.wikipedia.org/wiki/Tarpit_(networking)",
+    "related": [
+        "honeypot"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Tarpit_(networking)"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP-HTTP-Tarpit",
+            "url": "https://github.com/msigley/PHP-HTTP-Tarpit"
+        }
+    ],
+    "tags": [
+        "security",
+        "spam"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Mon, 15 Jun 2026 11:03:59 +0000"
+}

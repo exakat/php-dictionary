@@ -1,0 +1,55 @@
+{
+    "id": "decrypt",
+    "name": "To Decrypt",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/decrypt.html",
+    "aliases": [],
+    "description": "To decrypt is to apply a data transformation on encrypted data to access the original and readable information. Usually, the transformation involves a key. That key may be public or private.\n\nDecrypting data may be done after the transit of information, or its storage, in a database. In both case, privacy is critical.\n\nThe opposite to crypt is to crypt, when it is a legit operation. The evil equivalent to decrypt is to crack, when the secrets have been forced by any mean.",
+    "code": "<?php\n\n    // Encryption\n    $key = openssl_random_pseudo_bytes(32); // 256-bit key\n    $iv = openssl_random_pseudo_bytes(openssl_cipher_iv_length('aes-256-cbc'));\n    \n    $plaintext = 'PHP rocks';\n    $ciphertext = openssl_encrypt($plaintext, 'aes-256-cbc', $key, OPENSSL_RAW_DATA, $iv);\n    $encrypted = base64_encode($iv . $ciphertext);\n    \n    // Decryption\n    $decoded = base64_decode($encrypted);\n    $iv = substr($decoded, 0, openssl_cipher_iv_length('aes-256-cbc'));\n    $ciphertext = substr($decoded, openssl_cipher_iv_length('aes-256-cbc'));\n    $decrypted = openssl_decrypt($ciphertext, 'aes-256-cbc', $key, OPENSSL_RAW_DATA, $iv);\n    \n    echo 'Encrypted: ' . $encrypted . PHP_EOL;\n    echo 'Decrypted: ' . $decrypted . PHP_EOL;\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Encryption",
+    "related": [
+        "asymmetric-cryptography",
+        "crypt",
+        "crack",
+        "convert"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Encryption"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "How to Encrypt and Decrypt a PHP String?",
+            "url": "https://www.geeksforgeeks.org/php/how-to-encrypt-and-decrypt-a-php-string/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Using PHP openssl_encrypt and openssl_decrypt to Encrypt and Decrypt Data",
+            "url": "https://bhoover.com/using-php-openssl_encrypt-openssl_decrypt-encrypt-decrypt-data/"
+        }
+    ],
+    "tags": [
+        "concept",
+        "verb"
+    ],
+    "packagist": [],
+    "extensions": [
+        "openssl",
+        "sodium"
+    ],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Mon, 17 Aug 2026 09:06:21 +0000"
+}

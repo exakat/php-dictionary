@@ -1,0 +1,57 @@
+{
+    "id": "fat-controller",
+    "name": "Fat Controller",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/fat-controller.html",
+    "aliases": [
+        "thick-controller"
+    ],
+    "description": "A fat controller, also called a thick controller, is an anti-pattern in MVC architecture where the controller class accumulates too much business logic, data transformation, and persistence concerns. Instead of orchestrating, it does the actual work.\n\nFat controllers are hard to test, as they require a full HTTP stack, hard to reuse, and grow without bound as features are added.\n\nThe remedy is to extract business logic into services, domain objects, or command/query handlers, leaving the controller with a single responsibility: receive the request, call one service, return the response.",
+    "code": "<?php\n\n    // Fat controller: antipattern\n    class OrderController {\n        public function store(Request $request): Response {\n            $data = $request->all();\n            if (empty($data['email'])) {\n                throw new \\InvalidArgumentException('Email required');\n            }\n            $user = User::where('email', $data['email'])->first();\n            if (!$user) {\n                $user = User::create(['email' => $data['email']]);\n            }\n            $order = new Order();\n            $order->user_id = $user->id;\n            $order->total   = array_sum(array_column($data['items'], 'price'));\n            $order->save();\n            Mail::to($user)->send(new OrderConfirmation($order));\n            return response()->json($order, 201);\n        }\n    }\n    \n    // Thin controller: preferred\n    class OrderController {\n        public function store(Request $request, OrderService $service): Response {\n            $order = $service->create($request->validated());\n            return response()->json($order, 201);\n        }\n    }\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller",
+    "related": [
+        "controller",
+        "mvc",
+        "fat",
+        "thin",
+        "srp",
+        "service",
+        "anti-pattern",
+        "business-logic"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Thin controllers, fat models",
+            "url": "https://symfony.com/doc/current/best_practices.html#controllers"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Large Class code smell",
+            "url": "https://refactoring.guru/smells/large-class"
+        }
+    ],
+    "tags": [
+        "anti-pattern",
+        "mvc",
+        "concept"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sun, 30 Aug 2026 10:49:27 +0000"
+}

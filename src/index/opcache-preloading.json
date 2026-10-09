@@ -1,0 +1,50 @@
+{
+    "id": "opcache-preloading",
+    "name": "OPcache Preloading",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/opcache-preloading.html",
+    "aliases": [
+        "preloading"
+    ],
+    "description": "``OPcache`` preloading, introduced in version 7.4, allows loading PHP files into shared memory at ``PHP-FPM`` startup so they are permanently available to all worker processes without any parsing overhead on each request.\n\nA preload script is specified with ``opcache.preload`` in ``php.ini``. All files required or compiled in that script are cached for the lifetime of the ``PHP-FPM`` master process. Changes to preloaded files require a ``PHP-FPM`` restart to take effect.\n\nPreloading is most effective for framework core files, base classes, and heavily-used libraries.",
+    "code": "<?php\n\n    // preload.php, as referenced in php.ini:\n    // opcache.preload = /var/www/preload.php\n    // opcache.preload_user = www-data\n    \n    // Preload all PHP files from the framework kernel\n    $dir  = new RecursiveDirectoryIterator('/var/www/vendor/symfony/http-kernel');\n    $iter = new RecursiveIteratorIterator($dir);\n    \n    foreach ($iter as $file) {\n        if ($file->getExtension() === 'php') {\n            opcache_compile_file($file->getPathname());\n        }\n    }\n\n?>",
+    "documentation": "https://www.php.net/manual/en/opcache.preloading.php",
+    "related": [
+        "opcache",
+        "cold-start",
+        "jit",
+        "opcode",
+        "fpm",
+        "aot"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/opcache.preloading.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Preloading in PHP 7.4",
+            "url": "https://stitcher.io/blog/preloading-in-php-74"
+        }
+    ],
+    "tags": [
+        "performance",
+        "configuration",
+        "engine"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "7.4",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 20 Aug 2026 08:26:05 +0000"
+}

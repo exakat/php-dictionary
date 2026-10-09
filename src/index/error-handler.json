@@ -1,0 +1,52 @@
+{
+    "id": "error-handler",
+    "name": "Error Handler",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/error-handler.html",
+    "aliases": [],
+    "description": "The PHP error handler is a method that manages errors when they arise, instead of the default PHP handler. \n\nThe error handler is set with the ``set_error_handler()`` function. \n\nThe error handler is convenient to translate errors, handle custom levels of errors, or convert errors to exceptions. \n\nThere is a separate exception handler.",
+    "code": "<?php\n\n    set_error_handler('customErrorHandler');\n    \n    function customErrorHandler($errno, $errstr, $errfile, $errline, array $errcontext)\n    {\n        // Handles @ error suppression\n        if (error_reporting === 0)\n        {\n            return false;\n        }\n    \n        throw new Exception($errstr, 0, $errno, $errfile, $errline);\n    }\n\n?>",
+    "documentation": "https://www.php.net/manual/en/function.set-error-handler.php",
+    "related": [
+        "handler",
+        "exception-handler",
+        "shutdown-function",
+        "error-handling",
+        "error-reporting"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/function.set-error-handler.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Convert Errors to Exceptions in PHP",
+            "url": "https://joshtronic.com/2013/07/15/convert-errors-to-exceptions/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Modern Error handling in PHP",
+            "url": "https://netgen.io/blog/modern-error-handling-in-php"
+        }
+    ],
+    "tags": [
+        "native"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [
+        "Php/AvoidSetErrorHandlerContextArg"
+    ],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Tue, 01 Sep 2026 05:31:03 +0000"
+}

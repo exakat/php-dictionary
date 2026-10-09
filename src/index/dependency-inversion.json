@@ -1,0 +1,55 @@
+{
+    "id": "dependency-inversion",
+    "name": "Dependency Inversion (DIP)",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/dependency-inversion.html",
+    "aliases": [
+        "dip"
+    ],
+    "description": "The Dependency Inversion Principle, or DIP, is the D in SOLID. It states: high-level modules should not depend on low-level modules; both should depend on abstractions. Abstractions should not depend on details; details should depend on abstractions.\n\nIn practice, this means a business-logic class should type-hint an interface, not a concrete implementation. The concrete class is injected from the outside, typically by a dependency injection container. The high-level class has no knowledge of which concrete class it will receive.\n\nDependency inversion has two effects: it decouples the high-level policy from low-level implementation details, and it makes the high-level class testable: a test can inject a mock or in-memory implementation instead of the real dependency.\n\nDependency inversion is often confused with dependency injection, or DI. DI is the mechanism for delivering the dependency\\; DIP is the principle that governs which direction the dependency arrow should point. You can have DI without DIP, but DIP requires DI, or a service locator, to be applied.\n\nDIP is expressed through interfaces, abstract classes, and a DI container.",
+    "code": "<?php\n\n    // Violation: high-level class depends on a concrete low-level class\n    class OrderService {\n        private MySQLOrderRepository $repo; // concrete, tightly coupled\n    \n        public function place(array $data): Order {\n            return $this->repo->save(Order::from($data));\n        }\n    }\n    \n    // DIP applied: both depend on an abstraction (interface)\n    interface OrderRepository {\n        public function save(Order $order): Order;\n        public function findById(int $id): ?Order;\n    }\n    \n    class OrderService {\n        public function __construct(\n            private OrderRepository $repo, // abstraction, no concrete dependency\n        ) {}\n    \n        public function place(array $data): Order {\n            return $this->repo->save(Order::from($data));\n        }\n    }\n    \n    // In tests: inject an in-memory implementation\n    $service = new OrderService(new InMemoryOrderRepository());\n    \n    // In production: inject the real implementation via DI container\n    // $container->bind(OrderRepository::class, MySQLOrderRepository::class);\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Dependency_inversion_principle",
+    "related": [
+        "solid",
+        "dependency-injection",
+        "interface",
+        "decoupling",
+        "coupling",
+        "ports-and-adapters"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Dependency_inversion_principle"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Dependency Inversion Principle in PHP \u2014 Depend on Abstractions, Not Concrete",
+            "url": "https://medium.com/@hasanra17/dependency-inversion-principle-in-php-depend-on-abstractions-not-concrete-e94781446dba"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Dependency Injection vs Dependency Inversion: Understanding the Difference (Simplified for PHP Developers)",
+            "url": "https://www.codegenes.net/blog/difference-between-dependency-injection-and-dependency-inversion/"
+        }
+    ],
+    "tags": [
+        "concept",
+        "acronym",
+        "solid"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Wed, 26 Aug 2026 10:49:40 +0000"
+}

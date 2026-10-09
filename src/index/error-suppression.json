@@ -1,0 +1,55 @@
+{
+    "id": "error-suppression",
+    "name": "Error Suppression",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/error-suppression.html",
+    "aliases": [],
+    "description": "Error suppression is achieved with the ``@`` operator placed before an expression. It silences any error, warning, or notice that expression might produce.\n\nUsing ``@`` is widely considered bad practice: it hides bugs, degrades performance, and makes debugging harder. Better alternatives include proper validation, try/catch blocks, or a custom error handler.\n\nThe ``scream`` extension and ``scream.enabled`` ini directive can disable the ``@`` operator entirely.",
+    "code": "<?php\n\n    // Bad practice: silences errors\n    $result = @file_get_contents('missing.txt');\n    \n    // Better: check first\n    if (file_exists('missing.txt')) {\n        $result = file_get_contents('missing.txt');\n    }\n\n?>",
+    "documentation": "https://www.php.net/manual/en/language.operators.errorcontrol.php",
+    "related": [
+        "error",
+        "noscream",
+        "error-handling",
+        "operator",
+        "error-reporting",
+        "appeasement-pattern",
+        "splsubject"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.operators.errorcontrol.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "set_error_handler",
+            "url": "https://www.php.net/manual/en/function.set-error-handler.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP: The Right Way \u2014 Errors & Exceptions",
+            "url": "https://phptherightway.com/#errors_exceptions"
+        }
+    ],
+    "tags": [
+        "error",
+        "operator"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Tue, 11 Aug 2026 07:50:26 +0000"
+}

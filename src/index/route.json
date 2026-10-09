@@ -1,0 +1,52 @@
+{
+    "id": "route",
+    "name": "Route",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/route.html",
+    "aliases": [],
+    "description": "A route links an HTTP URL to a request handler. \n\nRoutes may be a few, for which a basic system such as a switch is sufficient, to very numerous, where is it handled by a routing system or even the architecture.",
+    "code": "<?php\n\n    switch ($_SERVER['REQUEST_URI']) {\n    \n        // handle home page\n        case '/':\n            require '/controller/homepage.php';\n            break;\n    \n        // handle all other pages\n        default:\n            require '/controller/404.php';\n            break;\n    }\n\n?>",
+    "documentation": "https://webreference.com/php/web-development/routing/",
+    "related": [
+        "swagger",
+        "documentation",
+        "controller"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://webreference.com/php/web-development/routing/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "How to create a basic PHP router",
+            "url": "https://www.educative.io/answers/how-to-create-a-basic-php-router"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Localized route in Laravel with Laralang",
+            "url": "https://dev.to/edulazaro/localized-routes-un-laravel-with-laralang-4g0o"
+        }
+    ],
+    "tags": [
+        "architecture"
+    ],
+    "packagist": [
+        "nikic/fast-route",
+        "symfony/routing",
+        "altorouter/altorouter"
+    ],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sat, 08 Aug 2026 08:10:54 +0000"
+}

@@ -1,0 +1,51 @@
+{
+    "id": "downtime",
+    "name": "Downtime",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/downtime.html",
+    "aliases": [],
+    "description": "Downtime represents periods where a service is not available. \n\nDowntime may be unexpected, such as a bug, an attack on the server, or an unforeseen situation. It may be planned, such as a maintenance upgrade.",
+    "code": "",
+    "documentation": "https://en.wikipedia.org/wiki/Downtime",
+    "related": [
+        "circuit-breaker",
+        "error",
+        "error-handling",
+        "maintenance",
+        "monitoring",
+        "service"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Downtime"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "High availability",
+            "url": "https://en.wikipedia.org/wiki/High_availability"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Martin Fowler: BlueGreenDeployment",
+            "url": "https://martinfowler.com/bliki/BlueGreenDeployment.html"
+        }
+    ],
+    "tags": [
+        "architecture"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Tue, 25 Aug 2026 12:17:01 +0000"
+}

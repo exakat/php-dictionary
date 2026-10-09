@@ -1,0 +1,125 @@
+{
+    "id": "array",
+    "name": "Array, []",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/array.html",
+    "aliases": [
+        "array-short-syntax"
+    ],
+    "description": "``array`` is the array structure. \n\nIt may be written as ``array()`` or with square brackets ``[]``, which is also called the array short syntax.\n\nThe keys that serve as index in the array may be string or integers. \n\nAn array assigns automatically an integer index to the values appended to it. An arbitrary index may be assigned with the ``=>`` syntax, or when accessing an element in the array. \n\nMixed keys in an array refer to the practice of adding elements in the array with both the automatic indexing and the arbitrary assignment.",
+    "code": "<?php\n\n    $array = array(1, 2, 3); \n    \n    $anotherArray = ['a' => 2, 'b' => 33];\n    \n    echo $anotherArray['b']; // 33\n\n?>",
+    "documentation": "https://www.php.net/manual/en/language.types.array.php",
+    "related": [
+        "index-array",
+        "addition",
+        "comma",
+        "dereferencing",
+        "hash-crypto",
+        "hash",
+        "hashing",
+        "iterable",
+        "list",
+        "map",
+        "sort",
+        "indexed-array",
+        "associative-array",
+        "arrayobject",
+        "collection",
+        "multiplication",
+        "recursive-array",
+        "square-bracket",
+        "array-curly-braces",
+        "count",
+        "tree",
+        "weakmap",
+        "file_put_contents",
+        "iterator_to_array",
+        "offset",
+        "yield-from",
+        "array_column",
+        "autovivification",
+        "datastructure",
+        "pair",
+        "pop",
+        "compact-array",
+        "hash-table",
+        "look-up",
+        "multiple-return-value",
+        "random-access",
+        "tuple",
+        "value-type",
+        "type",
+        "dot-notation",
+        "native-type",
+        "self-reference",
+        "serde",
+        "bucket",
+        "multidimensional-array",
+        "nesting",
+        "recursivearrayiterator",
+        "sequence",
+        "set",
+        "swap",
+        "array_filter",
+        "array_key_first",
+        "destructuring",
+        "is_array",
+        "array-syntax",
+        "array-zip",
+        "array_fill",
+        "function-subscripting",
+        "parse_ini_file",
+        "short-assignation"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.types.array.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "New Array Functions in PHP 8.4",
+            "url": "https://ashallendesign.co.uk/blog/php-84-array-functions"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP arrays are driving me mad",
+            "url": "https://lukasrotermund.de/posts/php-array-object-benchmarking/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP Oddities",
+            "url": "https://flowtwo.io/post/php's-oddities"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Arrays",
+            "url": "https://phplang.org/spec/12-arrays.html"
+        }
+    ],
+    "tags": [
+        "language construct",
+        "keyword",
+        "array",
+        "feature",
+        "_arrayOK"
+    ],
+    "packagist": [
+        "voku/arrayy"
+    ],
+    "extensions": [],
+    "analyzers": [
+        "Arrays/ArrayNSUsage"
+    ],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+}

@@ -1,0 +1,52 @@
+{
+    "id": "version",
+    "name": "Version",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/version.html",
+    "aliases": [],
+    "description": "In the context of software development, a version refers to a specific iteration or release of a software product or application. It represents a distinct point in the evolution of the software, marking a milestone or set of changes made to the codebase.\n\nVersions are typically assigned using a versioning scheme that helps track and identify different releases. Versions may be sequential, date based or semantic.\n\nVersions serve several purposes: tracking changes, compatibility management, release management, and bug tracking and support.",
+    "code": "",
+    "documentation": "https://en.wikipedia.org/wiki/Software_versioning",
+    "related": [
+        "release",
+        "semantic-versioning",
+        "upgrade",
+        "cvs",
+        "forward-compatible",
+        "maintenance",
+        "migration"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Software_versioning"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Semantic versioning",
+            "url": "https://semver.org/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Managing package versions in Packagist",
+            "url": "https://packagist.org/about"
+        }
+    ],
+    "tags": [
+        "concept"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Tue, 11 Aug 2026 20:59:56 +0000"
+}

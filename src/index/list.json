@@ -1,0 +1,57 @@
+{
+    "id": "list",
+    "name": "List",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/list.html",
+    "aliases": [],
+    "description": "``list()`` breaks an array into individual elements, and assign them to the arguments of the list. ``list()`` acts as the contrary to ``array()``.\n\n``list()`` also has a short array version, which is ``[ ]`` the square brackets. Those square brackets only appear on the left side of an assignation.\n\n``list()`` may omit extracted values by skipping their value, and leaving seemingly empty arguments. ``list()`` also supports double-arrow notation, where the key is provided. \n\n``list()`` may be nested. It may also be used with ``foreach()`` structures.\n\n``list()`` looks like a function, though it is the only one to appears on the left part of an assignation, and is actually a language-construct.\n\nA list is also the name given to arrays where the index are the automatic ones. \n\n``list()`` is the only expression where successive commas may be used.",
+    "code": "<?php\n\n    list($a, $b, $c) = [1,2,3];\n    \n    [$a, , [$c]] = [1,2,[3],4];\n    \n    [2 => $c, 0 => $a] = [1,2,3,4];\n    \n    $rows = [[1,2], [3, 4]];\n    foreach($rows as [$a, $b]) {\n        print \"$a + $b\\n\";\n    }\n    \n    // Only values are important here\n    $list = range(10, 12);\n    \n    // some keys are missing => not a list\n    $array = array(10, 4 => 12);\n\n?>",
+    "documentation": "https://www.php.net/manual/en/function.list.php",
+    "related": [
+        "array",
+        "comma",
+        "double-arrow",
+        "square-bracket",
+        "tree",
+        "foreach",
+        "sequence",
+        "swap",
+        "assignment",
+        "multiple-return-value",
+        "structural-pattern-matching",
+        "tuple",
+        "destructuring"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/function.list.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "List-o-mania",
+            "url": "https://markbakeruk.net/2022/06/06/list-o-mania/"
+        }
+    ],
+    "tags": [
+        "native function",
+        "_arrayOK",
+        "language construct"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": {
+        "Cannot mix keyed and unkeyed array entries in assignments": "cannot-mix-keyed-and-unkeyed-array-entries-in-assignments"
+    },
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Fri, 18 Sep 2026 09:30:20 +0000"
+}

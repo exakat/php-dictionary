@@ -1,0 +1,45 @@
+{
+    "id": "lsp",
+    "name": "LSP",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/lsp.html",
+    "aliases": [],
+    "description": "LSP is an acronym that has several meanings: \n\n+ Liskov Substitution Principle, part of SOLID programming paradigm\n+ The Language Server Protocol, which provides language intelligence.\n",
+    "code": "",
+    "documentation": "https://en.wikipedia.org/wiki/Liskov_substitution_principle",
+    "related": [
+        "liskov",
+        "language-service-protocol",
+        "autocompletion",
+        "solid",
+        "type-covariance"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Liskov_substitution_principle"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Liskov Substitution Principle in PHP",
+            "url": "https://php.watch/articles/php-lsp"
+        }
+    ],
+    "tags": [
+        "disambiguation"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Mon, 24 Aug 2026 07:40:35 +0000"
+}

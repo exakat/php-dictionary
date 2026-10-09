@@ -1,0 +1,46 @@
+{
+    "id": "argumentcounterror",
+    "name": "ArgumentCountError",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/argumentcounterror.html",
+    "aliases": [],
+    "description": "``ArgumentCountError`` is thrown when too few arguments are passed to a user-defined or PHP native function or method. This is an error, not an exception.\n\nNo exception is raised for extra parameters, as those may still be processed by the method itself.",
+    "code": "<?php\n\n    function trumpet($a) {}\n\n    // No error is raised here\n    trumpet(1,2);\n\n    // ArgumentCountError is catchable\n    try {\n        trumpet();\n    } catch (ArgumentCountError) {\n        print 'No enough parameters passed.';\n    }\n\n?>",
+    "documentation": "https://www.php.net/manual/en/class.argumentcounterror.php",
+    "related": [
+        "throw",
+        "try-catch"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/class.argumentcounterror.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Tutorial: Solve PHP uncaught ArgumentCountError: Too few arguments to function",
+            "url": "https://www.bestwebframeworks.com/tutorials/php/153/solve-php-uncaught-argumentcounterror-too-few-arguments-to-function/"
+        }
+    ],
+    "tags": [
+        "error",
+        "exception",
+        "native error"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [
+        "Functions/WrongNumberOfArguments"
+    ],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+}

@@ -1,0 +1,79 @@
+{
+    "id": "green-thread",
+    "name": "Green Thread",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/green-thread.html",
+    "aliases": [
+        "goroutine",
+        "green-threads"
+    ],
+    "description": "Green threads, also called ``goroutines`` in Go, virtual threads in Java 21+, or lightweight threads in Erlang/Haskell, are user-space threads managed entirely by the language runtime rather than the operating system kernel. The runtime multiplexes thousands or millions of them onto a small pool of OS threads, handles scheduling, stack growth, and context switching transparently, and makes blocking calls non-blocking without programmer intervention.\n\nKey properties of native green threads:\n\n+ Created with negligible overhead: a few kilobytes of stack, no syscall\n+ Scheduled by the runtime, not the OS; the programmer spawns them freely without thinking about thread-pool sizing.\n+ Blocking I/O is intercepted by the runtime and turned into a yield; other green threads run in the meantime.\n+ No explicit ``await`` or ``suspend`` call is required at the call site: existing blocking code simply works.\n\nGo ``goroutines`` are the canonical example: ``go fn()`` spawns a ``goroutine`` and returns immediately. The Go scheduler parks it when it blocks on I/O and resumes it when the I/O completes, across a fixed number of OS threads ``GOMAXPROCS``.\n\nPHP does not have native green threads. PHP's default execution model is shared-nothing: each request runs in its own process or OS thread, managed by PHP-FPM or the web server, with no in-process concurrency between requests.\n\nAvailable approximations, each with trade-offs:\n\n+ Fibers, PHP 8.1: cooperative micro-threads within a single OS thread. Require explicit ``Fiber::suspend()`` / ``resume()`` call sites; the programmer must opt in at every yield point. Fibers do not run in parallel and do not intercept blocking I/O automatically.\n+ Swoole / OpenSwoole / Swow: C extensions that replace PHP's I/O layer and provide a coroutine scheduler. Within a Swoole coroutine server, blocking calls are transparently converted to non-blocking ones, closely approximating green-thread behaviour. However, this requires a persistent-process server model and is not part of the PHP standard distribution.\n+ ReactPHP / AMPHP: pure-PHP event loops built on ``stream_select`` or ``libuv``. They require explicit async/await, ``yield`` or ``async``/``await`` via Fibers, at every I/O boundary; there is no transparent interception.\n+ ``parallel`` extension: true OS threads for CPU-bound work, with strict shared-state constraints: no shared objects.\n\nNone of these match the ergonomics of ``goroutines``, where spawning a concurrent task is a single keyword and all existing synchronous I/O code continues to work unchanged.",
+    "code": "<?php\n\n    // PHP 8.1 Fibers: closest native approximation.\n    // Unlike goroutines, suspension must be explicit and there is no parallelism.\n    \n    $fiber = new Fiber(function (): void {\n        echo \"Fiber started\\n\";\n        $received = Fiber::suspend('first yield');  // explicit yield point required\n        echo \"Fiber resumed with: $received\\n\";\n    });\n    \n    $yielded = $fiber->start();           // run until first suspend()\n    echo \"Main got: $yielded\\n\";         // 'first yield'\n    $fiber->resume('hello');              // hand control back\n    \n    // Swoole coroutines (extension, not standard PHP) come closer\n    // to transparent green threads:\n    //\n    // Co\\run(function () {\n    //     go(function () {\n    //         // Co::sleep() suspends this coroutine transparently;\n    //         // other coroutines run during the wait.\n    //         Co::sleep(1);\n    //         echo \"task A done\\n\";\n    //     });\n    //     go(function () {\n    //         Co::sleep(1);\n    //         echo \"task B done\\n\";\n    //     });\n    // });\n\n?>",
+    "documentation": "https://www.php.net/manual/en/language.fibers.php",
+    "related": [
+        "fibers",
+        "coroutine",
+        "concurrency",
+        "asynchronous",
+        "async",
+        "multithreading",
+        "thread",
+        "green",
+        "openswoole",
+        "sem",
+        "swoole"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.fibers.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Go: Goroutines",
+            "url": "https://go.dev/tour/concurrency/1"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Java 21 Virtual Threads",
+            "url": "https://openjdk.org/jeps/444"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Swoole coroutines",
+            "url": "https://wiki.swoole.com/en/#/coroutine"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP Fibers RFC",
+            "url": "https://wiki.php.net/rfc/fibers"
+        }
+    ],
+    "tags": [
+        "not supported",
+        "concurrency",
+        "architecture"
+    ],
+    "packagist": [
+        "amphp/amp",
+        "react/event-loop"
+    ],
+    "extensions": [
+        "fibers",
+        "parallel"
+    ],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": {
+        "AMPHP": "https://amphp.org/"
+    },
+    "popularity": "",
+    "modified": "Fri, 09 Oct 2026 17:29:25 +0000"
+}

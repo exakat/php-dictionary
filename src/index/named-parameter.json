@@ -1,0 +1,62 @@
+{
+    "id": "named-parameter",
+    "name": "Named Parameters",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/named-parameter.html",
+    "aliases": [
+        "named-argument"
+    ],
+    "description": "Named parameters, also known as named arguments allow to pass arguments to a function or method by specifying the parameter name along with the corresponding value, rather than relying on the order of the parameters.\n\nIn traditional positional parameter passing, the values are provided to a function in the order in which the parameters are defined. However, with named parameters, the parameter to which a value is passed, is explicitly stated.",
+    "code": "<?php\n\n    function trumpet($a, $b) {\n        return $a - $b;\n    }\n\n    echo trumpet(2, 3);  // return -1\n    echo trumpet(3, 2);  // return 1\n\n    echo trumpet(a: 2, b: 3);  // return -1\n    echo trumpet(b: 2, a: 3);  // return 1\n\n?>",
+    "documentation": "https://www.php.net/manual/en/functions.arguments.php",
+    "related": [
+        "positional-parameter",
+        "colon",
+        "option",
+        "streamlining"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/functions.arguments.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP 8.0 feature focus: Named Arguments",
+            "url": "https://upsun.com/blog/php-8-0-named-arguments/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Named Arguments (blog)",
+            "url": "https://sebastiandedeyne.com/named-arguments/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP: Named arguments are your friends",
+            "url": "https://darkghosthunter.medium.com/php-named-arguments-are-your-friends-8076959b2f11/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Opting out of Named Parameters in PHP 8.0",
+            "url": "https://php.watch/articles/no-named-arguments-docblock-attribute"
+        }
+    ],
+    "tags": [
+        "feature",
+        "parameter"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+}

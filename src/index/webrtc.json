@@ -1,0 +1,68 @@
+{
+    "id": "webrtc",
+    "name": "Web Real-Time Communication (WebRTC)",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/webrtc.html",
+    "aliases": [],
+    "description": "``WebRTC``, short for Web Real-Time Communication, is an open-source technology that enables real-time communication directly between web browsers or applications without the need for plugins or external software. It's designed for peer-to-peer, ``P2P``, sharing of audio, video, and data.",
+    "code": "",
+    "documentation": "https://webrtc.org/",
+    "related": [
+        "rest-api",
+        "api",
+        "websocket",
+        "grpc",
+        "p2p"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://webrtc.org/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "gRPC quickstart",
+            "url": "https://grpc.io/docs/languages/php/quickstart/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "gRPC Fundamental and Concept",
+            "url": "https://medium.com/swlh/grpc-fundamental-and-concept-93414d7956df"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "WebRTC In PHP",
+            "url": "https://github.com/PHP-WebRTC/webrtc"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Building a PHP Chat Application with WebRTC and the Ratchet Library",
+            "url": "https://reintech.io/blog/building-php-chat-application-webrtc-ratchet"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "WordPress\u2019s Troubled Real-Time Collaboration Feature",
+            "url": "https://www.searchenginejournal.com/wordpresss-troubled-real-time-collaboration-feature/571201/"
+        }
+    ],
+    "tags": [
+        "api",
+        "acronym"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Mon, 03 Aug 2026 17:05:00 +0000"
+}

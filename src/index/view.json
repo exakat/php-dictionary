@@ -1,0 +1,57 @@
+{
+    "id": "view",
+    "name": "View",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/view.html",
+    "aliases": [],
+    "description": "A view may be have several meanings.\n\n+ In MVC architecture: a view is the presentation layer of the Model-View-Controller pattern. It is responsible for rendering the data provided by the controller into HTML, JSON, or any other output format. In frameworks, views are typically template files, in Twig, Blade, Smarty, etc. that contain a mix of HTML and control structures.\n+ In SQL databases: a view is a stored query that acts as a virtual table. It does not store data itself but provides a way to simplify complex queries, restrict access to specific columns or rows, and present a consistent interface even when the underlying schema changes. Views can be read-only or updateable depending on the database engine and query complexity.\n+ In templating: the ``view()`` pattern refers to any mechanism that renders output to the user, including template engines, the ``View`` class in MVC frameworks, or even direct ``echo`` statements in simpler applications.",
+    "code": "<?php\n\n    // MVC View example (simplified)\n    class UserView {\n        public function render(array $user): string {\n            return '<h1>' . htmlspecialchars($user['name']) . '</h1>'\n                 . '<p>' . htmlspecialchars($user['email']) . '</p>';\n        }\n    }\n\n    // SQL View creation\n    // CREATE VIEW active_users AS\n    // SELECT id, name, email FROM users WHERE status = 'active';\n\n    // PHP PDO access to a SQL view\n    $pdo = new PDO('mysql:host=localhost;dbname=test', 'user', 'pass');\n    $stmt = $pdo->query('SELECT * FROM active_users');\n    $users = $stmt->fetchAll(PDO::FETCH_ASSOC);\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller",
+    "related": [
+        "mvc",
+        "view-presentation",
+        "view-sql",
+        "render",
+        "controller",
+        "model",
+        "template",
+        "twig",
+        "middleware",
+        "direct-output",
+        "html"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP MVC Architecture",
+            "url": "https://webreference.com/php/web-development/mvc/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "SQL Views",
+            "url": "https://www.php.net/manual/pdo.transactions.php"
+        }
+    ],
+    "tags": [
+        "concept",
+        "disambiguation"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 17 Sep 2026 07:47:56 +0000"
+}

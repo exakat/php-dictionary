@@ -1,0 +1,46 @@
+{
+    "id": "plugin",
+    "name": "Plugin",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/plugin.html",
+    "aliases": [
+        "plug-in"
+    ],
+    "description": "A plugin is a component that adds new features to existing code.\n\nA plugin is built on top of a framework, and makes usage of it. It may also have its own dependencies.\n\nPlugin is a generic term, and has many variations: component, extension, module, etc.",
+    "code": "",
+    "documentation": "https://en.wikipedia.org/wiki/Plug-in_(computing)",
+    "related": [
+        "module",
+        "cms",
+        "forum",
+        "marketplace"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Plug-in_(computing)"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "WordPress Plugin Developer Handbook",
+            "url": "https://developer.wordpress.org/plugins/"
+        }
+    ],
+    "tags": [
+        "concept"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Wed, 19 Aug 2026 07:53:08 +0000"
+}

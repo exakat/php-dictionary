@@ -1,0 +1,55 @@
+{
+    "id": "naming-conflict",
+    "name": "Naming Conflict",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/naming-conflict.html",
+    "aliases": [],
+    "description": "A naming conflict appears when two structures of the same type are using the same name.\n\nThis may lead to a fatal error, when the first defined structure has priority: this happens with functions, classes, etc.\n\nIt may also lead to overwriting, when the last structure can overwrite the first one. This approach is often silently executed, leading to late surprises. This is the case with array indices, variables, methods in class hierarchies, or arguments, in older versions of PHP.\n\nSometimes, PHP offers a mechanism to resolve conflicts. This is the case for methods in traits.",
+    "code": "<?php\n\n    $a = 1;\n    $a = 2; // $a is two, the first one is forgotten\n    \n    function trumpet() {}\n    function trumpet() {} // Fatal error\n\n?>",
+    "documentation": "https://www.php.net/manual/en/language.namespaces.php",
+    "related": [
+        "name",
+        "function",
+        "class",
+        "namespace",
+        "name-convention"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.namespaces.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Global Namespace Collision Detection in PHP",
+            "url": "https://philsturgeon.com/global-namespace-class-collisions-in-php/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Name collision - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Name_collision"
+        }
+    ],
+    "tags": [
+        "conflict",
+        "name",
+        "_nocompileOK"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": {
+        "Cannot redeclare X::foo()": "cannot-redeclare-%s::%s()",
+        "Cannot redeclare foo() (previously declared in file:3)": "cannot-redeclare-%s()-(previously-declared-in-%s:%d)"
+    },
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+}

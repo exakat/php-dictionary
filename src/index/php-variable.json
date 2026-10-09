@@ -1,0 +1,47 @@
+{
+    "id": "php-variable",
+    "name": "PHP Variables",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/php-variable.html",
+    "aliases": [],
+    "description": "PHP provides a set of predefined variables. They may be super-global, and available in any context, such as ``$_GET``; they may also be classic variables, in the global scope, such as ``$argv``.\n\nThe set of predefined variables changes with PHP versions: for example, in version 8.0, ``$phperrormsg`` was definitely removed. \n\nThe set of predefined variables also depended on PHP directives. ``$HTTP_RAW_POST_DATA`` depended upon the ``always_populate_raw_post_data`` directive.",
+    "code": "<?php\n\n    print_r($_GET);\n    print_r($argv); // when in CLI\n    print_r($GLOBALS);\n    \n    function trumpet() {\n        global $argc;\n    }\n\n?>",
+    "documentation": "https://www.php.net/manual/en/reserved.variables.php",
+    "related": [
+        "superglobal",
+        "variable",
+        "native",
+        "$argc",
+        "$argv"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/reserved.variables.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Predefined Variables in PHP: For complete beginners",
+            "url": "https://theguerrilla.agency/predefined-variables-in-php-an-overview-for-complete-beginners"
+        }
+    ],
+    "tags": [
+        "variable"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [
+        "Variables/VariablePhp"
+    ],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+}

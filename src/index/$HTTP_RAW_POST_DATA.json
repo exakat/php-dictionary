@@ -1,0 +1,50 @@
+{
+    "id": "$HTTP_RAW_POST_DATA",
+    "name": "$HTTP_RAW_POST_DATA",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/%24HTTP_RAW_POST_DATA.html",
+    "aliases": [],
+    "description": "``$HTTP_RAW_POST_DATA`` used to contain the raw POST data of an HTTP request. \n\n``$HTTP_RAW_POST_DATA`` was removed in version 7.0: it is replaced by ``php://input``.",
+    "code": "<?php\n\n    // $a->file was filled with $_FILES at some point\n    move_uploaded_file($a->file['tmp_name'], $target);\n\n?>",
+    "documentation": "https://www.php.net/manual/en/reserved.variables.files.php",
+    "related": [
+        "php-input",
+        "php-output",
+        "php-memory"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/reserved.variables.files.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP $HTTP_RAW_POST_DATA is deprecated",
+            "url": "https://www.bram.us/2014/10/26/php-5-6-automatically-populating-http_raw_post_data-is-deprecated-and-will-be-removed-in-a-future-version/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP Protocol",
+            "url": "https://www.php.net/manual/en/wrappers.php.php"
+        }
+    ],
+    "tags": [
+        "php variable"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [
+        "Php/RawPostDataUsage"
+    ],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "7.0",
+    "phpVersionDeprecated": "5.6",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Mon, 24 Aug 2026 08:33:08 +0000"
+}

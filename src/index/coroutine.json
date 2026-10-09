@@ -1,0 +1,62 @@
+{
+    "id": "coroutine",
+    "name": "Coroutine",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/coroutine.html",
+    "aliases": [],
+    "description": "Coroutines are methods whose execution may be suspended and resumed. \n\nPHP generators are a sort of coroutines.\n\nSwoole, Openswoole and fibers extensions offer coroutines.",
+    "code": "<?php\n\n    // Example from OpenSwoole (https://openswoole.com/docs/modules/swoole-coroutine)\n    Co\\run(function()\n    {\n        go(function()\n        {\n            Co::sleep(1);\n            echo \"Done 1\\n\";\n        });\n    \n        go(function()\n        {\n            Co::sleep(1);\n            echo \"Done 2\\n\";\n        });\n    });\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Coroutine",
+    "related": [
+        "yield-generator",
+        "blocking-wait",
+        "stealth-generator",
+        "actor-model",
+        "channel",
+        "continuation",
+        "green-thread",
+        "amp",
+        "openswoole",
+        "reactphp",
+        "swoole"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Coroutine"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Coroutine in PHP",
+            "url": "https://openswoole.com/coroutine"
+        }
+    ],
+    "tags": [
+        "concept"
+    ],
+    "packagist": [
+        "swow/swow",
+        "swlib/saber",
+        "amphp/amp"
+    ],
+    "extensions": [
+        "swoole",
+        "openswoole",
+        "fibers"
+    ],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": {
+        "Swoole": "https://www.swoole.com/",
+        "OpenSwoole": "https://openswoole.com/"
+    },
+    "popularity": "",
+    "modified": "Fri, 18 Sep 2026 04:45:37 +0000"
+}

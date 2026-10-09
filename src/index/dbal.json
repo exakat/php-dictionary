@@ -1,0 +1,43 @@
+{
+    "id": "dbal",
+    "name": "Database Abstraction Layer (DBAL)",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/dbal.html",
+    "aliases": [],
+    "description": "A Database Abstraction Layer, a DBAL, provides one unique interface to build, and execute queries on different databases. This is said to help with migration between different flavors of databases, yet SQL language usually prevents it.",
+    "code": "",
+    "documentation": "https://en.wikipedia.org/wiki/Database_abstraction_layer",
+    "related": [
+        "orm"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Database_abstraction_layer"
+        }
+    ],
+    "tags": [
+        "acronym",
+        "database"
+    ],
+    "packagist": [
+        "doctrine/dbal",
+        "dibi/dibi",
+        "illuminate/database"
+    ],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": {
+        "Doctrine": "https://www.doctrine-project.org/"
+    },
+    "popularity": "",
+    "modified": "Fri, 18 Sep 2026 04:45:44 +0000"
+}

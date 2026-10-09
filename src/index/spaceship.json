@@ -1,0 +1,49 @@
+{
+    "id": "spaceship",
+    "name": "Spaceship Operator",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/spaceship.html",
+    "aliases": [],
+    "description": "Spaceship operator is an operator which reports if a value is larger, equal or smaller than another value. It returns 1, 0 or -1 in each case, respectively.\n\nThe spaceship operator may be replaced by a ``-`` minus sign, if the compared values are correct. It may also be replaced with ``!=``, since ``-1`` and ``1`` are both cast to ``true``.\n\nThe spaceship operator got its name from its resemblance to a flying saucer. Battleship operator, or death star operator do not exist.",
+    "code": "<?php\n\n    $a = 1;\n    $b = 3;\n    \n    print $a <=> $b;\n\n?>",
+    "documentation": "https://www.php.net/manual/en/migration70.new-features.php#migration70.new-features.spaceship-op",
+    "related": [
+        "comparison",
+        "minus-one"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/migration70.new-features.php#migration70.new-features.spaceship-op"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Weird operators in PHP",
+            "url": "https://www.exakat.io/en/weird-operators-in-php/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "What Is the PHP Spaceship Operator?",
+            "url": "https://www.designcise.com/web/tutorial/what-is-the-php-spaceship-operator"
+        }
+    ],
+    "tags": [
+        "operator"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [
+        "Structures/CouldBeSpaceship"
+    ],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "7.0",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Tue, 01 Sep 2026 06:21:35 +0000"
+}

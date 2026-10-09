@@ -1,0 +1,50 @@
+{
+    "id": "short-ternary",
+    "name": "Short Ternary Operator",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/short-ternary.html",
+    "aliases": [
+        "short-ternary-operator"
+    ],
+    "description": "The expression ``(expr1) ?: (expr3)`` evaluates to ``expr2`` if ``expr1`` evaluates to ``empty()``, and ``expr3`` if ``expr1`` evaluates to ``false``.\n\nIt is a short version of the ternary operator, and it is often used to set default values in a concise way.",
+    "code": "<?php\n\n    $action = $_POST['action'] ?: 'default';\n\n?>",
+    "documentation": "https://www.php.net/manual/en/language.operators.comparison.php#language.operators.comparison.ternary",
+    "related": [
+        "ternary",
+        "coalesce",
+        "empty",
+        "false"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.operators.comparison.php#language.operators.comparison.ternary"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Shorthand Comparisons in PHP",
+            "url": "https://stitcher.io/blog/shorthand-comparisons-in-php"
+        }
+    ],
+    "tags": [
+        "feature",
+        "operator",
+        "syntax"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [
+        "Php/ShortTernary"
+    ],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "5.3+",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sat, 08 Aug 2026 08:10:54 +0000"
+}

@@ -1,0 +1,46 @@
+{
+    "id": "dynamic-constant",
+    "name": "Dynamic Constant",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/dynamic-constant.html",
+    "aliases": [],
+    "description": "A constant is dynamic when its name is in a variable, or another container, and is accessed at execution time. \n\nReaching a constant's value is done by using the ``constant()`` function, or the dynamic constant fetch with classes. \n\nSometimes, dynamic constants are also called variable constants.",
+    "code": "<?php\n\n    const A = 1;\n    // simple case\n    $a = 'A';\n    echo constant($a); // displays 1\n    \n    // with leading backslash\n    $b = '\\A';\n    echo constant($b); // displays 1\n    \n    // definition has no leading backslash\n    define('B\\C', d);\n    // reading has no leading backslash, or not\n    $c = '\\b\\C';\n    echo constant($c); // displays d\n    $c = 'b\\C';\n    echo constant($c); // displays d\n    \n    // constant() works also on class constants.\n    class D {\n        const E = 'f';\n    }\n    echo constant('d::E'); // displays f\n    \n    // dynamic constant access on classes or enumeration\n    $k = 'E';\n    echo D::{$k}; // f\n    \n    // constant works also on enumeration cases\n    enum I: string {\n        case G = 'h';\n    }\n    echo constant('I::G')->value; // displays h\n    \n    // dynamic constant access on classes or enumeration\n    $g = 'G';\n    echo I::{$g}->value; // h\n\n?>",
+    "documentation": "https://www.php.net/manual/en/function.constant.php",
+    "related": [
+        "constant",
+        "constant-function",
+        "class-constant-syntax",
+        "class-constant",
+        "dynamic"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/function.constant.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "All the Dynamic Syntax in PHP",
+            "url": "https://www.exakat.io/all-the-dynamic-syntaxes-in-php/"
+        }
+    ],
+    "tags": [
+        "feature",
+        "dynamic"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Fri, 11 Sep 2026 09:05:27 +0000"
+}

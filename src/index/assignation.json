@@ -1,0 +1,50 @@
+{
+    "id": "assignation",
+    "name": "Assignation",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/assignation.html",
+    "aliases": [
+        "assignement",
+        "assignment",
+        "affectation"
+    ],
+    "description": "Assignation, sometimes misspelled ``assignement``, refers to the process of assigning a value to a variable. It is a fundamental concept in programming that allows storing and manipulating data.\n\nThe main operator of assignation is ``=``. There are secondary operators, such as ``+=``, ``*=``, ``??=``, ... which are called short assignation: they apply a specific operation while assigning.\n\nFinally, there are some inherent assignations: ``foreach()`` loops, method calls and ``list()`` operator perform assignations without an explicit operator.",
+    "code": "<?php\n\n    $a = 'b';\n    \n    // $c is assigned by \n    foreach([1, 2, 3] as $c) {}\n    echo $c; // $c is 3\n    \n    // list call that assigns values\n    [$a, $b, $c] = ['a', 'b', 'C'];\n\n?>",
+    "documentation": "https://www.php.net/manual/en/language.operators.assignment.php",
+    "related": [
+        "short-assignation",
+        "overwrite",
+        "iffectation",
+        "chaining-assignation",
+        "short-syntax"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.operators.assignment.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Assignment Operators Explained with Examples",
+            "url": "https://softwarebhai.com/blog/php-assignment-operators"
+        }
+    ],
+    "tags": [
+        "syntax",
+        "feature"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Fri, 11 Sep 2026 09:02:34 +0000"
+}

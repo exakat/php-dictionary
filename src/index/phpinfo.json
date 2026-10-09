@@ -1,0 +1,57 @@
+{
+    "id": "phpinfo",
+    "name": "phpinfo()",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/phpinfo.html",
+    "aliases": [],
+    "description": "``phpinfo()`` is one of the most famous PHP functions. It outputs information about PHP's configuration and compilation, in HTML format.\n\nBy default, ``phpinfo()`` prints the PHP version, the operating system it runs on, the build date, the compiler used, the Server API, and the full list of loaded extensions with each of their own settings. It also lists every directive currently defined in ``php.ini``, along with its local and master value, the configured include path, environment variables, HTTP headers of the current request, and PHP's license information. An optional integer argument, made of the ``INFO_*`` constants combined with a bitwise OR, restricts the output to a subset of these sections, such as ``INFO_MODULES`` or ``INFO_VARIABLES``; the default is ``INFO_ALL``.\n\n``phpinfo()`` has existed since PHP 4, and is frequently one of the first functions used to verify that PHP is correctly installed and configured on a server, traditionally by dropping a single-line ``<?php phpinfo(); ?>`` file and requesting it through a browser.\n\nLeaving such a file accessible on a production server is a well-known security risk: it discloses the absolute file paths, loaded extensions and their versions, and configuration details, such as ``disable_functions`` or ``open_basedir``, that an attacker can use to fingerprint the server and look for known vulnerabilities matching that exact configuration. For this reason, static analyzers and security scanners typically flag any call to ``phpinfo()`` left in deployed code.",
+    "code": "<?php\n\n    // Show all information, defaults to INFO_ALL\n    phpinfo();\n\n?>",
+    "documentation": "https://www.php.net/manual/en/function.phpinfo",
+    "related": [
+        "leak",
+        "php.ini",
+        "compiler"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/function.phpinfo"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Part 1/3: Understanding phpinfo() \u2014 The Accidental Goldmine",
+            "url": "https://medium.com/@cybersecplayground/part-1-3-understanding-phpinfo-the-accidental-goldmine-c662da63a3c7"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Pretty PHP Info: A Modern Replacement for `phpinfo()`",
+            "url": "https://laravel-news.com/pretty-phpinfo"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Offensive Internet Posture",
+            "url": "https://bruceediger.com/posts/offensive-machine/"
+        }
+    ],
+    "tags": [
+        "native function",
+        "configuration",
+        "famous"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [
+        "Structures/PhpinfoUsage"
+    ],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "4.0",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Tue, 01 Sep 2026 05:31:03 +0000"
+}

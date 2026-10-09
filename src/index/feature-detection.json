@@ -1,0 +1,49 @@
+{
+    "id": "feature-detection",
+    "name": "Feature Detection",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/feature-detection.html",
+    "aliases": [],
+    "description": "Feature detection is the practice of testing, at runtime, whether a specific capability is actually available before using it, instead of inferring availability indirectly from something like a version number or a ``User-Agent`` string. The check answers 'can I do this?' directly, which stays correct even when the underlying assumption behind a version-based guess breaks, such as a backported feature, a polyfill, or a client that lies about what it is.\n\nFeature detection commonly means checking ``function_exists()`` before calling an optional function, ``extension_loaded()`` before relying on an extension such as ``intl`` or ``gd``, ``class_exists()`` or ``interface_exists()`` before referencing an optional dependency, or ``defined()`` before using a constant that may not exist on every PHP version or build. It is what makes a polyfill possible in the first place: the polyfill itself is only defined once feature detection has established that the native implementation is missing.\n\nThe browser equivalent is testing for a JavaScript API's existence directly, such as ``if ('fetch' in window)``, rather than parsing the ``User-Agent`` string to guess which browser and version is making the request. User-Agent sniffing is brittle because the string is freely spoofable and does not necessarily reflect what the client actually supports, whereas feature detection tests the real thing and degrades gracefully, typically by falling back to a polyfill or an alternate code path, when the feature turns out to be missing.",
+    "code": "<?php\n\n    // feature detection: function\n    if (!function_exists('str_contains')) {\n        function str_contains(string $haystack, string $needle): bool {\n            return strpos($haystack, $needle) !== false;\n        }\n    }\n\n    // feature detection: extension\n    if (extension_loaded('intl')) {\n        $fmt = new NumberFormatter('fr_FR', NumberFormatter::CURRENCY);\n    } else {\n        // fallback formatting without intl\n    }\n\n    // feature detection: optional class/dependency\n    if (class_exists(\\Redis::class)) {\n        $cache = new RedisCache();\n    } else {\n        $cache = new ArrayCache();\n    }\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Feature_detection_(web_development)",
+    "related": [
+        "user-agent",
+        "polyfill",
+        "browser",
+        "get_browser"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Feature_detection_(web_development)"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Feature detection - MDN Web Docs Glossary",
+            "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Testing/Feature_detection"
+        }
+    ],
+    "tags": [
+        "concept",
+        "compatibility"
+    ],
+    "packagist": [
+        "symfony/polyfill-php83"
+    ],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Fri, 25 Sep 2026 13:50:30 +0000"
+}

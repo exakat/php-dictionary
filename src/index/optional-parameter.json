@@ -1,0 +1,52 @@
+{
+    "id": "optional-parameter",
+    "name": "Optional Parameter",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/optional-parameter.html",
+    "aliases": [],
+    "description": "Optional parameters are parameters fitted with a default value. They may then be skipped when the function is called.\n\nOptional parameters should be the last parameters: otherwise, PHP will have trouble figuring out which parameter uses which value.",
+    "code": "<?php\n\nfunction trumpet($trunk, $tusk = 2) { }\n\n// $tusk will be 2, using the default value\ntrumpet(1);\n\n// $tusk will be 3\ntrumpet(1, 3);\n\n?>",
+    "documentation": "https://www.php.net/manual/en/functions.arguments.php",
+    "related": [
+        "parameter",
+        "default-value"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/functions.arguments.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP Default Parameters",
+            "url": "https://www.phptutorial.net/php-tutorial/php-default-parameters/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Default Function Parameters In PHP",
+            "url": "https://www.hashbangcode.com/article/default-function-parameters-php"
+        }
+    ],
+    "tags": [
+        "parameter",
+        "syntax",
+        "feature",
+        "optional"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [
+        "Functions/OptionalParameter"
+    ],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+}

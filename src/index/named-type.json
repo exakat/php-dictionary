@@ -1,0 +1,48 @@
+{
+    "id": "named-type",
+    "name": "Named Type",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/named-type.html",
+    "aliases": [],
+    "description": "A named type is a type with a single name. This means native types, such as ``never``, ``int`` or ``array`` and custom types, such as classes and interfaces. It actually exclude constructed types, such as union types and intersection types. And DNF is included in union types.\n\nNamed types have a related Reflection class: ``ReflectionNamedType``.",
+    "code": "<?php\n\n    function trumpet(Elephpant $elephpant) : void {}\n\n?>",
+    "documentation": "https://www.php.net/manual/en/language.types.declarations.php",
+    "related": [
+        "name",
+        "union-type",
+        "intersection-type"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.types.declarations.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Union Types vs. Intersection Types | PHPStan",
+            "url": "https://phpstan.org/blog/union-types-vs-intersection-types"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP: Type System - Manual",
+            "url": "https://www.php.net/manual/en/language.types.type-system.php"
+        }
+    ],
+    "tags": [
+        "type"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "7.0",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+}

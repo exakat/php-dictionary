@@ -1,0 +1,47 @@
+{
+    "id": "tick",
+    "name": "Tick",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/tick.html",
+    "aliases": [],
+    "description": "Ticks are events that occur for a group of statements, executed by PHP. \n\nTicks are started within the declare block. \n\nTicks are deprecated since PHP 5.3. They might entirely disappear in version 9.0.",
+    "code": "<?php\n\n    declare(ticks=1);\n    \n    // A function called on each tick event\n    function tick_handler()\n    {\n        echo 'tick_handler() called'.PHP_EOL;\n    }\n    \n    register_tick_function('tick_handler'); // causes a tick event\n    \n    $a = 1; // causes a tick event\n    \n    if ($a > 0) {\n        $a += 2; // causes a tick event\n        print($a); // causes a tick event\n    }\n\n?>",
+    "documentation": "https://www.php.net/manual/en/control-structures.declare.php#control-structures.declare.ticks",
+    "related": [
+        "declare"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/control-structures.declare.php#control-structures.declare.ticks"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "The declare() function and ticks",
+            "url": "http://www.hackingwithphp.com/4/21/0/the-declare-function-and-ticks"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP RFC: Deprecate ticks",
+            "url": "https://wiki.php.net/rfc/deprecate_ticks"
+        }
+    ],
+    "tags": [
+        "declare",
+        "rfc"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "9.0",
+    "phpVersionDeprecated": "5.3",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sat, 08 Aug 2026 08:10:54 +0000"
+}

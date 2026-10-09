@@ -1,0 +1,48 @@
+{
+    "id": "abstract-class",
+    "name": "Abstract Class",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/abstract-class.html",
+    "aliases": [],
+    "description": "An abstract class is a class that cannot be instantiated directly. It has the ``abstract`` option.\n\nAn abstract class serves as a blueprint for other classes that extends it, and is intended to be subclassed. It is still possible to access its constants, static properties and static methods. \n\nAn abstract class can contain both regular methods and abstract methods. Regular methods provide common functionality that can be inherited by subclasses, while abstract methods are declared without an implementation. Subclasses of an abstract class must provide an implementation for all the abstract methods defined in the abstract class.",
+    "code": "<?php\n\n    abstract class AbstractClass {\n        abstract function trumpet(); // abstract method\n\n        function forage() {\n            return 1;\n        } // concrete method\n    }\n\n    class ConcreteClass extends AbstractClass{\n\n        function trumpet() {\n            return 2;\n        } // concrete method\n    \n        // No need to redefine the concrete methods.\n        // Yet, it is still possible\n    }\n\n?>",
+    "documentation": "https://www.php.net/manual/en/language.oop5.abstract.php",
+    "related": [
+        "final",
+        "concrete",
+        "abstract-method",
+        "concrete-method",
+        "base-class",
+        "base",
+        "mro"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.oop5.abstract.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP: Abstract Classes, Interfaces, and Traits Explained",
+            "url": "https://medium.com/@Amir_M4A/in-the-world-of-php-programming-there-are-several-key-concepts-that-developers-need-to-understand-b2ed1916287f"
+        }
+    ],
+    "tags": [
+        "abstract",
+        "class"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+}

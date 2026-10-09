@@ -1,0 +1,56 @@
+{
+    "id": "unset",
+    "name": "unset()",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/unset.html",
+    "aliases": [],
+    "description": "``unset()`` removes a variable, an array item or an property. This feature used to be available as a function call ``unset()`` or as a type cast ``(unset)``. The type-cast was removed in version 7.2. \n\nIt is not possible to remove a static property, but it is possible to remove a property: a defined property will be reverted to its definition, while an undefined property is removed. It may end up being uninitialized if it does not have a default value.",
+    "code": "<?php\n\n    $a = ['b' => 1];\n    unset($a['b']); // unset an element\n    unset($a);      // unset the whole array\n    \n    var_dump(isset($a)); // false\n\n?>",
+    "documentation": "https://www.php.net/manual/en/function.unset.php",
+    "related": [
+        "variable",
+        "index-array",
+        "garbage-collection",
+        "local-variable"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/function.unset.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP unset Keyword",
+            "url": "https://zetcode.com/php/unset-keyword/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Demystifying PHP\u2018s Unset() Function",
+            "url": "https://thelinuxcode.com/php-unset-function/"
+        }
+    ],
+    "tags": [
+        "keyword",
+        "cast",
+        "removed feature"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [
+        "Php/CastUnsetUsage"
+    ],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": {
+        "Typed property %s::$%s must not be accessed before initialization": "typed-property-%s::$%s-must-not-be-accessed-before-initialization",
+        "Attempt to unset static property %s::$%s": "attempt-to-unset-static-property-%s::$%s"
+    },
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sat, 08 Aug 2026 08:10:54 +0000"
+}

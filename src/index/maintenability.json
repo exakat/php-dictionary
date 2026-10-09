@@ -1,0 +1,46 @@
+{
+    "id": "maintenability",
+    "name": "Maintenability",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/maintenability.html",
+    "aliases": [],
+    "description": "Maintainability refers to how easy it is to understand, modify, and extend source code over time, especially as the project grows or / and requirements change. \n\nA maintainable codebase is:\n\n+ Readable: code is well-structured, uses meaningful names, and follows consistent formatting\n+ Modular: functions, classes, and files are logically organized and decoupled\n+ Documented: clear comments and documentation explain complex logic and intent\n+ Testable: unit and integration tests ensure changes don't break existing functionality\n+ Debuggable: errors and logs are clear, and debugging is straightforward\n+ Up-to-date: code adheres to modern PHP standards and avoids deprecated features.\n",
+    "code": "",
+    "documentation": "https://en.wikipedia.org/wiki/Software_maintenance#Maintainability",
+    "related": [
+        "readable",
+        "testable",
+        "documentation",
+        "quality"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Software_maintenance#Maintainability"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP and Best Practices: Writing Maintainable, Secure, and Scalable PHP Code",
+            "url": "https://reintech.io/blog/php-best-practices-maintainable-secure-scalable-code"
+        }
+    ],
+    "tags": [
+        "lifecycle"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 09 Jul 2026 08:17:18 +0000"
+}

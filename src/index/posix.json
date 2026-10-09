@@ -1,0 +1,49 @@
+{
+    "id": "posix",
+    "name": "POSIX",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/posix.html",
+    "aliases": [],
+    "description": "``posix`` is a PHP extension that gives access to functions defined in the IEEE 1003.1, POSIX.1, standard that are not reachable through other PHP functions. It exposes operating system features such as process identifiers, user and group information, terminal detection, signal sending, and system identification.\n\nThe extension is available on Unix-like systems only: ``Linux``, ``macOS``, ``BSD``. It is enabled by default in most PHP builds.\n\n``posix`` is commonly used alongside ``pcntl`` in command-line scripts, for example to check the current user, to detect whether a stream is a terminal with ``posix_isatty()``, or to send signals with ``posix_kill()``.",
+    "code": "<?php\n\n  $uid  = posix_getuid();\n  $user = posix_getpwuid($uid);\n  echo 'Running as ', $user['name'], ' (uid ', $uid, ')', PHP_EOL;\n\n  if (posix_isatty(STDOUT)) {\n      echo 'Output is a terminal', PHP_EOL;\n  }\n\n?>",
+    "documentation": "https://www.php.net/manual/en/book.posix.php",
+    "related": [
+        "pcntl",
+        "process",
+        "shell"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/book.posix.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "IEEE Std 1003.1-2008 (POSIX.1)",
+            "url": "https://standards.ieee.org/findstds/standard/1003.1-2008.html"
+        }
+    ],
+    "tags": [
+        "extension"
+    ],
+    "packagist": [],
+    "extensions": [
+        "posix"
+    ],
+    "analyzers": [
+        "Extensions/Extposix"
+    ],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Fri, 09 Oct 2026 17:24:01 +0000"
+}

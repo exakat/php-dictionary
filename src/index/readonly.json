@@ -1,0 +1,64 @@
+{
+    "id": "readonly",
+    "name": "Readonly",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/readonly.html",
+    "aliases": [
+        "readonly-class",
+        "readonly-property"
+    ],
+    "description": "A property or a class can be declared readonly, which prevents modification of the property or all properties after initialization.\n\n``readonly`` also applies inside the ``__clone()`` magic method: cloning doesn't allow for changing a readonly property.\n\nA class may be readonly since version 8.2, making all of of its properties readonly too. The children classes must also be readonly.",
+    "code": "<?php\n\n    class Test {\n       public readonly string $prop;\n    \n       public function __construct(string $prop) {\n           // Legal initialization.\n           $this->prop = $prop;\n       }\n    }\n    \n    $test = new Test(foobar);\n    // Legal read.\n    var_dump($test->prop); // string(6) foobar \n    \n    // Illegal reassignment. It does not matter that the assigned value is the same.\n    $test->prop = foobar;\n    // Error: Cannot modify readonly property Test::$prop\n\n?>",
+    "documentation": "https://www.php.net/manual/en/language.oop5.properties.php#language.oop5.properties.readonly-properties",
+    "related": [
+        "class",
+        "__clone",
+        "property",
+        "clone",
+        "type-declaration-property",
+        "var",
+        "writeable",
+        "borrow-checking",
+        "record-type",
+        "struct-type",
+        "type-system",
+        "modifier"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.oop5.properties.php#language.oop5.properties.readonly-properties"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP 8.1: Readonly Properties",
+            "url": "https://php.watch/versions/8.1/readonly"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "The Hidden Surprises of PHP Readonly Properties",
+            "url": "https://phpfashion.com/en/php-readonly-properties"
+        }
+    ],
+    "tags": [
+        "feature",
+        "keyword",
+        "readonly"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "8.1",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": {
+        "Cannot modify readonly property Test::$prop": "cannot-modify-readonly-property-%s::$%s"
+    },
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 17 Sep 2026 07:38:28 +0000"
+}

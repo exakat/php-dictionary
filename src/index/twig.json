@@ -1,0 +1,52 @@
+{
+    "id": "twig",
+    "name": "Twig",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/twig.html",
+    "aliases": [],
+    "description": "Twig is a template engine for PHP, created by ``SensioLabs`` and used as the default templating layer of the Symfony framework. It is also used standalone in many other projects, such as Drupal, Craft CMS, and countless custom applications.\n\nTwig separates presentation from business logic by offering its own, restricted syntax, delimited by ``{{ }}`` for output, ``{% %}`` for control structures, and ``{# #}`` for comments, that compiles down to plain PHP for execution. Because template code cannot arbitrarily call any PHP function or access superglobals, Twig sandboxes what designers and untrusted template authors can do, and automatically escapes output to prevent XSS by default.\n\nKey Twig features include template inheritance with ``{% extends %}`` and ``{% block %}``, reusable includes and macros, filters such as ``|upper`` or ``|date``, and an extension system that lets applications expose custom functions and filters to templates.",
+    "code": "<?php\n\n    require_once __DIR__ . '/vendor/autoload.php';\n\n    $loader = new \\Twig\\Loader\\FilesystemLoader(__DIR__ . '/templates');\n    $twig = new \\Twig\\Environment($loader);\n\n    echo $twig->render('user.html.twig', [\n        'name' => 'Alice',\n        'roles' => ['admin', 'editor'],\n    ]);\n\n?>",
+    "documentation": "https://twig.symfony.com/doc/3.x/",
+    "related": [
+        "view",
+        "template",
+        "symfony",
+        "mvc",
+        "xss",
+        "html",
+        "blade"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://twig.symfony.com/doc/3.x/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Twig tutorial",
+            "url": "https://riptutorial.com/twig"
+        }
+    ],
+    "tags": [
+        "brand",
+        "template engine"
+    ],
+    "packagist": [
+        "twig/twig"
+    ],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sat, 08 Aug 2026 07:59:09 +0000"
+}

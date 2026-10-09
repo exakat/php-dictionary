@@ -1,0 +1,57 @@
+{
+    "id": "throw",
+    "name": "throw",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/throw.html",
+    "aliases": [],
+    "description": "Throw is the keyword which raises an exception.\n\nWhen an exception is thrown, the normal flow of the program is interrupted, and PHP starts looking for an exception handler to catch and handle the exception.",
+    "code": "<?php\ntry{\n    throw new Exception('Error');\n} catch (\\Exception $e) {\n    print 'Warning : error was identified!';\n}\n\n?>",
+    "documentation": "https://www.php.net/manual/en/language.exceptions.php",
+    "related": [
+        "try-catch",
+        "exception",
+        "argumentcounterror",
+        "arithmeticerror",
+        "error",
+        "exception-chain",
+        "mysqli_sql_exception",
+        "predefined-exception",
+        "jump",
+        "method-compatibility",
+        "return-value"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.exceptions.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Exceptions - PHP Advance",
+            "url": "https://jobtensor.com/Tutorial/PHP/en/Exceptions"
+        }
+    ],
+    "tags": [
+        "keyword"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [
+        "Exceptions/ThrowFunctioncall",
+        "Php/ThrowWasAnExpression",
+        "Php/ThrowUsage"
+    ],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": {
+        "Can only throw objects": "can-only-throw-objects"
+    },
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Tue, 11 Aug 2026 20:51:00 +0000"
+}

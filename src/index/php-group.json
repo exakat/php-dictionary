@@ -1,0 +1,43 @@
+{
+    "id": "php-group",
+    "name": "PHP Group",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/php-group.html",
+    "aliases": [],
+    "description": "The PHP Group is an informal list of PHP authors, which is listed at the top of the PHP credits. They took part in major developments of PHP, and in it decision making. That list has been rarely updated across the years. \n\nThe PHP Foundation is nowadays taking the role to lead and organize the development of PHP.",
+    "code": "",
+    "documentation": "https://www.php.net/credits.php",
+    "related": [
+        "php-foundation"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/credits.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Defining the PHP Group",
+            "url": "https://externals.io/message/107098"
+        }
+    ],
+    "tags": [
+        "community"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Mon, 15 Jun 2026 11:03:59 +0000"
+}

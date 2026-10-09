@@ -1,0 +1,58 @@
+{
+    "id": "lazy-loading",
+    "name": "Lazy Loading",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/lazy-loading.html",
+    "aliases": [],
+    "description": "Lazy loading is a programming pattern that postpones the actual loading of a resource to the moment it is actually used.\n\nThis prevents the application from loading resources that may not be used later: it improves efficiency. \n\nLazy loading happens with data and source code. Some entities may be loaded only when they are actually needed, to avoid loading too much data from the repositories, while they are not used. \n\nPHP also uses lazy loading: some structures are checked at linting time, when they are available. Otherwise, their validation is deferred to execution. For example, method signature compatibility with parents, or class constant values.",
+    "code": "<?php\n\nclass File {\n    private $path;\n    private $content = null;\n\n    function __construct($path) {\n        $this->path = $path;\n    }\n\n    function get() {\n        if ($this->content === null) {\n            $this->content = file_get_contents($path);\n        }\n        \n        return $this->content;\n    }\n}\n\n$file = new File($path);\n// some more code\necho $file->getContent();\n\nclass ErroneousConstant {\n    const VALID = 1;\n    // invalid value for the INVALID constant\n    const INVALID = [] + 1;\n}\n\n// displays 1\necho ErroneousConstant::VALID;\n// This produces a Fatal error, even though it could be detected before. \necho ErroneousConstant::INVALID;\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Lazy_loading",
+    "related": [
+        "lazy-objects",
+        "proxy-class",
+        "proxy",
+        "stealth-generator"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Lazy_loading"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Revisiting Lazy-Loading Proxies in PHP",
+            "url": "https://nicolas-grekas.medium.com/revisiting-lazy-loading-proxies-in-php-ef813eabeb67"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Lazy loading design pattern in PHP",
+            "url": "https://docs.php.earth/php/ref/oop/design-patterns/lazy-loading/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Lazy Loading Data Objects in PHP 8.4 with Doctrine ORM Example",
+            "url": "https://tideways.com/profiler/blog/lazy-loading-data-objects-in-php-8-4-with-doctrine-orm-example"
+        }
+    ],
+    "tags": [
+        "concept",
+        "design pattern",
+        "lint"
+    ],
+    "packagist": [
+        "ocramius/proxy-manager"
+    ],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Wed, 19 Aug 2026 06:47:41 +0000"
+}

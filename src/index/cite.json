@@ -1,0 +1,53 @@
+{
+    "id": "cite",
+    "name": "Class Interface Trait Enumeration (CITE)",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/cite.html",
+    "aliases": [
+        "classlike"
+    ],
+    "description": "CITE stands for Class Interface Trait Enumeration. It represents all four types of PHP structures, also called classlike structures, when they interact together.\n\nIn particular, all four of them share the same namespaces, which may create naming conflicts. This is unlike functions and constants, which both have their own namespaces.",
+    "code": "<?php\n\n    class Elephpant {}\n\n    interface Migratory {}\n\n    trait Foraging {}\n\n    enum Habitat {}\n\n    const Elephpant = 1;\n    function Elephpant() {}\n\n?>",
+    "documentation": "https://www.php.net/manual/en/language.oop5.php",
+    "related": [
+        "class",
+        "trait",
+        "interface",
+        "enum"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.oop5.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Object Interfaces",
+            "url": "https://www.php.net/manual/en/language.oop5.interfaces.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Enumerations",
+            "url": "https://www.php.net/manual/en/language.enumerations.php"
+        }
+    ],
+    "tags": [
+        "acronym"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sat, 12 Sep 2026 08:05:24 +0000"
+}

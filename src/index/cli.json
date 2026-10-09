@@ -1,0 +1,56 @@
+{
+    "id": "cli",
+    "name": "Command Line Interface (CLI)",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/cli.html",
+    "aliases": [],
+    "description": "PHP provides support for a Command Line Interface mode, also called CLI, which allows developers to execute PHP scripts directly from the terminal or command prompt without needing a web server. In this mode, commands are passed as a file or lines of text, and the PHP interpreter processes them sequentially. This feature is particularly useful for automation tasks, cron jobs, scripting, testing, or running PHP-based tools. Additionally, the CLI mode offers access to command-line arguments, making it possible to write interactive scripts or utilities that can process user input or parameters at runtime.",
+    "code": "",
+    "documentation": "https://www.php.net/manual/en/features.commandline.php",
+    "related": [
+        "webserver",
+        "sapi",
+        "repl",
+        "$argc",
+        "$argv",
+        "cgi",
+        "fastcgi",
+        "application",
+        "desktop-app",
+        "tool",
+        "tui",
+        "command",
+        "pcntl_signal"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/features.commandline.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Detailed Guide on PHP Command Line (CLI) and Essential Commands for PHP Developers",
+            "url": "https://www.ducxinh.com/en/techblog/detailed-guide-on-php-command-line-(cli)-and-essential-commands-for-php-developers"
+        }
+    ],
+    "tags": [
+        "acronym",
+        "application"
+    ],
+    "packagist": [
+        "splitbrain/php-cli"
+    ],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sat, 08 Aug 2026 08:10:54 +0000"
+}

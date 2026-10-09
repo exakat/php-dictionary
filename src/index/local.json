@@ -1,0 +1,49 @@
+{
+    "id": "local",
+    "name": "Local Scope",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/local.html",
+    "aliases": [
+        "local-scope"
+    ],
+    "description": "The local scope is the scope inside a function or method. The variables are contained within that scope, and are not available beyond it. \n\nThe opposite of local scope is the global scope.",
+    "code": "<?php\n\n    function trumpet() {\n        // $trunk variable is only available in the trumpet scope\n        $trunk = 1;\n\n        $closure = function () {\n            // this scope is different from trumpet()\n            // its definition is nested in the trumpet() function\n            // but those are 2 distinct scopes\n        };\n    }\n\n    function forage() {\n        // $tusk variable is only available in the forage scope\n        $tusk = 1;\n    }\n\n?>",
+    "documentation": "https://www.php.net/manual/en/language.variables.scope.php",
+    "related": [
+        "scope",
+        "global"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.variables.scope.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Scope (Wikipedia)",
+            "url": "https://en.wikipedia.org/wiki/Scope_(computer_science)"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Anonymous functions",
+            "url": "https://www.php.net/manual/en/functions.anonymous.php"
+        }
+    ],
+    "tags": [
+        "php engine"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+}

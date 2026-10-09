@@ -1,0 +1,53 @@
+{
+    "id": "return",
+    "name": "Return",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/return.html",
+    "aliases": [],
+    "description": "``return`` ends the current method, and sends back a produced value to the calling module. Execution resumes at the expression following the called module's invocation.\n\n``return`` may be typed: the returned value is then checked against that type, by static analysis or by the PHP engine, at execution time. \n\nThe ``return`` type may not always be returned: this is the case for ``never``, which indicates that the method will not return. \n\n``return`` types are covariant: one may return a more precise type, aka a child class, than typed, but not more general, aka a parent class.\n\n``return`` is optional: when omitted, PHP returns automatically ``null``. The returned value of ``return`` is also optional: in that case, PHP returns ``null``, but it also returns a distinct value when the method is typed with the return type ``void``.\n\n``return`` does not prevent ``finally`` from being executed, when the ``return`` command is in a ``try`` block.\n\n``return`` is considered a jump, as it stops the current sequential execution, and moves the pointer to another part of the code. This is similar to ``if-then``, ``goto``, ``for``, ``yield``, etc.\n",
+    "code": "<?php\n\n    function trumpet() {\n        if (rand(0, 1)) {\n            return 'tail';\n        }\n\n        return 'face';\n    }\n    echo trumpet();\n\n    interface Elephpant {\n        function forage(AfricanElephpant $trunk): Elephpant;\n    }\n\n    interface AfricanElephpant extends Elephpant {\n      function forage(Elephpant $trunk): AfricanElephpant;\n    }\n\n?>",
+    "documentation": "https://www.php.net/manual/en/function.return.php",
+    "related": [
+        "function",
+        "method",
+        "closure",
+        "control-flow",
+        "impure-function",
+        "jump",
+        "type",
+        "pure-function",
+        "return-type",
+        "type-covariance"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/function.return.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP return Keyword",
+            "url": "https://zetcode.com/php/return-keyword/"
+        }
+    ],
+    "tags": [
+        "keyword",
+        "feature"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [
+        "Functions/UnusedReturnedValue"
+    ],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+}

@@ -1,0 +1,54 @@
+{
+    "id": "type-class",
+    "name": "Type Class",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/type-class.html",
+    "aliases": [],
+    "description": "A type class, as found in Haskell and similar languages, is a named set of functions that a type must implement in order to belong to that class. Unlike an object-oriented interface, a type class is not implemented by the type itself: instances are declared separately, so a type class can be attached to a type after the fact, including to types the author does not own, such as built-in numbers or third-party types.\n\nType classes provide ad-hoc polymorphism: the same function name, such as ``==`` or ``show``, resolves to a different implementation depending on the type of its argument, chosen by the compiler at compile time rather than looked up in a table at runtime.\n\nPHP has no type class mechanism. Ad-hoc polymorphism over an existing type can only be approximated with interfaces implemented by the type's own class, free functions with manual type checks, or match expressions branching on ``gettype()``. There is no way to retroactively attach a shared contract to a type PHP's engine already knows about, such as ``int`` or a class from a third-party library, without wrapping it.",
+    "code": "",
+    "documentation": "https://en.wikipedia.org/wiki/Type_class",
+    "related": [
+        "interface",
+        "polymorphism",
+        "generics",
+        "overloading",
+        "type-system"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Type_class"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Learn You a Haskell: Types and Typeclasses",
+            "url": "https://learnyouahaskell.com/types-and-typeclasses"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Real World Haskell: Using Typeclasses",
+            "url": "https://book.realworldhaskell.org/read/using-typeclasses.html"
+        }
+    ],
+    "tags": [
+        "concept",
+        "type",
+        "not supported"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Wed, 02 Sep 2026 16:41:00 +0000"
+}

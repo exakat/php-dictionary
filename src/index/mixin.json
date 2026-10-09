@@ -1,0 +1,49 @@
+{
+    "id": "mixin",
+    "name": "Mixin",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/mixin.html",
+    "aliases": [
+        "class-mixin"
+    ],
+    "description": "A mixin, or class mixin, is a class-level construct that provides a set of methods intended to be incorporated into other classes, without forming a base-class relationship. Unlike inheritance, a mixin does not impose an ``is-a`` relationship. Unlike an interface, it supplies concrete implementations. Unlike a trait, as PHP defines it, a mixin is itself an instantiable class or a first-class language entity that is composed through language syntax rather than a ``use`` directive inside the class body.\n\nLanguages such as Dart, Kotlin via delegation, and Scala via self-types and stackable modifications offer mixins as distinct, class-level features.\n\nPHP does not have mixins. PHP traits are the closest analogue: they provide method reuse without inheritance. However, traits differ from true mixins in several ways:\n\n+ A trait is not a class and cannot be instantiated on its own\n+ A trait is composed inside the class definition: it cannot be applied after the fact\n+ A trait cannot extend another class; a mixin in some languages can carry its own class hierarchy\n+ PHP traits are resolved at compile time; some mixin systems allow run-time composition\n\nPHP interfaces with default implementations as in Java are also a common comparison point, but PHP interfaces carry no implementation at all.",
+    "code": "<?php\n\n    // PHP uses traits as the closest equivalent to mixins.\n    // They share the intent but differ from class-level mixins.\n    \n    trait Timestampable {\n        private \\DateTimeImmutable $createdAt;\n    \n        public function getCreatedAt(): \\DateTimeImmutable {\n            return $this->createdAt;\n        }\n    }\n    \n    class Article {\n        use Timestampable;   // composed here, not applied externally\n    }\n    \n    // A true class-level mixin (as in Dart) would be declared separately\n    // and applied without modifying the target class source.\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Mixin",
+    "related": [
+        "trait",
+        "use-trait",
+        "open-class",
+        "polymorphism",
+        "mro"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Mixin"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Dart mixins",
+            "url": "https://dart.dev/language/mixins"
+        }
+    ],
+    "tags": [
+        "not supported",
+        "class",
+        "oop"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Wed, 02 Sep 2026 16:41:00 +0000"
+}

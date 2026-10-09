@@ -1,0 +1,75 @@
+{
+    "id": "type-juggling",
+    "name": "Type Juggling",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/type-juggling.html",
+    "aliases": [],
+    "description": "Type juggling is the emblematic PHP feature, where data has no specific type definition, and its type may change depending on the situation.\n\nFor example, integers are translated into string when displayed, or kept as integers to be used with math operations. \n\nType juggling is usually done automatically, without user intervention. Explicit type juggling is achieved with the cast operators.\n",
+    "code": "<?php\n\n    $a = '35';\n    echo $a + 4; // display 39\n    \n    echo substr($a, -1); // display 5\n\n?>",
+    "documentation": "https://www.php.net/manual/en/language.types.type-juggling.php",
+    "related": [
+        "cast",
+        "boolean",
+        "comparison",
+        "condition",
+        "magic-hash",
+        "silent",
+        "string-increment",
+        "type-checking",
+        "type",
+        "type-inference",
+        "hash-comparison",
+        "coercion",
+        "ctf",
+        "footgun",
+        "strict",
+        "get_debug_type",
+        "gettype",
+        "is_numeric",
+        "settype"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.types.type-juggling.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "How PHP Type Juggling Works \u2013 Explained with Code Examples",
+            "url": "https://www.freecodecamp.org/news/how-php-type-juggling-works-explained-with-code-examples/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP Type Juggling Vulnerability",
+            "url": "https://medium.com/@abdelrahman0x01/php-type-juggling-vulnerability-768bca4d8b3b"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Type Juggling",
+            "url": "https://swisskyrepo.github.io/PayloadsAllTheThings/Type%20Juggling/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "How I Chained Mass Assignment + PHP Type Juggling to Take Over Any Account on a Live Platform",
+            "url": "https://medium.com/@angry.althaf/how-i-chained-mass-assignment-php-type-juggling-to-take-over-any-account-on-a-live-platform-8ad4b193e171"
+        }
+    ],
+    "tags": [
+        "feature",
+        "type"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Fri, 25 Sep 2026 21:30:05 +0000"
+}

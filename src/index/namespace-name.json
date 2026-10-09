@@ -1,0 +1,50 @@
+{
+    "id": "namespace-name",
+    "name": "Namespace Name",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/namespace-name.html",
+    "aliases": [],
+    "description": "Namespaces names are strings of characters that can be used as namespaces names. Such names may be validated with the following regex: ``/^(?:[a-zA-Z_\\x80-\\xff][a-zA-Z_\\x80-\\xff0-9]*)(?:\\\\[a-zA-Z_\\x80-\\xff][a-zA-Z_\\x80-\\xff]*)*$/``.\n\nIn particular, namespaces names accept ``\\`` character, and allows vast ranges of Unicode characters.",
+    "code": "<?php\n\nnamespace A\\B {}\n\nnamespace \u6211\\\u662f\\PHP {}\n\n?>",
+    "documentation": "https://www.php.net/manual/en/language.namespaces.rationale.php",
+    "related": [
+        "namespace",
+        "name",
+        "name-convention"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.namespaces.rationale.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Understanding PHP Namespaces",
+            "url": "https://www.w3docs.com/learn-php/php-namespaces.html"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP: Name resolution rules - Manual",
+            "url": "https://www.php.net/manual/en/language.namespaces.rules.php"
+        }
+    ],
+    "tags": [
+        "naming"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sat, 22 Aug 2026 08:06:26 +0000"
+}

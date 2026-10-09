@@ -1,0 +1,57 @@
+{
+    "id": "ternary",
+    "name": "Ternary Operator",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/ternary.html",
+    "aliases": [
+        "ternary-operator"
+    ],
+    "description": "The expression ``(expr1) ? (expr2) : (expr3)`` evaluates to ``expr2`` if ``expr1`` evaluates to true, and ``expr3`` if ``expr1`` evaluates to false.\n\nThe ternary operator is PHP's only operator that takes three operands. It has existed since the earliest versions of PHP.\n\nNesting ternary expressions used to be left-associative by default, which often led to confusing and buggy code. PHP 7.4 deprecated nesting ternary expressions without explicit parentheses, and PHP 8.0 turned this into a compile-time error: each nested ternary must now be wrapped in parentheses to clarify the intended evaluation order.\n\nThe ternary operator is closely related to the short ternary operator ``?:``, which omits ``expr2`` and returns ``expr1`` itself when it is truthy, and to the null coalescing operator ``??``, which tests for ``null`` instead of truthiness.\n\nThe ternary operator doesn't work with references: it only returns values, and the ``&`` operator leads to compilation errors.",
+    "code": "<?php\n\n    $action = (empty($_POST['action'])) ? 'default' : $_POST['action'];\n\n?>",
+    "documentation": "https://www.php.net/manual/en/language.operators.comparison.php#language.operators.comparison.ternary",
+    "related": [
+        "short-ternary",
+        "coalesce",
+        "if-then",
+        "binary-operator",
+        "colon",
+        "operand",
+        "unary",
+        "nesting",
+        "reference",
+        "compiler",
+        "operator"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.operators.comparison.php#language.operators.comparison.ternary"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Ternary Operator in PHP | How to use the PHP Ternary Operator",
+            "url": "https://www.codementor.io/@sayantinideb/ternary-operator-in-php-how-to-use-the-php-ternary-operator-x0ubd3po6"
+        }
+    ],
+    "tags": [
+        "feature",
+        "operator",
+        "_spacecolonOK"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [
+        "Structures/TernaryInConcat"
+    ],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "7.0+",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Mon, 14 Sep 2026 17:07:28 +0000"
+}

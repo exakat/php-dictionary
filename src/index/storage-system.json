@@ -1,0 +1,46 @@
+{
+    "id": "storage-system",
+    "name": "Storage Systems",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/storage-system.html",
+    "aliases": [],
+    "description": "A storage system is a generic term to describe an external service that store data for a longer time than the current PHP request. \n\nStorage systems may be RDBMS, SQL servers, key-value stores, NoSQL server, file system, memory caching system, etc.",
+    "code": "",
+    "documentation": "https://en.wikipedia.org/wiki/Computer_data_storage",
+    "related": [
+        "rdbms",
+        "key-value-store",
+        "crud",
+        "search-engine"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Computer_data_storage"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PDO in PHP",
+            "url": "https://www.php.net/manual/en/book.pdo.php"
+        }
+    ],
+    "tags": [
+        "architecture"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": {
+        "Redis": "https://redis.io/"
+    },
+    "popularity": "",
+    "modified": "Fri, 18 Sep 2026 05:00:24 +0000"
+}

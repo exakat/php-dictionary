@@ -1,0 +1,53 @@
+{
+    "id": "date",
+    "name": "Dates",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/date.html",
+    "aliases": [],
+    "description": "These functions allow to get the date and time from the server where the application is running. These functions format the date and time in many different ways.",
+    "code": "<?php\n\n    $dt = new DateTimeImmutable('2015-11-01 00:00:00', new DateTimeZone('America/New_York'));\n    echo 'Start: ', $dt->format('Y-m-d H:i:s P'), PHP_EOL;\n    $dt = $dt->add(new DateInterval('PT3H'));\n    echo 'End:   ', $dt->format('Y-m-d H:i:s P'), PHP_EOL;\n\n?>",
+    "documentation": "https://www.php.net/datetime",
+    "related": [
+        "datetime-trap",
+        "datetime",
+        "datetimeinterface"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/datetime"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Dates and periods in PHP",
+            "url": "https://dev.to/xwero/dates-and-periods-in-php-46o1"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP Date and Time Recipes",
+            "url": "https://css-tricks.com/php-date-and-time-recipes/"
+        }
+    ],
+    "tags": [
+        "date"
+    ],
+    "packagist": [],
+    "extensions": [
+        "date"
+    ],
+    "analyzers": [
+        "Structures/NextMonthTrap",
+        "Structures/TimestampDifference"
+    ],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sat, 08 Aug 2026 08:10:54 +0000"
+}

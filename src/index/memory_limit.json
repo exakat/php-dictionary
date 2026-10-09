@@ -1,0 +1,47 @@
+{
+    "id": "memory_limit",
+    "name": "memory_limit",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/memory_limit.html",
+    "aliases": [],
+    "description": "``memory_limit`` is the directive that caps the maximum amount of memory that PHP can use. \n\nThe limit is expressed in bytes, although options are available for kb ``K``, Mb ``M`` and Gb ``G``, case insensitive.\n\nThe limit may be lifted by setting this directive to ``-1``.\n\nPHP requires a minimum of memory when starting. Usually, it is about 2Mb of RAM. Setting any positive value for ``memory_limit`` below that threshold prevents PHP from starting.\n\nThe default value of ``memory_limit`` is 128 Mb. \n\n``memory_limit`` may be changed during execution with ``ini_set()``.",
+    "code": "<?php\n\n    echo ini_get('memory_limit');  //128M\n\n?>",
+    "documentation": "https://www.php.net/manual/en/ini.core.php#ini.memory-limit",
+    "related": [
+        "memory",
+        "php-memory",
+        "php-tmp",
+        "vertical-scaling"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/ini.core.php#ini.memory-limit"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP memory_limit \u2013 understanding and increasing",
+            "url": "https://linuxblog.io/understanding-php-memory_limit/"
+        }
+    ],
+    "tags": [
+        "-1",
+        "directive"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Mon, 15 Jun 2026 11:03:59 +0000"
+}

@@ -1,0 +1,55 @@
+{
+    "id": "poll-api",
+    "name": "Polling API",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/poll-api.html",
+    "aliases": [
+        "io-poll",
+        "polling-api"
+    ],
+    "description": "The Polling API is a PHP 8.6 addition that provides a single interface over the platform polling mechanisms: ``epoll`` on Linux, ``kqueue`` on BSD and macOS, event ports on Solaris and illumos, ``WSAPoll`` on Windows, and ``poll`` as a POSIX fallback. The backend is selected automatically.\n\nThe API lives in the ``Io\\Poll`` namespace. It is meant to replace ``stream_select()`` in event loops and async runtimes. It provides polling only, not a full event loop.\n\nThe main classes are:\n\n+ ``Io\\Poll\\Context``: holds the set of watched handles and waits for events with ``wait()``\n+ ``Io\\Poll\\Watcher``: returned by ``Context::add()``, it reports the triggered events and can modify or remove the watch\n+ ``Io\\Poll\\Event``: enum of ``Read``, ``Write``, ``Error``, ``HangUp``, ``ReadHangUp``, ``OneShot`` and ``EdgeTriggered``\n+ ``Io\\Poll\\Backend``: enum of the available backends\n+ ``StreamPollHandle``: wraps a PHP stream so it can be polled\n\nUser classes cannot implement ``Io\\Poll\\Handle``. The RFC names it as a marker interface, and sockets and curl handles are planned as future handle types.\n\nThe RFC is mainly an internal API for PHP core and extensions, for example ZTS signal handling in FrankenPHP, PHP-FPM worker events and timers. The userspace API is a secondary goal. Symfony provides a polyfill for PHP 8.1 and later.",
+    "code": "<?php\nuse Io\\Poll\\{Context, Event};\n\n$poll   = new Context();                    // Backend::Auto\n$stream = fopen('php://temp', 'r+');\n$poll->add(new StreamPollHandle($stream), [Event::Read], 'tag');\n\nforeach ($poll->wait(1) as $watcher) {      // wait up to 1 second\n    if ($watcher->hasTriggered(Event::Read)) {\n        echo 'Stream is readable, tag: ', $watcher->getData(), PHP_EOL;\n    }\n}\n\n?>",
+    "documentation": "https://wiki.php.net/rfc/poll_API",
+    "related": [
+        "polling",
+        "stream",
+        "socket",
+        "event-driven",
+        "non-blocking"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://wiki.php.net/rfc/poll_API"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP 8.6 RFC: Polling API",
+            "url": "https://php.watch/rfcs/poll_api"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "The Polling API Is the Most Underrated RFC PHP Has Shipped in Years",
+            "url": "https://juststeveking.com/articles/php-8-6-polling-api-rfc/"
+        }
+    ],
+    "tags": [
+        "core"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "8.6",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Fri, 09 Oct 2026 17:24:29 +0000"
+}

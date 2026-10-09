@@ -1,0 +1,47 @@
+{
+    "id": "htaccess",
+    "name": ".htaccess",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/htaccess.html",
+    "aliases": [],
+    "description": "The .htaccess file is a configuration file used in web servers that support the Apache HTTP Server software. It allows the configuration of various aspects of how your web server operates and how it serves web content. The name ``htaccess`` stands for ``hypertext access``, and the file is often referred to as an ``htaccess file``.",
+    "code": "",
+    "documentation": "https://www.seobility.net/en/wiki/.htaccess",
+    "related": [
+        "configuration",
+        "webserver",
+        "php",
+        "open_basedir",
+        "directive",
+        "php.ini"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.seobility.net/en/wiki/.htaccess"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Apache Tutorial: .htaccess files",
+            "url": "https://httpd.apache.org/docs/current/howto/htaccess.html"
+        }
+    ],
+    "tags": [
+        "configuration",
+        "file"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Fri, 14 Aug 2026 08:04:46 +0000"
+}

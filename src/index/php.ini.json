@@ -1,0 +1,52 @@
+{
+    "id": "php.ini",
+    "name": "php.ini",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/php.ini.html",
+    "aliases": [],
+    "description": "``php.ini`` is the name of the main configuration file of PHP. It acts as the default configuration. \n\n``php.ini`` contains directives. For example, ``memory_limit`` or ``default_socket_timeout``.\n\nThey may be later redefined using other mechanisms, such as command line options ``-d``, ``.htaccess`` or in-code function call ``ini_set()``, although it may vary depending on the directive.",
+    "code": "",
+    "documentation": "https://www.php.net/manual/en/configuration.file.php",
+    "related": [
+        "directive",
+        "htaccess",
+        "ini_set",
+        "disable-classes",
+        "expose_php",
+        "open_basedir",
+        "phpinfo",
+        "configuration",
+        "parse_ini_file",
+        "short-tag",
+        "short_open_tag",
+        "whm"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/configuration.file.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "List of php.ini directives",
+            "url": "https://www.php.net/manual/en/ini.list.php"
+        }
+    ],
+    "tags": [
+        "directive"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Fri, 28 Aug 2026 09:46:16 +0000"
+}

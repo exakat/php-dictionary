@@ -1,0 +1,51 @@
+{
+    "id": "hidden-state",
+    "name": "Hidden State",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/hidden-state.html",
+    "aliases": [],
+    "description": "Hidden state is state that exists in a program and influences its behavior but is not visible or accessible from the current scope.\n\nHidden state arises from: static properties of classes, as they persist for the lifetime of the request, modified anywhere; static variables; singleton instances; readonly properties; buffered output ``ob_start()``; the internal pointer of arrays; file handles; extension-level state, e.g., the last regex error from ``preg_last_error()``; and objects passed by reference that are mutated inside functions.\n\nHidden state is a common source of hard-to-reproduce bugs: the same function called twice with identical arguments may produce different results because some invisible state changed between the two calls. It also makes code difficult to test in isolation.\n\nUnlike implicit state, which is about undeclared inputs, hidden state refers specifically to state that is not visible from the calling context.",
+    "code": "<?php\n\n    class Counter {\n        private static int $count = 0; // hidden state: shared across all instances\n    \n        public static function increment(): void {\n            self::$count++;\n        }\n    \n        public static function get(): int {\n            return self::$count;\n        }\n    }\n    \n    Counter::increment();\n    // Somewhere else in the codebase...\n    Counter::increment();\n    \n    echo Counter::get(); // 2 \u2014 but caller may not know it was called twice\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/State_(computer_science)",
+    "related": [
+        "state",
+        "implicit-state",
+        "implicit",
+        "stateful",
+        "global-variable",
+        "$globals",
+        "appeasement-pattern",
+        "distributed-state"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/State_(computer_science)"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Test isolation",
+            "url": "https://docs.phpunit.de/en/13.3/attributes.html#test-isolation"
+        }
+    ],
+    "tags": [
+        "concept",
+        "code smell"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sun, 23 Aug 2026 20:36:29 +0000"
+}

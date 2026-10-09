@@ -1,0 +1,47 @@
+{
+    "id": "program-to-interface",
+    "name": "Program To Interface",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/program-to-interface.html",
+    "aliases": [],
+    "description": "``Program to an interface`` means the code should depend on abstractions, not concrete implementations. It should type with interfaces, not with concrete classes. \n\nIt's one of the most important OOP design principles. Using interface allows for multiple classes of objects to be used, as long as they provide the right methods; it helps with testing, by allowing alternative mock objects; it introduce flexibility and reduce coupling.",
+    "code": "<?php\n\n    interface Customer {}\n    \n    class WebCustomer implements Customer {}\n    \n    // using an abstraction: different type of customers may be used here\n    function invoice(Customer $customer) {}\n\n    // using a concrete class: it cannot be swapped easily, unless with inheritance\n    function bill(WebCustomer $customer) {}\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Interface_(object-oriented_programming)",
+    "related": [
+        "interface",
+        "concrete",
+        "flexibility",
+        "coupling",
+        "testable"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Interface_(object-oriented_programming)"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Programming to Interface, Not to Implementation: A PHP Developer's Journey",
+            "url": "https://notes.sohag.pro/programming-to-interface-not-to-implementation-a-php-developers-journey"
+        }
+    ],
+    "tags": [
+        "motto"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Fri, 19 Jun 2026 21:28:47 +0000"
+}

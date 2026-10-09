@@ -1,0 +1,46 @@
+{
+    "id": "define",
+    "name": "define()",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/define.html",
+    "aliases": [],
+    "description": "``define()`` is a PHP function that introduces global constant definitions.\n\n``define()`` is a function, and may be called anywhere. It is slower than ``const``, as it is only executed at runtime. ``define()`` doesn't allow the creation of class constants.\n\n``define()`` used to create case-insensitive constants, and this was abandoned in version 7.3.\n\n``define()`` cannot create class constants.\n",
+    "code": "<?php\n\n    define('HELLO', 'Hello');\n    \n    print HELLO . \" world\\n\";\n\n?>",
+    "documentation": "https://www.php.net/manual/en/control-structures.alternative-syntax.php",
+    "related": [
+        "const",
+        "constant",
+        "class-constant",
+        "defined",
+        "conditioned",
+        "execution-time"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/control-structures.alternative-syntax.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP Constants \u2013 define() vs. const and Array Constants",
+            "url": "https://coding.courses/php-constants/"
+        }
+    ],
+    "tags": [
+        "constant"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 01 Oct 2026 09:27:50 +0000"
+}

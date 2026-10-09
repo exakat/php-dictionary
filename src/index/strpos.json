@@ -1,0 +1,51 @@
+{
+    "id": "strpos",
+    "name": "strpos",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/strpos.html",
+    "aliases": [
+        "stripos"
+    ],
+    "description": "``strpos()`` is a built-in PHP function that finds the position of the first occurrence of a string inside another string.\n\nIt is often used to check if a string contains another string. When the presence of the string is the main goal of the check, it is advantageously replaced by ``str_contains()``, ``str_starts_with()`` or ``str_ends_with()``. Otherwise, this function is prone to the ``strpos()`` syndrome, a classic PHP trap.\n\n``strpos()`` has a case-insensitive version called ``stripos()``.\n",
+    "code": "<?php\n\n    if(strpos('abc', 'b')) {\n        print \"The string contains a `b`.\";\n    } \n    \n    // Error! 'a' is at position 0, which is confused with false\n    if(strpos('abc', 'a')) {\n        print \"The string contains a `b`.\";\n    } \n    \n    // This is OK\n    if(strpos('abc', 'a') !== false) {\n        print \"The string contains a `b`.\";\n    } \n\n?>",
+    "documentation": "https://www.php.net/manual/en/function.strpos.php",
+    "related": [
+        "strpos-syndrom",
+        "identical",
+        "str_contains",
+        "str_starts_with",
+        "str_ends_with",
+        "case-sensitivity",
+        "fnmatch"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/function.strpos.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Strpos - vulnerability",
+            "url": "https://sivaramaaa.github.io/blog/prgm_vuln1.html"
+        }
+    ],
+    "tags": [
+        "native function"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Tue, 01 Sep 2026 05:31:03 +0000"
+}

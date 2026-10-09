@@ -1,0 +1,50 @@
+{
+    "id": "__trait__",
+    "name": "__TRAIT__",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/__trait__.html",
+    "aliases": [],
+    "description": "``__TRAIT__`` is a magic constant that holds the current trait name. This is the trait of definition, not the host class. It is not the same as ``self::class``, which may change depending on the calling context.\n\nThe trait name includes the namespace it was declared in, e.g. ``N\\X``. It does not include the leading ``\\``. \n\nWhen used outside a trait, ``__TRAIT__`` is empty. \n\nThis constant is written in uppercase, by convention. It is case insensitive, and may be used with any combination of uppercase and lower case. ",
+    "code": "<?php\n\n    namespace N; \n    \n    trait Trumpeting {\n        function trumpet() {\n            echo __TRAIT__;  // N\\Trumpeting\n            echo __CLASS__;  // N\\Elephpant\n        }\n    }\n\n    class Elephpant {\n        use Trumpeting;\n    }\n\n?>",
+    "documentation": "https://www.php.net/manual/en/language.constants.magic.php",
+    "related": [
+        "__function__",
+        "__method__",
+        "__class__"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.constants.magic.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Traits",
+            "url": "https://www.php.net/manual/en/language.oop5.traits.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP Magic Constants - Examples of How Magic Constants Work in PHP",
+            "url": "https://www.educba.com/php-magic-constants/"
+        }
+    ],
+    "tags": [
+        "magic constant"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Fri, 18 Sep 2026 09:33:48 +0000"
+}

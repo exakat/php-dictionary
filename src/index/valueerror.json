@@ -1,0 +1,45 @@
+{
+    "id": "valueerror",
+    "name": "ValueError",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/valueerror.html",
+    "aliases": [],
+    "description": "A ``ValueError`` is thrown when the type of an argument is correct but the value of it is incorrect. \n\nIt is a PHP error, and not an exception, it is thrown by PHP native functions. ",
+    "code": "<?php\n\n    $hexadecimal = 'a37334';\n    \n    // -2 is not a valid number base : it should be 2 or more.\n    // Argument #2 ($from_base) must be between 2 and 36 (inclusive)\n    echo base_convert($hexadecimal, 0, 2);\n    \n    // Third argument is for the starting offset. Here, this is beyond the end of the string\n    // as such, the offset has a valid type (integer), but its value is not correct (out of range)\n    $a = strpos(\"p\", \"php\", 16);\n\n?>",
+    "documentation": "https://www.php.net/manual/en/class.valueerror.php",
+    "related": [
+        "error",
+        "exception",
+        "json_decode"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/class.valueerror.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP 8.0: New ValueError Error Exception",
+            "url": "https://php.watch/versions/8.0/ValueError"
+        }
+    ],
+    "tags": [
+        "error",
+        "exception",
+        "native class"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sat, 08 Aug 2026 08:10:54 +0000"
+}

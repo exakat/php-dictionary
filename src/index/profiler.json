@@ -1,0 +1,68 @@
+{
+    "id": "profiler",
+    "name": "PHP Profiler",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/profiler.html",
+    "aliases": [],
+    "description": "A profiler is an application that helps track execution performances, and spots slow parts of the application for optimization.\n\nPHP has several profilers. They may provide an online interface to visualize the results, or a local server, or even a raw execution breakdown, which may then be processed to identify the bottlenecks.",
+    "code": "<?php\n\n    // code to use with PHP-spx, one of PHP profilers\n    \n    while ($task = get_next_ready_task()) {\n      spx_profiler_start();\n      try {\n        $task->process();\n      } finally {\n        spx_profiler_stop();\n      }\n    }\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Profiling_(computer_programming)",
+    "related": [
+        "debugger",
+        "bottleneck",
+        "flamegraph",
+        "micro-optimisation",
+        "premature-optimization",
+        "profiling"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Profiling_(computer_programming)"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP-profiler",
+            "url": "https://github.com/perftools/php-profiler.git"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP-reli",
+            "url": "https://github.com/reliforp/reli-prof.git"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "XHprof (PHP manual)",
+            "url": "https://www.php.net/manual/en/book.xhprof.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Xdebug",
+            "url": "https://www.xdebug.org/"
+        }
+    ],
+    "tags": [
+        "optimisation"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [
+        "Extensions/Extspx",
+        "Extensions/Extxdebug",
+        "Extensions/Extxhprof"
+    ],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": {
+        "blackfire": "https://blackfire.io/",
+        "tideways": "https://tideways.com/"
+    },
+    "popularity": "",
+    "modified": "Thu, 17 Sep 2026 09:15:18 +0000"
+}

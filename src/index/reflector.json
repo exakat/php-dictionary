@@ -1,0 +1,48 @@
+{
+    "id": "reflector",
+    "name": "Reflector",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/reflector.html",
+    "aliases": [],
+    "description": "``Reflector`` is the base interface that all PHP Reflection classes implement. It declares ``__toString()``, providing a common type for all reflection objects.\n\nAll reflection classes, ``ReflectionClass``, ``ReflectionMethod``, ``ReflectionFunction``, ``ReflectionProperty``, ``ReflectionParameter``, etc., implement this interface, allowing code to accept any reflector generically.",
+    "code": "<?php\n\n    function describeReflector(Reflector $r): void {\n        echo (string) $r . PHP_EOL;\n    }\n    \n    describeReflector(new ReflectionClass(DateTime::class));\n    describeReflector(new ReflectionFunction('array_map'));\n\n?>",
+    "documentation": "https://www.php.net/manual/en/class.reflector.php",
+    "related": [
+        "reflection",
+        "interface",
+        "php-interface",
+        "introspection",
+        "splsubject"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/class.reflector.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "ReflectionClass Class",
+            "url": "https://www.php.net/manual/en/class.reflectionclass.php"
+        }
+    ],
+    "tags": [
+        "reflection",
+        "interface"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "5.1",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Mon, 15 Jun 2026 11:03:59 +0000"
+}

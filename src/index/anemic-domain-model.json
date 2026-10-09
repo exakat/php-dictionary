@@ -1,0 +1,55 @@
+{
+    "id": "anemic-domain-model",
+    "name": "Anemic Domain Model",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/anemic-domain-model.html",
+    "aliases": [
+        "anemic-model",
+        "anemic-domain"
+    ],
+    "description": "The anemic domain model is an anti-pattern identified by Martin Fowler where domain objects contain only data, getters, setters, and no business logic. All business logic is instead placed in service classes that operate on these passive data containers.\n\nThe result is a structural inversion: the domain layer becomes a schema mirror, while service classes accumulate all the behaviour. This defeats the purpose of object-oriented design, where objects encapsulate both state and the operations that depend on that state.\n\nThe symptoms are recognisable: entities have only getters/setters, service classes are large and growing, business rules are scattered across multiple services, and the same validation or computation is duplicated in several places.\n\nThe alternative is the rich domain model, where entities enforce their own invariants, expose meaningful behaviour, and reject invalid state. This is the model advocated by Domain-Driven Design.\n\nAnemic models often emerge from ORM-first design, where Doctrine or Eloquent entities are modelled around the database schema rather than the domain.",
+    "code": "<?php\n\n// Anemic: Order is a data bag; all logic in OrderService\nclass Order {\n    public int    $id;\n    public string $status;\n    public float  $total;\n    public array  $items = [];\n}\n\nclass OrderService {\n    public function ship(Order $order): void {\n        if ($order->status !== 'paid') {          // business rule in service\n            throw new \\LogicException('...');\n        }\n        $order->status = 'shipped';               // service mutates the entity\n        $this->repository->save($order);\n    }\n}\n\n// Rich: Order enforces its own invariants\nclass Order {\n    private string $status = 'new';\n\n    public function ship(): void {\n        if ($this->status !== 'paid') {           // rule lives in the entity\n            throw new \\DomainException('Order must be paid before shipping.');\n        }\n        $this->status = 'shipped';\n        $this->record(new OrderShipped($this->id));\n    }\n}\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Anemic_domain_model",
+    "related": [
+        "rich-domain-model",
+        "ddd",
+        "domain",
+        "oop",
+        "layered-architecture"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Anemic_domain_model"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Rich vs Anemic Entities in PHP with Doctrine: How to Structure Your Business Logic Right",
+            "url": "https://dev.to/mykola_vantukh/rich-vs-anemic-entities-in-php-how-to-structure-your-business-logic-right-7a0"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Martin Fowler: Anemic Domain Model",
+            "url": "https://martinfowler.com/bliki/AnemicDomainModel.html"
+        }
+    ],
+    "tags": [
+        "concept"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": {
+        "Martin Fowler": "https://martinfowler.com/"
+    },
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 17 Sep 2026 14:42:15 +0000"
+}

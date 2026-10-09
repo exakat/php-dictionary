@@ -1,0 +1,55 @@
+{
+    "id": "function-subscripting",
+    "name": "Function Subscripting",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/function-subscripting.html",
+    "aliases": [
+        "subscripting"
+    ],
+    "description": "Function subscripting is the ability to apply operators like ``->``, ``?->`` or ``[<index>]`` directly on the results of a method call.\n\nUsing types, it is possible to ensure the previous call returns a valid array or object. When left unchecked, the subscripting leads to warnings or fatal errors.\n",
+    "code": "<?php\n\n    // displays the third element of the response of 'callMethod', on object 'getObject';\n    echo getObject()->callMethod()[3];\n\n?>",
+    "documentation": "https://www.php.net/manual/en/functions.user-defined.php",
+    "related": [
+        "dereferencing",
+        "function",
+        "method",
+        "closure",
+        "array",
+        "object"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/functions.user-defined.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP manual: Arrays",
+            "url": "https://www.php.net/manual/en/language.types.array.php"
+        }
+    ],
+    "tags": [
+        "feature",
+        "syntax"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [
+        "Structures/FunctionSubscripting"
+    ],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": {
+        "Trying to access array offset on int": "trying-to-access-array-offset-on-%s",
+        "Attempt to read property \"b\" on int": "attempt-to-read-property-\"%s\"-on-%s",
+        "Illegal class name": "illegal-class-name"
+    },
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+}

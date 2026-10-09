@@ -1,0 +1,51 @@
+{
+    "id": "observer-pattern",
+    "name": "Observer Pattern",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/observer-pattern.html",
+    "aliases": [],
+    "description": "The Observer pattern defines a one-to-many dependency between objects: when one object changes state, all registered dependents are notified automatically.\n\nPHP provides built-in interfaces ``SplSubject`` and ``SplObserver`` to implement this pattern natively. It is also the basis for event-driven systems, message buses, and reactive frameworks.",
+    "code": "<?php\n\n    class EventSource implements SplSubject {\n        private SplObjectStorage $observers;\n        private string $state = '';\n    \n        public function __construct() {\n            $this->observers = new SplObjectStorage();\n        }\n    \n        public function attach(SplObserver $observer): void {\n            $this->observers->attach($observer);\n        }\n    \n        public function detach(SplObserver $observer): void {\n            $this->observers->detach($observer);\n        }\n    \n        public function notify(): void {\n            foreach ($this->observers as $observer) {\n                $observer->update($this);\n            }\n        }\n    \n        public function setState(string $state): void {\n            $this->state = $state;\n            $this->notify();\n        }\n    }\n\n?>",
+    "documentation": "https://www.php.net/manual/en/class.splsubject.php",
+    "related": [
+        "design-pattern",
+        "observer",
+        "splobserver",
+        "splsubject"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/class.splsubject.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "SplObserver",
+            "url": "https://www.php.net/manual/en/class.splobserver.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Observer pattern",
+            "url": "https://en.wikipedia.org/wiki/Observer_pattern"
+        }
+    ],
+    "tags": [
+        "design pattern"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Wed, 15 Jul 2026 13:50:35 +0000"
+}

@@ -1,0 +1,47 @@
+{
+    "id": "dynamic-call",
+    "name": "Dynamic Call",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/dynamic-call.html",
+    "aliases": [],
+    "description": "A dynamic call happens when part of the syntax comes from a variable, and is not known at code writing time.\n\nPHP allows every syntax to be used as a dynamic call.",
+    "code": "<?php\n\n    $constant = 'Name';\n    echo constant($constant); \n    echo constant(\"someClass::$constant\"); \n    \n    $variable = 'a';\n    $a = 'b';\n    echo $$variable; // b\n    \n    $function = 'mine';\n    $function($arg);\n    \n    $className = '\\stdclass';\n    new $className;\n    \n    $method = 'method';\n    $object->$method();\n    \n    echo $object::CONSTANT;\n\n?>",
+    "documentation": "https://www.php.net/manual/en/language.generators.syntax.php#control-structures.yield.from",
+    "related": [
+        "anonymous",
+        "code-injection",
+        "dynamic",
+        "call",
+        "functioncall",
+        "static-call"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.generators.syntax.php#control-structures.yield.from"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "All the Dynamic Syntaxes in PHP",
+            "url": "https://www.exakat.io/en/all-the-dynamic-syntaxes-in-php/"
+        }
+    ],
+    "tags": [
+        "feature",
+        "dynamic"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+}

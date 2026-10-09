@@ -1,0 +1,63 @@
+{
+    "id": "api",
+    "name": "Application Programming Interface (API)",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/api.html",
+    "aliases": [],
+    "description": "An API is a set of functions and procedures allowing the creation of applications that access the features or data of another service.\n\nThere are several API protocols: ``REST``, ``RPC``, ``gRPC``, ``GraphQL``, ``SOAP``, etc. \n\nThey are sometimes supported directly by PHP, with extensions, or via components. There is usually a client version, used to connect to a remote API, and a server version, to host a service based on this protocol.",
+    "code": "<?php\n\n// Consuming a REST API with cURL\n$ch = curl_init('https://api.example.com/users/1');\ncurl_setopt($ch, CURLOPT_RETURNTRANSFER, true);\ncurl_setopt($ch, CURLOPT_HTTPHEADER, [\n    'Authorization: Bearer your-api-token',\n    'Accept: application/json',\n]);\n\n$response = curl_exec($ch);\n$statusCode = curl_getinfo($ch, CURLINFO_HTTP_CODE);\ncurl_close($ch);\n\nif ($statusCode === 200) {\n    $data = json_decode($response, true);\n    echo $data['name'];\n}\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/API",
+    "related": [
+        "rest-api",
+        "graphql",
+        "soap",
+        "rpc",
+        "grpc",
+        "library",
+        "swagger",
+        "webrtc",
+        "wrapper-pattern",
+        "application",
+        "headless",
+        "mcp",
+        "oauth",
+        "pwa",
+        "search-engine"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/API"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP: HTTP context options",
+            "url": "https://www.php.net/manual/en/context.http.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP: cURL",
+            "url": "https://www.php.net/manual/en/book.curl.php"
+        }
+    ],
+    "tags": [
+        "api"
+    ],
+    "packagist": [
+        "webonyx/graphql-php",
+        "nuwave/lighthouse"
+    ],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Tue, 01 Sep 2026 05:31:03 +0000"
+}

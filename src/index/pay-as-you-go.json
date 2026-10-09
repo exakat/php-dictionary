@@ -1,0 +1,58 @@
+{
+    "id": "pay-as-you-go",
+    "name": "Pay-as-you-go",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/pay-as-you-go.html",
+    "aliases": [
+        "payg",
+        "consumption-based-pricing"
+    ],
+    "description": "Pay-as-you-go is a cloud billing model in which customers are charged only for the resources they actually consume, rather than paying a fixed fee for reserved capacity.\n\nIn practice this means: compute time, counted with CPU-seconds or request count, memory, measured by Gb per hours, storage measured by Gb per month, and outgoing traffic on the network are all billed in small, incremental units. When usage is zero, the cost is zero.\n\nThis model is dominant in serverless and function-as-a-service platforms, where PHP code can be deployed as individual functions. It contrasts with reserved or on-demand instance pricing, where a virtual machine runs continuously whether or not it handles traffic.\n\nFor PHP applications, pay-as-you-go infrastructure influences architecture decisions: short-lived, stateless PHP processes fit well, while long-running workers or persistent database connections may require different strategies.\n\nPay-as-you-go pricing is also offered by SaaS products and APIs where cost scales directly with usage.",
+    "code": "",
+    "documentation": "https://en.wikipedia.org/wiki/Cloud_computing#Pay-as-you-go",
+    "related": [
+        "saas",
+        "paas",
+        "iaas",
+        "cloud",
+        "stateless",
+        "serverless"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Cloud_computing#Pay-as-you-go"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Bref \u2014 Serverless PHP",
+            "url": "https://bref.sh/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Cloud pricing models explained",
+            "url": "https://cloud.google.com/pricing"
+        }
+    ],
+    "tags": [
+        "business",
+        "infrastructure",
+        "concept"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Mon, 15 Jun 2026 11:03:59 +0000"
+}

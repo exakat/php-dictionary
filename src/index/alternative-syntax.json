@@ -1,0 +1,44 @@
+{
+    "id": "alternative-syntax",
+    "name": "Alternative Syntax",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/alternative-syntax.html",
+    "aliases": [],
+    "description": "PHP offers an alternative syntax for some of its control structures; namely, ``if``, ``while``, ``for``, ``foreach``, and ``switch``. In each case, the basic form of the alternate syntax is to change the opening brace to a colon ``:`` and the closing brace to ``endif;``, ``endwhile;``, ``endfor;``, ``endforeach;``, or ``endswitch;``, respectively.",
+    "code": "<?php if ($a == 5): ?>\nA is equal to 5\n<?php endif; ?>",
+    "documentation": "https://www.php.net/manual/en/control-structures.alternative-syntax.php",
+    "related": [
+        "control-flow",
+        "bracketless"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/control-structures.alternative-syntax.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Using Alternative Syntax for Control Structures in PHP to Enhance HTML Integration",
+            "url": "https://www.linkedin.com/pulse/using-alternative-syntax-control-structures-php-html-rahman-nadim/"
+        }
+    ],
+    "tags": [
+        "feature"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [
+        "Php/AlternativeSyntax"
+    ],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Mon, 14 Sep 2026 17:09:01 +0000"
+}

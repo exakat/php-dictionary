@@ -1,0 +1,55 @@
+{
+    "id": "udp",
+    "name": "User Datagram Protocol (UDP)",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/udp.html",
+    "aliases": [],
+    "description": "UDP, or User Datagram Protocol, is a core communication protocol used on the Internet, alongside TCP.\n\nUDP is connectionless. UDP does not establish a connection before sending data. It simply sends packets, called datagrams, to the destination without checking if the recipient is ready or available.\n\nUDP is fast and lightweight. Because it skips the handshake and error-checking steps, UDP is faster and uses fewer resources than TCP.\n\nUDP is unreliable. UDP does not guarantee delivery, order, or error correction. Packets may be lost, duplicated, or arrive out of order.\n\nUDP is often associated, or opposed to TCP.\n\nUDP is supported through socket programming. PHP provides functions to create, bind, send, and receive UDP datagrams using the ``ext/socket`` extension. \n",
+    "code": "<?php\n\n    // Create a UDP socket\n    $socket = socket_create(AF_INET, SOCK_DGRAM, SOL_UDP);\n    \n    if ($socket === false) {\n        $error = socket_last_error();\n        die('socket_create() failed: ' . socket_strerror($error));\n    }\n    \n    echo \"UDP socket created successfully.\\n\";\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/User_Datagram_Protocol",
+    "related": [
+        "tcp",
+        "ip",
+        "port",
+        "socket",
+        "osi-model",
+        "quic"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/User_Datagram_Protocol"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Building a UDP Server, Gaming Client, and Tic-Tac-Toe Game with PHP",
+            "url": "https://medium.com/@.Chromax/building-a-udp-server-gaming-client-and-tic-tac-toe-game-with-php-83409d89896e"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Using PHP To Send A UDP Message",
+            "url": "https://www.robertprice.co.uk/robblog/using_php_to_send_a_udp_message-shtml/"
+        }
+    ],
+    "tags": [
+        "acronym"
+    ],
+    "packagist": [],
+    "extensions": [
+        "socket"
+    ],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 20 Aug 2026 08:38:16 +0000"
+}

@@ -1,0 +1,63 @@
+{
+    "id": "parse_url",
+    "name": "parse_url()",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/parse_url.html",
+    "aliases": [],
+    "description": "``parse_url()`` parses a URL string and returns its components as an associative array. The components it extracts are: ``scheme``, ``host``, ``port``, ``user``, ``pass``, ``path``, ``query``, and ``fragment``.\n\nAn optional second parameter accepts a ``PHP_URL_*`` constant to return a single component as a string or integer instead of the full array.\n\n``parse_url()`` is deliberately lenient: it does not validate that the URL is well-formed or reachable. It only splits the string according to RFC 3986 syntax. Providing a relative URL or a partial URL will return only the components that are present.\n\nFor validation, combine ``parse_url()`` with ``filter_var($url, FILTER_VALIDATE_URL)``. For building URLs, use ``http_build_query()`` for the query string part.",
+    "code": "<?php\n\n$url = 'https://user:pass@example.com:8080/path?query=value#section';\n\n$parts = parse_url($url);\nprint_r($parts);\n/**\n * [\n *   scheme   => 'https',\n *   host     => 'example.com',\n *   port     => 8080,\n *   user     => 'user',\n *   pass     => 'pass',\n *   path     => '/path',\n *   query    => 'query=value',\n *   fragment => 'section',\n * ]\n */\n\n$host = parse_url($url, PHP_URL_HOST); // 'example.com'\n\n?>",
+    "documentation": "https://www.php.net/manual/en/function.parse-url.php",
+    "related": [
+        "url",
+        "http",
+        "parse",
+        "parse_str",
+        "http_build_query",
+        "uri",
+        "validation",
+        "anchor"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/function.parse-url.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "RFC 3986",
+            "url": "https://datatracker.ietf.org/doc/html/rfc3986"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Understanding and Implementing PHP's `parse_url()` Function",
+            "url": "https://reintech.io/blog/understanding-implementing-php-parse-url-function"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "How to use parse_url() in PHP safely",
+            "url": "https://benjamincrozat.com/php-parse-url"
+        }
+    ],
+    "tags": [
+        "native function",
+        "url",
+        "string",
+        "rfc"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Mon, 15 Jun 2026 11:03:59 +0000"
+}

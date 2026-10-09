@@ -1,0 +1,49 @@
+{
+    "id": "iffectation",
+    "name": "Iffectation",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/iffectation.html",
+    "aliases": [],
+    "description": "An iffectation is both an assignation and a condition at the same time.\n\nWhether an assignation should be used as a condition is debated. It makes the code less readable, as the assignation is hidden in the if condition.\n\nIt also saves some extra lines of code, when the condition applies to something that will immediately be used.",
+    "code": "<?php\n\nif ($trunk = trumpet()) { }\n\n// same, without the iffectation\n$trunk = trumpet();\nif ($trunk) { }\n\n\n?>",
+    "documentation": "https://www.php.net/manual/en/control-structures.if.php",
+    "related": [
+        "condition",
+        "assignation",
+        "if-then",
+        "short-assignation"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/control-structures.if.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Assignment operators",
+            "url": "https://www.php.net/manual/en/language.operators.assignment.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Comparison operators",
+            "url": "https://www.php.net/manual/en/language.operators.comparison.php"
+        }
+    ],
+    "tags": [
+        "neologism"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+}

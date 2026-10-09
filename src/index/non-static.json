@@ -1,0 +1,49 @@
+{
+    "id": "non-static",
+    "name": "Non-static",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/non-static.html",
+    "aliases": [],
+    "description": "Non-static is the opposite of static, when used with methods, closures, properties or variables. \n\nThere is no other term to designate them, beside the convention that a variable is non-static, by default. Sometimes, the opposite of static is called normal.",
+    "code": "<?php\n\n    $variable = 1;\n    \n    static $staticVariable = 2;\n\n?>",
+    "documentation": "https://www.php.net/manual/en/language.oop5.static.php",
+    "related": [
+        "variable",
+        "property",
+        "method",
+        "class"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.oop5.static.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP OOP Static Methods - W3Schools",
+            "url": "https://www.w3schools.com/php/php_oop_static_methods.asp"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Static Methods and Properties In PHP | Medium",
+            "url": "https://medium.com/@jpmorris/static-methods-and-properties-in-php-3b1f0f9f3215"
+        }
+    ],
+    "tags": [
+        "class"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sat, 22 Aug 2026 08:06:41 +0000"
+}

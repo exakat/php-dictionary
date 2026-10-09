@@ -1,0 +1,51 @@
+{
+    "id": "aot",
+    "name": "Ahead Of Time",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/aot.html",
+    "aliases": [
+        "ahead-of-time",
+        "ahead-of-time-compilation"
+    ],
+    "description": "Ahead-of-time compilation, ``AOT``, is the process of compiling source code to machine code before execution, as opposed to at runtime. The compilation happens once during the build phase; the produced binary runs directly without a separate compilation step at startup.\n\n``AOT`` stands in contrast to Just-in-Time compilation, where compilation happens during execution, and to interpretation, where source is executed line by line. ``AOT`` trades compilation time for faster startup and more predictable runtime performance.\n\nTrue PHP ``AOT`` to native machine code is not part of the standard runtime. However, several mechanisms approximate ``AOT`` behaviour:\n\n- ``OPcache`` preloading: preloads and compiles PHP files into shared memory at server start, so they are not parsed or compiled on each request.\n- ``NativePHP``: compiles a PHP application into a standalone desktop binary, bundling the PHP runtime.\n- Static analysis tools perform ``AOT``-style type checking without executing code.\n- Compiler extensions: compile PHP or PHP-like code to C extensions ahead of time.\n\nThe primary PHP performance story is ``OPcache`` + ``JIT``, not strict ``AOT``.",
+    "code": "<?php\n\n    // OPcache preloading \u2014 the closest PHP has to AOT for web apps\n    // preload.php: loaded once at PHP-FPM start, shared across all workers\n    \n    // Preload all framework and application classes\n    $files = glob(__DIR__ . '/src//*.php');\n    foreach ($files as $file) {\n        opcache_compile_file($file); // compile to bytecode once, cache in shared memory\n    }\n    \n    // php.ini / php-fpm.conf:\n    // opcache.enable=1\n    // opcache.preload=/var/www/preload.php\n    // opcache.preload_user=www-data\n    \n    // At request time: preloaded files are served from opcache with zero parse/compile cost.\n    \n    // JIT (PHP 8.0+) \u2014 runtime, not AOT, but often confused with it\n    // opcache.jit=tracing\n    // opcache.jit_buffer_size=100M\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Ahead-of-time_compilation",
+    "related": [
+        "compile",
+        "jit",
+        "interpreted",
+        "opcode",
+        "opcache-preloading"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Ahead-of-time_compilation"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP AOT Compiler",
+            "url": "https://github.com/manticorephp/compiler"
+        }
+    ],
+    "tags": [
+        "compilation",
+        "engine"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Wed, 23 Sep 2026 04:32:57 +0000"
+}

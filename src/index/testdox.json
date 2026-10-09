@@ -1,0 +1,45 @@
+{
+    "id": "testdox",
+    "name": "TestDox",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/testdox.html",
+    "aliases": [
+        "testdocs"
+    ],
+    "description": "``TestDox``, which stands for Test Documentation, is an output format for unit test frameworks, where the name of the tests, aka the methods, are converted into a human readable string.\n\n``PHPUnit`` is able to export to that format.",
+    "code": "",
+    "documentation": "https://docs.phpunit.de/en/13.0/textui.html#testdox",
+    "related": [
+        "phpunit"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://docs.phpunit.de/en/13.0/textui.html#testdox"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Make PHPUnit test reports more detailed using TestDox",
+            "url": "https://www.amitmerchant.com/make-phpunit-test-reports-detailed-using-textdox/"
+        }
+    ],
+    "tags": [
+        "format"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Fri, 14 Aug 2026 08:32:28 +0000"
+}

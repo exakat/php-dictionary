@@ -1,0 +1,58 @@
+{
+    "id": "metaprogramming",
+    "name": "Metaprogramming",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/metaprogramming.html",
+    "aliases": [
+        "meta-programming"
+    ],
+    "description": "Metaprogramming is the practice of writing code that treats other code as data. This is reading, generating, transforming, or executing programs at runtime or compile time. A metaprogram operates at a higher level of abstraction than an ordinary program because it manipulates the representation of programs rather than, or in addition to, running domain logic.\n\nCommon metaprogramming techniques include:\n\n+ Reflection: inspecting types, methods, properties, or annotations at runtime, with the ``ReflectionClass``\n+ Code generation: emitting source files, proxy classes, or configuration from schemas, attributes, or templates\n+ Macros: transforming code at a syntactic level before or during parsing\n+ Eval: constructing and executing code strings at runtime\n+ Dynamic dispatch: routing method calls through ``__call`` or ``__callStatic`` based on runtime state\n+ Homoiconicity: using a language's native data structures to represent and manipulate programs\n\nPHP supports several forms of metaprogramming:\n\n+ The Reflection API, with the classes ``ReflectionClass``, ``ReflectionMethod``, ``ReflectionProperty``, ``ReflectionAttribute``, provides read-only introspection of the live object model.\n+ Magic methods, with the methods ``__get``, ``__set``, ``__call``, ``__callStatic``, ``__invoke``, ``__clone``, ``__toString``, intercept property and method access at runtime.\n+ ``eval()`` and ``create_function()`` execute dynamically constructed code strings.\n+ ``nikic/php-parser`` enables full AST-level read and write access to PHP source from PHP itself.\n+ PHP 8.0+ attributes allow structured metadata on declarations, consumed at runtime by frameworks and code generators.\n+ Userland code generators, such as Doctrine proxies, Rector, Symfony DI compilation, etc. produce PHP files before or at application boot.\n\nPHP does not support compile-time generics, hygienic macros, metaclasses, or a Meta-object Protocol: the object model is implemented in C and is not programmable from userland.",
+    "code": "<?php\n\n    // 1. Reflection: introspect a class at runtime\n    $rc = new ReflectionClass(ArrayObject::class);\n    echo $rc->getMethod('offsetGet')->getNumberOfParameters(); // 1\n\n    // 2. Dynamic dispatch via magic method\n    class DynamicProxy {\n        public function __call(string $name, array $args): mixed {\n            return strtoupper($name) . '(' . implode(', ', $args) . ')';\n        }\n    }\n    echo (new DynamicProxy())->hello('world'); // HELLO(world)\n\n    // 3. Attribute-driven metadata (PHP 8.0+)\n    #[\\Attribute(\\Attribute::TARGET_METHOD)]\n    final class Route {\n        public function __construct(public readonly string $path) {}\n    }\n\n    class UserController {\n        #[Route('/users')]\n        public function index(): void {}\n    }\n\n    $attr = (new ReflectionMethod(UserController::class, 'index'))\n        ->getAttributes(Route::class)[0]\n        ->newInstance();\n    echo $attr->path; // '/users'\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Metaprogramming",
+    "related": [
+        "reflection",
+        "macro",
+        "homoiconicity",
+        "code-generation",
+        "eval",
+        "meta-object-protocol",
+        "metaclass",
+        "template-metaprogramming",
+        "hygienic-macro",
+        "attribute",
+        "__call"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Metaprogramming"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP Reflection API",
+            "url": "https://www.php.net/manual/en/book.reflection.php"
+        }
+    ],
+    "tags": [
+        "concept",
+        "metaprogramming"
+    ],
+    "packagist": [
+        "nikic/php-parser"
+    ],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Mon, 31 Aug 2026 17:37:24 +0000"
+}

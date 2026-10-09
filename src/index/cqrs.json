@@ -1,0 +1,59 @@
+{
+    "id": "cqrs",
+    "name": "Command Query Responsibility Segregation (CQRS)",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/cqrs.html",
+    "aliases": [],
+    "description": "CQRS is an architectural pattern that separates read operations, Queries from write operations, Commands, into distinct models. It was popularized by Greg Young, building on Bertrand Meyer's Command-Query Separation principle.\n\nRead and write workloads often have very different performance and scaling needs, so treating them as a single unified model creates unnecessary friction. By separating them, it is possible to optimize each side independently: for example, using denormalized read models or dedicated indexed projections on the query side without affecting your write logic.\n\nIt also simplifies complex domain logic. Commands encapsulate intent and business rules cleanly, without being cluttered by the concerns of how data is presented or fetched. This makes the write side easier to test and reason about.\n\nCQRS pairs especially naturally with Event Sourcing, where state changes are stored as a sequence of events rather than overwriting rows: but it's worth noting that Event Sourcing is not necessary to benefit from CQRS. The two are complementary, not dependent on each other.",
+    "code": "",
+    "documentation": "https://martinfowler.com/bliki/CQRS.html",
+    "related": [
+        "event-sourcing",
+        "command",
+        "event-storming",
+        "message-bus"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://martinfowler.com/bliki/CQRS.html"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "CQRS Pattern - Azure Architecture Center",
+            "url": "https://learn.microsoft.com/en-us/azure/architecture/patterns/cqrs"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Event Sourcing Pattern - Azure Architecture Center",
+            "url": "https://learn.microsoft.com/en-us/azure/architecture/patterns/event-sourcing"
+        }
+    ],
+    "tags": [
+        "paradigm",
+        "acronym",
+        "architecture"
+    ],
+    "packagist": [
+        "ecotone/ecotone",
+        "backslashphp/backslash",
+        "nontre/cqrs"
+    ],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": {
+        "Bertrand Meyer": "https://en.wikipedia.org/wiki/Bertrand_Meyer"
+    },
+    "brand": "",
+    "popularity": "",
+    "modified": "Fri, 18 Sep 2026 04:45:27 +0000"
+}

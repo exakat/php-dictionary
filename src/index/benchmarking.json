@@ -1,0 +1,74 @@
+{
+    "id": "benchmarking",
+    "name": "Benchmarking",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/benchmarking.html",
+    "aliases": [
+        "benchmark"
+    ],
+    "description": "Benchmarking is a process of measuring performances. In the computer science, it usually means the speed of execution of a piece of code, or its usage of memory.\n\nBenchmarks are set up at the code level, to compare various syntaxes and algorithms; per PHP versions, to compare the evolution of features; at application level, where a high level feature is run on a full installation. \n\nBenchmarks are usually a good indicator of performance, and should be reviewed with the environment in mind: the hardware, operating system, versions, configurations, feature description ... all have impacts on the final results, or the actual representation of real world situations.",
+    "code": "",
+    "documentation": "https://en.wikipedia.org/wiki/Benchmark_(computing)",
+    "related": [
+        "performance",
+        "flamegraph",
+        "micro-optimisation",
+        "treemap",
+        "latency",
+        "premature-optimization",
+        "sota",
+        "throughput"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Benchmark_(computing)"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP bench",
+            "url": "https://github.com/phpbench/phpbench"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHPbenchmarks",
+            "url": "http://www.phpbenchmarks.com/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "The Definitive PHP 7.2, 7.3, 7.4, 8.0, and 8.1 Benchmarks",
+            "url": "https://kinsta.com/blog/php-benchmarks/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Benchmarking PHP code with PhpBench Benchmarks",
+            "url": "https://mike42.me/blog/2019-07-benchmarking-php-code-with-phpbench/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP Performance Benchmark 2026: 7.4 vs 8.0 vs 8.1 vs 8.2 vs 8.5",
+            "url": "https://phpbenchlab.com/php-7-4-vs-8-0-vs-8-1-vs-8-2-vs-8-5-the-performance-evolution-2026/"
+        }
+    ],
+    "tags": [
+        "concept",
+        "performance"
+    ],
+    "packagist": [
+        "phpbench/phpbench",
+        "devster/ubench"
+    ],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sat, 08 Aug 2026 08:10:54 +0000"
+}

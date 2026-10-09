@@ -1,0 +1,54 @@
+{
+    "id": "call",
+    "name": "Call",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/call.html",
+    "aliases": [
+        "functioncall"
+    ],
+    "description": "A call is the usage action of a definition or declaration. \n\nA call may be a function call, a method call, a static method call or a closure call. \n\nFor example, a function is declared, then called. Calling an undefined structure is a fatal error.\n\nA definition must happen before a call. The autoload process allows for last minute loading of a class definition. \n\nA call is usually done on a ``callable`` type of data.",
+    "code": "<?php\n\n    function trumpet() {}\n\n    // calling a function\n    trumpet();\n\n    // calling an undefined function\n    forage();\n    //Fatal error: Uncaught Error: Call to undefined function forage()\n\n?>",
+    "documentation": "https://www.php.net/manual/en/functions.user-defined.php",
+    "related": [
+        "definition",
+        "autoload",
+        "callable",
+        "call-graph"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/functions.user-defined.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "How to call a method in PHP",
+            "url": "https://www.exakat.io/call-a-method-in-php/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP Variable Functions",
+            "url": "https://www.phptutorial.net/php-tutorial/php-variable-functions/"
+        }
+    ],
+    "tags": [
+        "syntax",
+        "feature"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": {
+        "Call to undefined function forage()": "call-to-undefined-function-%s()"
+    },
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+}

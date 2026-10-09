@@ -1,0 +1,52 @@
+{
+    "id": "max_filter_count",
+    "name": "max_filter_count",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/max_filter_count.html",
+    "aliases": [],
+    "description": "``max_filter_count`` is a stream context option that limits how many filters can be chained in a single ``php://filter`` URL, such as ``php://filter/read=string.toupper|string.rot13/resource=file.txt``. It is a hardening measure against filter chain attacks, where a long chain of filters is used to generate arbitrary content from a file inclusion.\n\nThe default limit is 16 filters. Exceeding it first triggers a deprecation warning, then an error in later versions. The option is set through the ``filter`` key of a stream context, and can be passed to file functions such as ``fopen()``, ``include`` or ``file_get_contents()``.\n\nThis is not a php.ini directive: it cannot be changed globally in the configuration file, although the default stream context can be set with ``stream_context_set_default()``. Filters added with ``stream_filter_append()`` or ``stream_filter_prepend()`` are not counted by this option.",
+    "code": "<?php\n\n    // Allow at most 1 filter in php://filter URLs for this context\n    $ctx = stream_context_create(['filter' => ['max_filter_count' => 1]]);\n\n    // One filter: allowed\n    echo file_get_contents('php://filter/read=string.toupper/resource=data.txt', false, $ctx);\n\n    // Two filters: exceeds the limit\n    echo file_get_contents('php://filter/read=string.toupper|string.rot13/resource=data.txt', false, $ctx);\n\n?>",
+    "documentation": "https://wiki.php.net/rfc/limit-maximum-number-of-filter-chains",
+    "related": [
+        "stream-filter",
+        "stream_context_create",
+        "file_get_contents",
+        "include"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://wiki.php.net/rfc/limit-maximum-number-of-filter-chains"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "RFC: limit maximum number of filter chains",
+            "url": "https://wiki.php.net/rfc/limit-maximum-number-of-filter-chains"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Hardening PHP against filter chain attacks",
+            "url": "https://externals.io/message/131539"
+        }
+    ],
+    "tags": [
+        "stream context option",
+        "security"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Fri, 09 Oct 2026 17:05:50 +0000"
+}

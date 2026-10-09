@@ -1,0 +1,47 @@
+{
+    "id": "dynamic-expression",
+    "name": "Dynamic Expression",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/dynamic-expression.html",
+    "aliases": [],
+    "description": "A dynamic expression is an expression that is only wholly defined at execution time. It needs to collect pieces of information before processing. This applies to elements that are usually static, such as class, function, method, constants, not to parameters which are expected to be variable.",
+    "code": "<?php\n\n    $config = new ConfigFile();\n\n    $function = $config->sortingMethod; // sort, or rsort\n    $function($array);\n\n?>",
+    "documentation": "https://www.php.net/manual/en/language.expressions.php",
+    "related": [
+        "static-expression"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.expressions.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Variable variables",
+            "url": "https://www.php.net/manual/en/language.variables.variable.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Variable Functions",
+            "url": "https://www.php.net/manual/en/functions.variable-functions.php"
+        }
+    ],
+    "tags": [
+        "pattern",
+        "feature"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Fri, 11 Sep 2026 08:43:43 +0000"
+}

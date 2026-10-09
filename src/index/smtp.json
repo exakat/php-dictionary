@@ -1,0 +1,48 @@
+{
+    "id": "smtp",
+    "name": "Simple Mail Transfer Protocol (SMTP)",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/smtp.html",
+    "aliases": [],
+    "description": "Simple Mail Transfer Protocol, aka SMTP, is the standard protocol used for sending emails across the internet. SMTP is responsible for the transmission of email messages from the sender's mail server to the recipient's mail server.\n\nPHP sends emails with the ``mail`` function, which relies on the local SMTP server.",
+    "code": "",
+    "documentation": "https://en.wikipedia.org/wiki/Simple_Mail_Transfer_Protocol",
+    "related": [
+        "email",
+        "mail",
+        "quoted-printable",
+        "rfc"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Simple_Mail_Transfer_Protocol"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "RFC-5321",
+            "url": "https://datatracker.ietf.org/doc/html/rfc5321"
+        }
+    ],
+    "tags": [
+        "acronym",
+        "protocol",
+        "rfc"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sat, 08 Aug 2026 14:32:46 +0000"
+}

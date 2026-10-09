@@ -1,0 +1,47 @@
+{
+    "id": "yagni",
+    "name": "You Are Not Going To Need It (YAGNI)",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/yagni.html",
+    "aliases": [],
+    "description": "``YAGNI`` advises developers to avoid adding functionality or code until it is explicitly required. Instead of anticipating future needs and over-engineering solutions, focus only on what is necessary to fulfill current requirements.",
+    "code": "",
+    "documentation": "https://en.wikipedia.org/wiki/You_aren%27t_gonna_need_it",
+    "related": [
+        "agile",
+        "dry",
+        "kiss",
+        "debt"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/You_aren%27t_gonna_need_it"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Simplify Your PHP Code with KISS, YAGNI, and DRY",
+            "url": "https://dev.to/peixotons/simplify-your-php-code-with-kiss-yagni-and-dry-p5g"
+        }
+    ],
+    "tags": [
+        "acronym",
+        "best practice"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Fri, 24 Jul 2026 15:42:46 +0000"
+}

@@ -1,0 +1,44 @@
+{
+    "id": "fallthrough",
+    "name": "Switch Fallthrough",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/fallthrough.html",
+    "aliases": [],
+    "description": "A fallthrough is the absence of break, or equivalent, at the end of a switch case. That way, the execution continues on the next case. \n\nWhile this is an intended feature, and is useful to reduce code, it tends to surprise programmers, who expect the cases to always end.",
+    "code": "<?php\n\n    switch ($a) {\n        case 1:\n            $a = 2 * $a;\n            // fallthrough here : the execution continues\n            \n        case 2:\n            $a = $a + 1;\n            break;\n    }\n\n?>",
+    "documentation": "https://www.learncpp.com/cpp-tutorial/switch-fallthrough-and-scoping/",
+    "related": [
+        "match"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.learncpp.com/cpp-tutorial/switch-fallthrough-and-scoping/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP switch Statement",
+            "url": "https://www.codeguage.com/courses/php/control-flow-switch"
+        }
+    ],
+    "tags": [
+        "control flow",
+        "silent behavior"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [
+        "Structures/Fallthrough"
+    ],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 17 Sep 2026 07:40:32 +0000"
+}

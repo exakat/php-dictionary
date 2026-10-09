@@ -1,0 +1,47 @@
+{
+    "id": "separator",
+    "name": "Separator",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/separator.html",
+    "aliases": [],
+    "description": "Separators are specific characters that ends a previous area, and open a new one. They are used in structured dataset, to allow multiple values to be hosted.\n\nThe separator makes the building and parsing of the string easy. The separator must be forbidden in the separated values, or it must be protected to avoid confusion between a literal value and an actual separator.\n\nMultiple separators may be used in the same format. For example, in query strings, ``&`` is used to distinguish different variables, and ``=`` is used to distinguish the name and the value.\n\nSeparators are argument in functions such as ``implode()``, ``explode()`` or ``http_build_query()``.\n\nSome separators: \n\n+ ``|`` is used to separate types in a Union type\n+ ``&`` is used to separate values in a query string\n+ ``/`` is used to separate directory names in a file system path.\n+ ``,`` is used in list of values.",
+    "code": "<?php\n\nprint join(\"glue\", [1, 2, 3]);\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Delimiter",
+    "related": [
+        "glue",
+        "implode",
+        "explode",
+        "http_build_query",
+        "numeric-separator",
+        "colon",
+        "delimiter"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Delimiter"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP explode(): Split a String by a Separator into an Array of Strings",
+            "url": "https://www.phptutorial.net/php-tutorial/php-explode/"
+        }
+    ],
+    "tags": [
+        "folklore"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sat, 08 Aug 2026 08:01:43 +0000"
+}

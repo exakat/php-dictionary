@@ -1,0 +1,61 @@
+{
+    "id": "saml",
+    "name": "Security Assertion Markup Language (SAML)",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/saml.html",
+    "aliases": [
+        "security-assertion-markup-language"
+    ],
+    "description": "SAML, the Security Assertion Markup Language, is an open XML-based standard for exchanging authentication and authorization data between an identity provider, and a service provider. It is one of the main protocols behind enterprise Single Sign-On, SSO.\n\nA typical SAML flow: the user tries to access a service provider, gets redirected to the identity provider to authenticate, and the identity provider sends back a signed XML assertion confirming the user's identity, which the service provider validates and trusts.\n\nSAML is older than OpenID Connect and OAuth 2.0, and remains widely used in corporate and government single sign-on deployments, often alongside directories such as LDAP or Active Directory.",
+    "code": "",
+    "documentation": "https://en.wikipedia.org/wiki/Security_Assertion_Markup_Language",
+    "related": [
+        "sso",
+        "openid",
+        "oauth",
+        "authentication",
+        "ldap",
+        "xml",
+        "token"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Security_Assertion_Markup_Language"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "SAML V2.0 Technical Overview",
+            "url": "https://docs.oasis-open.org/security/saml/Post2.0/sstc-saml-tech-overview-2.0.html"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "OneLogin PHP SAML Toolkit",
+            "url": "https://github.com/SAML-Toolkits/php-saml"
+        }
+    ],
+    "tags": [
+        "security",
+        "protocol",
+        "authentication",
+        "acronym"
+    ],
+    "packagist": [
+        "onelogin/php-saml"
+    ],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sun, 02 Aug 2026 06:47:01 +0000"
+}

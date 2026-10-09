@@ -1,0 +1,44 @@
+{
+    "id": "sscanf",
+    "name": "sscanf()",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/sscanf.html",
+    "aliases": [],
+    "description": "``sscanf()`` is a built-in PHP function that parses input from a string according to a format string.\n\n``sscanf()`` is the opposite feature of ``printf()``: the same format may be used to parse or print data.",
+    "code": "<?php\n\n    $date = 'January 01 2000';\n    list($month, $day, $year) = sscanf($date, '%s %d %d');\n    \n    print('%s %d %d', $month, $day, $year);\n\n?>",
+    "documentation": "https://www.php.net/manual/en/function.sscanf.php",
+    "related": [
+        "printf",
+        "sprintf"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/function.sscanf.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP sscanf() Function",
+            "url": "https://www.geeksforgeeks.org/php/php-sscanf-function/"
+        }
+    ],
+    "tags": [
+        "native function"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Tue, 25 Aug 2026 13:35:56 +0000"
+}

@@ -1,0 +1,46 @@
+{
+    "id": "exception-chain",
+    "name": "Chaining Exceptions",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/exception-chain.html",
+    "aliases": [
+        "chaining-exception"
+    ],
+    "description": "Exception chaining, also called chaining exception, is the act of re-throwing a caught exception, with a new type, and with a reference to the previous exception.\n\nTo provide the previous exception to a new exception, use the third parameter of the ``Exception`` constructor. Also, always provide a third argument to custom exceptions.\n\nThe previous exception is available with the ``Exception::getPrevious()`` method of the ``Exception`` class.",
+    "code": "<?php\n\nclass myException extends \\Exception {\n    function __construct(string $message, $code, \\Throwable $exception) {\n        parent::__construct($message, $code, $exception);\n    }\n}\n\ntry {\n    doSomething();\n} catch(\\Exception $e) {\n    // chaining exception\n    throw new myException('doSomething failed', 0, $e);\n}\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Exception_chaining",
+    "related": [
+        "throw",
+        "try-catch",
+        "exception",
+        "chaining"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Exception_chaining"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Best practices for PHP exception handling",
+            "url": "https://moxio.com/blog/best-practices-for-php-exception-handling/"
+        }
+    ],
+    "tags": [
+        "exception"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sun, 30 Aug 2026 10:49:22 +0000"
+}

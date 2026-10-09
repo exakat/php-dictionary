@@ -1,0 +1,47 @@
+{
+    "id": "gearman",
+    "name": "Gearman",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/gearman.html",
+    "aliases": [],
+    "description": "``Gearman`` is a PECL extension that provides a client for the ``Gearman`` job server, a system for distributing work across machines or processes. A client submits a job to the ``Gearman`` server, one or more workers register to handle jobs of that name, and the server dispatches each job to an available worker.\n\nJobs can be submitted synchronously, where the client blocks until a result comes back, or asynchronously, in the background, where the client fires the job and moves on. ``Gearman`` also supports splitting a large task into pieces that are farmed out to multiple workers and their results merged, and it can report progress back to the client for long-running jobs.\n\n``Gearman`` is commonly used to offload slow operations, such as image processing, sending email, or generating reports, out of the request/response cycle and onto a pool of background workers, which can be scaled independently of the web tier.",
+    "code": "<?php\n\n    // Worker process: registers a function and waits for jobs.\n    $worker = new GearmanWorker();\n    $worker->addServer();\n    $worker->addFunction('resize_image', function (GearmanJob $job) {\n        $path = $job->workload();\n        // ... resize $path ...\n        return 'done';\n    });\n    while ($worker->work()) {\n    }\n\n    // Client process: submits a job and waits for the result.\n    $client = new GearmanClient();\n    $client->addServer();\n    $result = $client->doNormal('resize_image', '/uploads/photo.jpg');\n\n?>",
+    "documentation": "https://www.php.net/manual/en/book.gearman.php",
+    "related": [
+        "queue",
+        "rdkafka",
+        "swoole",
+        "distributed-systems"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/book.gearman.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Gearman project",
+            "url": "http://gearman.org/"
+        }
+    ],
+    "tags": [
+        "extension",
+        "queue"
+    ],
+    "packagist": [],
+    "extensions": [
+        "gearman"
+    ],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Tue, 11 Aug 2026 08:40:35 +0000"
+}

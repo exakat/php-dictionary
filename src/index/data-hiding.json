@@ -1,0 +1,60 @@
+{
+    "id": "data-hiding",
+    "name": "Data Hiding",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/data-hiding.html",
+    "aliases": [],
+    "description": "Data hiding is a core principle of object-oriented programming that restricts direct access to certain components of an object. It is achieved through visibility modifiers: ``private``, ``protected``, and ``public``.\n\nBy hiding internal state, a class controls how its data is accessed and modified, preventing accidental corruption and enforcing invariants. This leads to more maintainable, testable, and robust code.\n\nPHP provides several mechanisms for data hiding:\n\n+ Visibility modifiers on properties and methods: ``private``, ``protected``, ``public``\n+ The ``readonly`` keyword for immutable properties\n+ The ``__get()`` and ``__set()`` magic methods for controlled access\n+ Typed properties which enforce type constraints on assignment\n\nData hiding is closely related to the concept of encapsulation, which bundles data and methods that operate on that data within a single unit, controlling external access.",
+    "code": "<?php\n\n    class BankAccount {\n        private float $balance;\n        private string $owner;\n\n        public function __construct(string $owner, float $initialBalance) {\n            $this->owner = $owner;\n            $this->balance = $initialBalance;\n        }\n\n        // Controlled access through methods\n        public function deposit(float $amount): void {\n            if ($amount <= 0) {\n                throw new \\InvalidArgumentException('Amount must be positive');\n            }\n            $this->balance += $amount;\n        }\n\n        public function getBalance(): float {\n            return $this->balance;\n        }\n    }\n\n    $account = new BankAccount('Alice', 1000);\n    // $account->balance = 999999; // Fatal error: cannot access private property\n    $account->deposit(500);\n    echo $account->getBalance(); // 1500\n\n?>",
+    "documentation": "https://www.php.net/manual/en/language.oop5.php",
+    "related": [
+        "encapsulation",
+        "visibility",
+        "private",
+        "protected",
+        "public",
+        "readonly",
+        "property",
+        "oop",
+        "getter",
+        "setter",
+        "defensive-programming",
+        "mutable-state"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.oop5.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP Visibility",
+            "url": "https://www.php.net/manual/en/language.oop5.php#language.oop5.visibility"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP Readonly Properties",
+            "url": "https://www.php.net/manual/en/language.oop5.properties.php#language.oop5.properties.readonly-properties"
+        }
+    ],
+    "tags": [
+        "oop",
+        "concept"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 17 Sep 2026 07:35:37 +0000"
+}

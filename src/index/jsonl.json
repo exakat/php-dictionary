@@ -1,0 +1,47 @@
+{
+    "id": "jsonl",
+    "name": "JSON Lines (JSONL)",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/jsonl.html",
+    "aliases": [
+        "ndjson"
+    ],
+    "description": "JSONL, JSON Lines, is a text-based format where each line is a valid, independent JSON object, separated by newline characters. \n\nIt is ideal for storing structured data, large datasets, and logging, as it allows for streaming and processing files line-by-line without loading the entire file into memory. It is also known as newline-delimited JSON, NDJSON.",
+    "code": "<?php\n\n    $JSONL = <<<JSONL\n{a:1}\n{b:2}\nJSONL;\n\nforeach(explode(\\n, $JSONL) as $line) {\n    print_r(json_decode($line));\n}\n\n/**\nstdClass Object\n(\n    [a] => 1\n)\nstdClass Object\n(\n    [b] => 2\n)\n*/\n\n?>",
+    "documentation": "https://github.com/indykoning/php-jsonl",
+    "related": [
+        "json_decode",
+        "jsonc",
+        "json",
+        "parquet"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://github.com/indykoning/php-jsonl"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "JSON Lines",
+            "url": "https://jsonlines.org/"
+        }
+    ],
+    "tags": [
+        "acronym",
+        "format"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sat, 08 Aug 2026 08:10:54 +0000"
+}

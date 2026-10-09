@@ -1,0 +1,48 @@
+{
+    "id": "overriding",
+    "name": "Overriding",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/overriding.html",
+    "aliases": [],
+    "description": "Overriding is an OOP concept where a child class provides its own implementation of a method that already exists in a parent class.\n\nChild classes may override constant values, properties and methods. \n\nWhen overriding, visibility cannot be reduced. A ``protected`` method or constant may become ``public``, but not ``private``.\n\nThe ``#[Override]`` attribute is a helper tool to ensure that a child method overrides a parent method. It is the complement of the ``abstract`` keyword.\n\nIncompatible overriding is not always detected at linting time: this happens when the overriding definition is parsed before the overridden definition.",
+    "code": "<?php\n\nclass Elephpant {\n    function trumpet() {}\n}\n\nclass Calf {\n    function trumpet() {}\n}\n\n?>",
+    "documentation": "https://www.php.net/manual/en/language.oop5.overloading.php",
+    "related": [
+        "override",
+        "abstract",
+        "overwrite",
+        "php-attribute",
+        "php-native-attribute",
+        "lint-wont-execute"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.oop5.overloading.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Function overloading and Overriding in PHP",
+            "url": "https://www.geeksforgeeks.org/php/function-overloading-and-overriding-in-php/"
+        }
+    ],
+    "tags": [
+        "lint but won't execute"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "7.0+",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+}

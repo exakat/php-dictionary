@@ -1,0 +1,47 @@
+{
+    "id": "implementation-defined-behavior",
+    "name": "Implementation-Defined Behavior",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/implementation-defined-behavior.html",
+    "aliases": [
+        "implementation-defined"
+    ],
+    "description": "Implementation-defined behavior is behavior that the language specification leaves to the engine to decide, on the condition that the engine picks one consistent option and documents it. Unlike undefined behavior, the result is always predictable once the specific engine and its documentation are known.\n\nExamples include the size of an ``int``, 32 or 64 bits, depending on the platform, the precision of ``float`` operations, and the exact wording of engine-generated error messages.",
+    "code": "<?php\n\n    // implementation-defined: the size of PHP_INT_MAX depends on the platform\n    var_dump(PHP_INT_MAX); // int(9223372036854775807) on a 64-bit build\n                           // int(2147483647) on a 32-bit build\n\n?>",
+    "documentation": "https://phplang.org/spec/03-terms-and-definitions.html",
+    "related": [
+        "behavior",
+        "unspecified-behavior",
+        "undefined-behavior",
+        "php_int_max"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://phplang.org/spec/03-terms-and-definitions.html"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Implementation-defined behavior - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Undefined_behavior#Implementation-defined_behavior"
+        }
+    ],
+    "tags": [
+        "concept",
+        "specification"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 27 Aug 2026 05:06:03 +0000"
+}

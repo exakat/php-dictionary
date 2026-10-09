@@ -1,0 +1,55 @@
+{
+    "id": "substr",
+    "name": "substr()",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/substr.html",
+    "aliases": [],
+    "description": "``substr()`` is a PHP native function that extracts a portion of a string, starting at a given position, for an optional given length.\n\nA negative ``start`` counts from the end of the string, rather than the beginning. A negative ``length`` stops the extraction that many characters before the end of the string, rather than counting a number of characters to keep.\n\nWhen ``start`` is beyond the length of the string, or ``length`` resolves to zero or a negative amount that consumes the whole remaining string, ``substr()`` returns an empty string, since PHP 8.0; before, it could return ``false``.\n\n``substr()`` is byte-oriented: it counts bytes, not characters, which corrupts multi-byte strings such as UTF-8. ``mb_substr()`` should be used instead, whenever the string may contain non-ASCII characters.\n",
+    "code": "<?php\n\n    substr('Hello World', 6);      // 'World'\n    substr('Hello World', 0, 5);   // 'Hello'\n    substr('Hello World', -5);     // 'World'\n    substr('Hello World', 0, -6);  // 'Hello'\n    substr('Hello', 10);           // '' (PHP 8+; was false before)\n\n    // byte-oriented: mangles multi-byte characters\n    substr('h\u00e9llo', 0, 2);     // 'h' followed by half of the '\u00e9' byte sequence\n    mb_substr('h\u00e9llo', 0, 2);  // 'h\u00e9'\n\n?>",
+    "documentation": "https://www.php.net/manual/en/function.substr.php",
+    "related": [
+        "mb_substr",
+        "strlen",
+        "str_split",
+        "str_contains",
+        "strpos",
+        "multi-byte",
+        "array_slice"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/function.substr.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP: mb_substr()",
+            "url": "https://www.php.net/manual/en/function.mb-substr.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Substring - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Substring"
+        }
+    ],
+    "tags": [
+        "native function",
+        "string"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Fri, 28 Aug 2026 09:43:01 +0000"
+}

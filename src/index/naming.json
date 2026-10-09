@@ -1,0 +1,46 @@
+{
+    "id": "naming",
+    "name": "Naming",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/naming.html",
+    "aliases": [],
+    "description": "Naming refers to the process of choosing appropriate names for variables, functions, classes, constants, traits, interfaces, enum, methods, parameters and any other programming elements. \n\nGood naming practices are essential for writing readable, maintainable, and understandable code. Clear and meaningful names make it easier for developers, including oneself, to understand the purpose and functionality of different parts of the codebase.",
+    "code": "",
+    "documentation": "https://en.wikipedia.org/wiki/Naming_convention_(programming)",
+    "related": [
+        "variable",
+        "readability",
+        "convention",
+        "eponymous",
+        "relaxed-syntax"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Naming_convention_(programming)"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Basics of Naming Conventions for PHP Developers",
+            "url": "https://www.codementor.io/@veenitchauhan/basics-of-naming-conventions-for-php-developers-eliexmew6"
+        }
+    ],
+    "tags": [
+        "human",
+        "maintenance"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sat, 08 Aug 2026 08:10:54 +0000"
+}

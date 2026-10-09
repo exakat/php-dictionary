@@ -1,0 +1,50 @@
+{
+    "id": "lifo",
+    "name": "Last In, First Out (LIFO)",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/lifo.html",
+    "aliases": [],
+    "description": "Last In, First Out is the principle of management of a stack. The most recently added element is the first one to be removed. This is exactly how a stack behaves: it is also the way a backpack behaves.\n\nThe other management is FIFO: first in, first out. \n",
+    "code": "",
+    "documentation": "https://en.wikipedia.org/wiki/FIFO_(computing_and_electronics)",
+    "related": [
+        "fifo",
+        "array_unshift",
+        "datastack",
+        "pop",
+        "splstack"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/FIFO_(computing_and_electronics)"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Introduction to Stacks & Queues in PHP",
+            "url": "https://dev.to/matusstafura/introduction-to-stacks-queues-in-php-1lpf"
+        }
+    ],
+    "tags": [
+        "acronym"
+    ],
+    "packagist": [],
+    "extensions": [
+        "spl",
+        "ds"
+    ],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Mon, 15 Jun 2026 11:03:59 +0000"
+}

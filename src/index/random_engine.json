@@ -1,0 +1,51 @@
+{
+    "id": "random_engine",
+    "name": "Random\\Engine",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/random_engine.html",
+    "aliases": [],
+    "description": "``Random\\Engine`` is the base interface for all random number generator engines introduced in version 8.2. It defines a single method ``generate(): string`` that produces a string of random bytes.\n\nBuilt-in engines include ``Random\\Engine\\Mt19937``, ``Random\\Engine\\PcgOneseq128XslRr64``, ``Random\\Engine\\Xoshiro256StarStar``, and the cryptographically secure ``Random\\Engine\\Secure``. Custom engines can be implemented by adding this interface.",
+    "code": "<?php\n\n    $engine = new Random\\Engine\\Mt19937(seed: 42);\n    $randomizer = new Random\\Randomizer($engine);\n    echo $randomizer->getInt(1, 100);\n\n?>",
+    "documentation": "https://www.php.net/manual/en/class.random-engine.php",
+    "related": [
+        "random",
+        "interface",
+        "php-interface",
+        "random_cryptosafeengine",
+        "deterministic"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/class.random-engine.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Random\\Randomizer",
+            "url": "https://www.php.net/manual/en/class.random-randomizer.php"
+        }
+    ],
+    "tags": [
+        "random",
+        "interface",
+        "extension"
+    ],
+    "packagist": [],
+    "extensions": [
+        "random"
+    ],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "8.2",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Mon, 06 Jul 2026 10:25:30 +0000"
+}

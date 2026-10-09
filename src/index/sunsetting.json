@@ -1,0 +1,54 @@
+{
+    "id": "sunsetting",
+    "name": "Sunsetting",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/sunsetting.html",
+    "aliases": [],
+    "description": "Sunsetting a feature is a period of deprecation, where the feature is still available, but is not recommended for usage. It is also displaying a warning message to alert of the disappearance, and offers alternatives.",
+    "code": "<?php\n\n    //Deprecated: trumpet(): Implicitly marking parameter $i as nullable is deprecated, the explicit nullable type must be used instead\n    function trumpet(int $i = null) {}\n\n    #[Deprecated]\n    function trample(int $i = null) {}\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Deprecation",
+    "related": [
+        "feature",
+        "deprecation"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Deprecation"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "How to Sunset a Feature (2025)",
+            "url": "https://producthq.org/agile/product-management/how-to-sunset-a-feature/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "How to sunset a feature",
+            "url": "https://www.intercom.com/blog/how-to-sunset-a-feature/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "The Quiet Shift Reshaping PHP Security",
+            "url": "https://www.linkedin.com/pulse/quiet-shift-reshaping-php-security-matthew-weier-o-phinney-fgquc/"
+        }
+    ],
+    "tags": [
+        "lifecycle"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+}

@@ -1,0 +1,54 @@
+{
+    "id": "logical-operator",
+    "name": "Logical Operators",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/logical-operator.html",
+    "aliases": [
+        "xor",
+        "or",
+        "and-operator",
+        "logical"
+    ],
+    "description": "Logical operators applies four logical functions to booleans. \n\n+ ``and`` and ``&&``, the and operator\n+ ``or`` and ``||``\n+ ``xor``, no symbolic version for ``xor``\n+ ``!``, no letter version for ``not``\n\nThe logical operators are either symbolic or letter. Be aware that the symbolic operators have a higher precedence than the letter one, in particular in regards to comparisons.\n\nThe logical operators work on various types, and output booleans. They are different from the bitwise operators, which work on the value as a bit level, not as a whole.",
+    "code": "<?php\n\n    if ($a == $b) {\n        print \"a and b are equal\";\n    }\n\n?>",
+    "documentation": "https://www.php.net/manual/en/language.operators.comparison.php",
+    "related": [
+        "bitwise-operator",
+        "not",
+        "and",
+        "bitshift-operator",
+        "false",
+        "true",
+        "letter-logical",
+        "pipe-operator"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.operators.comparison.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Operator Precedence",
+            "url": "https://www.php.net/manual/en/language.operators.precedence.php"
+        }
+    ],
+    "tags": [
+        "operator",
+        "feature"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Mon, 14 Sep 2026 17:05:51 +0000"
+}

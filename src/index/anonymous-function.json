@@ -1,0 +1,55 @@
+{
+    "id": "anonymous-function",
+    "name": "Anonymous Function",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/anonymous-function.html",
+    "aliases": [],
+    "description": "A function may be instantiated, without defining a function name. Such functions are called anonymous. \n\nAnonymous functions are defined as closures or arrow functions. They may also be created based on existing methods and functions, with the ``...`` operator.\n\nEven without names, they are usable like functions, or as callable.\n\nMethods cannot be anonymous, but it is possible to call a method without mentioning its name by using the ``__invoke`` magic method.\n",
+    "code": "<?php\n\n    $closure = function () {} ; \n\n    $arrowFunction = fn() => 1;\n    \n    $fcs = strlen(...);\n\n?>",
+    "documentation": "https://www.php.net/manual/en/functions.anonymous.php",
+    "related": [
+        "first-class-callable",
+        "closure",
+        "anonymous",
+        "arrow-function",
+        "__invoke",
+        "custom-function",
+        "function",
+        "lexical"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/functions.anonymous.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Anonymous functions in PHP",
+            "url": "https://drops-of-php.hi-folks.dev/04-functions/01-fns-anonymous/"
+        }
+    ],
+    "tags": [
+        "concept",
+        "feature",
+        "syntax",
+        "closure"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [
+        "Functions/Closures",
+        "Functions/UseArrowFunctions",
+        "Php/FirstClassCallable"
+    ],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Tue, 01 Sep 2026 06:21:42 +0000"
+}

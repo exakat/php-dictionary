@@ -1,0 +1,60 @@
+{
+    "id": "controller",
+    "name": "Controller",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/controller.html",
+    "aliases": [],
+    "description": "Controllers takes in charge one or several URL, extract data from the request, pass them to the model and finally, create and returns the view. \n\nControllers orchestrate the execution of the request, and act as gatekeeper, ensuring that data are correctly processed.",
+    "code": "",
+    "documentation": "https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller",
+    "related": [
+        "mvc",
+        "view-presentation",
+        "model",
+        "route",
+        "fat-controller",
+        "request",
+        "thin",
+        "view"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Controllers in Laravel 12",
+            "url": "https://laravel.com/docs/12.x/controllers"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Controllers in LeafPHP",
+            "url": "https://leafphp.dev/docs/mvc/controllers"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Controllers by the PHP league",
+            "url": "https://route.thephpleague.com/5.x/controllers/"
+        }
+    ],
+    "tags": [
+        "concept"
+    ],
+    "packagist": [
+        "laminas/laminas-mvc"
+    ],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sat, 08 Aug 2026 08:10:54 +0000"
+}

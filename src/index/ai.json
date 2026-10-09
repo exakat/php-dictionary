@@ -1,0 +1,81 @@
+{
+    "id": "ai",
+    "name": "Artificial Intelligence (AI)",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/ai.html",
+    "aliases": [],
+    "description": "A neural network is a software made of many simple processing units, called neurons, connected and organized in layers. By showing it many examples, it automatically learns patterns to look for.",
+    "code": "",
+    "documentation": "https://en.wikipedia.org/wiki/Neural_network_(machine_learning)",
+    "related": [
+        "llm",
+        "neural-network",
+        "rag",
+        "vector-database",
+        "machine-learning",
+        "mcp",
+        "php-ai-editor"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Neural_network_(machine_learning)"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "LLPhant - The PHP library for Gen AI and Vector Databases",
+            "url": "https://github.com/LLPhant/LLPhant"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "How to disable WordPress 7.0\u2019s new AI features",
+            "url": "https://manualdousuario.net/en/disable-ia-wordpress-7-0/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Learn PHP with Claude in 2026: master the language without becoming AI-dependent",
+            "url": "https://www.web-developpeur.com/en/blog/apprendre-php-avec-ia-2026"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Slop Scan",
+            "url": "https://github.com/voku/slop-scan"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "I am becoming a Markdown Developer",
+            "url": "https://f2r.github.io/en/markdown-developer"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Turn Claude Code into a Laravel expert with LaraClaude",
+            "url": "https://dev.to/edulazaro/turn-claude-code-into-a-laravel-expert-with-laraclaude-4l42"
+        }
+    ],
+    "tags": [
+        "ai",
+        "acronym"
+    ],
+    "packagist": [
+        "rubix/ml"
+    ],
+    "extensions": [
+        "fann"
+    ],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": {
+        "Neuron AI": "https://www.neuron-ai.dev/"
+    },
+    "popularity": "",
+    "modified": "Thu, 17 Sep 2026 14:41:47 +0000"
+}

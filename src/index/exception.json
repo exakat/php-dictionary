@@ -1,0 +1,96 @@
+{
+    "id": "exception",
+    "name": "Exception",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/exception.html",
+    "aliases": [],
+    "description": "Exceptions are a mechanism for handling errors and exceptional situations in a more structured and controlled way compared to traditional error handling methods like using error codes or ``die()`` statements. Exceptions provide a way to separate the normal flow of code from error-handling code, making it easier to manage errors and maintain clean and readable code.\n\nExceptions are thrown at the point of detection of the issue, and processed somewhere else in the code, when they are caught by a try-catch statement. Ultimately, exceptions block the execution of the application when they are not caught.",
+    "code": "<?php\n\n    class Elephpant {\n        final const HABITAT = 1;\n\n        final function method() { }\n    }\n\n?>",
+    "documentation": "https://www.php.net/manual/en/language.exceptions.php",
+    "related": [
+        "throw",
+        "try-catch",
+        "rangeexception",
+        "anonymous-catch",
+        "badfunctioncallexception",
+        "chaining",
+        "domainexception",
+        "error-handling",
+        "error",
+        "exception-chain",
+        "imagickexception",
+        "lengthexception",
+        "pharexception",
+        "predefined-exception",
+        "svmexception",
+        "throwable",
+        "traversable",
+        "typerror",
+        "unexpectedvalueexception",
+        "unhandledmatcherror",
+        "outofrangeexception",
+        "overflowexception",
+        "set_error_handler",
+        "valueerror",
+        "fatal-error",
+        "pdoexception",
+        "resource-leak",
+        "transaction",
+        "imagickpixelexception",
+        "troubleshoot",
+        "continuation",
+        "defer",
+        "effect-system",
+        "result-type"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.exceptions.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Modern Error handling in PHP",
+            "url": "https://netgen.io/blog/modern-error-handling-in-php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP try & catch: what are exceptions and how to handle them?",
+            "url": "https://benjamincrozat.com/php-exceptions"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Mastering Exception Handling in PHP: Ensuring Code Resilience",
+            "url": "https://dev.to/devmahfuz/mastering-exception-handling-in-php-ensuring-code-resilience-3pk5"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "A guide to exception handling in PHP",
+            "url": "https://www.honeybadger.io/blog/php-exceptions/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Exception Handling",
+            "url": "https://phplang.org/spec/17-exception-handling.html"
+        }
+    ],
+    "tags": [
+        "exception"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [
+        "Php/ThrowUsage"
+    ],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+}

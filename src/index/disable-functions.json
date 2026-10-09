@@ -1,0 +1,48 @@
+{
+    "id": "disable-functions",
+    "name": "Disable Functions",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/disable-functions.html",
+    "aliases": [],
+    "description": "The ``disable_functions`` PHP directive prevents specific native functions from being executed when called from code. It helps mitigate potential security vulnerabilities or enforce practices by forbidding usage of specific functions, even when they are compiled into the engine.\n\nThis directive requires a list of PHP functions, separated by a comma, and set in the PHP.ini file: this is read at startup time and cannot be changed later. \n\n``disable_functions`` only works on native functions, and extension functions. It is not possible to preemptively disable a custom function: this may be achieved by defining the forbidden function, and assigning it a warning, or no operation. \n\nA disabled function may be recreated as a custom function in the code.\n\nDisabled functions appear as undefined: in fact, they can also be redefined, with a custom code and then used.",
+    "code": "",
+    "documentation": "https://www.php.net/manual/en/ini.core.php#ini.disable-functions",
+    "related": [
+        "function",
+        "auto_prepend_file",
+        "disable",
+        "enable",
+        "disable-classes",
+        "compiler-optimized-function"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/ini.core.php#ini.disable-functions"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Disabling functions using the PHP disable_functions directive",
+            "url": "https://kb.hosting.com/docs/php-disable_functions-directive"
+        }
+    ],
+    "tags": [
+        "directive"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [
+        "Security/CantDisableFunction"
+    ],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Fri, 18 Sep 2026 15:28:47 +0000"
+}

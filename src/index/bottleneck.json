@@ -1,0 +1,50 @@
+{
+    "id": "bottleneck",
+    "name": "Bottleneck",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/bottleneck.html",
+    "aliases": [],
+    "description": "A bottleneck is a place in a piece of software which cannot keep up with the rest of the application. It is the slowest part, and also, the limiting portion of the software. It builds on the image of a bottle, where the neck is smaller to reduce spilling in case of a fall, but reduces output too.",
+    "code": "",
+    "documentation": "https://en.wikipedia.org/wiki/Bottleneck_(software)",
+    "related": [
+        "jit",
+        "apm",
+        "profiler"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Bottleneck_(software)"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Top 7 PHP Performance Bottlenecks and How to Monitor Them [2026 Complete Guide]",
+            "url": "https://dev.to/olivia_madison_b0ad7090ad/top-7-php-performance-bottlenecks-and-how-to-monitor-them-2o56"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Monitoring PHP Performance and Diagnosing Bottlenecks",
+            "url": "https://linuxblog.io/monitoring-php-performance-diagnosing-bottlenecks/"
+        }
+    ],
+    "tags": [
+        "performance"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Fri, 14 Aug 2026 07:52:13 +0000"
+}

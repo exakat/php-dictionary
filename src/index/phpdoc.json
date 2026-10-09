@@ -1,0 +1,55 @@
+{
+    "id": "phpdoc",
+    "name": "PHPdoc",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/phpdoc.html",
+    "aliases": [],
+    "description": "PHPDoc is a style of PHP comments. Those comments are delimited by ``/** */``. \n\nPHPdoc comments are different from the other styles of PHP comments in their syntax. They are also used for PHP annotations, and are sometimes confused with them. \n\nPHPDoc annotations are an adaptation of Javadoc for the PHP programming language. It is a formal way to comment specific PHP structures, that is machine readable.\n\nPHPDoc has a special token, to make it easier to extract it from the code.\n\nPHPdoc may be exploited by automated documentation tools, static analyzers, or IDEs.",
+    "code": "<?php\n/**\n * Check if a number is prime\n *\n * @param int     $int       The number to test\n *\n * @return bool : is it prime or not\n */\n function prime(int $int): bool {\n     // ...\n }\n\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/PHPDoc",
+    "related": [
+        "attribute",
+        "annotation",
+        "comment",
+        "autocompletion",
+        "php-manual",
+        "technical-reference",
+        "type-inference"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/PHPDoc"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Introduction to PHP Annotations",
+            "url": "https://www.educba.com/php-annotations/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "phpDocumentor",
+            "url": "https://www.phpdoc.org/"
+        }
+    ],
+    "tags": [
+        "concept",
+        "syntax"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": {
+        "Unterminated comment starting line %d": "unterminated-comment-starting-line-%d"
+    },
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Tue, 11 Aug 2026 20:51:45 +0000"
+}

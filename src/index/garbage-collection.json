@@ -1,0 +1,57 @@
+{
+    "id": "garbage-collection",
+    "name": "Garbage Collection",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/garbage-collection.html",
+    "aliases": [
+        "gc"
+    ],
+    "description": "Garbage collection is a PHP mechanism that checks memory and frees it when it needs to store new values. \n\nPHP allocates memory as it needs, when variables and objects are created in the code. Sometimes, those variables are destroyed, using explicit ``unset()`` calls, or implicitly, when leaving a method or destroying an object.\n\nTo speed up the process, PHP postpones memory cleaning until the end of the application, or when it reaches some internal threshold. Then, it reviews all the currently allocated variables, and when they are not used anymore, that is when the reference counter is down to 0, it removes them.\n\nAs garbage collection requires pausing the execution, PHP only runs it on-demand, via ``gc_collect_cycles()`` calls, or once every ten thousand objects to clear.\n\nGarbage collection is needed to handle circular reference: objects that mutually reference each other, and which requires some processing to identify as dead data.",
+    "code": "<?php\n\n    // Explicit Garbage Collection \n    gc_collect_cycles();\n\n    // implicit garbage collection\n    // well,... difficult to illustrate, right?\n\n?>",
+    "documentation": "https://www.php.net/manual/en/features.gc.php",
+    "related": [
+        "zval",
+        "reference",
+        "reference-count",
+        "circular-reference",
+        "unset",
+        "weakmap",
+        "memory",
+        "memory-leak",
+        "borrow-checking",
+        "linear-type",
+        "memory-arena",
+        "object-lifecycle",
+        "shutdown",
+        "engine"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/features.gc.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Easy to understand PHP garbage collection mechanism",
+            "url": "https://medium.com/geekculture/easy-to-understand-php-garbage-collection-mechanism-ee5c5bde5a5d"
+        }
+    ],
+    "tags": [
+        "php engine",
+        "feature"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+}

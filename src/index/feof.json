@@ -1,0 +1,43 @@
+{
+    "id": "feof",
+    "name": "feof()",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/feof.html",
+    "aliases": [],
+    "description": "``feof()`` checks whether the end of a file has been reached for a given file pointer, returning true once no more data can be read from it.\n\nThe function is meant to be tested after a read attempt has already failed, not before: ``feof()`` only becomes true once ``fread()`` or ``fgets()`` has tried to read past the last byte and come back empty. Checking it before the first read, or relying on it to stop a loop that reads fixed-size lines, can leave the last chunk of data unprocessed or duplicate it depending on the reading function used.\n\n``feof()`` returns true for a stream in an error state as well as one that reached its end, since a failed ``fopen()`` produces a resource that behaves as if no data will ever come, so callers should always confirm that ``fopen()`` succeeded before entering a read loop.",
+    "code": "<?php\n\n    $handle = fopen('data.txt', 'rb');\n\n    while (!feof($handle)) {\n        $chunk = fread($handle, 8192);\n        // process $chunk\n    }\n\n    fclose($handle);\n\n?>",
+    "documentation": "https://www.php.net/manual/en/function.feof.php",
+    "related": [
+        "fopen",
+        "fread",
+        "fgets",
+        "stream",
+        "resource"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/function.feof.php"
+        }
+    ],
+    "tags": [
+        "native function",
+        "filesystem"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Fri, 25 Sep 2026 18:46:21 +0000"
+}

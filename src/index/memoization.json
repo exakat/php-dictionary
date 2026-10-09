@@ -1,0 +1,46 @@
+{
+    "id": "memoization",
+    "name": "Memoization",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/memoization.html",
+    "aliases": [],
+    "description": "Memoization is an optimisation technique to speed up a function by avoiding re-processing previously calculated results. \n\nUsually, memoization trades processing time with memory. The best suited situation are when the load takes some time to process, and the result is a small amount of memory, such as a count.",
+    "code": "<?php\n\nfunction docs($file) {\n    // local cache \n    static $cache = [];\n    \n    // If it was already cached, use it. \n    // Docs are supported to be constant during the execution\n    if (isset($cache[$file])) {\n        return $cache[$file];\n    }\n    \n    $cache[$file] = file_get_contents($file) ?? '';\n}\n\n?>",
+    "documentation": "https://eddmann.com/posts/implementing-and-using-memoization-in-php/",
+    "related": [
+        "cache",
+        "performance",
+        "optimisation",
+        "pure-function",
+        "functional-programming",
+        "determinism"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://eddmann.com/posts/implementing-and-using-memoization-in-php/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Memoization in PHP",
+            "url": "https://www.honeybadger.io/blog/memoization-in-php/"
+        }
+    ],
+    "tags": [
+        "technique"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "4.0+",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 13 Aug 2026 08:15:55 +0000"
+}

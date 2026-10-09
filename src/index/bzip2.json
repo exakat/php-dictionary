@@ -1,0 +1,53 @@
+{
+    "id": "bzip2",
+    "name": "bzip2 Extension",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/bzip2.html",
+    "aliases": [],
+    "description": "The ``bzip2`` extension handles the bzip2 compression format: read, write and access arbitrary part of files. It also provides a compression format for the output of PHP.",
+    "code": "<?php\n\n    // open file for reading\n    $bz = bzopen($filename, r);\n    \n    // output until end of the file\n    echo bzread($bz);\n    \n    bzclose($bz);\n\n?>",
+    "documentation": "https://www.php.net/manual/en/book.bzip2.php",
+    "related": [
+        "zlib",
+        "zip"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/book.bzip2.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Compress Files with bzip2 in PHP",
+            "url": "https://ssojet.com/compression/compress-files-with-bzip2-in-php/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "bzip2",
+            "url": "https://sourceware.org/bzip2/"
+        }
+    ],
+    "tags": [
+        "extension"
+    ],
+    "packagist": [],
+    "extensions": [
+        "bzip2"
+    ],
+    "analyzers": [
+        "Extensions/Extbzip2"
+    ],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Tue, 01 Sep 2026 08:29:26 +0000"
+}

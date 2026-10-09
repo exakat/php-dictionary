@@ -1,0 +1,43 @@
+{
+    "id": "traversal",
+    "name": "Traversal",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/traversal.html",
+    "aliases": [],
+    "description": "A traversal is the process of listing all elements in a data structure. \n\n``foreach()`` is a command to do a traversal on an array, an object or an iterable object. It is also possible to use an iterator.\n\nTraversal may be recursive: for example, the recursive iterators in the SPL library feature the ``RecursiveArrayIterator`` class, which traverses multi-dimensional arrays.\n\nTraversal of a tree or graph data structure turns the graph into an array-like list.",
+    "code": "<?php\n\n    $array = range(0, 9);\n    \n    foreach($array as $item) {\n        print \"$item\\n\";\n        // list digits from 0 to 9\n    }\n    \n    // adds 10, 11, 12 to the previous array\n    // in a separate \n    $array[] = [10, 11, 12];\n    \n    $iterator = new RecursiveArrayIterator($array);\n    foreach($iterator as $item) {\n        print \"$item\\n\";\n        // list digits from 0 to 12\n    }\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Graph_traversal",
+    "related": [
+        "iterator",
+        "foreach",
+        "loop"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Graph_traversal"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Using PHP Arrays: A Guide for Beginners",
+            "url": "https://www.sitepoint.com/php-arrays-tutorial/"
+        }
+    ],
+    "tags": [
+        "concept"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Wed, 19 Aug 2026 06:49:15 +0000"
+}

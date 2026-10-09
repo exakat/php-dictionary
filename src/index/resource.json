@@ -1,0 +1,47 @@
+{
+    "id": "resource",
+    "name": "resource",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/resource.html",
+    "aliases": [],
+    "description": "A resource is a special type of data, holding a reference to an external resource. Resources are created and used by special functions. \n\nResources are only used with their dedicated functions. It is not possible to modify them in any other way.\n\nResources, in general, are being removed from PHP code and more recent versions tend to rely less on them and more on objects. \n\nThere is a list of PHP resources available in the docs.",
+    "code": "<?php\n\n    $fp = fopen('/tmp/test.txt', 'r+');\n    var_dump(is_resource($fp));\n\n?>",
+    "documentation": "https://www.php.net/manual/en/language.types.resource.php",
+    "related": [
+        "type",
+        "native-type",
+        "array-syntax",
+        "handle",
+        "object-syntax",
+        "resource-leak"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.types.resource.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "List of Resource Types",
+            "url": "https://www.php.net/manual/en/resource.php"
+        }
+    ],
+    "tags": [
+        "type",
+        "feature"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+}

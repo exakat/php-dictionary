@@ -1,0 +1,72 @@
+{
+    "id": "engine",
+    "name": "PHP Engine",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/engine.html",
+    "aliases": [
+        "php-engine"
+    ],
+    "description": "The PHP engine, often referred to as the PHP interpreter, is the core component of the PHP programming language. It is responsible for translating and executing PHP code on a web server or other environments that support PHP. The engine takes the human-readable PHP code and converts it into machine-level instructions that the computer can understand and execute.\n\nIt is also called the php binary, or the PHP executable, although these names refer to the engine while its running, in a production or operating system environment.\n\nThe PHP engine is sometimes considered as a virtual machine.",
+    "code": "",
+    "documentation": "https://www.php.net/manual/en/install.general.php",
+    "related": [
+        "php-rfc",
+        "uopz",
+        "zend-engine",
+        "virtual-machine",
+        "__halt_compiler",
+        "core",
+        "opcode",
+        "php-extension",
+        "segmentation-fault",
+        "vm",
+        "assertion",
+        "dynamic-loading",
+        "extension",
+        "fibers",
+        "garbage-collection",
+        "handler",
+        "jit",
+        "output-buffering"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/install.general.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Installation and Configuration",
+            "url": "https://www.php.net/manual/en/install.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Zend Engine",
+            "url": "https://en.wikipedia.org/wiki/Zend_Engine"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP Internals Book",
+            "url": "https://www.phpinternalsbook.com/"
+        }
+    ],
+    "tags": [
+        "feature",
+        "internals",
+        "rfc"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Fri, 11 Sep 2026 08:47:00 +0000"
+}

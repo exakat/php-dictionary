@@ -1,0 +1,55 @@
+{
+    "id": "legacy",
+    "name": "Legacy",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/legacy.html",
+    "aliases": [
+        "legacy-code"
+    ],
+    "description": "Legacy code refers to existing code written under older practices, PHP versions, or conventions that are no longer considered current. It typically predates modern PHP features such as namespaces, type declarations, object-oriented design, or PSR standards.\n\nCommon PHP legacy patterns include procedural scripts, the use of ``mysql_*`` functions, which was removed in version 7.0, the ``var`` keyword for properties, global variables, ``register_globals``, the absence of autoloading, and short open tags.\n\nMaintaining and evolving legacy code requires careful refactoring to avoid regressions, since test coverage is often absent or incomplete. Static analysis tools can help identify outdated constructs.",
+    "code": "<?php\n\n    // Legacy PHP 4/5 style\n    global $db;\n    var $property;\n    mysql_connect('localhost', 'root', '');\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Legacy_code",
+    "related": [
+        "var",
+        "deprecated",
+        "backward-compatible",
+        "backward-incompatible",
+        "refactoring",
+        "dead-code",
+        "debt",
+        "upgrade",
+        "global-variable",
+        "register-globals",
+        "maintenance",
+        "tco"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Legacy_code"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Working Effectively with Legacy Code (book)",
+            "url": "https://www.goodreads.com/book/show/44919.Working_Effectively_with_Legacy_Code"
+        }
+    ],
+    "tags": [
+        "code quality",
+        "_nocompileOK"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Tue, 25 Aug 2026 13:31:19 +0000"
+}

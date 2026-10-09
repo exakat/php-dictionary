@@ -1,0 +1,44 @@
+{
+    "id": "base64",
+    "name": "Base 64 Encoding",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/base64.html",
+    "aliases": [],
+    "description": "``Base64`` is a binary-to-text encoding scheme that represents binary data in an ASCII string format. It is often used to encode data so it can be safely transmitted over text-based systems such as email, URLs, or JSON, which may not handle binary data well.\n\n``Base64`` is used to prevent degradation of the message during the transmission: the data is not corrupted by the journey on Internet.\n\n``Base64`` is not encryption. It does not secure the data: there is no protection against reading by a third party, unless they are not aware of ``Base64`` itself.\n\n``Base64`` is not related to the notion of mathematical base, such as base 10, binary, octal or hexadecimal.",
+    "code": "<?php\n\n    $phpString = 'Well, I can say: \u4f60\u597d\uff01' ;\n    \n    $encoded = base64_encode($phpString);\n    print $encoded.PHP_EOL;\n    \n    $decoded = base64_decode($encoded);\n    print $decoded.PHP_EOL;\n\n?>",
+    "documentation": "https://www.php.net/manual/en/function.base64-encode.php",
+    "related": [
+        "uuencode",
+        "base",
+        "php-filter",
+        "rsa"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/function.base64-encode.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Php Base64 encode/decode \u2013 best practices and use cases",
+            "url": "https://inspector.dev/php-base64-encodedecode-best-practices-and-use-cases/"
+        }
+    ],
+    "tags": [
+        "format"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Wed, 12 Aug 2026 08:05:00 +0000"
+}

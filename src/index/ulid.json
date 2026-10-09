@@ -1,0 +1,55 @@
+{
+    "id": "ulid",
+    "name": "Universally Unique Lexicographically Sortable Identifier (ULID)",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/ulid.html",
+    "aliases": [],
+    "description": "ULID is a Universally Unique Lexicographically Sortable Identifier. It is a 128-bit identifier, compatible with ``UUID``, but designed to be sortable by creation time without any additional query.\n\nA ULID is encoded as a 26-character ``Crockford``'s ``Base32`` string. It is composed of two parts: a 10-character timestamp, with millisecond precision, and a 16-character random component. Because the timestamp comes first, ULID sort lexicographically in the order they were created, which makes them efficient as database primary keys with B-tree indexes.\n\nULID are URL-safe, case-insensitive, and contain no special characters. They avoid the hyphenated formatting of ``UUID`` while remaining compact and human-readable.\n\nPHP support is available through components such as ``robinvdvleuten/ulid`` or ``symfony/uid``.",
+    "code": "<?php\n\n    use Symfony\\Component\\Uid\\Ulid;\n\n    $ulid = new Ulid();\n    echo $ulid; // e.g. 01ARZ3NDEKTSV4RRFFQ69G5FAV\n\n    // ULIDs generated in sequence sort correctly\n    $first  = new Ulid();\n    $second = new Ulid();\n    assert((string) $first < (string) $second);\n\n?>",
+    "documentation": "https://github.com/ulid/spec",
+    "related": [
+        "uuid",
+        "unique-identifier",
+        "identifier",
+        "database",
+        "index-sql",
+        "sqids",
+        "surrogate-key",
+        "unique"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://github.com/ulid/spec"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "symfony/uid ULID",
+            "url": "https://symfony.com/doc/current/components/uid.html#ulids"
+        }
+    ],
+    "tags": [
+        "concept",
+        "string",
+        "acronym"
+    ],
+    "packagist": [
+        "robinvdvleuten/ulid",
+        "symfony/uid"
+    ],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Fri, 28 Aug 2026 10:27:10 +0000"
+}

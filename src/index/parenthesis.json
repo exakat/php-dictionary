@@ -1,0 +1,47 @@
+{
+    "id": "parenthesis",
+    "name": "Parenthesis",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/parenthesis.html",
+    "aliases": [],
+    "description": "Parenthesis are the ``(`` and ``)``. They must be balanced: each opening parenthesis must have a closing parenthesis, or a PHP syntax error is generated.\n\nParenthesis are used to make explicit precedence between operations. Parenthesis group all underlying operations as one call: there can be only one expression inside parenthesis. \n\nParenthesis are an important token for the parser: they are needed in many situations, such as method definition, method call, ``for()``, ``foreach()``, ``switch()``, ``match()``, etc. Once the syntax has been recognized, such parenthesis are not used anymore.\n\nParenthesis are idempotent: there is no use in setting parenthesis directly inside another parenthesis.\n\nSometimes, parenthesis are used for make language structure look like a functioncall. This is useless to the PHP engine, and even, prevent some features.",
+    "code": "<?php\n\n// parenthesis in signatures\nfunction trumpet($parameter) {}\n\n// useless parenthesis\ninclude('/path/to/file.php'); \n\n// parenthesis \necho 'a', 'b';    // best practice: no parenthesis\necho ('a' . 'b'); // parenthesis force the concatenation \necho ('a'), 'b';  // weird, right?\n\n// precedence changing with parenthesis\necho  2 +  3  * 4; // 14\necho (2 +  3) * 4; // 20\necho  2 + (3  * 4); // 14\n\n?>",
+    "documentation": "https://www.php.net/manual/en/functions.arguments.php",
+    "related": [
+        "argument",
+        "balanced",
+        "bracket",
+        "bracketless",
+        "square-bracket"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/functions.arguments.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "On PHP Language Constructs and Parentheses",
+            "url": "https://tfrommen.de/on-php-language-constructs-and-parentheses/"
+        }
+    ],
+    "tags": [
+        "token",
+        "character",
+        "idempotent"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+}

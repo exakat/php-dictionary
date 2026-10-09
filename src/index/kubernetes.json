@@ -1,0 +1,49 @@
+{
+    "id": "kubernetes",
+    "name": "Kubernetes",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/kubernetes.html",
+    "aliases": [
+        "k8s",
+        "kube"
+    ],
+    "description": "Kubernetes, nicknamed k8s, is an open-source container orchestration platform that automates the deployment, scaling, networking, and lifecycle management of containerised applications. Originally developed by Google, it is now maintained by the CNCF.\n\nThe core abstractions in Kubernetes are: ``Pod``, the smallest deployable unit, one or more containers sharing a network namespace, ``Deployment``, declarative specification of desired pod replicas, ``Service``, stable network endpoint for a set of pods, ``Ingress``, HTTP routing from outside the cluster, ``ConfigMap`` and ``Secret``, configuration injection, and ``HorizontalPodAutoscaler``, automatic scaling based on CPU/memory or custom metrics.\n\nPHP applications are deployed on Kubernetes as Docker containers, typically using PHP-FPM with nginx or Caddy as the HTTP front-end, or as FrankenPHP/Swoole workers. The Kubernetes service layer provides built-in service discovery via DNS. Kubernetes is the most common runtime for PHP microservices at scale.\n\n``k8s`` is the numeronym for Kubernetes: 8 letters between K and s.",
+    "code": "# deployment.yaml \u2014 PHP-FPM application on Kubernetes\napiVersion: apps/v1\nkind: Deployment\nmetadata:\n  name: order-service\nspec:\n  replicas: 3\n  selector:\n    matchLabels:\n      app: order-service\n  template:\n    metadata:\n      labels:\n        app: order-service\n    spec:\n      containers:\n        - name: php-fpm\n          image: myregistry/order-service:latest\n          ports:\n            - containerPort: 9000\n          env:\n            - name: DATABASE_URL\n              valueFrom:\n                secretKeyRef:\n                  name: db-secret\n                  key: url\n        - name: nginx\n          image: nginx:alpine\n          ports:\n            - containerPort: 80\n---\napiVersion: v1\nkind: Service\nmetadata:\n  name: order-service\nspec:\n  selector:\n    app: order-service\n  ports:\n    - port: 80",
+    "documentation": "https://kubernetes.io/docs/home/",
+    "related": [
+        "docker",
+        "container-orchestration",
+        "microservice",
+        "service-discovery",
+        "load-balancer",
+        "numeronym"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://kubernetes.io/docs/home/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "How To Deploy PHP Application On Kubernetes ?",
+            "url": "https://www.geeksforgeeks.org/devops/how-to-deploy-php-application-on-kubernetes/"
+        }
+    ],
+    "tags": [
+        "concept"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Tue, 14 Jul 2026 05:23:52 +0000"
+}

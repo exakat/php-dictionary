@@ -1,0 +1,56 @@
+{
+    "id": "strict",
+    "name": "Strict",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/strict.html",
+    "aliases": [],
+    "description": "The word ``strict`` appears in several distinct PHP concepts:\n\n+ ``strict_types`` declare directive: a per-file directive, ``declare(strict_types=1)``, that disables PHP's automatic scalar type coercion. When active, passing a value of the wrong type to a typed parameter raises a ``TypeError`` rather than silently casting the value.\n+ Strict comparison: the use of identity operators ``===`` and ``!==`` instead of equality operators ``==`` and ``!=``. Strict comparison checks both value and type, bypassing type juggling. The ``match`` expression and the third parameter of ``in_array()`` also operate in strict mode.\n+ Gradual type checking: the type system is optional and enforced at runtime. ``strict_types`` tightens enforcement within a file but does not affect calls coming from other files. This is distinct from compile-time strict type systems found in statically typed languages.",
+    "code": "<?php\n\n    declare(strict_types=1);\n    \n    // strict_types: TypeError, no silent cast\n    function square(int $n): int { return $n * $n; }\n    \n    // strict comparison: false, different types\n    var_dump(0 === false);\n    \n    // strict in_array: false, '1' !== 1\n    var_dump(in_array('1', [1, 2, 3], true));\n\n?>",
+    "documentation": "https://www.php.net/manual/en/language.operators.comparison.php",
+    "related": [
+        "strict_types",
+        "strict-comparison",
+        "type-checking",
+        "relaxed-comparison",
+        "type-juggling",
+        "in_array",
+        "match",
+        "gradual-type-checking"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.operators.comparison.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP type declarations",
+            "url": "https://www.php.net/manual/en/language.types.declarations.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP RFC: Scalar Type Declarations",
+            "url": "https://wiki.php.net/rfc/scalar_type_hints_v5"
+        }
+    ],
+    "tags": [
+        "disambiguation",
+        "type"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sun, 30 Aug 2026 19:16:55 +0000"
+}

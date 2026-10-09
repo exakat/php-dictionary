@@ -1,0 +1,62 @@
+{
+    "id": "exponent",
+    "name": "Exponent",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/exponent.html",
+    "aliases": [
+        "**",
+        "power",
+        "exponentiation",
+        "pow"
+    ],
+    "description": "Exponent, or exponentiation, is the mathematical operation to raise a number to the power of another number.\n\nThere are two possibilities to use this operation: the ``**`` operator, and the ``pow()`` native function.",
+    "code": "<?php\n\n    echo pow(-3, 2); // displays 9 \n    \n    echo 2 ** 3;    // displays 8\n\n?>",
+    "documentation": "https://www.php.net/manual/en/language.operators.arithmetic.php",
+    "related": [
+        "multiplication",
+        "division",
+        "native",
+        "e",
+        "double",
+        "exponential",
+        "hypot",
+        "logarithm",
+        "sign",
+        "sqrt"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.operators.arithmetic.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "pow",
+            "url": "https://www.php.net/manual/en/function.pow.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP RFC: ** operator",
+            "url": "https://wiki.php.net/rfc/pow-operator"
+        }
+    ],
+    "tags": [
+        "math"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [
+        "Php/NewExponent"
+    ],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Tue, 01 Sep 2026 05:55:53 +0000"
+}

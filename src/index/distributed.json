@@ -1,0 +1,47 @@
+{
+    "id": "distributed",
+    "name": "Distributed",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/distributed.html",
+    "aliases": [],
+    "description": "When something is distributed, it is spread across several autonomous instances, though it is reputed working as one.\n\nThe independent servers pass messages among each other, in order to be synchronised.\n\nThere are distributed transactions over multiple SQL server; distributed sessions, over multiple web server; etc.",
+    "code": "",
+    "documentation": "https://en.wikipedia.org/wiki/Distributed_computing",
+    "related": [
+        "distributed-monolith"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Distributed_computing"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "CAP theorem",
+            "url": "https://en.wikipedia.org/wiki/CAP_theorem"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Microservices.io",
+            "url": "https://microservices.io/"
+        }
+    ],
+    "tags": [
+        "concept",
+        "adjective"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Tue, 25 Aug 2026 12:17:01 +0000"
+}

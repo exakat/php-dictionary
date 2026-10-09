@@ -1,0 +1,49 @@
+{
+    "id": "short-assignation",
+    "name": "Short Assignations",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/short-assignation.html",
+    "aliases": [
+        "combined-operator"
+    ],
+    "description": "In addition to the basic assignment operator, there are combined operators for all of the binary arithmetic, array union and string operators that allow to use a value in an expression and then set its value to the result of that expression.",
+    "code": "<?php\n\n    // incrementing $a by one\n    $a = $a + 1;\n    \n    // short assignement for the above syntax\n    $a += 1;\n\n?>",
+    "documentation": "https://www.php.net/manual/en/language.operators.assignment.php",
+    "related": [
+        "assignation",
+        "bitwise-operator",
+        "iffectation",
+        "variable",
+        "property",
+        "array"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.operators.assignment.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP \u2014 P22: Shorthand Operators",
+            "url": "https://www.dinocajic.com/php-shorthand-operators/"
+        }
+    ],
+    "tags": [
+        "operator",
+        "feature"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+}

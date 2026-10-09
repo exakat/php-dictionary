@@ -1,0 +1,61 @@
+{
+    "id": "cms",
+    "name": "Content Management System (CMS)",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/cms.html",
+    "aliases": [],
+    "description": "A CMS stands for Content Management System. It's software that creates, edits, organizes, and publishes content on a website without needing to write code.\n\nPHP has a lot of CMS. Here is a list: \n\n+ ``WordPress``\n+ ``TYPO3``\n+ ``Textpattern``\n+ ``Sulu``\n+ ``ProcessWire``\n+ ``octoberCMS``\n+ ``Joomla``\n+ ``Drupal``\n+ ``Bolt CMS``\n\nA CMS is a application that deals with publishing content online. \n\nCMS may be open source or proprietary. They usually come with a marketplace, which publishes third-party plugins, extensions or components.\n\nThe list above is not exhaustive. It is in alphabetical order.\n",
+    "code": "",
+    "documentation": "https://en.wikipedia.org/wiki/Content_management_system",
+    "related": [
+        "open-source",
+        "marketplace",
+        "plugin",
+        "application",
+        "framework",
+        "headless"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Content_management_system"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Top 10 PHP CMS Platforms For Developers in 2024",
+            "url": "https://www.plesk.com/blog/various/top-10-php-cms-platforms-for-developers-in-2024/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "CMS Trends 2026: What Matters and What's Just Hype",
+            "url": "https://stackcompass.dev/blog/cms-trends-signal-noise/"
+        }
+    ],
+    "tags": [
+        "application"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": {
+        "WordPress": "https://wordpress.org",
+        "Drupal": "https://www.drupal.org",
+        "Joomla": "https://www.joomla.org",
+        "TYPO3": "https://typo3.org",
+        "ProcessWire": "https://processwire.com",
+        "Bolt CMS": "https://boltcms.io",
+        "Textpattern": "https://textpattern.com",
+        "October CMS": "https://octobercms.com/",
+        "Sulu": "https://sulu.io/"
+    },
+    "popularity": "",
+    "modified": "Fri, 18 Sep 2026 04:45:03 +0000"
+}

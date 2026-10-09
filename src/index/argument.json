@@ -1,0 +1,43 @@
+{
+    "id": "argument",
+    "name": "Argument",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/argument.html",
+    "aliases": [],
+    "description": "Arguments are values passed to a function or method, at execution time. The argument is the execution time value, and the recipient of that value is the parameter, which is located in the signature of the method. They may be a variable or an expression.",
+    "code": "<?php\n\n    function trumpet($parameter) {}\n\n    $argument = 1;\n    trumpet($argument + 2);\n\n?>",
+    "documentation": "https://www.php.net/manual/en/functions.arguments.php",
+    "related": [
+        "parameter",
+        "comma",
+        "parenthesis"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/functions.arguments.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "What's the difference between an argument and a parameter?",
+            "url": "https://stackoverflow.com/questions/156767/whats-the-difference-between-an-argument-and-a-parameter"
+        }
+    ],
+    "tags": [
+        "execution"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Mon, 14 Sep 2026 17:04:27 +0000"
+}

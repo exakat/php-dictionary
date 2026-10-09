@@ -1,0 +1,67 @@
+{
+    "id": "php-interface",
+    "name": "PHP Native Interfaces",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/php-interface.html",
+    "aliases": [],
+    "description": "PHP defines its own native interfaces. They are used with the native classes, and are usually available with custom code. \n\nFor example, ``Countable`` is a PHP native interface, which designates objects that can be passed to the ``count()`` function. On the other hand, ``Throwable`` is a native interface, which is characteristic of ``Exception`` and ``Error``. It may be used for typing, with ``catch`` clauses, or with ``instanceof`` but must be implemented by extending the two former classes.\n\nNative interfaces depend on the compiled extensions. Native interfaces are introduced in major or minor versions, so their number evolves with time.",
+    "code": "<?php\n\n    print_r(get_declared_interfaces());\n\n?>",
+    "documentation": "https://www.php.net/manual/en/language.oop5.interfaces.php",
+    "related": [
+        "traversable",
+        "iteratoraggregate",
+        "iterator",
+        "serializable",
+        "arrayaccess",
+        "countable",
+        "stringable",
+        "throwable",
+        "unitenum",
+        "backedenum",
+        "datetimeinterface",
+        "domparentnode",
+        "domchildnode",
+        "jsonserializable",
+        "recursiveiterator",
+        "outeriterator",
+        "seekableiterator",
+        "splobserver",
+        "splsubject",
+        "sessionhandlerinterface",
+        "sessionidinterface",
+        "sessionupdatetimestamphandlerinterface",
+        "reflector",
+        "random_cryptosafeengine",
+        "random_engine"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.oop5.interfaces.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Predefined Interfaces and Classes",
+            "url": "https://www.php.net/manual/en/reserved.interfaces.php"
+        }
+    ],
+    "tags": [
+        "structure"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Wed, 19 Aug 2026 07:53:05 +0000"
+}

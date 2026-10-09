@@ -1,0 +1,46 @@
+{
+    "id": "numeronym",
+    "name": "Numeronym",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/numeronym.html",
+    "aliases": [
+        "numerical-abbreviation"
+    ],
+    "description": "A numeronym, or numerical abbreviation, is an abbreviation where a number replaces the omitted middle letters of a word, typically the count of letters skipped. The pattern is: first letter + count + last letter.\n\nCommon examples in the PHP and broader software ecosystem:\n- ``i18n``: internationalization, with 18 letters between i and n\n- ``l10n``: localization\n- ``a11y``: accessibility\n- ``k8s``: ``Kubernetes``, with 8 letters between K and s\n- ``c10k``: a special case: the letter c plus 10,000 connections, not strictly first/last but widely understood\n- ``p13n``: personalization\n- ``o11y``: observability\n\nPHP uses ``i18n`` and ``l10n`` pervasively in documentation, library names like ``symfony/translation``, ``gettext``, and configuration keys. Recognising numeronyms reduces friction when reading technical documentation, RFC titles, and dependency names.",
+    "code": "<?php\n\n    // i18n: internationalization\n    // The intl extension and gettext are PHP's native i18n tools\n    $fmt = new MessageFormatter('fr_FR', 'Bonjour {name}');\n    echo $fmt->format(['name' => 'Damien']); // Bonjour Damien\n    \n    // l10n: localization \u2014 formatting numbers, dates, currencies per locale\n    $numFmt = new NumberFormatter('fr_FR', NumberFormatter::CURRENCY);\n    echo $numFmt->formatCurrency(1234.56, 'EUR'); // 1 234,56 \u20ac\n    \n    // a11y: accessibility \u2014 not a PHP runtime concept,\n    // but relevant when generating HTML output from PHP templates\n    \n    // c10k: see c10k.ini \u2014 the concurrency problem, not a strict numeronym\n    // but universally treated as one in server engineering discourse\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Numeronym",
+    "related": [
+        "internationalization",
+        "c10k",
+        "encoding",
+        "intl"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Numeronym"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP Internationalization",
+            "url": "https://www.php.net/manual/en/book.intl.php"
+        }
+    ],
+    "tags": [
+        "concept"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sun, 30 Aug 2026 15:07:05 +0000"
+}

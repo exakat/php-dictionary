@@ -1,0 +1,53 @@
+{
+    "id": "deprecated",
+    "name": "Deprecated",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/deprecated.html",
+    "aliases": [],
+    "description": "Deprecated is a native PHP attribute. It marks a method, function or class constant as available, but soon to be removed. \n\nThe Deprecated attribute accepts an argument, that is shown to help users move to an alternative.",
+    "code": "<?php\n\n#[Deprecated]\nfunction trumpet() {}\n\ntrumpet();\n//Deprecated: Function trumpet() is deprecated\n\n#[Deprecated('Use forage instead.')]\nfunction trample() {}\n\ntrample();\n//Deprecated: Function trample() is deprecated, Use forage instead.\n\n?>",
+    "documentation": "https://wiki.php.net/rfc/deprecated_attribute",
+    "related": [
+        "deprecation",
+        "arcane",
+        "legacy",
+        "php-attribute",
+        "php-native-attribute",
+        "forward-compatible"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://wiki.php.net/rfc/deprecated_attribute"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "#[Deprecated] attribute - PHP 8.4",
+            "url": "https://php.watch/versions/8.4/Deprecated"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP Deprecated Attribute: Mark Methods in 8.4",
+            "url": "https://richdynamix.com/articles/php-84-deprecated-attribute-mark-methods-laravel"
+        }
+    ],
+    "tags": [
+        "attribute",
+        "php attribute",
+        "rfc"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+}

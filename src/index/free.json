@@ -1,0 +1,51 @@
+{
+    "id": "free",
+    "name": "Free",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/free.html",
+    "aliases": [
+        "libre"
+    ],
+    "description": "Free, or ``libre`` when the freedom sense needs to be distinguished from gratis, in a software context has two distinct meanings that are often conflated:\n\n+ Free as in freedom: the user has the right to run, study, modify, and redistribute the software. This is the definition used by the Free Software Foundation, FSF, and the GNU project. A free-as-in-freedom licence grants these four essential freedoms\n+ Free as in gratis: the software has no monetary cost. This says nothing about the rights granted to the user\n+ Free as in release memory: the action of releasing hold on a resource, such as memory, file handler, etc. PHP implicitly frees resources when leaving a context, or finishing execution\n\nPHP itself is free in both senses: it has no cost and its source code is open and modifiable. However, PHP applications can be distributed under any licence, including proprietary ones.\n\nThe distinction matters when evaluating dependencies: a library that is free-of-charge but does not allow redistribution or modification is not free software. Open source licences generally grant both freedoms, though GPL is copyleft and imposes conditions on derived works.",
+    "code": "",
+    "documentation": "https://www.gnu.org/philosophy/free-sw.html",
+    "related": [
+        "open-source",
+        "licence",
+        "proprietary-source",
+        "community",
+        "memory"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.gnu.org/philosophy/free-sw.html"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Free as in Freedom vs Free as in Beer",
+            "url": "https://en.wikipedia.org/wiki/Gratis_versus_libre"
+        }
+    ],
+    "tags": [
+        "business",
+        "distribution",
+        "concept"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 03 Sep 2026 14:42:15 +0000"
+}

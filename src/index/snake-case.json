@@ -1,0 +1,47 @@
+{
+    "id": "snake-case",
+    "name": "Snake Case",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/snake-case.html",
+    "aliases": [],
+    "description": "Snake case, also written ``snake_case`` is a way of writing names without spaces, where:\n\n+ All the letters are set to lower case\n+ Each word is separated from the other by an underscore\n\nThe underscore letters create ``humps`` like a camel's back: this is the origin of the name.\n\nSnake case is often used for PHP native functions. \n",
+    "code": "<?php\n\n    function to_lower(string $string): int {\n        // PHP native function\n        return mb_strtolower($string);\n    }\n\n?>",
+    "documentation": "https://stringcase.org/cases/snake/",
+    "related": [
+        "pascal-case",
+        "camel-case",
+        "constant-case",
+        "underscore"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://stringcase.org/cases/snake/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "stringcase website",
+            "url": "https://stringcase.org/"
+        }
+    ],
+    "tags": [
+        "convention",
+        "animal"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 09 Jul 2026 09:09:32 +0000"
+}

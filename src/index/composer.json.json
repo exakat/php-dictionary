@@ -1,0 +1,53 @@
+{
+    "id": "composer.json",
+    "name": "composer.json",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/composer.json.html",
+    "aliases": [],
+    "description": "``composer.json`` is the manifest file that Composer reads to manage a PHP project's dependencies. It lives at the root of the project and declares, among other things, the runtime dependencies under ``require``, the development-only dependencies under ``require-dev``, the ``autoload`` mapping used to generate the class autoloader, and any custom ``scripts`` that can be run with ``composer run``.\n\nVersion constraints in ``require`` follow semantic versioning ranges, such as ``^2.0`` or ``~1.4``, rather than pinning an exact version; the exact versions actually installed are recorded separately, in ``composer.lock``.\n\n``composer.json`` is meant to be hand-edited, or edited through commands like ``composer require``, and is committed to version control. It is distinct from ``composer.lock``, which Composer generates and should not be edited by hand.",
+    "code": "{\n    \"name\": \"acme/example\",\n    \"require\": {\n        \"php\": \">=8.1\",\n        \"monolog/monolog\": \"^3.0\" \n    },\n    \"require-dev\": {\n        \"phpunit/phpunit\": \"^10.0\" \n    },\n    \"autoload\": {\n        \"psr-4\": {\n            \"Acme\\\\Example\\\\\": \"src/\" \n        }\n    }\n}",
+    "documentation": "https://getcomposer.org/doc/04-schema.md",
+    "related": [
+        "composer",
+        "composer.lock",
+        "json",
+        "packagist",
+        "autoload",
+        "semantic-versioning",
+        "dependency",
+        "psr"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://getcomposer.org/doc/04-schema.md"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "composer.json - Understanding version constraints and dependencies",
+            "url": "https://www.trakked.io/en/blog/composer-json-understanding-version-constraints-and-dependencies"
+        }
+    ],
+    "tags": [
+        "configuration",
+        "dependency"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [
+        "Structures/UseComposer"
+    ],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sun, 09 Aug 2026 13:17:10 +0000"
+}

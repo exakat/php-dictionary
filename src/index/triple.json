@@ -1,0 +1,44 @@
+{
+    "id": "triple",
+    "name": "Triple",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/triple.html",
+    "aliases": [],
+    "description": "Triple usually means that something appears only three times in a row. \n\nTriple is opposed to double and single, but it may also be distinct with any other number of repetition, such as quadruple, etc. \n\nThings that may be triple: \n\n+ Triple equal ``===``, not to be confused with the single equal ``=`` or the double one ``==``.",
+    "code": "<?php\n\n    $a = 1;\n    $a == 1;  // true \n    $a === 1; // true too. \n\n?>",
+    "documentation": "https://www.php.net/manual/en/language.operators.comparison.php",
+    "related": [
+        "single",
+        "double",
+        "comparison",
+        "rdf-triple-store"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.operators.comparison.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "1-2-3 operators",
+            "url": "https://www.exakat.io/1-2-3-php-operators/"
+        }
+    ],
+    "tags": [
+        "disambiguation"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sat, 08 Aug 2026 08:10:54 +0000"
+}

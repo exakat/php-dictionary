@@ -1,0 +1,50 @@
+{
+    "id": "operator-precedence",
+    "name": "Operator Precedence",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/operator-precedence.html",
+    "aliases": [],
+    "description": "The operator precedence dictates in which order the operators in a same sequence are executed. \n\nFor example, in the code ``1 + 2 * 3``, the order is the mathematical order: multiplication has precedence over addition. The results is 7, not 9. \n\nOperators have different precedence: ``.``, dot, has a lower priority than addition ``+`` and ``-``.  \n\nPrecedence may lead to unexpected behavior. For example, ``-9 ** 2 == -9``, because ``-`` has lower precedence than ``**``, and PHP doesn't parse negative numbers in one pass. \n\nAlso, ``$a = $b & $c;`` means that ``$a = $b;``, because ``=`` has a higher priority than ``&``.",
+    "code": "<?php\n\n// 7, not 9\n$a = 1 + 2 * 3; \n\n// 11\n$a = 4 * 2 + 3; \n\n// equivalent to !($a instanceof aClass)\n// ! has lower precedence than instanceof\n$b = !$a instanceof aClass;\n\n?>",
+    "documentation": "https://www.php.net/manual/en/language.operators.precedence.php#language.operators.precedence",
+    "related": [
+        "operator"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.operators.precedence.php#language.operators.precedence"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Understanding the PHP Operator Precedence",
+            "url": "https://flatcoding.com/tutorials/php/understanding-the-php-operator-precedence/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Which Operators Come First?",
+            "url": "https://www.dinocajic.com/php-operator-precedence/"
+        }
+    ],
+    "tags": [
+        "feature"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [
+        "Php/LogicalInLetters",
+        "Structures/DontMixPlusPlus",
+        "Php/ConcatAndAddition"
+    ],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sat, 08 Aug 2026 08:10:54 +0000"
+}

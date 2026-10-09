@@ -1,0 +1,46 @@
+{
+    "id": "optimisation",
+    "name": "Optimisation",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/optimisation.html",
+    "aliases": [],
+    "description": "Optimisation is the act of refactoring code to reduce the amount of resources used during execution. Optimisation may target time, as faster execution, memory, as using less of it, or specific resources, such as speeding up recalculations, or reducing the time to reach a result.\n\nOptimisation is called micro-optimisation when the resulting code is both measurably optimized, and in the end, not significant for a specific purpose.",
+    "code": "<?php\n\n// slow code\nfor($i = 0; $i < count($array); ++$i) {\n    doSomething($i);\n}\n\n// speed improvement of over 50% of the loop\n$nb = count($array);\nfor($i = 0; $i < $nb; ++$i) {\n    doSomething($i);\n}\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Program_optimization",
+    "related": [
+        "performance",
+        "memoization",
+        "micro-optimisation"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Program_optimization"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Optimize Your PHP Code: 8 Functions You Need for Efficient Table Handling",
+            "url": "https://sensiolabs.com/blog/2025/optimize-your-php-code-8-functions-you-need-for-efficient-table-handling"
+        }
+    ],
+    "tags": [
+        "concept",
+        "code quality"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Fri, 19 Jun 2026 21:26:50 +0000"
+}

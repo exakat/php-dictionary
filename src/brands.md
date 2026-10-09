@@ -196,9 +196,7 @@ Tools, services and products mentioned across the PHP Dictionary, with a link to
 
 + [PhpStorm](https://www.jetbrains.com/phpstorm/promo/) in [Integrated Environment of Development (IDE)](ide.html), [PHP AI Editor](php-ai-editor.html), [PHP Editor](php-editor.html)
 
-+ [PHPUnit](https://phpunit.de/) in [Code Coverage](code-coverage.html), [PCOV](pcov.html), [Red-Green-Refactor](red-green-refactor.html), [Test Framework](test-framework.html), [Unit Test](unit-test.html)
-
-+ [PHPunit](https://phpunit.de/) in [Test](test.html)
++ [PHPUnit](https://phpunit.de/) in [Code Coverage](code-coverage.html), [PCOV](pcov.html), [Red-Green-Refactor](red-green-refactor.html), [Test Framework](test-framework.html), [Test](test.html), [Unit Test](unit-test.html)
 
 + [Platform.sh](https://platform.sh/) in [PaaS](paas.html)
 

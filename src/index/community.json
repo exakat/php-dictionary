@@ -1,0 +1,53 @@
+{
+    "id": "community",
+    "name": "Community",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/community.html",
+    "aliases": [],
+    "description": "The PHP community is the global network of developers, contributors, and enthusiasts who use, improve, and promote PHP. \n\nThe community is known for its collaboration, innovation, and inclusivity, making PHP one of the most widely used languages for web development.\n\nThe community is recognizable via its various artefact, which go beyond the computer circles: logos, T-shirt, plush toys, legends, events, news stories, recurrent themes, think tanks, speakers, side projects, etc. ",
+    "code": "",
+    "documentation": "https://phpcommunity.org/",
+    "related": [
+        "folklore",
+        "elephpant",
+        "contribution",
+        "free",
+        "open-source",
+        "php-ug"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://phpcommunity.org/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "A community-run video platform for PHP",
+            "url": "https://afilina.com/why-phpc-tv"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "A community gaining momentum",
+            "url": "https://phpreads.com/issue-4"
+        }
+    ],
+    "tags": [
+        "community"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sun, 30 Aug 2026 15:39:03 +0000"
+}

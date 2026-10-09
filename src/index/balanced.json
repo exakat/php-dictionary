@@ -1,0 +1,54 @@
+{
+    "id": "balanced",
+    "name": "Balanced",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/balanced.html",
+    "aliases": [],
+    "description": "A pair of tokens is balanced when the opening token has a corresponding and unique closing token. \n\nTokens that needs balancing: \n\n+ Parenthesis, with ``(`` and ``)``\n+ Curly bracket, with ``{`` and ``}``\n+ Variable delimiters with curly bracket, with ``${`` and ``}``\n+ Square bracket, with ``[`` and ``]``\n+ Single quotes, with ``'``\n+ Double quotes, with ``\"``\n+ Oblic quotes, with `` \\` ``\n\nQuotes are the same for opening and closing tokens. \n\nThe listed tokens must be nested: after an opening token, any new opening token must be closed before the first one can be closed.\n\nInside quotes, the brackets and parenthesis may be unbalanced, as the accountability is turned off. This is not the case for curly brackets, \n\nClosing tokens are assigned to the last opening token: in case of mismatch, it produces a syntax error.",
+    "code": "<?php\n\n    // This is a syntax error.\n    // $trunk = ([;\n\n    $herd = '])(['; // this is OK inside quotes\n    // the curly brackets must be balanced when they enclose a variable or valid PHP expression.\n    // $herd = \"{$trunk\";\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Dyck_language",
+    "related": [
+        "parenthesis",
+        "bracket",
+        "curly-bracket",
+        "single-quote",
+        "double-quote",
+        "oblic-quote"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Dyck_language"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Balanced Brackets Algorithm",
+            "url": "https://www.baeldung.com/java-balanced-brackets-algorithm"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Valid Parentheses in an Expression",
+            "url": "https://www.geeksforgeeks.org/dsa/check-for-balanced-parentheses-in-an-expression/"
+        }
+    ],
+    "tags": [
+        "syntax",
+        "_singleQuote"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+}

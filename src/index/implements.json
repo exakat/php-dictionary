@@ -1,0 +1,47 @@
+{
+    "id": "implements",
+    "name": "implements",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/implements.html",
+    "aliases": [],
+    "description": "``implements`` is a keyword, dedicated to classes. It specify which interfaces a class implements.\n\nImplemented interfaces may be tested with types, ``instanceof``, and ``is_a()``.\n\nThe list of implemented interfaces is accessible with the ``class_implements()`` function.",
+    "code": "<?php\n\n    interface Trumpeter {\n        function trumpet() ;\n    }\n\n    // empty interface\n    interface Migratory { }\n\n    class Elephpant implements Trumpeter, Migratory {\n        private $property;\n\n        public function trumpet() {\n            return 1;\n        }\n    }\n\n?>",
+    "documentation": "https://www.php.net/manual/en/language.oop5.interfaces.php#language.oop5.interfaces.implements",
+    "related": [
+        "class",
+        "interface",
+        "getter",
+        "extends",
+        "class_implements"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.oop5.interfaces.php#language.oop5.interfaces.implements"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP Interfaces: How to Implement and Use Them",
+            "url": "https://medium.com/@andreibirta95/php-interfaces-how-to-implement-and-use-them-58c8b0648480"
+        }
+    ],
+    "tags": [
+        "class",
+        "keyword",
+        "feature"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "5.0+",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+}

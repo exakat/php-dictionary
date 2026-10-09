@@ -1,0 +1,54 @@
+{
+    "id": "directory_separator",
+    "name": "DIRECTORY_SEPARATOR",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/directory_separator.html",
+    "aliases": [],
+    "description": "The ``DIRECTORY_SEPARATOR`` constant provides the character to distinguish one directory from the next, in a path. \n\n``DIRECTORY_SEPARATOR`` is ``/`` most of the time. On Windows, it may be ``\\``, although ``/`` is also valid at the same time, for compatibility reasons.\n\nUsing ``DIRECTORY_SEPARATOR`` to build paths or split a string into its components, means that the resulting data is valid on every underlying system.\n",
+    "code": "<?php\n\n    $path = 'folder' . DIRECTORY_SEPARATOR . 'subfolder' . DIRECTORY_SEPARATOR . 'file.txt';\n    echo $path;\n\n?>",
+    "documentation": "https://www.php.net/manual/en/dir.constants.php#constant.directory-separator",
+    "related": [
+        "constant",
+        "path",
+        "filesystem",
+        "portability",
+        "php-constant",
+        "recursivedirectoryiterator"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/dir.constants.php#constant.directory-separator"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Portable PHP code: DIRECTORY_SEPARATOR is not necessary",
+            "url": "https://alanhogan.com/tips/php/directory-separator-not-necessary"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Cross-platform code 3: Path and line separators",
+            "url": "http://www.hackingwithphp.com/19/7/5/cross-platform-code-3-path-and-line-separators"
+        }
+    ],
+    "tags": [
+        "native constant",
+        "portability"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Mon, 17 Aug 2026 09:06:22 +0000"
+}

@@ -1,0 +1,47 @@
+{
+    "id": "error-handling",
+    "name": "Error Handling",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/error-handling.html",
+    "aliases": [],
+    "description": "Error handling is a broad concept that covers the different ways that PHP uses to signal that an error occurred. \n\nThe main systems are the error reporting, and the exceptions. \n\nThe error reporting is often associated with native errors, although it is possible to raise them and handle them with error-handlers.\n\nThe exception system is based on the throw, try and catch keywords.",
+    "code": "<?php\n\n    trigger_error('Cannot do this', E_USER_ERROR);\n    \n    try {\n        throw new Exception('Cannot do this');\n    } catch (Exception $e) {\n        print $e->getMessage();\n    }\n\n?>",
+    "documentation": "https://www.php.net/manual/en/ref.errorfunc.php",
+    "related": [
+        "exception",
+        "error-handler",
+        "downtime",
+        "fatal-error",
+        "rollback",
+        "troubleshoot",
+        "error-suppression"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/ref.errorfunc.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP Error Handling and Exceptions: Best practices for robust applications",
+            "url": "https://roman-huliak.medium.com/php-error-handling-and-exceptions-best-practices-for-robust-applications-c02cf5e225f7"
+        }
+    ],
+    "tags": [
+        "error"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Mon, 15 Jun 2026 11:03:58 +0000"
+}

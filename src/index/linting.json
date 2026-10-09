@@ -1,0 +1,66 @@
+{
+    "id": "linting",
+    "name": "Linting",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/linting.html",
+    "aliases": [
+        "lint"
+    ],
+    "description": "Linting is the process to turn the text file that holds the source code into tokens. During this first phase, PHP applies some checks, and report anything that makes no sense.\n\nAfter linting, the code is processed further before reaching the status of opcode, where it can be executed. \n\nLinting is an option of the PHP CLI: ``-l``. \n\nLinting is sometimes mistaken with ``compile``: linting is a part of a compilation. Since PHP has only this one step between the code and its execution, with ``eval()`` or the PHP CLI, linting is often considered as compiling. Reality is more complex.",
+    "code": "",
+    "documentation": "https://en.wikipedia.org/wiki/Lint_(software)",
+    "related": [
+        "compile",
+        "analysis",
+        "bug",
+        "enum-case",
+        "tool",
+        "php-editor",
+        "git-hook",
+        "phpstan",
+        "rector",
+        "sca",
+        "tokenizer",
+        "class-hoisting",
+        "execution-time",
+        "order-of-execution",
+        "phptoken"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Lint_(software)"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP linting for PHP version compatibility",
+            "url": "https://docs.wpvip.com/wordpress-on-vip/php/versions/php-linting-scans/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP 8.3: PHP CLI Lint (php -l) supports linting multiple files at once",
+            "url": "https://php.watch/versions/8.3/cli-lint-multiple-files"
+        }
+    ],
+    "tags": [
+        "concept",
+        "source code",
+        "static analysis"
+    ],
+    "packagist": [
+        "php-parallel-lint/php-code-style"
+    ],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Tue, 01 Sep 2026 05:55:53 +0000"
+}

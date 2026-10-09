@@ -1,0 +1,47 @@
+{
+    "id": "basename",
+    "name": "basename()",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/basename.html",
+    "aliases": [],
+    "description": "Basename is a PHP native function that returns the name of a file, extracted from a full path. \n\nWhen passed a second parameter, basename uses it as the file extension and removes it. The file extension is then a string, and includes the dot. It is not possible to provide multiple file extensions.\n\n``basename()`` is locale aware, so it has to match the locale of the filesystem to find and remove the extension in multiple bytes encoding.\n",
+    "code": "<?php\n\n    $path = '/var/www/index.php';\n    \n    print basename($path); // index.php\n    print basename($path, '.php'); // index \n    print basename($path, '.PHP'); // index.php\n    print basename($path, 'php'); // index.\n\n?>",
+    "documentation": "https://www.php.net/manual/en/function.basename.php",
+    "related": [
+        "dirname"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/function.basename.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Using the basename() Function in PHP",
+            "url": "https://pimylifeup.com/php-basename/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP basename() Function - GeeksforGeeks",
+            "url": "https://www.geeksforgeeks.org/php/php-basename-function/"
+        }
+    ],
+    "tags": [
+        "filename",
+        "native function"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 17 Sep 2026 07:37:19 +0000"
+}

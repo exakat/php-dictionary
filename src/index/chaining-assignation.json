@@ -1,0 +1,57 @@
+{
+    "id": "chaining-assignation",
+    "name": "Chaining Assignation",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/chaining-assignation.html",
+    "aliases": [
+        "chained-assignment",
+        "assignment-chaining"
+    ],
+    "description": "Chaining assignation, also called chained assignment or assignment chaining, is the ability to assign the same value to several variables in a single expression, using successive ``=`` operators.\n\nThe assignment is evaluated from right to left: the rightmost value is assigned first, then the result propagates leftward. Each ``=`` operator returns the assigned value, which becomes the operand of the next assignment.\n\nNote that magic methods such as ``__set()`` and ``__get()`` are never called during chaining assignments. Writing ``$a = $obj->b = 8;`` will not trigger ``__set()`` on ``$obj``.",
+    "code": "<?php\n\n    // Basic chaining assignation\n    $trunk = $herd = $tusk = 0;\n    // $trunk, $herd, $tusk are all 0\n\n    // Right-to-left evaluation\n    $ivory = ($calf = 5) + 3;\n    // $calf is 5, $ivory is 8\n    \n    // Chaining with a function call\n    $arr = $count = count([1, 2, 3]);\n    // both $arr and $count are 3\n\n?>",
+    "documentation": "https://www.php.net/manual/en/language.operators.assignment.php",
+    "related": [
+        "assignation",
+        "__set",
+        "__get",
+        "chaining",
+        "chaining-new-without-parenthesis"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.operators.assignment.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Operator Precedence",
+            "url": "https://www.php.net/manual/en/language.operators.precedence.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Hidden Traps with Chained Assignments",
+            "url": "https://www.exakat.io/hidden-traps-with-chained-assignments/"
+        }
+    ],
+    "tags": [
+        "operator",
+        "feature",
+        "classic bug"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Fri, 11 Sep 2026 08:38:34 +0000"
+}

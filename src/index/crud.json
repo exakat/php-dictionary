@@ -1,0 +1,42 @@
+{
+    "id": "crud",
+    "name": "Create, Read, Update And Delete (CRUD)",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/crud.html",
+    "aliases": [],
+    "description": "CRUD stands for Create, Read, Update and Delete. Those are the four primitive operation for storage. \n\nThey are usually the basic operations needed whenever PHP communicates with a storage system.",
+    "code": "",
+    "documentation": "https://en.wikipedia.org/wiki/Create,_read,_update_and_delete",
+    "related": [
+        "storage-system",
+        "active-record"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Create,_read,_update_and_delete"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Building a JSON CRUD API in PHP",
+            "url": "https://dev.to/zuplo/building-a-json-crud-api-in-php-5ek9"
+        }
+    ],
+    "tags": [
+        "acronym"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sat, 08 Aug 2026 08:10:54 +0000"
+}

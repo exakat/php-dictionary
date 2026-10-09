@@ -1,0 +1,53 @@
+{
+    "id": "array_intersect",
+    "name": "array_intersect()",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/array_intersect.html",
+    "aliases": [],
+    "description": "``array_intersect()`` is a PHP native function that computes the intersection of arrays, comparing values, using their string representation.\n\n``array_intersect()`` takes an array ``$array``, and one or several other arrays ``...$arrays``. It returns a new array made of the elements of ``$array`` whose value is also present in every other array, keeping the original keys of ``$array``.\n\nValues are compared as strings, so ``array_intersect()`` may report false positives when comparing objects, arrays, or values with mixed types that share the same string representation.\n\nThere are several variants of this function: ``array_intersect_key()`` compares the keys, instead of the values. ``array_intersect_assoc()`` compares both keys and values. ``array_uintersect()`` accepts a custom comparison callback for the values.\n\nThe complement function is ``array_diff()``, which returns the elements that are not shared amongst the arrays.\n",
+    "code": "<?php\n\n    $array1 = ['a' => 'green', 'b' => 'brown', 'c' => 'blue', 'red'];\n    $array2 = ['a' => 'green', 'yellow', 'red'];\n\n    $result = array_intersect($array1, $array2);\n    print_r($result);\n    // ['a' => 'green', 0 => 'red']\n\n?>",
+    "documentation": "https://www.php.net/manual/en/function.array-intersect.php",
+    "related": [
+        "array_diff",
+        "array_intersect_key",
+        "array_intersect_assoc",
+        "in_array"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/function.array-intersect.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP array_intersect() Function",
+            "url": "https://www.w3schools.com/php/func_array_intersect.asp"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "How to Find Common Elements in Two Arrays in PHP",
+            "url": "https://www.slingacademy.com/article/how-to-find-common-elements-in-two-arrays-in-php/"
+        }
+    ],
+    "tags": [
+        "native function",
+        "array",
+        "arbitrary number of argument"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Wed, 26 Aug 2026 10:49:40 +0000"
+}

@@ -1,0 +1,53 @@
+{
+    "id": "method-compatibility",
+    "name": "Method Compatibility",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/method-compatibility.html",
+    "aliases": [],
+    "description": "Method compatibility means that when a class overrides a method, from a parent class or interface, the new method must keep a compatible signature.\n\nIn short, the child method must:\n\n+ Have the same or wider visibility, e.g. public stays public, private becomes protected\n+ Accept the same parameter types, or more general ones\n+ Return the same type, or a more specific one\n+ Not require more mandatory parameters\n\nIf it's incompatible, PHP throws a fatal error.",
+    "code": "<?php\n\nclass Elephpant {\n    function trumpet(int $a): void {}\n    function forage(int $a): Elephpant {}\n    function migrate(int $a): string {}\n}\n\nclass Calf extends Elephpant {\n    // This is compatible, as it is identical to the parent method\n    function trumpet(int $a): void {}\n\n    // This is compatible, yet not identical\n    // the parameter is more general\n    // the return type is more precise\n    function forage(int|string $a): Calf {}\n\n    // This is not compatible with the parent's method signature\n    function migrate(int $a): int {}\n}\n\n?>",
+    "documentation": "https://www.php.net/manual/en/language.oop5.basic.php#language.oop.lsp",
+    "related": [
+        "method",
+        "throw",
+        "fatal-error",
+        "compatibility"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.oop5.basic.php#language.oop.lsp"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Liskov Substitution Principle in PHP",
+            "url": "https://php.watch/articles/php-lsp"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Liskov Substitution Principle in PHP/Laravel",
+            "url": "https://mohasin-dev.medium.com/how-to-use-liskov-substitution-principle-in-php-laravel-df253fd38c8"
+        }
+    ],
+    "tags": [
+        "compatibility",
+        "oop",
+        "_nocompileOK"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+}

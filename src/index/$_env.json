@@ -1,0 +1,53 @@
+{
+    "id": "$_env",
+    "name": "$_ENV",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/%24_env.html",
+    "aliases": [],
+    "description": "The ``$_ENV`` variable is a special superglobal variable that is used to retrieve the environment values. \n\nThe ``$_ENV`` variable is an associative array where the keys are the global variables and the values are the corresponding values. \n\n``$_ENV`` is a superglobal: it is always available, in every scope.\n\nValues inside ``$_ENV`` are always strings. \n\nThe values in the ``$_ENV`` are collected at the start of the script, and do not change during the lifetime of the script. To get an up-to-date value, the function ``getenv()`` is preferable.\n\nThe content of the ``$_ENV`` array varies from installation to installation: there is no default list of keys in that array. It entirely depends on the underlying system.",
+    "code": "<?php\n\n    // Displays the name of the user\n    echo $_ENV['USER'];\n\n    print_r($_ENV);\n    // Results is similar to this \n    /**\n    Array\n    (\n        [TERM] => xterm\n        [PATH] => /usr/bin:/bin\n        [LANG] => C\n        [SHELL] => /bin/sh\n        [MAIL] => /var/mail/nobody\n        [LOGNAME] => nobody\n        [USER] => nobody\n        [HOME] => /tmp\n    )\n    */\n\n?>",
+    "documentation": "https://www.php.net/manual/en/reserved.variables.environment.php",
+    "related": [
+        "$_get",
+        "$_cookie",
+        "$_post",
+        "$_request",
+        "$_FILES",
+        "$_server",
+        "$globals",
+        "superglobal",
+        "getenv"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/reserved.variables.environment.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Environment Variables in PHP: A Practical Guide",
+            "url": "https://envmanager.com/blog/environment-variables-in-php"
+        }
+    ],
+    "tags": [
+        "php variable",
+        "superglobal",
+        "recommendation"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [
+        "Php/UsesEnv"
+    ],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 13 Aug 2026 05:35:17 +0000"
+}

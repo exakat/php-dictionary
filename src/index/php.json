@@ -1,0 +1,97 @@
+{
+    "id": "php",
+    "name": "PHP, Hypertext Preprocessor (PHP)",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/php.html",
+    "aliases": [],
+    "description": "A popular general-purpose scripting language that is especially suited to web development.\n\nFast, flexible and pragmatic, PHP powers everything from personal blog to the most popular websites in the world.\n\nIt was invented by Rasmus Lerdorf, on June 8th, 1995. PHP is a recursive acronym, which defines itself: ``PHP, Hypertext Preprocessor``. It initially meant ``Personal Home Page``.",
+    "code": "<?php\n\n    phpinfo();\n\n?>",
+    "documentation": "https://groups.google.com/g/comp.infosystems.www.authoring.cgi/c/PyJ25gZ6z7A/m/M9FkTUVDfcwJ?pli=1",
+    "related": [
+        "zend-engine",
+        "ecosystem",
+        "htaccess",
+        "html_errors",
+        "lamp",
+        "lemp",
+        "max_execution_time",
+        "php-manual",
+        "preprocess"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://groups.google.com/g/comp.infosystems.www.authoring.cgi/c/PyJ25gZ6z7A/m/M9FkTUVDfcwJ?pli=1"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Learn PHP",
+            "url": "https://odan.github.io/learn-php/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "What does PHP mean?",
+            "url": "https://www.exakat.io/what-does-php-mean/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Taking PHP Seriously",
+            "url": "https://madewithlove.com/blog/taking-php-seriously/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Revolutionizing Web Development with the Power of PHP",
+            "url": "https://olixlab.com/blog/the-power-of-php-revolutionizing-web-development/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "What I Learned Implementing the Same Program in Seven Languages",
+            "url": "https://matthewsetter.com/blog/item/implement-same-app-in-seven-languages"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP - webreference",
+            "url": "https://webreference.com/php/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Vanilla PHP",
+            "url": "https://www.vanilla-php.com/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP Tutorial | Learn PHP",
+            "url": "https://www.scientecheasy.com/php-tutorial/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Code With PHP",
+            "url": "https://codewithphp.com/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP at webereference",
+            "url": "https://webreference.com/php"
+        }
+    ],
+    "tags": [
+        "acronym",
+        "php"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": {
+        "Rasmus Lerdorf": "https://en.wikipedia.org/wiki/Rasmus_Lerdorf"
+    },
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 17 Sep 2026 08:36:12 +0000"
+}

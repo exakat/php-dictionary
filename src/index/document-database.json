@@ -1,0 +1,56 @@
+{
+    "id": "document-database",
+    "name": "Document Database",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/document-database.html",
+    "aliases": [
+        "document-store"
+    ],
+    "description": "A document database, also called a document store, is a type of NoSQL database that stores data as semi-structured documents, typically in JSON, BSON, or XML format. Each document is a self-contained record with a flexible schema, unlike the fixed rows and columns of relational databases.\n\nCommon document databases used with PHP include MongoDB and CouchDB. PHP drivers and libraries such as the official MongoDB extension or Doctrine ODM provide integration.\n\nDocument databases are well suited to hierarchical or varying-structure data, but lack the relational joins and strict consistency guarantees of SQL databases.",
+    "code": "<?php\n\n    // MongoDB PHP driver example\n    $client = new MongoDB\\Client('mongodb://localhost:27017');\n    $collection = $client->mydb->users;\n    \n    $collection->insertOne([\n        'name'  => 'Alice',\n        'email' => 'alice@example.com',\n        'roles' => ['admin', 'editor'],\n    ]);\n    \n    $user = $collection->findOne(['name' => 'Alice']);\n    echo $user['email'];\n\n?>",
+    "documentation": "https://www.mongodb.com/",
+    "related": [
+        "nosql-database",
+        "database",
+        "sql-database",
+        "key-value-store",
+        "json",
+        "xml",
+        "schema"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.mongodb.com/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "MongoDB PHP Library",
+            "url": "https://www.mongodb.com/docs/php-library/current/"
+        }
+    ],
+    "tags": [
+        "database",
+        "nosql"
+    ],
+    "packagist": [
+        "mongodb/mongodb"
+    ],
+    "extensions": [
+        "mongodb"
+    ],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sun, 30 Aug 2026 10:13:58 +0000"
+}

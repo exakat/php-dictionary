@@ -1,0 +1,47 @@
+{
+    "id": "custom",
+    "name": "Custom",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/custom.html",
+    "aliases": [],
+    "description": "A feature is called ``custom`` when it is not part of the standard installation of PHP, any PHP extension or a publish library. For example, the function ``trumpet()`` is generally a custom function.\n\nAny declaration object may be custom: constants, variables, classes, interfaces, enums, traits. \n\nA custom asset is usually the last to be defined, and, as such, has to use a distinct name. For example, declaring a function called ``wp_header`` is possible as long as the code is not part of Wordpress, which does declare it as a common set of features.",
+    "code": "<?php\n\n// This is a custom function\nfunction trumpet() {}\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/User-defined_function",
+    "related": [
+        "native",
+        "userland"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/User-defined_function"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP: User-defined Functions",
+            "url": "https://www.php.net/manual/en/functions.user-defined.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Anonymous functions",
+            "url": "https://www.php.net/manual/en/functions.anonymous.php"
+        }
+    ],
+    "tags": [
+        "concept"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+}

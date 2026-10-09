@@ -1,0 +1,43 @@
+{
+    "id": "tls",
+    "name": "Transport Layer Security (TLS)",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/tls.html",
+    "aliases": [],
+    "description": "``TLS``, the Transport Layer Security is a cryptographic protocol designed to provide communications security over a computer network and on the Web. TLS is often related to HTTPS, for secured transmission with the HTTP protocol. It used to be based on SSL.\n\nTLS is a PHP context for sockets, and share the configuration options with SSL.",
+    "code": "<?php\n\n$context = stream_context_create( ['tls' => ['local_cert'=> $certificate_path], ]);\n\nif ($fp = stream_socket_client('tlsv1.2://'.$host.':'.$port, \n                               $errno, \n                               $errstr, \n                               30, \n                               STREAM_CLIENT_CONNECT, \n                               $context,\n                               )) {\n    fwrite($fp, \"\\n\");\n} else {\n   echo \"Error: $errno - $errstr\\n\";\n}\n\n?>",
+    "documentation": "https://www.php.net/manual/en/context.php",
+    "related": [
+        "ssl",
+        "quic",
+        "alpn"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/context.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Internet Domain: TCP, UDP, SSL, and TLS",
+            "url": "https://www.php.net/manual/en/transports.inet.php"
+        }
+    ],
+    "tags": [
+        "acronym"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 20 Aug 2026 08:38:13 +0000"
+}

@@ -1,0 +1,60 @@
+{
+    "id": "str_replace",
+    "name": "str_replace()",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/str_replace.html",
+    "aliases": [
+        "str_ireplace"
+    ],
+    "description": "``str_replace()`` is a PHP native function that replaces all occurrences of a search string with a replacement string.\n\nThe search and replace arguments may be arrays, allowing several substitutions to be applied in a single call. When arrays are used, each replaced value is scanned again for further matches, which may lead to unexpected double substitutions, unlike ``strtr()``.\n\nThe search is case-sensitive. ``str_ireplace()`` is the case-insensitive counterpart.\n\nAn optional fourth argument, passed by reference, receives the number of replacements performed.\n",
+    "code": "<?php\n\n    echo str_replace('World', 'PHP', 'Hello World'); // Hello PHP\n\n    // Array of search/replace pairs\n    $search  = ['Hello', 'World'];\n    $replace = ['Hi', 'Earth'];\n    echo str_replace($search, $replace, 'Hello World'); // Hi Earth\n\n    // Case-insensitive version\n    echo str_ireplace('world', 'PHP', 'Hello World'); // Hello PHP\n\n    // Counting replacements\n    str_replace('o', '0', 'Hello World', $count);\n    echo $count; // 2\n\n?>",
+    "documentation": "https://www.php.net/manual/en/function.str-replace.php",
+    "related": [
+        "strtr",
+        "string",
+        "strpos",
+        "case-sensitivity",
+        "preg_replace"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/function.str-replace.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP: strtr()",
+            "url": "https://www.php.net/manual/en/function.strtr.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP: preg_replace()",
+            "url": "https://www.php.net/manual/en/function.preg-replace.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Replace only the first occurrence of a string",
+            "url": "https://php-tips.readthedocs.io/en/latest/tips/replace_one.html"
+        }
+    ],
+    "tags": [
+        "native function",
+        "string"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Wed, 02 Sep 2026 15:08:38 +0000"
+}

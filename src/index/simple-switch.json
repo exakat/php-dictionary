@@ -1,0 +1,46 @@
+{
+    "id": "simple-switch",
+    "name": "Simple Switch",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/simple-switch.html",
+    "aliases": [],
+    "description": "A simple switch is a switch where all the cases are simple literals. This helps PHP optimize the command and finds the correct case immediately, instead of checking them one by one.",
+    "code": "<?php\n\nswitch ($i) {\n    case 0:\n        echo \"i equals 0\";\n        break;\n    case 1:\n        echo \"i equals 1\";\n        break;\n    case 2:\n        echo \"i equals 2\";\n        break;\n}\n\n?>",
+    "documentation": "https://www.php.net/manual/en/control-structures.switch.php",
+    "related": [
+        "switch",
+        "match",
+        "if-then",
+        "compact-array"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/control-structures.switch.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP 7.2's 'switch' optimisations",
+            "url": "https://derickrethans.nl/php7.2-switch.html"
+        }
+    ],
+    "tags": [
+        "optimisation",
+        "keyword",
+        "control flow"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "4.0",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sat, 08 Aug 2026 08:10:54 +0000"
+}

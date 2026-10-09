@@ -1,0 +1,56 @@
+{
+    "id": "blackbox",
+    "name": "Black Box Testing",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/blackbox.html",
+    "aliases": [
+        "black-box-testing"
+    ],
+    "description": "Black box testing is a testing approach where the tester examines the behavior of a system without any knowledge of its internal code, structure, or implementation.\n\nOnly inputs and outputs are considered: the tester provides inputs, either through a UI, an API, or a running application, and checks whether the outputs match the expected behavior. This approach mimics how an actual end-user or an external attacker would interact with the system.\n\nBlack box testing is commonly used for functional testing, acceptance testing, and penetration testing, where testers probe an application from the outside, the same way a real attacker would.",
+    "code": "",
+    "documentation": "https://en.wikipedia.org/wiki/Black-box_testing",
+    "related": [
+        "whitebox",
+        "pentest",
+        "unit-test",
+        "acceptance-test",
+        "functional-test"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Black-box_testing"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Black-box vs White-box vs Gray-box testing",
+            "url": "https://owasp.org/www-community/Vulnerability_Scanning_Tools"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "OWASP Testing Guide",
+            "url": "https://owasp.org/www-project-web-security-testing-guide/"
+        }
+    ],
+    "tags": [
+        "testing",
+        "security",
+        "concept"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sun, 16 Aug 2026 07:54:34 +0000"
+}

@@ -1,0 +1,49 @@
+{
+    "id": "impure-function",
+    "name": "Impure Function",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/impure-function.html",
+    "aliases": [],
+    "description": "An impure function is a function that has at least one of the following characteristics: \n\n+ Non-deterministic: for the same input, an impure function may return different output. For example, ``date()`` and ``random_string()`` return different values for each call, by definition. \n+ Create side-effect: an impure function modify a state: a global variable, a row in a table, a lock, a file or data. This may affect any subsequent call to this function, leading to the previous characteristic. \n\nA function that is not impure is a pure function. \n\nThis notion applies to functions, methods, native and custom functions, closures and arrow functions. \n",
+    "code": "<?php\n\n    echo random_string(0, 10);\n    \n    // an impure function: \n    // the static variable is a state that changes over time\n    function trumpet() {\n        static $age = 0;\n\n        return $age++;\n    }\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Pure_function",
+    "related": [
+        "function",
+        "method",
+        "return",
+        "determinism",
+        "side-effect",
+        "pure-function"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Pure_function"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Pure vs Impure Functions in Functional Programming \u2013 What's the Difference?",
+            "url": "https://www.freecodecamp.org/news/pure-function-vs-impure-function/"
+        }
+    ],
+    "tags": [
+        "function",
+        "functional programming"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+}

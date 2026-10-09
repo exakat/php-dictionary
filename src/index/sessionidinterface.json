@@ -1,0 +1,48 @@
+{
+    "id": "sessionidinterface",
+    "name": "SessionIdInterface",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/sessionidinterface.html",
+    "aliases": [],
+    "description": "``SessionIdInterface`` is an optional interface a session handler can implement to generate its own session IDs. It defines a single method ``create_sid(): string`` returning a new unique session identifier.\n\nWhen PHP needs a new session ID and the handler implements this interface, ``create_sid()`` is called instead of the built-in ID generation.",
+    "code": "<?php\n\n    class CustomSessionHandler implements SessionHandlerInterface, SessionIdInterface {\n        public function create_sid(): string {\n            return bin2hex(random_bytes(16));\n        }\n        // ... implement remaining SessionHandlerInterface methods\n    }\n\n?>",
+    "documentation": "https://www.php.net/manual/en/class.sessionidinterface.php",
+    "related": [
+        "session",
+        "interface",
+        "php-interface",
+        "sessionhandlerinterface",
+        "splsubject"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/class.sessionidinterface.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "A complete overview of PHP session handler life cycle",
+            "url": "https://gist.github.com/franksacco/d6e943c41189f8ee306c182bf8f07654"
+        }
+    ],
+    "tags": [
+        "session",
+        "interface"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "5.5.1",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sat, 08 Aug 2026 08:01:43 +0000"
+}

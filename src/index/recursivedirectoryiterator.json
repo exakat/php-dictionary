@@ -1,0 +1,53 @@
+{
+    "id": "recursivedirectoryiterator",
+    "name": "RecursiveDirectoryIterator",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/recursivedirectoryiterator.html",
+    "aliases": [],
+    "description": "``RecursiveDirectoryIterator`` extends ``FilesystemIterator`` to recursively traverse an entire directory tree. Combined with ``RecursiveIteratorIterator``, it visits every file and sub-directory under a root path.",
+    "code": "<?php\n\n    $iterator = new RecursiveIteratorIterator(\n        new RecursiveDirectoryIterator('/path/to/dir', FilesystemIterator::SKIP_DOTS)\n    );\n    \n    foreach ($iterator as $file) {\n        if ($file->isFile()) {\n            echo $file->getPathname() . PHP_EOL;\n        }\n    }\n\n?>",
+    "documentation": "https://www.php.net/manual/en/class.recursivedirectoryiterator.php",
+    "related": [
+        "spl",
+        "iterator",
+        "directoryiterator",
+        "filesystem",
+        "directory_separator",
+        "recursiveiterator",
+        "splsubject"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/class.recursivedirectoryiterator.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "RecursiveIteratorIterator Class",
+            "url": "https://www.php.net/manual/en/class.recursiveiteratoriterator.php"
+        }
+    ],
+    "tags": [
+        "spl",
+        "iterator",
+        "filesystem"
+    ],
+    "packagist": [],
+    "extensions": [
+        "spl"
+    ],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "5.1",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Mon, 13 Jul 2026 18:44:57 +0000"
+}

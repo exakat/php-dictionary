@@ -1,0 +1,46 @@
+{
+    "id": "wither",
+    "name": "Class Wither Method",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/wither.html",
+    "aliases": [],
+    "description": "``with`` is a prefix, that tells the reader that the method returns a copy of the object, and not the object itself. The ``with`` prefix may be added to any property name, virtual or concrete.",
+    "code": "<?php\n\nclass x {\n    private A $property;\n    \n    // getter\n    public function getProperty() : A {\n        return $this->property;\n    }\n\n    // wither\n    public function withProperty() : A{\n        return clone $this->property;\n    }\n}\n\n?>",
+    "documentation": "https://projectlombok.org/features/With",
+    "related": [
+        "class",
+        "setter",
+        "getter",
+        "immutable"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://projectlombok.org/features/With"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "RFC: Accessors",
+            "url": "https://wiki.php.net/rfc/property_accessors"
+        }
+    ],
+    "tags": [
+        "concept",
+        "rfc",
+        "method type"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Wed, 02 Sep 2026 16:41:00 +0000"
+}

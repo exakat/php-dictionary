@@ -1,0 +1,50 @@
+{
+    "id": "data",
+    "name": "Data",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/data.html",
+    "aliases": [],
+    "description": "``Data`` is a broad term that refers to information, facts, or statistics that are represented in a form suitable for processing, interpretation, or communication. Data can take various forms, including numbers, text, images, sounds, and more. In the context of computing and technology, data often refers to digital information that can be manipulated, stored, and analyzed by computer systems.\n\nData may be structured or unstructured, raw or processed, insecure or validated. There is also the expression of big data for large datasets.",
+    "code": "",
+    "documentation": "https://en.wikipedia.org/wiki/Data_(computer_science)",
+    "related": [
+        "format",
+        "csv",
+        "dataset",
+        "faker"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Data_(computer_science)"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "What is data in computer science?",
+            "url": "https://www.clrn.org/what-is-data-in-computer-science/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "What Is Data?",
+            "url": "https://www.computerhope.com/jargon/d/data.htm"
+        }
+    ],
+    "tags": [
+        "security",
+        "no-code"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Mon, 17 Aug 2026 09:06:21 +0000"
+}

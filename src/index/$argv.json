@@ -1,0 +1,48 @@
+{
+    "id": "$argv",
+    "name": "$argv",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/%24argv.html",
+    "aliases": [],
+    "description": "``$argv`` is a PHP variable that contains an array of the arguments passed to the PHP script, in the command line. ``$argv`` is not defined when PHP is run in a webserver.\n\n``$argv`` is not a superglobal: it has to be imported in a non-global scope with the ``global`` keyword.",
+    "code": "<?php\n\n    print_r($argv);\n\n?>",
+    "documentation": "https://www.php.net/manual/en/reserved.variables.argv.php",
+    "related": [
+        "$argc",
+        "php-variable",
+        "global",
+        "$globals",
+        "cli",
+        "register_argc_argv"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/reserved.variables.argv.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Get Command-Line Arguments With PHP $argv or getopt()",
+            "url": "https://code.tutsplus.com/get-command-line-arguments-with-php-argv-or-getopt--cms-39201t"
+        }
+    ],
+    "tags": [
+        "php variable"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [
+        "Files/IsCliScript"
+    ],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sat, 08 Aug 2026 08:10:54 +0000"
+}

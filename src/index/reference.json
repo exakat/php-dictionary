@@ -1,0 +1,74 @@
+{
+    "id": "reference",
+    "name": "References",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/reference.html",
+    "aliases": [],
+    "description": "References allow creating multiple variables that refer to the same underlying value in memory. When using references, any changes made by one variable affect the others that reference the same value. This may be useful in certain situations, such as when it is important to avoid copying large amounts of data or when it is needed to modify the original value through multiple variables. PHP optimizes the transfer of data by postponing duplication of data until they are actually modified: there is no need to use references with readonly data.",
+    "code": "<?php\n\n    $a = 1;\n\n    $b = &$a; \n    $b = 2;\n\n    echo $a;\n    // displays 2\n\n?>",
+    "documentation": "https://www.php.net/manual/en/language.references.php",
+    "related": [
+        "variable",
+        "weak-reference",
+        "alias",
+        "dangling-reference",
+        "garbage-collection",
+        "recursive-array",
+        "self-reference",
+        "circular-reference",
+        "clone",
+        "pointer",
+        "array_fill",
+        "assignment",
+        "footgun",
+        "linear-type",
+        "cheatsheet",
+        "lvalue",
+        "parameter",
+        "ternary"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.references.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP References: How They Work, and When to Use Them",
+            "url": "https://www.elated.com/php-references/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP Spotting References",
+            "url": "https://www.tutorialspoint.com/php-spotting-references"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "References in PHP",
+            "url": "https://erikpoehler.com/2023/01/15/references-in-php/"
+        }
+    ],
+    "tags": [
+        "parameter",
+        "alias",
+        "reference"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [
+        "Structures/DanglingArrayReferences",
+        "Php/OnlyVariableForReference",
+        "Variables/References"
+    ],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+}

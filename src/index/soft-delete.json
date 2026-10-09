@@ -1,0 +1,59 @@
+{
+    "id": "soft-delete",
+    "name": "Soft Delete",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/soft-delete.html",
+    "aliases": [
+        "soft-deletable",
+        "soft-deletion"
+    ],
+    "description": "A soft delete marks a row as deleted, usually by setting a ``deleted_at`` timestamp or a boolean flag, instead of removing it from the table with a ``DELETE`` statement. The row physically stays in the database, so it can be restored, audited, or kept for referential integrity with rows that still reference it through a foreign key, while normal queries filter it out by default.\n\nMost ORM provide it as a built-in behaviour: ``Laravel``'s Eloquent offers the ``SoftDeletes`` trait, which scopes every query to exclude soft-deleted rows unless ``withTrashed()`` or ``onlyTrashed()`` is used, and Doctrine offers a similar extension. Route model binding and other lookups need to be made aware of this. A route bound to a soft-deleted row's identifier should generally still resolve to a 404 unless the feature explicitly needs to reach trashed records.\n\nSoft deletes trade storage growth and slightly more complex queries for an audit trail and the ability to undo a mistaken deletion. They do not replace a real backup, and any unique constraint on the table needs to account for the fact that a 'deleted' row is still occupying its value.",
+    "code": "<?php\n\n    use Illuminate\\Database\\Eloquent\\SoftDeletes;\n\n    class Project extends Model\n    {\n        use SoftDeletes; // adds a deleted_at column to the query scope\n\n    }\n\n    $project->delete();       // sets deleted_at, row is kept\n    Project::withTrashed();   // includes soft-deleted rows\n    Project::onlyTrashed();   // only soft-deleted rows\n\n?>",
+    "documentation": "https://laravel.com/docs/eloquent#soft-deleting",
+    "related": [
+        "trait",
+        "orm",
+        "migration",
+        "audit-trail",
+        "database",
+        "active-record",
+        "laravel"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://laravel.com/docs/eloquent#soft-deleting"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Avoiding the soft delete anti-pattern",
+            "url": "https://www.cultured.systems/2024/04/24/Soft-delete/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Soft Deletion Probably Isn't Worth It",
+            "url": "https://brandur.org/soft-deletion"
+        }
+    ],
+    "tags": [
+        "database",
+        "concept",
+        "orm"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Fri, 11 Sep 2026 09:43:18 +0000"
+}

@@ -1,0 +1,60 @@
+{
+    "id": "qos",
+    "name": "Quality of Service (QoS)",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/qos.html",
+    "aliases": [
+        "quality-of-service"
+    ],
+    "description": "Quality of Service, also known as QoS, refers to the overall level of performance and reliability of a service, particularly in terms of network, application, or infrastructure behavior. It encompasses metrics such as throughput, latency, jitter, availability, and error rates.\n\nIn applications, QoS is managed through practices such as rate limiting, load balancing, caching, and circuit breakers, ensuring the application meets expected performance thresholds under varying conditions.",
+    "code": "",
+    "documentation": "https://en.wikipedia.org/wiki/Quality_of_service",
+    "related": [
+        "sla",
+        "monitoring",
+        "performance",
+        "availability",
+        "load-balancer",
+        "circuit-breaker",
+        "rate-limit",
+        "scaling",
+        "latency",
+        "reliability"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Quality_of_service"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "CircuitBreaker",
+            "url": "https://martinfowler.com/bliki/CircuitBreaker.html"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Service-level agreement",
+            "url": "https://en.wikipedia.org/wiki/Service-level_agreement"
+        }
+    ],
+    "tags": [
+        "architecture",
+        "performance"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Fri, 14 Aug 2026 07:43:45 +0000"
+}

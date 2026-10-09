@@ -1,0 +1,54 @@
+{
+    "id": "asset",
+    "name": "Asset",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/asset.html",
+    "aliases": [],
+    "description": "Web assets, or also assets, is an encompassing term, that designates all essential elements necessary for the successful execution of a web-based project. Specifically, in the context of web design and development, these 'assets' pertain to diverse components, such as CSS, JavaScript libraries, textual content, graphics, photographs, videos, and audio files.\n\nAssets are often reduced to their URL, which might be hard coded or dynamically generated.",
+    "code": "",
+    "documentation": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Performance/web_performance_basics",
+    "related": [
+        "url",
+        "css",
+        "javascript",
+        "web",
+        "http",
+        "frontend"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Performance/web_performance_basics"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "An Introduction to Web Assets: Components and Elements for Digital Design",
+            "url": "https://www.institutedata.com/us/blog/an-introduction-to-web-assets-components-and-elements-for-digital-design/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "What are Website Assets",
+            "url": "https://vonclaro.com/blog/what-are-website-assets"
+        }
+    ],
+    "tags": [
+        "concept"
+    ],
+    "packagist": [
+        "symfony/asset",
+        "kriswallsmith/assetic"
+    ],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Wed, 12 Aug 2026 08:01:23 +0000"
+}

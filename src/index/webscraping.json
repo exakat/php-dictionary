@@ -1,0 +1,52 @@
+{
+    "id": "webscraping",
+    "name": "Webscraping",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/webscraping.html",
+    "aliases": [
+        "web_scraping",
+        "scraping"
+    ],
+    "description": "Web scraping is the process of extracting data from websites. It involves fetching web pages, parsing HTML, or other markup languages, and then extracting the desired information. Web scraping can be done manually by a person or automatically using software tools called web scrapers or web crawling bots.",
+    "code": "<?php\n\n    // fetching the web page\n    $html = file_get_contents('https://www.php.net/');\n    \n    // retrieving PHP current versions\n    preg_match_all('/downloads.php#v(\\d+\\.\\d+\\.\\d+)\\b/', $html, $r);\n    \n    print_r(array_unique($r[1]));\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Web_scraping",
+    "related": [
+        "curl",
+        "web-spider",
+        "captcha",
+        "robots.txt"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Web_scraping"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Web Scraping in PHP - The Complete Guide",
+            "url": "https://proxiesapi.com/articles/web-scraping-in-php-the-complete-guide"
+        }
+    ],
+    "tags": [
+        "web",
+        "robot"
+    ],
+    "packagist": [
+        "symfony/panther",
+        "roach-php/core",
+        "jaeger/querylist"
+    ],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Fri, 04 Sep 2026 10:18:46 +0000"
+}

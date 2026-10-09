@@ -1,0 +1,48 @@
+{
+    "id": "depth",
+    "name": "Depth",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/depth.html",
+    "aliases": [],
+    "description": "Depth is a measure of how many an operation has been repeatedly applies, over and over. \n\nIt applies to several concepts: \n\n+ Multi-dimensional array depth: ``$array['d1']['d2']['d3']['d4']``\n+ Recursion depth: see example\n+ Nested loop depth: number of loops inside a loop\n+ Callstack depth: number of functions calling another one\n+ Object inheritance depth: the maximum number of extension levels in a class hierarchy\n\nDepth might be limited, when it is prevented from going beyond a certain level, or unlimited, when there is no such limit. For example, xdebug offers a directive called ``xdebug.max_nesting_level`` that limits nesting depth.",
+    "code": "<?php\n\n    // The recursion depth is limited to 5\n    function trumpet($level = 0) {\n        if ($level < 5) {\n            return trumpet($level + 1);\n        }\n        return 1;\n    }\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Recursion_(computer_science)",
+    "related": [
+        "callstack"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Recursion_(computer_science)"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Understanding Recursion Tree Depth and Logarithmic Levels",
+            "url": "https://medium.com/@ilakk2023/understanding-recursion-tree-depth-and-logarithmic-levels-9f3747dabedf"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Fixing PHP Fatal error: Nesting level too deep",
+            "url": "https://www.slingacademy.com/article/fixing-php-fatal-error-nesting-level-too-deep-recursive-dependency/"
+        }
+    ],
+    "tags": [
+        "concept"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+}

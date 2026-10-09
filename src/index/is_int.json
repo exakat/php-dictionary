@@ -1,0 +1,57 @@
+{
+    "id": "is_int",
+    "name": "is_int()",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/is_int.html",
+    "aliases": [
+        "is_integer"
+    ],
+    "description": "``is_int()`` is a PHP native function that checks whether a variable is of type ``int``. It returns ``true`` if the value is an integer, ``false`` otherwise. ``is_integer()`` and ``is_long()`` are aliases of ``is_int()``.\n\n``is_int()`` returns ``false`` for numeric strings, such as ``\"42\"``, and for floats, even when they hold a whole number like ``4.0``: only the actual internal ``int`` type qualifies. This makes ``is_int()`` stricter than a numeric check like ``is_numeric()``, which also accepts numeric strings and floats.\n\nIt is commonly used to validate array keys, loop counters, or values decoded from external sources, such as JSON, where the distinction between an integer and a numeric string matters, for instance before using the value as an array offset or passing it to a strictly-typed function parameter.",
+    "code": "<?php\n\n    var_dump(is_int(42));     // true\n    var_dump(is_int(4.0));    // false\n    var_dump(is_int('42'));   // false\n\n    $id = filter_input(INPUT_GET, 'id', FILTER_VALIDATE_INT);\n    if (is_int($id)) {\n        $user = find_user_by_id($id);\n    }\n\n?>",
+    "documentation": "https://www.php.net/manual/en/function.is-int.php",
+    "related": [
+        "is_array",
+        "is_bool",
+        "is_string",
+        "is_float",
+        "is_numeric",
+        "is_iterable",
+        "gettype",
+        "type-checking",
+        "validation"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/function.is-int.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Type comparison tables",
+            "url": "https://www.php.net/manual/en/types.comparisons.php"
+        }
+    ],
+    "tags": [
+        "function",
+        "type-checking",
+        "validation"
+    ],
+    "packagist": [],
+    "extensions": [
+        "standard"
+    ],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 16 Jul 2026 14:20:19 +0000"
+}

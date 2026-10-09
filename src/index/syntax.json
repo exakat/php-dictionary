@@ -1,0 +1,57 @@
+{
+    "id": "syntax",
+    "name": "Syntax",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/syntax.html",
+    "aliases": [],
+    "description": "Syntax refers to the set of rules that defines the structure of valid PHP code.\n\nFor example, there is the object syntax, around the ``->`` and ``::`` operators, and the array syntax, around ``[index]`` operator. \n\nSyntax must be lintable for a PHP script to be executable. Otherwise, it creates a syntax error. Yet, a lintable syntax does not always mean the code is executable: it may yield an execution error. It is not always obvious which syntax is not executable.",
+    "code": "<?php\n\n    A = B C; // syntax error, 'C' is not valid. \n    \n    clone 1; // not a syntax error\n    \n    $array = ['a' => 1, 'b' => 2, 'c' => 3];\n    echo $array['a']; // 1\n    \n    $object = (object) $array;\n    echo $object->a; // 1\n    echo $object['a']; // no syntax error, error at execution\n    \n    //valid syntax\n    function trumpet($trunk) {\n        print $trunk;\n    }\n\n    //valid call\n    trumpet(3);\n\n    //invalid call\n    trumpet([]);\n\n?>",
+    "documentation": "https://www.php.net/manual/en/language.basic-syntax.php",
+    "related": [
+        "syntax-error",
+        "constant-expression",
+        "pattern-matching",
+        "transpile",
+        "goto",
+        "grammar",
+        "tokenizer",
+        "try-catch"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.basic-syntax.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Syntax (programming languages) - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Syntax_(programming_languages)"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Semantics (computer science) - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Semantics_(computer_science)"
+        }
+    ],
+    "tags": [
+        "source code",
+        "feature",
+        "_nocompileOK"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+}

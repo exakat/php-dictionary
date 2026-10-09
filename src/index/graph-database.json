@@ -1,0 +1,60 @@
+{
+    "id": "graph-database",
+    "name": "Graph Database",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/graph-database.html",
+    "aliases": [],
+    "description": "A graph database is a database server that organize data in a network, rather than as tables.  \n\nPHP is able to connect to many graph databases, including Neo4j, Gremlin servers, etc.\n\nGraph databases are close to RDF triple stores, which store data as a triplet: origin, destination and link type.\n",
+    "code": "",
+    "documentation": "https://en.wikipedia.org/wiki/SQL",
+    "related": [
+        "sql",
+        "mysql",
+        "pgsql",
+        "column-database",
+        "graph",
+        "rdf",
+        "nosql-database"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/SQL"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Top 10 SQL Databases To Learn in 2025",
+            "url": "https://www.geeksforgeeks.org/blogs/top-sql-databases-to-learn/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Neo4j PHP Community",
+            "url": "https://github.com/neo4j-php"
+        }
+    ],
+    "tags": [
+        "architecture",
+        "server"
+    ],
+    "packagist": [
+        "laudis/neo4j-php-client",
+        "everyman/neo4jphp"
+    ],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": {
+        "Neo4j": "https://neo4j.com/"
+    },
+    "popularity": "",
+    "modified": "Fri, 18 Sep 2026 04:51:11 +0000"
+}

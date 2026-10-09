@@ -1,0 +1,56 @@
+{
+    "id": "associative-array",
+    "name": "Associative Array",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/associative-array.html",
+    "aliases": [
+        "hash-array"
+    ],
+    "description": "An associative array, also called a hash array, is an array whose keys are strings; there may also be integer index, mixed with the string ones. \n\nIn the evolution of PHP, associative arrays evolved into objects, where the index in the array turned into property names.\n\nIt is possible to use types others than integer and string with an array syntax: this requires building an object for that. This is the case of ``Iterator`` and ``Weakmap``. \n",
+    "code": "<?php\n\n    $associative = ['a' => 1, 'b' => 4, 3 => 5, 6 ];\n\n    echo $associative['a'];\n\n?>",
+    "documentation": "https://www.php.net/manual/en/language.types.array.php",
+    "related": [
+        "indexed-array",
+        "array",
+        "collection",
+        "dictionary",
+        "index",
+        "arrayaccess",
+        "pair",
+        "iterator",
+        "weakmap"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.types.array.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Associative Arrays in PHP",
+            "url": "https://blog.newtum.com/associative-array-in-php/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Arrays in PHP: Indexed, Associative, Multidimensional Arrays, and Array Functions",
+            "url": "https://developers-heaven.net/blog/arrays-in-php-indexed-associative-multidimensional-arrays-and-array-functions/"
+        }
+    ],
+    "tags": [
+        "array"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sun, 30 Aug 2026 09:00:28 +0000"
+}

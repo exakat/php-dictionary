@@ -1,0 +1,52 @@
+{
+    "id": "tilde",
+    "name": "Tilde ~",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/tilde.html",
+    "aliases": [
+        "~"
+    ],
+    "description": "The tilde ``~`` is an operator and a wildcard.\n\n+ ``~`` is the binary not operator\n+ ``~`` is used in composer configuration to define a minimum version.\n",
+    "code": "<?php\n\n    $a = 3;     // 3 \n    $b = ~$a;   // -4\n\n?>",
+    "documentation": "https://www.php.net/manual/en/language.operators.bitwise.php",
+    "related": [
+        "not",
+        "binary-not",
+        "bang"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.operators.bitwise.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Composer: Package Versions",
+            "url": "https://getcomposer.org/doc/articles/versions.md"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Bitwise operation - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Bitwise_operation"
+        }
+    ],
+    "tags": [
+        "character"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 27 Aug 2026 05:42:51 +0000"
+}

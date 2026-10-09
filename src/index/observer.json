@@ -1,0 +1,57 @@
+{
+    "id": "observer",
+    "name": "Observer Design Pattern",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/observer.html",
+    "aliases": [],
+    "description": "The observer is an architectural pattern, where objects register to get notified when events happen to a specific object. It is also known as the listener pattern.\n\nThere is a native interface call ``SplObserver``, coupled with the ``SplSubject``, to implement such pattern.",
+    "code": "",
+    "documentation": "https://www.php.net/manual/en/class.splobserver.php",
+    "related": [
+        "design-pattern",
+        "listener",
+        "observer-pattern",
+        "pubsub",
+        "splobserver"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/class.splobserver.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "SplSubject",
+            "url": "https://www.php.net/manual/en/class.splsubject.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Events and Event Listeners",
+            "url": "https://symfony.com/doc/current/event_dispatcher.html"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Observer Pattern In PHP 8+",
+            "url": "https://medium.com/codex/observer-pattern-in-php-8-569c71dd7837"
+        }
+    ],
+    "tags": [
+        "design pattern"
+    ],
+    "packagist": [],
+    "extensions": [
+        "ext/event"
+    ],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Wed, 15 Jul 2026 13:50:20 +0000"
+}

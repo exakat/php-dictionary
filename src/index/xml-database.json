@@ -1,0 +1,49 @@
+{
+    "id": "xml-database",
+    "name": "XML Database",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/xml-database.html",
+    "aliases": [],
+    "description": "An XML database is a database which uses XML for the storage format. Then, the database may be stored, queried, transformed and returned with XML related technologies: ``xslt``, ``xquery``, ``xproc``, etc.\n\nXML databases are considered NoSQL databases. They may be build on top of a SQL database too.\n",
+    "code": "",
+    "documentation": "https://en.wikipedia.org/wiki/XML_database",
+    "related": [
+        "nosql-database",
+        "database"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/XML_database"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "ExistDB",
+            "url": "https://exist-db.org/exist/apps/homepage/index.html"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "php-eXist-db-Client",
+            "url": "https://github.com/CuAnnan/php-eXist-db-Client"
+        }
+    ],
+    "tags": [
+        "database"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Fri, 24 Jul 2026 15:59:31 +0000"
+}

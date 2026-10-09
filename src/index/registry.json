@@ -1,0 +1,51 @@
+{
+    "id": "registry",
+    "name": "Registry",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/registry.html",
+    "aliases": [],
+    "description": "A registry may be the following things: \n\n+ A design pattern\n+ A central object, which gives access to common objects, such as view, database connection, cache, configuration, etc.",
+    "code": "",
+    "documentation": "https://en.wikipedia.org/wiki/Service_locator_pattern",
+    "related": [
+        "design-pattern",
+        "container",
+        "docker-image"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Service_locator_pattern"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Registry (design pattern)",
+            "url": "https://designpatternsphp.readthedocs.io/en/latest/Structural/Registry/README.html"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Registry Component in Phalcon",
+            "url": "https://docs.phalcon.io/6.0/support-registry/"
+        }
+    ],
+    "tags": [
+        "concept"
+    ],
+    "packagist": [
+        "jordanbrauer/php-registry",
+        "sylius/registry"
+    ],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sat, 08 Aug 2026 08:10:54 +0000"
+}

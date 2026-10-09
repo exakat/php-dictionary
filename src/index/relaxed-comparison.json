@@ -1,0 +1,49 @@
+{
+    "id": "relaxed-comparison",
+    "name": "Relaxed Comparison",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/relaxed-comparison.html",
+    "aliases": [
+        "loose-comparison"
+    ],
+    "description": "Relaxed comparison, also known as loose comparison, is a comparison style that allows for non-strict equality checks between values. Relaxed comparison is performed using the double equals operator ``==``.\n\nWhen using relaxed comparison ``==``, PHP will attempt to convert the operands to compatible types before comparing them. If the operands are of different types, PHP will perform type coercion to make them comparable.\n\nRelaxed comparison is associated with ``==``, ``!=`` and ``<>``. It also applies to ``switch()``, the spaceship operator ``<=>``, and the inequalities ``>``, ``<``, ``>=``, ``<=``. \n\nThe contrary to relaxed comparison is the strict comparison, which includes type. \n\nLoose comparison is known to have changed significantly in version 8.0: in particular, for special values like 0, empty string '', null and false.",
+    "code": "<?php\n\n    //true\n    var_dump(1 == \"1\");\n    //false\n    var_dump(1 === \"1\");\n    \n    //false\n    var_dump(1 > 'a');\n    //true\n    var_dump(1 < 'a');\n\n?>",
+    "documentation": "https://www.php.net/manual/en/language.operators.comparison.php",
+    "related": [
+        "switch",
+        "strict-comparison",
+        "comparison",
+        "identical"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.operators.comparison.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Strict vs. Loose Comparisons in PHP",
+            "url": "https://www.copterlabs.com/strict-vs-loose-comparisons-in-php/"
+        }
+    ],
+    "tags": [
+        "feature",
+        "syntax",
+        "name",
+        "micro-optimisation"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Mon, 24 Aug 2026 07:40:39 +0000"
+}

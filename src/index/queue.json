@@ -1,0 +1,66 @@
+{
+    "id": "queue",
+    "name": "Queue",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/queue.html",
+    "aliases": [],
+    "description": "A queue may be one of the following: \n\n+ A datastructure, also called a stack, built on top of arrays\n+ A class, in the ``ext/ds``, the data structures extension\n+ A job Queue, which collect and dispatch loads of work, to background processes.",
+    "code": "",
+    "documentation": "https://en.wikipedia.org/wiki/Queue_(abstract_data_type)",
+    "related": [
+        "datastack",
+        "jobqueue",
+        "message-queue",
+        "array_shift",
+        "datastructure",
+        "ds",
+        "channel",
+        "deduplication",
+        "retry",
+        "webhook",
+        "backoff",
+        "gearman",
+        "rdkafka",
+        "worker"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Queue_(abstract_data_type)"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Ds\\Queue",
+            "url": "https://www.php.net/manual/en/class.ds-queue.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Message queue",
+            "url": "https://en.wikipedia.org/wiki/Message_queue"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "How I built Tjommi",
+            "url": "https://helgesver.re/articles/how-i-built-tjommi"
+        }
+    ],
+    "tags": [
+        "disambiguation"
+    ],
+    "packagist": [],
+    "extensions": [
+        "ext/ds"
+    ],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Wed, 02 Sep 2026 15:08:50 +0000"
+}

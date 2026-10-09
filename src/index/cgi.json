@@ -1,0 +1,50 @@
+{
+    "id": "cgi",
+    "name": "Common Gateway Interface (CGI)",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/cgi.html",
+    "aliases": [],
+    "description": "CGI stands for Common Gateway Interface. It is a protocol, whose specification enables web server to execute programs. CGI is platform independent, and can be used with any programming language.\n\nPHP may be build as a CGI, but also as a webserver module or a CGI server. \n\nCGI was widely used in the early days of the web, more modern web development approaches, such as server-side scripting have largely replaced CGI in contemporary web development due to performance and security considerations.",
+    "code": "",
+    "documentation": "https://en.wikipedia.org/wiki/Common_Gateway_Interface",
+    "related": [
+        "fastcgi",
+        "cli",
+        "fpm",
+        "sapi",
+        "webserver"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Common_Gateway_Interface"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Built-in web server",
+            "url": "https://www.php.net/manual/en/features.commandline.webserver.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "FastCGI Process Manager (FPM)",
+            "url": "https://www.php.net/manual/en/install.fpm.php"
+        }
+    ],
+    "tags": [
+        "acronym"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "`CGI and command line setups <https://www.php.net/manual/en/install.unix.commandline.php>`_",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Tue, 01 Sep 2026 06:21:34 +0000"
+}

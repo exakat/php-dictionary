@@ -1,0 +1,47 @@
+{
+    "id": "backed",
+    "name": "Backed",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/backed.html",
+    "aliases": [],
+    "description": "A backed structure has several meanings: \n\n+ Backed enumeration: an enumeration that has an integer or string value\n+ Backed property: a property with a hook, that actually stores the value in the property.",
+    "code": "<?php\n\n    enum Habitat : int {\n        case Savanna = 1;\n    }\n\n    class Elephpant {\n        private $trunkLength { get => $this->trunkLength;}\n    }\n    \n?>",
+    "documentation": "https://www.php.net/manual/en/language.enumerations.backed.php",
+    "related": [
+        "backed-enum",
+        "backed-property"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.enumerations.backed.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP enums: backed vs unit enums with examples",
+            "url": "https://benjamincrozat.com/php-enums"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "What Are Backed Enums in PHP?",
+            "url": "https://www.designcise.com/web/tutorial/what-are-backed-enums-in-php"
+        }
+    ],
+    "tags": [
+        "concept"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+}

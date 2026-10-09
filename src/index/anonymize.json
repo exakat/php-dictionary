@@ -1,0 +1,47 @@
+{
+    "id": "anonymize",
+    "name": "Anonymize",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/anonymize.html",
+    "aliases": [],
+    "description": "To anonymize is to replace a precise identifier with an unrelated piece of data. For example, ``Mr Elephpant`` may be renamed ``Mr Smith`` or ``b0d7b3834d527db3b2ccd6e4b0f3e0e6``.\n\nAnonymization removes anything that can trace back to the original user. It must also keep relationships with other data, which must also be anonymized. Some values cannot be anonymized, such as booleans.\n\nAnonymization is distinct from fake data, which creates valid-looking data out of nothing.\n",
+    "code": "",
+    "documentation": "https://en.wikipedia.org/wiki/Data_anonymization",
+    "related": [
+        "faker",
+        "privacy"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Data_anonymization"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Toni's Data Anonymization Toolkit a.k.a. php-anonymizer",
+            "url": "https://github.com/toniliesche/php-anonymizer"
+        }
+    ],
+    "tags": [
+        "dataset",
+        "concept"
+    ],
+    "packagist": [
+        "geertw/ip-anonymizer"
+    ],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Tue, 11 Aug 2026 20:50:18 +0000"
+}

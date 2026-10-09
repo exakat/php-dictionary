@@ -1,0 +1,46 @@
+{
+    "id": "honeypot",
+    "name": "Honey Pot",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/honeypot.html",
+    "aliases": [
+        "honey-pot"
+    ],
+    "description": "A honeypot is a spam-prevention technique used in forms. It's a hidden field or trap designed to catch automated bots while remaining invisible to human users.",
+    "code": "",
+    "documentation": "https://en.wikipedia.org/wiki/Honeypot_(computing)",
+    "related": [
+        "tarpit"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Honeypot_(computing)"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "What Is A Honeypot And How To Implement It In A Form",
+            "url": "https://ivyforms.com/blog/what-is-a-honeypot/"
+        }
+    ],
+    "tags": [
+        "security",
+        "spam"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Mon, 15 Jun 2026 11:03:59 +0000"
+}

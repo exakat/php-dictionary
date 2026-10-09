@@ -1,0 +1,61 @@
+{
+    "id": "headless",
+    "name": "Headless",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/headless.html",
+    "aliases": [],
+    "description": "A headless website, also known as a headless CMS, Content Management System, or decoupled website, is a web architecture where the frontend and backend are decoupled or separated from each other. In this setup, the frontend, the ``head`` or user interface, and the backend, the ``body`` or content management system, operate independently and communicate through APIs, Application Programming Interfaces.\n\nTraditionally, websites are built using a monolithic architecture, where the frontend and backend are tightly integrated. The backend typically handles both content management and presentation logic, rendering HTML pages that are sent to the user's browser.\n\nIn contrast, a headless website is designed with a clear separation of concerns.",
+    "code": "",
+    "documentation": "https://en.wikipedia.org/wiki/Headless_content_management_system",
+    "related": [
+        "cms",
+        "api",
+        "architecture",
+        "rest-api",
+        "decoupling",
+        "frontend"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Headless_content_management_system"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Decopuled systems. Frontend in JavaScript. Backend in PHP. Why. How. If.",
+            "url": "https://blog.fortrabbit.com/headless-php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Headless possibilities for PHP",
+            "url": "https://netgen.io/blog/headless-possibilities-for-php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Headless CMS vs. Traditional CMS: Which Is Best for PHP Apps?",
+            "url": "https://www.zend.com/blog/headless-cms-vs-traditional-cms"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "CometCMS",
+            "url": "https://github.com/andreasjhagen/CometCMS"
+        }
+    ],
+    "tags": [
+        "architecture"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sat, 08 Aug 2026 08:10:54 +0000"
+}

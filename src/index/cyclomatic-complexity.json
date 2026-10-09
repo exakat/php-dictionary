@@ -1,0 +1,46 @@
+{
+    "id": "cyclomatic-complexity",
+    "name": "Cyclomatic Complexity",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/cyclomatic-complexity.html",
+    "aliases": [],
+    "description": "Cyclomatic complexity is a software metric of the complexity of a program.\n\nThis metric measures the number of decisions happening within the code. Those decisions are commands such as If/then, loops, or ternary operators.",
+    "code": "<?php\n\n    function trumpet() {\n        if ($a) {\n    \n        } else {\n    \n        }\n    }\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Cyclomatic_complexity",
+    "related": [
+        "metrics",
+        "cognitive-complexity",
+        "complexity"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Cyclomatic_complexity"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Cyclomatic Complexity for PHP",
+            "url": "https://pdepend.org/documentation/software-metrics/cyclomatic-complexity.html"
+        }
+    ],
+    "tags": [
+        "metric",
+        "static analysis"
+    ],
+    "packagist": [
+        "phpmetrics/phpmetrics"
+    ],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+}

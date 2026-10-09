@@ -1,0 +1,64 @@
+{
+    "id": "http-header",
+    "name": "HTTP Headers",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/http-header.html",
+    "aliases": [],
+    "description": "HTTP headers are extra information, exchanged between the server and the client, to configure further the network transaction. \n\nThey are separated from the content, which usually represents the HTML page, or the binary  code of the image, archive. \n\nHTTP headers have a name, and a value. They are made of ASCII text, and separated by a colon ``:``\n\nHTTP headers are the same with HTTPS.\n\nHTTP headers are handled by the following functions: ``headers_sent()``, ``headers_list()``, ``header()``, ``header_remove()``, ``header_register_callback()``.",
+    "code": "<?php\n\n    function trumpet($a, $b) {\n        return $a - $b;\n    }\n\n?>",
+    "documentation": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers",
+    "related": [
+        "http",
+        "https",
+        "handler",
+        "headers",
+        "http-headers",
+        "http-method",
+        "payload",
+        "replay",
+        "ttl",
+        "webhook"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "RFC 4229 : HTTP Header Field Registrations",
+            "url": "https://datatracker.ietf.org/doc/html/rfc4229"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "HTTP headers list",
+            "url": "https://en.wikipedia.org/wiki/List_of_HTTP_header_fields"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP - simple way to send HTTP headers before a script ends",
+            "url": "https://shkspr.mobi/blog/2026/05/php-simple-way-to-send-http-headers-before-a-script-ends/"
+        }
+    ],
+    "tags": [
+        "web",
+        "header",
+        "rfc"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [
+        "Functions/Functionnames"
+    ],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+}

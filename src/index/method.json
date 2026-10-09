@@ -1,0 +1,68 @@
+{
+    "id": "method",
+    "name": "Method",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/method.html",
+    "aliases": [
+        "member-function"
+    ],
+    "description": "Methods are functions, dedicated to a class. They are defined inside the body of a class, and may only be accessed in relation to that class: via an object, the class name or another method.\n\nMethods are defined in traits, and then imported in a class for usage.\n\nMethods are also called member functions. Indeed, they are functions, but they belong to an object, just like a member, or property. This is less used.",
+    "code": "<?php\n\n    class Elephpant {\n        public function trumpet() {\n            echo \"I am trumpet!\\n\";\n        }\n    }\n\n    $elephpant = new Y();\n    $calf->trumpet(); // calling the trumpet method, defined in Elephpant,\n\n?>",
+    "documentation": "https://www.php.net/manual/en/language.oop5.basic.php#language.oop5.basic.properties-methods",
+    "related": [
+        "class",
+        "__call",
+        "default-parameter",
+        "fossilized-method",
+        "function",
+        "property",
+        "return",
+        "static-method",
+        "visibility",
+        "call-graph",
+        "callback",
+        "impure-function",
+        "method-compatibility",
+        "pure-function",
+        "trait",
+        "method-collision",
+        "non-static",
+        "relay-function",
+        "function-subscripting",
+        "generator",
+        "modifier",
+        "recursion",
+        "yield-from",
+        "yield"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.oop5.basic.php#language.oop5.basic.properties-methods"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP 8 \u2013 Functions and Methods",
+            "url": "https://www.infoq.com/articles/php8-functions-methods/"
+        }
+    ],
+    "tags": [
+        "method",
+        "feature",
+        "readonly"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 17 Sep 2026 07:38:51 +0000"
+}

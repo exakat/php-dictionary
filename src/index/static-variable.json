@@ -1,0 +1,69 @@
+{
+    "id": "static-variable",
+    "name": "Static Variables",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/static-variable.html",
+    "aliases": [],
+    "description": "A static variable is a variable that retains its value across multiple function calls. Unlike regular variables, which are created and destroyed each time a function is called, static variables are initialized only once and persist throughout the entire execution of the script. \n\nTo declare a static variable, use the ``static`` keyword inside a function. \n\nStatic variables are commonly used when to keep track of certain information across function calls without the need to use global variables or properties. They are especially useful for counters, accumulators, caching, and memoization. However, it's essential to use them judiciously and avoid excessive reliance on them, as they can make code harder to maintain and understand if used indiscriminately.\n\nStatic variables may be refactored as a global variable or a property. \n\nStatic variables may be declared only once, starting with PHP 8.3. Until that version, it is a best practice to only declare them once.\n\nStatic variables may use any PHP expressions to define their default value. That value is used when the variable is used for the first time.",
+    "code": "<?php\n\nfunction counter() {\n    static $count = 0;\n    \n    return ++$count;\n}\n\ncounter(); // print 1\ncounter(); // print 2\n\n?>",
+    "documentation": "https://www.php.net/manual/en/language.variables.scope.php#language.variables.scope.static",
+    "related": [
+        "variable",
+        "variable-variable",
+        "global-variable",
+        "global",
+        "$globals",
+        "local-variable",
+        "superglobal",
+        "static-property",
+        "new-in-initializer"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.variables.scope.php#language.variables.scope.static"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Static Variables and Methods",
+            "url": "https://brainbell.com/php/static.html"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "5 usages of static keyword in PHP",
+            "url": "https://www.exakat.io/en/5-usages-of-static-keyword-in-php/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP Static Variables",
+            "url": "https://www.scaler.com/topics/static-variable-in-php/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "static $variable in PHP: a silent trap with Laravel Octane",
+            "url": "https://medium.com/@arthurmonney/static-variable-in-php-a-silent-trap-with-laravel-octane-3a51013a0aa9"
+        }
+    ],
+    "tags": [
+        "feature",
+        "variable",
+        "lesser known"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [
+        "Variables/StaticVariables",
+        "Variables/RedeclaredStaticVariables"
+    ],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sat, 08 Aug 2026 08:10:54 +0000"
+}

@@ -1,0 +1,63 @@
+{
+    "id": "hash-table-attack",
+    "name": "Hash Table Attack",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/hash-table-attack.html",
+    "aliases": [
+        "hash-collision-attack",
+        "hashdos",
+        "algorithmic-complexity-attack"
+    ],
+    "description": "A hash table attack, also known as HashDoS, hash-flooding attack, hash collision attack, or algorithmic complexity attack, is a denial of service technique that exploits the worst-case behavior of a hash table. When many keys are crafted to collide on the same bucket, insertions degrade from the expected average ``O(1)`` to ``O(n)`` per operation, turning a cheap request into a CPU-bound one that can stall the whole server with a small amount of traffic.\n\nThe attack was disclosed in 2011 as a cross-language vulnerability: PHP, and most other web platforms of the time, parsed incoming POST data into an array keyed by parameter name, using a hash function with a fixed, predictable seed. An attacker could precompute thousands of string keys that all hash to the same bucket, and submit them as a single request body, forcing the engine to spend seconds or minutes rebuilding that one array.\n\nPHP mitigated the attack on two fronts: the Zend Engine's ``HashTable`` now randomizes its hash seed per process, so collisions can no longer be precomputed offline, and the ``max_input_vars`` ini directive caps the number of input variables accepted in a single request, bounding the damage even if collisions occur.",
+    "code": "<?php\n\n    // A crafted request body with thousands of colliding keys\n    // forces PHP to rebuild $_POST's underlying hash table repeatedly,\n    // each insertion degrading toward O(n) instead of O(1).\n    // max_input_vars limits how many such keys are accepted at all.\n\n    foreach ($_POST as $key => $value) {\n        // even an empty loop body pays the cost of building $_POST\n    }\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Collision_attack",
+    "related": [
+        "hash-table",
+        "hash-function",
+        "hashing",
+        "collision",
+        "rainbow-table",
+        "ddos",
+        "attack",
+        "max_input_vars",
+        "vulnerability",
+        "regexploit",
+        "timing-attack"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Collision_attack"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "max_input_vars",
+            "url": "https://www.php.net/manual/en/info.configuration.php#ini.max-input-vars"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Principles of PHP hash table collision attacks",
+            "url": "https://topic.alibabacloud.com/a/principles-of-php-hash-table-collision-attacks_3_75_32814723.html"
+        }
+    ],
+    "tags": [
+        "security",
+        "attack"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sun, 30 Aug 2026 11:37:41 +0000"
+}

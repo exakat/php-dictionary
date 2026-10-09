@@ -1,0 +1,56 @@
+{
+    "id": "multi-pass-algorithm",
+    "name": "Multi-pass Algorithm",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/multi-pass-algorithm.html",
+    "aliases": [
+        "multiple-passes-algorithm",
+        "multi-pass"
+    ],
+    "description": "A multi-pass algorithm, or multiple-passes algorithm, processes its input more than once, each pass building on information gathered, or output produced, by the previous one, instead of trying to solve the whole problem while reading the data only a single time, as a one-pass, or single-pass, algorithm would. It trades memory or execution time for simplicity, correctness, or completeness, since a later pass can rely on a full, already-computed picture of the earlier ones, rather than on partial, streamed information.\n\nCompilers are the archetypal example: a multi-pass compiler will first tokenize, then parse into an AST, resolve symbols, and only then generate code, each phase being an independent pass over an evolving representation of the program, instead of translating source directly to machine code in one sweep.\n\nExakat itself follows a multi-pass approach: it tokenizes the source, builds an AST, loads it into a graph database, and only then runs each analyzer as its own pass over that graph, instead of examining the source code once, top to bottom.",
+    "code": "",
+    "documentation": "https://en.wikipedia.org/wiki/Multi-pass_compiler",
+    "related": [
+        "parser",
+        "ast",
+        "compiler",
+        "tokenizer"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Multi-pass_compiler"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Abstract syntax tree (Wikipedia)",
+            "url": "https://en.wikipedia.org/wiki/Abstract_syntax_tree"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Compiler (Wikipedia)",
+            "url": "https://en.wikipedia.org/wiki/Compiler"
+        }
+    ],
+    "tags": [
+        "algorithm",
+        "concept",
+        "compiler"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sun, 30 Aug 2026 14:49:56 +0000"
+}

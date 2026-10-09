@@ -1,0 +1,43 @@
+{
+    "id": "code-freeze",
+    "name": "Code Freeze",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/code-freeze.html",
+    "aliases": [
+        "feature-freeze"
+    ],
+    "description": "A code freeze, also called a feature freeze, is a common practice in software development where all changes to the source code are temporarily halted or restricted for a specific period, typically leading up to a major release or milestone.",
+    "code": "",
+    "documentation": "https://en.wikipedia.org/wiki/Freeze_(software_engineering)",
+    "related": [
+        "lifecycle"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Freeze_(software_engineering)"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "What is a code freeze?",
+            "url": "https://www.jetbrains.com/teamcity/ci-cd-guide/faq/code-freeze/"
+        }
+    ],
+    "tags": [
+        "deployment"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sun, 30 Aug 2026 09:35:10 +0000"
+}

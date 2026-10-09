@@ -1,0 +1,50 @@
+{
+    "id": "slug",
+    "name": "Slug",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/slug.html",
+    "aliases": [],
+    "description": "A slug is a URL-friendly string derived from a human-readable label. It typically consists of lowercase letters, digits, and hyphens, with spaces and special characters removed or replaced.\n\nSlugs are widely used in web applications to build readable, SEO-friendly URLs. For example, the title ``Hello World!`` becomes the slug ``hello-world``.\n\nPHP does not have a built-in slug generator, but the transformation can be achieved by combining ``strtolower()``, ``preg_replace()``, and transliteration via ``iconv()``. Many frameworks and libraries also provide dedicated helpers.",
+    "code": "<?php\n\n    function slugify(string $text): string {\n        $text = iconv('UTF-8', 'ASCII//TRANSLIT', $text);\n        $text = strtolower($text);\n        $text = preg_replace('/[^a-z0-9]+/', '-', $text);\n        return trim($text, '-');\n    }\n\n    echo slugify('Hello World!'); // hello-world\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Clean_URL#Slug",
+    "related": [
+        "url",
+        "seo",
+        "strtolower",
+        "string",
+        "unique-identifier"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Clean_URL#Slug"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "What is a slug?",
+            "url": "https://yoast.com/slug/"
+        }
+    ],
+    "tags": [
+        "concept",
+        "string",
+        "web",
+        "url"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Tue, 25 Aug 2026 19:12:45 +0000"
+}

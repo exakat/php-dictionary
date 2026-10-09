@@ -1,0 +1,48 @@
+{
+    "id": "explicit-boolean-comparison",
+    "name": "Explicit Boolean Comparison",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/explicit-boolean-comparison.html",
+    "aliases": [],
+    "description": "The Explicit Boolean Comparison is the syntax convention that includes a literal value when using a boolean as a condition. \n\nExplicit boolean comparison may be redundant, when the compared value is already a boolean. PHP also does an implicit cast to boolean before using variables in conditions. \n\nOn the other hand, type juggling may yield unexpected results, and lead to bugs.",
+    "code": "<?php\n\nif ($var === true) {} \n\n?>",
+    "documentation": "https://www.php.net/manual/en/language.operators.comparison.php",
+    "related": [
+        "yoda"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.operators.comparison.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Type comparison tables",
+            "url": "https://www.php.net/manual/en/types.comparisons.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Type Juggling",
+            "url": "https://www.php.net/manual/en/language.types.type-juggling.php"
+        }
+    ],
+    "tags": [
+        "comparison"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sun, 09 Aug 2026 11:58:56 +0000"
+}

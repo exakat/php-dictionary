@@ -1,0 +1,51 @@
+{
+    "id": "path",
+    "name": "Path",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/path.html",
+    "aliases": [],
+    "description": "A path is a representation of the location of a file or directory within the directory structure. It describes the route or sequence of directories one must navigate from the root directory to reach a specific file or directory. There are two types of paths:\n\n+ Absolute Path: this provides the complete path from the root directory to the specific file or directory. For example, in Unix-like systems, an absolute path might look like ``/home/user/documents/file.txt`` or in Windows, it might look like ``C:\\Users\\User\\Documents\\file.txt``.\n+ Relative Path: this specifies the location of a file or directory relative to the current working directory. It doesn't start from the root directory but describes the path relative to the current directory . For example, if the current working directory is ``/home/user/`` and there is a file in the ``documents`` directory, the relative path might be ``documents/file.txt`` in Unix-like systems.\n\nPaths are represented by strings. The local OS's directory separator is stored in a constant called ``DIRECTORY_SEPARATOR``. Generally, the ``/`` is converted into the local dialect when needed, although there are special cases for the ``/``, aka root, string.",
+    "code": "",
+    "documentation": "https://en.wikipedia.org/wiki/Path_(computing)",
+    "related": [
+        "stream",
+        "protocol",
+        "dir",
+        "file",
+        "directory_separator",
+        "absolute",
+        "dirname",
+        "dot-directory",
+        "dot-dot-directory",
+        "relative",
+        "dot-file"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Path_(computing)"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "php-path",
+            "url": "https://php-path.readthedocs.io/en/latest/"
+        }
+    ],
+    "tags": [
+        "concept"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 02 Jul 2026 08:15:37 +0000"
+}

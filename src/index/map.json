@@ -1,0 +1,49 @@
+{
+    "id": "map",
+    "name": "Map",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/map.html",
+    "aliases": [],
+    "description": "A map refers to an abstract data type, ADT, that stores key-value pairs, where each key is unique within the map. This feature is supported by arrays.\n\nPHP's array syntax supports a feature to assign the index an arbitrary key. A map allows efficient lookup, insertion, and deletion of values based on their associated keys. The key-value pairs are typically unordered, meaning that the order of insertion may not be preserved when iterating over the map's elements.\n\nMaps are also called associative array, dictionary, or hashes.\n\nMaps are useful to associate a value with a specific key and perform operations like searching for a value by its key or updating the value associated with a key. They provide a convenient way to store and retrieve data based on some unique identifier.",
+    "code": "<?php\n\n    // explicit keys : this is a map\n    $array = ['a' => 0, 2 => 1, '123' => 2];\n    \n    \n    // keys are assigned automatically\n    $array = [0, 1, 2];\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Associative_array",
+    "related": [
+        "array",
+        "index-array",
+        "collection",
+        "array_column",
+        "hash-crypto",
+        "hash-function",
+        "hash",
+        "datastructure",
+        "pair"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Associative_array"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Associative Arrays in PHP: An Overview",
+            "url": "https://www.simplilearn.com/tutorials/php-tutorial/associative-array-in-php"
+        }
+    ],
+    "tags": [
+        "data structure"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Wed, 19 Aug 2026 08:26:06 +0000"
+}

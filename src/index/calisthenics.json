@@ -1,0 +1,53 @@
+{
+    "id": "calisthenics",
+    "name": "Object Calisthenics",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/calisthenics.html",
+    "aliases": [
+        "object-calisthenics"
+    ],
+    "description": "Object Calisthenics is a set of nine coding constraints, introduced by ``Jeff Bay``, meant to be practiced as an exercise to force better object-oriented design habits, rather than followed strictly in production code at all times.\n\nThe nine rules are:\n\n+ Only one level of indentation per method.\n+ Don't use the ``else`` keyword.\n+ Wrap primitive types and strings in dedicated classes.\n+ Use only one dot per line, limiting method chaining.\n+ Don't abbreviate names.\n+ Keep entities, classes and packages, small.\n+ Limit instance variables to two per class.\n+ Use first-class collections, wrapping any collection in a dedicated class.\n+ Don't use getters and setters.\n\nApplying every rule everywhere, all the time, tends to produce over-engineered code; the value is in practicing them deliberately to notice where a design leans on primitives, deep nesting, or exposed state more than it should.",
+    "code": "",
+    "documentation": "https://williamdurand.fr/2013/06/03/object-calisthenics/",
+    "related": [
+        "clean-code",
+        "solid",
+        "primitive-obsession",
+        "getter",
+        "setter",
+        "value-object",
+        "cognitive-complexity",
+        "cyclomatic-complexity"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://williamdurand.fr/2013/06/03/object-calisthenics/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Object calisthenics (in PHP)",
+            "url": "https://rubenrubiob.substack.com/p/object-calisthenics-in-php"
+        }
+    ],
+    "tags": [
+        "concept",
+        "best practice"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Tue, 11 Aug 2026 07:48:06 +0000"
+}

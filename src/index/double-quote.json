@@ -1,0 +1,50 @@
+{
+    "id": "double-quote",
+    "name": "Double Quotes Strings",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/double-quote.html",
+    "aliases": [],
+    "description": "Double quoted strings are strings, similar to the single quoted strings. They are also able to interpolate variables, properties and arrays, which are included at execution time. \n\nDouble quoted strings do not interpolate constants. \n\nDouble quoted strings support escape sequences, such as ``u{1F3c}`` or ``\\n``.\n\nThis is an extended version of the single-quoted strings. They are similar to the heredoc syntax.",
+    "code": "<?php\n\n    // single quoted string : all literal values\n    $name = 'Elephpant loves $signs.'; \n    \n    // single quoted string : all literal values\n    $signs = 'PHP';\n    $name = 'Elephpant loves $signs.';  // Elephpant loves PHP\n    \n    echo \"\\u{01f418}\"; // escape sequence of an elephant\n\n?>",
+    "documentation": "https://www.php.net/manual/en/language.types.string.php#language.types.string.syntax.double",
+    "related": [
+        "single-quote",
+        "interpolation",
+        "string",
+        "heredoc",
+        "escape-sequence",
+        "balanced",
+        "double",
+        "oblic-quote"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.types.string.php#language.types.string.syntax.double"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Single Quotes and Double Quotes : String Interpolation and Performance",
+            "url": "https://dev.to/parzival_computer/single-quotes-and-double-quotes-string-interpolation-and-performance-32p2"
+        }
+    ],
+    "tags": [
+        "delimiter",
+        "syntax",
+        "animal"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sat, 08 Aug 2026 08:10:54 +0000"
+}

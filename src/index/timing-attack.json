@@ -1,0 +1,60 @@
+{
+    "id": "timing-attack",
+    "name": "Timing Attack",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/timing-attack.html",
+    "aliases": [],
+    "description": "A timing attack is a type of side-channel attack where an attacker exploits variations in the time it takes for a system to perform operations to infer secret information. Instead of directly breaking cryptographic algorithms, the attacker analyzes how long a system takes to respond to different inputs, revealing clues about the internal state or data.\n\nTiming attacks may be mitigated by using the ``hash_equals()`` function, instead of comparing values with ``===`` or ``==``. \n\nThe attack relies on trying various strings, and detecting when the comparison fails early or late to infer which part of the string is valid or not. \n",
+    "code": "",
+    "documentation": "https://en.wikipedia.org/wiki/Timing_attack",
+    "related": [
+        "vulnerability",
+        "attack",
+        "hash_equals",
+        "devops",
+        "rollback",
+        "vcs-commit",
+        "worktree",
+        "crack"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Timing_attack"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP Vulnerabilities: Assessment, Prevention, and Mitigation",
+            "url": "https://www.zend.com/blog/php-vulnerabilities"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Timing Attack in Laravel (2022)",
+            "url": "https://ephort.dk/blog/laravel-timing-attack-vulnerability"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "The Clock That Cracks Passwords",
+            "url": "https://www.exakat.io/the-clock-that-cracks-passwords/"
+        }
+    ],
+    "tags": [
+        "security"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Wed, 02 Sep 2026 15:08:30 +0000"
+}

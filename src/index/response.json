@@ -1,0 +1,57 @@
+{
+    "id": "response",
+    "name": "Response",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/response.html",
+    "aliases": [],
+    "description": "A response is the dataset returned by a server, to a query. It is further processed by a client.\n\nAny server may return a response: web server, SQL, LDAP, etc. That response may be a content, or an error.",
+    "code": "",
+    "documentation": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Messages",
+    "related": [
+        "server",
+        "query",
+        "client",
+        "http-code",
+        "middleware",
+        "redirect",
+        "firewall",
+        "http-method",
+        "payload",
+        "streamable"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Messages"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "What Is a HTTP Response? Guide To HTTP Response Status Codes",
+            "url": "https://www.uptimia.com/learn/what-is-a-http-response-guide-to-http-response-status-codes"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "HTTP status codes explained: full guide with examples",
+            "url": "https://upsun.com/blog/http-status-codes/"
+        }
+    ],
+    "tags": [
+        "server"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sat, 12 Sep 2026 07:43:43 +0000"
+}

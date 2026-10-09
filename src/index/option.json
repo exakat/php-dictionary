@@ -1,0 +1,54 @@
+{
+    "id": "option",
+    "name": "Option",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/option.html",
+    "aliases": [],
+    "description": "An option represents a value that may or may not be present. For example, optional values are typically expressed as nullable types ``?type``, default parameter values, or named arguments with defaults.\n\nSome functional libraries introduce an explicit ``Option`` or ``Maybe`` type to avoid null references entirely.\n\nBy extension, options are possible alternatives to execute a feature. It may tweak the way it is performed, the format of the result, or any other behavior. Such options often have a default configuration which makes them easy to adopt, until the need for specialisation arise.\n\nOptions are sometimes used as synonyms as configuration or directive: this is the case when the option has to be provided and has no default. An initial choice must be done.\n",
+    "code": "<?php\n\n    // Nullable type: value may be absent\n    function findUser(?int $id): ?User {\n        if ($id === null) {\n            return null;\n        }\n        return User::find($id);\n    }\n    \n    // Default value as option\n    function greet(string $name = 'World'): string {\n        return 'Hello, ' . $name;\n    }\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Option_type",
+    "related": [
+        "named-parameter",
+        "default-parameter",
+        "configuration",
+        "flag",
+        "splsubject"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Option_type"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "All the ways to handle null values in PHP",
+            "url": "https://www.amitmerchant.com/all-the-ways-to-handle-null-values-in-php/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP Null Coalescing Operator",
+            "url": "https://www.phptutorial.net/php-tutorial/php-null-coalescing-operator/"
+        }
+    ],
+    "tags": [
+        "concept",
+        "parameter",
+        "optional"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Mon, 07 Sep 2026 14:43:00 +0000"
+}

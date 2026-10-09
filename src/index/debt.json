@@ -1,0 +1,60 @@
+{
+    "id": "debt",
+    "name": "Technical Debt",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/debt.html",
+    "aliases": [
+        "technical-debt"
+    ],
+    "description": "Debt generally refers to technical debt, as a whole.\n\nTechnical debt represents the extra development work that arises when code is written in a quick-and-dirty way instead of following best practices. Previous work has left issues to be fixed later and that later is now.\n\nTechnical debt is not built visibly on the spot, but is usually assessed later, when the need for a previous chore becomes a reality. It may be opposed to ``YAGNI``: ``you are not going to need it``.\n\nThere are many types of debt: code, maintenance, documentation, readable, visual, etc.\n\nBy extension, anything that currently slows down development is considered a debt.",
+    "code": "",
+    "documentation": "https://en.wikipedia.org/wiki/Technical_debt",
+    "related": [
+        "yagni",
+        "visual-debt",
+        "maintenance",
+        "readable",
+        "documentation",
+        "legacy"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Technical_debt"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP Maintenance and Tech Debt: 2025 Trends",
+            "url": "https://www.zend.com/blog/php-maintenance-trends"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Taming Technical Debt: A Practical Guide to Managing Deprecations in PHP and Laravel",
+            "url": "https://medium.com/@kimashleyrocks/taming-technical-debt-a-practical-guide-to-managing-deprecations-in-php-and-laravel-1b0aa991574b"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Technical debt is not malice",
+            "url": "https://phpunit.expert/articles/technical-debt-is-not-malice.html"
+        }
+    ],
+    "tags": [
+        "sdlc"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Wed, 19 Aug 2026 06:47:16 +0000"
+}

@@ -1,0 +1,50 @@
+{
+    "id": "arithmeticerror",
+    "name": "ArithmeticError Error",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/arithmeticerror.html",
+    "aliases": [],
+    "description": "``ArithmeticError`` is thrown when an error occurs while performing mathematical operations. These errors include attempting to perform a bitshift by a negative amount, and any call to ``intdiv()`` that would result in a value outside the possible bounds of an integer. \n\nCurrently, a bitshift is the main source for arithmetic exceptions. The other is division by zero, which is a child class.\n\n``DivisionByZeroError`` is an ``ArithmeticError``. \n\nWhen ``ArithmeticError`` are not raised, PHP may return a ``NaN`` value, and ``INF`` value, or also ``0``.",
+    "code": "<?php\n\n// ArithmeticError is catchable\ntry {\n    8 >> -1;\n} catch (ArithmeticError) {\n    print 'Cannot do a negative shift';\n}\n\ntry {\n    10 / 0;\n} catch (DivisionByZeroError) { // or DivisionByZeroError\n    print 'Cannot divide by 0';\n}\n\nprint sqrt(-10); // NaN\n\nprint log(0); // -INF\n\n?>",
+    "documentation": "https://www.php.net/manual/en/class.arithmeticerror.php",
+    "related": [
+        "throw",
+        "try-catch",
+        "divisionbyzeroerror",
+        "nan",
+        "inf",
+        "zero"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/class.arithmeticerror.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Modern Error handling in PHP",
+            "url": "https://netgen.io/blog/modern-error-handling-in-php"
+        }
+    ],
+    "tags": [
+        "exception",
+        "error"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [
+        "Structures/CheckDivision",
+        "Exceptions/CouldUseTry"
+    ],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sat, 08 Aug 2026 08:10:54 +0000"
+}

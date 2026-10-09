@@ -1,0 +1,61 @@
+{
+    "id": "ttl",
+    "name": "Time To Live (TTL)",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/ttl.html",
+    "aliases": [
+        "time-to-live",
+        "expiry"
+    ],
+    "description": "Time To Live, abbreviated TTL, is a value that defines how long a piece of data remains valid before it expires and must be refreshed or discarded. It is expressed in seconds in most contexts.\n\nTTL appears across many layers of a PHP application: cache entries like Redis, Memcached, ``APCu``, etc., DNS records, HTTP cache headers such as ``Cache-Control: max-age``, JSON Web Tokens, session lifetimes, and idempotency key storage.\n\nA short TTL reduces stale data at the cost of more frequent repeat of calculation or fetching. A long TTL improves performance but risks serving outdated information.",
+    "code": "",
+    "documentation": "https://en.wikipedia.org/wiki/Time_to_live",
+    "related": [
+        "cache",
+        "idempotent",
+        "session",
+        "jwt",
+        "http-header",
+        "dns",
+        "memoization",
+        "cache-stampede",
+        "cdn",
+        "deduplication",
+        "replay",
+        "cache-warming",
+        "cold-cache",
+        "hot-cache",
+        "temporary"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Time_to_live"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PSR-6",
+            "url": "https://www.php-fig.org/psr/psr-6/"
+        }
+    ],
+    "tags": [
+        "concept",
+        "acronym"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sat, 12 Sep 2026 07:43:43 +0000"
+}

@@ -1,0 +1,61 @@
+{
+    "id": "streamable",
+    "name": "Streamable",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/streamable.html",
+    "aliases": [],
+    "description": "A streamable value is something that can be read, or written, incrementally, chunk by chunk, without ever needing to be fully loaded in memory, whether or not it is backed by a real, native PHP ``stream`` resource opened with ``fopen()``.\n\nThis is a distinction similar to ``stringable``: a ``Stringable`` object behaves like a string, via ``__toString()``, without being a native ``string`` scalar. A streamable object behaves like a stream, exposing something akin to ``read()``, ``write()`` or ``eof()``, without necessarily being a native stream resource under the hood: it may be backed by a database cursor, a generator, an API pagination loop, or a callback.\n\n``PSR-7``'s ``Psr\\Http\\Message\\StreamInterface`` is the canonical example. HTTP client and server libraries, such as Guzzle or Symfony's HttpClient, expose request and response bodies as streamable objects, so large payloads can be read progressively, even when the underlying transport is a socket, a file, or an in-memory buffer. Symfony's ``StreamedResponse`` is another example: its body is produced by a callback, and is streamable to the client, without the application ever holding a stream resource itself.",
+    "code": "<?php\n\ninterface Streamable\n{\n    // Reads up to $length bytes; returns '' once exhausted.\n    public function read(int $length): string;\n    public function eof(): bool;\n}\n\n// A CSV export is streamable: it can be read chunk by chunk,\n// even though it is backed by an array, not a real stream resource.\nclass CsvExport implements Streamable\n{\n    private int $position = 0;\n\n    public function __construct(private array $rows) {}\n\n    public function read(int $length): string\n    {\n        if ($this->eof()) {\n            return '';\n        }\n\n        return implode(',', $this->rows[$this->position++]) . \"\\n\";\n    }\n\n    public function eof(): bool\n    {\n        return $this->position >= count($this->rows);\n    }\n}\n\nfunction sendToClient(Streamable $body): void\n{\n    while (!$body->eof()) {\n        echo $body->read(1024); // flushed incrementally, never loaded fully in memory\n    }\n}\n\nsendToClient(new CsvExport([['id', 'name'], [1, 'Alice'], [2, 'Bob']]));\n\n?>",
+    "documentation": "https://www.php-fig.org/psr/psr-7/#34-psrhttpmessagestreaminterface",
+    "related": [
+        "stream",
+        "stringable",
+        "generator",
+        "yield",
+        "wrapper-stream",
+        "output-buffering",
+        "response",
+        "psr",
+        "abstraction-layer"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php-fig.org/psr/psr-7/#34-psrhttpmessagestreaminterface"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Symfony: Streaming a Response",
+            "url": "https://symfony.com/doc/current/components/http_foundation.html#streaming-a-response"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Guzzle: Streams",
+            "url": "https://docs.guzzlephp.org/en/stable/psr7.html#streams"
+        }
+    ],
+    "tags": [
+        "concept",
+        "php interface",
+        "filesystem"
+    ],
+    "packagist": [
+        "guzzlehttp/psr7",
+        "symfony/http-foundation"
+    ],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 17 Sep 2026 07:48:29 +0000"
+}

@@ -1,0 +1,62 @@
+{
+    "id": "psr",
+    "name": "PHP Standards Recommendations (PSR)",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/psr.html",
+    "aliases": [],
+    "description": "``PSR`` stands for PHP Standards Recommendations. This is a set of rules and best practices, that may be adopted by any PHP project. It will help adopt common behavior and improve collaboration between projects.\n\n``PSR`` are edited by the ``PHP-FIG``: ``Framework Interoperability Group``.\n\nThere are 22 PSR in 2026, covering subjects such as cache, factories, log, coding standards, etc.",
+    "code": "",
+    "documentation": "https://www.php-fig.org/psr/",
+    "related": [
+        "php-fig",
+        "clock",
+        "code-formatter",
+        "dependency-injection-container",
+        "interoperability",
+        "middleware",
+        "composer.json",
+        "error_log",
+        "slim",
+        "streamable"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php-fig.org/psr/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP extension providing the accepted PSR interfaces",
+            "url": "https://github.com/jbboehr/php-psr"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Why You Should Implement PHP Coding Standards (PSR) in Your Projects",
+            "url": "https://medium.com/@mickdes/why-you-should-implement-php-coding-standards-psr-in-your-projects-0440f6653099"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "The PSR Standards You Are Probably Ignoring",
+            "url": "https://www.juststeveking.com/articles/the-psr-standards-you-are-probably-ignoring/"
+        }
+    ],
+    "tags": [
+        "acronym",
+        "community",
+        "standard"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sat, 12 Sep 2026 07:43:43 +0000"
+}

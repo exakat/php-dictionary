@@ -1,0 +1,58 @@
+{
+    "id": "socket",
+    "name": "Socket",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/socket.html",
+    "aliases": [],
+    "description": "A socket refers to a communication endpoint that allows two processes to exchange data over a network. Sockets provide a mechanism for processes on different devices to communicate with each other, whether they are on the same machine or across the Internet.\n\nPHP provides a set of functions for working with sockets, allowing developers to create both client and server applications that can communicate over networks using various protocols, including TCP and UDP.",
+    "code": "<?php\n\n    $server = socket_create(AF_INET, SOCK_STREAM, SOL_TCP);\n    socket_bind($server, '127.0.0.1', 8080);\n    socket_listen($server);\n    $client = socket_accept($server);\n\n?>",
+    "documentation": "https://www.php.net/manual/en/book.sockets.php",
+    "related": [
+        "network",
+        "server",
+        "udp",
+        "tcp",
+        "polling",
+        "websocket",
+        "c10k",
+        "imap",
+        "non-blocking",
+        "ssh2",
+        "ipc",
+        "osi-model",
+        "p2p",
+        "reactphp"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/book.sockets.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP and Sockets: Network Programming with PHP",
+            "url": "https://reintech.io/blog/php-and-sockets-network-programming"
+        }
+    ],
+    "tags": [
+        "network"
+    ],
+    "packagist": [
+        "react/socket"
+    ],
+    "extensions": [
+        "socket"
+    ],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Fri, 09 Oct 2026 14:40:00 +0000"
+}

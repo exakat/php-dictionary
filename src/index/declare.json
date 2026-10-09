@@ -1,0 +1,51 @@
+{
+    "id": "declare",
+    "name": "declare()",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/declare.html",
+    "aliases": [],
+    "description": "``declare()``is used to set execution directives for a block of code.\n\n``declare()`` may set the following values: \n\n+ ``strict_types``: strict typing in the block\n+ ``ticks``: generate a tick event \n+ ``encoding``: per-file encoding directive\n\n``declare()`` affects some configuration for the next block of code.\n\nIt is a language construct.",
+    "code": "<?php\n\n    declare(strict_types=1, encoding='UTF-8');\n\n?>",
+    "documentation": "https://www.php.net/manual/en/control-structures.declare.php",
+    "related": [
+        "strict_types",
+        "tick",
+        "declare-encoding",
+        "control-flow",
+        "control-structure",
+        "unicode"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/control-structures.declare.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Why use declare(strict_types=1) in PHP \u2013 Fast tips",
+            "url": "https://dev.to/inspector/why-use-declarestricttypes1-in-php-fast-tips-3c1"
+        }
+    ],
+    "tags": [
+        "language construct"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [
+        "Php/DeclareTicks",
+        "Php/DeclareEncoding",
+        "Php/MultipleDeclareStrict",
+        "Structures/Noscream"
+    ],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sat, 08 Aug 2026 08:10:54 +0000"
+}

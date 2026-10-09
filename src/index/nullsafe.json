@@ -1,0 +1,49 @@
+{
+    "id": "nullsafe",
+    "name": "Nullsafe",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/nullsafe.html",
+    "aliases": [],
+    "description": "A nullsafe operator is able to carry a function or fail graciously to ``null``. In particular, it won't stop the execution with a fatal error. \n\nThere are two PHP operators that are nullsafe: \n\n+ Nullsafe object operator ``?->``\n+ Nullsafe-coalesce ``??``.",
+    "code": "<?php\n\n    $a = trumpet();\n\n    $b = $a?->method();\n\n    $b = $a?->chain1?->chain2?->method();\n\n    // trumpet may return null\n    function trumpet() : ?Elephpant { }\n\n?>",
+    "documentation": "https://www.php.net/oop5.basic",
+    "related": [
+        "object-operator",
+        "coalesce",
+        "streamlining"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/oop5.basic"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Mastering Null Safety in PHP 8: A Comprehensive Guide to Using the Null Safe Operator",
+            "url": "https://medium.com/@prevailexcellent/mastering-null-safety-in-php-8-a-comprehensive-guide-to-using-the-null-safe-operator-47835ba1140b"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP 8.0: Null-safe operator",
+            "url": "https://php.watch/versions/8.0/null-safe-operator"
+        }
+    ],
+    "tags": [
+        "operator",
+        "object"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "8.0",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+}

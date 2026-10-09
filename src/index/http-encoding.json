@@ -1,0 +1,49 @@
+{
+    "id": "http-encoding",
+    "name": "HTTP Encoding",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/http-encoding.html",
+    "aliases": [
+        "percent-encoding"
+    ],
+    "description": "URL encoding, also known as percent-encoding, is a mechanism used to convert characters into a format that can be transmitted over the Internet. URLs can only contain a limited set of characters, consisting mainly of alphanumeric characters along with a few special characters such as hyphens, underscores, periods, and tilde ``~``.\n\nWhen a URL contains characters outside this set, such as spaces or non-alphanumeric characters like ampersands, question marks, or slashes, URL encoding is used to represent those characters in a safe and compatible format.\n\nURL encoding works by replacing each non-alphanumeric character with a percent sign ``%`` followed by two hexadecimal digits that represent the ASCII or Unicode code of the character. For example:\n\n+ Space ``' '`` is encoded as %20.\n+ Ampersand ``&`` is encoded as %26.\n+ Question mark ``?`` is encoded as %3F.\n+ Slash ``/`` is encoded as %2F.\n\nURL encoding ensures that URLs remain valid and functional across different systems and protocols. It is commonly used in web browsers, HTTP requests, and other internet-related technologies to transmit data safely and reliably. Most programming languages provide built-in functions or libraries to perform URL encoding and decoding operations.\n\nPHP provides ``urlencode()`` and ``urldecode()`` to handle coding and decoding this format.",
+    "code": "<?php\n\n    $text = \"This is the Euro symbol \u20ac.\";\n    \n    // builds a valid URL \n    $url = 'https://www.example.com/'.urlencode($text);\n    \n    // https://www.example.com/This+is+the+Euro+symbol+%27%E2%82%AC%27.\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Percent-encoding",
+    "related": [
+        "encoding-text",
+        "encoding"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Percent-encoding"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "urlencode()",
+            "url": "https://www.php.net/urlencode"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "urldecode()",
+            "url": "https://www.php.net/urldecode"
+        }
+    ],
+    "tags": [
+        "http"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Tue, 01 Sep 2026 05:31:03 +0000"
+}

@@ -1,0 +1,56 @@
+{
+    "id": "alias-types",
+    "name": "Alias Types",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/alias-types.html",
+    "aliases": [
+        "type-alias"
+    ],
+    "description": "An alias type, or type alias, is a short name for several types at once. Under the hood, alias types are union types.\n\nPHP offers several native alias types, such as ``iterable``, which represents ``array | Traversable``. Alias types are not available for customisation.\n\nThe same rules apply to alias types as other types: for example, ``array | iterable`` produces a 'Duplicate type array is redundant' error.",
+    "code": "<?php\n\n// iterable is an alias for array|Traversable: both are accepted here\nfunction sumValues(iterable $numbers): int {\n    $total = 0;\n\n    foreach ($numbers as $number) {\n        $total += $number;\n    }\n\n    return $total;\n}\n\necho sumValues([1, 2, 3]); // 6: a plain array is iterable\n\nfunction threeToFive(): Generator {\n    yield 3;\n    yield 4;\n    yield 5;\n}\n\necho sumValues(threeToFive()); // 12: a Generator is Traversable, also iterable\n\n// function sumValues(array|iterable $numbers): int {} // Fatal error: Duplicate type array is redundant\n\n?>",
+    "documentation": "https://www.php.net/manual/en/language.namespaces.importing.php",
+    "related": [
+        "union-type",
+        "type",
+        "scalar-type",
+        "coercion",
+        "generator"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.namespaces.importing.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP: Iterables - Manual",
+            "url": "https://www.php.net/manual/en/language.types.iterable.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Union Types - PHP 8.0 - PHP.Watch",
+            "url": "https://php.watch/versions/8.0/union-types"
+        }
+    ],
+    "tags": [
+        "alias",
+        "feature"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "8.0",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": {
+        "Duplicate type array is redundant": "duplicate-type-%s-is-redundant",
+        "Type iterable|array contains both iterable and array, which is redundant": "type-%s-contains-both-iterable-and-array"
+    },
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sat, 12 Sep 2026 07:41:19 +0000"
+}

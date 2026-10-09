@@ -1,0 +1,49 @@
+{
+    "id": "double",
+    "name": "Double",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/double.html",
+    "aliases": [],
+    "description": "Double usually means that something is repeated once. \n\nDouble is opposed to single, but it may also be distinct with any other number of repetition, such as triple, quadruple, etc. \n\nThings that may be double: \n\n+ Double quotes ``\"``\n+ Double equal ``==``, not to be confused with the single equal ``=`` or the triple one ``===``\n+ Double colon ``::``, the static resolution operator\n+ Double plus ``++`` and minus ``--``, also called plus plus or minus minus, as post-increment and pre-increment operators\n+ Double star ``**``, or exponentiation operator\n+ Double question mark ``??``, or coalesce operator\n+ Double also refers to float or decimal point numbers.",
+    "code": "<?php\n\n    $a = 1;\n    $a == 1;  // true \n    $a === 1; // true too. \n\n?>",
+    "documentation": "https://www.php.net/manual/en/language.operators.php",
+    "related": [
+        "double-quote",
+        "float",
+        "single",
+        "triple",
+        "post-increment",
+        "pre-increment",
+        "coalesce",
+        "exponent",
+        "scope-resolution-operator"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.operators.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "1-2-3 operators",
+            "url": "https://www.exakat.io/1-2-3-php-operators/"
+        }
+    ],
+    "tags": [
+        "disambiguation"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Tue, 01 Sep 2026 05:31:03 +0000"
+}

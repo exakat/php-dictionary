@@ -1,0 +1,65 @@
+{
+    "id": "compiler-optimized-function",
+    "name": "Compiler Optimized Function",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/compiler-optimized-function.html",
+    "aliases": [
+        "special-compiled-function",
+        "vm-builtin-function",
+        "inlined-internal-function"
+    ],
+    "description": "A compiler optimized function is one of a fixed list of native functions that the Zend compiler recognizes by name at compile time, and turns into a dedicated, specialized opcode sequence instead of a generic function call. Because these functions are called extremely often (``count()``, ``is_array()``, ``in_array()``, ``strlen()``...), skipping the usual ``INIT_FCALL`` / ``SEND_VAL`` / ``DO_FCALL`` machinery removes call overhead and lets the VM execute a shorter, more direct set of instructions.\n\nThis optimization only applies when every condition is met:\n\n+ The call is a direct, literal call: ``count($a)``, not a variable function call like ``$f($a)`` or ``'count'($a)``.\n+ The function has not been redeclared or disabled (``disable_functions``): if the resolved function is not the original internal one, the compiler falls back to a normal call, so a polyfill or override always takes effect.\n+ Arguments are not spread (``...``) or named: ``count(...$args)`` and ``count(value: $a)`` both bypass the optimization.\n+ The ``ZEND_COMPILE_NO_BUILTINS`` compiler flag is not set (this flag is used in a few contexts, such as some ``eval()`` internals, to force plain calls).\n\nAs of PHP 8.5, the functions eligible for this treatment are: ``strlen``, ``is_null``, ``is_bool``, ``is_long``/``is_int``/``is_integer``, ``is_float``/``is_double``, ``is_string``, ``is_array``, ``is_object``, ``is_resource``, ``is_scalar``, ``boolval``, ``intval``, ``floatval``/``doubleval``, ``strval``, ``defined``, ``chr``, ``ord``, ``call_user_func_array``, ``call_user_func``, ``in_array``, ``count``/``sizeof``, ``get_class``, ``get_called_class``, ``gettype``, ``func_num_args``, ``func_get_args``, ``array_slice``, and ``array_key_exists``. ``assert()`` also receives dedicated compile-time handling, though through a separate code path, so that it can be stripped entirely when assertions are disabled.\n\nThis list is an implementation detail of the Zend Engine: it changes between PHP versions as functions are added or removed from it, and it is not part of the language specification. It has no direct impact on the code semantics, only on the emitted opcodes and, therefore, on performance.",
+    "code": "<?php\n\n    $array = [1, 2, 3];\n\n    // Compiled to a dedicated COUNT opcode: fast path.\n    echo count($array);\n\n    // Still a plain function call: the compiler cannot special-case\n    // an indirect / dynamic call.\n    $fn = 'count';\n    echo $fn($array);\n\n    // Also a plain function call: named arguments disable the shortcut.\n    echo count(value: $array);\n\n    // If count() is redefined (e.g. via a polyfill after disable_functions),\n    // every call to it, direct or not, uses the redefinition instead of\n    // the optimized opcode.\n\n?>",
+    "documentation": "https://github.com/php/php-src/blob/master/Zend/zend_compile.c",
+    "related": [
+        "compiler",
+        "compile-time",
+        "compile-time-evaluation",
+        "opcache",
+        "jit",
+        "disable-functions",
+        "in_array",
+        "count",
+        "get_class",
+        "gettype",
+        "func_get_args",
+        "array_slice",
+        "array_key_exists",
+        "defined"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://github.com/php/php-src/blob/master/Zend/zend_compile.c"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "zend_try_compile_special_func() in zend_compile.c",
+            "url": "https://github.com/php/php-src/blob/944b6b6bbd6f05ad905f5f4ad07445792bee4027/Zend/zend_compile.c#L4291-L4353"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP OPcache",
+            "url": "https://www.php.net/manual/en/book.opcache.php"
+        }
+    ],
+    "tags": [
+        "concept",
+        "optimisation",
+        "internals"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Fri, 18 Sep 2026 15:28:26 +0000"
+}

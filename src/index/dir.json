@@ -1,0 +1,47 @@
+{
+    "id": "dir",
+    "name": "Dir",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/dir.html",
+    "aliases": [
+        "directory",
+        "folder"
+    ],
+    "description": "A directory, or dir, is a named collection of files on the file system.\n\nA dir may also be called a folder. \n\nThere is a magic constant called ``__DIR__``, which holds the current directory of the current file.",
+    "code": "<?php\n\n    $d = dir('/path/to/folder');\n    while (false !== ($fileOrDir = $d->read())) {\n       echo $fileOrDir.PHP_EOL;\n    }\n    $d->close();\n    \n    print_r(scanddir('/path/to/folder'));\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Computer_file",
+    "related": [
+        "file",
+        "dirname",
+        "filesystem",
+        "path"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Computer_file"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "File system",
+            "url": "https://www.php.net/manual/en/book.filesystem.php"
+        }
+    ],
+    "tags": [
+        "filesystem"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sat, 08 Aug 2026 08:10:54 +0000"
+}

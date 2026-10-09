@@ -1,0 +1,54 @@
+{
+    "id": "special-typehint",
+    "name": "Special Types",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/special-typehint.html",
+    "aliases": [
+        "special-type"
+    ],
+    "description": "PHP defines some special types.\n\n+ ``mixed``: any type\n+ ``void``: no returned value\n+ ``callable``: may be used as a callback\n+ ``iterable``: may be used with ``foreach()``, including array\n+ ``never``: never returns\n+ ``object``: object of any class\n+ ``parent``: any of the parent class of the current class, excluding it\n+ ``self``: the current class\n+ ``static``: the current called class\n\nOther special types are the scalar types.",
+    "code": "<?php\n\n    function trumpet(iterable $herd) : never {\n        foreach ($herd as $calf) {\n            echo $calf;\n        }\n\n        die();\n    }\n\n?>",
+    "documentation": "https://www.php.net/manual/en/language.types.declarations.php",
+    "related": [
+        "type",
+        "mixed",
+        "void",
+        "callable",
+        "iterable",
+        "never",
+        "object",
+        "parent",
+        "static",
+        "self"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.types.declarations.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "An Exhaustive Guide to Understanding and Using PHP Data Types",
+            "url": "https://medium.com/@berastis/an-exhaustive-guide-to-understanding-and-using-php-data-types-b56f6863c637"
+        }
+    ],
+    "tags": [
+        "type"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [
+        "Php/NotScalarTypehint"
+    ],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "7.0",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+}

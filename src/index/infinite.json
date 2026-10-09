@@ -1,0 +1,48 @@
+{
+    "id": "infinite",
+    "name": "Infinite",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/infinite.html",
+    "aliases": [],
+    "description": "Infinite means that an operation is repeated and will never stop being repeated. \n\nInfinite is characteristics of loops, generators, recursive functions and streams. Infinite structures may be a bug or a feature, depending on the usage. For example, the event loop is usually an infinite loop, until one of the event triggers a jump out of the loop.\n\nInfinite is also a PHP constant: ``INF``.\n\n``INF`` is cast to string as ``'INF'``, to integer as ``0``, to boolean as ``true``, and to float as ``'INF'``. \n",
+    "code": "<?php\n\n// infinite loops\nwhile(true) { }\n\nfor(;;) {} \n\n// infinite generator \nfunction integers() {\n    $i = 0;\n    while(true) {\n        yield $i++;\n    }\n}\n\n// infinite Fibbonacci sequence\nfunction recursive ($a = 1, $b = 1) {\n    $a2 = $b;\n    $b2 = $a + $b;\n    print $b2.PHP_EOL;\n    recursive($a2, $b2);\n}\n\n?>",
+    "documentation": "https://www.php.net/manual/en/math.constants.php",
+    "related": [
+        "inf",
+        "infinite-loop"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/math.constants.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "is_infinite",
+            "url": "https://www.php.net/manual/en/function.is-infinite.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Infinity (Wikipedia)",
+            "url": "https://en.wikipedia.org/wiki/Infinity"
+        }
+    ],
+    "tags": [
+        "concept",
+        "adjective"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sun, 16 Aug 2026 07:46:07 +0000"
+}

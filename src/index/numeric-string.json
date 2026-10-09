@@ -1,0 +1,47 @@
+{
+    "id": "numeric-string",
+    "name": "Numeric String",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/numeric-string.html",
+    "aliases": [],
+    "description": "A numeric string, is a string that contains a numeric value, or can be easily converted from string to numeric, integer or float. \n\nSome of such strings are obvious, and commonly used: ``123`` or ``'45.67'``. HereDocs string may also be a numeric string. \n\nNon numeric strings are mostly obvious too, such as: ``abc`` or ``'\u4e2d\u6587'``. \n\nThen, there are some various cases: \n\n+ '123db': leading strings, starting with digits and finished by non-digit characters are converted as much as possible.\n+ '2e3': the exponent is recognized: when ``e``, is between two digit, the float notation is used. This is 2000.\n+ '+00', '-10': leading ``+`` and ``-`` are handled. There can only be one, unlike for hardcoded integers.\n+ ' 20 ': leading and trailing spaces, tabulations, new lines, new feed are omitted. \n+ ``str_repeat('0', 10001).2``: PHP tries to convert as much as possible. Leading 0 will basically be ignored, however numerous they are.\n+ ``(int) str_repeat('1', 10001)``: PHP returns 0 when conversion fails\n+  ``str_repeat('1', 10001) + 0``: PHP returns ``INF`` when the conversion fails and is silent.\n+ '\u4e09' or 3 in Chinese, 'CM' or 1500 in Roman: other ways of counting are not recognized\n\nA string may be checked with the ``is_numeric()`` function. It cannot be checked with ``is_int()`` and ``is_float()``.",
+    "code": "<?php\n\n    var_dump(is_numeric('\u4e2d\u6587'));\n\n?>",
+    "documentation": "https://www.php.net/manual/en/language.types.numeric-strings.php",
+    "related": [
+        "leading-numeric-string",
+        "number"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.types.numeric-strings.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP Internals News: Episode 62: Saner Numeric Strings",
+            "url": "https://derickrethans.nl/phpinternalsnews-62.html"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP Integers, Floats, and Number Strings",
+            "url": "https://code.tutsplus.com/php-integers-floats-and-number-strings--cms-32048t"
+        }
+    ],
+    "tags": [
+        "string"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Fri, 24 Jul 2026 15:23:56 +0000"
+}

@@ -1,0 +1,47 @@
+{
+    "id": "non-numeric",
+    "name": "Non-numeric",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/non-numeric.html",
+    "aliases": [],
+    "description": "A non-numeric string is a string that can't be converted to a number without difficult choices.\n\nWhen forced to a number, such string emits a warning, unless hidden with cast or noscream ``@`` operator.\n\nA string may be only constituted of digits, from 0 to 9. It might be converted to a float or to ``INF``, depending on its size. In arrays, when used as an index, a very long string is kept as a string, and it is not converted to integer.\n\nA string may be considered as ``is_numeric()`` when it is built with digits, whatever its size. In fact, when such a string is converted to float, it might go beyond the largest PHP float, and become ``INF``: this constant is of type ``float``.\n",
+    "code": "<?php\n\n    $string = '123';\n    $integer = (int) $string; // 123\n    \n    $string = '12.3E4';\n    $float = (float) $string; // 123000\n    \n    $nonNumeric = '12a3';\n    $integer = (int) $string; // 12\n\n?>",
+    "documentation": "https://www.php.net/manual/en/function.is-numeric.php",
+    "related": [
+        "noscream",
+        "cast",
+        "float",
+        "inf"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/function.is-numeric.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Remove All Non-Numeric Characters from String using PHP",
+            "url": "https://lindevs.com/code-snippets/remove-all-non-numeric-characters-from-string-using-php"
+        }
+    ],
+    "tags": [
+        "integer",
+        "decimal"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": {
+        "A non-numeric value encountered": "a-non-numeric-value-encountered"
+    },
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Tue, 11 Aug 2026 20:59:12 +0000"
+}

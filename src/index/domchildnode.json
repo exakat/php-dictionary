@@ -1,0 +1,51 @@
+{
+    "id": "domchildnode",
+    "name": "DOMChildNode",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/domchildnode.html",
+    "aliases": [],
+    "description": "``DOMChildNode`` is an interface introduced in version 8.0 for DOM nodes that can have siblings. It is implemented by ``DOMElement``, ``DOMText``, ``DOMComment``, ``DOMProcessingInstruction``, and ``DOMDocumentType``.\n\nIt provides ``before()`` and ``after()`` to insert nodes adjacent to the current node, ``replaceWith()`` to replace it, and ``remove()`` to detach it from its parent.",
+    "code": "<?php\n\n    $dom = new DOMDocument;\n    $dom->loadHTML('<p>Hello <b>world</b></p>');\n    $b = $dom->getElementsByTagName('b')->item(0);\n    $b->remove();\n\n?>",
+    "documentation": "https://www.php.net/manual/en/class.domchildnode.php",
+    "related": [
+        "dom",
+        "interface",
+        "domparentnode",
+        "php-interface",
+        "splsubject"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/class.domchildnode.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "DOMParentNode Class",
+            "url": "https://www.php.net/manual/en/class.domparentnode.php"
+        }
+    ],
+    "tags": [
+        "dom",
+        "interface",
+        "extension"
+    ],
+    "packagist": [],
+    "extensions": [
+        "dom"
+    ],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "8.0",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Fri, 17 Jul 2026 08:38:21 +0000"
+}

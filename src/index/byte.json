@@ -1,0 +1,50 @@
+{
+    "id": "byte",
+    "name": "Byte",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/byte.html",
+    "aliases": [],
+    "description": "A byte is a unit of digital information storage that typically consists of 8 bits. It is the fundamental building block for representing data in computers. A byte can store values ranging from 0 to 255, in an unsigned 8-bit representation.\n\nPHP uses bytes when manipulating strings. Bytes are characters, as long as the string uses ASCII representation, which is by default. Characters might be larger than a byte, and they become multi-bytes.",
+    "code": "<?php\n\n    $string = abcd;\n\n    echo strlen($string); // 4\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Byte",
+    "related": [
+        "character",
+        "multi-byte",
+        "ascii"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Byte"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Byte | Definition & Facts | Britannica",
+            "url": "https://www.britannica.com/technology/byte"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "What are Bits and Bytes?",
+            "url": "https://www.w3schools.com/programming/prog_bits_and_bytes.php"
+        }
+    ],
+    "tags": [
+        "string"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 20 Aug 2026 07:35:12 +0000"
+}

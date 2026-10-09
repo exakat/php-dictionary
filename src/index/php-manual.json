@@ -1,0 +1,51 @@
+{
+    "id": "php-manual",
+    "name": "PHP Manual",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/php-manual.html",
+    "aliases": [
+        "php-documentation",
+        "php.net/manual"
+    ],
+    "description": "The PHP Manual is the official documentation for the PHP language. It covers the language syntax, all built-in functions, extensions, and ChangeLog entries for each PHP version.\n\nThe manual is collaboratively maintained and translated into many languages. Each function page includes a description, a signature with parameter and return types, a changelog, usage notes, and user-contributed comments that often provide practical examples and gotchas.\n\nThe manual is available offline through the downloadable ``many HTML files`` or ``single-page HTML`` formats, and is integrated into most PHP IDEs as hover documentation. The URL scheme ``php.net/function-name`` provides a shortcut to any function page.",
+    "code": "<?php\n\n// Access the manual shortcut from your browser:\n// https://www.php.net/array_map\n// https://www.php.net/str_contains\n\n// Many editors show inline manual excerpts when hovering over a function name.\n\n?>",
+    "documentation": "https://www.php.net/manual/en/",
+    "related": [
+        "php",
+        "documentation",
+        "phpdoc",
+        "php-function",
+        "php-editor"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Downloading the manual",
+            "url": "https://www.php.net/download-docs.php"
+        }
+    ],
+    "tags": [
+        "documentation",
+        "reference"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Mon, 13 Jul 2026 18:49:47 +0000"
+}

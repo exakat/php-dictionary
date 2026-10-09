@@ -1,0 +1,57 @@
+{
+    "id": "testable",
+    "name": "Testable",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/testable.html",
+    "aliases": [],
+    "description": "A piece of code is testable when it may have related tests, that checks its behavior. \n\nTo make a code testable, the following features are useful:\n\n+ Dependency injection\n+ Programming to interface\n+ Single responsibility principle\n+ No global state\n+ No static methods\n+ No New in business logic\n+ Pure functions\n+ Deterministic functions\n+ No direct output\n+ No usage of ``exit()``\n\nThe golden rule: ``If it is not possible to write a test for it without setting up the whole world first, the code is not testable``.",
+    "code": "",
+    "documentation": "https://en.wikipedia.org/wiki/Software_testability",
+    "related": [
+        "exit",
+        "deterministic",
+        "srp",
+        "static-method",
+        "static-property",
+        "business-logic",
+        "pure-function",
+        "direct-output",
+        "dependency-injection",
+        "program-to-interface",
+        "maintenability"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Software_testability"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Improve your PHP code testability",
+            "url": "https://dev.to/fabiothiroki/improve-your-php-code-testability-1onb"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Manual:Writing testable PHP code",
+            "url": "https://www.mediawiki.org/wiki/Manual:Writing_testable_PHP_code"
+        }
+    ],
+    "tags": [
+        "adjective",
+        "test"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Tue, 01 Sep 2026 05:31:03 +0000"
+}

@@ -1,0 +1,80 @@
+{
+    "id": "type-system",
+    "name": "Type System",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/type-system.html",
+    "aliases": [
+        "typing"
+    ],
+    "description": "A type system is a formal set of rules that assigns a type to every expression in a program and uses those types to determine which operations are valid, how values are stored, and what errors can be detected before or during execution. Type systems span a spectrum from loose and implicit to strict and expressive.\n\nKey dimensions of a type system:\n\n+ Static vs dynamic: static type checking happens before execution, as in C, Java, Rust, Haskell; dynamic type checking happens at runtime, as with Python, Ruby. A statically typed language catches type errors at compile time; a dynamically typed one catches them only when the erroneous operation is executed.\n+ Strong vs weak: a strongly typed language refuses implicit coercion between incompatible types, as in Python, Rust; a weakly typed one performs automatic conversions, as in classic C, early PHP. Strength is orthogonal to static vs dynamic.\n+ Nominal vs structural: nominal typing requires explicit declaration of type relationships, ``class Foo implements Bar``; structural typing, as in Go interfaces, ``TypeScript`` considers two types compatible if they share the same shape, regardless of declaration.\n+ Sound vs unsound: a sound type system guarantees that well-typed programs never produce type errors at runtime. PHP's type system, even with strict_types, is unsound: ``mixed`` parameters, union types, and coercion paths leave runtime type errors possible.\n\nPHP's type system has evolved significantly:\n\n+ Pre-PHP 5: no type declarations; all typing is dynamic and implicit.\n+ PHP 5: class and interface type on parameters; ``array`` and ``callable`` hints added in 5.1/5.4.\n+ PHP 7.0: scalar type declarations, ``int``, ``float``, ``string``, ``bool``, return type declarations, ``declare(strict_types=1)``.\n+ PHP 7.1: nullable types ``?Type``, ``void`` return type, ``iterable`` pseudo-type.\n+ PHP 7.2: ``object`` type.\n+ PHP 8.0: union types ``int|string``, ``mixed``, ``static`` return type, ``#[Attribute]`` for typed metadata, ``match`` with strict comparison.\n+ PHP 8.1: intersection types ``Countable&Iterator``, ``never`` return type, ``readonly`` properties.\n+ PHP 8.2: ``true``, ``false``, ``null`` as standalone types, DNF types ``(A&B)|C``, readonly classes.\n+ PHP 8.3+: typed class constants, ``\\Override`` attribute.\n\nStatic analysers add a richer layer of type inference and generics ``@template`` on top of PHP's native declarations, providing near-sound type checking as a development tool without changing runtime behaviour.",
+    "code": "<?php\n\n    declare(strict_types=1);\n    \n    // Union type (PHP 8.0): parameter accepts int or string\n    function formatId(int|string $id): string {\n        return (string) $id;\n    }\n    \n    // Intersection type (PHP 8.1): must implement both interfaces\n    function processCollection(Countable&Iterator $col): void {\n        foreach ($col as $item) { /* ... */ }\n    }\n    \n    // Readonly property (PHP 8.1): immutable after construction\n    class Point {\n        public function __construct(\n            public readonly float $x,\n            public readonly float $y,\n        ) {}\n    }\n    \n    // DNF type (PHP 8.2): (A&B)|null\n    interface Serializable {}\n    interface Loggable {}\n    \n    function handle((Serializable&Loggable)|null $obj): void {\n        if ($obj === null) return;\n        // $obj is guaranteed to implement both interfaces here\n    }\n    \n    // generic annotation (static analysis only, no runtime effect)\n    /** @template T of \\DateTimeInterface */\n    class TimestampedCollection {\n        /** @var list<T> */\n        private array $items = [];\n    \n        /** @param T $item */\n        public function add(mixed $item): void { $this->items[] = $item; }\n    }\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Type_system",
+    "related": [
+        "strict_types",
+        "union-type",
+        "intersection-type",
+        "nullable",
+        "generics",
+        "readonly",
+        "template-metaprogramming",
+        "sca",
+        "algebraic-data-type",
+        "existential-type",
+        "gadt",
+        "higher-kinded-type",
+        "linear-type",
+        "phantom-type",
+        "refinement-type",
+        "row-polymorphism",
+        "semantic-analysis",
+        "array-shape",
+        "effect-system",
+        "nominal-type",
+        "structural-typing",
+        "type-class",
+        "type-narrowing",
+        "type-widening"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Type_system"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP type declarations",
+            "url": "https://www.php.net/manual/en/language.types.declarations.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHPStan generics",
+            "url": "https://phpstan.org/blog/generics-in-php-using-phpdocs"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Psalm @template",
+            "url": "https://psalm.dev/docs/annotating_code/templated_annotations/"
+        }
+    ],
+    "tags": [
+        "concept",
+        "language",
+        "type"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Tue, 01 Sep 2026 05:31:03 +0000"
+}

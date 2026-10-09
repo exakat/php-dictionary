@@ -1,0 +1,44 @@
+{
+    "id": "environment-variable",
+    "name": "Environment Variables",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/environment-variable.html",
+    "aliases": [],
+    "description": "Environment variables are a way to store and access configuration information or settings related to the runtime environment in which a PHP script is executed. These variables are part of the operating system's environment and can be used to retrieve information about the server, the operating system, or custom configuration parameters that are set for a particular application. PHP provides a way to access these variables through the ``$_ENV`` superglobal array.\n\nThe environment variables are set in the operating system before the execution of the script, using commands such as ``export``, ``setenv``, or else, depending on the OS. They may also be provided at the start of containerized images.",
+    "code": "<?php\n\n    // print all available environment variables at the start of the script\n    // it may be empty\n    print_r($_ENV);\n    \n    // retrieve an environment variable \n    var_dump(getenv('MY_VARIABLE'));\n    \n    // sets an environment variable \n    var_dump(setenv('MY_VARIABLE', 2));\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Environment_variable",
+    "related": [
+        "env-file"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Environment_variable"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Working with Environment Variables in PHP",
+            "url": "https://www.twilio.com/blog/working-with-environment-variables-in-php"
+        }
+    ],
+    "tags": [
+        "os",
+        "variable"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [
+        "Dump/EnvironnementVariables"
+    ],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sat, 08 Aug 2026 08:10:54 +0000"
+}

@@ -1,0 +1,55 @@
+{
+    "id": "crack",
+    "name": "Crack",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/crack.html",
+    "aliases": [
+        "password-cracking",
+        "hash-cracking"
+    ],
+    "description": "Cracking, also called password cracking or hash cracking, refers to breaking a security mechanism. Most commonly, it means recovering a plaintext password from its hash. Attackers crack hashes using:\n\n+ Brute force: trying every possible input\n+ Dictionary attacks: trying common words and known passwords\n+ Rainbow tables: precomputed hash linked to plain-text mappings\n+ Rule-based attacks: applying transformations like capitalisation, digit appending, ... to existing word lists\n\nIn any application, passwords must be stored using a strong, salted hashing algorithm such as ``bcrypt`` or Argon2. These algorithms are deliberately slow and include a random salt, making cracking computationally expensive and rendering rainbow tables useless.\n\nUsing weak algorithms such as MD5 or SHA-1 for passwords is a critical vulnerability, as they can be cracked rapidly with modern GPUs.\n",
+    "code": "<?php\n\n    // WRONG: MD5 is trivially crackable\n    $hash = md5('password123'); // 482c811da5d5b4bc6d497ffa98491e38\n    \n    // CORRECT: use password_hash() \u2014 bcrypt with automatic salt\n    $hash = password_hash('password123', PASSWORD_BCRYPT);\n    \n    // Verify\n    if (password_verify('password123', $hash)) {\n        echo 'Password is correct';\n    }\n    \n    // Even stronger: Argon2id (PHP 7.3+)\n    $hash = password_hash('password123', PASSWORD_ARGON2ID);\n\n?>",
+    "documentation": "https://www.php.net/manual/en/function.password-hash.php",
+    "related": [
+        "password",
+        "hash-crypto",
+        "weak-cryptography",
+        "argon2",
+        "md5",
+        "sha",
+        "timing-attack",
+        "crypt",
+        "decrypt"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/function.password-hash.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "OWASP Password Storage Cheat Sheet",
+            "url": "https://cheatsheetseries.owasp.org/cheatsheets/Password_Storage_Cheat_Sheet.html"
+        }
+    ],
+    "tags": [
+        "security",
+        "cryptography"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sun, 30 Aug 2026 09:58:45 +0000"
+}

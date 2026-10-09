@@ -1,0 +1,52 @@
+{
+    "id": "technical-reference",
+    "name": "Technical Reference",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/technical-reference.html",
+    "aliases": [],
+    "description": "A technical reference is a type of documentation that describes the precise behaviour of a system's components: functions, classes, configuration options, command-line flags, and API endpoints. Its purpose is accuracy and completeness, not narrative explanation.\n\nTechnical references are meant to be looked up rather than read linearly. A reader already knows what they want to do; they consult the reference to find the exact signature, allowed values, return type, or error conditions.\n\nThe PHP official manual is the canonical technical reference. Projects often complement it with generated API documentation produced by tools such as ``phpDocumentor`` or ``Doxygen``.",
+    "code": "",
+    "documentation": "https://en.wikipedia.org/wiki/Reference_work",
+    "related": [
+        "documentation",
+        "phpdoc",
+        "php-manual",
+        "source",
+        "maintenance"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Reference_work"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP Manual",
+            "url": "https://www.php.net/manual/en/"
+        }
+    ],
+    "tags": [
+        "concept",
+        "documentation",
+        "reference"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": {
+        "phpDocumentor": "https://www.phpdoc.org/",
+        "phpAutoDocumentor": "https://phpautodoc.com/"
+    },
+    "popularity": "",
+    "modified": "Fri, 18 Sep 2026 05:03:30 +0000"
+}

@@ -1,0 +1,93 @@
+{
+    "id": "enum",
+    "name": "Enumeration (enum)",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/enum.html",
+    "aliases": [
+        "enumeration",
+        "enumerations"
+    ],
+    "description": "Enumerations are a restricting layer on top of classes and class constants, intended to provide a way to define a closed set of possible values for a type.",
+    "code": "<?php\n\nenum Suit\n{\n    case Hearts;\n    case Diamonds;\n    case Clubs;\n    case Spades;\n}\n\n?>",
+    "documentation": "https://www.php.net/manual/en/language.enumerations.php",
+    "related": [
+        "enum-case",
+        "collection",
+        "cite",
+        "class",
+        "backed-enum",
+        "backedenum",
+        "case",
+        "http_build_query",
+        "unbacked-enum",
+        "unitenum",
+        "dynamic-class-constant",
+        "algebraic-data-type",
+        "compile-time-evaluation",
+        "sealed-class",
+        "sum-type",
+        "conditioned",
+        "exhaustiveness",
+        "idiomatic",
+        "property",
+        "result-type"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.enumerations.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Enumerations in PHP",
+            "url": "https://www.delftstack.com/howto/php/php-enum/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "5 Pitfalls of Upgrade to Native PHP Enums and How to Avoid Them",
+            "url": "https://tomasvotruba.com/blog/five-pitfalls-of-upgrade-to-native-php-enums-and-how-to-avoid-them/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "On the use of enums",
+            "url": "https://peakd.com/hive-168588/@crell/on-the-use-of-enums"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Enum in PHP \u2014 Real life examples",
+            "url": "https://medium.com/@danielarcher/enum-in-php-real-life-examples-a596ba421f3c"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP Enums: A Complete Guide with Real Examples",
+            "url": "https://oatllo.com/php-enums-complete-guide"
+        }
+    ],
+    "tags": [
+        "keyword",
+        "feature",
+        "cite",
+        "structure",
+        "enum"
+    ],
+    "packagist": [
+        "myclabs/php-enum",
+        "dasprid/enum",
+        "spatie/enum"
+    ],
+    "extensions": [],
+    "analyzers": [
+        "Php/EnumUsage"
+    ],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "8.1+",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+}

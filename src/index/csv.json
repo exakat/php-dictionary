@@ -1,0 +1,59 @@
+{
+    "id": "csv",
+    "name": "Comma Separated Values (CSV)",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/csv.html",
+    "aliases": [],
+    "description": "CSV is a data format, where values are separated by commas. \n\nEach line represents a data record. The first line may be a header line, or not. \n\nCSV is not fully standardized: it represents in fact several formats, with different features. In particular, nested new lines and escape sequences may vary from format to format.",
+    "code": "",
+    "documentation": "https://en.wikipedia.org/wiki/Comma-separated_values",
+    "related": [
+        "data",
+        "format",
+        "json",
+        "csv-injection",
+        "parquet",
+        "serde",
+        "comma",
+        "fgets",
+        "interoperability",
+        "open-data"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Comma-separated_values"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "How to parse a CSV File in PHP ?",
+            "url": "https://www.geeksforgeeks.org/php/how-to-parse-a-csv-file-in-php/"
+        }
+    ],
+    "tags": [
+        "security",
+        "no-code",
+        "acronym",
+        "format"
+    ],
+    "packagist": [
+        "league/csv",
+        "openspout/openspout"
+    ],
+    "extensions": [
+        "girgias/csv",
+        "csvtoolkit/fastcsv"
+    ],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Mon, 17 Aug 2026 09:38:31 +0000"
+}

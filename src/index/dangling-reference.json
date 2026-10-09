@@ -1,0 +1,43 @@
+{
+    "id": "dangling-reference",
+    "name": "Dangling Reference",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/dangling-reference.html",
+    "aliases": [],
+    "description": "In a foreach loop, a variable is used for looping through the array. When this variable is configured as a reference, the reference survives after the end of the loop. When this variable is reused later, it applies to the last element of the array and overwrites its value.\n\nThis doesn't happen when the second loop doesn't use a reference. \n\nIt is recommended to unset the referenced variable, after the loop. It destroys the reference, not the value.",
+    "code": "<?php\n\n    $array = ['a', 'b', 'c'];\n    \n    foreach($array as &$tusk) { \n        // doSomething() or even do nothing! \n    }\n    \n    // second loop, no reference\n    foreach($array as $tusk) { \n        // doSomething() or even do nothing! \n    }\n    \n    var_dump($array);\n    $array = ['a', 'b', 'b'];\n\n?>",
+    "documentation": "https://www.php.net/manual/en/language.oop5.magic.php",
+    "related": [
+        "loop",
+        "reference"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.oop5.magic.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "No Dangling References",
+            "url": "https://github.com/dseguy/clearPHP/blob/master/rules/no-dangling-reference.md"
+        }
+    ],
+    "tags": [
+        "classic bug",
+        "reference"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+}

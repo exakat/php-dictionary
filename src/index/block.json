@@ -1,0 +1,49 @@
+{
+    "id": "block",
+    "name": "Block",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/block.html",
+    "aliases": [],
+    "description": "Blocks are zero, one or more instructions, grouped together with or without curly brackets.\n\nA number of commands require blocks of instructions: ``namespace``, ``use``, ``function``, ``class``, ``trait``, ``interface``, ``enum``, ``closure``, ``switch``, ``match``, ``for``, ``foreach``, ``while``, ``do..while``, ``if-then``.  \n\nBlocks may require brackets, like for ``class``, ``switch()``, ``function bodies``; they may be optional, like with ``case``, ``arrow-functions``, ``namespace`` or loops. \n\nA block may live on its own: it has no impact on the code, although it might be used to arbitrarily group instructions.",
+    "code": "<?php\n\nfunction trumpet($trunk) {\n    if ($trunk) {\n        $tusk = 1;\n    } else\n        $tusk = 2;\n\n    return $tusk;\n}\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Block_(programming)",
+    "related": [
+        "body",
+        "docblock",
+        "bracketless",
+        "curly-bracket"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Block_(programming)"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Why Programming Languages Use Curly Braces",
+            "url": "https://codefinity.com/blog/Why-Programming-Languages-Use-Curly-Braces"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "A Brief History of the Curly Brace in Programming",
+            "url": "https://medium.com/better-programming/a-brief-history-of-the-curly-brace-in-programming-5b3eacdc3f7a"
+        }
+    ],
+    "tags": [
+        "syntax"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+}

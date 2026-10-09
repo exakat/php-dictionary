@@ -1,0 +1,56 @@
+{
+    "id": "blocking-wait",
+    "name": "Blocking Wait",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/blocking-wait.html",
+    "aliases": [
+        "blocking-call",
+        "synchronous-wait"
+    ],
+    "description": "A blocking wait, or blocking call, also called a synchronous wait, is an operation that suspends the execution of the current process or thread until the operation completes. During a blocking wait, no other work can be done by that execution unit.\n\nMost PHP I/O operations like file reads, database queries, HTTP requests via ``curl``... are blocking by default. The PHP process simply waits until the operation returns a result.\n\nThe alternative is non-blocking or asynchronous I/O, where execution continues and a callback or coroutine is invoked when the result is ready. Frameworks such as ReactPHP and Amp provide non-blocking event loops for PHP.\n\nBlocking waits can become a bottleneck in high-concurrency scenarios, as each blocking call ties up a worker process.\n",
+    "code": "<?php\n\n    // Blocking: execution stops here until the HTTP response arrives\n    $response = file_get_contents('https://api.example.com/data');\n    \n    // Blocking: waits for the sleep to complete\n    sleep(2);\n    \n    // Non-blocking alternative using ReactPHP\n    $loop = React\\EventLoop\\Factory::create();\n    $browser = new React\\Http\\Browser($loop);\n    $browser->get('https://api.example.com/data')->then(function ($response) {\n        echo $response->getBody();\n    });\n    $loop->run();\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Blocking_(computing)",
+    "related": [
+        "async",
+        "asynchronous",
+        "synchronous",
+        "fibers",
+        "coroutine",
+        "event-loop",
+        "polling"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Blocking_(computing)"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Blocking vs non-blocking I/O",
+            "url": "https://en.wikipedia.org/wiki/Asynchronous_I/O"
+        }
+    ],
+    "tags": [
+        "concept",
+        "concurrency"
+    ],
+    "packagist": [
+        "react/event-loop",
+        "amphp/amp"
+    ],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sun, 30 Aug 2026 09:21:07 +0000"
+}

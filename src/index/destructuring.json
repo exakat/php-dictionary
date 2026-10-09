@@ -1,0 +1,48 @@
+{
+    "id": "destructuring",
+    "name": "Destructuring",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/destructuring.html",
+    "aliases": [],
+    "description": "Destructuring is a general programming concept where the individual elements of a compound value, such as an array, a list, or an object, are extracted in one step and bound to separate variables, instead of being accessed one at a time by index or property.\n\nMany languages have dedicated destructuring syntax that also supports skipping elements, providing default values, capturing remaining elements, and destructuring nested structures in a single expression.\n\nDestructuring is provided by ``list()`` and its short array syntax ``[ ]`` on the left side of an assignment, and by ``foreach()`` when iterating over arrays of arrays. PHP does not support destructuring of arbitrary objects, though ``list()`` may be combined with ArrayAccess-implementing objects.",
+    "code": "<?php\n\n    // array destructuring, PHP style\n    [$a, $b, $c] = [1, 2, 3];\n\n    // skipping an element\n    [$first, , $third] = [1, 2, 3];\n\n    // keyed destructuring\n    ['name' => $name, 'age' => $age] = ['name' => 'Ann', 'age' => 30];\n\n    // nested destructuring\n    [[$trunk, $ivory], [$tusk]] = [[1, 2], [3]];\n\n    // destructuring while iterating\n    foreach ([[1, 2], [3, 4]] as [$left, $right]) {\n        echo $left + $right, \"\\n\";\n    }\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Assignment_(computer_science)#Assignment_of_multiple_values",
+    "related": [
+        "list",
+        "array",
+        "multiple-return-value",
+        "structural-pattern-matching",
+        "tuple",
+        "assignment"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Assignment_(computer_science)#Assignment_of_multiple_values"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Destructuring assignment (MDN, JavaScript reference used as general illustration)",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment"
+        }
+    ],
+    "tags": [
+        "concept"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+}

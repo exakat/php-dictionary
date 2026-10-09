@@ -1,0 +1,48 @@
+{
+    "id": "$_post",
+    "name": "$_POST",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/%24_post.html",
+    "aliases": [],
+    "description": "``$_POST`` is an associative array of variables, transmitted to the current script via the HTTP POST method, with the MIME types ``application/x-www-form-urlencoded`` or ``multipart/form-data``.\n\nThe received values are all strings or arrays. They are strings by default, and other scalar types need a casting. The values are arrays when the URL uses the ``[]`` format. \n\n``$_POST`` is a superglobal: it is always available, in every scope.\n\nValues inside ``$_POST`` are always strings, or arrays.",
+    "code": "<?php\n\n    // POST x=1\n    $_POST['x'] === '1';\n    \n    // POST y=abc\n    $_POST['y'] === 'abc';\n    \n    // POST z[]=def\n    // POST z[]=ghi\n    $_POST['z'] === ['def', 'ghi'];\n\n?>",
+    "documentation": "https://www.php.net/manual/en/reserved.variables.post.php",
+    "related": [
+        "$_get",
+        "$_request",
+        "$_cookie",
+        "$_env",
+        "$_server",
+        "form",
+        "incoming-data"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/reserved.variables.post.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "How To Use The $_POST[] Variable In PHP",
+            "url": "https://medium.com/@javasper/how-to-use-the-post-variable-in-php-d607cfc5891c"
+        }
+    ],
+    "tags": [
+        "php variable",
+        "superglobal"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Tue, 11 Aug 2026 21:00:09 +0000"
+}

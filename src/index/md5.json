@@ -1,0 +1,49 @@
+{
+    "id": "md5",
+    "name": "Message Digest Algorithm 5 (MD5)",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/md5.html",
+    "aliases": [],
+    "description": "MD5 is a hash function, that produce a 128-bit footprint for a value. \n\nMD5 was used a lot for secure hashing and control. Nowadays, it may be useful for hashing and comparing data, though it is not considered secure.",
+    "code": "<?php\n\n//Generate a MD5 hash with the history md5() native function\necho hash('md5', 'Le rapide goupil brun sauta par dessus le chien paresseux.');\n\n//Generate a MD5 hash with the history md5() native function\nprint md5(\"Some text.\")\n\n?>",
+    "documentation": "https://www.php.net/manual/fr/function.hash.php",
+    "related": [
+        "cryptography",
+        "hashing",
+        "checksum",
+        "crack",
+        "weak-cryptography"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/fr/function.hash.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP md5() function",
+            "url": "https://www.php.net/manual/en/function.md5.php"
+        }
+    ],
+    "tags": [
+        "cryptography",
+        "string",
+        "acronym"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [
+        "Extensions/Extlibsodium"
+    ],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sat, 08 Aug 2026 08:10:54 +0000"
+}

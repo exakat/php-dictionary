@@ -1,0 +1,45 @@
+{
+    "id": "__clone",
+    "name": "__clone() Method",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/__clone.html",
+    "aliases": [],
+    "description": "To clone an object is to create a new distinct object, from an existing one. This is basically a copy, although the object itself is multiplied by calling the clone operator.\n\nBy default PHP does a shallow clone, duplicating the scalars, like string, integer..., and keeping the same reference to objects. To make a deep clone, the class must define the ``__clone`` magic method.\n\nCloning is similar to creating another object of the same class, without requiring all the constructor arguments.\n",
+    "code": "<?php\n\n    $spike = new Dog('Spike', 'Teckel', 'red');\n    $medor = clone $spike;\n    \n    $medor->setCollar('green'); // distinguish spike and medor by collar\n\n?>",
+    "documentation": "https://www.php.net/manual/en/language.oop5.cloning.php",
+    "related": [
+        "readonly",
+        "magic-method",
+        "deep-clone",
+        "shallow-clone",
+        "prototype"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.oop5.cloning.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "How to clone an object in PHP",
+            "url": "https://linuxhint.com/cloning_objects_php/"
+        }
+    ],
+    "tags": [
+        "magic method"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+}

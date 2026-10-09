@@ -1,0 +1,55 @@
+{
+    "id": "okg",
+    "name": "Open Knowledge Graph (OKG)",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/okg.html",
+    "aliases": [
+        "open-knowledge-graph"
+    ],
+    "description": "An Open Knowledge Graph, OKG, is a knowledge graph, that is, a set of entities and their relationships stored as a graph, that is made publicly available for anyone to query, reuse, and extend.\n\nOpenness typically covers both the data, published under an open license, and, often, the schema or ontology used to structure it. Well-known examples include Wikidata and DBpedia, which extract and publish structured facts derived from Wikipedia and other public sources.\n\nIn the codebase, an open knowledge graph may be consumed through a public SPARQL endpoint or REST/GraphQL API, or built locally from project data, code, or documentation to represent entities and their relationships.",
+    "code": "",
+    "documentation": "https://en.wikipedia.org/wiki/Knowledge_graph",
+    "related": [
+        "graph",
+        "graph-database",
+        "graphql",
+        "open-data"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Knowledge_graph"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Wikidata",
+            "url": "https://www.wikidata.org/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "DBpedia",
+            "url": "https://www.dbpedia.org/"
+        }
+    ],
+    "tags": [
+        "concept",
+        "data structure",
+        "acronym"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Mon, 17 Aug 2026 07:34:10 +0000"
+}

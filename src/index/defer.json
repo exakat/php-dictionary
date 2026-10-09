@@ -1,0 +1,46 @@
+{
+    "id": "defer",
+    "name": "Defer Statement",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/defer.html",
+    "aliases": [],
+    "description": "Go's ``defer`` statement schedules a function call to run when the enclosing function returns, regardless of which ``return`` statement was reached or whether a panic is in flight: ``defer file.Close()`` right after opening a file guarantees the close happens at every exit path, without needing a ``finally`` block. Multiple deferred calls run in last-in-first-out order, and they can still read and modify the function's named return values before it actually returns.\n\nUnlike a ``try``/``finally`` block, ``defer`` is not tied to a lexical block: it can be scattered anywhere in the function body, right next to the resource acquisition it cleans up, rather than requiring the rest of the function to be wrapped in a block.\n\nPHP has no ``defer`` statement. Guaranteed cleanup on every exit path is expressed with ``try``/``finally``, which does require wrapping the relevant code in a block, or with a destructor ``__destruct()`` that runs when the object holding the resource is garbage-collected, which is not guaranteed to happen at a predictable point in the function's execution.",
+    "code": "<?php\n\n    // No defer: cleanup must be wrapped, or moved into a destructor.\n    function readConfig(string $path): array {\n        $handle = fopen($path, 'r');\n        try {\n            return parse($handle);\n        } finally {\n            fclose($handle);\n        }\n    }\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Manual_memory_management#Defer",
+    "related": [
+        "finally",
+        "destructor",
+        "exception"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Manual_memory_management#Defer"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Defer statement in the Go specification",
+            "url": "https://go.dev/ref/spec#Defer_statements"
+        }
+    ],
+    "tags": [
+        "concept",
+        "not supported"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Wed, 02 Sep 2026 16:41:00 +0000"
+}

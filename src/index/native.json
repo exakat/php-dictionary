@@ -1,0 +1,59 @@
+{
+    "id": "native",
+    "name": "Native",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/native.html",
+    "aliases": [
+        "native-function",
+        "native-class",
+        "native-constant",
+        "native-php",
+        "built-in",
+        "internal"
+    ],
+    "description": "A feature, a native function, native class, or native constant, is called native, built-in, native PHP, or internal, when it is part of the standard installation of PHP. For example, ``.``, dot operator for concatenation, or the ``stdClass`` class are native to PHP.\n\nOn the other hand, a feature is custom: that is, when defined by the developer or a PHP extension.",
+    "code": "<?php\n\n    // This is a native function\n    $s = strtolower($s);\n    \n    // This is not a native function : it comes from an extension\n    $rar_arch = RarArchive::open('latest_winrar.rar');\n\n?>",
+    "documentation": "https://www.php.net/manual/en/funcref.php",
+    "related": [
+        "userland",
+        "dynamic-loading",
+        "ffi",
+        "php-constant",
+        "php-variable",
+        "custom",
+        "exponent",
+        "predefined-exception",
+        "vanilla"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/funcref.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "The 100 PHP functions in 2022",
+            "url": "https://www.exakat.io/en/the-100-php-functions-in-2022/"
+        }
+    ],
+    "tags": [
+        "concept",
+        "php engine"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [
+        "Classes/VarToPublic"
+    ],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Tue, 01 Sep 2026 05:55:53 +0000"
+}

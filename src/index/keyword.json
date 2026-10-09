@@ -1,0 +1,47 @@
+{
+    "id": "keyword",
+    "name": "Keyword",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/keyword.html",
+    "aliases": [
+        "php-keyword"
+    ],
+    "description": "PHP has a list of keywords, which are also called reserved names. Those are names used with some functions or operators. \n\nKeywords are not allowed in function, constant, class, interface, enum and trait names. They are allowed in method, properties, variables and class constant names.\n\nWhile legit, it is usually recommended to avoid using PHP keywords as identifiers, so as to prevent confusion.",
+    "code": "<?php\n\n    class Elephpant {\n        function array() {\n            return array();\n        }\n    }\n\n    print_r((new elephpant)->array());\n\n    class Herd {\n        const array ARRAY = array(); // possible confusion here\n    }\n\n?>",
+    "documentation": "https://www.php.net/manual/en/reserved.keywords.php",
+    "related": [
+        "reserved-name",
+        "and",
+        "self"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/reserved.keywords.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "List of other reserved words",
+            "url": "https://www.php.net/manual/en/reserved.other-reserved-words.php"
+        }
+    ],
+    "tags": [
+        "syntax",
+        "confusion",
+        "_arrayOK"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+}

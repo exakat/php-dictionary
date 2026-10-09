@@ -1,0 +1,72 @@
+{
+    "id": "functional-programming",
+    "name": "Functional Programming (FP)",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/functional-programming.html",
+    "aliases": [
+        "fp"
+    ],
+    "description": "Functional Programming, ``FP`` for short, is a programming paradigm where programs are built by combining pure functions, avoiding shared state, and minimizing side effects. Instead of focusing on 'how to do things' step by step, ``FP`` focuses on 'what to compute' by composing functions.\n\nPHP supports anonymous functions, closures, iterators and higher-order functions, needed for Functional programming.",
+    "code": "",
+    "documentation": "https://en.wikipedia.org/wiki/Functional_programming",
+    "related": [
+        "oop",
+        "paradigm",
+        "partial-function",
+        "procedural-programming",
+        "side-effect",
+        "declarative-programming",
+        "determinism",
+        "functor",
+        "imperative",
+        "memoization",
+        "currying",
+        "higher-kinded-type",
+        "list-comprehension",
+        "monad"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Functional_programming"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Functional Programming in PHP \u00b7 2nd Edition",
+            "url": "https://www.functionalphp.com/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Thinking Functionally in PHP?",
+            "url": "https://leanpub.com/functional-php/read"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Functional Programming with PHP Generators",
+            "url": "https://medium.com/ifixit-engineering/functional-programming-with-php-generators-837a6c91b0e3"
+        }
+    ],
+    "tags": [
+        "programming",
+        "acronym",
+        "paradigm"
+    ],
+    "packagist": [
+        "phel-lang/phel-lang"
+    ],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 03 Sep 2026 14:41:04 +0000"
+}

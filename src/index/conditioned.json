@@ -1,0 +1,53 @@
+{
+    "id": "conditioned",
+    "name": "Conditioned Structures",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/conditioned.html",
+    "aliases": [],
+    "description": "Conditioned structures are definitions that are placed inside a condition structure. \n\nFor example, it is possible to create a function or a class, only if it doesn't exist. \n\nClasses, traits, interfaces, global constants, with ``define()``, enumerations, functions may be conditioned. \n\nClass constants, properties, methods and cases, for ``enum``, cannot be conditioned.\n\nConditioned structures adapt the PHP context to external condition. For example, some function may become native after a specific PHP version, and is only redefined for older installation. \n\nSome structures do not accept condition, such as global constants with ``const`` keyword. With ``define()`` function, it is OK.",
+    "code": "<?php\n\n    if (!function_exists('trumpet')) {\n        function trumpet() {\n            // doSomething\n        }\n    }\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Conditional_(computer_programming)",
+    "related": [
+        "const",
+        "function",
+        "class",
+        "interface",
+        "trait",
+        "enum",
+        "define"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Conditional_(computer_programming)"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Control Structures",
+            "url": "https://www.php.net/manual/en/language.control-structures.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP: The if Statement",
+            "url": "https://www.php.net/manual/en/control-structures.if.php"
+        }
+    ],
+    "tags": [
+        "feature",
+        "adjective"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+}

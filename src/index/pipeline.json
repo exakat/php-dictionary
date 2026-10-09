@@ -1,0 +1,58 @@
+{
+    "id": "pipeline",
+    "name": "Pipeline",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/pipeline.html",
+    "aliases": [
+        "pipelining"
+    ],
+    "description": "A pipeline is a chain of steps that composes a sequential set of actions.\n\nA pipeline is used with: \n\n+ Datasets, to read, transform and save data\n+ Continuous integration, where each check and packaging follows the previous one\n+ Processing, where each step is a separate process\n\nThe pipeline image is related to the assembly line, from factories.",
+    "code": "",
+    "documentation": "https://en.wikipedia.org/wiki/Pipeline_(software)",
+    "related": [
+        "cd",
+        "ci",
+        "pr",
+        "task-runner",
+        "code-review",
+        "middleware",
+        "poisoned-pipeline-execution"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Pipeline_(software)"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Laravel: When to use Pipelines? How to test them?",
+            "url": "https://darkghosthunter.medium.com/laravel-when-to-use-pipelines-how-to-test-them-8993ed93e735"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Understanding the pipeline pattern",
+            "url": "https://matthewdaly.co.uk/blog/2018/10/05/understanding-the-pipeline-pattern/"
+        }
+    ],
+    "tags": [
+        "tool",
+        "concept"
+    ],
+    "packagist": [
+        "Illuminate/pipeline",
+        "league/pipeline"
+    ],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Fri, 09 Oct 2026 16:43:24 +0000"
+}

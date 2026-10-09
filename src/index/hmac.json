@@ -1,0 +1,55 @@
+{
+    "id": "hmac",
+    "name": "HMAC",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/hmac.html",
+    "aliases": [
+        "hash-based-message-authentication-code"
+    ],
+    "description": "HMAC, short for Hash-based Message Authentication Code, is a mechanism for message authentication using cryptographic hash functions. It combines a secret key with the message to produce a fixed-size digest, providing both data integrity and authenticity.\n\nHMAC is defined in RFC 2104 and is widely used in API authentication, JWT signatures, and webhook verification.\n\nHMAC is computed with ``hash_hmac()``, which accepts a hashing algorithm, the message, and a secret key.",
+    "code": "<?php\n\n    $key     = 'secret-key';\n    $message = 'important data';\n    \n    $hmac = hash_hmac('sha256', $message, $key);\n    \n    echo $hmac; // 64-character hexadecimal string\n\n?>",
+    "documentation": "https://www.php.net/manual/en/function.hash-hmac.php",
+    "related": [
+        "cryptography",
+        "hash",
+        "jwt",
+        "algorithm",
+        "hash_equals",
+        "otp"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/function.hash-hmac.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "RFC 2104 - HMAC: Keyed-Hashing for Message Authentication",
+            "url": "https://datatracker.ietf.org/doc/html/rfc2104"
+        }
+    ],
+    "tags": [
+        "security",
+        "cryptography",
+        "acronym",
+        "rfc"
+    ],
+    "packagist": [],
+    "extensions": [
+        "hash"
+    ],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Fri, 03 Jul 2026 07:52:54 +0000"
+}

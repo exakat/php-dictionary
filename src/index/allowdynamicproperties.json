@@ -1,0 +1,49 @@
+{
+    "id": "allowdynamicproperties",
+    "name": "Allow Dynamic Properties",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/allowdynamicproperties.html",
+    "aliases": [],
+    "description": "This is a native PHP attribute, which tells the engine that a class can dynamically create properties without declaring them.\n\nThis attribute may be added to any class. It is not necessary with ``stdClass``.\n\nThe attributes allow any dynamic property: there is no way to restrict this to a set of names or a number without other means.",
+    "code": "<?php\n\nclass Elephpant {\n    function trumpet() {\n        // creation of a property, without prior definition\n        // This yields an error\n        $this->trunkLength  = 1;\n    }\n}\n\n#[AllowDynamicProperty]\nclass Herd {\n    function trumpet() {\n        // creation of a property, without prior definition\n        // This doesn't yields an error\n        $this->trunkLength  = 1;\n    }\n}\n\nclass Waterhole extends Stdclass {\n    function trumpet() {\n        // creation of a property, without prior definition\n        // This doesn't yields an error, yet no attribute\n        $this->trunkLength  = 1;\n    }\n}\n\n?>",
+    "documentation": "https://www.php.net/manual/en/language.attributes.classes.php",
+    "related": [
+        "php-native-attribute",
+        "php-attribute"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.attributes.classes.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "No More Dynamic Properties in PHP 9.",
+            "url": "https://medium.com/@dotcom.software/no-more-dynamic-properties-in-php-9-the-language-is-evolving-260fd70da5e8"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "I hate the deprecation of dynamic properties.",
+            "url": "https://www.reddit.com/r/PHP/comments/10u90o2/i_hate_the_deprecation_of_dynamic_properties/"
+        }
+    ],
+    "tags": [
+        "attribute",
+        "php attribute",
+        "native attribute"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "8.2+",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+}

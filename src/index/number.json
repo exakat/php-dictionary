@@ -1,0 +1,58 @@
+{
+    "id": "number",
+    "name": "Number",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/number.html",
+    "aliases": [],
+    "description": "A number is either a float or an integer. \n\nNumbers are always signed. They are limited, in range, by the constants ``PHP_INT_MAX``, ``PHP_INT_MIN``, and ``PHP_FLOAT_MAX``, ``PHP_FLOAT_MIN``.\n\nPHP also has a concept of numeric strings, which are strings that hold numbers. Other types do not have direct conversion to numbers and need to be converted or cast.",
+    "code": "<?php\n\n    echo 1;\n    echo -1.5;\n    \n    echo PHP_INT_MAX; \n\n?>",
+    "documentation": "https://www.php.net/manual/en/language.types.php",
+    "related": [
+        "float",
+        "integer",
+        "numeric-string",
+        "cast",
+        "abs"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.types.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP Numbers Basics",
+            "url": "https://www.codeguage.com/v1/courses/php/numbers-basics"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP Numbers Explained",
+            "url": "https://www.pixemweb.com/php/php-numbers/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Exploring Number Manipulation in PHP",
+            "url": "https://medium.com/@philippebeck/exploring-number-manipulation-in-php-e51c85b44630"
+        }
+    ],
+    "tags": [
+        "math",
+        "integer"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Mon, 15 Jun 2026 11:03:59 +0000"
+}

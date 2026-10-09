@@ -1,0 +1,57 @@
+{
+    "id": "test-driven-development",
+    "name": "Test-Driven Development",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/test-driven-development.html",
+    "aliases": [
+        "TDD"
+    ],
+    "description": "Test-driven development is a software development approach where tests are written before the code.\n\nThe TDD cycle typically follows:\n\n+ Write a failing test\n+ Write minimal code to make the test pass\n+ Refactor the code while keeping tests green\n\nTDD promotes better code design, higher test coverage, and confidence in code changes.",
+    "code": "",
+    "documentation": "https://en.wikipedia.org/wiki/Test-driven_development",
+    "related": [
+        "test",
+        "test-framework",
+        "phpunit",
+        "red-green-refactor",
+        "refactoring",
+        "ci"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Test-driven_development"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Test-Driven Development In PHP",
+            "url": "https://www.meegle.com/en_us/topics/test-driven-development/test-driven-development-in-php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Test-Driven Development (TDD) in PHP: A Comprehensive Guide",
+            "url": "https://softwarepatternslexicon.com/php/testing-and-design-patterns-in-php/test-driven-development-tdd/"
+        }
+    ],
+    "tags": [
+        "methodology",
+        "testing",
+        "agile"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 16 Jul 2026 08:17:35 +0000"
+}

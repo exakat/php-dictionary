@@ -1,0 +1,52 @@
+{
+    "id": "css",
+    "name": "CSS",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/css.html",
+    "aliases": [
+        "cascading-style-sheets"
+    ],
+    "description": "CSS, the Cascading Style Sheets, is the language used to describe the visual presentation of HTML documents. It controls layout, colours, fonts, spacing, animations, and responsiveness across devices.\n\nWhile CSS itself is a client-side technology, PHP frequently interacts with it:\n\n+ Generating dynamic CSS values for theming, user preferences, etc.\n+ Injecting CSS variables from server-side configuration\n+ Rendering HTML templates that include or link stylesheets\n+ Parsing or minifying CSS on the server\n\nWhen PHP outputs CSS content directly, care must be taken to escape values correctly to prevent CSS injection. It is a form of XSS where an attacker injects malicious CSS rules.\n\nIn modern PHP applications, CSS is typically bundled by a frontend build tool and linked from PHP templates.\n\nAlthough they have overlappign concerns, CSS and XSS are two distinct things: one is a language, the other is a security vulnerability.\n",
+    "code": "<?php\n\n    // Generating a dynamic CSS custom property from a user setting\n    $primaryColor = '#3498db'; // from database / user preference\n    $primaryColor = preg_replace('/[^#a-fA-F0-9]/', '', $primaryColor); // sanitize\n    \n    header('Content-Type: text/css');\n    \n    echo \":root {\n        --primary-color: {$primaryColor};\n    }\n    \";\n\n?>",
+    "documentation": "https://developer.mozilla.org/en-US/docs/Web/CSS",
+    "related": [
+        "html",
+        "xss",
+        "frontend",
+        "web",
+        "javascript",
+        "asset",
+        "template"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/CSS"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "CSS Injection",
+            "url": "https://docs.brightsec.com/docs/css-injection"
+        }
+    ],
+    "tags": [
+        "web",
+        "frontend"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 17 Sep 2026 08:46:20 +0000"
+}

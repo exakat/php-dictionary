@@ -1,0 +1,69 @@
+{
+    "id": "foreach",
+    "name": "foreach()",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/foreach.html",
+    "aliases": [],
+    "description": "``foreach()`` is the most popular type of loop. \n\nThe ``foreach()`` loop uses all the elements of the source, and assign them to blind variables. By default, only the value is assigned; when using the ``$key => $value`` syntax, the key is also assigned. Then the block is executed with the assigned values. \n\nThe source may be an array, or an object with the ``Traversable`` interface: this includes iterators and generators, but also custom classes. Other types are forbidden.\n\nPart of the block execution may be skipped by using the ``continue`` keyword.\n\nThe value may be a reference: then it actually references the original value, which then may be modified in the source. Do not forget to unset referenced variables after the loop, to avoid the dangling reference syndrome, when the last value is changed.\n\nThe value may be an array, collecting several values at the same time. \n\nThe value may be an ``list()`` construct: it sets several variables at the same time, to be used in the loop block. Any missing value yields a warning. \n\n``foreach()`` may also be replaced by array functions, such as ``array_map()``, ``implode()`` or ``array_merge()``, for specific operations. It is usually recommended to use native functions, when available.",
+    "code": "<?php\n\n    /*\n    foreach($source as $key => $value) {\n        // block\n    }\n    */\n    \n    foreach([11,12,13] as $id => $value) {\n        print \"$id => $value\\n\";\n        // 0 => 11\n        // 1 => 12\n        // 2 => 13\n    }\n    \n    //foreach([[21,22], [33, 34]] as list($a, $b)) {\n    foreach([[21,22], [33, 34]] as [$a, $b]) {\n        print \"$a $b\\n\";\n        // 21 22\n        // 33 34\n    }\n\n?>",
+    "documentation": "https://www.php.net/manual/en/control-structures.foreach.php",
+    "related": [
+        "continue",
+        "for",
+        "loop",
+        "while",
+        "do-while",
+        "as",
+        "control-flow",
+        "control-structure",
+        "iterator",
+        "list",
+        "blind-key",
+        "closedgeneratorexception",
+        "iteratoraggregate",
+        "traversal"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/control-structures.foreach.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Introduction To The Foreach Loop In PHP (With Code Examples)",
+            "url": "https://zerotomastery.io/blog/PHP-foreach-loop-explained/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP foreach",
+            "url": "https://zetcode.com/php/foreach/"
+        }
+    ],
+    "tags": [
+        "control flow",
+        "feature",
+        "loop"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [
+        "Structures/AlteringForeachWithoutReference",
+        "Structures/DanglingArrayReferences",
+        "Php/ForeachObject"
+    ],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": {
+        "invalid argument supplied for foreach()": "invalid-argument-supplied-for-foreach()",
+        "an iterator cannot be used with foreach by reference": "an-iterator-cannot-be-used-with-foreach-by-reference",
+        "foreach() argument must be of type array|object": "foreach()-argument-must-be-of-type-array|object"
+    },
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+}

@@ -1,0 +1,61 @@
+{
+    "id": "array-element",
+    "name": "Array Element",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/array-element.html",
+    "aliases": [
+        "item"
+    ],
+    "description": "An array element is a piece of data, stored at an index in the array. \n\nAn array element may be of any type, and it may be also repeated, unlike the array index.\n\nThe array element is also called an item. It is often named ``$value``, in a loop, as a blind variable.\n\nWhen an array is a list, the elements are all of the same type. When an array is a hash, the elements may be of different types.\n\nArray elements are not typed at the language level. They may be typed for static analysis tools, via the phpdoc syntax.",
+    "code": "<?php\n\n$array = ['a' => 1, 'b' => 3, 'c' => 5];\nwhile(list($key, $value) = each($array)) {\n    print $key . ' => ' . $value . PHP_EOL;\n}\n\n?>",
+    "documentation": "https://www.php.net/manual/en/function.each.php",
+    "related": [
+        "index-array",
+        "each",
+        "loop",
+        "blind-key",
+        "hash",
+        "multidimensional-array",
+        "readable",
+        "writable",
+        "writeable"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/function.each.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP manual: Arrays",
+            "url": "https://www.php.net/manual/en/language.types.array.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Associative Arrays in PHP: An Overview",
+            "url": "https://www.simplilearn.com/tutorials/php-tutorial/associative-array-in-php"
+        }
+    ],
+    "tags": [
+        "array"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [
+        "Structures/ShouldUseForeach"
+    ],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "1.0",
+    "phpVersionUntil": "8.0",
+    "phpVersionDeprecated": "7.2",
+    "phpErrors": {
+        "The each() function is deprecated. This message will be suppressed on further calls": "the-each()-function-is-deprecated.-this-message-will-be-suppressed-on-further-calls",
+        "Call to undefined function each()": "call-to-undefined-function-%s()"
+    },
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Tue, 01 Sep 2026 05:31:03 +0000"
+}

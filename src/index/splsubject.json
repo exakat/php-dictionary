@@ -1,0 +1,74 @@
+{
+    "id": "splsubject",
+    "name": "SplSubject",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/splsubject.html",
+    "aliases": [],
+    "description": "``SplSubject`` is an SPL interface that represents the subject, also known as the observable, role in the Observer design pattern. Classes implementing ``SplSubject`` must define three methods: ``attach(SplObserver $observer)``, ``detach(SplObserver $observer)``, and ``notify()``.\n\nWhen the subject's state changes, it calls ``notify()``, which in turn calls ``update()`` on each attached ``SplObserver``.\n\n``SplSubject`` is the counterpart of ``SplObserver``: together they provide a built-in, standardised contract for the Observer pattern.",
+    "code": "<?php\n\n    class EventSource implements SplSubject {\n        private SplObjectStorage $observers;\n        private string $state = '';\n\n        public function __construct() {\n            $this->observers = new SplObjectStorage();\n        }\n\n        public function attach(SplObserver $observer): void {\n            $this->observers->attach($observer);\n        }\n\n        public function detach(SplObserver $observer): void {\n            $this->observers->detach($observer);\n        }\n\n        public function notify(): void {\n            foreach ($this->observers as $observer) {\n                $observer->update($this);\n            }\n        }\n\n        public function setState(string $state): void {\n            $this->state = $state;\n            $this->notify();\n        }\n\n        public function getState(): string {\n            return $this->state;\n        }\n    }\n\n?>",
+    "documentation": "https://www.php.net/manual/en/class.splsubject.php",
+    "related": [
+        "spl",
+        "splobserver",
+        "observer-pattern",
+        "interface",
+        "splobjectstorage",
+        "domain",
+        "domain-name",
+        "domchildnode",
+        "domparentnode",
+        "error-suppression",
+        "oauth",
+        "option",
+        "random_cryptosafeengine",
+        "random_engine",
+        "recursivearrayiterator",
+        "recursivedirectoryiterator",
+        "redirect",
+        "reflector",
+        "seekableiterator",
+        "sequence",
+        "serialize_precision",
+        "serverless",
+        "sessionhandlerinterface",
+        "sessionidinterface",
+        "sessionupdatetimestamphandlerinterface",
+        "set",
+        "shell-exec",
+        "splfileinfo",
+        "php-interface"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/class.splsubject.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Observer pattern",
+            "url": "https://en.wikipedia.org/wiki/Observer_pattern"
+        }
+    ],
+    "tags": [
+        "spl",
+        "design pattern"
+    ],
+    "packagist": [],
+    "extensions": [
+        "spl"
+    ],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "5.1",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 18 Jun 2026 13:55:25 +0000"
+}

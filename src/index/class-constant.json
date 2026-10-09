@@ -1,0 +1,77 @@
+{
+    "id": "class-constant",
+    "name": "Static Constant",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/class-constant.html",
+    "aliases": [
+        "static-constant",
+        "interface-constant",
+        "trait-constant",
+        "enum-constant"
+    ],
+    "description": "Static constants are constants that are defined inside a class, an interface, a trait since PHP 8.2, or an enumeration; depending on the containing structure, they are also called an interface constant, a trait constant, or an enum constant.\n\nStatic constants have a visibility. Visibility may be ``public``, ``protected``, or ``private``. By default, and for backward compatibility, a constant without a visibility is ``public``.\n\nStatic constants may also be overwritten by child classes. They can also use the ``final`` keyword, to avoid such behavior.\n\nStatic constants are defined at coding time, and cannot be changed later, nor dynamically created.\n\nStatic constant syntax is the same as for enumeration cases.",
+    "code": "<?php\n\n    class Elephpant {\n        public  const HABITAT = 1;\n        private const WEIGHT = 2;\n        private const string TYPE = 'valid';\n    }\n\n?>",
+    "documentation": "https://www.php.net/manual/en/language.oop5.constants.php",
+    "related": [
+        "visibility",
+        "final",
+        "constant-in-trait",
+        "constant",
+        "dynamic-constant",
+        "special-constant",
+        "class-constant-syntax",
+        "define",
+        "literal",
+        "new-in-initializer",
+        "anonymous-constant",
+        "constant-case",
+        "dynamic-class-constant",
+        "typed-constant",
+        "name-convention",
+        "const",
+        "modifier",
+        "scope-resolution-operator",
+        "static-class",
+        "class"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.oop5.constants.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Everything You Should Know About PHP Const in Class",
+            "url": "https://pangea.ai/resources/everything-you-should-know-about-php-const-in-class"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Class Constants",
+            "url": "https://www.codewithharry.com/tutorial/php-class-constants"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP 8.3 Typed Constants in Production",
+            "url": "https://dev.to/ahmet_gedik778845/php-83-typed-constants-in-production-2cpa"
+        }
+    ],
+    "tags": [
+        "class",
+        "constant",
+        "feature"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+}

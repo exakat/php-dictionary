@@ -1,0 +1,51 @@
+{
+    "id": "rpc",
+    "name": "Remote Procedure Call (RPC)",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/rpc.html",
+    "aliases": [],
+    "description": "RPC is an acronym for Remote Procedure Call. This happens when the program delegates the execution of a piece of code to a separate server.\n\nPHP offers xml-rpc, gRPC, Protocol Buffers also called protobuf, and Yar as different standard ways to do RPC.",
+    "code": "<?php\n\n    $params = ['one'=>'red', 'two'=>'blue', 'three'=>'green'];\n\n    $response = xmlrpc_encode($params);\n\n    echo($response);\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Remote_procedure_call",
+    "related": [
+        "grpc",
+        "api",
+        "serialization"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Remote_procedure_call"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "grpc",
+            "url": "https://pecl.php.net/package/gRPC"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "yar",
+            "url": "https://pecl.php.net/package/yar"
+        }
+    ],
+    "tags": [
+        "api",
+        "acronym"
+    ],
+    "packagist": [
+        "grpc/grpc"
+    ],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Wed, 19 Aug 2026 08:25:43 +0000"
+}

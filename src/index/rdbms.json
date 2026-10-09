@@ -1,0 +1,57 @@
+{
+    "id": "rdbms",
+    "name": "Relational DataBase Management System (RDBMS)",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/rdbms.html",
+    "aliases": [],
+    "description": "RDBMS stands for Relational DataBase Management System. It may also be called a SQL server.\n\nPHP can connect to many different RDBMS, such as MySQL, Oracle, MariaDB, SQLite3, MSSQL, PostgreSQL, etc.\n\nPHP offers a native abstraction layer: ``PDO``. There are database abstraction as components too.",
+    "code": "",
+    "documentation": "https://en.wikipedia.org/wiki/Relational_database_management_system",
+    "related": [
+        "pdo",
+        "sql",
+        "storage-system",
+        "sqlite3",
+        "mysql",
+        "pgsql",
+        "abstraction-layer"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Relational_database_management_system"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PDO in PHP",
+            "url": "https://www.php.net/manual/en/book.pdo.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "SQL",
+            "url": "https://en.wikipedia.org/wiki/SQL"
+        }
+    ],
+    "tags": [
+        "acronym",
+        "architecture"
+    ],
+    "packagist": [
+        "doctrine/dbal",
+        "adodb/adodb-php",
+        "nextras/dbal"
+    ],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Fri, 14 Aug 2026 07:56:37 +0000"
+}

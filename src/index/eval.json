@@ -1,0 +1,59 @@
+{
+    "id": "eval",
+    "name": "Eval()",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/eval.html",
+    "aliases": [],
+    "description": "The ``eval()`` function executes a string as a PHP code.\n\n``eval()`` has been used originally to obtain features that PHP did not offer. Nowadays, those features are rare enough that it is recommended to find a safe alternative, before using on it.\n\nWhen used, it is recommended to enclose ``eval()`` in a try-catch block, to catch syntax error.\n",
+    "code": "<?php\n\n    $name = 'v';\n    $value = 'vvvv';\n    \n    // Set a variable with a dynamic name\n    eval('$'.$name.' = '.$value);\n    // equivalent to $$name = $value;\n\n?>",
+    "documentation": "https://www.php.net/manual/en/function.eval.php",
+    "related": [
+        "parseerror",
+        "try-catch",
+        "code-injection",
+        "execution",
+        "ctf",
+        "homoiconicity",
+        "hygienic-macro",
+        "macro",
+        "metaprogramming"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/function.eval.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Eval function in PHP",
+            "url": "https://www.tutorialspoint.com/eval-function-in-php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "The Land where PHP uses eval()",
+            "url": "https://www.exakat.io/en/land-where-php-uses-eval/"
+        }
+    ],
+    "tags": [
+        "language construct",
+        "feature",
+        "keyword",
+        "bad practice"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [
+        "Structures/EvalUsage"
+    ],
+    "cobblers": [],
+    "rule": "Structures/EvalUsage",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Tue, 01 Sep 2026 05:31:03 +0000"
+}

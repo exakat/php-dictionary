@@ -1,0 +1,46 @@
+{
+    "id": "rich-text",
+    "name": "Rich Text",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/rich-text.html",
+    "aliases": [],
+    "description": "Rich Text refers to data that is human-readable, yet includes extra information to apply style to that text, such as paragraph, section, font, bold, italic, etc. \n\nSuch text is not crypted, per se, yet requires a specific reader to make the reading experience pleasant.\n\nHTML, XML, RTF are all examples of Rich Text file.",
+    "code": "<?php\n\n    $plainText = 'PHP {\\bRocks!}'; // Rocks! is in bold, according to RTF\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Plain_text",
+    "related": [
+        "crypt",
+        "plain-text",
+        "pdf",
+        "text"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Plain_text"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Rich Text Format",
+            "url": "https://en.wikipedia.org/wiki/Rich_Text_Format"
+        }
+    ],
+    "tags": [
+        "concept"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Wed, 19 Aug 2026 07:53:24 +0000"
+}

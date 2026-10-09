@@ -1,0 +1,61 @@
+{
+    "id": "web",
+    "name": "World Wide Web (WWW)",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/web.html",
+    "aliases": [
+        "www"
+    ],
+    "description": "The WWW stands for World Wide Web: it represents the internet, as a network of computers, the web, spanning the entire planet, World Wide.\n\nThe World Wide Web was invented by ``Tim Berners-Lee`` in 1989, while working at CERN, as a system to share documents between researchers over the existing internet infrastructure. It introduced three foundational technologies that are still in use today. HTML, the markup language used to structure documents, HTTP, the protocol used to transfer those documents between a client and a server, and the URL, the addressing scheme used to locate a specific resource on a specific server. The first website went online in 1991, and the Web was made freely available to the public, without royalties, by CERN in 1993, which is widely credited for its explosive early growth.\n\nThe Web is often confused with the internet itself, but the two are distinct: the internet is the underlying global network of interconnected computers, built on protocols such as TCP/IP, while the Web is one of many services that run on top of that network, alongside others such as email SMTP, file transfer FTP, or instant messaging. A browser is the client application used to request and render Web resources, most commonly HTML pages, images, and increasingly, applications built with JavaScript and CSS.\n\nPHP was created in 1994 specifically as a set of tools to build dynamic Web pages, and it remains, decades later, one of the most widely deployed server-side languages for generating HTML in response to HTTP requests, which is why so many of its native functions, superglobals such as ``$_SERVER`` and ``$_GET``, and extensions are directly tied to Web-specific concepts such as sessions, cookies, and HTTP headers.",
+    "code": "",
+    "documentation": "https://en.wikipedia.org/wiki/World_Wide_Web",
+    "related": [
+        "html",
+        "webserver",
+        "browser",
+        "captcha",
+        "internet",
+        "network",
+        "css",
+        "seo",
+        "web-app",
+        "whatwg",
+        "asset",
+        "ftp",
+        "smtp"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/World_Wide_Web"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "History of the World Wide Web",
+            "url": "https://en.wikipedia.org/wiki/History_of_the_World_Wide_Web"
+        }
+    ],
+    "tags": [
+        "feature",
+        "acronym",
+        "network"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": {
+        "Tim Berners-Lee": "https://en.wikipedia.org/wiki/Tim_Berners-Lee"
+    },
+    "brand": "",
+    "popularity": "",
+    "modified": "Fri, 18 Sep 2026 05:03:33 +0000"
+}

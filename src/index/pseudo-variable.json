@@ -1,0 +1,46 @@
+{
+    "id": "pseudo-variable",
+    "name": "Pseudo-variable",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/pseudo-variable.html",
+    "aliases": [],
+    "description": "A pseudo-variable is a term used to describe a variable that looks like a variable but does not represent one. Instead, it is a special case that has a specific meaning within its context. ``$this`` is the only pseudo-variable: it represents the object that is called.",
+    "code": "<?php\n\n    class Elephpant {\n        private string $name;\n\n        function __construct($name) {\n            $this->name = $name;\n        }\n\n        function trumpet() {\n            // $this represents any object of type Elephpant\n            print $this->name;\n        }\n    }\n\n    // $trunk represents only the object 'a', type Elephpant, until it is reassigned\n    $trunk = new Elephpant('a');\n\n    // $calf represents only the object 'b', type Elephpant, until it is reassigned\n    $calf = new Elephpant('b');\n\n?>",
+    "documentation": "https://www.php.net/manual/en/language.oop5.basic.php",
+    "related": [
+        "variable"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.oop5.basic.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Understanding of self and this in PHP",
+            "url": "https://medium.com/@programmingdive/understanding-of-self-and-this-in-php-a310aaf509b1"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "When to Use self and $this in PHP",
+            "url": "https://www.w3docs.com/snippets/php/when-to-use-self-and-this-in-php"
+        }
+    ],
+    "tags": [
+        "variable"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+}

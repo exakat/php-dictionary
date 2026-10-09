@@ -1,0 +1,58 @@
+{
+    "id": "bulkhead",
+    "name": "Bulkhead",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/bulkhead.html",
+    "aliases": [
+        "bulkhead-pattern"
+    ],
+    "description": "The bulkhead pattern isolates the resources used to call different dependencies, so that a slowdown or failure in one dependency cannot exhaust the resources needed to keep serving requests to healthy ones. The name is a nautical metaphor: a ship's hull is divided into watertight compartments, so a breach in one compartment floods only that section instead of sinking the whole ship.\n\nIn practice, a bulkhead caps how many concurrent calls, connections, or workers may be in flight for a given dependency, using a semaphore, a dedicated connection pool, or a separate queue/worker group per dependency. When the cap is reached, further calls are rejected immediately, or shed to a fallback, rather than queued indefinitely behind an already-struggling dependency; this keeps one slow API or database from starving the resources that other, unrelated calls also depend on.\n\nBulkheads are often deployed alongside circuit breakers: the circuit breaker stops calling a dependency once it is clearly failing, while the bulkhead limits how much damage that dependency can do to the rest of the application while it is still being called.\n\nPHP's traditional one-request-per-process model already gives some bulkhead-like isolation between requests, but within a long-running process, such as a queue worker, a Swoole/RoadRunner server, or a script fanning out to several APIs, resources must be bounded explicitly: a semaphore-like construct such as a ``Swoole\\Coroutine\\Channel`` with a fixed capacity, a Redis counter with a TTL acting as a distributed semaphore, or a dedicated HTTP client with its own connection pool per dependency.",
+    "code": "<?php\n\n    // Bulkhead via a Swoole coroutine channel used as a counting semaphore\n    $semaphore = new \\Swoole\\Coroutine\\Channel(20); // capacity: 20 concurrent calls\n    for ($i = 0; $i < 20; $i++) {\n        $semaphore->push(true);\n    }\n\n    $semaphore->pop(); // acquire a slot (blocks if the pool is saturated)\n    try {\n        $response = callDependency();\n    } finally {\n        $semaphore->push(true); // release the slot\n    }\n\n?>",
+    "documentation": "https://learn.microsoft.com/en-us/azure/architecture/patterns/bulkhead",
+    "related": [
+        "circuit-breaker",
+        "resilience",
+        "fault-isolation",
+        "connection-pool",
+        "rate-limit",
+        "cascading-failure",
+        "coroutine",
+        "blast-radius",
+        "chaos-engineering",
+        "stale-while-revalidate",
+        "timeout"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://learn.microsoft.com/en-us/azure/architecture/patterns/bulkhead"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Resilience Patterns in PHP: Timeouts, Retries with Jitter, Circuit Breakers, and Bulkheads",
+            "url": "https://medium.com/@mohamadshahkhajeh/%EF%B8%8F-resilience-patterns-in-php-timeouts-retries-with-jitter-circuit-breakers-and-bulkheads-962ebf8deed1"
+        }
+    ],
+    "tags": [
+        "architecture",
+        "reliability"
+    ],
+    "packagist": [],
+    "extensions": [
+        "swoole"
+    ],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Mon, 07 Sep 2026 09:19:46 +0000"
+}

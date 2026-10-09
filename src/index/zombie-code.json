@@ -1,0 +1,47 @@
+{
+    "id": "zombie-code",
+    "name": "Zombie Code",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/zombie-code.html",
+    "aliases": [],
+    "description": "Zombie code refers to sections of code that are executed, but whose results are discarded. It is essentially dead or unused code that serves no purpose and can negatively impact the codebase.\n\nZombie code slows down the application, yet are logged as being used. They are a various of dead code.",
+    "code": "<?php\n\n    // $capitalized is calculated from $name\n    $capitalized = ucfirst(strtolower($name));\n    \n    // $capitalized is not used later in the code. \n    echo \"Hello $name\\n\";\n\n?>",
+    "documentation": "https://www.calculquebec.ca/en/communiques/zombie-code/",
+    "related": [
+        "dead-code"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.calculquebec.ca/en/communiques/zombie-code/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Code Smells: Dead Code",
+            "url": "https://refactoring.guru/smells/dead-code"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Locating Dead Code",
+            "url": "https://blog.jetbrains.com/phpstorm/2019/04/locating-dead-code/"
+        }
+    ],
+    "tags": [
+        "concept",
+        "static analysis"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sat, 29 Aug 2026 07:37:37 +0000"
+}

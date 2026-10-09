@@ -1,0 +1,52 @@
+{
+    "id": "execution-time",
+    "name": "Execution Time",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/execution-time.html",
+    "aliases": [],
+    "description": "Execution time is a phase of PHP processing, where the source code is executed. It highly depends on the order of execution of the instructions. \n\nAt that time, PHP takes the commands one after the other, and execute them. It allocates memory for data, and definitions. \n\nExecution time is related to compile time. Objects, constants when created with ``define()``, function calls, generators, inclusion, exceptions are execution time elements.\n\nOn the other hand, classes, constants when created with ``const``, functions, etc. are created at linting time.",
+    "code": "<?php\n\n    const HABITAT = 'a';\n    function trumpet(int $a = HABITAT) {\n        echo $a;\n    }\n\n    trumpet(1);  // 1\n    trumpet();   // Error\n    //Uncaught TypeError: trumpet(): Argument #1 ($a) must be of type int, string given,\n\n?>",
+    "documentation": "https://www.php.net/manual/en/info.configuration.php#ini.max-execution-time",
+    "related": [
+        "const",
+        "define",
+        "compile-time",
+        "linting",
+        "late-static-binding",
+        "max_execution_time"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/info.configuration.php#ini.max-execution-time"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "define",
+            "url": "https://www.php.net/manual/en/function.define.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP manual: set_time_limit",
+            "url": "https://www.php.net/manual/en/function.set-time-limit.php"
+        }
+    ],
+    "tags": [
+        "syntax",
+        "execution"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+}

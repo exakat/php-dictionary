@@ -1,0 +1,64 @@
+{
+    "id": "separation-of-concerns",
+    "name": "Separation Of Concerns",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/separation-of-concerns.html",
+    "aliases": [
+        "soc"
+    ],
+    "description": "Separation of concerns is a design principle that advocates dividing a software system into distinct sections, each addressing a distinct concern. A concern is any piece of interest or focus in a program.\n\nThe principle helps keep each section focused on one specific responsibility, making the code easier to understand, maintain, and test. It is closely related to the Single Responsibility Principle, SRP, from SOLID, but applies more broadly at the architectural level as well as at the code level.\n\nClassic examples include separating business logic from presentation, separating configuration from code, and separating I/O from computation.\n\nViolations of this principle often manifest as God Classes or functions that mix unrelated responsibilities, leading to tight coupling and reduced cohesion.",
+    "code": "<?php\n\n    // Concerns mixed: business logic and output together\n    function getUserAndDisplay(int $id): void {\n        $user = fetchFromDatabase($id); // data access\n        echo \"<h1>\" . $user['name'] . \"</h1>\"; // presentation\n    }\n\n    // Concerns separated\n    function getUser(int $id): array {\n        return fetchFromDatabase($id); // data access only\n    }\n\n    function displayUser(array $user): void {\n        echo \"<h1>\" . $user['name'] . \"</h1>\"; // presentation only\n    }\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Separation_of_concerns",
+    "related": [
+        "solid",
+        "srp",
+        "mvc",
+        "god-object",
+        "clean-architecture",
+        "coupling",
+        "decoupling",
+        "cohesion",
+        "abstraction",
+        "onion-architecture",
+        "aspect-oriented",
+        "business-logic"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Separation_of_concerns"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Code Decoupling and Modularization in PHP",
+            "url": "https://codesignal.com/learn/courses/refactoring-code-for-readability-and-maintainability-6/lessons/code-decoupling-and-modularization-in-php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "On the Criteria To Be Used in Decomposing Systems into Modules",
+            "url": "https://www.win.tue.nl/~wstomv/edu/2ip30/references/criteria_for_modularization.pdf"
+        }
+    ],
+    "tags": [
+        "concept",
+        "best practice",
+        "architecture",
+        "design principle"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Mon, 15 Jun 2026 11:03:59 +0000"
+}

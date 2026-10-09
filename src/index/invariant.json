@@ -1,0 +1,42 @@
+{
+    "id": "invariant",
+    "name": "Type Invariant",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/invariant.html",
+    "aliases": [],
+    "description": "A type invariant is a data container whose type can't change between a parent class and a child class. This is the case of properties.\n\nThe child type must be a subtype of the parent type and the parent type must be a subtype of the child type. This implies that the types are equal.\n\nInvariance is the third type of variance, with contravariance and covariance.",
+    "code": "<?php\n\nclass p {\n    protected string $p;\n}\n\nclass q extends p {\n    // same a above\n    protected string $p;\n}\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Covariance_and_contravariance_(computer_science)",
+    "related": [
+        "type-covariance",
+        "type-contravariance"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Covariance_and_contravariance_(computer_science)"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Type variance in PHP",
+            "url": "https://www.npopov.com/2021/11/08/Type-variance-in-PHP.html"
+        }
+    ],
+    "tags": [
+        "type"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Fri, 19 Jun 2026 21:24:38 +0000"
+}

@@ -1,0 +1,56 @@
+{
+    "id": "vanilla",
+    "name": "Vanilla PHP",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/vanilla.html",
+    "aliases": [
+        "vanilla-php",
+        "plain-php"
+    ],
+    "description": "Vanilla PHP refers to writing an application using only the PHP language and its native, built-in features, without relying on any framework or third-party library. The term is borrowed from ``vanilla JS``, itself named after plain vanilla ice cream: no extra flavor, no components.\n\nVanilla PHP is not a technical feature of the language: it is a description of a codebase's dependencies, or the lack thereof. It contrasts with using a framework, such as ``Laravel`` or ``Symfony``, which provides routing, dependency injection, an ORM, etc., or a library, which provides a narrower, reusable piece of functionality.\n\nWriting vanilla PHP avoids the learning curve, footprint, and version-compatibility constraints of external code, at the cost of implementing anew common needs, such as routing or templating, by hand. It is a common choice for small scripts, learning exercises, and legacy codebases predating widespread framework adoption.",
+    "code": "<?php\n\n    // Vanilla PHP: routing done by hand, with only native functions\n    $path = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);\n\n    switch ($path) {\n        case '/':\n            echo 'Home page';\n            break;\n        case '/about':\n            echo 'About page';\n            break;\n        default:\n            http_response_code(404);\n            echo 'Not found';\n    }\n\n?>",
+    "documentation": "https://www.php.net/manual/en/funcref.php",
+    "related": [
+        "framework",
+        "library",
+        "dependency",
+        "native",
+        "userland"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/funcref.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Vanilla software - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Vanilla_software"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "What is the difference between core PHP and vanilla/plain PHP?",
+            "url": "https://docs.php.earth/faq/intro/core-vs-vanilla/"
+        }
+    ],
+    "tags": [
+        "concept",
+        "architecture"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 03 Sep 2026 14:35:44 +0000"
+}

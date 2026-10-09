@@ -1,0 +1,53 @@
+{
+    "id": "normalisation",
+    "name": "Normalisation",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/normalisation.html",
+    "aliases": [
+        "normalization"
+    ],
+    "description": "``normalisation`` has several distinct usages in software design:\n\n+ Database normalisation: organizing a relational schema into normal forms, 1NF, 2NF, 3NF, and beyond, so that each fact is stored in exactly one place, removing the redundancy and update anomalies that come from repeating the same data across rows or tables. Its opposite, denormalisation, deliberately reintroduces redundancy to avoid expensive joins on read-heavy workloads.\n+ Unicode normalisation: converting a string to one of a small number of canonical byte representations, since the same visible character can be encoded either as a single precomposed codepoint or as a base character followed by a combining mark. PHP performs this with ``Normalizer::normalize()`` from the ``intl`` extension, targeting one of the forms NFC, NFD, NFKC, or NFKD, so that two strings which look identical also compare and hash identically.\n+ Input normalisation: the looser, everyday sense of bringing user-supplied or external data into one consistent format before it is stored or compared, such as trimming whitespace, folding case with ``strtoupper()``/``mb_strtolower()``, or collapsing different line-ending conventions to one.\n\nAbsent further context, ``normalisation`` in a database discussion means the first sense, and in a string-handling or internationalization discussion means the second.",
+    "code": "<?php\n\n    // Unicode normalisation: two byte-different, visually identical strings\n    $precomposed = \"\\u{00C5}\";        // '\u00c5', a single codepoint\n    $decomposed  = \"A\\u{030A}\";       // 'A' + combining ring above\n\n    var_dump($precomposed === $decomposed); // false\n\n    $a = Normalizer::normalize($precomposed, Normalizer::FORM_C);\n    $b = Normalizer::normalize($decomposed, Normalizer::FORM_C);\n\n    var_dump($a === $b); // true, once both are normalised to NFC\n\n?>",
+    "documentation": "https://www.php.net/manual/en/normalizer.normalize.php",
+    "related": [
+        "database",
+        "schema",
+        "intl",
+        "unicode",
+        "strtoupper",
+        "strtolower",
+        "mbstring"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/normalizer.normalize.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Database normalization - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Database_normalization"
+        }
+    ],
+    "tags": [
+        "disambiguation"
+    ],
+    "packagist": [],
+    "extensions": [
+        "intl"
+    ],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 17 Sep 2026 07:50:16 +0000"
+}

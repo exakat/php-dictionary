@@ -1,0 +1,49 @@
+{
+    "id": "railroad-programming",
+    "name": "Railroad Programming",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/railroad-programming.html",
+    "aliases": [],
+    "description": "Railroad programming is a functional programming paradigm that manages flow control, especially success vs failure, without messy if/else chains or exceptions everywhere.\n\nThe image comes from the sequence of step, expressed as a train track: one rail links the different successes, while the other rail links all the failures. It is possible to go from success to failure. ",
+    "code": "",
+    "documentation": "https://fsharpforfunandprofit.com/rop/",
+    "related": [
+        "paradigm"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://fsharpforfunandprofit.com/rop/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Railway Oriented Programming: A Functional Approach to Error Handling",
+            "url": "https://www.cakedc.com/yevgeny_tomenko/2024/12/23/railway-oriented-programming-a-functional-approach-to-error-handling"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Railway-Oriented Programming in PHP",
+            "url": "https://speakerdeck.com/stuartherbert/railway-oriented-programming-in-php"
+        }
+    ],
+    "tags": [
+        "paradigm",
+        "folklore"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Mon, 29 Jun 2026 10:15:28 +0000"
+}

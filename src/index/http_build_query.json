@@ -1,0 +1,50 @@
+{
+    "id": "http_build_query",
+    "name": "http_build_query()",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/http_build_query.html",
+    "aliases": [],
+    "description": "The ``http_build_query()`` native function is used to generate a URL-encoded query string from an associative array or an object. This is commonly used to build query strings for HTTP GET requests or for use in URLs.\n\n``http_build_query()`` converts automatically backed enumerations to their type value, integer or string, when they are used as values in the array. This is a PHP 8.4 feature.\n\n``http_build_query()`` provides arguments to deal with numeric keys, a prefix may be added, with custom separators and encoding type. \n\nThe reverse function for ``http_build_query()`` is ``parse_str()``, which converts a query string into an array.",
+    "code": "<?php\n\n    enum A: int {\n        case A = 1;\n    }\n    \n    print http_build_query(['x' => A::A, 'b' => 3]);\n    //    x=1&b=3\n\n?>",
+    "documentation": "https://www.php.net/manual/en/function.http-build-query.php",
+    "related": [
+        "enum",
+        "backed-enum",
+        "parse_str",
+        "anchor",
+        "parse_url",
+        "separator",
+        "url"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/function.http-build-query.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Mastering PHP's `http_build_query()` Function for URL Manipulation",
+            "url": "https://reintech.io/blog/mastering-php-http-build-query-function"
+        }
+    ],
+    "tags": [
+        "native function",
+        "http"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Fri, 03 Jul 2026 07:58:18 +0000"
+}

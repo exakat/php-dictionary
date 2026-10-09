@@ -1,0 +1,59 @@
+{
+    "id": "mutex",
+    "name": "Mutex",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/mutex.html",
+    "aliases": [
+        "mutual-exclusion"
+    ],
+    "description": "A mutex, a mutual exclusion, is a synchronization primitive that prevents multiple processes or threads from accessing a shared resource simultaneously. Only one holder can acquire the mutex at a time; all others must wait until it is released.\n\nThread-level mutexes are provided by the ``parallel`` extension. For process-level mutual exclusion, e.g., preventing concurrent cron runs, the standard approach is file-based locking with ``flock()``.",
+    "code": "<?php\n\n    // Process-level mutex with flock()\n    $lock = fopen('/tmp/my_job.lock', 'c');\n    \n    if (!flock($lock, LOCK_EX | LOCK_NB)) {\n        // Another process already holds the lock\n        fclose($lock);\n        exit(0);\n    }\n    \n    try {\n        // Critical section: only one process runs this at a time\n        doExpensiveWork();\n    } finally {\n        flock($lock, LOCK_UN);\n        fclose($lock);\n    }\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Mutual_exclusion",
+    "related": [
+        "race-condition",
+        "concurrency",
+        "thread",
+        "lock",
+        "atomic-operation",
+        "cache-stampede",
+        "sem",
+        "shared-memory",
+        "software-transactional-memory"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Mutual_exclusion"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "flock",
+            "url": "https://www.php.net/manual/en/function.flock.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "parallel\\Sync",
+            "url": "https://www.php.net/manual/en/class.parallel-sync.php"
+        }
+    ],
+    "tags": [
+        "concurrency",
+        "synchronization"
+    ],
+    "packagist": [],
+    "extensions": [
+        "parallel"
+    ],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 16 Jul 2026 14:25:07 +0000"
+}

@@ -1,0 +1,51 @@
+{
+    "id": "close-naming",
+    "name": "Close Naming",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/close-naming.html",
+    "aliases": [],
+    "description": "Close naming is the creation of names that have little differences between them, and which leads human to easily confusing them more often. \n\nThe confusion may originate from different sources: \n\n+ Names with only one or two letters of difference: ``get``/``set``; ``max``/``map``;  ``type``/``typo``; \n+ Swaps of parts of the name:  ``xmlDiff``/``diffXml``; \n+ Names with hard to read letters:  ``x0``/``xO``/``xQ``\n+ Names with possible opposite means:  ``host``, ``client``,\n\nClose naming does not always yield error, but requires extra attention to ensure it is not confused with another structure.\n\nClose naming may happen with any named structure: variables, methods, classes, constants, etc. It is part of healthy coding conventions.\n",
+    "code": "",
+    "documentation": "https://en.wikipedia.org/wiki/Naming_convention_(programming)",
+    "related": [
+        "variable",
+        "name",
+        "name-convention",
+        "variable-shadowing"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Naming_convention_(programming)"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PSR-1: Basic Coding Standard",
+            "url": "https://www.php-fig.org/psr/psr-1/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Levenshtein distance - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Levenshtein_distance"
+        }
+    ],
+    "tags": [
+        "concept"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Fri, 28 Aug 2026 09:39:42 +0000"
+}

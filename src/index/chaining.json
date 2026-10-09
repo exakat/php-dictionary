@@ -1,0 +1,58 @@
+{
+    "id": "chaining",
+    "name": "Chaining",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/chaining.html",
+    "aliases": [],
+    "description": "The word ``chaining`` appears in several distinct PHP concepts:\n\n+ Chaining assignation: assigning the same value to several variables in a single expression, using successive ``=`` operators, e.g. ``$a = $b = $c = 0;``. Evaluated right to left. Magic methods are not triggered\n+ Method chaining: calling methods successively on the return value of the previous call, e.g. ``$object->m1()->m2()->m3()``. The result of each method call is used to call the next one\n+ Fluent interface: an object-oriented API design pattern that relies extensively on method chaining to create readable, expressive code. Not related to the ``interface`` keyword\n+ Chaining exceptions: re-throwing a caught exception wrapped inside a new exception, preserving the original error context via ``Exception::getPrevious()``\n+ Chaining new without parentheses: since PHP 8.4, calling a method, accessing a property, or invoking ``__invoke()`` directly on a ``new`` expression without wrapping it in parentheses, e.g. ``new X()->foo()``.",
+    "code": "",
+    "documentation": "https://www.php.net/manual/en/language.oop5.php",
+    "related": [
+        "chaining-assignation",
+        "fluent-interface",
+        "exception-chain",
+        "chaining-new-without-parenthesis",
+        "methodcall",
+        "expressive-interface"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.oop5.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Method Chaining",
+            "url": "https://en.wikipedia.org/wiki/Method_chaining"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Exception Chaining",
+            "url": "https://en.wikipedia.org/wiki/Exception_chaining"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Fluent Interface",
+            "url": "https://en.wikipedia.org/wiki/Fluent_interface"
+        }
+    ],
+    "tags": [
+        "disambiguation"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sun, 30 Aug 2026 15:38:28 +0000"
+}

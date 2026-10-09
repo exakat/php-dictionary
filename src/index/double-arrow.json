@@ -1,0 +1,53 @@
+{
+    "id": "double-arrow",
+    "name": "Double Arrow",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/double-arrow.html",
+    "aliases": [],
+    "description": "The double arrow is the PHP token ``=>``. It is an arrow, and the equal sign as body of the arrow gives it its name of double arrow.\n\nThe double arrow is used in several situations: \n\n+ With arrow functions: ``fn($a) => $a + 1;``\n+ In arrays, to distinguish the key from the value: ``['a' => 3]``\n+ In list, to distinguish the key from the value: ``['a' => $b] = ['a' => 4]``\n+ In yield, to distinguish the key from the value: ``yield 'a' => $b;``\n+ In property hooks, to start the body of the hook: ``private $p { get => $this->p; }``\n\n``=>`` has no relationship with ``<=``, which is a comparison operator, nor with ``->``, which is the object operator.",
+    "code": "<?php\n\n    $array = ['a' => 3, 3];\n\n?>",
+    "documentation": "https://www.php.net/manual/en/language.types.array.php",
+    "related": [
+        "arrow-function",
+        "list",
+        "yield",
+        "property-hook",
+        "comparison",
+        "object-operator"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.types.array.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "List of Parser Tokens",
+            "url": "https://www.php.net/manual/en/tokens.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Understanding the Difference between -> and => in PHP and Laravel",
+            "url": "https://medium.com/@tajbidtousif/understanding-the-difference-between-and-in-php-and-laravel-60f8a38fc5be"
+        }
+    ],
+    "tags": [
+        "token"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Fri, 19 Jun 2026 21:24:40 +0000"
+}

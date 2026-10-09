@@ -1,0 +1,73 @@
+{
+    "id": "application",
+    "name": "Application",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/application.html",
+    "aliases": [],
+    "description": "An application is a software program designed to perform specific tasks for end users. PHP applications can take many forms: web applications served over HTTP, command-line tools, background daemons, REST APIs, batch-processing scripts, etc.\n\nPHP applications are typically structured around a framework or architecture pattern, like MVC, ADR, hexagonal architecture, etc. and a dependency-injection container. The entry point is usually a single ``index.php`` for web apps, or a CLI script invoked via the shell.\n\nPHP applications excel at connecting to various sources of information, to collect, process and store data.",
+    "code": "<?php\n\n    declare(strict_types=1);\n    \n    // Bootstrap the application\n    require __DIR__ . '/vendor/autoload.php';\n    \n    // Route incoming HTTP request\n    $uri    = parse_url($_SERVER['REQUEST_URI'] ?? '/', PHP_URL_PATH);\n    $method = $_SERVER['REQUEST_METHOD'] ?? 'GET';\n    \n    $router = new Router();\n    $router->get('/',      [HomeController::class,  'index']);\n    $router->get('/about', [AboutController::class, 'index']);\n    \n    $response = $router->dispatch($method, $uri);\n    $response->send();\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Application_software",
+    "related": [
+        "tui",
+        "cli",
+        "desktop-app",
+        "mobile-app",
+        "web-app",
+        "mvc",
+        "adr",
+        "rest-api",
+        "api",
+        "graphql",
+        "grpc",
+        "saas",
+        "paas",
+        "iaas",
+        "microservice",
+        "monolith",
+        "spa",
+        "cms",
+        "nativephp",
+        "hexagonal",
+        "clean-architecture"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Application_software"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Namespaces",
+            "url": "https://www.php.net/manual/en/language.namespaces.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP-FIG: PSR Standards",
+            "url": "https://www.php-fig.org/psr/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "The Twelve-Factor App",
+            "url": "https://12factor.net/"
+        }
+    ],
+    "tags": [
+        "application"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Fri, 28 Aug 2026 10:13:29 +0000"
+}

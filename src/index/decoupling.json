@@ -1,0 +1,56 @@
+{
+    "id": "decoupling",
+    "name": "Decoupling",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/decoupling.html",
+    "aliases": [],
+    "description": "Decoupling refers to the software engineering concept where different parts of a system are made as independent from each other as possible. This means one component can change, be replaced, or fail without strongly affecting other components. \n\nThe opposite of decoupling is coupling.\n",
+    "code": "",
+    "documentation": "https://en.wikipedia.org/wiki/Loose_coupling",
+    "related": [
+        "coupling",
+        "dependency",
+        "listener",
+        "message-bus",
+        "pubsub",
+        "separation-of-concerns",
+        "aspect-oriented",
+        "cohesion",
+        "headless",
+        "interoperability"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Loose_coupling"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Decoupling Business Logic: Separating Entity from ORM Model in PHP",
+            "url": "https://medium.com/@vuvanly/decoupling-business-logic-separating-entity-from-orm-model-in-php-a1d68133761c"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "What is decoupling, actually?",
+            "url": "https://dev.to/netlify/what-is-decoupling-actually-5agj"
+        }
+    ],
+    "tags": [
+        "concept",
+        "architecture"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sat, 08 Aug 2026 08:10:54 +0000"
+}

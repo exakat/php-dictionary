@@ -1,0 +1,65 @@
+{
+    "id": "immutable",
+    "name": "Immutable",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/immutable.html",
+    "aliases": [
+        "immutability"
+    ],
+    "description": "An immutable object, exhibiting immutability, is an object that can't be changed. It may be created, read and cloned. On the other hand, a mutable object may change when one of its method is called, even if this is not visible from the outside.\n\nImmutable objects are thread-safe. \n\nImmutable objects often return a clone version of themselves, after modification.",
+    "code": "<?php\n\n    class Elephpant {\n        private $age = 0;\n\n        function inc() : self {\n            $return = clone $this;\n            $return->age +=1;\n\n            return $return;\n        }\n    }\n\n    $elephpant = new elephpant();\n    $olderElephpant = $elephpant->inc();\n\n    // $elephpant and $olderElephpant are two distinct objects\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Immutable_object",
+    "related": [
+        "clock",
+        "determinism",
+        "snapshot",
+        "state",
+        "wither",
+        "actor-model",
+        "borrow-checking",
+        "linear-type",
+        "phantom-type",
+        "record-type",
+        "value-type"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Immutable_object"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "The case for immutability",
+            "url": "https://dev.to/timoschinkel/the-case-for-immutability-1gfa"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Elegant immutable object pattern in PHP",
+            "url": "https://dev.to/hbgl/elegant-immutable-object-pattern-in-php-1dg3"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Immutable Objects in PHP: Your Secret Weapon for Safer Applications",
+            "url": "https://medium.com/@mohamadshahkhajeh/immutable-objects-in-php-your-secret-weapon-for-safer-applications-04eb88c49150"
+        }
+    ],
+    "tags": [
+        "concept"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [
+        "Php/DateTimeNotImmutable"
+    ],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+}

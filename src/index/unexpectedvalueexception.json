@@ -1,0 +1,44 @@
+{
+    "id": "unexpectedvalueexception",
+    "name": "UnexpectedValueException",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/unexpectedvalueexception.html",
+    "aliases": [],
+    "description": "The ``UnexpectedValueException`` exception is thrown if a value does not match with a set of expected values.\n\nThis happens when the value is not in a list of expected values, or if it is outside an interval of validity.\n\nThis exception is mainly thrown by the Phar and SPL extensions.",
+    "code": "<?php\n\n    function trumpet(string $s) {\n        if (empty($s)) {\n           throw new UnexpectedValueException('trumpet() expects a non-empty string');\n        }\n    }\n\n?>",
+    "documentation": "https://www.php.net/manual/en/class.unexpectedvalueexception.php",
+    "related": [
+        "exception",
+        "phar",
+        "spl",
+        "runtimeexception"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/class.unexpectedvalueexception.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP: SPL Exceptions",
+            "url": "https://www.php.net/manual/en/spl.exceptions.php"
+        }
+    ],
+    "tags": [
+        "exception"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "5.1",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 10 Sep 2026 20:22:43 +0000"
+}

@@ -1,0 +1,60 @@
+{
+    "id": "template",
+    "name": "Template",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/template.html",
+    "aliases": [],
+    "description": "A template is a preset document, filled with values in placeholders, to display the resulting data. This is also called a view.\n\nPHP used to be known as a template engine. Nowadays, template engines are written with PHP and set up a specific set of instruction. \n\nTemplates may be produced in any file format, such as HTML, CSS, JavaScript, JSON, PDF, URL, Markdown, etc.\n\nTemplate may be large: they are then broken down into smaller and reusable sub-templates.\n\nThere are many PHP template packages, such as Twig, Latte, Blade, smarty, etc.",
+    "code": "<?php\n\n    // piece \n    echo \"<h1>\".$name.\"</h1>\";\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Web_template_system",
+    "related": [
+        "view-presentation",
+        "html",
+        "css",
+        "pdf",
+        "json",
+        "markdown",
+        "code-generator",
+        "framework",
+        "render",
+        "blade",
+        "twig",
+        "view",
+        "zero-code"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Web_template_system"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "How WordPress Tells which Template to Load for a URL",
+            "url": "https://www.virtualcuriosities.com/articles/5106/how-wordpress-tells-which-template-to-load-for-a-url"
+        }
+    ],
+    "tags": [
+        "concept",
+        "presentation"
+    ],
+    "packagist": [
+        "twig/twig",
+        "smarty/smarty",
+        "latte/latte",
+        "twig/twig",
+        "jenssegers/blade"
+    ],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Fri, 04 Sep 2026 09:39:51 +0000"
+}

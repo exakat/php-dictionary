@@ -1,0 +1,56 @@
+{
+    "id": "phantom-type",
+    "name": "Phantom Type",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/phantom-type.html",
+    "aliases": [],
+    "description": "A phantom type is a generic type that carries a type parameter which does not appear in the runtime representation of the value. The parameter exists only at the type-checking level, adding information that guides the static analyser without any runtime cost.\n\nThe classic use case is encoding state in the type. A ``Connection<Closed>`` and a ``Connection<Open>`` have identical runtime structure but different static types, so calling ``query()`` on a closed connection becomes a compile-time error rather than a runtime exception. The phantom parameter ``Closed`` or ``Open`` holds no data; it is purely a type-level marker.\n\nPhantom types are a lightweight alternative to dependent types for expressing invariants that can be tracked statically. They are used in Haskell, Rust, zero-sized marker types, and TypeScript, branded types via ``& { readonly __brand: 'USD' }``.\n\nPHP does not support phantom types natively. Generic type parameters are not a language feature. However, a partial simulation is possible using PHPStan or Psalm template annotations for static analysis purposes only, with no runtime enforcement. Branded value objects achieve a similar discrimination effect at the cost of wrapping every value in an object.",
+    "code": "<?php\n\n    // PHP approximation using PHPStan @template (static analysis only, no runtime effect)\n\n    /**\n     * @template TStatus\n     */\n    final class Connection {\n        public function __construct(private readonly \\PDO $pdo) {}\n    }\n\n    /** @return Connection<'open'> */\n    function openConnection(string $dsn): Connection {\n        return new Connection(new \\PDO($dsn));\n    }\n\n    /**\n     * @param Connection<'open'> $conn\n     */\n    function query(Connection $conn, string $sql): array {\n        // PHPStan will warn if a Connection<'closed'> is passed\n        return [];\n    }\n\n?>",
+    "documentation": "https://wiki.haskell.org/Phantom_type",
+    "related": [
+        "generics",
+        "type-system",
+        "type-checking",
+        "gradual-type-checking",
+        "value-object",
+        "dependent-type",
+        "immutable"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://wiki.haskell.org/Phantom_type"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Phantom Types in TypeScript: Stop Mixing Kilograms and Pounds at Compile Time",
+            "url": "https://dev.to/gabrielanhaia/phantom-types-in-typescript-stop-mixing-kilograms-and-pounds-at-compile-time-iem"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Phantom types in Swift | Swift with Majid",
+            "url": "https://swiftwithmajid.com/2021/02/18/phantom-types-in-swift/"
+        }
+    ],
+    "tags": [
+        "concept",
+        "type",
+        "not supported"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Wed, 02 Sep 2026 16:41:00 +0000"
+}

@@ -1,0 +1,51 @@
+{
+    "id": "defined",
+    "name": "defined()",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/defined.html",
+    "aliases": [],
+    "description": "``defined()`` checks if a constant or a class constant is defined in the current context of execution. \n\n``defined()`` is a function, and may be called on any piece of string. true is returned when the string is a valid name of a constant, and a value for it was found. Otherwise, it returns false, without error.\n\n``defined()`` doesn't take into account the ``use const`` expressions: it should be a fully qualified constant name, or a relative one.\n\n``defined()`` is a native function.",
+    "code": "<?php\n\n    var_dump(defined('UNKNOWN'));         // false\n    var_dump(defined('Not a constant'));  // false\n    var_dump(defined('E_ALL'));           // true\n    var_dump(defined('\\E_ALL'));          // truet\n    \n    // use expression are not handled\n    use const E_ALL as E;\n    var_dump(defined('\\E'));               // false\n\n    // with class constants\n    class E { const E = 1; }\n    var_dump(defined('E'));                // false\n    var_dump(defined('E::E'));             // true\n\n    // do not confuse the constant and its value\n    const F = 'E';\n    var_dump(defined(F));                  // false\n\n?>",
+    "documentation": "https://www.php.net/manual/en/control-structures.alternative-syntax.php",
+    "related": [
+        "class-constant-syntax",
+        "const",
+        "define",
+        "existence",
+        "compiler-optimized-function"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/control-structures.alternative-syntax.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP Constants",
+            "url": "https://www.w3schools.com/php/php_constants.asp"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "define",
+            "url": "https://www.php.net/manual/en/function.define.php"
+        }
+    ],
+    "tags": [
+        "constant",
+        "native function"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Fri, 18 Sep 2026 15:29:07 +0000"
+}

@@ -1,0 +1,53 @@
+{
+    "id": "argon2",
+    "name": "Argon2",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/argon2.html",
+    "aliases": [],
+    "description": "Argon2 is a modern, secure, and highly efficient password hashing algorithm. It was the winner of the Password Hashing Competition, PHC, in 2015 and is designed to resist brute-force attacks, including GPU-based attacks. PHP has built-in support for Argon2 starting from version 7.2.",
+    "code": "<?php\n$password = \"PHP is alive and kicking!\";\n\n// Hash the password with Argon2id\nprint password_hash($password, PASSWORD_ARGON2ID);\n\n?>",
+    "documentation": "https://guriasoft.com/server-side/php/argon2",
+    "related": [
+        "algorithm",
+        "hash",
+        "crack"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://guriasoft.com/server-side/php/argon2"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "From Basics to Expert: A Deep Dive into Argon2 Password Hashing",
+            "url": "https://master-spring-ter.medium.com/from-basics-to-expert-a-deep-dive-into-argon2-password-hashing-95d17ba3b10f"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Argon2 in PHP",
+            "url": "https://mojoauth.com/hashing/argon2-in-php"
+        }
+    ],
+    "tags": [
+        "crypto",
+        "algorithm"
+    ],
+    "packagist": [
+        "paragonie/halite"
+    ],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Mon, 15 Jun 2026 11:03:58 +0000"
+}

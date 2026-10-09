@@ -1,0 +1,54 @@
+{
+    "id": "gradual-typing",
+    "name": "Gradual Typing",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/gradual-typing.html",
+    "aliases": [
+        "gradual-type-system"
+    ],
+    "description": "Gradual typing, or a gradual type system, is a type system that lets typed and untyped, or loosely typed, code coexist and interoperate, with the amount of checking growing incrementally rather than being all-or-nothing. A value can flow between a strictly typed region and a dynamically typed one, with the boundary checked at the point where the two meet.\n\nPHP's type system has grown this way release by release rather than arriving as a single design: class types in version 5.0, scalar types in version 7.0, union types, nullsafe operators, and DNF types since. Each addition is checked at runtime, so the language never had to make a single, all-at-once jump to a fully static system, and existing code keeps working as new, more precise, typed constructs become available around it. ``mixed``, and the absence of a declared type, are what let a codebase stay only partially typed at any point along that path.\n\nProposals to add generics follow the same philosophy: rather than erased, compile-time-only type parameters, the direction under discussion starts with invariant type parameters that are actually checked at runtime on a narrow surface, such as interfaces, and can grow from there, keeping every new construct held to the same rule the rest of the type system already follows.",
+    "code": "<?php\n\n    function total(array $orders): mixed // mixed marks the boundary: untyped by choice\n    {\n        // ...\n    }\n\n    function totalTyped(array $orders): Money // strictly typed, checked at runtime\n    {\n        // ...\n    }\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Gradual_typing",
+    "related": [
+        "type-system",
+        "type-checking",
+        "type-inference",
+        "type-narrowing",
+        "type-widening",
+        "dnf-type",
+        "mixed",
+        "type-parametricity",
+        "sca"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Gradual_typing"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP\u2019s Gradual Typing Journey: From Wild West to Almost Respectable",
+            "url": "https://www.javacodegeeks.com/2026/01/phps-gradual-typing-journey-from-wild-west-to-almost-respectable.html"
+        }
+    ],
+    "tags": [
+        "type",
+        "concept"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Tue, 01 Sep 2026 05:31:03 +0000"
+}

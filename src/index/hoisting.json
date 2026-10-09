@@ -1,0 +1,48 @@
+{
+    "id": "hoisting",
+    "name": "Hoisting",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/hoisting.html",
+    "aliases": [],
+    "description": "Hoisting is a language feature where declarations are automatically moved to the top of their scope before code execution. It is notably a JavaScript feature and not a PHP feature.\n\nPHP does not support hoisting for variables: a variable must be assigned before it is read, or it will be undefined.\n\nPHP functions are pre-compiled and can be called before their textual declaration in the same file, which may look like hoisting but is actually the result of PHP's two-pass compilation model.\n\nPHP classes are not hoisted either: a class must be declared, autoloaded, before it is instantiated.",
+    "code": "<?php\n\n    // This works: functions are pre-compiled\n    greet();\n    \n    function greet() { echo 'Hello'; }\n    \n    // This does NOT work: variables are not hoisted\n    echo $message; // Undefined variable\n    \n    $message = 'Hello';\n\n?>",
+    "documentation": "https://developer.mozilla.org/en-US/docs/Glossary/Hoisting",
+    "related": [
+        "class-hoisting",
+        "autoload",
+        "undefined",
+        "compiler",
+        "cache",
+        "order-of-execution"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://developer.mozilla.org/en-US/docs/Glossary/Hoisting"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "What is Hoisting in JavaScript?",
+            "url": "https://www.freecodecamp.org/news/what-is-hoisting-in-javascript/"
+        }
+    ],
+    "tags": [
+        "concept",
+        "not supported",
+        "compilation"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Wed, 02 Sep 2026 16:41:00 +0000"
+}

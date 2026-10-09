@@ -1,0 +1,41 @@
+{
+    "id": "silent",
+    "name": "Silent Behavior",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/silent.html",
+    "aliases": [
+        "silent-cast"
+    ],
+    "description": "Silent behaviors are expressions that do not raise any error, yet perform a transformation on data, with or without the programmer's knowledge.\n\nSilent behaviors also describes extra actions that are taken by PHP, without signaling it or making it obvious.\n\nSince they are silent, their usage or absence of usage is never signaled and the code may stay in the repository long before being discovered and removed or fixed.",
+    "code": "<?php\n\n    // Importing a non existent class\n    use Unknown\\Namespace\\theClass;\n    \n    // Typing with a non-existent class, or a trait, but still allowing other types\n    function trumpet(UndefinedType|string $t) : \\aTrait|string {}\n    \n    // The whole try catch is now useless.\n    try {\n    \n    } catch (unknownException $e) {}\n    \n    // null is automatically turned into an int, so 0\n    $a = [null => 1];\n    echo $a[0]; // displays 1\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Defensive_programming",
+    "related": [
+        "type-juggling",
+        "typo",
+        "max_input_vars"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Defensive_programming"
+        }
+    ],
+    "tags": [
+        "pattern",
+        "noSeeAlso"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+}

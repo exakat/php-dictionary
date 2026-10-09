@@ -1,0 +1,43 @@
+{
+    "id": "class-constant-visibility",
+    "name": "Class Constants Visibility",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/class-constant-visibility.html",
+    "aliases": [],
+    "description": "Class constant may have a visibility option. This limits their accessibility to the current class, its class hierarchy or any other class. Visibilities for class constants are: private, protected and public.",
+    "code": "<?php\n\nclass x {\n    // This class can only be used in x\n    private const C1 = 1;\n\n    // This class can only be used in x and y\n    protected const C2 = 1;\n\n    // This class can be used in x, y and z\n    private const C3 = 1;\n}\n\nclass y extends x {\n    // doSomething()\n}\n\nclass z {\n    // doSomething()\n}\n\n?>",
+    "documentation": "https://www.php.net/manual/en/language.oop5.visibility.php#language.oop5.visiblity-constants",
+    "related": [
+        "visibility"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.oop5.visibility.php#language.oop5.visiblity-constants"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "How to add visibility to 338 Class Constants in 25 seconds",
+            "url": "https://tomasvotruba.com/blog/how-to-add-visbility-to-338-class-constants-in-25-seconds"
+        }
+    ],
+    "tags": [
+        "visibility"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [
+        "Php/ConstVisibilityUsage"
+    ],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "7.1",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sat, 08 Aug 2026 08:10:54 +0000"
+}

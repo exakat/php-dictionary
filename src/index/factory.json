@@ -1,0 +1,50 @@
+{
+    "id": "factory",
+    "name": "Factory",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/factory.html",
+    "aliases": [],
+    "description": "A factory is a design pattern used to create objects without exposing the instantiation logic, i.e., the new keyword, to the client code. Instead of the client knowing exactly which class to instantiate, it asks the factory to produce the object for it.",
+    "code": "<?php\n\n// LoggerFactory.php\nclass LoggerFactory\n{\n    // Logger is an interface\n    public static function createLogger(string $type): Logger\n    {\n        switch (strtolower($type)) {\n            case 'file':\n                return new FileLogger();\n            case 'database':\n            case 'db':\n                return new DatabaseLogger();\n            default:\n                throw new InvalidArgumentException(\"Unknown logger type:\" . $type);\n        }\n    }\n}\n\n?>",
+    "documentation": "https://refactoring.guru/design-patterns/factory-method/php/example",
+    "related": [
+        "abstract-factory",
+        "prototype"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://refactoring.guru/design-patterns/factory-method/php/example"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Exploring the Factory Pattern in PHP 8.2",
+            "url": "https://medium.com/@bluznierca1/exploring-the-factory-pattern-in-php-8-2-d75f2de6f22e"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP Tips | Exploring the Factory Pattern \ud83e\udd16",
+            "url": "https://dev.to/razielrodrigues/php-creational-patterns-factory-429c"
+        }
+    ],
+    "tags": [
+        "design pattern",
+        "code architecture pattern"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+}

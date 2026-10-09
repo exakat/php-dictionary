@@ -1,0 +1,54 @@
+{
+    "id": "whm",
+    "name": "WHM (WebHost Manager)",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/whm.html",
+    "aliases": [
+        "webhost-manager"
+    ],
+    "description": "WHM, short for ``WebHost Manager``, is a web-based server administration panel from ``cPanel`` Inc. It sits above individual ``cPanel`` accounts and lets hosting providers and system administrators manage a whole server: creating and suspending hosting accounts, configuring PHP versions and modules, managing DNS zones, packages, and reseller privileges.\n\nWhile ``cPanel`` is the interface end-users get to manage their own hosting account, WHM is the administrative layer used to provision and manage those ``cPanel`` accounts across the server.\n\nPHP applications deployed on WHM/``cPanel``-managed servers are typically constrained by the PHP versions, extensions, and configuration values exposed through WHM's ``MultiPHP Manager``.",
+    "code": "",
+    "documentation": "https://docs.cPanel.net/whm/",
+    "related": [
+        "hosting",
+        "php.ini",
+        "deploy"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://docs.cPanel.net/whm/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "cPanel",
+            "url": "https://en.wikipedia.org/wiki/cPanel"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "MultiPHP Manager",
+            "url": "https://docs.cpanel.net/cpanel/software/multiphp-manager-for-cpanel/"
+        }
+    ],
+    "tags": [
+        "hosting",
+        "acronym",
+        "tool"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Wed, 02 Sep 2026 16:41:00 +0000"
+}

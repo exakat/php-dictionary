@@ -1,0 +1,60 @@
+{
+    "id": "proxy",
+    "name": "Proxy",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/proxy.html",
+    "aliases": [
+        "proxy-pattern"
+    ],
+    "description": "A proxy class is a structural design pattern that provides a substitute or placeholder for another object. The proxy controls access to the original object, allowing actions to be performed before or after the request reaches it.\n\nA proxy implements the same interface as the real subject, so it can be used wherever the original object is expected. The actual object is stored inside the proxy, which delegates calls to it.\n\nCommon proxy types are: virtual proxy, for lazy initialization, protection proxy, for access control, logging proxy, for recording operations for audit or debugging, and caching proxy, for storing results to avoid repeated work.\n\nProxy classes are often built using magic methods such as ``__call()``, ``__get()``, and ``__set()`` to intercept and forward access transparently. PHP 8.4 also introduced native lazy objects in the engine, which implement the virtual proxy pattern at the language level.",
+    "code": "<?php\n\n    interface UserRepository {\n        public function find(int $id): array;\n    }\n    \n    class RealUserRepository implements UserRepository {\n        public function find(int $id): array {\n            // expensive database call\n            return ['id' => $id, 'name' => 'Alice'];\n        }\n    }\n    \n    class CachingUserRepositoryProxy implements UserRepository {\n        private array $cache = [];\n    \n        public function __construct(private UserRepository $real) {}\n    \n        public function find(int $id): array {\n            if (!isset($this->cache[$id])) {\n                $this->cache[$id] = $this->real->find($id);\n            }\n    \n            return $this->cache[$id];\n        }\n    }\n    \n    $repo = new CachingUserRepositoryProxy(new RealUserRepository());\n    $user = $repo->find(1); // hits the database\n    $user = $repo->find(1); // served from cache\n\n?>",
+    "documentation": "https://refactoring.guru/design-patterns/proxy/php/example",
+    "related": [
+        "lazy-loading",
+        "lazy-objects",
+        "interface",
+        "__call",
+        "aspect-oriented",
+        "facade",
+        "proxy-class"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://refactoring.guru/design-patterns/proxy/php/example"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP: The Right Way \u2014 Design Patterns",
+            "url": "https://phptherightway.com/pages/Design-Patterns.html"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Revisiting Lazy-Loading Proxies in PHP",
+            "url": "https://nicolas-grekas.medium.com/revisiting-lazy-loading-proxies-in-php-ef813eabeb67"
+        }
+    ],
+    "tags": [
+        "design pattern",
+        "object",
+        "code architecture"
+    ],
+    "packagist": [
+        "ocramius/proxy-manager"
+    ],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Mon, 13 Jul 2026 18:48:06 +0000"
+}

@@ -1,0 +1,77 @@
+{
+    "id": "cast",
+    "name": "Cast Operator",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/cast.html",
+    "aliases": [],
+    "description": "Cast operators change the type of the variable to the desired type. Conversion between the current format and the target format may happen. \n\nThe available casts are:\n\n+ ``(int)``, ``(integer)``: cast to integer\n+ ``(bool)``, ``(boolean)``: cast to boolean\n+ ``(float)``, ``(double)``: cast to float\n+ ``(string)``: cast to string\n+ ``(array)``: cast to array\n+ ``(object)``: cast to object, of type ``stdClass``. There is no operator to convert to a specific class type.\n+ ``(void)``: complement operator to the ``NoDiscard`` attribute. It is not really a cast operator.\n+ ``(unset)``: cast to NULL, deprecated since PHP 7.2\n+ ``(real)``: cast to float.",
+    "code": "<?php\n\n    $foo = 10;               // $foo is an integer\n    $bar = (boolean) $foo;   // $bar is a boolean\n\n?>",
+    "documentation": "https://www.php.net/manual/en/language.types.type-juggling.php#language.types.typecasting",
+    "related": [
+        "__tostring",
+        "type-juggling",
+        "arrayobject",
+        "convert",
+        "non-numeric",
+        "sign",
+        "array_keys",
+        "boolean",
+        "golf",
+        "number",
+        "canonical",
+        "get_object_vars",
+        "coercion",
+        "settype",
+        "smart-cast",
+        "type-widening"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.types.type-juggling.php#language.types.typecasting"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "A detailed look into PHP type casting",
+            "url": "https://dev.to/altsyset/a-detailed-look-into-php-type-casting-4m6d"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Mastering Data Type Conversion In Php Through Type Casting",
+            "url": "https://laranepal.com/blog/mastering-data-type-conversion-in-php-through-type-casting"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Conversions",
+            "url": "https://phplang.org/spec/08-conversions.html"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Mastering the (array) cast",
+            "url": "https://www.exakat.io/mastering-the-array-cast-operator-in-php-a-comprehensive-guide/"
+        }
+    ],
+    "tags": [
+        "feature",
+        "syntax",
+        "operator",
+        "conversion"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [
+        "Structures/UselessCasting",
+        "Structures/TestThenCast"
+    ],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Fri, 25 Sep 2026 21:30:05 +0000"
+}

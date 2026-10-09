@@ -1,0 +1,67 @@
+{
+    "id": "solid",
+    "name": "SOLID",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/solid.html",
+    "aliases": [],
+    "description": "SOLID is an acronym for a set of OOP design principle. They were coined by Robert C. Martin, the famous Uncle Bob.\n\n+ S: single Responsibility Principle\n+ O: open Closed Principle\n+ L: ``Liskov`` Substitution Principle\n+ I: interface Segregation Principle\n+ D: dependency Inversion Principle\n\nEach principle may be used independently. Those principles are not dedicated to PHP, though they are used with PHP.\n\nThe opposite of SOLID is STUPID.",
+    "code": "",
+    "documentation": "https://www.digitalocean.com/community/conceptual_articles/s-o-l-i-d-the-first-five-principles-of-object-oriented-design",
+    "related": [
+        "srp",
+        "ocp",
+        "lsp",
+        "isp",
+        "dependency-inversion",
+        "__invoke",
+        "dry",
+        "responsability",
+        "separation-of-concerns",
+        "cohesion",
+        "god-object",
+        "kiss",
+        "calisthenics"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.digitalocean.com/community/conceptual_articles/s-o-l-i-d-the-first-five-principles-of-object-oriented-design"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Solid Relevance",
+            "url": "https://blog.cleancoder.com/uncle-bob/2020/10/18/Solid-Relevance.html"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "SOLID principles in PHP",
+            "url": "https://dev.to/devlinaung/solid-principles-in-php-363j"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "STUPID Versus SOLID Programming",
+            "url": "https://medium.com/unity-coder-corner/stupid-versus-solid-programming-7c0826d125a0"
+        }
+    ],
+    "tags": [
+        "concept",
+        "paradigm",
+        "solid"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": {
+        "Robert C. Martin": "http://blog.cleancoder.com/"
+    },
+    "brand": "",
+    "popularity": "",
+    "modified": "Fri, 18 Sep 2026 05:00:18 +0000"
+}

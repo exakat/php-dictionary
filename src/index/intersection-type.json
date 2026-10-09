@@ -1,0 +1,56 @@
+{
+    "id": "intersection-type",
+    "name": "Intersection Type",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/intersection-type.html",
+    "aliases": [
+        "intersectional",
+        "intersectional-type"
+    ],
+    "description": "Intersection types, also called intersectional types, is a specification syntax where several types act together as a single type. The individual types are separated with the ``&`` operator.\n\nThe value typed with an intersection type must satisfy all the types at the same time.\n\nIntersection types only accept class and interface types: scalars, ``int``, ``string``, ``bool``, etc., ``null``, ``false``, ``true``, and ``void`` are not allowed, as a single value cannot simultaneously be of two scalar types. Redundant types are also rejected: ``A&A`` is not valid.\n\nIntersection types work well with polymorphism: an object that implements multiple interfaces satisfies an intersection type naturally.\n\nPHP 8.2 introduced Disjunctive Normal Form, aka DNF, types, which combine intersection and union types, such as ``(A&B)|null``.",
+    "code": "<?php\n\n    class Elephpant {\n        // Property is of type Tusk, Ivory and Trunk at the same time.\n        // Two of them have to be interfaces.\n        private Tusk & Ivory & Trunk $property;\n    }\n\n?>",
+    "documentation": "https://www.php.net/manual/en/language.types.type-system.php#language.types.type-system.composite.intersection",
+    "related": [
+        "type",
+        "composite-type",
+        "dnf-type",
+        "named-type",
+        "relative-types",
+        "type-declaration-property",
+        "union-type",
+        "interface",
+        "polymorphism",
+        "nullable",
+        "return-type",
+        "typeerror"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.types.type-system.php#language.types.type-system.composite.intersection"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "How the New Intersection Types in PHP 8.1 Give You More Flexibility",
+            "url": "https://www.howtogeek.com/devops/how-the-new-intersection-types-in-php-8-1-give-you-more-flexibility/"
+        }
+    ],
+    "tags": [
+        "types",
+        "feature"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "8.1",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+}

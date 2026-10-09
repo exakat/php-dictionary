@@ -1,0 +1,49 @@
+{
+    "id": "modulo",
+    "name": "Modulo",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/modulo.html",
+    "aliases": [],
+    "description": "Modulo is the mathematical modulo operation. It produces the remaining of the integer division of a number by another. \n\nIt also works with booleans and null, which are converted to integers. Other types are not allowed for modulo and yield a fatal error.\n\nThe operator for module is the percentage ``%``. The decimal division operator is slash ``/``.\n",
+    "code": "<?php\n\n    $a = 25 % 4; // 1\n\n?>",
+    "documentation": "https://www.php.net/manual/en/language.operators.arithmetic.php",
+    "related": [
+        "division",
+        "multiplication",
+        "intdiv"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.operators.arithmetic.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "How to Use the Modulo Operator in PHP - A Comprehensive Guide",
+            "url": "https://thelinuxcode.com/modulo-operator-php/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Understand PHP Modulo: Tricks with Division Remainders",
+            "url": "https://wpshout.com/php-modulo/"
+        }
+    ],
+    "tags": [
+        "math",
+        "character"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Tue, 01 Sep 2026 07:45:13 +0000"
+}

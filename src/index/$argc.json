@@ -1,0 +1,44 @@
+{
+    "id": "$argc",
+    "name": "$argc",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/%24argc.html",
+    "aliases": [],
+    "description": "``$argc`` is a predefined variable that holds the number of arguments passed to the script when it is executed from the command line. It represents the argument count, hence the name ``$argc``.\n\nWhen a PHP script is run from the command line, the script's filename is counted as the first argument, and any additional arguments passed after the filename are also counted. The value of ``$argc`` is an integer indicating the total number of arguments.",
+    "code": "<?php\n\n    echo $argc;\n\n?>",
+    "documentation": "https://www.php.net/manual/en/reserved.variables.argc.php",
+    "related": [
+        "$argv",
+        "php-variable",
+        "cli",
+        "register_argc_argv"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/reserved.variables.argc.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Arguments handling",
+            "url": "https://riptutorial.com/php/example/786/argument-handling"
+        }
+    ],
+    "tags": [
+        "php variable"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sat, 08 Aug 2026 08:10:54 +0000"
+}

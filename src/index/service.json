@@ -1,0 +1,49 @@
+{
+    "id": "service",
+    "name": "Service",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/service.html",
+    "aliases": [],
+    "description": "A service is a class that encapsulates specific functionality, making it available to other parts of an application. Services are a core concept in modern PHP development, especially when using frameworks with dependency injection-based architectures.\n\nA service bundles related logic, such as sending emails, logging, database access, into a single, reusable class.\n\nServices are often injected into other classes or functions, rather than being instantiated directly. This promotes loose coupling and easier testing.\n\nServices can be used across different parts of an application, reducing code duplication.\n\nServices are typically configured and managed by a service container.",
+    "code": "",
+    "documentation": "https://en.wikipedia.org/wiki/Service_(systems_architecture)",
+    "related": [
+        "encapsulation",
+        "dependency-injection",
+        "service-container",
+        "business-logic",
+        "downtime",
+        "ldap",
+        "value-object"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Service_(systems_architecture)"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Mastering Symfony Service Container: Modern PHP Attributes Edition",
+            "url": "https://tuhinbepari.medium.com/mastering-symfony-service-container-modern-php-attributes-edition-74d7113614c0"
+        }
+    ],
+    "tags": [
+        "code architecture"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Tue, 01 Sep 2026 05:31:03 +0000"
+}

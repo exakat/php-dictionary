@@ -1,0 +1,59 @@
+{
+    "id": "latency",
+    "name": "Latency",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/latency.html",
+    "aliases": [],
+    "description": "Latency is the delay between a request being made and the response being received. It is typically measured in milliseconds and is a key indicator of perceived application responsiveness.\n\nSources of latency include network round-trip time, database query time, I/O wait, and processing overhead. Reducing latency involves techniques such as caching, connection pooling, query optimization, and co-locating services.",
+    "code": "",
+    "documentation": "https://en.wikipedia.org/wiki/Latency_(engineering)",
+    "related": [
+        "qos",
+        "performance",
+        "benchmarking",
+        "cache",
+        "database",
+        "network",
+        "real-time",
+        "micro-optimisation",
+        "cdn",
+        "cold-start",
+        "edge-computing",
+        "throughput"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Latency_(engineering)"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "How to Cut PHP API Latency by 60% An Architecture Breakdown That Actually Works",
+            "url": "https://www.iqinfinite.in/articles/php-api-latency-architecture-guide"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Guide to Optimizing PHP for High Traffic Sites",
+            "url": "https://linuxblog.io/optimizing-php-high-traffic-sites/"
+        }
+    ],
+    "tags": [
+        "performance"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Tue, 30 Jun 2026 15:23:48 +0000"
+}

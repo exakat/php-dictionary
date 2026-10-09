@@ -1,0 +1,47 @@
+{
+    "id": "array_find_key",
+    "name": "array_find_key()",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/array_find_key.html",
+    "aliases": [],
+    "description": "``array_find_key()`` is a PHP native function, introduced in version 8.4 alongside ``array_find()``, that returns the key of the first element of an array for which a callback returns a truthy value, or ``null`` if no element matches.\n\nIt is the key-returning counterpart of ``array_find()``: where ``array_find()`` gives back the matching value, ``array_find_key()`` gives back its key, which is useful when the position, or the original index, of the match matters more than the value itself, or when that exact element needs to be updated or removed afterwards.\n\nBecause ``0`` and the empty string are valid, yet falsy, array keys, the result of ``array_find_key()`` must be compared against ``null`` with the identical comparison operator ``===``, exactly like the classic ``strpos()`` syndrome, rather than merely tested for truthiness.",
+    "code": "<?php\n\n    $fruits = ['apple', 'banana', 'cherry'];\n\n    $key = array_find_key($fruits, fn($f) => str_starts_with($f, 'b'));\n    // 1\n\n    $key = array_find_key($fruits, fn($f) => str_starts_with($f, 'z'));\n    // null, no element matches\n\n?>",
+    "documentation": "https://www.php.net/manual/en/function.array-find-key.php",
+    "related": [
+        "array_find",
+        "strpos-syndrom",
+        "array_search",
+        "array_key_first"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/function.array-find-key.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP RFC: array_find",
+            "url": "https://wiki.php.net/rfc/array_find"
+        }
+    ],
+    "tags": [
+        "native function",
+        "array"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "8.4",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 09 Jul 2026 10:26:31 +0000"
+}

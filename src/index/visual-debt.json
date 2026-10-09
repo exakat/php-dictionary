@@ -1,0 +1,43 @@
+{
+    "id": "visual-debt",
+    "name": "Visual Debt",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/visual-debt.html",
+    "aliases": [],
+    "description": "Visual debt is all the elements that hamper the readability of a PHP code source, even at the cost of source consistency. It is similar to technical debt, but, when pushed to extremes, leads to the removal of many options that are actually safeguards of the code itself.",
+    "code": "",
+    "documentation": "https://en.wikipedia.org/wiki/Technical_debt",
+    "related": [
+        "debt"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Technical_debt"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Eliminating Visual Debt",
+            "url": "https://ocramius.github.io/blog/eliminating-visual-debt/"
+        }
+    ],
+    "tags": [
+        "concept"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Tue, 01 Sep 2026 06:21:35 +0000"
+}

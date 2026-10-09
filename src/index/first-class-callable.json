@@ -1,0 +1,50 @@
+{
+    "id": "first-class-callable",
+    "name": "First Class Callable",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/first-class-callable.html",
+    "aliases": [],
+    "description": "First Class Callable Syntax is a new feature that creates a closure directly from a function, by using the triple dot operator as an argument.\n\nFirst class callable may be used on functions, closures, arrow functions and methods and static methods.\n\nThe number of arguments is not important: it is the same as the actual definition of the underlying method, and will be checked at call time only.\n\nSuch closure may be created using any kind of function, such as native PHP function, or library methods.",
+    "code": "<?php\n\n    $a = trumpet(...);\n\n    $function = strtolower(...);\n\n    $closure = Elephpant::staticMethod(...);\n\n?>",
+    "documentation": "https://www.php.net/closure",
+    "related": [
+        "function",
+        "anonymous-function",
+        "arrow-function",
+        "closure",
+        "custom-function",
+        "three-dots"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/closure"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP's First-Class Callable Syntax",
+            "url": "https://dev.to/damms005/phps-first-class-callable-syntax-1kjl"
+        }
+    ],
+    "tags": [
+        "feature",
+        "syntax",
+        "closure"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [
+        "Php/FirstClassCallable"
+    ],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "8.1",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Mon, 14 Sep 2026 17:55:14 +0000"
+}

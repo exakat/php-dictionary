@@ -1,0 +1,58 @@
+{
+    "id": "doctrine",
+    "name": "Doctrine",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/doctrine.html",
+    "aliases": [],
+    "description": "Doctrine is a set of PHP libraries built around persistence and object-relational mapping. Its two flagship projects are Doctrine DBAL, a database abstraction layer providing one API over multiple database engines, and Doctrine ORM, built on top of DBAL, which maps PHP objects to database rows and back using the Data Mapper pattern, rather than Active Record, so entities stay ignorant of how they are persisted.\n\nDoctrine ORM uses annotations, or attributes since PHP 8, or XML/YAML mapping files, to describe how a class's properties map to a table's columns. It tracks changes to managed entities through a Unit of Work, and only issues the SQL statements needed to persist them once ``flush()`` is called, instead of after every individual change.\n\nDoctrine also ships companion libraries: ``Doctrine Migrations``, to version and apply schema changes, and Doctrine Collections and Doctrine Inflector, both used well beyond the ORM itself. It is the default persistence layer of Symfony, and one of the most widely used ORMs in the PHP ecosystem, alongside Eloquent and Propel.",
+    "code": "<?php\n\n    // Doctrine ORM: entities are persisted through a Unit of Work\n    $user = new User();\n    $user->setName('Alice');\n\n    $entityManager->persist($user); // schedules the insert\n    $entityManager->flush();        // issues the actual SQL\n\n?>",
+    "documentation": "https://www.doctrine-project.org/",
+    "related": [
+        "orm",
+        "dbal",
+        "data-mapper",
+        "active-record"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.doctrine-project.org/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Doctrine ORM Documentation",
+            "url": "https://www.doctrine-project.org/projects/doctrine-orm/en/current/index.html"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Symfony: Databases and Doctrine",
+            "url": "https://symfony.com/doc/current/doctrine.html"
+        }
+    ],
+    "tags": [
+        "tool",
+        "dbal",
+        "database"
+    ],
+    "packagist": [
+        "doctrine/orm",
+        "doctrine/dbal",
+        "doctrine/migrations",
+        "doctrine/collections"
+    ],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Tue, 25 Aug 2026 12:17:01 +0000"
+}

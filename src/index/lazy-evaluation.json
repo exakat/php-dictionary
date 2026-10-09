@@ -1,0 +1,48 @@
+{
+    "id": "lazy-evaluation",
+    "name": "Lazy Evaluation",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/lazy-evaluation.html",
+    "aliases": [],
+    "description": "Lazy evaluation is an evaluation strategy in which an expression's value is not computed until it is actually needed, and, once computed, is often cached so it is never recomputed. Haskell evaluates every expression this way by default: a list can be infinite, because only the elements actually consumed are ever produced.\n\nThis is stronger than lazy iteration: it applies to any expression, including function arguments and let-bindings, not only to sequences produced one step at a time.\n\nPHP is strictly, eagerly evaluated everywhere except in a few specific opt-in constructs. ``Generator`` functions built with ``yield`` produce values lazily, one at a time, on demand, and short-circuiting operators such as ``&&``, ``||``, and ``??`` skip evaluating their right-hand side when the outcome is already known. Outside of these, every argument, every array element, and every expression is fully evaluated as soon as control reaches it; there is no general, opt-out mechanism to defer an arbitrary computation until its result is read.",
+    "code": "<?php\n\n    // Lazy, but only because it is explicitly written as a generator.\n    function naturals(): Generator {\n        $n = 1;\n        while (true) {\n            yield $n++;\n        }\n    }\n    \n    foreach (naturals() as $n) {\n        if ($n > 5) break;\n        echo $n, ' ';\n    }\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Lazy_evaluation",
+    "related": [
+        "yield-generator",
+        "yield",
+        "lazy-loading",
+        "lazy-objects",
+        "range-type"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Lazy_evaluation"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Lazy Evaluation in PHP: Real\u2011World Memory Savings with Generators",
+            "url": "https://dev.to/phpner/lazy-evaluation-in-php-how-generators-and-iterators-save-memory-and-speed-up-code-3529"
+        }
+    ],
+    "tags": [
+        "concept",
+        "not supported"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Mon, 07 Sep 2026 09:09:10 +0000"
+}

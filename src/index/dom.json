@@ -1,0 +1,65 @@
+{
+    "id": "dom",
+    "name": "Document Object Model (DOM)",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/dom.html",
+    "aliases": [
+        "document-object-model"
+    ],
+    "description": "The Document Object Model, also called DOM, is a programming interface for HTML and XML documents. It represents the document as a tree of nodes that can be traversed, queried, and modified.\n\nPHP provides the ``dom`` extension, which implements the W3C DOM specification via classes such as ``DOMDocument``, ``DOMElement``, ``DOMNode``, ``DOMXPath``, and ``DOMNodeList``.\n\nPHP 8.4 introduced ``Dom\\HTMLDocument`` and ``Dom\\XMLDocument`` as improved, spec-compliant replacements for the legacy ``DOMDocument``, with better error handling and HTML5 parsing.",
+    "code": "<?php\n\n    $doc = new DOMDocument();\n    $doc->loadHTML('<p class=\"greeting\">Hello, <strong>world</strong></p>');\n    \n    $xpath = new DOMXPath($doc);\n    $nodes = $xpath->query('//p[@class=\"greeting\"]/strong');\n    \n    foreach ($nodes as $node) {\n        echo $node->textContent; // world\n    }\n\n?>",
+    "documentation": "https://www.php.net/manual/en/book.dom.php",
+    "related": [
+        "xml",
+        "html",
+        "domxml",
+        "simplexml",
+        "xmlreader",
+        "xmlwriter",
+        "javascript",
+        "domchildnode",
+        "domparentnode",
+        "svg"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/book.dom.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Guide to PHP 8.4 new DOM Selector Feature",
+            "url": "https://scrapfly.io/blog/posts/php-84-new-dom-selector"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "The Evolution of the DOM: HTML5 Support in PHP 8.4",
+            "url": "https://dophp.dev/posts/the-evolution-of-the-dom-html5-support-in-php-84"
+        }
+    ],
+    "tags": [
+        "xml",
+        "html",
+        "acronym",
+        "extension",
+        "dom"
+    ],
+    "packagist": [],
+    "extensions": [
+        "dom"
+    ],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Tue, 25 Aug 2026 19:12:45 +0000"
+}

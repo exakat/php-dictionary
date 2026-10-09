@@ -1,0 +1,38 @@
+{
+    "id": "used",
+    "name": "Used",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/used.html",
+    "aliases": [],
+    "description": "Used is a state of a PHP structure. It has been declared, defined or created, but it is actually referred to in another expression. By essence, all structures should be used, as least once.\n\nBeing used happens in different ways: \n\n+ Constants are read\n+ Variables are read, modified, unset\n+ Parameters are read\n+ Properties are read, modified, unset\n+ Methods are called \n+ Classes are instantiated, called for their method, constants, properties\n+ Traits are imported in a class or another trait\n+ Interfaces are implemented, mentioned with ``instanceof`` or specified as type\n\n``use`` expression do not guarantee usage: they import a structure, and alias it, but it, too, may be unused.\n\nUsage may depend on an initial call that is never happening in production.",
+    "code": "<?php\n\n    const A = 1;\n    use const A as B;\n\n    echo A;\n    echo B;\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Reference_(computer_science)",
+    "related": [
+        "unused"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Reference_(computer_science)"
+        }
+    ],
+    "tags": [
+        "concept"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": {
+        "phpstan": "https://phpstan.org/"
+    },
+    "popularity": "",
+    "modified": "Fri, 18 Sep 2026 05:03:27 +0000"
+}

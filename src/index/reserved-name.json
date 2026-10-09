@@ -1,0 +1,45 @@
+{
+    "id": "reserved-name",
+    "name": "Reserved Names",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/reserved-name.html",
+    "aliases": [
+        "reserved-word"
+    ],
+    "description": "PHP shares several namespaces with the custom code, and has reserved some names for its own usage. \n\n+ Namespaces: the global namespace, also known as ``\\`` is reserved for PHP.\n+ Keywords: ``fn``, ``finally``, ``insteadof``, ``null``, ``void``, ``match``, ...\n+ Some classes, constants, functions, interfaces: ``die``, ``exit``, \n+ Variables: ``$GLOBALS``, ``$_GET``,...",
+    "code": "<?php\n\n    // function void() would not compile\n    function theVoid() : bool { }\n\n?>",
+    "documentation": "https://www.php.net/manual/en/reserved.php",
+    "related": [
+        "name",
+        "keyword",
+        "name-convention"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/reserved.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Predefined Variables",
+            "url": "https://www.php.net/manual/en/language.variables.predefined.php"
+        }
+    ],
+    "tags": [
+        "name"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sat, 08 Aug 2026 08:10:54 +0000"
+}

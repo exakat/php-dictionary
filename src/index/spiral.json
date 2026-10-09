@@ -1,0 +1,64 @@
+{
+    "id": "spiral",
+    "name": "Spiral",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/spiral.html",
+    "aliases": [
+        "spiral-framework",
+        "spiral-model"
+    ],
+    "description": "``Spiral`` has two main meanings in the PHP and software engineering world.\n\n``Spiral Framework`` is a high-performance PHP framework built on top of ``RoadRunner``, a Go-based application server. Unlike traditional PHP frameworks that re-bootstrap the application on every request, Spiral keeps the application alive between requests in long-running workers, significantly reducing overhead. It is well-suited for microservices, APIs, and high-throughput applications.\n\n``Spiral`` model, or spiral development model is a software development lifecycle model that combines iterative development with systematic risk analysis. Each iteration, or spiral, passes through four phases: planning, risk analysis, engineering, and evaluation. It is particularly suited for large, complex, or high-risk projects where requirements may evolve.\n\nBoth concepts involve iterative, incremental progression: the spiral metaphor captures the idea of building upon previous cycles.",
+    "code": "<?php\n\n    // Spiral Framework: defining a simple controller\n    namespace App\\Controller;\n    \n    use Spiral\\Router\\Annotation\\Route;\n    \n    final class HomeController\n    {\n        #[Route(route: '/', name: 'home')]\n        public function index(): string\n        {\n            return 'Hello from Spiral!';\n        }\n    }\n\n?>",
+    "documentation": "https://spiral.dev/docs",
+    "related": [
+        "framework",
+        "waterfall",
+        "agile",
+        "sdlc",
+        "microservice",
+        "async"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://spiral.dev/docs"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Spiral Framework",
+            "url": "https://spiral.dev/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Spiral Development Model (Wikipedia)",
+            "url": "https://en.wikipedia.org/wiki/Spiral_model"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "RoadRunner",
+            "url": "https://roadrunner.dev/"
+        }
+    ],
+    "tags": [
+        "framework",
+        "sdlc",
+        "brand"
+    ],
+    "packagist": [
+        "spiral/framework",
+        "spiral/roadrunner"
+    ],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Wed, 26 Aug 2026 10:23:11 +0000"
+}

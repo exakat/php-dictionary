@@ -1,0 +1,66 @@
+{
+    "id": "math",
+    "name": "Math",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/math.html",
+    "aliases": [],
+    "description": "PHP offers many math features. There are the native math functions, such as ``exp()``, ``cos()`` or ``abs()``; there are operators, such as ``+``, ``*``, ``**``, etc. There are special notions, such as ``NaN``, Not a number, and the constant ``INF``, which represents the infinite.\n\nThere are also extension, such as ``bcmath`` and ``gmp``, to handle arbitrary large numbers. \n\nFinally, there are many packages that provide optimized code to run math specialties, like matrices, complex numbers or statistical tools.",
+    "code": "<?php\n\n    $total = 1 + 2 * 3 - 4 ** 5; \n\n?>",
+    "documentation": "https://www.php.net/manual/en/book.math.php",
+    "related": [
+        "bcmath",
+        "gmp",
+        "float",
+        "integer",
+        "nan",
+        "inf",
+        "rounding"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/book.math.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Mathematical Operations in PHP",
+            "url": "https://www.slingacademy.com/article/mathematical-operations-in-php/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP Math: Built-in Functions and Operations",
+            "url": "https://codelucky.com/php-math-functions/"
+        }
+    ],
+    "tags": [
+        "math",
+        "feature"
+    ],
+    "packagist": [
+        "brick/math",
+        "markbaker/complex",
+        "markbaker/matrix",
+        "markrogoyski/math-php"
+    ],
+    "extensions": [
+        "ext-decimal",
+        "bcmath",
+        "gmp"
+    ],
+    "analyzers": [
+        "Extensions/Extmath"
+    ],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+}

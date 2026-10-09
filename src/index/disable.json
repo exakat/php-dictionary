@@ -1,0 +1,49 @@
+{
+    "id": "disable",
+    "name": "Disable",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/disable.html",
+    "aliases": [],
+    "description": "To disable is to prevent a feature from performing. For example, using ``disable_functions=foo`` prevents the function ``foo`` from being available at the start of execution, even if PHP has a definition for it. The function ``foo`` cannot be run anymore, unless defined again.\n\nAnother example is ``memory_limit=-1``, which sets the maximum memory used by a PHP application to ``-1``, effectively disabling the control of the maximum amount of used memory.\n\nPutting a piece of code in a comment is a way to disable it: it cannot be run anymore.\n\nTo disable implies a permanent state: it is different from a conditional statement.",
+    "code": "",
+    "documentation": "https://www.php.net/manual/en/ini.core.php#ini.disable-functions",
+    "related": [
+        "enable",
+        "disable-functions"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/ini.core.php#ini.disable-functions"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Disabling functions using the PHP disable_functions directive",
+            "url": "https://kb.hosting.com/docs/php-disable_functions-directive"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP.INI settings Disable exec, shell_exec, system, popen and Other Functions To Improve Security",
+            "url": "https://www.cyberciti.biz/faq/linux-unix-apache-lighttpd-phpini-disable-functions/"
+        }
+    ],
+    "tags": [
+        "concept"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Mon, 17 Aug 2026 09:06:22 +0000"
+}

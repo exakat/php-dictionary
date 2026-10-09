@@ -1,0 +1,57 @@
+{
+    "id": "keymap",
+    "name": "Keymap",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/keymap.html",
+    "aliases": [
+        "key-binding",
+        "keybinding",
+        "keybindings"
+    ],
+    "description": "A keymap, in the context of the GNU Readline library that backs PHP's ``readline`` extension, is a table that associates key sequences, such as a single keystroke, a Ctrl combination, or an Escape-prefixed Meta sequence, with an editing command: move to the start of the line, delete the previous word, recall the next history entry, and so on. Readline ships with several built-in keymaps, the most common being ``emacs-standard`` (the default) and ``vi-command``/``vi-insert`` for Vi-style editing, plus ``emacs-meta`` and ``emacs-ctlx`` for Emacs prefix sequences.\n\nThe active keymap is normally chosen once, either with ``set editing-mode emacs`` or ``set editing-mode vi`` in the Readline init file, conventionally ``~/.inputrc`` or the file pointed at by the ``INPUTRC`` environment variable, and custom bindings can be added inside ``$if mode=vi`` / ``$endif`` conditional blocks that target a specific keymap.\n\nPHP does not expose keymap manipulation as its own API: the ``readline`` extension is a thin wrapper around the system Readline (or libedit) library, and it simply inherits whichever keymap that library was configured with when the process starts. This has two practical consequences:\n\n+ Switching between Emacs-style and Vi-style editing for ``readline()`` calls, and for the interactive shell started with ``php -a``, is done outside PHP, by editing the init file consulted by the underlying library.\n+ On systems where the ``readline`` extension is compiled against libedit rather than true GNU Readline, most notably the default PHP builds on macOS, several functions tied to Readline's full history and keymap-reload machinery, such as ``readline_read_init_file()``, are unavailable, because libedit only emulates a subset of the GNU Readline API.\n\nKeymaps only affect interactive line editing; they have no bearing on the PHP language itself.",
+    "code": "",
+    "documentation": "https://tiswww.case.edu/php/chet/readline/readline.html#SEC10",
+    "related": [
+        "readline",
+        "repl",
+        "cli",
+        "extension"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://tiswww.case.edu/php/chet/readline/readline.html#SEC10"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP: readline",
+            "url": "https://www.php.net/manual/en/book.readline.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "libedit",
+            "url": "https://www.thrysoee.dk/editline/"
+        }
+    ],
+    "tags": [
+        "cli",
+        "extension",
+        "configuration"
+    ],
+    "packagist": [],
+    "extensions": [
+        "readline"
+    ],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Fri, 25 Sep 2026 14:37:01 +0000"
+}

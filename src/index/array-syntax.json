@@ -1,0 +1,52 @@
+{
+    "id": "array-syntax",
+    "name": "Array Syntax",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/array-syntax.html",
+    "aliases": [
+        "array-notation"
+    ],
+    "description": "The array syntax, or array notation, is the usage of square brackets after a data container, such as variables or properties, or a literal, to access an element. It is generally known to be used with array structures, though it may also be used with strings and objects.",
+    "code": "<?php\n\n    $array = ['a', 'b', 'c'];\n    echo $array[1]; // b\n    \n    $string = 'ABC';\n    echo $string[2]; // C\n    \n    $object = new ArrayObject(['x', 'y', 'z']);\n    print $object[0]; // x\n\n?>",
+    "documentation": "https://www.php.net/manual/en/language.types.array.php",
+    "related": [
+        "object-syntax",
+        "resource",
+        "array",
+        "arrayobject",
+        "array-dot-notation"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.types.array.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Introduction to PHP short array syntax | BeFused",
+            "url": "https://befused.com/php/short-array/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Request for Comments: Short syntax for arrays",
+            "url": "https://wiki.php.net/rfc/shortsyntaxforarrays"
+        }
+    ],
+    "tags": [
+        "syntax"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+}

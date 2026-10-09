@@ -1,0 +1,52 @@
+{
+    "id": "domain-name",
+    "name": "Domain Name",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/domain-name.html",
+    "aliases": [],
+    "description": "A domain name is a human-readable label that identifies a network resource, such as a web server. It is mapped to an IP address through the Domain Name System DNS.\n\nDomain names appear in URLs, are parsed with ``parse_url()``, and validated with the ``filter`` extension using ``FILTER_VALIDATE_DOMAIN``.",
+    "code": "<?php\n\n    $host = parse_url('https://www.example.com/path', PHP_URL_HOST);\n    // $host = 'www.example.com'\n    \n    $isValid = filter_var('example.com', FILTER_VALIDATE_DOMAIN);\n\n?>",
+    "documentation": "https://www.php.net/manual/en/function.parse-url.php",
+    "related": [
+        "url",
+        "dns",
+        "http",
+        "parse_url",
+        "domain",
+        "splsubject"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/function.parse-url.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Domain Name System",
+            "url": "https://en.wikipedia.org/wiki/Domain_Name_System"
+        }
+    ],
+    "tags": [
+        "network",
+        "internet",
+        "url",
+        "dns",
+        "hosting"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Wed, 19 Aug 2026 08:16:55 +0000"
+}

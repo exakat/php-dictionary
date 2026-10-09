@@ -1,0 +1,44 @@
+{
+    "id": "test-pyramid",
+    "name": "Test Pyramid",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/test-pyramid.html",
+    "aliases": [],
+    "description": "The Test Pyramid is a concept in software testing that represents the ideal distribution of different types of tests in a software testing strategy. It was popularized by ``Mike Cohn`` in his book ``Succeeding with Agile``. The Test Pyramid is used to illustrate the recommended proportions of various levels of testing in an application, with the goal of achieving effective test coverage while keeping testing efforts manageable and efficient.",
+    "code": "",
+    "documentation": "https://martinfowler.com/articles/practical-test-pyramid.html",
+    "related": [
+        "test"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://martinfowler.com/articles/practical-test-pyramid.html"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "TestPyramid",
+            "url": "https://martinfowler.com/bliki/TestPyramid.html"
+        }
+    ],
+    "tags": [
+        "concept",
+        "test"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": {
+        "Mike Cohn": "https://en.wikipedia.org/wiki/Mike_Cohn"
+    },
+    "brand": "",
+    "popularity": "",
+    "modified": "Fri, 18 Sep 2026 05:03:17 +0000"
+}

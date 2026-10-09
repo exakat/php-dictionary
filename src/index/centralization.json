@@ -1,0 +1,51 @@
+{
+    "id": "centralization",
+    "name": "Centralization",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/centralization.html",
+    "aliases": [
+        "federation"
+    ],
+    "description": "Centralization is the concept to bring all identical elements at the same place.\n\nFor example, if a literal value is used throughout the code, it may be turned into a global constant, defined in one place, and used everywhere else. \n\nConstants are a tool of centralization for values; functions and classes are a tool of centralization for commands. \n\nCentralization helps the code, as changing one definition propagates the change to different and unrelated parts of the code. \n\nCentralization is sometimes planned, and sometimes discovered with the tide. Then, it has to be extracted from the current code, as some minor local adaption may make it difficult to adapt.\n\nCentralization is a necessary first step to standardisation. \n\nIt is also called federation.",
+    "code": "",
+    "documentation": "https://en.wikipedia.org/wiki/Logic_centralization_pattern",
+    "related": [
+        "dry",
+        "constant"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Logic_centralization_pattern"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Single source of truth",
+            "url": "https://en.wikipedia.org/wiki/Single_source_of_truth"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Don't repeat yourself",
+            "url": "https://en.wikipedia.org/wiki/Don%27t_repeat_yourself"
+        }
+    ],
+    "tags": [
+        "concept"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Wed, 26 Aug 2026 04:23:49 +0000"
+}

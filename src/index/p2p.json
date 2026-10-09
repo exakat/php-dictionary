@@ -1,0 +1,57 @@
+{
+    "id": "p2p",
+    "name": "Peer-to-Peer (P2P)",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/p2p.html",
+    "aliases": [
+        "peer-to-peer"
+    ],
+    "description": "Peer-to-peer, or ``P2P``, is a network architecture where participants, called peers, communicate directly with one another instead of routing every exchange through a central server. Each peer can act as both a client and a server, in contrast to the traditional client-server model.\n\n``P2P`` is not a common architecture for PHP applications, since PHP scripts are typically executed on demand behind a web server and do not keep a long-running process able to accept inbound peer connections. It is more often encountered as a concept PHP code interacts with indirectly, for instance a script that talks to a BitTorrent tracker, a blockchain node, or a distributed hash table over sockets, or a long-running CLI daemon built with something like ReactPHP or Swoole.",
+    "code": "",
+    "documentation": "https://en.wikipedia.org/wiki/Peer-to-peer",
+    "related": [
+        "client",
+        "server",
+        "socket",
+        "distributed-systems",
+        "network",
+        "reactphp"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Peer-to-peer"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Peer-to-Peer (P2P) Architecture - GeeksforGeeks",
+            "url": "https://www.geeksforgeeks.org/system-design/peer-to-peer-p2p-architecture/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "What Is a Peer-to-Peer Network? | Coursera",
+            "url": "https://www.coursera.org/articles/peer-to-peer"
+        }
+    ],
+    "tags": [
+        "architecture",
+        "acronym",
+        "network"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Mon, 07 Sep 2026 09:22:46 +0000"
+}

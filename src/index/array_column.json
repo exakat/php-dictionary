@@ -1,0 +1,50 @@
+{
+    "id": "array_column",
+    "name": "array_column",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/array_column.html",
+    "aliases": [],
+    "description": "``array_column()`` extracts the index or property of the second argument from a list of arrays or objects passed as first argument. \n\nIt may also assign a key in regards to that value, from a second index or property. \n\n``array_column()`` omits silently any missing index or property. \n\n``array_column()`` uses the whole array or object as value, when the second argument is null.\n\n``array_column()`` is more efficient than custom code to convert an array into a map.",
+    "code": "<?php\n\n    $list = [\n        ['a' => 1, 'b' => 'x'],\n        ['a' => 2, 'b' => 'y'],\n        ['a' => 3, 'd' => 'z'],\n    ];\n    \n    array_column($list, 'a'); // [1, 2, 3]\n    \n    array_column($list, 'b'); // [x, y]\n    \n    array_column($list, 'a', 'b'); // [x => 1, y => 2, 0 => 3]\n    \n    class Elephpant {\n        function __construct(public int $a, public string $b, public string $c) {}\n    }\n\n    $list = [\n        new Elephpant(a: 1, b: 'x'),\n        new Elephpant(a: 2, b: 'y'),\n        new Elephpant(a: 3, d: 'z'),\n    ];\n    \n    array_column($list, 'a'); // [1, 2, 3]\n\n?>",
+    "documentation": "https://www.php.net/manual/en/function.array-column.php",
+    "related": [
+        "array_combine",
+        "hash",
+        "map",
+        "array",
+        "index-array"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/function.array-column.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "array_column() on 3v4l.org",
+            "url": "https://3v4l.org/Nc1uL#veol"
+        }
+    ],
+    "tags": [
+        "native function",
+        "micro-optimisation",
+        "object and array",
+        "hidden secret"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+}

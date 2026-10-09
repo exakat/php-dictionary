@@ -1,0 +1,49 @@
+{
+    "id": "compact",
+    "name": "compact()",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/compact.html",
+    "aliases": [],
+    "description": "``compact()`` is a native PHP function, which creates an array containing variables and their values, from a list of variable names.\n\nIt is the opposite of ``extract()``.",
+    "code": "<?php\n\n    $a = '1';\n    $b = '2';\n    \n    $array = compact('a', 'b');\n    // ['a' => 1, 'b' => 2];\n\n?>",
+    "documentation": "https://www.php.net/manual/en/function.compact.php",
+    "related": [
+        "extract",
+        "variable-variable",
+        "compact-array",
+        "mass-assignment",
+        "stubs"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/function.compact.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "``compact()`` function in PHP, and why it is problematic due to its magic behavior",
+            "url": "https://gist.github.com/Ocramius/c56a8e8ff25a8e0bd96800c41edab02a"
+        }
+    ],
+    "tags": [
+        "native",
+        "native function",
+        "arbitrary number of argument"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": {
+        "Undefined variable": "undefined-variable"
+    },
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Mon, 07 Sep 2026 09:03:13 +0000"
+}

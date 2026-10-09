@@ -1,0 +1,49 @@
+{
+    "id": "htmlspecialchars",
+    "name": "htmlspecialchars",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/htmlspecialchars.html",
+    "aliases": [
+        "htmlspecialchars_decode"
+    ],
+    "description": "``htmlspecialchars()`` is a built-in PHP function that converts special characters to their HTML entity equivalents.\n\nIt is commonly used to prevent Cross-Site Scripting, XSS, attacks when outputting user-supplied data in HTML. The characters it converts include ``&``, ``\"``, ``'``, ``<`` and ``>``.\n\nThe flags parameter controls which quotes are converted: ``ENT_QUOTES`` converts both double and single quotes, which is recommended when outputting values in HTML attributes. Omitting quote handling is a classic source of XSS vulnerabilities.\n\n``htmlspecialchars()`` has an inverse function called ``htmlspecialchars_decode()``, and a more exhaustive variant called ``htmlentities()``, which converts all applicable characters.\n",
+    "code": "<?php\n\n    $userInput = '<script>alert(\"XSS\")</script>';\n\n    // Safe output: converts < > \" & to HTML entities\n    echo htmlspecialchars($userInput, ENT_QUOTES, 'UTF-8');\n\n    // Dangerous: missing ENT_QUOTES leaves single quotes unescaped\n    echo htmlspecialchars($userInput, ENT_COMPAT, 'UTF-8');\n\n    // Reverse the conversion\n    $html = '&lt;b&gt;Hello&lt;/b&gt;';\n    echo htmlspecialchars_decode($html, ENT_QUOTES);\n\n?>",
+    "documentation": "https://www.php.net/manual/en/function.htmlspecialchars.php",
+    "related": [
+        "htmlentities",
+        "xss",
+        "security",
+        "default_charset",
+        "html_entity_decode"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/function.htmlspecialchars.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "OWASP XSS Prevention Cheat Sheet",
+            "url": "https://cheatsheetseries.owasp.org/cheatsheets/Cross_Site_Scripting_Prevention_Cheat_Sheet.html"
+        }
+    ],
+    "tags": [
+        "native function"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Mon, 15 Jun 2026 11:03:59 +0000"
+}

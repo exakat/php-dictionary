@@ -1,0 +1,49 @@
+{
+    "id": "audit",
+    "name": "Audit",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/audit.html",
+    "aliases": [],
+    "description": "An audit is a systematic, independent, and documented process for obtaining evidence and evaluating it objectively to determine whether predefined criteria, policies, or standards are being met. \n\nAudits are conducted to verify compliance, accuracy, reliability, and integrity in various contexts, including finance, security, quality management, and software development.",
+    "code": "",
+    "documentation": "https://en.wikipedia.org/wiki/Software_audit_review",
+    "related": [
+        "audit-trail",
+        "standard",
+        "accountability",
+        "compliance",
+        "owasp",
+        "sca",
+        "inventory"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Software_audit_review"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "The Quiet Shift Reshaping PHP Security",
+            "url": "https://www.linkedin.com/pulse/quiet-shift-reshaping-php-security-matthew-weier-o-phinney-fgquc/"
+        }
+    ],
+    "tags": [
+        "concept"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sun, 21 Jun 2026 20:22:21 +0000"
+}

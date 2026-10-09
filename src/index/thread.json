@@ -1,0 +1,62 @@
+{
+    "id": "thread",
+    "name": "Thread",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/thread.html",
+    "aliases": [],
+    "description": "A thread is a set of instructions, designed to be executed independently from the parent process. \n\nPHP supports threads with extensions, such as the ``pthreads`` extension. It also supports a thread safe compilation version: it allows PHP to be used with threaded web servers.",
+    "code": "",
+    "documentation": "https://en.wikipedia.org/wiki/Thread_(computing)",
+    "related": [
+        "process",
+        "async",
+        "asynchronous",
+        "multithreading",
+        "channel",
+        "concurrency",
+        "green-thread",
+        "mutex"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Thread_(computing)"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "pthreads",
+            "url": "https://www.php.net/manual/en/book.pthreads.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "What does thread safety mean when downloading PHP?",
+            "url": "https://www.php.net/manual/en/faq.obtaining.php#faq.obtaining.threadsafety"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP and Threads",
+            "url": "https://medium.com/@andreibirta95/php-and-threads-c6b7ea512fdc"
+        }
+    ],
+    "tags": [
+        "engine",
+        "internals",
+        "execution"
+    ],
+    "packagist": [],
+    "extensions": [
+        "pthreads"
+    ],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Tue, 01 Sep 2026 06:21:35 +0000"
+}

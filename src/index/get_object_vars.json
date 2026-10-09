@@ -1,0 +1,55 @@
+{
+    "id": "get_object_vars",
+    "name": "get_object_vars()",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/get_object_vars.html",
+    "aliases": [],
+    "description": "``get_object_vars()`` is a PHP native function, which returns an array with the object properties as index, and their related respective values. \n\n``get_object_vars()`` does not return static properties, which are class level, and not object level. \n\n``get_object_vars()`` does not return uninitialized properties. It returns all existing properties, may they be specified in the class definition, or not. It returns the trait and the parent properties.\n\n``get_object_vars()`` respect visibility, so its result may differ depending on its calling location: ``private`` properties are only visible when ``get_object_vars()`` is called from within the class itself; ``protected`` may be visible when called from a child; otherwise, only ``public`` properties are returned.\n\nConstants are not returned by that function. \n\n``get_object_vars()`` is very similar to the ``(array)`` cast operator. It is very different from the ``get_class_vars()`` method, which returns the properties as defined in the class, and including the static properties. It is also possible to use ``json_encode()`` followed by ``json_decode()``, though some data might get lost in the translation process.\n",
+    "code": "<?php\n\ntrait HasTusks {\n    public $tuskLength = '3';\n}\n\nclass Elephpant {\n    use HasTusks;\n\n    private int $age = 1;\n    private int $weight = 2;\n    public int $trunkLength = 3;\n    public int $earSize = 4;\n    public int $herdSize;\n\n    static string $species = 'abc';\n\n    function __construct() {\n        unset($this->earSize);\n\n        $this->waterIntake = 6;\n    }\n}\n\nprint_r(get_object_vars(new elephpant));\n\n/**\nArray\n(\n    [trunkLength] => 3\n    [tuskLength] => 3\n    [waterIntake] => 6\n)\n*/\n?>",
+    "documentation": "https://www.php.net/manual/en/function.get-object-vars.php",
+    "related": [
+        "get_class_vars",
+        "reflection",
+        "visibility",
+        "property",
+        "cast",
+        "json_encode",
+        "static-property",
+        "introspection"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/function.get-object-vars.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Object-Oriented PHP: Autoloading, Serializing, and Querying Objects",
+            "url": "https://www.elated.com/object-oriented-php-autoloading-serializing-and-querying-objects/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Convert PHP object to array",
+            "url": "https://www.stechies.com/convert-php-object-array/"
+        }
+    ],
+    "tags": [
+        "native function"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+}

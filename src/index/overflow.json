@@ -1,0 +1,51 @@
+{
+    "id": "overflow",
+    "name": "Overflow",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/overflow.html",
+    "aliases": [],
+    "description": "Overflow happens when a value goes beyond a limit: out of its range of existence, the behavior of the value is now unknown.\n\nOverflow happens with integers, limited to ``PHP_INT_MAX`` and ``PHP_INT_MIN``, floats ``PHP_FLOAT_MAX`` and ``PHP_FLOAT_MIN``. \n\nOther situations, such as accessing an array element or a string character beyond its last element, defaults to returning ``null``.\n\nThere is a native class called ``OverflowException``, which is emitted when a number gets too large, and may be caught.",
+    "code": "<?php\n\n    $a = PHP_INT_MAX;\n    $b = (int) ($a +  1);\n    \n    echo $a.PHP_EOL;\n    echo $b;\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Integer_overflow",
+    "related": [
+        "null",
+        "rangeexception",
+        "underflow",
+        "overflowexception",
+        "spl",
+        "edge-case"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Integer_overflow"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Integers",
+            "url": "https://www.php.net/manual/en/language.types.integer.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "How PHP Decides an Integer Is Too Big \u2014 Float Coercion and the Silent Overflow",
+            "url": "https://medium.com/@annxsa/how-php-decides-an-integer-is-too-big-float-coercion-and-the-silent-overflow-e14845e15f02"
+        }
+    ],
+    "tags": [
+        "concept"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sun, 09 Aug 2026 12:01:12 +0000"
+}

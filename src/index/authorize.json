@@ -1,0 +1,51 @@
+{
+    "id": "authorize",
+    "name": "Authorize",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/authorize.html",
+    "aliases": [],
+    "description": "To authorize means to give permission or approval for someone to do something, or to officially empower them to take a certain action.\n\nTo authorize relies on a system of permission and privilege, that represents what action or resource is impacted; it also relies on an identification system, to know who is requesting the permission.\n\nThe authorizations may be local to the current application, or it may be remote, such as an ``SSO``.\n",
+    "code": "<?php\n\n    if ($user->isAuthorized()) {\n        doSomething();\n    }\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Authorization",
+    "related": [
+        "sso",
+        "rbac",
+        "identification",
+        "permission",
+        "acl",
+        "broken-access-control"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Authorization"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "OWASP: Authorization Cheat Sheet",
+            "url": "https://cheatsheetseries.owasp.org/cheatsheets/Authorization_Cheat_Sheet.html"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Symfony: Authorization",
+            "url": "https://symfony.com/doc/current/security.html#authorization"
+        }
+    ],
+    "tags": [
+        "concept"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Wed, 26 Aug 2026 04:23:49 +0000"
+}

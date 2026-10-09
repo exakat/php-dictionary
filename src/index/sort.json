@@ -1,0 +1,46 @@
+{
+    "id": "sort",
+    "name": "Sort",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/sort.html",
+    "aliases": [
+        "sorting"
+    ],
+    "description": "Sorting is the action to put a list of object into a specific order. Sorting only applies to arrays: object cannot be sorted.\n\nThere are several ways to sort arrays: by value, by key, with ``k`` prefix, or by value while keeping the keys, with the ``a`` prefix, for associative. \n\nThen, the sort may be ascending, descending, with the ``r`` prefix as as in reverse, or custom, with the ``u`` prefix, as in user sort. Custom sort is done with a closure or similar.\n\nBased on the prefixes above, the following PHP native functions are available: ``sort()``, ``rsort()``, ``usort()``, ``ksort()``, ``krsort()``, ``uksort()``, ``asort()``, ``uasort()``. There is not ``ursort()``, as the reverse part of the sort may be coded in the custom closure.\n\nIn case of identical values while sorting, which are values with the same order, the values are sorted in the same order than the original array. This behavior has changed in version 7.0.\n\nIt is also possible to sort using a natural sort, which is a way to sort strings like a human would read them: ``natsort()``.\n\nThe default comparison between elements may be adapted with ``sort()``'s parameter: regular, numeric, string, locale, natural and with or without case.",
+    "code": "<?php\n\n    $fruits = ['Orange1', 'orange2', 'Orange3', 'orange20'];\n    sort($fruits, SORT_NATURAL | SORT_FLAG_CASE);\n    \n    foreach ($fruits as $key => $val) {\n        echo 'fruits[' . $key . '] = ' . $val . PHP_EOL;\n    }\n\n?>",
+    "documentation": "https://www.php.net/manual/en/function.sort.php",
+    "related": [
+        "array",
+        "closure",
+        "constant-combinaison",
+        "swap"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/function.sort.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "natural sort",
+            "url": "https://www.php.net/natsort"
+        }
+    ],
+    "tags": [
+        "algorithm"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Fri, 11 Sep 2026 09:42:34 +0000"
+}

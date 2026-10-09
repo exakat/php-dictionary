@@ -1,0 +1,56 @@
+{
+    "id": "iaas",
+    "name": "IaaS",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/iaas.html",
+    "aliases": [
+        "infrastructure-as-a-service"
+    ],
+    "description": "``IaaS``, Infrastructure as a Service, is a cloud-computing model in which a provider supplies virtualized computing resources, such as servers, storage, and networking, over the internet, on demand and billed by usage.\n\nUnlike ``PaaS`` or SaaS, ``IaaS`` gives the consumer control over the operating system, runtime, and application stack. The provider manages physical hardware and hypervisors; the consumer manages everything above.\n\nPHP applications hosted on ``IaaS`` run on virtual machines or bare-metal instances managed by the team. Common ``IaaS`` providers include ``AWS EC2``, ``Google Compute Engine``, and ``Azure Virtual Machines``. Automation tools such as ``Ansible``, ``Terraform``, or ``Chef`` are typically used to provision and configure the PHP runtime, web server, and database on top of the raw infrastructure.",
+    "code": "<?php\n\n    // Interacting with IaaS resources via an SDK \u2014 AWS example\n    use Aws\\Ec2\\Ec2Client;\n\n    $client = new Ec2Client([\n        'region'  => 'eu-west-1',\n        'version' => 'latest',\n    ]);\n\n    // List running instances\n    $result = $client->describeInstances([\n        'Filters' => [['Name' => 'instance-state-name', 'Values' => ['running']]],\n    ]);\n\n    foreach ($result['Reservations'] as $reservation) {\n        foreach ($reservation['Instances'] as $instance) {\n            echo $instance['InstanceId'] . PHP_EOL;\n        }\n    }\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Infrastructure_as_a_service",
+    "related": [
+        "paas",
+        "saas",
+        "cloud",
+        "application",
+        "docker",
+        "hosting",
+        "pay-as-you-go",
+        "serverless"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Infrastructure_as_a_service"
+        }
+    ],
+    "tags": [
+        "cloud",
+        "infrastructure",
+        "devops",
+        "hosting"
+    ],
+    "packagist": [
+        "aws/aws-sdk-php"
+    ],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": {
+        "AWS EC2": "https://aws.amazon.com/ec2/",
+        "Google Compute Engine": "https://cloud.google.com/compute",
+        "Azure Virtual Machines": "https://azure.microsoft.com/en-us/products/virtual-machines/"
+    },
+    "popularity": "",
+    "modified": "Fri, 18 Sep 2026 05:06:57 +0000"
+}

@@ -1,0 +1,50 @@
+{
+    "id": "max_execution_time",
+    "name": "max_execution_time",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/max_execution_time.html",
+    "aliases": [],
+    "description": "The ``max_execution_time`` directive sets the maximum amount of time that PHP will work on an application. \n\nThe default value is 30 seconds. It may be lowered down to 1 second, or set to infinity with -1.\n\n``max_execution_time`` may be changed from the code with ``set_time_limit()``. This function may also be disabled, and not available.\n\nIt is recommended to set this value as low as possible, and optimize the code to run below that limit.",
+    "code": "",
+    "documentation": "https://www.php.net/manual/en/ini.core.php#ini.max-execution-time",
+    "related": [
+        "directive",
+        "execution-time",
+        "php",
+        "ini_set",
+        "infinite-loop"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/ini.core.php#ini.max-execution-time"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP max_execution_time Guide",
+            "url": "https://www.a2hosting.com/kb/developer-corner/php/using-php.ini-directives/php-maximum-execution-time"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "What is the best value for max_execution_time in PHP?",
+            "url": "https://tideways.com/profiler/blog/what-is-the-best-value-for-max-execution-time-in-php"
+        }
+    ],
+    "tags": [
+        "directive"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sat, 08 Aug 2026 08:10:54 +0000"
+}

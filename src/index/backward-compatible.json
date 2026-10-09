@@ -1,0 +1,47 @@
+{
+    "id": "backward-compatible",
+    "name": "Backward Compatible",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/backward-compatible.html",
+    "aliases": [],
+    "description": "A feature is backward compatible when it can be handled by a previous version than its version of publication. It is automatically ignored by the previous versions, either by design or by luck.\n\nFor example, the attributes ``#[Attribute]`` are backward compatible: they were introduced in version 8.0, and their syntax, starting as a comment with a ``#``, is backward compatible: it is processed as a comment in previous PHP versions.\n\nNote that this example is partially backward compatible: it may work or not. \n\nThe contrary of a backward compatible feature is backward incompatible.",
+    "code": "<?php\n\n    #[Attribute] // This is backward compatible\n    class Elephpant {\n        function trumpet(#[AttributeForParameter] $trunk) { // This is not backward compatible\n\n        }\n    }\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Backward_compatibility",
+    "related": [
+        "backward-incompatible",
+        "forward-compatible",
+        "legacy",
+        "migration",
+        "polyfill"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Backward_compatibility"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Roave: BackwardCompatibilityCheck",
+            "url": "https://github.com/Roave/BackwardCompatibilityCheck"
+        }
+    ],
+    "tags": [
+        "compatibility"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+}

@@ -1,0 +1,58 @@
+{
+    "id": "env-file",
+    "name": ".env File",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/env-file.html",
+    "aliases": [
+        "dotenv"
+    ],
+    "description": "Environment files, also called dotenv files, are a way to store and access environment variables, and store them in a file, not in the OS environment.\n\nThe ``env`` file holds a set of environment variables and their values. It is loaded instead of the actual operating system value. That way, there may be several sets of values for the variables, each of them stored in a distinct file, and accessed via the file name.",
+    "code": "",
+    "documentation": "https://www.dotenv.org/",
+    "related": [
+        "environment-variable",
+        "environment"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.dotenv.org/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Mastering .env Files in PHP: Concepts, Tools, and Best Practices",
+            "url": "https://blog.devsense.com/2025/mastering-.env-files-in-php-concepts-tools-and-best-pra/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "What is .env?",
+            "url": "https://upsun.com/blog/what-is-env-file/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Dotenvx",
+            "url": "https://dotenvx.com/"
+        }
+    ],
+    "tags": [
+        "os",
+        "variable"
+    ],
+    "packagist": [
+        "vlucas/phpdotenv",
+        "symfony/dotenv"
+    ],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sun, 30 Aug 2026 10:14:13 +0000"
+}

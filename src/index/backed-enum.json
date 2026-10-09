@@ -1,0 +1,48 @@
+{
+    "id": "backed-enum",
+    "name": "Backed Enum",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/backed-enum.html",
+    "aliases": [],
+    "description": "Backed enums are enumeration which a string or integer equivalent for each of its cases. Each equivalent, like the cases names, must be distinct. They also must be of the type of the backed enumeration: not type juggling on numeric strings or integers happens.\n\nNon backed enumerations are called unbacked enumerations.",
+    "code": "<?php\n\nenum Suits: string {\n    case HEART = 'heart';\n    case CLUB = 'club';\n    case DIAMOND = 'diamond';\n    case SPADE = 'spade';\n}\n\nenum Prime_digits: int {\n    case TWO = 2;\n    case THREE = 3;\n    case FIVE = 5;\n    case SEVEN = 7;\n}\n\n?>",
+    "documentation": "https://www.php.net/manual/en/language.types.enumerations.php",
+    "related": [
+        "enum",
+        "unbacked-enum",
+        "backed",
+        "http_build_query"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.types.enumerations.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Using PHP Backed Enums in Laravel with Testing",
+            "url": "https://dev.to/tegos/using-php-backed-enums-in-laravel-with-testing-1f6"
+        }
+    ],
+    "tags": [
+        "php interface"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [
+        "Enums/DuplicateCaseValue"
+    ],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "8.1",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Wed, 26 Aug 2026 10:49:40 +0000"
+}

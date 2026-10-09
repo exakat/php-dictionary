@@ -1,0 +1,55 @@
+{
+    "id": "microframework",
+    "name": "Micro-framework",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/microframework.html",
+    "aliases": [
+        "micro-framework"
+    ],
+    "description": "A micro-framework is a small, minimal framework that provide only the core essentials for routing and handling HTTP requests, without large stacks or heavy dependencies. Examples include ``Slim`` and ``Lumen``.",
+    "code": "",
+    "documentation": "https://en.wikipedia.org/wiki/Microframework",
+    "related": [
+        "framework",
+        "middleware",
+        "rest-api"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Microframework"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "flightPHP",
+            "url": "https://github.com/flightphp/core"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP frameworks",
+            "url": "https://www.exakat.io/php-framework-list/"
+        }
+    ],
+    "tags": [
+        "framework",
+        "micro"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": {
+        "Slim": "https://www.slimframework.com/"
+    },
+    "popularity": "",
+    "modified": "Fri, 18 Sep 2026 04:54:14 +0000"
+}

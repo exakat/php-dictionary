@@ -1,0 +1,50 @@
+{
+    "id": "liskov",
+    "name": "Liskov Substitution Principle (LSP)",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/liskov.html",
+    "aliases": [],
+    "description": "The Liskov Substitution Principle states that an object from a class and a sub-object, from a class that extends that object, must be interchangeable without breaking the program.",
+    "code": "",
+    "documentation": "https://en.wikipedia.org/wiki/Liskov_substitution_principle",
+    "related": [
+        "type-contravariance",
+        "type-covariance",
+        "lsp"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Liskov_substitution_principle"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Liskov Substitution Principle in PHP",
+            "url": "https://php.watch/articles/php-lsp"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Liskov Substitution Principle in PHP/Laravel",
+            "url": "https://mohasin-dev.medium.com/how-to-use-liskov-substitution-principle-in-php-laravel-df253fd38c8"
+        }
+    ],
+    "tags": [
+        "concept",
+        "acronym",
+        "solid"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Wed, 26 Aug 2026 11:04:10 +0000"
+}

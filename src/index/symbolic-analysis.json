@@ -1,0 +1,53 @@
+{
+    "id": "symbolic-analysis",
+    "name": "Symbolic Analysis",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/symbolic-analysis.html",
+    "aliases": [
+        "symbolic-execution"
+    ],
+    "description": "Symbolic analysis, also called symbolic execution, is a static analysis technique that executes a program with symbolic values instead of concrete inputs. Rather than tracking the actual runtime value of a variable, it tracks a symbolic expression that describes all possible values the variable could hold.\n\nAs the analysis follows each branch in the control flow graph, it accumulates a path condition: a logical formula that describes the constraints on the symbolic inputs that would cause execution to reach that point. A constraint solver, ``SAT`` or ``SMT`` solver, is then used to check whether the path condition is satisfiable, and if so to produce a concrete witness input.\n\nApplications include:\n\n+ Automated test input generation\n+ Finding execution paths that reach a security sink with attacker-controlled data\n+ Verifying the absence of certain classes of bugs along all paths\n\nSymbolic analysis is more powerful than pattern-based or data flow analysis but is computationally expensive and suffers from path explosion in large programs.",
+    "code": "<?php\n\n    function check(int $trunk): string {\n        // Symbolic analysis explores both branches and generates inputs for each\n        if ($trunk > 0) {\n            return 'positive';\n        }\n        return 'non-positive';\n    }\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Symbolic_execution",
+    "related": [
+        "analysis",
+        "control-flow-analysis",
+        "data-flow-analysis",
+        "semantic-analysis",
+        "pattern-based-analysis",
+        "lexical-analysis",
+        "sast",
+        "taint"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Symbolic_execution"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "SymPHP",
+            "url": "https://github.com/secureweb/symphp"
+        }
+    ],
+    "tags": [
+        "analysis",
+        "static analysis"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Fri, 11 Sep 2026 09:09:22 +0000"
+}

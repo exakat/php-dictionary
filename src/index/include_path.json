@@ -1,0 +1,47 @@
+{
+    "id": "include_path",
+    "name": "include_path",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/include_path.html",
+    "aliases": [],
+    "description": "The ``include_path`` directive sets the directories where the file functions look for files to read or write files. \n\nFile functions may be ``require()``, ``include()``, ``fopen()``, ``file()``, ``readfile()``, ``file_get_contents()``.\n\n``include_path`` default to ``.``, the current directory. It may list several directories, using ``::`` as a separator.",
+    "code": "",
+    "documentation": "https://www.php.net/manual/en/ini.core.php#ini.include-path",
+    "related": [
+        "open_basedir",
+        "file_put_contents"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/ini.core.php#ini.include-path"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "include",
+            "url": "https://www.php.net/manual/en/function.include.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "set_include_path",
+            "url": "https://www.php.net/manual/en/function.set-include-path.php"
+        }
+    ],
+    "tags": [
+        "directive"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sun, 16 Aug 2026 07:46:07 +0000"
+}

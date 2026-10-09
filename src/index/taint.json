@@ -1,0 +1,56 @@
+{
+    "id": "taint",
+    "name": "Taint Analysis",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/taint.html",
+    "aliases": [],
+    "description": "Taint analysis is a security technique used to identify and trace potentially unsafe or untrusted data as it flows through a program. In the context of web development, taint analysis is often employed to find security vulnerabilities related to user input and data handling.\n\nThe basic idea behind taint analysis is to track and label data that originates from untrusted sources, such as user input, and then trace how this tainted data is used throughout the application. By identifying and monitoring the flow of tainted data, developers can better understand and mitigate potential security risks, such as injection attacks and other vulnerabilities.\n\nThere was a taint extension until PHP 8.0. It was not ported further.",
+    "code": "\n<?php\n\n    $a = trim($_GET['a']);\n\n    $output    = \"Welcome, {$a} !!!\";\n\n    echo $output;\n    //Warning: main() [function.echo]: Attempt to echo a string that might be tainted\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Taint_checking",
+    "related": [
+        "security",
+        "injection",
+        "control-flow-analysis",
+        "crlf-injection",
+        "data-flow-analysis",
+        "ldap-injection",
+        "symbolic-analysis",
+        "psalm",
+        "shell-injection",
+        "ssrf",
+        "stored-xss"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Taint_checking"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Secure Your PHP Code With Taint Analysis by Qodana",
+            "url": "https://blog.jetbrains.com/qodana/2023/03/taint-analysis-by-qodana/"
+        }
+    ],
+    "tags": [
+        "concept",
+        "analysis",
+        "security",
+        "static analysis"
+    ],
+    "packagist": [],
+    "extensions": [
+        "taint"
+    ],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 13 Aug 2026 06:37:01 +0000"
+}

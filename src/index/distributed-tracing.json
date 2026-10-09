@@ -1,0 +1,53 @@
+{
+    "id": "distributed-tracing",
+    "name": "Distributed Tracing",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/distributed-tracing.html",
+    "aliases": [
+        "distributed-trace",
+        "opentelemetry-tracing"
+    ],
+    "description": "Distributed tracing, or a distributed trace, tracks a single request as it flows through multiple services in a distributed system. Each service records a span and propagates a trace context to downstream services via HTTP headers or message metadata. All spans sharing the same trace ID are assembled into a trace: a complete picture of the request's journey.\n\nWithout distributed tracing, debugging latency or errors in a microservices system means correlating logs across dozens of services manually. Distributed tracing provides a visual timeline, the waterfall diagram, showing which service took how long, where errors occurred, and how services depend on each other.\n\nThe W3C Trace Context standard, the ``traceparent`` header, defines the propagation format. OpenTelemetry is the vendor-neutral SDK and API for instrumenting PHP applications with OpenTelemetry tracing. Jaeger and Zipkin are common open-source backends; commercial alternatives include Datadog APM, New Relic, and Honeycomb.\n\nOpenTelemetry provides a native SDK for manual and automatic instrumentation. The ``ext-opentelemetry`` extension enables zero-code instrumentation for frameworks and HTTP clients.",
+    "code": "<?php\n\n    use OpenTelemetry\\API\\Globals;\n    \n    // Manual span creation\n    $tracer = Globals::tracerProvider()->getTracer('order-service');\n    \n    $span = $tracer->spanBuilder('place-order')->startSpan();\n    $scope = $span->activate();\n    \n    try {\n        $order = $orderService->place($data);\n        $span->setAttribute('order.id', $order->id);\n    } catch (\\Throwable $e) {\n        $span->recordException($e);\n        $span->setStatus(\\OpenTelemetry\\API\\Trace\\StatusCode::STATUS_ERROR);\n        throw $e;\n    } finally {\n        $scope->detach();\n        $span->end();\n    }\n    \n    // The traceparent header is propagated automatically by the SDK\n    // when making outbound HTTP calls via PSR-18 clients with the OTel middleware.\n\n?>",
+    "documentation": "https://opentelemetry.io/docs/languages/php/",
+    "related": [
+        "trace",
+        "monitoring",
+        "microservice",
+        "distributed-systems",
+        "apm",
+        "telemetry"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://opentelemetry.io/docs/languages/php/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "W3C Trace Context",
+            "url": "https://www.w3.org/TR/trace-context/"
+        }
+    ],
+    "tags": [
+        "concept"
+    ],
+    "packagist": [
+        "open-telemetry/opentelemetry"
+    ],
+    "extensions": [
+        "opentelemetry"
+    ],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sun, 30 Aug 2026 10:13:55 +0000"
+}

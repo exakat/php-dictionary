@@ -1,0 +1,49 @@
+{
+    "id": "snapshot",
+    "name": "Snapshot",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/snapshot.html",
+    "aliases": [],
+    "description": "A snapshot captures the complete state of an object or aggregate at a specific point in time. It is commonly used as an optimization in event-sourced systems: instead of replaying the full event history to rebuild an aggregate, the system loads the latest snapshot and only replays events that occurred after it.\n\nIn testing, snapshot testing serializes the output of a component on the first run and stores it as a reference. Subsequent runs compare against this stored value, automatically detecting unintended changes to rendered output or computed results.\n\nThe Memento design pattern is the classical OOP formalization of the snapshot concept.",
+    "code": "<?php\n\nfinal class OrderSnapshot {\n    public function __construct(\n        public readonly string            $orderId,\n        public readonly OrderStatus       $status,\n        public readonly DateTimeImmutable $at,\n        public readonly int               $lastEventSequence,\n    ) {}\n}\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Memento_pattern",
+    "related": [
+        "event-sourcing",
+        "immutable",
+        "serialization",
+        "test",
+        "design-pattern",
+        "object-persistence",
+        "ddd"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Memento_pattern"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Spatie Snapshot Testing",
+            "url": "https://github.com/spatie/pest-plugin-snapshots"
+        }
+    ],
+    "tags": [
+        "design pattern"
+    ],
+    "packagist": [
+        "spatie/pest-plugin-snapshots"
+    ],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Fri, 19 Jun 2026 21:23:53 +0000"
+}

@@ -1,0 +1,57 @@
+{
+    "id": "is_array",
+    "name": "is_array()",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/is_array.html",
+    "aliases": [],
+    "description": "``is_array()`` is a PHP native function that checks whether a variable is of type array. It returns ``true`` if the value is an array, ``false`` otherwise.\n\nThis function is essential for type checking and validation before performing array operations. It is commonly used in:\n\n+ Input validation to ensure expected data structures\n+ Conditional logic before array manipulation functions\n+ Type-safe function implementations\n+ Preventing errors when working with mixed-type data\n\n``is_array()`` distinguishes arrays from other PHP data types, including objects, even if those objects implement ``ArrayAccess`` or ``IteratorAggregate`` interfaces. For checking whether a value is traversable or can be used in a ``foreach`` loop, consider ``is_iterable()`` instead.",
+    "code": "<?php\n\n    $data = [1, 2, 3];\n    echo is_array($data) ? 'Array' : 'Not an array'; // Array\n\n    $string = 'hello';\n    echo is_array($string) ? 'Array' : 'Not an array'; // Not an array\n\n    // Validation before array operations\n    $input = json_decode('[1, 2, 3]', true);\n    if (is_array($input)) {\n        $result = array_map(fn($n) => $n * 2, $input);\n        print_r($result);\n    }\n\n?>",
+    "documentation": "https://www.php.net/manual/en/function.is-array.php",
+    "related": [
+        "array",
+        "is_object",
+        "is_string",
+        "is_int",
+        "is_bool",
+        "is_iterable",
+        "gettype",
+        "type-checking",
+        "arrayaccess",
+        "arrayobject",
+        "validation"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/function.is-array.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Type comparison tables",
+            "url": "https://www.php.net/manual/en/types.comparisons.php"
+        }
+    ],
+    "tags": [
+        "function",
+        "type-checking",
+        "validation"
+    ],
+    "packagist": [],
+    "extensions": [
+        "standard"
+    ],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 16 Jul 2026 14:20:33 +0000"
+}

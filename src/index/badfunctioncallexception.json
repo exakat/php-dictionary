@@ -1,0 +1,47 @@
+{
+    "id": "badfunctioncallexception",
+    "name": "BadFunctioncallException",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/badfunctioncallexception.html",
+    "aliases": [],
+    "description": "The ``BadFunctioncallException`` exception is thrown if the callback refers to an undefined function or if some arguments are missing.\n\n``BadFunctioncallException`` is defined by the SPL extension. It is not natively used.",
+    "code": "<?php\n\n    function trumpet(string $sound) {\n        if (empty($sound)) {\n           throw new \\UnexpectedValueException('trumpet() expects a non-empty string');\n        }\n    }\n\n?>",
+    "documentation": "https://www.php.net/manual/en/class.lengthexception.php",
+    "related": [
+        "exception",
+        "logicexception"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/class.lengthexception.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP: SPL Exceptions",
+            "url": "https://www.php.net/manual/en/spl.exceptions.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "How to use built-in SPL exception classes for better error handling",
+            "url": "https://codeutopia.net/blog/2011/05/06/how-to-use-built-in-spl-exception-classes-for-better-error-handling/"
+        }
+    ],
+    "tags": [
+        "exception"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "5.1",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+}

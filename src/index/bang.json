@@ -1,0 +1,53 @@
+{
+    "id": "bang",
+    "name": "Bang !",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/bang.html",
+    "aliases": [
+        "!",
+        "exclamation-mark"
+    ],
+    "description": "``!``, also called the exclamation mark, is a character, used in various situations.\n\n+ Not operator: ``var_dump(!1)`` is false\n+ As a wildcard in regex\n+ As a wildcard with ``fnmatch()``.",
+    "code": "<?php\n\n    var_dump(!1);\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Exclamation_mark",
+    "related": [
+        "tilde",
+        "fnmatch",
+        "not"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Exclamation_mark"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "An Essential Guide to the PHP NOT Operator By Examples",
+            "url": "https://www.phptutorial.net/php-tutorial/php-not-operator/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Double not (!!) operator in PHP",
+            "url": "https://www.geeksforgeeks.org/php/double-not-operator-in-php/"
+        }
+    ],
+    "tags": [
+        "character"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Tue, 01 Sep 2026 06:21:34 +0000"
+}

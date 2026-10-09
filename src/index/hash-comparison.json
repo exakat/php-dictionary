@@ -1,0 +1,46 @@
+{
+    "id": "hash-comparison",
+    "name": "Hash Comparisons",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/hash-comparison.html",
+    "aliases": [],
+    "description": "Cryptographic hashes are usually represented by strings. As such, they are subjects to type juggling, and they should be compared with the identity operator, or a dedicated function.",
+    "code": "<?php\n\n$expected  = crypt('12345', '$2a$07$usesomesillystringforsalt$');\n$correct   = crypt('12345', '$2a$07$usesomesillystringforsalt$');\n$incorrect = crypt('apple', '$2a$07$usesomesillystringforsalt$');\n\nvar_dump(hash_equals($expected, $correct));\nvar_dump(hash_equals($expected, $incorrect));\n\nvar_dump($expected == $correct);\nvar_dump($expected == $incorrect);\n\nvar_dump($expected === $correct);\nvar_dump($expected === $incorrect);\n\n?>",
+    "documentation": "https://www.php.net/manual/en/function.hash-equals.php",
+    "related": [
+        "hash",
+        "type-juggling",
+        "identity-comparison",
+        "strict-comparison",
+        "hash_equals",
+        "security"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/function.hash-equals.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Can you find the bug in this piece of php code?",
+            "url": "https://dev.to/nombrekeff/can-you-find-the-bug-in-this-piece-of-php-code-g7l"
+        }
+    ],
+    "tags": [
+        "security"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sat, 08 Aug 2026 08:10:54 +0000"
+}

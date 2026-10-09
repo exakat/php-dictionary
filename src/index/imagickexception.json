@@ -1,0 +1,45 @@
+{
+    "id": "imagickexception",
+    "name": "ImagickException",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/imagickexception.html",
+    "aliases": [],
+    "description": "The ``ImagickException`` exception is thrown when an error happens while processing an ``Imagick`` operation. Any of the ``Imagick`` functions may throw that exception.",
+    "code": "<?php\n\n    try {\n        $imagick->gammaImage($correction, \\Imagick::CHANNEL_ALL);\n    } catch (\\ImagickException $e) {\n        throw new RuntimeException('Failed to apply gamma correction to the image');\n    }\n\n?>",
+    "documentation": "https://www.php.net/manual/en/book.imagick.php",
+    "related": [
+        "exception",
+        "imagick",
+        "imagickpixelexception"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/book.imagick.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "How to Fix 'ImagickException: not authorized'",
+            "url": "https://andy-carter.com/blog/how-to-fix-imagickexception-not-authorized"
+        }
+    ],
+    "tags": [
+        "exception"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [
+        "Extensions/Extimagick"
+    ],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 17 Sep 2026 08:05:51 +0000"
+}

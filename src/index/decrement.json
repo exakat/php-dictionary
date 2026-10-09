@@ -1,0 +1,49 @@
+{
+    "id": "decrement",
+    "name": "Decrement",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/decrement.html",
+    "aliases": [],
+    "description": "Decrement refers to the process of decreasing or subtracting a small amount from a value, or simply one unit.\n\nDecrement usually refers to the pre-decrement and post-decrement operators, written ``--``. Decrement applies to numbers, both decimal and integers. Unlike increment, it does not apply to strings: there is no string decrement, and ``--`` on a non-numeric string leaves it unchanged. Decrement works on null: it always produces null, as decrementing null has no effect.",
+    "code": "<?php\n\n    $a = 1;\n\n    echo --$a; // pre minus minus : displays 0, and $a ends with 0\n\n    echo $a--; // post minus minus : displays 0, and $a ends with -1\n\n    echo $a -= 1; // decrement : displays -2\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Increment_and_decrement_operators",
+    "related": [
+        "pre-increment",
+        "post-increment",
+        "increment",
+        "string-increment"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Increment_and_decrement_operators"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Incrementing/Decrementing Operators",
+            "url": "https://www.php.net/manual/en/language.operators.increment.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Arithmetic operators",
+            "url": "https://www.php.net/manual/en/language.operators.arithmetic.php"
+        }
+    ],
+    "tags": [
+        "concept"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Fri, 09 Oct 2026 17:22:16 +0000"
+}

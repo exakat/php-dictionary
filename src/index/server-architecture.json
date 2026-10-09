@@ -1,0 +1,47 @@
+{
+    "id": "server-architecture",
+    "name": "Server Architecture",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/server-architecture.html",
+    "aliases": [],
+    "description": "Server architecture refers to the design and organization of the hardware, software, networks, and protocols that make up a server system. It defines how servers are structured, how they communicate, and how they handle requests, data, and resources. The goal of server architecture is to ensure reliability, scalability, performance, security, and maintainability of the server infrastructure.\n\nKey Aspects of Server Architecture: \n\n+ Hardware: physical servers\n+ Software: what application runs on which server\n+ Networking: how traffic is distributed between the servers\n+ Storage: what are the different storage options, local or remote, short or long term\n+ Server Roles: what is the logical role, or roles of a server\n\nThe server architecture may include production, pre-production and development servers.",
+    "code": "",
+    "documentation": "https://en.wikipedia.org/wiki/Software_architecture",
+    "related": [
+        "scaling",
+        "architecture",
+        "code-architecture",
+        "load-balancer"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Software_architecture"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Scaling PHP Applications: Strategies for Meeting New Demand",
+            "url": "https://www.zend.com/blog/scaling-php"
+        }
+    ],
+    "tags": [
+        "architecture",
+        "hosting"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Wed, 19 Aug 2026 08:16:58 +0000"
+}

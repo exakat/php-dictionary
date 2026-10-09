@@ -1,0 +1,63 @@
+{
+    "id": "uri-extension",
+    "name": "URI Extension",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/uri-extension.html",
+    "aliases": [],
+    "description": "``uri`` is an extension that provides APIs to securely parse and modify URI and URL according to the RFC 3986 and ``WHATWG`` URL standards. It is powered by the ``uriparser``, RFC 3986, and ``Lexbor``, ``WHATWG URL``, libraries. It offers the ``uri`` class.\n\nThis extension is meant to replace the ``parse_url()`` function. It also provides two ways to manipulate, parse and produce URLs, which were not available until PHP 8.5.",
+    "code": "<?php\n\n// PHP 8.5 and newer\nuse Uri\\Rfc3986\\Uri;\n\n$uri = new Uri('https://php.net/releases/8.5/en.php');\nvar_dump($uri->getHost());\n// string(7) php.net\n\n// PHP 8.4 and older\n$components = parse_url('https://php.net/releases/8.4/en.php');\nvar_dump($components['host']);\n// string(7) php.net\n\n?>",
+    "documentation": "https://www.php.net/manual/en/book.uri.php",
+    "related": [
+        "uri",
+        "url",
+        "uri-class"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/book.uri.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "WHATWG",
+            "url": "https://en.wikipedia.org/wiki/WHATWG"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "RFC-3986",
+            "url": "https://tools.ietf.org/html/rfc3986"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP 8.5 enables secure URI and URL parsing",
+            "url": "https://www.infoworld.com/article/4094261/php-8-5-enables-secure-uri-and-url-parsing.html"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "New Classes and Interfaces",
+            "url": "https://www.php.net/manual/en/migration85.new-classes.php"
+        }
+    ],
+    "tags": [
+        "extension",
+        "http",
+        "rfc",
+        "url"
+    ],
+    "packagist": [
+        "league/uri"
+    ],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 03 Sep 2026 14:36:03 +0000"
+}

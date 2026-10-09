@@ -1,0 +1,62 @@
+{
+    "id": "escape-sequence",
+    "name": "Escape Sequences",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/escape-sequence.html",
+    "aliases": [
+        "string-sequence"
+    ],
+    "description": "Escape sequences, also called string sequences when found inside string literals, are sequences of characters with a special meaning. Most of the time, the literal value of the character displayed is its meaning, while, sometimes, there are other hidden meanings.\n\nEscape sequences are dedicated to a technology, and they are rarely the same between two technologies, or even, between two engines dedicated to that technology.\n\nHere are some examples of escape sequences from PHP: \n\n+ ``\\n``: new line\n+ ``\\t``: horizontal tabulation\n+ ``\"\\\"\"``: double quote, inside a double quoted-string\n+ ``\\'`` This is not an escape sequence: single-quoted strings do not recognize this\n+ ``\\u{01f418}``: a unicode codepoint, representing an elephpant\n+ ``\\200``: a character in octal notation\n+ ``\\x69``: a character in hexadecimal notation\n\nHere are some examples of escape sequences from HTML: \n\n+ &acute;, an acute accent\n+ &quot;, double quote\n+ There are many more of them. See external links.\n\nEscape sequences should not be confused with escape characters, though they are related: some escape sequences are introduced by an escape character. Others rely on a format.",
+    "code": "<?php\n\n    // \\1 is an escape sequence that represents the first capturing parenthsis. \n    // It is a special meaning for REGEX.\n    preg_match('/(.)\\1/', $string);\n    \n    // Displays AA\n    echo \"A\\101\";\n\n?>",
+    "documentation": "https://www.php.net/manual/en/regexp.reference.escape.php",
+    "related": [
+        "double-quote",
+        "codepoint",
+        "e",
+        "emoji",
+        "escape-data"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/regexp.reference.escape.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "String literals (MySQL)",
+            "url": "https://dev.mysql.com/doc/refman/8.0/en/string-literals.html"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Lexical Structure (PostgreSQL)",
+            "url": "https://www.postgresql.org/docs/current/sql-syntax-lexical.html#:~:text=PostgreSQL%20also%20accepts%20%E2%80%9Cescape%E2%80%9D%20string,e.g.%2C%20E'foo'%20."
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "INI file",
+            "url": "https://en.wikipedia.org/wiki/INI_file."
+        }
+    ],
+    "tags": [
+        "syntax",
+        "concept",
+        "character",
+        "animal"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [
+        "Security/SQLite3RequiresSingleQuotes"
+    ],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sun, 30 Aug 2026 10:49:13 +0000"
+}

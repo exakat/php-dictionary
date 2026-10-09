@@ -1,0 +1,49 @@
+{
+    "id": "one-liner",
+    "name": "One Liner",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/one-liner.html",
+    "aliases": [],
+    "description": "A one-liner refers to a concise and often single expression that accomplishes a specific task. It's a shorthand way of expressing functionality in a compact form. \n\nOne-liners are supposed to fit on one line. The line is also supposed to be limited in size.\n\nOne-liners tend to pack a lot of operations in one expression. When used aggressively, one-liners become less readable, and more complex.\n\nSome commands have a short and a long syntax, such as ``if-then-else`` and the ternary operator ``condition ? then : else``.",
+    "code": "<?php\n\n    // one-liner\n    $condition ? doSomething() : doSomethingElse();\n    \n    // equivalent to above, not a one liner\n    if ($condition) {\n        doSomething();\n    } else {\n        doSomethingElse();\n    }\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/One-liner_program",
+    "related": [
+        "webshell",
+        "golf"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/One-liner_program"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Avoiding one-liners in PHP",
+            "url": "https://localheinz.com/articles/2023/03/18/avoiding-one-liners-in-php/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Deconstructing PHP \u2018One-liner\u2019 Webshells",
+            "url": "https://tanzilr.medium.com/decontructing-php-one-liner-webshells-625f6cbb96ff"
+        }
+    ],
+    "tags": [
+        "_spacecolonOK",
+        "syntax",
+        "folklore"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Mon, 24 Aug 2026 07:40:51 +0000"
+}

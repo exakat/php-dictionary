@@ -1,0 +1,45 @@
+{
+    "id": "__autoload",
+    "name": "__autoload",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/__autoload.html",
+    "aliases": [],
+    "description": "``__autoload()`` was the name of the userland function, used to load classes when they were not found yet in the current execution environment. \n\n``__autoload()`` was later replaced with ``spl_autoload_register()``, which allows the composition of multiple autoloading methods.",
+    "code": "<?php\n\n    function __autoload($name) {\n        if (file_exists(classes/$name.php)) {\n            include classes/$name.php;\n        }\n    }\n\n?>",
+    "documentation": "https://www.php.net/manual/en/language.oop5.autoload.php",
+    "related": [
+        "autoload"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.oop5.autoload.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "spl_autoload_register",
+            "url": "https://www.php.net/manual/en/function.spl-autoload-register.php"
+        }
+    ],
+    "tags": [
+        "removed feature"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [
+        "Php/Autoload"
+    ],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "5.0",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": {
+        " __autoload() is no longer supported, use spl_autoload_register() instead": "__autoload()-is-no-longer-supported,-use-spl_autoload_register()-instead"
+    },
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 17 Sep 2026 08:01:50 +0000"
+}

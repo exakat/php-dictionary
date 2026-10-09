@@ -1,0 +1,49 @@
+{
+    "id": "ellipsis",
+    "name": "Ellipsis",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/ellipsis.html",
+    "aliases": [],
+    "description": "Ellipsis operator is the ``...`` operator. It also bears the name of three dots, and even ``dot dot dot``. \n\nIt is used to implements the array spread feature, and the variadic arguments. The actual feature depends on the context. \n\nEllipsis is the classic punctuation description of the operator, and it applies to both features.",
+    "code": "<?php\n\n$array = [1, 2, 3];\n$more = [...$array, 4, 5];\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Ellipsis",
+    "related": [
+        "array-spread",
+        "variadic",
+        "three-dots"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Ellipsis"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "The many uses of ... ellipsis operator in PHP",
+            "url": "https://www.amitmerchant.com/the-many-uses-of-ellipsis-operator-in-php/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "The Splat Operator In PHP",
+            "url": "https://www.hashbangcode.com/article/splat-operator-php"
+        }
+    ],
+    "tags": [
+        "token",
+        "feature"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "5.6",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sat, 08 Aug 2026 08:10:54 +0000"
+}

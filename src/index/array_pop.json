@@ -1,0 +1,48 @@
+{
+    "id": "array_pop",
+    "name": "array_pop()",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/array_pop.html",
+    "aliases": [],
+    "description": "``array_pop()`` removes the last inserted element in an array, and returns it. The original array is reduced by one element.\n\n``array_pop()`` removes the last element and the last key of the array. The operation is quick, ``O(1)`` of big O complexity. \n\n``array_pop()`` is the opposite operation of ``array_push()`` and the ``[]`` append operator. With these functions, it is possible to build FIFO stacks.\n\n``array_pop()`` returns the poped value, and modifies the source array in place.\n",
+    "code": "<?php\n\n    $array = [1, 2, 3, 4, 5];\n    echo array_pop($array); // 5\n    // $array == [1, 2, 3, 4];\n\n    $array = [1, 2, 3, 4];\n    $array[] = -2;\n    echo array_pop($array); // -2\n    \n?>",
+    "documentation": "https://www.php.net/manual/fr/function.array-pop.php",
+    "related": [
+        "append",
+        "array_push",
+        "fifo",
+        "array_shift",
+        "array_unshift",
+        "pop"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/fr/function.array-pop.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Introduction to Stacks & Queues in PHP",
+            "url": "https://dev.to/matusstafura/introduction-to-stacks-queues-in-php-1lpf"
+        }
+    ],
+    "tags": [
+        "array"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Tue, 01 Sep 2026 05:31:03 +0000"
+}

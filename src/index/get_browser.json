@@ -1,0 +1,51 @@
+{
+    "id": "get_browser",
+    "name": "get_browser()",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/get_browser.html",
+    "aliases": [],
+    "description": "``get_browser()`` is a PHP native function that looks up the capabilities of a browser, based on its user agent string, and returns them as an object or an array.\n\n``get_browser()`` relies on the ``browscap`` directive in ``php.ini``, which must point to a local copy of the ``browscap.ini`` database, an external file mapping user agent signatures to browser names, versions, and capabilities such as support for frames, cookies, or JavaScript. Without a configured ``browscap`` file, ``get_browser()`` emits a warning and returns ``false``.\n\nIf the optional ``user_agent`` argument is omitted, PHP uses the value of ``$_SERVER['HTTP_USER_AGENT']`` for the current request.\n\nThe ``browscap.ini`` approach is considered obsolete for new projects: it is difficult to keep up to date, degrades performance when the file is large, and has been superseded by client-side feature detection or the User-Agent Client Hints proposal.\n",
+    "code": "<?php\n\n    // Requires browscap = /path/to/browscap.ini in php.ini\n    $browser = get_browser(null, true);\n\n    echo $browser['browser'];        // e.g. 'Chrome'\n    echo $browser['platform'];       // e.g. 'Linux'\n    var_dump($browser['javascript']); // true\n\n?>",
+    "documentation": "https://www.php.net/manual/en/function.get-browser.php",
+    "related": [
+        "php.ini",
+        "directive",
+        "user-agent",
+        "feature-detection"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/function.get-browser.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "browscap and get_browser in PHP",
+            "url": "https://medium.com/enekochan/browscap-and-get-browser-in-php-9ccc6e353a96"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP standalone get_browser() for Browscap",
+            "url": "https://alexandre.alapetite.fr/doc-alex/php-local-browscap/index.en.html"
+        }
+    ],
+    "tags": [
+        "native function"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sun, 30 Aug 2026 07:37:49 +0000"
+}

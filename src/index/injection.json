@@ -1,0 +1,56 @@
+{
+    "id": "injection",
+    "name": "Injection",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/injection.html",
+    "aliases": [],
+    "description": "Injection is the usage of a resource, such as data, object or services, that is provided to the method, by the caller.\n\nThere are good injections, such as the dependency injection.\n\nThere are bad injections: all the security ones. SQL injection, PHP code injection, LDAP injection, CRLF injection, CSV injection, XML injection, etc. Those attempt to change reroute the execution of the method to gain access to unprotected resources.",
+    "code": "",
+    "documentation": "https://owasp.org/www-community/Injection_Flaws",
+    "related": [
+        "crlf-injection",
+        "dependency-injection",
+        "sql-injection",
+        "code-injection",
+        "csv-injection",
+        "escape-character",
+        "ldap-injection",
+        "pentest",
+        "taint",
+        "svg",
+        "escapeshellarg",
+        "escapeshellcmd",
+        "image-injection",
+        "shell-injection"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://owasp.org/www-community/Injection_Flaws"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Server Side Template Injection - PHP",
+            "url": "https://swisskyrepo.github.io/PayloadsAllTheThings/Server%20Side%20Template%20Injection/PHP/"
+        }
+    ],
+    "tags": [
+        "concept",
+        "security",
+        "disambiguation"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sat, 08 Aug 2026 08:10:54 +0000"
+}

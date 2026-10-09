@@ -1,0 +1,58 @@
+{
+    "id": "paradigm",
+    "name": "Paradigm",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/paradigm.html",
+    "aliases": [],
+    "description": "A programming paradigm is basically a style or way of thinking about how the code is written. It's not a specific language, more like a philosophy that guides how code is structured, how problems are solved, and how data and behavior are organized.",
+    "code": "",
+    "documentation": "https://en.wikipedia.org/wiki/Programming_paradigm",
+    "related": [
+        "functional-programming",
+        "procedural-programming",
+        "defensive-programming",
+        "offensive-programming",
+        "railroad-programming",
+        "oop",
+        "imperative",
+        "aspect-oriented",
+        "aspect-programming",
+        "contract",
+        "declarative-programming"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Programming_paradigm"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Introduction to Programming Paradigms",
+            "url": "https://www.datacamp.com/blog/introduction-to-programming-paradigms"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Programming Paradigms \u2014 Procedural, Object Oriented, and Functional Programming",
+            "url": "https://mattburgess.medium.com/programming-paradigms-procedural-object-oriented-and-functional-programming-23a587c6a537"
+        }
+    ],
+    "tags": [
+        "paradigm"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Tue, 01 Sep 2026 06:21:35 +0000"
+}

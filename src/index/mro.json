@@ -1,0 +1,61 @@
+{
+    "id": "mro",
+    "name": "Method Resolution Order (MRO)",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/mro.html",
+    "aliases": [
+        "method-resolution-order",
+        "c3-linearization"
+    ],
+    "description": "Method Resolution Order, or MRO, is the algorithm, related to C3 linearization, that determines the order in which base classes are searched when looking up a method or property in an inheritance hierarchy.\n\nPHP MRO applies to class hierarchies, via ``extends`` and trait composition, via ``use``. When a method is called, PHP follows a specific resolution order to find the implementation: the class itself first, then traits, then parent classes, recursively.\n\nFor traits, since there may be several of them, PHP uses a priority system: methods defined in the using class override trait methods, and traits listed first take precedence over those listed later. Conflicts between traits must be resolved explicitly using ``insteadof`` and ``as`` operators.\n\nThis becomes critical in deep inheritance chains or with multiple traits, where the resolution order may not be immediately obvious and can lead to unexpected behavior if not managed carefully.",
+    "code": "<?php\n\n    trait Herd {\n        function hello() { return 'Herd'; }\n    }\n\n    trait Waterhole {\n        function hello() { return 'Waterhole'; }\n    }\n\n    class Elephpant {\n        use Herd, Waterhole {\n            Herd::hello insteadof Waterhole; // MRO: Herd wins over Waterhole\n            Waterhole::hello as helloWaterhole;\n        }\n    }\n\n    $elephpant = new Elephpant();\n    echo $elephpant->hello();  // Herd\n    echo $elephpant->helloWaterhole(); // Waterhole\n\n?>",
+    "documentation": "https://www.php.net/manual/en/language.oop5.traits.php#language.oop5.traits.conflict",
+    "related": [
+        "trait",
+        "inheritance",
+        "parent",
+        "child-class",
+        "overloading",
+        "override",
+        "late-static-binding",
+        "abstract-class"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.oop5.traits.php#language.oop5.traits.conflict"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "C3 linearization algorithm in Python",
+            "url": "https://www.geeksforgeeks.org/python/c3-linearization-algorithm-in-python/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "The Python 2.3 Method Resolution Order",
+            "url": "https://www.python.org/download/releases/2.3/mro/"
+        }
+    ],
+    "tags": [
+        "concept",
+        "oop",
+        "inheritance",
+        "acronym"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+}

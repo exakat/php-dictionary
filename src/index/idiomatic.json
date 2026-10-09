@@ -1,0 +1,53 @@
+{
+    "id": "idiomatic",
+    "name": "Idiomatic",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/idiomatic.html",
+    "aliases": [],
+    "description": "Idiomatic code follows the conventions and constructs that are natural to a specific language, rather than code that merely compiles or runs correctly. Idiomatic PHP favors the features and patterns that the language and its ecosystem consider normal, readable and maintainable, over literal translations of patterns from other languages.\n\nWriting idiomatic PHP means picking the tool the language actually offers for a given problem: a ``foreach`` loop instead of manual index bookkeeping, ``??`` instead of ``isset()`` ternaries, typed properties instead of ad-hoc docblocks. Non-idiomatic code often signals that the author is more familiar with another language, or that the codebase has not kept up with the evolution of PHP.\n\nA short list of idiomatic PHP features:\n\n+ ``foreach`` to iterate arrays and ``Traversable``, rather than indexed ``for`` loops;\n+ Null coalescing operator ``??`` and null coalescing assignment ``??=``, rather than ``isset()`` combined with a ternary;\n+ Nullsafe operator ``?->`` to chain calls on a possibly null object;\n+ Arrow functions ``fn() => ...`` for short closures that capture the outer scope implicitly;\n+ Spread operator ``...`` to unpack arrays into arguments, and variadic parameters to collect them;\n+ Named arguments to make call sites self-documenting and to skip optional parameters;\n+ Typed properties, constructor property promotion and readonly properties, rather than untyped properties documented only in a docblock;\n+ Enums, rather than class constants used to emulate a closed set of values;\n+ Match expressions, rather than ``switch`` with fallthrough or repeated ``break``;\n+ Interfaces and first-class callable syntax, rather than string or array callables;\n+ Exceptions for error handling, rather than mixed return values or error codes;\n+ PSR autoloading and Composer, rather than manual ``require``/``include`` chains.\n\nWhat counts as idiomatic changes with each PHP version: a construct that was idiomatic in version 5 may be superseded once a more direct language feature is introduced.",
+    "code": "<?php\n\n    // Not idiomatic: manual index, isset()+ternary, switch with breaks\n    for ($i = 0; $i < count($users); $i++) {\n        $user = $users[$i];\n        $name = isset($user['name']) ? $user['name'] : 'Anonymous';\n\n        switch ($user['role']) {\n            case 'admin':\n                $label = 'Administrator';\n                break;\n            case 'editor':\n                $label = 'Editor';\n                break;\n            default:\n                $label = 'Guest';\n        }\n    }\n\n    // Idiomatic PHP: foreach, ??, match\n    foreach ($users as $user) {\n        $name = $user['name'] ?? 'Anonymous';\n\n        $label = match ($user['role']) {\n            'admin'  => 'Administrator',\n            'editor' => 'Editor',\n            default  => 'Guest',\n        };\n    }\n\n?>",
+    "documentation": "https://www.php-fig.org/psr/psr-12/",
+    "related": [
+        "best-practice",
+        "coding-convention",
+        "convention",
+        "readable",
+        "match",
+        "coalesce",
+        "arrow-function",
+        "object-nullsafe-operator",
+        "named-parameter",
+        "enum"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php-fig.org/psr/psr-12/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "What does 'idiomatic' mean in programming?",
+            "url": "https://en.wikipedia.org/wiki/Programming_idiom"
+        }
+    ],
+    "tags": [
+        "concept",
+        "convention"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Tue, 01 Sep 2026 05:31:03 +0000"
+}

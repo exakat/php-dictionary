@@ -1,0 +1,51 @@
+{
+    "id": "structure",
+    "name": "Structure",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/structure.html",
+    "aliases": [],
+    "description": "A structure is a complex data or processing routine, such as a class, trait, interface, function, enumeration. \n\nStructure is an umbrella term to cover all the elements that have a definition, and are used somewhere else in the code. The usage may be name based, or anonymous.",
+    "code": "<?php\n\n    function trumpet() { echo __METHOD__; }\n\n    trumpet();\n\n?>",
+    "documentation": "https://www.php.net/manual/en/language.oop5.php",
+    "related": [
+        "anonymous",
+        "name",
+        "class",
+        "name-convention"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.oop5.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Understanding All Relations Between Classes, Interfaces, Traits, and Enums in PHP",
+            "url": "https://www.exakat.io/understanding-all-relations-between-classes-interfaces-traits-and-enums-in-php/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "The difference between Traits, Interfaces, and Abstract Classes in PHP",
+            "url": "https://aschmelyun.com/blog/the-difference-between-traits-interfaces-and-abstract-classes-in-php/"
+        }
+    ],
+    "tags": [
+        "php engine"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+}

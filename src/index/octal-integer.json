@@ -1,0 +1,49 @@
+{
+    "id": "octal-integer",
+    "name": "Octal Integer",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/octal-integer.html",
+    "aliases": [
+        "octal"
+    ],
+    "description": "Integers can be specified in octal, or base 8, notation. Octal integer syntax starts with ``0o``, zero-o, and only contains digits from 0 to 7.\n\nInitially, octal integers were formatted by simply starting with a initial 0. This features is still available, yet should be replaced with the less confusing syntax with ``0o``.",
+    "code": "<?php\n\n    // 12\n    $octal = 0O14;\n    $octal = 014;\n\n?>",
+    "documentation": "https://www.php.net/manual/en/language.types.integer.php",
+    "related": [
+        "integer",
+        "binary-integer",
+        "hexadecimal-integer",
+        "leading-zero-means-octal"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.types.integer.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP 8.1: Explicit Octal numeral notation",
+            "url": "https://php.watch/versions/8.1/explicit-octal-notation"
+        }
+    ],
+    "tags": [
+        "integer",
+        "feature"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": {
+        "Invalid Numeric Literal": "invalid-numeric-literal"
+    },
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+}

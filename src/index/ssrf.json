@@ -1,0 +1,55 @@
+{
+    "id": "ssrf",
+    "name": "Server-Side Request Forgery (SSRF)",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/ssrf.html",
+    "aliases": [
+        "server-side-request-forgery"
+    ],
+    "description": "Server-Side Request Forgery, or SSRF, is a vulnerability where an attacker induces the server itself to issue an HTTP or other network request to a destination the attacker controls or chooses, by supplying or influencing a URL that the server later fetches. Unlike ``CSRF``, which forges a request from a victim's browser toward an application, ``SSRF`` forges a request from the application's own server, using the server's network position and credentials.\n\nTypical entry points are any server-side code that fetches a user-supplied URL: webhook registration, image/PDF/archive fetchers and thumbnail generators, URL preview features, XML parsers that resolve external entities, and API integrations that accept a callback or resource URL.\n\nConsequences include:\n\n+ Reaching internal-only services that are not exposed to the public internet, effectively using the server as a proxy through the firewall.\n+ Querying cloud metadata endpoints, such as ``http://169.254.169.254/`` on ``AWS``, ``GCP``, ``Azure``, to steal instance credentials or tokens.\n+ Port-scanning the internal network by observing timing or error differences on the fetch.\n+ Reading local files if the fetching code also accepts ``file://`` or other non-HTTP schemes.\n\nMitigation strategies include:\n\n+ Validating the destination against an authorized list of hosts or URL patterns, rather than a denylist.\n+ Resolving the hostname and rejecting requests to private, loopback, and link-local IP ranges, ``127.0.0.0/8``, ``10.0.0.0/8``, ``169.254.0.0/16``, etc. before connecting.\n+ Disabling automatic redirect following, or re-validating the destination on every redirect hop.\n+ Restricting the allowed URL schemes to ``http``/``https`` and rejecting ``file://``, ``gopher://``, ``dict://``, and other wrapper.",
+    "code": "<?php\n\n    // Vulnerable: server fetches whatever URL the attacker supplies.\n    $url = $_GET['image_url'];\n    $data = file_get_contents($url); // could target http://169.254.169.254/ or an internal host\n    \n    // Safer: validate the host against an allowlist and resolved IP before fetching.\n    $host = parse_url($url, PHP_URL_HOST);\n    $ip   = gethostbyname($host);\n    \n    if (!in_array($host, ['images.example.com'], true) || filter_var($ip, FILTER_VALIDATE_IP, FILTER_FLAG_NO_PRIV_RANGE | FILTER_FLAG_NO_RES_RANGE) === false) {\n        throw new \\InvalidArgumentException('Untrusted URL');\n    }\n    \n    $data = file_get_contents($url);\n\n?>",
+    "documentation": "https://owasp.org/www-community/attacks/Server_Side_Request_Forgery",
+    "related": [
+        "csrf",
+        "injection",
+        "taint",
+        "sast",
+        "security",
+        "file_get_contents",
+        "curl",
+        "wrapper",
+        "vulnerability"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://owasp.org/www-community/attacks/Server_Side_Request_Forgery"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PortSwigger: SSRF",
+            "url": "https://portswigger.net/web-security/ssrf"
+        }
+    ],
+    "tags": [
+        "security",
+        "acronym",
+        "vulnerability"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Fri, 11 Sep 2026 09:41:01 +0000"
+}

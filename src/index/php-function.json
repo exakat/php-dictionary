@@ -1,0 +1,52 @@
+{
+    "id": "php-function",
+    "name": "PHP Native Function",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/php-function.html",
+    "aliases": [],
+    "description": "PHP defines its own native functions. They are part of the core extensions, which are always compiled, or extensions. \n\nPHP native functions do not have a definition available, unlike component or custom functions. They are handled by the PHP engine, and documented.\n\nFor example, ``strlen`` is a PHP native function, which measures the length of a string, in bytes. There are a lot of PHP functions available.\n\nPHP native functions may be disabled at startup, with the ``disabled_functions`` directive.\n\nIt is possible to reach PHP native function definitions on the php.net website by adding their name in the URL. For example: ``https://www.php.net/strlen``.\n",
+    "code": "<?php\n\n    print_r(get_defined_functions());\n\n?>",
+    "documentation": "https://www.php.net/manual/en/language.functions.php",
+    "related": [
+        "function",
+        "custom-function",
+        "canonical",
+        "php-manual"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.functions.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP Safari: see how they are used in the wild",
+            "url": "https://php-safari.com/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "php.net/strlen",
+            "url": "https://www.php.net/strlen"
+        }
+    ],
+    "tags": [
+        "structure",
+        "syntax"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Tue, 11 Aug 2026 20:50:53 +0000"
+}

@@ -1,0 +1,42 @@
+{
+    "id": "letter-logical",
+    "name": "Letter Logical Bug",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/letter-logical.html",
+    "aliases": [],
+    "description": "PHP offers two sets of operators for logical operations: the letter operators, ``and``, ``or``, ``xor``, and the symbol operators, ``&&``, ``||``, no xor in symbol.\n\nWhile they do the same, those operators have a difference: they do not share the same precedence. In particular, && has higher priority than = while = has higher priority than and. This leads to a difference in execution.\n\nWhen combining ``=`` and ``&&``, the logical operation happens before the assignation. While combining ``=`` and ``and`` actually ignore the logical operation.\n\nThe same problem affect yield, yield from, print, all assignations, including the short assignations, the ternary operator and the null-coalesce. \n\nIt is recommended to always use the symbol logical operators, which is closer to human expectations.",
+    "code": "<?php\n\n    $a = 1 && 3;\n    \n    $b = 1 and 3;\n    // equivalent to \n    ($b = 1) and 3;\n    \n    var_dump($a); // true\n    var_dump($b); // 1\n\n?>",
+    "documentation": "https://bugs.php.net/bug.php?id=10162",
+    "related": [
+        "bitwise-operator",
+        "logical-operator"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://bugs.php.net/bug.php?id=10162"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Understanding the Crucial Difference: &&/|| vs. and/or in PHP",
+            "url": "https://qisthidev.medium.com/understanding-the-crucial-difference-vs-and-or-in-php-34dd9bb72c7e"
+        }
+    ],
+    "tags": [
+        "classic bug"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sat, 08 Aug 2026 08:10:54 +0000"
+}

@@ -1,0 +1,57 @@
+{
+    "id": "interpolation",
+    "name": "Interpolation",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/interpolation.html",
+    "aliases": [],
+    "description": "Interpolation is the PHP feature that automatically replaces variables and public properties by their value in double-quoted strings and Heredoc syntax.",
+    "code": "<?php\n\n    $string = \"world\";\n    \n    echo \"Hello $string\"; \n    // displays Hello world\n\n?>",
+    "documentation": "https://www.php.net/manual/en/language.types.string.php#language.types.string.syntax.double",
+    "related": [
+        "string",
+        "concatenation",
+        "heredoc",
+        "variable",
+        "dollar",
+        "double-quote",
+        "single-quote"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.types.string.php#language.types.string.syntax.double"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "String Interpolation in PHP",
+            "url": "https://jeffreyeverhart.com/2019/11/21/string-interpolation-in-php/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Interpolating Strings in PHP",
+            "url": "https://reqbin.com/code/php/08tym4bq/php-string-interpolation-example"
+        }
+    ],
+    "tags": [
+        "string",
+        "feature"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [
+        "Type/StringHoldAVariable"
+    ],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sat, 08 Aug 2026 08:10:54 +0000"
+}

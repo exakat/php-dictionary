@@ -1,0 +1,60 @@
+{
+    "id": "callback",
+    "name": "Callbacks",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/callback.html",
+    "aliases": [],
+    "description": "Callbacks are functions or methods which are used as parameters for other functions. Such functions are used to customize the calling function. For example, ``array_map()``, which applies a callback to every element of an array, or ``usort()``, which sorts an array using a function.\n\nCallback is akin to a functioncall: it is actually hidden inside the caller function. \n\nCallback may be build with on closures, arrow-functions, native PHP functions, methods and static methods. They also use string, such as ``strtolower``, and array, such as ``[X::class, 'methodName']``, or ``[$object, 'methodName']``, syntax. In fact, anything that ``is_callable()`` may be used.",
+    "code": "<?php\n\n    $array = ['Damien', 'Dan', 'Daniel', 'Davey', 'David', 'Dennis', 'Derick', 'Dmitry', 'Dustin',];\n    $array = array_map('strtolower', $array);\n\n    //['damien', 'dan', 'daniel', 'davey', 'david', 'dennis', 'derick', 'dmitry', 'dustin',];\n\n?>",
+    "documentation": "https://www.php.net/manual/en/language.types.callable.php",
+    "related": [
+        "callable",
+        "closure",
+        "string",
+        "arrow-function",
+        "function",
+        "method",
+        "magic-method",
+        "array-callback",
+        "listener",
+        "one"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.types.callable.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "The Wonderful World of Callbacks",
+            "url": "https://markbakeruk.net/2021/12/22/the-wonderful-world-of-callbacks/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Using callbacks to prevent code duplication",
+            "url": "https://doeken.org/tip/using-callbacks-to-prevent-code-duplication"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "How to Use PHP Callbacks: Examples and Guide",
+            "url": "https://codernex.hashnode.dev/how-to-use-php-callbacks-examples-and-guide"
+        }
+    ],
+    "tags": [
+        "function"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sat, 08 Aug 2026 08:10:54 +0000"
+}

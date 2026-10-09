@@ -1,0 +1,53 @@
+{
+    "id": "micro-second",
+    "name": "Micro-second",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/micro-second.html",
+    "aliases": [
+        "microsecond"
+    ],
+    "description": "Micro-seconds are one thousandth of a second. They are accessible in different ways: \n\n+ ``Datetime`` and ``DateTimeImmutable`` objects, for dates\n+ ``microtime()`` for dates\n+ ``hrtime()`` for intervals\n\nDo not use ``date()`` to get micro-seconds, as the function always returns 0.",
+    "code": "<?php\n\n$ms = (new Datetime()->format('u'));\n\n$ms = microtime(true);\n\n?>",
+    "documentation": "https://www.php.net/manual/en/function.microtime.php",
+    "related": [
+        "microtime",
+        "hrtime",
+        "datetime"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/function.microtime.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP | microtime() Function",
+            "url": "https://www.geeksforgeeks.org/php/php-microtime-function/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "A Comprehensive Guide to PHP's time() and microtime() Functions",
+            "url": "https://reintech.io/blog/comprehensive-guide-php-time-microtime-functions"
+        }
+    ],
+    "tags": [
+        "micro",
+        "time"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Tue, 01 Sep 2026 06:21:35 +0000"
+}

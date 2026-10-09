@@ -1,0 +1,51 @@
+{
+    "id": "code-review",
+    "name": "Code Review",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/code-review.html",
+    "aliases": [],
+    "description": "Code review is a systematic process where developers examine each other's code to identify mistakes, improve quality, check local values usage and ensure adherence to best practices. \n\nCode review is especially valuable due to the language's flexibility, and multiple solutions to the same problem.\n\nThere may be several goals of a code review, including: \n\n+ Bug Detection: catch logical errors, or edge cases\n+ Security: identify vulnerabilities like SQL injection, XSS, or CSRF\n+ Consistency: ensure the code follows team or project standards\n+ Performance: optimize slow or inefficient code\n+ Knowledge Sharing: help team members understand the codebase.\n",
+    "code": "",
+    "documentation": "https://en.wikipedia.org/wiki/Code_review",
+    "related": [
+        "quality",
+        "pipeline",
+        "security",
+        "analysis",
+        "code-smell",
+        "pr",
+        "vcs-commit",
+        "inventory"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Code_review"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "How to streamline Code Reviews with Architecture Testing?",
+            "url": "https://kodus.io/en/php-code-review/"
+        }
+    ],
+    "tags": [
+        "quality",
+        "lifecycle"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Mon, 15 Jun 2026 11:03:58 +0000"
+}

@@ -1,0 +1,47 @@
+{
+    "id": "body",
+    "name": "Body",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/body.html",
+    "aliases": [],
+    "description": "The body, of a function or a command, is the related block that is commanded by the command. It is often enclosed in curly brackets ``{  }``, as for function or ``switch``, but sometimes optional, as for ``foreach`` or ``ifthen``.\n\nThe body is omitted in a method, when the method is ``abstract``. As an abstract method is only its signature, the body is replaced by a semi colon ``;``.",
+    "code": "<?php\n\n    abstract class Elephpant {\n        function trumpet() {\n            // This block is the body\n        }\n\n        // No body for an abstract method\n        abstract function forage();\n    }\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Subroutine",
+    "related": [
+        "block",
+        "semicolon"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Subroutine"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Subroutines/Functions",
+            "url": "http://www.cs.emory.edu/~cheung/Courses/561/Syllabus/2-C/subroutine.html"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Nested function",
+            "url": "https://en.wikipedia.org/wiki/Nested_function"
+        }
+    ],
+    "tags": [
+        "syntax"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+}

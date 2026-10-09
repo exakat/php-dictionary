@@ -1,0 +1,52 @@
+{
+    "id": "cd",
+    "name": "Continuous Delivery (CD)",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/cd.html",
+    "aliases": [],
+    "description": "Continuous delivery refers to the software development practice where the code changes are automatically built, tested, and prepared for release, so that the software can be deployed to production at any time with minimal manual effort.",
+    "code": "",
+    "documentation": "https://continuousdelivery.com/",
+    "related": [
+        "pipeline",
+        "release",
+        "revision",
+        "ci",
+        "poisoned-pipeline-execution",
+        "task-runner"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://continuousdelivery.com/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Continuous Integration and Continuous Delivery",
+            "url": "https://www.phparch.com/2023/08/continuous-integration-and-continuous-delivery/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Using Laminas Continuous Delivery and Deployment",
+            "url": "https://getlaminas.org/blog/2024-09-26-using-laminas-continuous-delivery-and-deployment.html"
+        }
+    ],
+    "tags": [
+        "deployment",
+        "acronym"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sat, 08 Aug 2026 08:10:54 +0000"
+}

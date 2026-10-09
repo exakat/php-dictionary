@@ -1,0 +1,46 @@
+{
+    "id": "libsodium",
+    "name": "libsodium",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/libsodium.html",
+    "aliases": [
+        "sodium"
+    ],
+    "description": "Sodium is a modern, easy-to-use software library for encryption, decryption, signatures, password hashing and more.\n\nThe library is integrated into PHP as an extension. It provides a lot of functions and features to the language.",
+    "code": "<?php\n//Generate a random key for sodium_crypto_auth\n$key = sodium_crypto_auth_keygen();\n\n?>",
+    "documentation": "https://libsodium.gitbook.io/doc/",
+    "related": [
+        "cryptography",
+        "openssl"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://libsodium.gitbook.io/doc/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "libsodium on github",
+            "url": "https://github.com/jedisct1/libsodium.git"
+        }
+    ],
+    "tags": [
+        "cryptography"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [
+        "Extensions/Extlibsodium"
+    ],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sat, 08 Aug 2026 08:10:54 +0000"
+}

@@ -1,0 +1,56 @@
+{
+    "id": "unicode",
+    "name": "Unicode",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/unicode.html",
+    "aliases": [],
+    "description": "Unicode is a standard to represent text. It is maintained by the Unicode Consortium. Unicode provides a widespread standard for characters. It is used everywhere, from computer to phones, online and offline.\n\nUnicode motto: 'Everyone in the world should be able to use their own language on phones and computers.'\n\nPHP supports unicode in its syntax with the ``declare()`` ``encoding`` option. \n\nPHP may translate from and to Unicode to other character sets with extensions such as ``iconv``, ``intl``, mbstring. \n",
+    "code": "<?php\n\n    $string = <<<XML\n    <?xml version='1.0'?>\n    <document>\n        <cmd>login</cmd>\n        <login>Richard</login>\n    </document>\n    XML;\n    \n    $xml = simplexml_load_string($string);\n    print_r($xml);\n\n?>",
+    "documentation": "https://home.unicode.org/",
+    "related": [
+        "normalisation",
+        "simplexml",
+        "domxml",
+        "xmlwriter",
+        "xmlreader",
+        "codepoint",
+        "emoji",
+        "latin1",
+        "multi-byte",
+        "declare"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://home.unicode.org/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Unicode Escaping in PHP",
+            "url": "https://mojoauth.com/escaping/unicode-escaping-in-php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Unicode in PHP",
+            "url": "https://unicodefyi.com/guide/unicode-in-php/"
+        }
+    ],
+    "tags": [
+        "standard",
+        "encoding"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+}

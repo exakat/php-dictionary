@@ -1,0 +1,45 @@
+{
+    "id": "append",
+    "name": "Array Append",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/append.html",
+    "aliases": [
+        "array-append",
+        "push"
+    ],
+    "description": "Append, or array append, is an array operation, which adds an element at the end of the array. It is also called a push.\n\nThere are two operators for this feature ; the ``[]`` operator, which has to be placed after a variable or member. There is also the ``array_push()`` function, which is available as a callback, unlike the operator.\n\nThe opposite operation is a pop, with the function ``array_pop()``. ``array_unshift()`` is the append at the beginning of the array.",
+    "code": "<?php\n\n    $array = [1, 2, 3];\n    $array[] = 4;\n    \n    $array []= 5; // Same as above, with a notation similar to a short assignation\n    \n    array_push($array, 6);\n    \n    // $array === [1, 2, 3, 4, 5, 6];\n\n?>",
+    "documentation": "https://www.php.net/manual/en/language.operators.array.php",
+    "related": [
+        "prepend",
+        "square-bracket"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.operators.array.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "array_push",
+            "url": "https://www.php.net/manual/en/function.array-push.php"
+        }
+    ],
+    "tags": [
+        "array"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sun, 30 Aug 2026 08:49:53 +0000"
+}

@@ -1,0 +1,52 @@
+{
+    "id": "surrogate-key",
+    "name": "Surrogate Key",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/surrogate-key.html",
+    "aliases": [
+        "artificial-key"
+    ],
+    "description": "A surrogate key is a primary key column with no meaning outside the database. It exists purely to identify a row, not to represent a business fact. An auto-increment integer, a UUID, or a ``ULID`` used as a primary key are all surrogate keys. They are opposed to natural keys, values such as an email address, a national ID, or an ISBN, that already have meaning in the domain and would otherwise be used to identify the row.\n\nSurrogate keys are preferred in most schema because natural keys can change, can turn out not to be as unique as assumed, and are often composite or of variable length, all of which make joins and indexes slower and migrations riskier.\n\nA related but distinct usage, common in APIs, is to add a second surrogate column purely for public exposure: the internal auto-increment integer stays the primary key and drives foreign-key relations, while a separate UUID, ``ULID``, or an obfuscated value such as a ``Sqid`` is exposed in URLs and API responses. This keeps the compact integer for indexing while avoiding the enumeration and information-leak risks of publishing sequential IDs.",
+    "code": "<?php\n\n    // Doctrine migration: surrogate primary key plus a public-facing surrogate column\n    $table->addColumn('id', 'integer', ['autoincrement' => true]);\n    $table->setPrimaryKey(['id']);\n    $table->addColumn('public_id', 'guid'); // exposed in the API instead of 'id'\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Surrogate_key",
+    "related": [
+        "primary-key",
+        "auto-increment",
+        "unique-identifier",
+        "uuid",
+        "ulid",
+        "sqids",
+        "database"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Surrogate_key"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Relational Data Model",
+            "url": "https://martinfowler.com/bliki/RelationalDataModel.html"
+        }
+    ],
+    "tags": [
+        "database",
+        "concept"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Mon, 31 Aug 2026 17:31:36 +0000"
+}

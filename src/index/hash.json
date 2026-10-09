@@ -1,0 +1,79 @@
+{
+    "id": "hash",
+    "name": "Hash",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/hash.html",
+    "aliases": [
+        "digest",
+        "hashmap"
+    ],
+    "description": "Hash has several meanings:\n\n+ PHP extension\n+ PHP function\n+ A general computer science concept, that transforms data into another value\n+ A general computer science concept, that turns a string into another fixed-sized string, in a way that is difficult to revert. It is also called a digest.\n+ A synonym for arrays with arbitrary keys, also known as a hashmap, map or associative array\n+ A character to start a one line comment: ``#``\n\nHash allows direct or incremental processing of arbitrary length messages using a variety of hashing algorithms. \n\nWhile the extension ``hash`` only processes hashes, there are other extensions which offer these features: openssl, sodium and password hashing. Mhash and mcrypt are older PHP extensions, which are now discontinued.",
+    "code": "<?php\n\n    echo hash('ripemd160', 'The quick brown fox jumped over the lazy dog.');\n    // produces ec457d0a974c48d5685a7efa03d137dc8bbde7e3\n    \n    // a conversion table is a hash\n    $c = 2;\n    $dictionary = [1 => 'a', 2 => 'b', 3 => 'c'];\n    echo $dictionary[$c]; \n    \n    // This is a hashmap, or also called a hash\n    $hashMap = ['name' => 'Henry', \n                'family' => 'Troyat', \n                'age' => 33,\n                ];\n    \n?>",
+    "documentation": "https://www.php.net/manual/en/book.hash.php",
+    "related": [
+        "hash-function",
+        "hash-crypto",
+        "collection",
+        "array",
+        "map",
+        "array-element",
+        "convert",
+        "magic-hash",
+        "sha",
+        "hash-character",
+        "argon2",
+        "automatic-index",
+        "dictionary",
+        "ds",
+        "pound",
+        "array_column",
+        "crc32",
+        "hmac",
+        "password-ext",
+        "bucket",
+        "hash-comparison",
+        "sso",
+        "hash-table",
+        "hashing",
+        "message-digest",
+        "pseudonymisation"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/book.hash.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Numeric hash (nhash) in PHP",
+            "url": "https://ssojet.com/hashing/numeric-hash-nhash-in-php"
+        }
+    ],
+    "tags": [
+        "concept",
+        "extension",
+        "native function",
+        "disambiguation"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [
+        "Classes/Classnames",
+        "Extensions/Extmhash",
+        "Extensions/Extopenssl",
+        "Extensions/Extlibsodium"
+    ],
+    "cobblers": [
+        "Classes/VarToPublic"
+    ],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sun, 30 Aug 2026 11:37:43 +0000"
+}

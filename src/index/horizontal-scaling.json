@@ -1,0 +1,61 @@
+{
+    "id": "horizontal-scaling",
+    "name": "Horizontal Scaling",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/horizontal-scaling.html",
+    "aliases": [
+        "scale-out",
+        "scaling-out"
+    ],
+    "description": "Horizontal scaling, also called scaling out or scale-out, means adding more instances of an application or service to distribute the workload across multiple machines, rather than increasing the resources of a single machine.\n\nHorizontal scaling typically involves running multiple PHP-FPM processes or application containers behind a load balancer. Because HTTP is stateless, PHP applications can often be scaled horizontally with relatively little effort, provided that shared state, such as sessions, caches, uploaded files, is externalised to shared services such as Redis, a centralised database, or an object-storage service.\n\nKey considerations for horizontal scaling include: stateless application design, centralised session storage, distributed caching, shared file storage, and database connection pooling.\n\nHorizontal scaling contrasts with vertical scaling, which adds physical resources to existing machines.",
+    "code": "<?php\n\n    // Externalising session storage to Redis for horizontal scalability\n    ini_set('session.save_handler', 'redis');\n    ini_set('session.save_path', 'tcp://redis:6379');\n\n    session_start();\n    $_SESSION['user_id'] = 42;\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Scalability#Horizontal_(scale_out)_and_vertical_scaling_(scale_up)",
+    "related": [
+        "scaling",
+        "vertical-scaling",
+        "load-balancer",
+        "stateless",
+        "session",
+        "cache",
+        "microservice",
+        "architecture",
+        "cloud",
+        "availability",
+        "cdn",
+        "mpp-database",
+        "shared-nothing"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Scalability#Horizontal_(scale_out)_and_vertical_scaling_(scale_up)"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Horizontally Scaling PHP Applications",
+            "url": "https://www.digitalocean.com/blog/horizontally-scaling-php-applications"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP Session Clustering with Redis",
+            "url": "https://redis.io/docs/manual/patterns/"
+        }
+    ],
+    "tags": [
+        "architecture"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Fri, 25 Sep 2026 14:29:17 +0000"
+}

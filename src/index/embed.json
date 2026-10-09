@@ -1,0 +1,46 @@
+{
+    "id": "embed",
+    "name": "Embed",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/embed.html",
+    "aliases": [
+        "embedded"
+    ],
+    "description": "To embed, or to be embedded, is integrating PHP code into another context, or vice versa.\n\nTraditionally, it is possible to embed PHP inside HTML files: here, PHP embeds HTML. It is also possible to execute PHP code inside other languages, such as Java: in this case, Java embeds PHP.\n\nEmbedding usually means that the whole PHP engine is included in another technology: there, it acts as a part of that system. On the other hand, PHP extensions are a way to extend PHP features with other technologies. Here, the relationship is at the feature level, and may be tailored to PHP, rather than simply handing code as text to PHP, and acting upon its returned value.",
+    "code": "",
+    "documentation": "https://en.wikipedia.org/wiki/Embedded_system",
+    "related": [
+        "extension",
+        "php-runtime"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Embedded_system"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Java. PHP. PHP in Java!",
+            "url": "https://medium.com/codetodeploy/java-php-php-in-java-977dbc0fe4ea"
+        }
+    ],
+    "tags": [
+        "concept"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sat, 08 Aug 2026 14:31:02 +0000"
+}

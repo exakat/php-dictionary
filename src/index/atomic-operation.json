@@ -1,0 +1,57 @@
+{
+    "id": "atomic-operation",
+    "name": "Atomic Operation",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/atomic-operation.html",
+    "aliases": [
+        "atomicity"
+    ],
+    "description": "An atomic operation is an operation that is indivisible. It either completes fully or not at all, with no intermediate state visible to other threads or processes. Atomicity is one of the ACID properties of database transactions, and it is also a core concept in concurrent programming.\n\nPHP is typically single-threaded per request, so atomicity concerns arise mainly in:\n\n+ Database transactions: a set of SQL statements executed as a single atomic unit.\n+ File operations: using locks to prevent partial writes.\n+ Shared memory or caches: using atomic increment/decrement to avoid race conditions.\n\nWithout atomicity guarantees, concurrent access can lead to race conditions and data corruption.\n",
+    "code": "<?php\n\n    // Atomic database transaction\n    $pdo = new PDO('sqlite::memory:');\n    $pdo->beginTransaction();\n    \n    try {\n        $pdo->exec('UPDATE accounts SET balance = balance - 100 WHERE id = 1');\n        $pdo->exec('UPDATE accounts SET balance = balance + 100 WHERE id = 2');\n        $pdo->commit();\n    } catch (PDOException $e) {\n        $pdo->rollBack();\n    }\n    \n    // Atomic increment in APCu (shared memory)\n    apcu_inc('page_views', 1, $success);\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Atomicity_(database_systems)",
+    "related": [
+        "transaction",
+        "race-condition",
+        "concurrency",
+        "database",
+        "lock",
+        "database-commit"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Atomicity_(database_systems)"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Transactions and auto-commit",
+            "url": "https://www.php.net/manual/en/pdo.transactions.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP and Database Transactions: Ensuring Atomicity and Consistency",
+            "url": "https://php-include.com/php-and-database-transactions-ensuring-atomicity-and-consistency/"
+        }
+    ],
+    "tags": [
+        "concept",
+        "database",
+        "concurrency"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Fri, 18 Sep 2026 09:33:02 +0000"
+}

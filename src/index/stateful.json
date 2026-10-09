@@ -1,0 +1,45 @@
+{
+    "id": "stateful",
+    "name": "Stateful",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/stateful.html",
+    "aliases": [],
+    "description": "Stateful refers to the retaining and managing the state or information about a user or a process across multiple requests. PHP, by default, is stateless, meaning that each HTTP request is independent, and the server doesn't inherently maintain information about previous requests from the same user.\n\nStateful behavior is often required when the application needs to keep track of user data or the progress of a process over multiple page loads or requests. There are various mechanisms to implement statefulness with PHP, and some common methods include: cookies, session, hidden form fields.",
+    "code": "",
+    "documentation": "https://www.php.net/manual/en/book.session.php",
+    "related": [
+        "stateless",
+        "distributed-state",
+        "hidden-state",
+        "implicit-state",
+        "state"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/book.session.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Stateful vs. Stateless: Understanding the Key Differences",
+            "url": "https://www.spiceworks.com/tech/cloud/articles/stateful-vs-stateless/"
+        }
+    ],
+    "tags": [
+        "concept"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Mon, 06 Jul 2026 10:19:18 +0000"
+}

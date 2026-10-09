@@ -1,0 +1,48 @@
+{
+    "id": "persistence",
+    "name": "Persistence",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/persistence.html",
+    "aliases": [],
+    "description": "Persistence is related to the life cycle of a resource. A piece of data is said to be persistent when it exceeds the duration of the current process.\n\nIn particular, databases, sessions, shared memory, file system or cache allows for persistent storage: the current process may store data there, and retrieve it later, provided it has transmitted an identifier. \n\nPersistence also applies to database connection, where the connection is not closed at the end of the current process, but stays open for the next to reuse it, saving some overhead, but keeping a connection open even if not busy.\n\nPersistent storage may also be called permanent storage.",
+    "code": "",
+    "documentation": "https://en.wikipedia.org/wiki/Persistence_(computer_science)",
+    "related": [
+        "object-persistence",
+        "connexion-persistence",
+        "session"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Persistence_(computer_science)"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "What is Data Persistence? A Complete Guide",
+            "url": "https://rivery.io/data-learning-center/data-persistence/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "What Is an In-Memory Database? - AWS",
+            "url": "https://aws.amazon.com/nosql/in-memory/"
+        }
+    ],
+    "tags": [
+        "concept"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Fri, 21 Aug 2026 07:18:20 +0000"
+}

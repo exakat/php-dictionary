@@ -1,0 +1,70 @@
+{
+    "id": "analysis",
+    "name": "Analysis",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/analysis.html",
+    "aliases": [],
+    "description": "Analysis in software development refers to the systematic examination of source code, runtime behaviour, or architecture to detect issues, measure quality, or derive understanding.\n\nStatic analysis examines code without executing it. Tools such as ``PHPStan``, ``Psalm``, ``Mago`` and ``Phan`` inspect PHP source files for type errors, undefined variables, dead code, and security vulnerabilities. Exakat is a static analyser specifically designed for PHP, able to audit large codebases and enforce rules across many categories.\n\nDynamic analysis examines code during execution. It covers profiling, fuzzing, mutation testing, and runtime error detection.\n\nArchitectural analysis focuses on the relationships between components, coupling, cohesion, and adherence to intended design patterns.",
+    "code": "<?php\n\n    // Running static analysis from PHP (e.g., as part of a CI pipeline)\n    $output    = [];\n    $exitCode  = 0;\n    exec('vendor/bin/phpstan analyse src --level=8 --no-progress', $output, $exitCode);\n    \n    if ($exitCode !== 0) {\n        echo implode(PHP_EOL, $output);\n        exit($exitCode);\n    }\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Static_program_analysis",
+    "related": [
+        "sast",
+        "ast",
+        "metrics",
+        "quality",
+        "code-review",
+        "ci",
+        "dead-code",
+        "type-coverage",
+        "inventory",
+        "sca",
+        "tool",
+        "lexical-analysis",
+        "semantic-analysis",
+        "control-flow-analysis",
+        "data-flow-analysis",
+        "symbolic-analysis",
+        "pattern-based-analysis",
+        "linting"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Static_program_analysis"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Top 7 Methods, Pros/Cons and Best Practices",
+            "url": "https://www.oligo.security/academy/static-code-analysis"
+        }
+    ],
+    "tags": [
+        "quality",
+        "tool",
+        "static analysis"
+    ],
+    "packagist": [
+        "phpstan/phpstan",
+        "vimeo/psalm",
+        "phan/phan"
+    ],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": {
+        "phpstan": "https://phpstan.org/",
+        "psalm": "https://psalm.dev/",
+        "exakat": "https://www.exakat.io",
+        "mago": "https://github.com/carthage-software/mago",
+        "phan": "https://github.com/phan/phan"
+    },
+    "popularity": "",
+    "modified": "Thu, 17 Sep 2026 14:41:54 +0000"
+}

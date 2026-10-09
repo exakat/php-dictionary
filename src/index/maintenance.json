@@ -1,0 +1,50 @@
+{
+    "id": "maintenance",
+    "name": "Maintenance",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/maintenance.html",
+    "aliases": [],
+    "description": "Maintenance is the operation to keep a source code running, long time after it was created. While the source code itself may be unchanged, some of the contextual features it relies on may have changed. The main challenge of maintenance is to understand the current level of features, to be able to reproduce them with a different set of tools.\n\nMaintenance is also used to identify the period between two running versions of a software. To avoid interference with actual usage of the application, an application is put in maintenance mode, updated, and then, released from the maintenance mode. This notion of maintenance is related to operations and production.",
+    "code": "",
+    "documentation": "https://en.wikipedia.org/wiki/Software_maintenance",
+    "related": [
+        "legacy",
+        "refactoring",
+        "upgrade",
+        "version",
+        "technical-reference",
+        "debt",
+        "downtime",
+        "tco"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Software_maintenance"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "How we Maintain Dozens of Symfony Workflows with Peace",
+            "url": "https://tomasvotruba.com/blog/how-we-maintain-dozens-of-symfony-workflows-with-peace"
+        }
+    ],
+    "tags": [
+        "software lifecycle"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Fri, 19 Jun 2026 21:25:05 +0000"
+}

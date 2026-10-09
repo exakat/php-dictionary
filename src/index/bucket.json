@@ -1,0 +1,50 @@
+{
+    "id": "bucket",
+    "name": "Bucket",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/bucket.html",
+    "aliases": [],
+    "description": "The term ``bucket`` is not commonly associated with a specific concept. In a more general sense, the term ``bucket`` is often used in the context of data structures and algorithms to refer to a container or a storage space for holding several elements together.\n\nFor example, in the context of hashing or hash tables, a ``bucket`` may be used to describe the individual storage locations where key-value pairs are stored. When a hash collision occurs, that is when two keys hash to the same location, the elements with the same hash value are often placed in a bucket, which is a data structure that allows multiple elements to be stored at the same location.",
+    "code": "",
+    "documentation": "https://en.wikipedia.org/wiki/Hash_table",
+    "related": [
+        "hash",
+        "datastructure",
+        "array",
+        "key-value-store",
+        "collection"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Hash_table"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Understanding Hash Collisions in HashTables: Causes, Impact, and Solutions",
+            "url": "https://medium.com/@arjun.darji/understanding-hash-collisions-in-hashtables-causes-impact-and-solutions-d14a6745f4d4"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Collision in Hashing",
+            "url": "https://www.tutorialspoint.com/data_structures_algorithms/collision_in_hashing.htm"
+        }
+    ],
+    "tags": [
+        "concept"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sun, 30 Aug 2026 15:38:23 +0000"
+}

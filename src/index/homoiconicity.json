@@ -1,0 +1,68 @@
+{
+    "id": "homoiconicity",
+    "name": "Homoiconicity",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/homoiconicity.html",
+    "aliases": [
+        "homoiconic"
+    ],
+    "description": "Homoiconicity is a property of a programming language in which code and data share the same representation. A homoiconic language can treat its own programs as data structures that may be inspected, transformed, and generated at runtime using the language itself. Lisp is the canonical example. Lisp programs are lists, and lists are native Lisp data.\n\nPHP is not homoiconic in the classical sense: the source code is text, not a native PHP data structure. However, PHP provides several mechanisms that approximate homoiconic behaviour:\n\n+ ``token_get_all()``: tokenises a PHP source string into an array of token arrays, exposing the lexical structure of code as PHP data.\n+ ``eval()``: executes an arbitrary PHP string as code, allowing dynamically constructed programs to run.\n+ The Reflection API, with ``ReflectionClass``, ``ReflectionFunction``, etc.: introspects the live structure of classes and functions at runtime.\n+ The ``ast`` extension: parses PHP source into an abstract syntax tree represented as native ``ast\\Node`` objects, enabling full read access to code structure.\n+ ``nikic/php-parser``, a userland library: provides a complete AST with read and write access, making it possible to parse, modify, and regenerate PHP code from PHP itself.\n\nThese tools are the foundation of static analysers, code generators, template engines, and macro-like systems built into PHP.",
+    "code": "<?php\n\n   // Tokenise PHP source as a PHP array\n   $tokens = token_get_all('<?php echo 42; ?>');\n   foreach ($tokens as $token) {\n       if (is_array($token)) {\n           echo token_name($token[0]) . ': ' . $token[1] . \"\\n\";\n       }\n   }\n\n   // Reflect on a function's structure at runtime\n   $ref = new ReflectionFunction('array_map');\n   echo $ref->getName() . ' accepts ' . $ref->getNumberOfParameters() . \" parameters\\n\";\n\n   // Build and execute code from data\n   $op = '+';\n   $result = eval(\"return 6 {$op} 7;\");\n   echo $result; // 13\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Homoiconicity",
+    "related": [
+        "eval",
+        "reflection",
+        "metaprogramming",
+        "token",
+        "ast",
+        "macro",
+        "closure",
+        "code-generation"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Homoiconicity"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "token_get_all()",
+            "url": "https://www.php.net/manual/en/function.token-get-all.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP Reflection API",
+            "url": "https://www.php.net/manual/en/book.reflection.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "nikic/php-parser",
+            "url": "https://github.com/nikic/PHP-Parser"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "ast extension",
+            "url": "https://github.com/nikic/php-ast"
+        }
+    ],
+    "tags": [
+        "language",
+        "metaprogramming"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 09 Jul 2026 08:39:32 +0000"
+}

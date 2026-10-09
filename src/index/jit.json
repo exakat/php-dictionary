@@ -1,0 +1,64 @@
+{
+    "id": "jit",
+    "name": "Just In Time (JIT)",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/jit.html",
+    "aliases": [],
+    "description": "Just-In-Time compilation is a technique used in computer science and programming languages to improve the runtime performance of code execution.\n\nIn traditional interpretation of programming languages like PHP, code is executed line by line by an interpreter. This can lead to some performance bottlenecks, especially for code that is executed frequently or for applications that require high throughput.\n\nWith Just-In-Time compilation, the code is not interpreted line by line. Instead, it's analyzed and compiled into machine code just before it's executed. This compiled code is then stored in memory and can be executed much more efficiently than interpreted code. This approach can significantly improve the performance of a programming language.",
+    "code": "",
+    "documentation": "https://php.watch/versions/8.0/JIT",
+    "related": [
+        "aot",
+        "compile",
+        "opcache",
+        "bottleneck",
+        "interpreted",
+        "monomorphization",
+        "ssa",
+        "engine",
+        "compile-time-evaluation",
+        "compiler",
+        "memory-arena",
+        "opcache-preloading"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://php.watch/versions/8.0/JIT"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Exploring the New PHP JIT Compiler",
+            "url": "https://www.zend.com/blog/exploring-new-php-jit-compiler"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP 8.4 JIT Under the Microscope: Benchmarking Real Symfony 7.4 Applications (Part 1)",
+            "url": "https://medium.com/@laurentmn/%EF%B8%8F-php-8-4-jit-under-the-microscope-benchmarking-real-symfony-7-4-applications-part-1-c685e1326f5e"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "How PHP generates machine code",
+            "url": "https://phpunit.expert/articles/how-php-generates-machine-code.html"
+        }
+    ],
+    "tags": [
+        "acronym",
+        "internals",
+        "feature"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "8.0+",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+}

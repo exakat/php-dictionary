@@ -1,0 +1,60 @@
+{
+    "id": "file_get_contents",
+    "name": "file_get_contents()",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/file_get_contents.html",
+    "aliases": [],
+    "description": "``file_get_contents()`` is a PHP native function, which reads all data from a file, in one call. The function requires the file name, or a valid URI, with its path of storage in the file system.\n\nThe function also includes options to handle concurrency with locks; to append data rather than overwrite them with ``FILE_APPEND``, and a restriction to use file in the ``include_path`` configuration.\n\n``file_get_contents()`` returns a string, or ``false`` in case of error. The maximum size of the returned string may be limited by configuration.\n\n``file_get_contents()`` works with streams to reach network files. It also supports wrappers, to use various predefined and custom protocols, such as ``https``, ``file``, ``zip``, etc.\n",
+    "code": "<?php\n\n    $json = file_get_contents('/path/to/config.json');\n\n?>",
+    "documentation": "https://www.php.net/manual/en/function.file-get-contents.php",
+    "related": [
+        "uri",
+        "false",
+        "string",
+        "stream",
+        "wrapper",
+        "$http_response_header",
+        "file_put_contents",
+        "php-input",
+        "php-memory",
+        "file-mode",
+        "php-tmp",
+        "url",
+        "fread",
+        "http",
+        "max_filter_count",
+        "ssrf",
+        "stream_context_create"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/function.file-get-contents.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "How to post data using file_get_contents in PHP ?",
+            "url": "https://www.geeksforgeeks.org/php/how-to-post-data-using-file_get_contents-in-php/"
+        }
+    ],
+    "tags": [
+        "native function",
+        "file"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Fri, 09 Oct 2026 17:14:27 +0000"
+}

@@ -1,0 +1,55 @@
+{
+    "id": "rce",
+    "name": "Remote Code Execution (RCE)",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/rce.html",
+    "aliases": [],
+    "description": "It is a type of security vulnerability where an attacker can remotely execute arbitrary code on a target server or system. This typically happens due to improper input validation, insecure deserialization, vulnerable eval-like functions, or unsafe file handling.",
+    "code": "<?php\n\n    // direct execution of the incoming \n    shell_exec($_GET['shell']);\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Arbitrary_code_execution",
+    "related": [
+        "vulnerability",
+        "local-file-inclusion",
+        "execution",
+        "php-filter",
+        "sast",
+        "shell-exec"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Arbitrary_code_execution"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "RCE via a malicious SVG in mPDF",
+            "url": "https://medium.com/@brun0ne/rce-via-a-malicious-svg-in-mpdf-216e613b250b"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "The Quiet Shift Reshaping PHP Security",
+            "url": "https://www.linkedin.com/pulse/quiet-shift-reshaping-php-security-matthew-weier-o-phinney-fgquc/"
+        }
+    ],
+    "tags": [
+        "vulnerability",
+        "security",
+        "acronym"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sun, 21 Jun 2026 19:57:48 +0000"
+}

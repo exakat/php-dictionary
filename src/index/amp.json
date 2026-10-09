@@ -1,0 +1,64 @@
+{
+    "id": "amp",
+    "name": "Asynchronous Markup Protocol (AMP)",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/amp.html",
+    "aliases": [],
+    "description": "AMP refers to the AMP PHP library, formerly Amp Project, an event-driven, non-blocking I/O framework for building asynchronous applications.\n\nIt provides primitives for working with asynchronous operations: ``Promises``, ``Futures``, and an event loop. Amp is the foundation behind popular projects like ReactPHP and PHP-PM, and is widely used for building high-concurrency network services, WebSocket servers, and HTTP clients.\n\nIn a broader web context, AMP also stands for Accelerated Mobile Pages, a Google-backed project for creating fast-loading mobile web pages.",
+    "code": "<?php\n\n    use Amp\\Loop;\n    use Amp\\Promise;\n\n    Loop::run(function () {\n        $result = yield Amp\\Promise\\resolve('Hello from AMP!');\n        echo $result;\n    });\n\n?>",
+    "documentation": "https://amphp.org/",
+    "related": [
+        "reactphp",
+        "async",
+        "asynchronous",
+        "event-loop",
+        "coroutine",
+        "promise",
+        "fibers",
+        "non-blocking",
+        "concurrency",
+        "microservice",
+        "swoole",
+        "openswoole"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://amphp.org/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Amp documentation",
+            "url": "https://amphp.org/architecture"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Amp vs ReactPHP",
+            "url": "https://amphp.org/faq"
+        }
+    ],
+    "tags": [
+        "library",
+        "async",
+        "framework",
+        "acronym"
+    ],
+    "packagist": [
+        "amphp/amp"
+    ],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 17 Sep 2026 08:30:45 +0000"
+}

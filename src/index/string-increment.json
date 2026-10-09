@@ -1,0 +1,56 @@
+{
+    "id": "string-increment",
+    "name": "String Increment",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/string-increment.html",
+    "aliases": [
+        "string-decrement"
+    ],
+    "description": "String increment is the PHP feature that applies the ``++`` pre- and post-increment operators on non-numeric strings. \n\nThese strings last character's ASCII code is incremented by one, with possible extension of the string when the letters reach ``z`` and ``Z``. \n\nThis feature, when based on ``++`` is deprecated, and shall be removed in version 9. It has been replaced by the ``str_increment()`` function, which has the same feature, though not implicit in the engine anymore. It is also extended with It has been replaced by the ``str_decrement()``.\n\nA deprecation message is active since PHP 8.3.\n\nThere is no such feature as string decrement.",
+    "code": "<?php\n\n    $s = 'y';\n    echo ++$s; // z\n    echo ++$s; // aa \n    echo ++$s; // ab\n    \n    $s = 'Y';\n    echo ++$s; // Z\n    echo ++$s; // AA\n    echo ++$s; // AA\n\n?>",
+    "documentation": "https://www.php.net/manual/en/language.operators.increment.php",
+    "related": [
+        "increment",
+        "decrement",
+        "string",
+        "ascii",
+        "type-juggling",
+        "deprecation"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.operators.increment.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "str_decrement",
+            "url": "https://www.php.net/manual/en/function.str-decrement.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "str_increment",
+            "url": "https://www.php.net/manual/en/function.str-increment.php"
+        }
+    ],
+    "tags": [
+        "feature",
+        "trick"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "9.0",
+    "phpVersionDeprecated": "8.3",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Fri, 09 Oct 2026 16:41:54 +0000"
+}

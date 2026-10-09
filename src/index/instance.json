@@ -1,0 +1,56 @@
+{
+    "id": "instance",
+    "name": "instance",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/instance.html",
+    "aliases": [
+        "instantiate",
+        "instantiation"
+    ],
+    "description": "An instance is an object of a class. The class provides the definitions of the behavior of that object, while the object holds the specific data, that makes it unique and distinguishable. \n\nThe creation of an instance, called instantiation, or to instantiate, is done with the ``new`` keyword.",
+    "code": "<?php\n\n    class Elephpant {\n        private int $property;\n\n        function __construct(int $arg) {\n            $this->propety = $arg;\n        }\n    }\n\n    $object = new Elephpant(2);\n\n?>",
+    "documentation": "https://www.php.net/manual/en/language.oop5.basic.php#language.oop5.basic.new",
+    "related": [
+        "class",
+        "object",
+        "new",
+        "constructor",
+        "non-instantiable",
+        "reflection",
+        "new-without-parenthesis"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.oop5.basic.php#language.oop5.basic.new"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Instance (computer science) (Wikipedia)",
+            "url": "https://en.wikipedia.org/wiki/Instance_(computer_science)"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP Reflection API",
+            "url": "https://www.php.net/manual/en/book.reflection.php"
+        }
+    ],
+    "tags": [
+        "object",
+        "class"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+}

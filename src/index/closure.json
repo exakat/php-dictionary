@@ -1,0 +1,77 @@
+{
+    "id": "closure",
+    "name": "Closure",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/closure.html",
+    "aliases": [
+        "lambda-functions"
+    ],
+    "description": "Closures, also called lambda functions, are anonymous functions: functions without a name. They are also supported by the eponymous ``Closure`` class.\n\nThey are close to the arrow-functions. They are also created with the ``...`` operator, also known as the first class callable.",
+    "code": "<?php\n\n    $closure = function ($a) use ($b) {\n        return $a + $b + 1;\n    };\n    print get_class($closure); // Closure\n\n    $closure2 = strtolower(...);\n    print get_class($closure2); // Closure\n\n    $closure3 = fn($a, $b) => $a + $b;\n    print get_class($closure3); // Closure\n\n?>",
+    "documentation": "https://www.php.net/manual/en/functions.anonymous.php",
+    "related": [
+        "static",
+        "arrow-function",
+        "anonymous-function",
+        "first-class-callable",
+        "callable",
+        "callback",
+        "anonymous-class",
+        "closure-binding",
+        "function",
+        "return",
+        "sort",
+        "use",
+        "array-callable",
+        "array-callback",
+        "bind",
+        "inherited-variable",
+        "closure-class",
+        "custom-function",
+        "lexical",
+        "currying",
+        "homoiconicity",
+        "meta-object-protocol",
+        "recursion",
+        "$this",
+        "array_filter",
+        "function-subscripting",
+        "generator",
+        "partial-application",
+        "yield-from",
+        "yield"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/functions.anonymous.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Closure Optimisation (8.6)",
+            "url": "https://wiki.php.net/rfc/closure-optimizations"
+        }
+    ],
+    "tags": [
+        "function",
+        "rfc",
+        "closure"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [
+        "Php/ClosureThisSupport",
+        "Functions/CannotUseStaticForClosure"
+    ],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Fri, 11 Sep 2026 09:01:09 +0000"
+}

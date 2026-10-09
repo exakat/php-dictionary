@@ -1,0 +1,51 @@
+{
+    "id": "callable",
+    "name": "Callables",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/callable.html",
+    "aliases": [],
+    "description": "A callable is an object that can pass the ``callable`` type. \n\nA callable may be a callback function or method, represented as a string, a closure or an arrow function. \n\nObjects may also be callable, when their class implement the magic method ``__invoke()``.",
+    "code": "<?php\n\nfunction trumpet() { echo __METHOD__; }\n\ncall_user_func('trumpet');\n\n?>",
+    "documentation": "https://www.php.net/manual/en/language.types.callable.php",
+    "related": [
+        "callback",
+        "closure",
+        "__invoke",
+        "arrow-function",
+        "array-callable",
+        "call",
+        "pseudo-type",
+        "special-typehint",
+        "identity",
+        "native-type"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.types.callable.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "What Is the callable Type in PHP?",
+            "url": "https://www.designcise.com/web/tutorial/what-is-the-callable-type-in-php"
+        }
+    ],
+    "tags": [
+        "feature",
+        "keyword"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+}

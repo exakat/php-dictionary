@@ -1,0 +1,59 @@
+{
+    "id": "svg",
+    "name": "Scalable Vector Graphics (SVG)",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/svg.html",
+    "aliases": [],
+    "description": "SVG, for Scalable Vector Graphics, is an XML-based format for two-dimensional vector graphics. Unlike raster formats, such as PNG or JPEG, SVG graphics scale to any size without loss of quality because they are described mathematically rather than as a grid of pixels.\n\nSVG files can be embedded directly in HTML, served as standalone files, or generated programmatically. PHP can produce SVG output by writing XML strings or by using the DOM extension to build the SVG document tree.\n\nSVG is widely used for icons, charts, diagrams, logos, and any graphic that must look sharp on high-density screens.",
+    "code": "<?php\n\n    header('Content-Type: image/svg+xml');\n\n    echo '<?xml version=\"1.0\" encoding=\"UTF-8\"?>';\n    echo '<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"100\" height=\"100\">';\n    echo '<circle cx=\"50\" cy=\"50\" r=\"40\" fill=\"steelblue\" />';\n    echo '</svg>';\n\n?>",
+    "documentation": "https://developer.mozilla.org/en-US/docs/Web/SVG",
+    "related": [
+        "xml",
+        "html",
+        "dom",
+        "image",
+        "injection"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/SVG"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "SVG Tutorial",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "SVG specification",
+            "url": "https://www.w3.org/TR/SVG2/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Beware SVG! It\u2019s not just a scalable graphic",
+            "url": "https://medium.com/sse-blog/beware-svg-its-not-just-a-scalable-graphic-9a2e9f3df6ef"
+        }
+    ],
+    "tags": [
+        "concept",
+        "web",
+        "acronym"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Wed, 19 Aug 2026 06:48:39 +0000"
+}

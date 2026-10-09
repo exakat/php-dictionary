@@ -1,0 +1,56 @@
+{
+    "id": "contribution",
+    "name": "Contribution",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/contribution.html",
+    "aliases": [
+        "open-source-contribution"
+    ],
+    "description": "A contribution, or open-source contribution, is a change submitted to a software project, typically in the form of a pull request or patch. Contributing to open-source projects is a core part of the PHP ecosystem: the language itself, its extensions, and the majority of popular frameworks and libraries are developed collaboratively.\n\nContributions can take many forms:\n\n+ Bug reports and reproducible test cases\n+ Code fixes, new features, and refactoring\n+ Documentation improvements\n+ Test coverage additions\n+ Translations and localization\n\nMany Open Source projects provide a ``CONTRIBUTING.md`` file that describes coding standards, testing requirements, and the review process.\n\nPHP's own development process goes through RFCs voted on by internals contributors.\n",
+    "code": "<?php\n\n// Example: typical open-source contribution workflow (shell commands)\n// git clone https://github.com/vendor/project\n// cd project\n// git checkout -b fix/issue-123\n// # Make changes\n// git add .\n// git commit -m 'Fix: description of the change'\n// git push origin fix/issue-123\n// # Open a pull request on GitHub\n\n?>",
+    "documentation": "https://docs.github.com/en/get-started/exploring-projects-on-github/contributing-to-a-project",
+    "related": [
+        "open-source",
+        "git",
+        "pr",
+        "php-rfc",
+        "community"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://docs.github.com/en/get-started/exploring-projects-on-github/contributing-to-a-project"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Contributing to open source - GitHub Docs",
+            "url": "https://docs.github.com/en/get-started/exploring-projects-on-github/contributing-to-open-source"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP Internals",
+            "url": "https://www.php.net/get-involved.php"
+        }
+    ],
+    "tags": [
+        "concept",
+        "community",
+        "rfc"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sun, 30 Aug 2026 09:37:03 +0000"
+}

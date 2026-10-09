@@ -1,0 +1,52 @@
+{
+    "id": "parseerror",
+    "name": "ParseError",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/parseerror.html",
+    "aliases": [],
+    "description": "A ``ParseError`` is a subclass of the built-in Error class, itself implementing the ``Throwable`` interface, that is thrown when the PHP engine fails to parse a piece of source code because it is syntactically invalid. Unlike most runtime problems, a parse error occurs during the compilation phase, before any of the surrounding code actually executes, which historically made syntax mistakes uncatchable fatal errors; since PHP 7, wrapping the offending code in a try/catch block that targets ``ParseError``, ``Error``, or ``Throwable`` allows the failure to be handled gracefully instead of crashing the whole process. The most common trigger is a call to ``eval()`` on a string containing malformed PHP, but a ``ParseError`` can also surface when including or requiring a file that itself contains invalid syntax, or in a few contexts where PHP compiles code dynamically at runtime, such as certain uses of compact expressions or attribute parsing. Typical causes include mismatched brackets or quotes, missing semicolons, reserved words used as identifiers, and invalid combinations of language constructs. Because it signals a structural problem with the code itself rather than a logic error, catching ``ParseError`` is mainly useful for sandboxes, template engines, REPL, and tools that evaluate untrusted or user-supplied PHP snippets safely.",
+    "code": "<?php\n\n    try {\n        eval (' A A ');\n    } catch (ParseError $e) {\n        echo \"This is not PHP code\";\n    }\n\n?>",
+    "documentation": "https://www.php.net/manual/en/class.parseerror.php",
+    "related": [
+        "error",
+        "eval",
+        "parse",
+        "parser"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/class.parseerror.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "What is a Parse Error?",
+            "url": "https://www.ionos.com/help/hosting/troubleshooting-for-php/what-is-a-parse-error/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Syntax errors",
+            "url": "https://php-errors.readthedocs.io/en/latest/syntaxerror.html"
+        }
+    ],
+    "tags": [
+        "parse",
+        "eval"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "7.0+",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Mon, 07 Sep 2026 09:27:36 +0000"
+}

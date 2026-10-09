@@ -1,0 +1,48 @@
+{
+    "id": "thin-method",
+    "name": "Thin Method",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/thin-method.html",
+    "aliases": [],
+    "description": "A thin method is an informal term used to describe a method that contains very little logic of its own and mostly delegates work to another method or object.",
+    "code": "<?php\n\nclass Elephpant {\n    public function __construct(private Repository $repository,\n                       private Logger $logger,\n                       ) {}\n\n    public function save(User $user): void\n    {\n        $this->logger->info('Saving user');\n        $this->repository->save($user);\n    }\n}\n\n?>",
+    "documentation": "https://refactoring.guru/design-patterns/decorator",
+    "related": [
+        "php-wrapper",
+        "wrapper-file",
+        "wrapper-pattern"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://refactoring.guru/design-patterns/decorator"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Martin Fowler: Tell, Don't Ask",
+            "url": "https://martinfowler.com/bliki/TellDontAsk.html"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Facade pattern - Refactoring.Guru",
+            "url": "https://refactoring.guru/design-patterns/facade"
+        }
+    ],
+    "tags": [
+        "structure"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+}

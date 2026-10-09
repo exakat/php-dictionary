@@ -1,0 +1,45 @@
+{
+    "id": "sqrt",
+    "name": "sqrt()",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/sqrt.html",
+    "aliases": [],
+    "description": "``sqrt()`` is a PHP native function, that computes the square root of a number. That function takes a integer or a float, and returns the same types, depending on the actual value of the result.\n\n``sqrt()`` is not a particularly slow function. The opposite of ``sqrt()`` is ``** 2``, or ``pow($x, 2)``, or even ``$x * $x``, where ``$x`` is the result of ``sqrt()``.",
+    "code": "<?php\n\n    $a = 4;\n    var_dump(sqrt($a));\n    \n    $b = 5;\n    var_dump(sqrt($b));\n\n?>",
+    "documentation": "https://www.php.net/manual/en/function.sqrt.php",
+    "related": [
+        "exponent",
+        "exponential",
+        "hypot"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/function.sqrt.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP Math Functions: Understanding the Basics",
+            "url": "https://wpshout.com/php-math-functions/#gref"
+        }
+    ],
+    "tags": [
+        "native function"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Tue, 01 Sep 2026 05:31:03 +0000"
+}

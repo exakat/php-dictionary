@@ -1,0 +1,44 @@
+{
+    "id": "shutdown-function",
+    "name": "Shutdown Function",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/shutdown-function.html",
+    "aliases": [
+        "shutdown-handler"
+    ],
+    "description": "The shutdown function is a PHP custom function which is called when the application is shutting down. This is after a call to ``exit()``, ``die()`` or the natural end of life of the script.\n\nMultiple functions may be registered with the ``register_shutdown_function()`` function. They will be called in order of registration.\n\nShutdown function acts as destructors: they should clean up any unfinished jobs, and gracefully free resources, such as closing files with their correct endings, or gracefully closing connections.",
+    "code": "<?php\n\n    // extract from the PHP manual\n    function shutdown()\n    {\n        // This is our shutdown function, in \n        // here we can do any last operations\n        // before the script is complete.\n    \n        echo 'Script executed with success', PHP_EOL;\n    }\n    \n    register_shutdown_function('shutdown');\n\n?>",
+    "documentation": "https://www.php.net/manual/en/function.register-shutdown-function.php",
+    "related": [
+        "handler",
+        "exit"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/function.register-shutdown-function.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "A Practical Guide to PHP's `register_shutdown_function()` Function",
+            "url": "https://reintech.io/blog/a-practical-guide-to-php-register_shutdown_function"
+        }
+    ],
+    "tags": [
+        "feature"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sat, 08 Aug 2026 08:10:54 +0000"
+}

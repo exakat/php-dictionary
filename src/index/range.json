@@ -1,0 +1,47 @@
+{
+    "id": "range",
+    "name": "range()",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/range.html",
+    "aliases": [],
+    "description": "``range()`` produces an array with all values between the two arguments of the function.\n\nBy default, the produced elements are spaced by 1, or another distance when the ``$step`` argument is used. \n\nWhen ``$start`` is bigger than ``$end``, the array is descending. Otherwise, it is ascending.\n\nWhen both ``$start`` and ``$end`` are single byte strings, such as alphabet letters, ``range()`` produces all letters in-between. It does not work on multi-bytes characters, nor with values beyond 255.",
+    "code": "<?php\n\n    // 0, 1, 2, 3, 4, 5, 6, 7, 8, 9\n    $figures = range(0, 9); \n    \n    // 0, 2, 4, 6, 8\n    $even = range(0, 9, 2); \n    \n    // The ASCII range\n    print_r(range(chr(0), chr(231)));\n\n?>",
+    "documentation": "https://www.php.net/manual/en/function.range.php",
+    "related": [
+        "yield",
+        "yield-generator",
+        "yield-from",
+        "array_fill",
+        "array_pad"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/function.range.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "The Fundamentals of PHP\u2019s range() Function",
+            "url": "https://clouddevs.com/php/range-function/"
+        }
+    ],
+    "tags": [
+        "native function"
+    ],
+    "packagist": [],
+    "extensions": [
+        "string"
+    ],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Mon, 07 Sep 2026 09:09:10 +0000"
+}

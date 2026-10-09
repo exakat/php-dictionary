@@ -1,0 +1,50 @@
+{
+    "id": "absolute",
+    "name": "Absolute",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/absolute.html",
+    "aliases": [],
+    "description": "An ``absolute`` value is independent from the context in which it operates. \n\nThe notion of ``absolute`` has several usages:\n\n+ There are absolute names, also known as fully qualified name: ``\\get_class()``, ``new myClass()``\n+ There are absolute path, which are path that starts at the root of the file system: ``/tmp/path/to/file.txt``\n+ There are absolute values, supported by ``abs()`` math function\n+ The ``absolute`` parameter, when processing a ``DateTimeInterface`` difference\n\nThe notion of absolute is the opposite of the notion of relative, which depends on a local context.",
+    "code": "<?php\n\n// global namespace\nnamespace {\n    // first definition\n    function trumpet() {\n        echo 'in the global scope.';\n    }\n}\n\nnamespace Savanna{\n    // second definition\n    function trumpet() {\n        echo 'in the savanna scope.';\n    }\n\n    trumpet(); // relative call: it goes to the second definition\n    \\trumpet(); // absolute call: it goes to the first definition\n    \\Savanna\\trumpet(); // absolute call: it goes to the second definition\n}\n\n?>",
+    "documentation": "https://www.php.net/manual/en/language.namespaces.basics.php",
+    "related": [
+        "fully-qualified-name",
+        "absolute-value",
+        "path",
+        "relative",
+        "abs"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.namespaces.basics.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP: Name resolution rules - Manual",
+            "url": "https://www.php.net/manual/en/language.namespaces.rules.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Fully Qualified Name - PHP Dictionary",
+            "url": "https://php-dictionary.readthedocs.io/en/latest/dictionary/fully-qualified-name.ini.html"
+        }
+    ],
+    "tags": [
+        "disambiguation"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+}

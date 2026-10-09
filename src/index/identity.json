@@ -1,0 +1,66 @@
+{
+    "id": "identity",
+    "name": "Identity",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/identity.html",
+    "aliases": [],
+    "description": "Identity has several related but distinct meanings:\n\n+ Identity comparison: a stricter way to compare two things, that includes types and avoid type-juggling. The other comparison is equality.\n+ Identity function: the function that returns its only argument, without any modification. It is a base for null pattern, and is useful when a callable is required, but should be a no operation\n+ Object identity: two variables refer to the same object in memory. This is tested with the ``===`` operator on objects, or with ``spl_object_id()``. Two objects may be equal in value but not identical in identity\n+ User identity: the set of attributes that uniquely identify a user or entity in a system: username, email, unique ID. Identity is established by identification and verified by authentication\n+ Domain identity: in Domain-Driven Design, an entity is defined by its identity rather than its attributes. Two ``User`` objects with the same ``$id`` are the same entity even if other properties differ, while two ``Money`` value objects with the same amount are equal without having an identity\n\nPHP applications manage identity through unique IDs, session tokens, and authentication tokens such as JWT.",
+    "code": "<?php\n\n    $a = new stdClass();\n    $b = $a;        // same identity\n    $c = clone $a;  // different identity, same values\n    \n    var_dump($a === $b); // true  \u2014 same identity\n    var_dump($a === $c); // false \u2014 different identity\n    \n    echo spl_object_id($a); // unique integer ID for $a\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Identity_(object-oriented_programming)",
+    "related": [
+        "identification",
+        "authentication",
+        "identity-comparison",
+        "equal",
+        "jwt",
+        "uuid",
+        "object",
+        "clone",
+        "ddd",
+        "callable",
+        "function",
+        "noop"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Identity_(object-oriented_programming)"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Identity vs Equality in PHP",
+            "url": "https://stitcher.io/blog/comparing-dates"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "DDD: Entities vs Value Objects",
+            "url": "https://enterprisecraftsmanship.com/posts/entity-vs-value-object-the-ultimate-list-of-differences/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "A Comprehensive Analysis of PHP Equality (==) and Identity (===) Operators",
+            "url": "https://devgex.com/en/article/00012697"
+        }
+    ],
+    "tags": [
+        "concept",
+        "oop",
+        "security"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 17 Sep 2026 08:51:28 +0000"
+}

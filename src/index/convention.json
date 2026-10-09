@@ -1,0 +1,51 @@
+{
+    "id": "convention",
+    "name": "Convention",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/convention.html",
+    "aliases": [],
+    "description": "A convention is a way in which something is usually done.\n\nThere are coding conventions, which is the way the code is presented and should be shared among a or several teams. \n\nThere is also the concept of convention over configuration, where the common behaviors, also known as the convention, is used as default, and any unusual aspect must be configured.",
+    "code": "",
+    "documentation": "https://en.wikipedia.org/wiki/Coding_conventions",
+    "related": [
+        "configuration",
+        "naming",
+        "best-practice",
+        "magic",
+        "trailing-comma"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Coding_conventions"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Convention over configuration",
+            "url": "https://en.wikipedia.org/wiki/Convention_over_configuration"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Principle of least astonishment",
+            "url": "https://en.wikipedia.org/wiki/Principle_of_least_astonishment"
+        }
+    ],
+    "tags": [
+        "concept",
+        "design"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sat, 08 Aug 2026 08:10:54 +0000"
+}

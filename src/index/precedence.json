@@ -1,0 +1,43 @@
+{
+    "id": "precedence",
+    "name": "Precedence",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/precedence.html",
+    "aliases": [],
+    "description": "Precedence organizes the way operators are executed, when they are mixed in the same expression.\n\nFor example, ``1 + 2 * 3`` will produce ``7``, since ``*`` has a higher precedence than ``+``. \n\nEvery operator has a precedence, and when they have the same precedence, the rightmost one yield to the leftmost one.\n\nPrecedence offers some reading surprises to human readers. For example, ``! $trunk instanceof \\Elephpant`` really applies ``instanceof`` first, and ``&&`` has a higher priority than ``and``, even though they perform the same function.",
+    "code": "<?php\n\nvar_dump(!$trunk instanceof \\Elephpant);\nvar_dump($tusk = 1 and 2);\n\n?>",
+    "documentation": "https://www.php.net/manual/en/language.operators.precedence.php",
+    "related": [
+        "operator"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.operators.precedence.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Understanding PHP Operators of Logic, or || and && and ! a lot more",
+            "url": "https://wpshout.com/php-logic-operators/"
+        }
+    ],
+    "tags": [
+        "operator"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+}

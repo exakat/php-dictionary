@@ -1,0 +1,51 @@
+{
+    "id": "indexed-array",
+    "name": "Indexed Array",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/indexed-array.html",
+    "aliases": [],
+    "description": "An indexed array is an array whose keys are only integers. The keys may be explicit or implicit.\n\nAn array with a string index is an associative array.",
+    "code": "<?php\n\n$associative = [10 => 'a', 'b'];\n\necho $associative[10]; // a\necho $associative[0]; // b\n\n?>",
+    "documentation": "https://www.php.net/manual/en/language.types.array.php",
+    "related": [
+        "associative-array",
+        "array",
+        "collection"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.types.array.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "array_values",
+            "url": "https://www.php.net/manual/en/function.array-values.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "List (abstract data type) (Wikipedia)",
+            "url": "https://en.wikipedia.org/wiki/List_(abstract_data_type)"
+        }
+    ],
+    "tags": [
+        "array"
+    ],
+    "packagist": [
+        "sebastian/object-enumerator",
+        "ramsey/collection"
+    ],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sun, 16 Aug 2026 07:46:07 +0000"
+}

@@ -1,0 +1,45 @@
+{
+    "id": "operator-overloading",
+    "name": "Operator Overloading",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/operator-overloading.html",
+    "aliases": [],
+    "description": "Operator overloading is the feature that creates custom usage of operators. For example, C++ allows the redefinition of ``+`` for specific object types. Then, ``new A + new A`` works.\n\nPHP does not support operator overloading in the userland. It is possible to achieve it in extensions: for example, BCmath allows math operations on its objects.",
+    "code": "",
+    "documentation": "https://en.wikipedia.org/wiki/Operator_overloading",
+    "related": [
+        "operator",
+        "inheritance"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Operator_overloading"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Operator Overloading in C++",
+            "url": "https://www.geeksforgeeks.org/cpp/operator-overloading-cpp/"
+        }
+    ],
+    "tags": [
+        "concept",
+        "not supported"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Wed, 02 Sep 2026 16:41:00 +0000"
+}

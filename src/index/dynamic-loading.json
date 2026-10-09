@@ -1,0 +1,57 @@
+{
+    "id": "dynamic-loading",
+    "name": "Dynamic Loading",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/dynamic-loading.html",
+    "aliases": [],
+    "description": "Dynamic Loading is related to the loading of PHP extensions, at execution time. \n\nMost of the time, the extensions are compiled with PHP, and loaded at startup. For development purposes, or for distribution purposes, some libraries may be loaded at execution time, with the ``dl()`` function.\n\n``dl()`` calls are considered bad for performances and for security.",
+    "code": "<?php\n\n    // add extra features to PHP\n    dl('ldap.so');\n\n?>",
+    "documentation": "https://www.php.net/manual/en/function.dl.php",
+    "related": [
+        "dynamic",
+        "extension",
+        "ffi",
+        "engine",
+        "library",
+        "native",
+        "performance",
+        "security"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/function.dl.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "How to Handle Unloaded PHP Extensions at Runtime",
+            "url": "https://www.sitepoint.com/php-extension-not-loaded/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Dynamic loading | PHP-CPP",
+            "url": "https://www.php-cpp.com/documentation/dynamic-loading"
+        }
+    ],
+    "tags": [
+        "dynamic",
+        "feature"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [
+        "Security/DynamicDl",
+        "Php/DlUsage"
+    ],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Fri, 11 Sep 2026 08:43:30 +0000"
+}

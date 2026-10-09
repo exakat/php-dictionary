@@ -1,0 +1,61 @@
+{
+    "id": "sso",
+    "name": "Single Sign On (SSO)",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/sso.html",
+    "aliases": [
+        "single-sign-on"
+    ],
+    "description": "Single Sign-On, also shortened as SSO, is an authentication process that allows users to access multiple applications or services with one set of login credentials. SSO enables users to sign in once and gain access to multiple applications without needing to log in again for each separate application.",
+    "code": "",
+    "documentation": "https://en.wikipedia.org/wiki/Single_sign-on",
+    "related": [
+        "authentication",
+        "session",
+        "token",
+        "cookie",
+        "ldap",
+        "hash",
+        "password",
+        "otp",
+        "rbac",
+        "acl",
+        "authorize",
+        "jwt",
+        "oauth",
+        "saml",
+        "openid"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Single_sign-on"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "How to implement single sign-on (SSO)",
+            "url": "https://clouddevs.com/php/single-sign-on/"
+        }
+    ],
+    "tags": [
+        "acronym",
+        "authentication"
+    ],
+    "packagist": [
+        "league/oauth2-client",
+        "onelogin/php-saml"
+    ],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sun, 02 Aug 2026 06:04:43 +0000"
+}

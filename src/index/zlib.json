@@ -1,0 +1,55 @@
+{
+    "id": "zlib",
+    "name": "zlib extension",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/zlib.html",
+    "aliases": [],
+    "description": "The ``zlib`` extension provides functions to handle the zlib compression format: read, write and access arbitrary parts of files. It also provides a compression format for the output of PHP.\n\nThere is also a PHP wrapper for zlib, when the ``zlib`` extension is compiled: ``zlib://``.",
+    "code": "<?php\n\n    $lines = gzfile('somefile.gz');\n    foreach ($lines as $line) {\n        echo $line . PHP_EOL;\n    }\n\n?>",
+    "documentation": "https://www.php.net/manual/en/book.zlib.php",
+    "related": [
+        "zip",
+        "bzip2",
+        "file",
+        "php-wrapper"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/book.zlib.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Using zlib for Page Compression",
+            "url": "https://www.pair.com/support/kb/using-zlib-for-page-compression/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Introducing streaming zlib compression and decompression with ReactPHP",
+            "url": "https://clue.engineering/2020/introducing-reactphp-zlib"
+        }
+    ],
+    "tags": [
+        "extension"
+    ],
+    "packagist": [],
+    "extensions": [
+        "zlib"
+    ],
+    "analyzers": [
+        "Extensions/Extzlib"
+    ],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Tue, 11 Aug 2026 14:41:31 +0000"
+}

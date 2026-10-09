@@ -1,0 +1,48 @@
+{
+    "id": "bitfield",
+    "name": "Bitfield",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/bitfield.html",
+    "aliases": [],
+    "description": "A bitfield is a data structure that packs multiple related boolean flags or small integers into a single integer or sequence of bits, where each bit or group of bits represents a distinct value or state.\n\nBitfields are stored as integers. They may be specified with the binary integer notation, which makes the individual bits visible.",
+    "code": "<?php\n\n    $bitfield = 0b111; // 7\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Bit_field",
+    "related": [
+        "bitmask",
+        "bitwise-operator",
+        "constant-combinaison",
+        "integer"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Bit_field"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "How to use bitmasks in PHP",
+            "url": "https://medium.com/codex/how-to-use-bitmasks-in-php-a594be597fd3"
+        }
+    ],
+    "tags": [
+        "data structure"
+    ],
+    "packagist": [
+        "thesmart/bitfield"
+    ],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Wed, 19 Aug 2026 08:25:56 +0000"
+}

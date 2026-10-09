@@ -1,0 +1,45 @@
+{
+    "id": "robots.txt",
+    "name": "robots.txt",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/robots.txt.html",
+    "aliases": [],
+    "description": "The ``robots.txt`` file is a simple text file placed on a website's root directory. It tells web-spiders, like search engine bots, which pages or sections of the site they are allowed or disallowed to access.\n\n``robots.txt`` controls bot traffic to avoid overloading servers or indexing private/irrelevant pages. \n\n``robots.txt`` tends to leak path where a robot should not index content, which is usually a place where hackers tries to login.",
+    "code": "",
+    "documentation": "https://robots-txt.com/",
+    "related": [
+        "webscraping",
+        "web-spider",
+        "search-engine"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://robots-txt.com/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Robots.txt Introduction and Guide",
+            "url": "https://developers.google.com/search/docs/crawling-indexing/robots/intro"
+        }
+    ],
+    "tags": [
+        "web"
+    ],
+    "packagist": [
+        "fkrzski/robots-txt"
+    ],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Wed, 19 Aug 2026 07:53:24 +0000"
+}

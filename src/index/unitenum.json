@@ -1,0 +1,45 @@
+{
+    "id": "unitenum",
+    "name": "UnitEnum",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/unitenum.html",
+    "aliases": [],
+    "description": "The ``UnitEnum`` interface identifies any enumeration. It works on both enumerations and backed-enumerations.\n\nThis interface is only available for type checks, and cannot be implemented by another class.\n\nThis interface ensure the ``enum::cases()`` method is available, that lists all cases in that enumeration.\n",
+    "code": "<?php\n\nenum E { case A;} \nenum F: int { case B = 1;} \n\nvar_dump(E::A instanceof UnitEnum); // true\nvar_dump(F::B instanceof UnitEnum); // true\n\n?>",
+    "documentation": "https://www.php.net/manual/en/class.unitenum.php",
+    "related": [
+        "enum",
+        "backedenum",
+        "interface",
+        "php-interface"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/class.unitenum.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Use the PHP UnitEnum::cases() during testing",
+            "url": "https://medium.com/@kczereczon/usage-php-unitenum-cases-in-testing-cf178a5ac372"
+        }
+    ],
+    "tags": [
+        "enum",
+        "interface"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sat, 08 Aug 2026 08:10:54 +0000"
+}

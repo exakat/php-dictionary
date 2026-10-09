@@ -1,0 +1,49 @@
+{
+    "id": "multiple-return-value",
+    "name": "Multiple Return Values",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/multiple-return-value.html",
+    "aliases": [],
+    "description": "Some languages, such as ``Go`` and ``Lua``, let a function return several values directly, separated by commas, without wrapping them in a container. For example, ``func divide(a, b int) (int, int) { return a/b, a%b }``. The caller receives them individually, typically by assigning each to its own variable in one statement.\n\nThis differs from returning a single composite value such as a tuple or array, because the values are not boxed: the function's declared return arity is part of its signature, and the caller can discard trailing values it does not need.\n\nPHP functions return exactly one value. Returning several values requires wrapping them in an array, a tuple-like list, or an object, and then destructuring the result with list assignment: ``[$q, $r] = divmod($a, $b);``. The array is a real value that exists at runtime, is allocated like any other array, and the ``return`` statement itself only ever returns that one array.",
+    "code": "<?php\n\n    function divmod(int $a, int $b): array {\n        return [intdiv($a, $b), $a % $b];\n    }\n    \n    [$quotient, $remainder] = divmod(7, 2);\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Return_statement#Multiple_return_values",
+    "related": [
+        "return",
+        "list",
+        "destructuring",
+        "tuple",
+        "array"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Return_statement#Multiple_return_values"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Return statement in Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Return_statement"
+        }
+    ],
+    "tags": [
+        "concept",
+        "function",
+        "not supported"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Fri, 09 Oct 2026 17:27:15 +0000"
+}

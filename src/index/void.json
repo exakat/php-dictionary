@@ -1,0 +1,50 @@
+{
+    "id": "void",
+    "name": "Void",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/void.html",
+    "aliases": [],
+    "description": "Void is a return type. It marks methods which do not return anything. \n\nIndeed, void methods should not use the return statement, or, when they do, use it without any argument. \n\nVoid is only possible with methods, closures, functions and arrow functions. It makes no sense with properties or parameters.\n",
+    "code": "<?php\n\nfunction trumpet() : void {}\n\n?>",
+    "documentation": "https://www.php.net/manual/en/migration71.new-features.php#migration71.new-features.void-functions",
+    "related": [
+        "type",
+        "null",
+        "native-type",
+        "return-value",
+        "special-typehint"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/migration71.new-features.php#migration71.new-features.void-functions"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Type Hinting No Return(Void)",
+            "url": "https://riptutorial.com/php/example/20542/type-hinting-no-return-void-"
+        }
+    ],
+    "tags": [
+        "feature",
+        "type"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [
+        "Structures/ReturnVoid",
+        "Typehints/CouldBeVoid",
+        "Functions/DontUseVoid"
+    ],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "7.1",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+}

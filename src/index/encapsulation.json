@@ -1,0 +1,55 @@
+{
+    "id": "encapsulation",
+    "name": "Encapsulation",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/encapsulation.html",
+    "aliases": [],
+    "description": "Encapsulation is the practice of bundling data, in properties, and methods that operate on that data into a single unit, a class, while restricting direct access to some of the object's components. \n\nEncapsulation relies mostly on classes and visibility, to control access to data.\n\nThis is a fundamental principle of OOP, promoting security, modularity, and maintainability.",
+    "code": "",
+    "documentation": "https://en.wikipedia.org/wiki/Encapsulation_(computer_programming)",
+    "related": [
+        "oop",
+        "getter",
+        "setter",
+        "service-container",
+        "service"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Encapsulation_(computer_programming)"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Encapsulation in PHP with Example",
+            "url": "https://mohasin-dev.medium.com/encapsulation-in-php-with-example-cb7e715bb49e"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "mastering encapsulation in php: getters, setters, and access modifiers demystified",
+            "url": "https://www.lexo.ch/blog/2025/03/php-encapsulation-getters-setters/"
+        }
+    ],
+    "tags": [
+        "code architecture",
+        "data-hiding"
+    ],
+    "packagist": [
+        "paragonie/hidden-string"
+    ],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Fri, 04 Sep 2026 09:39:51 +0000"
+}

@@ -1,0 +1,47 @@
+{
+    "id": "rubber-ducking",
+    "name": "Rubber Ducking Debugging",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/rubber-ducking.html",
+    "aliases": [],
+    "description": "Rubber Ducking is a debugging technique, where one explains the bug in human language, to a partner. The partner may be a real human, but also, an inanimate object, such as a rubber duck. In the process of explaining, the speaker clarifies the situation and often, get a deeper knowledge. \n\nThe ``rubber duck`` reference is mentioned in the ``Pragmatic programmer`` book.",
+    "code": "",
+    "documentation": "https://en.wikipedia.org/wiki/Rubber_duck_debugging",
+    "related": [
+        "ducktyping"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Rubber_duck_debugging"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "The Pragmatic Programmer",
+            "url": "https://en.wikipedia.org/wiki/The_Pragmatic_Programmer"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Rubber Ducking",
+            "url": "https://webdevstudios.com/2017/08/01/rubber-ducking/"
+        }
+    ],
+    "tags": [
+        "debug",
+        "animal"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sat, 08 Aug 2026 08:10:54 +0000"
+}

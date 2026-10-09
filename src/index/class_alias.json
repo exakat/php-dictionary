@@ -1,0 +1,47 @@
+{
+    "id": "class_alias",
+    "name": "class_alias()",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/class_alias.html",
+    "aliases": [],
+    "description": "The ``class_alias()`` function creates an alias for a class, interface, enum or trait. Then, the alias may be used in place of the original name anywhere in the application, including in ``use`` expressions. \n\nSince version 8.3, ``class_alias()`` supports the creation of aliases with native PHP classes. \n\n``class_alias()`` is also usable on interfaces, enumerations and traits. \n\nOnce created, the objects are of the original class. The alias name doesn't stick to the objects, and it is not possible to know if the object was created as an alias or the original class. The alias may be used with types.\n\nThere is no equivalent to ``class_alias()`` for functions, or constants. ",
+    "code": "<?php\n\nclass_alias(stdClass::class, StandardClass::class);\n\n$object = new StandardClass();\n\n// stdClass\nprint gettype($object);\n\n?>",
+    "documentation": "https://www.php.net/manual/en/function.class-alias.php",
+    "related": [
+        "use",
+        "alias"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/function.class-alias.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP: Using class_alias to maintain BC while moving/renaming classes",
+            "url": "https://www.schmengler-se.de/en/2016/09/php-using-class_alias-to-maintain-bc-while-move-rename-classes/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Exploring PHP class_alias",
+            "url": "hhttps://dev.to/khairuaqsara/exploring-php-classalias-k2n"
+        }
+    ],
+    "tags": [
+        "native function"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Wed, 02 Sep 2026 16:41:00 +0000"
+}

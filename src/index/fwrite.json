@@ -1,0 +1,55 @@
+{
+    "id": "fwrite",
+    "name": "fwrite()",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/fwrite.html",
+    "aliases": [
+        "fputs"
+    ],
+    "description": "``fwrite()`` is a PHP native function that writes a string to an open file pointer. It returns the number of bytes written, or ``false`` on failure. ``fputs()`` is a plain alias of ``fwrite()``.\n\nKey characteristics:\n\n+ Writing may stop before the end of the string if the stream refuses more data, so the return value should be checked against ``strlen()`` of the data for reliability\n+ An optional ``length`` parameter caps the number of bytes written, even if the string is longer\n+ Binary-safe, and works identically on files, pipes, and sockets\n\n``fwrite()`` requires the file pointer to have been opened in a writable mode, such as ``'w'``, ``'a'``, or ``'r+'``, with ``fopen()``. For writing an entire string at once without manually managing a handle, ``file_put_contents()`` is more convenient.",
+    "code": "<?php\n\n    $fp = fopen('/tmp/test.txt', 'w');\n    if ($fp) {\n        fwrite($fp, 'PHP rocks!');\n        fclose($fp);\n    }\n\n?>",
+    "documentation": "https://www.php.net/manual/en/function.fwrite.php",
+    "related": [
+        "fopen",
+        "fclose",
+        "fread",
+        "file_put_contents",
+        "file",
+        "stream",
+        "writeable",
+        "resource-leak"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/function.fwrite.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Filesystem functions",
+            "url": "https://www.php.net/manual/en/ref.filesystem.php"
+        }
+    ],
+    "tags": [
+        "function",
+        "file"
+    ],
+    "packagist": [],
+    "extensions": [
+        "standard"
+    ],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Wed, 15 Jul 2026 20:09:51 +0000"
+}

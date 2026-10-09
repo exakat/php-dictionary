@@ -1,0 +1,50 @@
+{
+    "id": "coverage",
+    "name": "Coverage",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/coverage.html",
+    "aliases": [],
+    "description": "The coverage is the concept that an operation has been applied to every part of a whole body. \n\nPHP uses this notion with tests, where code coverage is expected to use as much as possible of the code; and type coverage, where as many types as possible have been applied.\n\nUsually, coverage refers to code coverage.",
+    "code": "",
+    "documentation": "https://en.wikipedia.org/wiki/Code_coverage",
+    "related": [
+        "type-coverage",
+        "code-coverage",
+        "edge-case"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Code_coverage"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP code coverage tool",
+            "url": "https://php.watch/articles/php-code-coverage-comparison"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Type Coverage",
+            "url": "https://pestphp.com/docs/type-coverage"
+        }
+    ],
+    "tags": [
+        "disambiguation"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Fri, 19 Jun 2026 21:23:42 +0000"
+}

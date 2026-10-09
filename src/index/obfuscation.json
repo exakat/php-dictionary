@@ -1,0 +1,50 @@
+{
+    "id": "obfuscation",
+    "name": "Obfuscation",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/obfuscation.html",
+    "aliases": [],
+    "description": "Obfuscation refers to the practice of deliberately making something difficult to understand or obscure. \n\nIn the context of web security, code obfuscation is a technique used to make source code more difficult to filter and identify as a threat. The primary goal is not to improve the program's functionality but rather to hinder reverse engineering, the extraction of sensitive information from the code.\n\nIn the context of development, obfuscation leads to making the code difficult to read, so that it cannot be maintained or modified for any purpose. This is a weak strategy to protect intellectual property for editors, which usually rely on encryption of the code. Obfuscation may be achieved by using very generic terms, abbreviations, unknown languages, abstract naming schemes.\n",
+    "code": "<?php\n\n    // built with base64_encode($_GET); \n    $v = \"X0dFVA==\"; \n\n    // obfuscated code : this displays $_GET\n    print_r($\\{base64_decode($v)}); \n    \n    // This function does not help its caller, unless the definition is read.\n    echo foo('yes', 'no');\n    \n    function foo($cat, $dog) {\n        // very simple feature, with misleading names\n        return $cat . ' and ' . $dog;\n    }\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Obfuscation_(software)",
+    "related": [
+        "security",
+        "minification",
+        "proprietary-source"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Obfuscation_(software)"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Obfuscate Your PHP Source Code",
+            "url": "https://medium.com/@chidozieduru/obfuscate-your-php-source-code-da8fa6e5f3f9"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "unPHP",
+            "url": "https://www.unphp.net/"
+        }
+    ],
+    "tags": [
+        "security",
+        "readability",
+        "_nocompileOK"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 09 Jul 2026 09:03:02 +0000"
+}

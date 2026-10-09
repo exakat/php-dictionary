@@ -1,0 +1,52 @@
+{
+    "id": "message-queue",
+    "name": "Message Queue",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/message-queue.html",
+    "aliases": [],
+    "description": "A message queue server is a middleware component or service that facilitates communication between different software components or systems by enabling asynchronous message passing. It provides a mechanism for sending, storing, and receiving messages between different parts of an application or between separate applications, often across distributed or networked environments.\n\nMessage queues are commonly used in scenarios where components need to communicate and exchange data without requiring immediate responses or direct interaction. This decoupling of components through asynchronous communication offers several advantages, including improved scalability, fault tolerance, and responsiveness.",
+    "code": "",
+    "documentation": "https://en.wikipedia.org/wiki/Message_queue",
+    "related": [
+        "jobqueue",
+        "message-bus",
+        "pubsub",
+        "queue",
+        "serialization",
+        "change-data-capture",
+        "distributed-systems",
+        "event-streaming",
+        "fire-and-forget",
+        "iot"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Message_queue"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Best Lightweight PHP Message Queue",
+            "url": "https://blog.iron.io/best-lightweight-php-message-queue/"
+        }
+    ],
+    "tags": [
+        "architecture"
+    ],
+    "packagist": [
+        "bernard/bernard"
+    ],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Tue, 30 Jun 2026 15:15:22 +0000"
+}

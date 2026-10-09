@@ -1,0 +1,53 @@
+{
+    "id": "non-blocking",
+    "name": "Non-blocking",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/non-blocking.html",
+    "aliases": [
+        "non-blocking-stream"
+    ],
+    "description": "Non-blocking I/O, applied to a non-blocking stream, is a mode where read and write operations return immediately, even if no data is available or the buffer is full, instead of suspending execution until the operation can complete.\n\n``stream_set_blocking($stream, false)`` switches a stream to non-blocking mode. A subsequent ``fread()`` returns an empty string rather than waiting, and ``fwrite()`` may write fewer bytes than requested. The caller is responsible for retrying.\n\nNon-blocking I/O is a prerequisite for multiplexing multiple streams efficiently. ``stream_select()`` and the PHP 8.6 ``Io\\Poll`` API both require streams to be in non-blocking mode: they watch which streams are ready, then hand control to the caller who reads/writes without risk of blocking.\n\nThe alternative is blocking I/O, the default, where each operation parks the process until completion. Blocking is simpler but limits a single process to one active stream at a time.",
+    "code": "<?php\n\n    $server = stream_socket_server('tcp://0.0.0.0:8080');\n    stream_set_blocking($server, false); // non-blocking accept\n    \n    $client = stream_socket_client('tcp://example.com:80');\n    stream_set_blocking($client, false); // non-blocking read/write\n    \n    fwrite($client, \"GET / HTTP/1.0\\r\\nHost: example.com\\r\\n\\r\\n\");\n    \n    // stream_select() waits until $client is readable, then fread() returns immediately\n    $read = [$client];\n    $write = $except = null;\n    if (stream_select($read, $write, $except, 5) > 0) {\n        echo fread($client, 8192);\n    }\n    \n    // PHP 8.6: Io\\Poll requires non-blocking streams\n    use Io\\Poll\\Context;\n    use Io\\Poll\\Event;\n    \n    $context = new Context();\n    $context->add($client, Event::Read, fn($h) => echo fread($h->stream, 8192));\n    $context->run();\n\n?>",
+    "documentation": "https://www.php.net/manual/en/function.stream-set-blocking.php",
+    "related": [
+        "blocking-wait",
+        "polling",
+        "event-loop",
+        "stream",
+        "socket",
+        "async",
+        "edge-triggered",
+        "one-shot",
+        "amp",
+        "c10k",
+        "reactphp"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/function.stream-set-blocking.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP RFC: Poll API",
+            "url": "https://wiki.php.net/rfc/poll_api"
+        }
+    ],
+    "tags": [
+        "concept"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Fri, 09 Oct 2026 17:15:36 +0000"
+}

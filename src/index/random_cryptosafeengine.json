@@ -1,0 +1,52 @@
+{
+    "id": "random_cryptosafeengine",
+    "name": "Random\\CryptoSafeEngine",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/random_cryptosafeengine.html",
+    "aliases": [],
+    "description": "``Random\\CryptoSafeEngine`` is a marker interface ``Random`` extension. Any ``Random\\Engine`` that also implements this interface guarantees cryptographically secure output.\n\nThe only built-in engine implementing it is ``Random\\Engine\\Secure``. Type-hinting against ``CryptoSafeEngine`` enforces that callers provide a secure source of randomness.\n\n``Random\\CryptoSafeEngine`` was introduced in version 8.2.\n",
+    "code": "<?php\n\n    function generateToken(Random\\CryptoSafeEngine $engine): string {\n        $randomizer = new Random\\Randomizer($engine);\n        return bin2hex($randomizer->getBytes(16));\n    }\n    \n    $token = generateToken(new Random\\Engine\\Secure());\n\n?>",
+    "documentation": "https://www.php.net/manual/en/class.random-cryptosafeengine.php",
+    "related": [
+        "random",
+        "cryptography",
+        "interface",
+        "random_engine",
+        "php-interface"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/class.random-cryptosafeengine.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Random\\Engine\\Secure",
+            "url": "https://www.php.net/manual/en/class.random-engine-secure.php"
+        }
+    ],
+    "tags": [
+        "random",
+        "interface",
+        "cryptography",
+        "extension"
+    ],
+    "packagist": [],
+    "extensions": [
+        "random"
+    ],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "8.2",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Mon, 13 Jul 2026 18:47:12 +0000"
+}

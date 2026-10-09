@@ -1,0 +1,48 @@
+{
+    "id": "use-trait",
+    "name": "Use In Traits",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/use-trait.html",
+    "aliases": [],
+    "description": "``use`` imports a trait in the current structure, either another trait, a class or an enumeration. \n\n``use`` is a keyword for traits and classes.\n\nThe import federates all the defined structures in both traits and classes: the methods, the properties and the constants. \n\nThere may be naming conflicts between the imported traits and the host structure: the conflicts may be between an import and the host structure, or between two distinct imported traits.\n\nIn that case, there is a mechanism to resolve the conflicts: the ``insteadof`` keyword allows the host to choose between several competing implementations.\n\nThe ``as`` keyword is also available to create aliases from the import structures. These aliases shall not introduce new naming conflicts. It is not possible to use ``abstract`` as an alias when resolving names with traits.",
+    "code": "<?php\n\n    trait Trunk {\n        function trumpet() {}\n    }\n\n    trait Tusk {\n        use Trunk {\n            Trunk::trumpet as goo; // aliasing\n            Trunk::trumpet insteadof trumpet; // aliasing\n            Tusk::trumpet as hoo; // aliasing\n        }\n\n        function trumpet() {}\n    }\n\n?>",
+    "documentation": "https://www.php.net/manual/en/language.namespaces.importing.php",
+    "related": [
+        "abstract",
+        "use",
+        "trait",
+        "collision",
+        "method-collision"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.namespaces.importing.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Traits",
+            "url": "https://www.php.net/manual/en/language.oop5.traits.php"
+        }
+    ],
+    "tags": [
+        "trait",
+        "use"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+}

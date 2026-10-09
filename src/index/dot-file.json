@@ -1,0 +1,50 @@
+{
+    "id": "dot-file",
+    "name": ". File",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/dot-file.html",
+    "aliases": [],
+    "description": "The ``.`` files are files whose name start with a dot. By convention, they are considered hidden files, and are not listed when scanning a directory. Otherwise, they may be files or directories: ``.env``, ``.ssh``, ``.git``, etc.",
+    "code": "<?php\n\n    // files\n    $files = glob('./*');\n\n    // hidden files\n    $files = glob('./.*');\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Hidden_file_and_hidden_directory",
+    "related": [
+        "path",
+        "dot-directory",
+        "dot-dot-directory"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Hidden_file_and_hidden_directory"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "phpdotenv (vlucas/phpdotenv)",
+            "url": "https://github.com/vlucas/phpdotenv"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Git: gitignore",
+            "url": "https://git-scm.com/docs/gitignore"
+        }
+    ],
+    "tags": [
+        "filesystem"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Tue, 25 Aug 2026 12:17:01 +0000"
+}

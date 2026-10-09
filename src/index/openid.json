@@ -1,0 +1,56 @@
+{
+    "id": "openid",
+    "name": "OpenID Connect (OIDC)",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/openid.html",
+    "aliases": [
+        "oidc",
+        "openid-connect"
+    ],
+    "description": "OpenID Connect, aka OIDC, is an identity layer built on top of OAuth 2.0. Where OAuth 2.0 only grants delegated access to resources, OpenID Connect adds a standardized way for a client to verify who the user is, by requesting an ID Token, a signed JWT containing the user's identity claims, alongside the usual access token.\n\nOpenID Connect is commonly used to implement 'Login with...' buttons, single sign-on, SSO, across web and mobile applications, relying on identity providers such as Google, Microsoft, or Keycloak.\n\nPHP libraries such as ``jumbojett/openid-connect-php`` implement the client side of the protocol: discovery of the provider's configuration, redirection to the authorization endpoint, and validation of the returned ID Token.",
+    "code": "<?php\n\n    use Jumbojett\\OpenIDConnectClient;\n\n    $oidc = new OpenIDConnectClient(\n        'https://accounts.example.com',\n        'client-id',\n        'client-secret'\n    );\n    $oidc->authenticate();\n    $name = $oidc->requestUserInfo('name');\n\n?>",
+    "documentation": "https://openid.net/developers/how-connect-works/",
+    "related": [
+        "oauth",
+        "sso",
+        "saml",
+        "jwt",
+        "authentication",
+        "token"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://openid.net/developers/how-connect-works/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "OpenID Connect Core 1.0",
+            "url": "https://openid.net/specs/openid-connect-core-1_0.html"
+        }
+    ],
+    "tags": [
+        "security",
+        "protocol",
+        "authentication",
+        "acronym"
+    ],
+    "packagist": [
+        "jumbojett/openid-connect-php"
+    ],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sun, 02 Aug 2026 06:45:17 +0000"
+}

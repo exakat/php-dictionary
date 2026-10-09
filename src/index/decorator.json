@@ -1,0 +1,61 @@
+{
+    "id": "decorator",
+    "name": "Decorator Pattern",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/decorator.html",
+    "aliases": [
+        "decoration"
+    ],
+    "description": "A decorator, or decoration, is a design pattern used to add behavior or responsibilities to objects dynamically, without altering their code. Decorators are often used to extend the functionality of classes or objects by wrapping them in additional classes that provide the desired functionality.",
+    "code": "<?php\n\n    interface Coffee {\n        function cost();\n    }\n    \n    class SimpleCoffee implements Coffee {\n        public function cost() {\n            return 5;\n        }\n    }\n    \n    class MilkDecorator implements Coffee {\n        protected $coffee;\n    \n        public function __construct(Coffee $coffee) {\n            $this->coffee = $coffee;\n        }\n    \n        public function cost() {\n            return $this->coffee->cost() + 2;\n        }\n    }\n\n?>",
+    "documentation": "https://refactoring.guru/design-patterns/decorator/php/example",
+    "related": [
+        "design-pattern",
+        "wrapper-designpattern",
+        "proxy-class",
+        "interface",
+        "aspect-oriented",
+        "facade",
+        "middleware"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://refactoring.guru/design-patterns/decorator/php/example"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Decorating Member Objects",
+            "url": "https://rekalogika.dev/doctrine-collections-decorator/cookbook/decorating-members"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Hands-on decoration",
+            "url": "https://muhammedsari.me/hands-on-decoration"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Strategy vs Decorator in PHP: Choosing the Right Design Pattern",
+            "url": "https://phpconference.com/blog/strategy-vs-decorator-php-design-patterns/"
+        }
+    ],
+    "tags": [
+        "design pattern"
+    ],
+    "packagist": [
+        "zbateson/stream-decorators"
+    ],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sun, 30 Aug 2026 09:59:00 +0000"
+}

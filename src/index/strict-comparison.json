@@ -1,0 +1,49 @@
+{
+    "id": "strict-comparison",
+    "name": "Strict Comparison",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/strict-comparison.html",
+    "aliases": [],
+    "description": "Strict comparison is a comparison operator or a control structure that checks not only the value but also the type of the value. In other words, it does not apply any type-juggling to the values before processing. \n\nHere are the strict operators: ``==`` may be replaced with ``===``,  ``!=`` may be replaced with ``!==``, ``switch`` may be replaced with ``match``, ``in_array()`` with the third parameter ``strict`` set to true.",
+    "code": "<?php\n\n    //true\n    var_dump(1 == \"1\");\n    //false\n    var_dump(1 === \"1\");\n    \n    //true\n    var_dump(null == 0);\n    //false\n    var_dump(null === 0);\n\n?>",
+    "documentation": "https://www.php.net/manual/en/language.operators.comparison.php",
+    "related": [
+        "switch",
+        "match",
+        "relaxed-comparison",
+        "hash-comparison"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.operators.comparison.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Strict vs. Loose Comparisons in PHP",
+            "url": "https://www.copterlabs.com/strict-vs-loose-comparisons-in-php/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Strict Comparison in PHP Explained at the Zend Engine Level",
+            "url": "https://coderlegion.com/9440/strict-comparison-in-php-explained-at-the-zend-engine-level"
+        }
+    ],
+    "tags": [
+        "comparison"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sat, 08 Aug 2026 08:10:54 +0000"
+}

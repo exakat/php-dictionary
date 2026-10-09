@@ -1,0 +1,60 @@
+{
+    "id": "vcs",
+    "name": "Version Control System (VCS)",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/vcs.html",
+    "aliases": [
+        "scm"
+    ],
+    "description": "``VCS`` stands for Version Control System. It is a software tool or system that helps manage changes to files and documents over time. It is particularly useful in situations where multiple people are collaborating on the same project, allowing them to track modifications, work on different versions of files concurrently, and manage the history of changes. Version control systems are commonly used in software development, but they can also be applied to various other types of projects where tracking changes is important.\n\nA ``VCS`` is also called a SCM: ``Source Control Management``. \n\n``VCS`` is a common tool to manage code versions. There are many such systems: git, mercurial, SVN, CVS, etc. The most popular is git.",
+    "code": "",
+    "documentation": "https://en.wikipedia.org/wiki/Version_control",
+    "related": [
+        "git",
+        "cvs",
+        "svn",
+        "hg",
+        "commit",
+        "merge",
+        "pr",
+        "revision",
+        "artifact",
+        "checksum",
+        "vcs-commit",
+        "worktree"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Version_control"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Pro Git (the book)",
+            "url": "https://git-scm.com/book/en/v2"
+        }
+    ],
+    "tags": [
+        "acronym",
+        "tool"
+    ],
+    "packagist": [
+        "czproject/git-php",
+        "utopia-php/vcs"
+    ],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": {
+        "Git": "https://git-scm.com/"
+    },
+    "popularity": "",
+    "modified": "Fri, 18 Sep 2026 05:03:31 +0000"
+}

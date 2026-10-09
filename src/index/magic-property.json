@@ -1,0 +1,56 @@
+{
+    "id": "magic-property",
+    "name": "Magic Property",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/magic-property.html",
+    "aliases": [
+        "overloaded-property"
+    ],
+    "description": "Special properties, each also called an overloaded property, which are not declared, but dynamically handled by the magic methods. They do not have specific declaration. \n\nThe magic methods to handle magic properties are: ``__get()``, ``__set()``, ``__isset()`` and ``__unset()``.",
+    "code": "<?php\n\nclass Elephpant {\n    function __get($name) {\n        return 'World!';\n    }\n}\n\n$elephpant = new Elephpant;\necho $elephpant->hello; // display World!\n\n?>",
+    "documentation": "https://www.php.net/manual/en/language.oop5.magic.php",
+    "related": [
+        "__get",
+        "__set",
+        "__isset",
+        "__unset",
+        "magic-constant",
+        "magic",
+        "property"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.oop5.magic.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Overloading (__get, __set)",
+            "url": "https://www.php.net/manual/en/language.oop5.overloading.php#object.get"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Magic Constants",
+            "url": "https://www.php.net/manual/en/language.constants.magic.php"
+        }
+    ],
+    "tags": [
+        "class"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [
+        "Classes/HasMagicProperty"
+    ],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+}

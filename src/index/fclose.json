@@ -1,0 +1,55 @@
+{
+    "id": "fclose",
+    "name": "fclose()",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/fclose.html",
+    "aliases": [],
+    "description": "``fclose()`` is a PHP native function that closes an open file pointer, previously created with ``fopen()``, ``fsockopen()``, or similar functions. It returns ``true`` on success, ``false`` on failure.\n\nClosing a stream releases the underlying resource, file descriptor, socket, back to the operating system. Forgetting to call ``fclose()`` leads to a resource leak: on long-running processes, such as CLI scripts, workers or daemons, this can exhaust the number of file descriptors available to the process.\n\nIn most short-lived web requests, PHP automatically closes any remaining open handles at the end of the script, but explicit ``fclose()`` calls remain good practice, and are mandatory as soon as many files are opened in a loop, or the process runs indefinitely.",
+    "code": "<?php\n\n    $fp = fopen('data.txt', 'r');\n    if ($fp) {\n        $content = fread($fp, filesize('data.txt'));\n        fclose($fp);\n        echo $content;\n    }\n\n?>",
+    "documentation": "https://www.php.net/manual/en/function.fclose.php",
+    "related": [
+        "fopen",
+        "fread",
+        "fwrite",
+        "fgets",
+        "fgetc",
+        "ftell",
+        "rewind",
+        "resource-leak",
+        "stream",
+        "file"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/function.fclose.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Filesystem functions",
+            "url": "https://www.php.net/manual/en/ref.filesystem.php"
+        }
+    ],
+    "tags": [
+        "function",
+        "file"
+    ],
+    "packagist": [],
+    "extensions": [
+        "standard"
+    ],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Wed, 15 Jul 2026 20:09:24 +0000"
+}

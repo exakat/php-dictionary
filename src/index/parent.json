@@ -1,0 +1,53 @@
+{
+    "id": "parent",
+    "name": "parent",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/parent.html",
+    "aliases": [],
+    "description": "``parent`` is one of the three special keywords that are used to access properties or methods from inside the class definition. It relates to the first parent class, or any or their own parents. In particular, when searching for methods or properties, it may skip the direct parent, and land on one of the parent above.\n\n``parent`` represents the first parent of the class, and then, recursively, all parents of that class. \n\n``parent`` is the supertype of the current class. \n\nIn a trait, ``parent`` represents the host class's parent, not the trait own parent. In fact, the trait itself has no parent.",
+    "code": "<?php\n\n    class Elephpant {\n        protected const HABITAT = 1;\n    }\n\n    class AfricanElephpant extends Elephpant {\n        function trumpet() {\n            // could also be written as \\Elephpant::C; here\n            return parent::C;\n        }\n    }\n\n?>",
+    "documentation": "https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php",
+    "related": [
+        "overwrite",
+        "static",
+        "self",
+        "child-class",
+        "late-static-binding",
+        "language-construct",
+        "native-type",
+        "relative-types",
+        "special-typehint",
+        "base-class",
+        "class-hierarchy",
+        "mro"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP type hints: self and parent",
+            "url": "https://madewithlove.com/blog/self-and-parent-type-hints/"
+        }
+    ],
+    "tags": [
+        "keyword",
+        "class"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+}

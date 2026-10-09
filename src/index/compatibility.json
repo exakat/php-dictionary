@@ -1,0 +1,50 @@
+{
+    "id": "compatibility",
+    "name": "Compatibility",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/compatibility.html",
+    "aliases": [],
+    "description": "Compatibility refers to the ability of two or more things to work together without conflicts or issues. \n\nCompatibility may refer to:\n\n+ Version compatibility, when code works in both versions\n+ System compatibility, when code works on different operating systems\n+ Method compatibility, when methods are compatible in the parent and the child class.",
+    "code": "<?php\n\n    class Elephpant {\n        function trumpet(int $trunk) {}\n    }\n\n    class AfricanElephpant extends Elephpant {\n        // The type must be compatible with the one of the parent\n        // The name does not have to be the same as in the parent\n        function trumpet(int|null $tusk) {}\n    }\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Compatibility",
+    "related": [
+        "method-compatibility",
+        "interoperability",
+        "migration"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Compatibility"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP: Migrating from PHP 8.3.x to PHP 8.4.x",
+            "url": "https://www.php.net/manual/en/migration84.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP: Supported Versions",
+            "url": "https://www.php.net/supported-versions.php"
+        }
+    ],
+    "tags": [
+        "concept"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+}

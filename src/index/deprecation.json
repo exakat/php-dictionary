@@ -1,0 +1,51 @@
+{
+    "id": "deprecation",
+    "name": "Deprecation",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/deprecation.html",
+    "aliases": [
+        "obsolete"
+    ],
+    "description": "Deprecation, or making a feature obsolete, is the state of a feature which is still available, but not recommended anymore. The next stage of life for the feature is the removal, usually in a major release.",
+    "code": "<?php\n\n1 ? 2 : 3 ? 4 : 5;   // deprecated in PHP 7.4, removed in PHP 8.0\n(1 ? 2 : 3) ? 4 : 5; // ok\n\n?>",
+    "documentation": "https://www.php.net/manual/en/migration74.deprecated.php#migration74.deprecated.core.nested-ternary",
+    "related": [
+        "deprecated",
+        "fatal-error",
+        "string-increment",
+        "sunsetting"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/migration74.deprecated.php#migration74.deprecated.core.nested-ternary"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Deprecated Code: The Warning You Keep Ignoring Will Eventually Break Everything",
+            "url": "https://www.in-com.com/blog/managing-deprecated-code-in-software-development/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Software Engineering at Google - Deprecation",
+            "url": "https://abseil.io/resources/swe-book/html/ch15.html"
+        }
+    ],
+    "tags": [
+        "concept"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sun, 30 Aug 2026 09:59:08 +0000"
+}

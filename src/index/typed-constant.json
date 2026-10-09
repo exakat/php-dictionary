@@ -1,0 +1,43 @@
+{
+    "id": "typed-constant",
+    "name": "Typed Constant",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/typed-constant.html",
+    "aliases": [],
+    "description": "A typed constant is a class constant that holds an explicit type, like a property or an argument. Global constants cannot be typed.\n\nThe type of a constant is usually guessed from its value, as most of the constant have a single value. A typed constant is used by the inheritance system to ensure that redefined constants, in children classes, are compatible with the original type. \n\nTyped constant may also be useful when the static expression uses conditions or global constants.\n\nTyped constants were introduced in version 8.3. They are optional.",
+    "code": "<?php\n\n    class Elephpant {\n        // expression with a condition\n        const string HABITAT = SAVANNA ? 'A' : 'B';\n        // child class also provide an integer\n        const int WEIGHT = 3;\n        // AGE is defined with a global constant: Now, MATRIARCH_AGE also must be an integer\n        const int AGE = MATRIARCH_AGE;\n    }\n\n    class Calf extends Elephpant {\n        const int WEIGHT = 13;\n    }\n\n?>",
+    "documentation": "https://www.php.net/manual/en/language.oop5.constants.php",
+    "related": [
+        "class-constant"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.oop5.constants.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP 8.3: Typed Class Constants",
+            "url": "https://php.watch/versions/8.3/typed-constants"
+        }
+    ],
+    "tags": [
+        "optional"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "8.3+",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": {
+        "Uncaught TypeError: Cannot assign string to class constant Elephpant::AGE of type int": "cannot-assign-%s-to-class-constant-%s::%s-of-type"
+    },
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+}

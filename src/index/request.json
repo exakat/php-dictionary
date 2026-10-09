@@ -1,0 +1,66 @@
+{
+    "id": "request",
+    "name": "Request",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/request.html",
+    "aliases": [
+        "http-request",
+        "server-request"
+    ],
+    "description": "A request is an object that encapsulates an incoming HTTP message: method, URL, headers, query parameters, body, and uploaded files.\n\nPHP frameworks provide a dedicated Request object that replaces direct access to superglobals such as ``$_GET``, ``$_POST``, ``$_SERVER``, and ``$_FILES``. This makes code more testable and explicit.\n\nPSR-7 defines a standard ``ServerRequestInterface`` that many frameworks and libraries implement, enabling interoperability.",
+    "code": "<?php\n\n// PSR-7 style\nuse Psr\\Http\\Message\\ServerRequestInterface;\n\nfunction handle(ServerRequestInterface $request): void {\n    $method = $request->getMethod();           // 'POST'\n    $query  = $request->getQueryParams();      // $_GET equivalent\n    $body   = $request->getParsedBody();       // $_POST equivalent\n    $header = $request->getHeaderLine('Accept');\n}\n\n// Laravel / Symfony style\nuse Illuminate\\Http\\Request;\n\nclass UserController {\n    public function store(Request $request): Response {\n        $name  = $request->input('name');\n        $email = $request->input('email');\n    }\n}\n\n?>",
+    "documentation": "https://www.php-fig.org/psr/psr-7/",
+    "related": [
+        "$_request",
+        "$_get",
+        "$_post",
+        "$_server",
+        "controller",
+        "route",
+        "middleware",
+        "incoming-data",
+        "form",
+        "firewall",
+        "http-method",
+        "payload",
+        "slim"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php-fig.org/psr/psr-7/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Symfony HttpFoundation Request",
+            "url": "https://symfony.com/doc/current/components/http_foundation.html"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Laravel Requests",
+            "url": "https://laravel.com/docs/12.x/requests"
+        }
+    ],
+    "tags": [
+        "concept",
+        "http",
+        "psr"
+    ],
+    "packagist": [
+        "psr/http-message",
+        "nyholm/psr7"
+    ],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sat, 12 Sep 2026 07:43:43 +0000"
+}

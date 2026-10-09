@@ -1,0 +1,41 @@
+{
+    "id": "get_debug_type",
+    "name": "get_debug_type()",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/get_debug_type.html",
+    "aliases": [],
+    "description": "``get_debug_type()`` returns the type of a value as a string, using the same names that appear in type declarations, rather than the historical names used by ``gettype()``.\n\nFor scalars and arrays, the result is one of ``int``, ``float``, ``string``, ``bool``, ``array`` or ``null``. For an object, it returns the fully qualified class name, including an anonymous class, which is reported as ``class@anonymous`` followed by its file and location. For a resource, it returns the specific resource type, such as ``stream`` or ``curl``, instead of the generic ``resource`` reported by ``gettype()``.\n\n``get_debug_type()`` exists because ``gettype()`` predates PHP's type system, and returns names such as ``integer``, ``boolean`` or ``double``, which never match the ``int``, ``bool`` or ``float`` used in a parameter or return type declaration, making it awkward to build accurate error messages from ``gettype()`` output alone.",
+    "code": "<?php\n\n    function describe(mixed $value): string {\n        return get_debug_type($value);\n    }\n\n    echo describe(42);                          // int\n    echo describe('hi');                        // string\n    echo describe(new stdClass());               // stdClass\n    echo describe(fopen('php://memory', 'r'));   // stream\n\n?>",
+    "documentation": "https://www.php.net/manual/en/function.get-debug-type.php",
+    "related": [
+        "gettype",
+        "var_dump",
+        "type-juggling"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/function.get-debug-type.php"
+        }
+    ],
+    "tags": [
+        "native function",
+        "type"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "8.0",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Fri, 25 Sep 2026 18:46:31 +0000"
+}

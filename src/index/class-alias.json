@@ -1,0 +1,53 @@
+{
+    "id": "class-alias",
+    "name": "Class Aliases",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/class-alias.html",
+    "aliases": [],
+    "description": "It is possible to make an alias of a class and call it with this new name. It either relies on the ``use`` expression, preferable at the beginning of the namespace, or the ``class_alias()`` function, for dynamic and application-wide aliases.\n\n``use`` expressions are valid only in one file, while ``class_alias()`` impacts the whole application, once it is called. ``class_alias()`` may also be used with dynamic elements, such as variables.",
+    "code": "<?php\n\n    use a as b;\n    \n    class_alias('a', 'c');\n    \n    class a {\n        function __construct() {\n            print __CLASS__;\n        }\n    }\n    \n    new a;\n    new b;\n    new c;\n\n?>",
+    "documentation": "https://www.php.net/manual/en/language.namespaces.importing.php",
+    "related": [
+        "use"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.namespaces.importing.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP 8.3: class_alias() supports aliasing built-in PHP classes",
+            "url": "https://php.watch/versions/8.3/class_alias-php-built-in-classes-supported"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP Magic Methods and Class Aliases",
+            "url": "https://alanastorm.com/php_magic_methods_and_class_aliases/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "How to deprecate a type in php",
+            "url": "https://dev.to/greg0ire/how-to-deprecate-a-type-in-php-48cf /"
+        }
+    ],
+    "tags": [
+        "use"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [
+        "Php/UseClassAlias"
+    ],
+    "cobblers": [],
+    "rule": "Php/UseClassAlias",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Tue, 11 Aug 2026 20:59:18 +0000"
+}

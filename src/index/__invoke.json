@@ -1,0 +1,59 @@
+{
+    "id": "__invoke",
+    "name": "__invoke() Method",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/__invoke.html",
+    "aliases": [],
+    "description": "The ``__invoke()`` magic method is called when the code calls an object as a function name. This type of class is also called a functor. \n\nThe method is able to take an arbitrary number of arguments, as usual. \n\nWhen a class has the ``__invoke`` method, it is possible to call a method on its objects without mentioning a method's name: the object itself is the method.\n\n``__invoke`` is also considered as the anonymous method: it is called without using its name.\n",
+    "code": "<?php\n\n    // extracted from the PHP manual\n    class CallableClass\n    {\n        public function __invoke($trunk)\n        {\n            var_dump($trunk);\n        }\n    }\n\n    $obj = new CallableClass;\n    $obj(5);\n    var_dump(is_callable($obj));\n\n?>",
+    "documentation": "https://www.php.net/manual/en/language.oop5.magic.php#language.oop5.magic.invoke",
+    "related": [
+        "magic-method",
+        "solid",
+        "anonymous",
+        "functor",
+        "callable",
+        "invoke",
+        "new-without-parenthesis",
+        "anonymous-function"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.oop5.magic.php#language.oop5.magic.invoke"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP __invoke",
+            "url": "https://www.phptutorial.net/php-oop/php-__invoke/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "The Magical invoke Method in PHP. Your Clean Code Ally",
+            "url": "https://www.juannicolas.eu/the-invoke-method-in-php/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Why PHP\u2019s __invoke Might Be Your Best Kept Secret!",
+            "url": "https://medium.com/@jochelle.mendonca/why-phps-invoke-might-be-your-best-kept-secret-96c0bb8f1da9/"
+        }
+    ],
+    "tags": [
+        "magic method",
+        "closure"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+}

@@ -1,0 +1,54 @@
+{
+    "id": "division",
+    "name": "Division",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/division.html",
+    "aliases": [
+        "/"
+    ],
+    "description": "Division is the mathematical division. It applies to numbers: integers and float. \n\nIt also works with booleans and null, which are converted to integers. Other types are not allowed for division and yield a fatal error. \n\nDivision may be resulting in an integer or a float, whatever the type of the initial operands. PHP produces integers whenever possible.\n\nDivision by zero, or by any value that is cast to 0, leads to a ``DivisionByZeroError``.\n\nThe operator for division is the slash ``/``. The backslash ``\\`` is used for namespaces. \n\nThere is a function for the integer division: ``intdiv()``; and ``%`` for the modulo operator, aka the remaining.",
+    "code": "<?php\n\n$a = 10 / 2.5; // 4.0\n\n?>",
+    "documentation": "https://www.php.net/manual/en/language.operators.arithmetic.php",
+    "related": [
+        "addition",
+        "exponent",
+        "multiplication",
+        "modulo",
+        "divisionbyzeroerror",
+        "intdiv"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.operators.arithmetic.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Array operators",
+            "url": "https://www.php.net/manual/en/language.operators.array.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Combining arrays using + versus array_merge in PHP",
+            "url": "https://www.texelate.co.uk/blog/combining-arrays-using-plus-versus-array-merge-in-php"
+        }
+    ],
+    "tags": [
+        "math",
+        "character"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sat, 08 Aug 2026 08:10:54 +0000"
+}

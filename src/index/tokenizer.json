@@ -1,0 +1,56 @@
+{
+    "id": "tokenizer",
+    "name": "Tokenizer",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/tokenizer.html",
+    "aliases": [],
+    "description": "The PHP Tokenizer is a built-in extension that breaks down PHP source code into its fundamental components called tokens. This lexical analysis step is the first phase of PHP's compilation pipeline.\n\nThe tokenizer converts raw PHP source code into a sequence of tokens such as ``T_VARIABLE``, ``T_STRING``, ``T_FUNCTION``, ``T_CLASS``, ``T_WHITESPACE``, ``T_COMMENT``, and many others. Each token represents a meaningful unit of the language.\n\nKey use cases for the tokenizer:\n\n+ Static analysis tools: ``PHPStan``, ``Psalm``, ``Mago``, and other analyzers use tokenization to parse code without executing it\n+ Code formatting: PHP-CS-Fixer and similar tools rely on tokens to understand and transform code structure\n+ Syntax highlighting: IDE and editors tokenize code for real-time highlighting\n+ Code transformation: refactoring tools use token streams to safely rewrite code while preserving structure\n+ Linting: syntax checkers detect errors by analyzing token sequences\n\nPHP provides ``token_get_all()`` to obtain a token array from source code, and the ``token_name()`` function to map token IDs to human-readable names. The ``PhpToken`` class offers an object-oriented interface with methods like ``is()``, ``id()``, and ``text()`` for more convenient token manipulation.\n\nThe tokenizer handles PHP's full syntax including heredocs, nowdocs, attributes, and nested structures, producing a flat token stream that can be traversed sequentially.",
+    "code": "<?php\n\n    // Tokenizing PHP source code\n    $code = '<?php function hello(string $name): string { return \"Hi \" . $name; }';\n    $tokens = token_get_all($code);\n\n    foreach ($tokens as $token) {\n        if (is_array($token)) {\n            echo token_name($token[0]) . ' => ' . var_export($token[1], true) . \"\\n\";\n        } else {\n            echo 'LITERAL => ' . var_export($token, true) . \"\\n\";\n        }\n    }\n\n    // Using PhpToken class (PHP 8.0+)\n    $tokens = PhpToken::getAll($code);\n    foreach ($tokens as $token) {\n        if ($token->is(T_FUNCTION)) {\n            echo 'Found function at position ' . $token->line . \"\\n\";\n        }\n    }\n\n?>",
+    "documentation": "https://www.php.net/manual/en/book.tokenizer.php",
+    "related": [
+        "token",
+        "phptoken",
+        "parser",
+        "ast",
+        "lexical-analysis",
+        "compiler",
+        "syntax",
+        "linting",
+        "reflection",
+        "code-formatter",
+        "sca"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/book.tokenizer.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "A Beginner's Guide to the PHP Tokenizer Library for Code Parsing",
+            "url": "https://reintech.io/blog/beginners-guide-php-tokenizer-library-code-parsing"
+        }
+    ],
+    "tags": [
+        "engine",
+        "extension"
+    ],
+    "packagist": [],
+    "extensions": [
+        "tokenizer"
+    ],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Tue, 01 Sep 2026 05:31:03 +0000"
+}

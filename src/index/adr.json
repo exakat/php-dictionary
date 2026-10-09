@@ -1,0 +1,46 @@
+{
+    "id": "adr",
+    "name": "Architectural Decision Record (ADR)",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/adr.html",
+    "aliases": [],
+    "description": "An Architectural Decision Record, or ADR, is a concise document that captures an important architectural decision made during the development of a software project. The goal of an ``ADR`` is to provide context, rationale, and consequences of a decision, so that future team members, or even the same team, can understand why a particular choice was made, even years later.\n\nKey Elements of an ``ADR``\n\n+ Title: a short, descriptive name for the decision.\n+ Status: whether the decision is proposed, accepted, deprecated, or superseded.\n+ Context: the background or problem that led to the decision.\n+ Decision: the actual choice made.\n+ Consequences: the expected outcomes, trade-offs, or impacts of the decision.\n\n",
+    "code": "",
+    "documentation": "https://en.wikipedia.org/wiki/Architectural_decision",
+    "related": [
+        "pdr",
+        "application",
+        "specification"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Architectural_decision"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Architecture decision record (ADR)",
+            "url": "https://github.com/joelparkerhenderson/architecture-decision-record"
+        }
+    ],
+    "tags": [
+        "acronym",
+        "documentation"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Mon, 15 Jun 2026 11:03:58 +0000"
+}

@@ -1,0 +1,52 @@
+{
+    "id": "indentation",
+    "name": "Indentation",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/indentation.html",
+    "aliases": [
+        "indenting"
+    ],
+    "description": "Indentation, or indenting, is a convention governing the layout of blocks of code to convey program structure.\n\nFor example, the body of code in a function should be indented one unit to the right, vis-a-vis the function keyword. \n\nIndentation may be done with spaces: 2, 3, 4 or 5 spaces, or horizontal tabulations.\n\nIndentation is part of the syntax of the heredoc strings.",
+    "code": "<?php\n\nfunction headers() : never {\n    // expected indentation\n    headers('Location: https://www.exakat.io/');\n\n// badly indented block\ndie();\n}\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Indentation_style",
+    "related": [
+        "heredoc",
+        "tabulation",
+        "space"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Indentation_style"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PSR-12: Extended Style Guide",
+            "url": "https://www.php-fig.org/psr/psr-12/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Programming style (Wikipedia)",
+            "url": "https://en.wikipedia.org/wiki/Programming_style"
+        }
+    ],
+    "tags": [
+        "coding convention"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [
+        "Structures/MaxLevelOfIdentation"
+    ],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sun, 30 Aug 2026 11:40:34 +0000"
+}

@@ -1,0 +1,45 @@
+{
+    "id": "__unset",
+    "name": "__unset() Method",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/__unset.html",
+    "aliases": [],
+    "description": "``__unset()`` is called when the code unsets, or removes a magic property. That way, it is possible to remove dynamically properties. Hardcoded properties are reset to their default state, and do not call this magic method.\n\nThe ``__unset()`` method is usually paired with the ``__isset()`` and ``__set()`` methods.\n\n``__unset()`` is a magic method.",
+    "code": "<?php\n\n    class Elephpant {\n        private $values = ['a' => 1,\n                           'b' => 2,\n                           ];\n    \n        function __unset($name) {\n            unset($this->values[$name]);\n        }\n    \n        function __isset($name) {\n            return isset($this->values[$name]);\n        }\n    \n        function __set($name, $value) {\n            $this->values[$name] = $value;\n        }\n    }\n\n?>",
+    "documentation": "https://www.php.net/manual/en/language.oop5.magic.php",
+    "related": [
+        "magic-method",
+        "__set",
+        "__isset",
+        "magic-constant",
+        "magic-property"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.oop5.magic.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "__get(), __set(), __isset() and __unset()",
+            "url": "https://riptutorial.com/php/example/3635/--get------set------isset---and---unset--"
+        }
+    ],
+    "tags": [
+        "magic method"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+}

@@ -1,0 +1,53 @@
+{
+    "id": "ds",
+    "name": "Data Structure",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/ds.html",
+    "aliases": [],
+    "description": "Data Structures, is a PHP extension which provides efficient data structures, provided as an alternative to the array. It is available since PHP 7.\n\nIn particular, it provides the following structures: \n\n+ Collection\n+ Sequence\n+ Vector\n+ Deque\n+ Map\n+ Pair\n+ Set\n+ Stack\n+ Queue\n+ PriorityQueue.",
+    "code": "<?php\n\n    $stack = [];\n    $stack[] = first;\n    $stack[] = second;\n    // same as array_push($stack, second);\n    \n    echo array_pop($stack); // Outputs: second\n\n?>",
+    "documentation": "https://medium.com/@rtheunissen/efficient-data-structures-for-php-7-9dda7af674cd",
+    "related": [
+        "collection",
+        "set",
+        "hash",
+        "stack",
+        "queue",
+        "pair",
+        "sequence",
+        "datastack",
+        "datastructure"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://medium.com/@rtheunissen/efficient-data-structures-for-php-7-9dda7af674cd"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "ext-ds",
+            "url": "https://www.geeksforgeeks.org/php/php-dsset-functions-complete-reference/"
+        }
+    ],
+    "tags": [
+        "data structure"
+    ],
+    "packagist": [],
+    "extensions": [
+        "spl"
+    ],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "7.0+",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Wed, 19 Aug 2026 08:26:02 +0000"
+}

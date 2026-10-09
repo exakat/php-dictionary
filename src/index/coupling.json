@@ -1,0 +1,53 @@
+{
+    "id": "coupling",
+    "name": "Coupling",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/coupling.html",
+    "aliases": [],
+    "description": "Coupling refers to the degree of dependency between different classes of a software. It measures how interconnected or interdependent these classes are. There are several types of coupling, ranging from loose to tight. \n\n+ Content Coupling: this is the strongest form of coupling, where one module directly accesses or modifies the internal data or methods of another class. It's considered the most undesirable type of coupling, as it makes the modules highly dependent on each other and difficult to change independently.\n+ Common Coupling: in this type, multiple modules share the same data or a common storage location. Changes to this shared data can impact multiple modules simultaneously, leading to potential issues in understanding and maintaining the codebase.\n+ External Coupling: this type of coupling occurs when two modules rely on the same external interface, such as a file, a database, or a communication protocol. Changes to the external interface can affect multiple modules, but at least the internal details remain separate.\n+ Control Coupling: control coupling happens when one module passes control information, e.g., flags, status, or control variables to another module. The receiving module behaves differently based on this information, introducing dependencies between them.\n+ Data Coupling: data coupling is a better form of coupling compared to the above ones. It happens when two modules share data through parameters or arguments, but they do not directly access each other's internal data. It promotes encapsulation and makes it easier to maintain and understand the system.\n+ Message Coupling: in this type, modules communicate by passing messages, which can be in the form of method calls, function calls, or events. The modules don't need to know each other's internal details, and they interact based on well-defined interfaces.\n+ No Coupling or Content Independence: the ideal type of coupling is no coupling at all, where modules are entirely independent of each other. Each module operates in isolation, and changes to one module do not affect others\n\nSoftware designers aim to achieve low coupling and high cohesion in their systems to improve maintainability, reusability, and overall system design.\n\nThe opposite of coupling is decoupling.\n",
+    "code": "<?php\n\n// User class with high coupling (Content Coupling)\nclass User {\n    private $username;\n    private $email;\n\n    public function __construct($username, $email) {\n        $this->username = $username;\n        $this->email = $email;\n    }\n\n    // Content coupling: EmailSender is directly accessed here\n    public function register() {\n        // Register the user in the database\n\n        // Send a welcome email\n        $emailSender = new EmailSender();\n        $emailSender->sendWelcomeEmail($this->username, $this->email);\n    }\n}\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Coupling_(computer_programming)",
+    "related": [
+        "decoupling",
+        "dependency",
+        "cohesion",
+        "god-object",
+        "program-to-interface",
+        "separation-of-concerns",
+        "tech-island",
+        "tech-silo",
+        "dependency-inversion",
+        "distributed-monolith",
+        "fault-isolation",
+        "shared-database"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Coupling_(computer_programming)"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Dependencies and coupling",
+            "url": "https://dev.to/franiglesias/dependencies-and-coupling-4365"
+        }
+    ],
+    "tags": [
+        "concept",
+        "architecture"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sat, 08 Aug 2026 08:10:54 +0000"
+}

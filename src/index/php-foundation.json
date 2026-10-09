@@ -1,0 +1,56 @@
+{
+    "id": "php-foundation",
+    "name": "PHP Foundation",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/php-foundation.html",
+    "aliases": [
+        "foundation"
+    ],
+    "description": "The PHP Foundation focuses on providing financial support and guidance to PHP language developers to support its goals of improving the language for its users, providing high-quality maintenance, and improving the PHP language project to retain current contributors and to integrate new contributors.",
+    "code": "",
+    "documentation": "https://thephp.foundation/",
+    "related": [
+        "php-group",
+        "php-rfc"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://thephp.foundation/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "The PHP Foundation's mission to keep millions of sites safe",
+            "url": "https://opensourcepledge.com/blog/the-php-foundation/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "The Quiet Shift Reshaping PHP Security",
+            "url": "https://www.linkedin.com/pulse/quiet-shift-reshaping-php-security-matthew-weier-o-phinney-fgquc/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Welcome, Brent Roose",
+            "url": "https://thephp.foundation/blog/2026/09/01/welcome-brent-roose/"
+        }
+    ],
+    "tags": [
+        "community"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Wed, 02 Sep 2026 15:08:37 +0000"
+}

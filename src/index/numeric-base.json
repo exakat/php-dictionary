@@ -1,0 +1,45 @@
+{
+    "id": "numeric-base",
+    "name": "Numeric Base",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/numeric-base.html",
+    "aliases": [],
+    "description": "The numeric base is the number of digits to be used when counting. The most common bases are: binary 0 and 1, octal 0 to 7, decimal 0 to 9, duodecimal 0 to 11, hexadecimal 0 to F, aka 15.\n\nAll other bases, starting from 2, are possible.\n\nIn computer science, base 2, 10 and 16 are quite common, and require conversion from one another.",
+    "code": "<?php\n\n    $number = '1234';\n    echo base_convert($number, 10, 8);  // 2322\n    echo base_convert($number, 10, 12); // 86a\n    echo base_convert($number, 10, 16); // 4d2\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Radix",
+    "related": [
+        "integer",
+        "base",
+        "leading-zero-means-octal"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Radix"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "How to interact with Number Systems and Encoding Schemes in PHP",
+            "url": "https://oliverlundquist.com/2025/04/06/encoding-schemes-in-php.html"
+        }
+    ],
+    "tags": [
+        "math"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Fri, 24 Jul 2026 15:22:53 +0000"
+}

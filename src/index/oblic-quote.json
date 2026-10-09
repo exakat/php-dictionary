@@ -1,0 +1,52 @@
+{
+    "id": "oblic-quote",
+    "name": "Oblic Quotes",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/oblic-quote.html",
+    "aliases": [
+        "backticks"
+    ],
+    "description": "Oblic quotes, also called backticks, `` \\` `` were used to make a shell call to the operating system. They are deprecated since version 8.5, and they have no more specific usage.\n\n`` \\` `` is a character, that needs to be balanced, when used in code syntax.\n",
+    "code": "<?php\n\n    echo `ls -hla`;\n    \n    // moder alternative\n    echo shell_exec('ls -hla');\n\n?>",
+    "documentation": "https://www.php.net/manual/en/language.operators.execution.php",
+    "related": [
+        "balanced",
+        "double-quote",
+        "single-quote"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.operators.execution.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP RFC: Deprecate backtick operator",
+            "url": "https://wiki.php.net/rfc/deprecate-backtick-operator-v2"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Backtick Operator to Run Shell Command is Deprecated in PHP 8.5",
+            "url": "https://lindevs.com/backtick-operator-to-run-shell-command-is-deprecated-in-php-8-5"
+        }
+    ],
+    "tags": [
+        "operator",
+        "character",
+        "_singleQuote"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "8.5",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sat, 08 Aug 2026 08:10:54 +0000"
+}

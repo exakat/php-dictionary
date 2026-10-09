@@ -1,0 +1,48 @@
+{
+    "id": "printf",
+    "name": "printf()",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/printf.html",
+    "aliases": [],
+    "description": "``printf()`` is a PHP native function, that places the content of variables into strings, with the help of placeholders and formatting commands.\n\n``printf()`` displays the resulting string directly to STDOUT; ``sprintf()`` returns the string for further processing; ``vprintf()`` works as ``printf()``, but with an array of arguments; ``fprintf()`` writes the result directly in a stream, and ``vfprintf()`` is the same, with an array of arguments.\n\nThe first argument of ``printf()`` is a format string. The string contains format specifiers, which are detailed on the function's documentation page.\n\n``printf()`` should have one argument for each of the placeholders, plus the formatting string. The function reports when arguments are missing, and ignores silently any superfluous argument.",
+    "code": "<?php\n\n    $variable = 'elephpant';\n    printf('The %s is happy.', $variable);\n\n?>",
+    "documentation": "https://www.php.net/manual/en/function.printf.php",
+    "related": [
+        "echo",
+        "print",
+        "format",
+        "sscanf",
+        "string"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/function.printf.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "printf format string",
+            "url": "https://en.wikipedia.org/wiki/Printf_format_string"
+        }
+    ],
+    "tags": [
+        "native function",
+        "arbitrary number of argument"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": {
+        "Too few arguments": "too-few-arguments"
+    },
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Wed, 26 Aug 2026 10:49:40 +0000"
+}

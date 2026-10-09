@@ -1,0 +1,55 @@
+{
+    "id": "multidimensional-array",
+    "name": "Multidimensional Array",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/multidimensional-array.html",
+    "aliases": [],
+    "description": "An array inside an array is called a multidimensional array. Dimensions may be created as many as necessary, by using the square brackets.\n\nPHP creates the arrays on the fly. When the intermediate array are undefined, PHP will add them in the structure.",
+    "code": "<?php\n\n$a = array(1 => array('a' => 1));\n\n$a[1][\"b\"]['c'] = 3;\n\nprint_r($a);\n\n/*\nArray\n(\n    [1] => Array\n        (\n            [a] => 1\n            [b] => Array\n                (\n                    [c] => 3\n                )\n\n        )\n\n)\n*/\n?>",
+    "documentation": "https://www.php.net/manual/en/function.array.php",
+    "related": [
+        "array",
+        "array-element",
+        "index-array",
+        "json",
+        "array_keys",
+        "count",
+        "dot-notation"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/function.array.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "array_walk_recursive()",
+            "url": "https://www.php.net/manual/en/function.array-walk-recursive.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "json_encode()",
+            "url": "https://www.php.net/manual/en/function.json-encode.php"
+        }
+    ],
+    "tags": [
+        "array",
+        "_arrayOK"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [
+        "Arrays/Multidimensional"
+    ],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sat, 15 Aug 2026 08:21:41 +0000"
+}

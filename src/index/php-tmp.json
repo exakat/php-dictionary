@@ -1,0 +1,47 @@
+{
+    "id": "php-tmp",
+    "name": "php://tmp",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/php-tmp.html",
+    "aliases": [],
+    "description": "``php://tmp`` is a special read-write stream that gives access a space in memory. It is removed at the end of execution of the current code, so this stream is ideal for temporary and fast storage.\n\n``php://tmp`` stays in memory, and, when reaching a certain level, it overflows to disk. This allows this space to go beyond the maximum memory limit of PHP, without stopping the script.",
+    "code": "<?php\n\n    file_put_contents('php://tmp', $data);\n    \n    $data = file_get_contents('php://tmp');\n\n?>",
+    "documentation": "https://www.php.net/manual/en/wrappers.php.php",
+    "related": [
+        "php-memory",
+        "stream",
+        "memory_limit",
+        "file_get_contents",
+        "file_put_contents"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/wrappers.php.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Speed Up CSV Write To Disk",
+            "url": "https://php-tips.readthedocs.io/en/latest/tips/speed_up_write_to_disk.html"
+        }
+    ],
+    "tags": [
+        "php stream"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Mon, 15 Jun 2026 11:03:59 +0000"
+}

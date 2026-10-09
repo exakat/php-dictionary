@@ -1,0 +1,52 @@
+{
+    "id": "backtick",
+    "name": "Back-tick",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/backtick.html",
+    "aliases": [
+        "back-tick"
+    ],
+    "description": "Back-ticks are only used to execute a command with the underlying operating system. They are the equivalent of ``shell_exec()``. \n\nSince PHP 8.5, they are deprecated, and should be replaced with a call to ``shell_exec()`` or ``exec()``.",
+    "code": "<?php\n\n$dir = `ls`;\n\n?>",
+    "documentation": "https://www.php.net/manual/en/language.operators.execution.php",
+    "related": [
+        "shell_exec",
+        "exec",
+        "system"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.operators.execution.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Backtick Operator to Run Shell Command is Deprecated in PHP 8.5",
+            "url": "https://lindevs.com/backtick-operator-to-run-shell-command-is-deprecated-in-php-8-5"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP RFC: Deprecate backtick operator",
+            "url": "https://wiki.php.net/rfc/deprecate-backtick-operator-v2"
+        }
+    ],
+    "tags": [
+        "operator"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "8.5",
+    "phpErrors": {
+        "The backtick (`) operator is deprecated, use shell_exec() instead": "the-backtick-(`)-operator-is-deprecated,-use-shell_exec()-instead"
+    },
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 20 Aug 2026 07:35:12 +0000"
+}

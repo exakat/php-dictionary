@@ -1,0 +1,52 @@
+{
+    "id": "blast-radius",
+    "name": "Blast Radius",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/blast-radius.html",
+    "aliases": [],
+    "description": "Blast radius, borrowed from the vocabulary of explosives, is the extent of the damage caused when something goes wrong: how many users, services, servers, or how much data are affected by a single failure, bad deployment, or security incident, as opposed to how severe that failure is in isolation.\n\nIn deployment and reliability, blast radius is what a canary release, feature flag, or gradual rollout deliberately keeps small: instead of shipping a change to every server or every user at once, it is shipped to a small slice first, so that a regression only affects that slice while it is caught and rolled back. Fault isolation techniques, such as the circuit breaker, the bulkhead, or splitting a monolith into independently deployable services, reduce blast radius by containing a failure to the component where it originates rather than letting it cascade to unrelated parts of the system.\n\nIn security, blast radius describes how much an attacker can reach once a single credential, API key, or account is compromised. A database user with full admin rights, or an API token with unrestricted scope, has a large blast radius; the principle of least privilege exists specifically to shrink it, so that a leaked key only exposes the narrow set of resources it was actually issued for.\n\nReducing blast radius does not reduce the probability of a failure occurring; it reduces the cost when one does, which is why it is a central concern of chaos engineering drills, incident postmortems, and access control design alike.",
+    "code": "",
+    "documentation": "https://en.wikipedia.org/wiki/Blast_radius",
+    "related": [
+        "fault-isolation",
+        "canary",
+        "cascading-failure",
+        "circuit-breaker",
+        "bulkhead",
+        "chaos-engineering",
+        "feature-flag"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Blast_radius"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Reduce your blast radius with limited blast radius deployments",
+            "url": "https://martinfowler.com/bliki/CanaryRelease.html"
+        }
+    ],
+    "tags": [
+        "concept",
+        "devops",
+        "reliability",
+        "security"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Mon, 07 Sep 2026 09:10:47 +0000"
+}

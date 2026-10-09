@@ -1,0 +1,52 @@
+{
+    "id": "binary-integer",
+    "name": "Binary Integer",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/binary-integer.html",
+    "aliases": [],
+    "description": "Integers can be specified in binary, or base 2, notation. Binary integer syntax starts with the prefix ``0b`` and only contains 0 and 1.\n\nBinary integers may be specified as positive or negative. Their size may become very long, and yet, eventually, produce an integer. They may have leading ``0``, after the prefix ``0b``.\n\nBinary format exists only at compilation time: at execution time, the integer is in decimal form and has no hint that it was input as a binary number.\n\nBinary numbers are integers until ``PHP_INT_MAX``. Beyond that, they are cast into a decimal number, ``float``, and eventually, are returned as ``INF``.\n\nIt is possible to use ``decbin()`` and ``sprintf()``, related functions to produce a string representation in the binary format.\n",
+    "code": "<?php\n\n    // 12\n    $binary = 0b1100;\n    \n    // On a 32bit machine (double the size for 64bits one)\n    $binary = 0b1111111111111111111111111111111;\n\n?>",
+    "documentation": "https://www.php.net/manual/en/language.types.integer.php",
+    "related": [
+        "decbin",
+        "sprintf",
+        "integer",
+        "binary",
+        "hexadecimal-integer",
+        "octal-integer"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.types.integer.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP 8.1: Explicit Octal numeral notation",
+            "url": "https://php.watch/versions/8.1/explicit-octal-notation"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Binary, Hexadecimal, Octal Functions in PHP",
+            "url": "https://tutorialio.com/binary-hexadecimal-octal-functions-in-php/"
+        }
+    ],
+    "tags": [
+        "integer",
+        "feature"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "5.4",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+}

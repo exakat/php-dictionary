@@ -1,0 +1,60 @@
+{
+    "id": "actor-model",
+    "name": "Actor Model",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/actor-model.html",
+    "aliases": [
+        "actor"
+    ],
+    "description": "The Actor Model, introduced by ``Carl Hewitt`` in 1973, is a mathematical model of concurrent computation. Its fundamental unit is the actor: a lightweight, isolated entity with its own private state and a mailbox. Actors never share memory. All communication happens exclusively through asynchronous message passing.\n\nWhen an actor receives a message it may:\n\n+ Create new actors\n+ Send messages to actors whose addresses it knows\n+ Designate the behavior to use for the next message it receives\n\nBecause no memory is shared, race conditions and the need for explicit locks are eliminated by design.\n\nPHP is single-threaded in its classic request/response model, so the Actor Model is not natively available in the language. However, several frameworks and extensions bring actor-like concurrency to PHP:\n\n+ ``ReactPHP`` and ``AMPHP`` implement event loops with asynchronous message passing via promises and fibers.\n+ ``Swoole`` / ``OpenSwoole`` provide coroutines and channels that enable actor-style communication.\n+ The ``parallel`` extension gives true multi-threaded execution with channels for inter-thread messaging.\n+ Libraries such as ``Phluxor`` implement explicit actor runtimes on top of these primitives.",
+    "code": "<?php\n\n   // Conceptual actor-style pattern using ReactPHP EventLoop\n   // Each coroutine owns private state and communicates via channels (parallel ext)\n\n   use parallel\\{Runtime, Channel};\n\n   $channel = new Channel();\n\n   $actor = new Runtime();\n   $actor->run(static function (Channel $inbox): void {\n       while ($message = $inbox->recv()) {\n           echo \"Actor received: {$message}\\n\";\n       }\n   }, [$channel]);\n\n   $channel->send('hello');\n   $channel->send('world');\n   $channel->close();\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Actor_model",
+    "related": [
+        "concurrency",
+        "message-queue",
+        "fibers",
+        "coroutine",
+        "asynchronous",
+        "parallel",
+        "race-condition",
+        "shared-memory",
+        "immutable",
+        "software-transactional-memory"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Actor_model"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "parallel extension",
+            "url": "https://www.php.net/manual/en/book.parallel.php"
+        }
+    ],
+    "tags": [
+        "concurrency"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": {
+        "Carl Hewitt": "https://en.wikipedia.org/wiki/Carl_Hewitt"
+    },
+    "brand": {
+        "ReactPHP": "https://reactphp.org/",
+        "AMPHP": "https://amphp.org/",
+        "Swoole": "https://www.swoole.com/",
+        "OpenSwoole": "https://openswoole.com/",
+        "Phluxor": "https://phluxor.github.io/"
+    },
+    "popularity": "",
+    "modified": "Thu, 17 Sep 2026 14:41:40 +0000"
+}

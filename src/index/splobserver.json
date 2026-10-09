@@ -1,0 +1,51 @@
+{
+    "id": "splobserver",
+    "name": "SplObserver",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/splobserver.html",
+    "aliases": [],
+    "description": "``SplObserver`` is an SPL interface that represents the observer role in the Observer design pattern. Classes implementing ``SplObserver`` must define the ``update(SplSubject $subject)`` method, which is called whenever the observed subject notifies its observers of a state change.\n\n``SplObserver`` is used together with ``SplSubject``: the subject maintains a list of observers and calls their ``update()`` method when its internal state changes.",
+    "code": "<?php\n\n    class Logger implements SplObserver {\n        public function update(SplSubject $subject): void {\n            echo 'State changed: ' . $subject->getState() . PHP_EOL;\n        }\n    }\n\n?>",
+    "documentation": "https://www.php.net/manual/en/class.splobserver.php",
+    "related": [
+        "spl",
+        "splsubject",
+        "observer",
+        "interface",
+        "observer-pattern",
+        "php-interface"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/class.splobserver.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Observer pattern",
+            "url": "https://en.wikipedia.org/wiki/Observer_pattern"
+        }
+    ],
+    "tags": [
+        "spl",
+        "design pattern"
+    ],
+    "packagist": [],
+    "extensions": [
+        "spl"
+    ],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "5.1",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Mon, 15 Jun 2026 11:03:59 +0000"
+}

@@ -1,0 +1,53 @@
+{
+    "id": "noop",
+    "name": "Noop",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/noop.html",
+    "aliases": [
+        "no-operation"
+    ],
+    "description": "A noop, or no operation, is a command that does nothing. No-op may be an empty expression, or even entirely omitted. \n\n``echo`` an empty string is also a noop: it displays a string, which is empty so has no impact on the output. The entire command may be ignored.\n\nNeutral operations such as ``+ 0`` or ``. ''`` are noops, but they include a silent cast to integer or string, which may have a larger impact on the other values of the operation.\n\nNo operations are often considered as useless. Noops are sometimes needed where an operation is needed, but, contextually, should be neutral.\n\nThis is distinct, though close, to the identity: identity returns the incoming data, doing nothing with it. Yet, it still returns something.\n",
+    "code": "<?php\n\n// empty expressions: noops\n$a = 1;;;\n\nswitch($m) {\n    case 1:\n     // silent no op here\n     // but fallthrough\n     \n    case 2: \n        $b = 3;\n}\n\nwhile (false);\n\necho '';\n\n$trunk = 'abc'.'';\n\n'lone string';\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/NOP_(code)",
+    "related": [
+        "useless",
+        "identity"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/NOP_(code)"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "eio_nop",
+            "url": "https://www.php.net/manual/en/function.eio-nop.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Noop polyfills",
+            "url": "https://backendtea.com/post/noop-polyfill/"
+        }
+    ],
+    "tags": [
+        "concept"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [
+        "Structures/UselessInstruction"
+    ],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+}

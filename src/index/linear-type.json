@@ -1,0 +1,54 @@
+{
+    "id": "linear-type",
+    "name": "Linear Type",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/linear-type.html",
+    "aliases": [
+        "affine-type",
+        "ownership-type"
+    ],
+    "description": "Linear types and affine types, together sometimes called ownership types, are type disciplines that constrain how many times a value may be used.\n\nA linear type requires that a value is used exactly once: it must be consumed, neither discarded nor duplicated. This mirrors the mathematical concept of linear logic where a resource is a one-time token.\n\nAn affine type relaxes the constraint to at most once: a value may be consumed or silently dropped, but not used twice. Rust's ownership system is built on affine types: moving a value transfers ownership, and the original binding becomes invalid.\n\nThe primary motivation is resource safety. A file handle typed as linear or affine cannot be closed twice, cannot be forgotten open, and cannot be shared without explicit transfer. The compiler enforces correct resource lifecycle without runtime bookkeeping.\n\nRelated to this is the concept of uniqueness types, Clean language, and borrowing, which temporarily grants read-only access without transferring ownership.\n\nPHP has no linear or affine types. Values are reference-counted and can be freely copied, aliased, or ignored. Resource handles, like file handles, database connections, can be opened, re-used, or left unclosed without any static-analysis enforcement. The closest approximations are:\n\n+ Destructor-based cleanup, ``__destruct``, which runs when the last reference is dropped, but does not prevent double-use.\n+ Value objects that track consumed state with a boolean flag at runtime.\n+ Static analysis rules that heuristically warn about unclosed resources.",
+    "code": "",
+    "documentation": "https://en.wikipedia.org/wiki/Substructural_type_system",
+    "related": [
+        "type-system",
+        "resource",
+        "resource-leak",
+        "reference",
+        "garbage-collection",
+        "destructor",
+        "immutable"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Substructural_type_system"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Ownership in Rust",
+            "url": "https://doc.rust-lang.org/book/ch04-01-what-is-ownership.html"
+        }
+    ],
+    "tags": [
+        "concept",
+        "type",
+        "not supported"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Wed, 02 Sep 2026 16:41:00 +0000"
+}

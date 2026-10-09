@@ -1,0 +1,44 @@
+{
+    "id": "hypot",
+    "name": "hypot()",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/hypot.html",
+    "aliases": [],
+    "description": "``hypot()`` is a PHP native function, that computes the length of the hypotenuse on a right triangle, given the length of the two other sides.\n\n``hypot()`` is the same as calculating ``sqrt(pow($a, 2) + pow($b, 2))`` or ``sqrt($a ** 2 + $b ** 2)``. It is also the length of a segment from the origin to a point of coordinates ``($a, $b)``.\n",
+    "code": "<?php\n\n    $x = 3;\n    $y = 4;\n    var_dump(hypot($x, $y));\n\n?>",
+    "documentation": "https://www.php.net/manual/en/function.hypot.php",
+    "related": [
+        "exponent",
+        "sqrt"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/function.hypot.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Pythagorean theorem",
+            "url": "https://en.wikipedia.org/wiki/Pythagorean_theorem"
+        }
+    ],
+    "tags": [
+        "native function"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Tue, 01 Sep 2026 05:31:03 +0000"
+}

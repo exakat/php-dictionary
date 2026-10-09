@@ -1,0 +1,55 @@
+{
+    "id": "memcached",
+    "name": "Memcached",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/memcached.html",
+    "aliases": [],
+    "description": "Memcached is a distributed, in-memory key-value store used to cache the results of database queries, API calls, or rendered fragments, so that repeated requests can be served from RAM instead of recomputing them. Unlike APCu, whose cache lives inside a single PHP process pool, Memcached runs as a separate daemon and can be shared across many web servers, making it a natural fit for load-balanced, multi-server deployments.\n\nPHP talks to Memcached through the ``Memcached`` extension, built on ``libmemcached``, which offers a richer API, including binary protocol support and consistent hashing across a server pool, than the older, now unmaintained, ``memcache`` extension.\n\nA ``Memcached`` instance connects to one or more servers with ``addServer()``, then stores and retrieves values with ``set()`` and ``get()``, optionally passing a TTL, time-to-live, after which the entry is evicted. Memcached has no built-in persistence: on restart or eviction under memory pressure, cached data is simply gone, so it should only ever hold data that can be recomputed.",
+    "code": "<?php\n\n    $memcached = new Memcached();\n    $memcached->addServer('127.0.0.1', 11211);\n\n    $memcached->set('user:42', json_encode(['name' => 'Ada']), 300); // cache for 5 minutes\n\n    $user = json_decode($memcached->get('user:42'), true);\n\n?>",
+    "documentation": "https://www.php.net/manual/en/book.memcached.php",
+    "related": [
+        "apcu",
+        "redis",
+        "cache",
+        "key-value-store",
+        "shared-memory"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/book.memcached.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Memcached with PHP: Basics and Quick Tutorial",
+            "url": "https://www.dragonflydb.io/guides/memcached-with-php-basics-and-quick-tutorial"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Memcached in PHP",
+            "url": "https://www.geeksforgeeks.org/system-design/memcached-in-php/"
+        }
+    ],
+    "tags": [
+        "extension",
+        "cache"
+    ],
+    "packagist": [],
+    "extensions": [
+        "memcached"
+    ],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Tue, 18 Aug 2026 05:30:14 +0000"
+}

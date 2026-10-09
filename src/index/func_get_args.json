@@ -1,0 +1,47 @@
+{
+    "id": "func_get_args",
+    "name": "func_get_args()",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/func_get_args.html",
+    "aliases": [],
+    "description": "``func_get_args()`` is a native function that returns an array containing the function's argument list.\n\nIt is often used to handle a variable number of arguments in a function, especially before the introduction of the variadic operator ``...`` in version 5.6.\n\nThere are related functions: ``func_get_arg()``, which returns a specific argument from the list, and ``func_num_args()``, which returns the number of arguments passed to the function.",
+    "code": "<?php\n\n    function trumpet() {\n        $numargs = func_num_args();\n        echo \"Number of arguments: $numargs\\n\";\n        if ($numargs >= 2) {\n            echo \"Second argument is: \" . func_get_arg(1) . \"\\n\";\n        }\n        $arg_list = func_get_args();\n        for ($i = 0; $i < $numargs; $i++) {\n            echo \"Argument $i is: \" . $arg_list[$i] . \"\\n\";\n        }\n    }\n    \n    trumpet(1, 2, 3);\n\n?>",
+    "documentation": "https://www.php.net/manual/en/function.func-get-args.php",
+    "related": [
+        "variable-argument",
+        "variadic",
+        "arbitrary-argument",
+        "method-overloading",
+        "compiler-optimized-function"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/function.func-get-args.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "https://www.geeksforgeeks.org/php/php-func_get_args-function/",
+            "url": "https://www.geeksforgeeks.org/php/php-func_get_args-function/"
+        }
+    ],
+    "tags": [
+        "native function"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "5.0+",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Fri, 18 Sep 2026 15:29:01 +0000"
+}

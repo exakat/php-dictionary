@@ -1,0 +1,59 @@
+{
+    "id": "write-context",
+    "name": "Write Context",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/write-context.html",
+    "aliases": [
+        "output-context",
+        "sink-context"
+    ],
+    "description": "The write context, also called output context or sink context, is the location in the final document where a piece of data is emitted: an HTML body, an HTML attribute, a ``<script>`` block, a CSS value, or a URL. It determines which encoding function is the correct, safe one to use.\n\nThe same untrusted string requires different treatment depending on where it lands. ``htmlspecialchars()`` is correct for text placed in the HTML body or most attributes, but it does not make a string safe to place inside a ``<script>`` block: quotes and angle brackets are neutralized for HTML, not for JavaScript string literals, so a value escaped for one context can still break out of, or inject code into, another. Data written into a JavaScript context should instead be encoded with ``json_encode()``, or a dedicated helper such as Laravel's ``Js::from()``, and data written into a URL should be passed through ``urlencode()`` or ``rawurlencode()``.\n\nUsing the wrong write context, for instance HTML-escaping a value before printing it inside a ``<script>`` tag, is a common and easily-missed source of ``XSS``, because the mistake only shows up for inputs containing the specific characters the chosen encoder does not handle.",
+    "code": "<?php\n\n    $name = $_GET['name']; // e.g. '</script><script>alert(1)</script>'\n\n?>\n<!-- HTML body context: htmlspecialchars() is correct -->\n<p>Hello, <?= htmlspecialchars($name) ?></p>\n\n<script>\n    // Script context: htmlspecialchars() is NOT enough here.\n    // Use a JSON-safe encoder instead.\n    const name = <?= json_encode($name, JSON_HEX_TAG | JSON_HEX_APOS) ?>;\n</script>",
+    "documentation": "https://cheatsheetseries.owasp.org/cheatsheets/Cross_Site_Scripting_Prevention_Cheat_Sheet.html",
+    "related": [
+        "escape-html",
+        "escape-data",
+        "encode",
+        "xss",
+        "stored-xss",
+        "json_encode",
+        "htmlspecialchars",
+        "sanitation"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://cheatsheetseries.owasp.org/cheatsheets/Cross_Site_Scripting_Prevention_Cheat_Sheet.html"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "OWASP: DOM based XSS Prevention Cheat Sheet",
+            "url": "https://cheatsheetseries.owasp.org/cheatsheets/DOM_based_XSS_Prevention_Cheat_Sheet.html"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "MDN: Cross-site scripting",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/Security/Attacks/XSS"
+        }
+    ],
+    "tags": [
+        "security",
+        "concept"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 27 Aug 2026 05:42:51 +0000"
+}

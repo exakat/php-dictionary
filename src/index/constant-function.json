@@ -1,0 +1,50 @@
+{
+    "id": "constant-function",
+    "name": "constant()",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/constant-function.html",
+    "aliases": [],
+    "description": "The ``constant()`` function is a native function, which provide the value of a declared global constant, a class constant or an enumeration case.\n\nFor class constant and enumeration cases, it may be replaced with the dynamic class constant syntax, introduced in version 8.3.",
+    "code": "<?php\n\n    const A = 1;\n    \n    echo constant('A');\n    \n    enum E: string {\n        case B = 'abc';\n        const C = 'def';\n    }\n    \n    echo constant('E::B')->value; // abc\n    echo constant('E::C');        // def\n\n?>",
+    "documentation": "https://www.php.net/constant",
+    "related": [
+        "dynamic-class-constant",
+        "class-constant-syntax",
+        "dynamic-constant"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/constant"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "define",
+            "url": "https://www.php.net/manual/en/function.define.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "defined",
+            "url": "https://www.php.net/manual/en/function.defined.php"
+        }
+    ],
+    "tags": [
+        "native function"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Tue, 25 Aug 2026 18:22:52 +0000"
+}

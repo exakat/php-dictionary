@@ -1,0 +1,58 @@
+{
+    "id": "gif",
+    "name": "Graphics Interchange Format (GIF)",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/gif.html",
+    "aliases": [
+        "graphics-interchange-format"
+    ],
+    "description": "GIF, for Graphics Interchange Format, is a bitmap image format developed by CompuServe in 1987. It supports up to 256 colors per frame and uses lossless compression based on the ``LZW`` algorithm.\n\nGIF is widely known for supporting animation through multiple frames stored in a single file.\n\nThe GD extension can create and manipulate GIF images using functions such as ``imagecreatefromgif()``, ``imagegif()``, and ``imagecreatetruecolor()``.\n\nAs with the rest of internet, nobody in the community has sorted out the pronunciation of this: it may be ``GIF`` or ``GIF``.\n",
+    "code": "<?php\n\n    $image = imagecreatefromgif('input.gif');\n    \n    // Manipulate...\n    \n    imagegif($image, 'output.gif');\n    imagedestroy($image);\n\n?>",
+    "documentation": "https://www.php.net/manual/en/function.imagegif.php",
+    "related": [
+        "jpg",
+        "png",
+        "image",
+        "gd",
+        "folklore"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/function.imagegif.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "An Introduction to the PHP GD Graphics Library",
+            "url": "https://reintech.io/blog/introduction-php-gd-graphics-library"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP and GD Library: Creating and Manipulating Images",
+            "url": "https://reintech.io/blog/php-gd-library-creating-manipulating-images"
+        }
+    ],
+    "tags": [
+        "image",
+        "format",
+        "acronym"
+    ],
+    "packagist": [],
+    "extensions": [
+        "gd"
+    ],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 17 Sep 2026 08:33:39 +0000"
+}

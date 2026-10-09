@@ -1,0 +1,48 @@
+{
+    "id": "explicit",
+    "name": "Explicit",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/explicit.html",
+    "aliases": [],
+    "description": "A feature is explicit when its presence is represented in the source code.\n\nFor example, a default value for an argument is not explicit: it may be omitted, and still be used. It is called implicit. \n\nIf that same value is written in the calling code, even if the passed value is the same as the default value, it is now explicit, and may be read in the calling code.",
+    "code": "<?php\n\n    function trumpet($a = 1) {}\n\n    // implicit call\n    trumpet();\n\n    // explicit calls\n    trumpet(1);\n    trumpet(3);\n\n?>",
+    "documentation": "https://skoop.dev/blog/2025/08/08/explicit-code/",
+    "related": [
+        "implicit"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://skoop.dev/blog/2025/08/08/explicit-code/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Default parameter values",
+            "url": "https://www.php.net/manual/en/functions.arguments.php#functions.arguments.default"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Named arguments",
+            "url": "https://www.php.net/manual/en/functions.arguments.php#functions.named-arguments"
+        }
+    ],
+    "tags": [
+        "concept"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+}

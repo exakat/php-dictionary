@@ -1,0 +1,54 @@
+{
+    "id": "nodiscard",
+    "name": "NoDiscard",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/nodiscard.html",
+    "aliases": [],
+    "description": "``NoDiscard`` attribute ensures that the returned value of a method is collected in the calling context. That value must be processed there, and not ignored, as it is important for the rest of the processing.\n\n``NoDiscard`` is already used internally, with ``flock`` and ``DateTimeImmutable::setTime()``, to ensure that the result is checked.",
+    "code": "<?php\n\n    #[\\NoDiscard(\"This returns NULL in case of error\")]\n    function trumpet(): ?array {}\n\n    $result = trumpet();\n    if ($result === null) { \n        throw new Exception('an error occured!');\n    }\n\n?>",
+    "documentation": "https://www.php.net/manual/en/class.nodiscard.php",
+    "related": [
+        "attribute",
+        "attribute-class",
+        "php-attribute",
+        "php-native-attribute",
+        "void-cast"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/class.nodiscard.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP RFC: Marking return values as important (#[\\NoDiscard])",
+            "url": "https://wiki.php.net/rfc/marking_return_value_as_important"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "#[\\NoDiscard] \u2014 Warn When Return Values Are Ignored",
+            "url": "https://haphpiness.com/#/happy/42"
+        }
+    ],
+    "tags": [
+        "php attribute",
+        "rfc",
+        "feature"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "8.5+",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+}

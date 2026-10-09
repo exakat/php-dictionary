@@ -1,0 +1,48 @@
+{
+    "id": "pipe",
+    "name": "Pipe ``|``, The Logical Operator",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/pipe.html",
+    "aliases": [],
+    "description": "The ``pipe operator`` is the ``|>`` operator. \n\nThe pipe operator chains two callables from left to right: it takes the return value of the first callable and passes it to the right callable.\n\nThe pipe operator is equivalent to nested calls of functions, methods, closures. It also only applies to callables with one compulsory parameter, with return values, and without references.\n\nIt was added in version 8.5.\n\nThe pipe operator is a reference to the ``|`` pipe operator from the command line, which uses the result of the previous, left, command to feed the next, right, command. It should not be confused with the or bitwise operator ``|``, already available.",
+    "code": "<?php\n\n    $result = \"HELLO world\" |> trim(...) |> strtolower(...) |> ucfirst(...);\n    // Hello World\n    \n    // Same as \n    $result = ucfirst(strtolower(trim(\"HELLO World\")));\n    // Hello World\n\n?>",
+    "documentation": "https://wiki.php.net/rfc/pipe-operator-v3",
+    "related": [
+        "bitwise-operator",
+        "stdout"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://wiki.php.net/rfc/pipe-operator-v3"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP 8.5: Pipe operator (|>)",
+            "url": "https://php.watch/versions/8.5/pipe-operator"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP 8.5 Adds Pipe Operator: What it means",
+            "url": "https://thephp.foundation/blog/2025/07/11/php-85-adds-pipe-operator/"
+        }
+    ],
+    "tags": [
+        "operator",
+        "rfc"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "8.5+",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Tue, 11 Aug 2026 20:59:50 +0000"
+}

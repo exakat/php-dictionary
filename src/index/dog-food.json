@@ -1,0 +1,46 @@
+{
+    "id": "dog-food",
+    "name": "Dog Fooding",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/dog-food.html",
+    "aliases": [
+        "dogfooding",
+        "eating-your-own-dog-food"
+    ],
+    "description": "Dog fooding, or ``eating your own dog food``, is the practice of an organisation using its own product internally, in production conditions, instead of relying only on artificial tests.\n\nDog fooding surfaces usability issues, missing features, and bugs that would otherwise only be found by external users. It also builds confidence in the product, since the team relies on it for its own work.\n\nFor example, the PHP website is written with the PHP language.",
+    "code": "",
+    "documentation": "https://en.wikipedia.org/wiki/Eating_your_own_dog_food",
+    "related": [
+        "best-practice",
+        "folklore"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Eating_your_own_dog_food"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Dogfooding",
+            "url": "https://learningloop.io/plays/dogfooding"
+        }
+    ],
+    "tags": [
+        "concept",
+        "convention"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sat, 29 Aug 2026 07:31:13 +0000"
+}

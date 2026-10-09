@@ -1,0 +1,37 @@
+{
+    "id": "missing-subpattern",
+    "name": "Missing Subpattern",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/missing-subpattern.html",
+    "aliases": [],
+    "description": "Final subpatterns, when not used by a regex to succeed, are omitted from the result. This happens as PHP optimizes the last results, and do not report non-finding subpatterns. \n\nOn the other hand, the program may expect the subpatterns to be available, albeit empty. Generally speaking, subpatterns are actually filled when the regex succeed. \n\nThe safe solution is to use the PREG_UNMATCHED_AS_NULL flag, which makes sure they are always provided.\n\nThis situation applies to ``preg_match()`` and ``preg_match_all()``. It also applies to the ``?`` and ``*`` quantifiers, when they are used on a subpattern, at the end of the regex. Non-terminal subpatterns are provided, to avoid confusion with the following ones.",
+    "code": "<?php\n\n    preg_match('/(a)(b)?(c)?/', 'a', $matches);\n    var_dump($matches);\n    // [a, a] \n    \n    preg_match('/(a)(b)?(c)?/', 'a', $matches, flags: PREG_UNMATCHED_AS_NULL);\n    var_dump($matches);\n    // [a, a, null, null] \n\n?>",
+    "documentation": "https://www.php.net/manual/fr/function.preg-match.php",
+    "related": [
+        "regex"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/fr/function.preg-match.php"
+        }
+    ],
+    "tags": [
+        "classic bug",
+        "noSeeAlso"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 17 Sep 2026 07:47:00 +0000"
+}

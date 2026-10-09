@@ -1,0 +1,47 @@
+{
+    "id": "recursive-array",
+    "name": "Recursive Array",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/recursive-array.html",
+    "aliases": [],
+    "description": "A recursive array is an array that contains a reference to itself. It is a legit construction, although it introduces a loop, between an element and the original variable. This has impact on traversing the array, in particular to count or to compare the array.",
+    "code": "<?php\n\n    $a = [1, 2, 3 => &$a];\n\n    print_r($a);\n    \n    /**\n    Array\n(\n    [0] => 1\n    [1] => 2\n    [3] => Array\n *RECURSION*\n)\n*/\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Circular_reference",
+    "related": [
+        "reference",
+        "array",
+        "print_r",
+        "recursion",
+        "recursivearrayiterator"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Circular_reference"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "References Explained",
+            "url": "https://www.php.net/manual/en/language.references.php"
+        }
+    ],
+    "tags": [
+        "self-reference"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Fri, 14 Aug 2026 08:10:50 +0000"
+}

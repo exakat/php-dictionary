@@ -1,0 +1,54 @@
+{
+    "id": "minus-one",
+    "name": "Minus One -1",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/minus-one.html",
+    "aliases": [],
+    "description": "Minus one is the ``-1`` integer. ``-1`` is part of the truthy values: it is the equivalent of ``true``.\n\n``-1`` is part of the three values returned by the spaceship operator. \n\n0 is a classic magic number, although it has so many uses that it is usually overlooked, as generating too many false positives or scattered issues.",
+    "code": "<?php\n\n    $zero = 0;\n\n    $four = 4 + 0;\n    \n    // may it returns 1 or -1, this is true\n    var_dump((bool) 1 <=> -1); // true\n    var_dump((bool) -1 <=> 1); // true\n\n?>",
+    "documentation": "https://www.php.net/manual/en/language.operators.comparison.php#language.operators.comparison.spaceship",
+    "related": [
+        "true",
+        "spaceship",
+        "one",
+        "zero",
+        "truthy",
+        "zend-assertions"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.operators.comparison.php#language.operators.comparison.spaceship"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP Spaceship Operator - Comparing Values",
+            "url": "https://zetcode.com/php/spaceship-operator/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP 7 | Spaceship Operator",
+            "url": "https://www.geeksforgeeks.org/php/php-7-spaceship-operator/"
+        }
+    ],
+    "tags": [
+        "truthy",
+        "classic bug"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 13 Aug 2026 08:15:55 +0000"
+}

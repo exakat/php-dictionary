@@ -1,0 +1,44 @@
+{
+    "id": "drop-in",
+    "name": "Drop-in",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/drop-in.html",
+    "aliases": [],
+    "description": "A drop-in replacement is a library or a component which replaces entirely a previous one. It may add new features, but it does not break anything that was previously working.",
+    "code": "",
+    "documentation": "https://grokipedia.com/page/Drop-in_replacement",
+    "related": [
+        "refactoring",
+        "module"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://grokipedia.com/page/Drop-in_replacement"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "What are WordPress Drop-in Plugins?",
+            "url": "https://kevdees.com/what-are-wordpress-drop-in-plugins/"
+        }
+    ],
+    "tags": [
+        "code architecture"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Tue, 01 Sep 2026 11:38:51 +0000"
+}

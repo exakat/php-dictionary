@@ -1,0 +1,45 @@
+{
+    "id": "rsa",
+    "name": "RSA",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/rsa.html",
+    "aliases": [],
+    "description": "RSA is the Rivest\u2013Shamir\u2013Adleman algorithm, a widely used method of encryption in the field of cryptography.\n\nRSA is a public-key cryptosystem, with a public key, shared with everyone, and a private key, kept secret.",
+    "code": "<?php\n\n    // 1) Create a new private/public key pair\n    $config = [\n        'private_key_bits' => 2048,\n        'private_key_type' => OPENSSL_KEYTYPE_RSA,\n    ];\n    \n    $res = openssl_pkey_new($config);\n    \n    // Export the private key\n    openssl_pkey_export($res, $privateKey);\n    \n    // Extract the public key\n    $keyDetails = openssl_pkey_get_details($res);\n    $publicKey = $keyDetails['key'];\n    \n    echo \"Private Key:\\n$privateKey\\n\\n\";\n    echo \"Public Key:\\n$publicKey\\n\\n\";\n    \n    // 2) Encrypt a message\n    $data = 'Hello, RSA!';\n    \n    // Encrypt with public key\n    openssl_public_encrypt($data, $encrypted, $publicKey);\n    \n    // Encode for safe output/storage\n    $encryptedBase64 = base64_encode($encrypted);\n    \n    echo \"Encrypted:\\n$encryptedBase64\\n\\n\";\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/RSA_cryptosystem",
+    "related": [
+        "base64",
+        "xxtea"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/RSA_cryptosystem"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "openssl_public_encrypt",
+            "url": "https://www.php.net/manual/en/function.openssl-public-encrypt.php"
+        }
+    ],
+    "tags": [
+        "acronym",
+        "cryptography"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Wed, 19 Aug 2026 06:47:36 +0000"
+}

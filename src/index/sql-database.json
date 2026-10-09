@@ -1,0 +1,52 @@
+{
+    "id": "sql-database",
+    "name": "SQL Database",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/sql-database.html",
+    "aliases": [],
+    "description": "A SQL database is a database server that processes data based on the SQL language.\n\nPHP is able to connect to many databases, including SQLite3, MySQL, MariaDB, PostgreSQL, Oracle, MSSQL, etc.",
+    "code": "",
+    "documentation": "https://en.wikipedia.org/wiki/SQL",
+    "related": [
+        "sql",
+        "mysql",
+        "pgsql",
+        "oracle",
+        "sqlite3",
+        "column-database",
+        "database",
+        "server",
+        "document-database"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/SQL"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Top 10 SQL Databases To Learn in 2025",
+            "url": "https://www.geeksforgeeks.org/blogs/top-sql-databases-to-learn/"
+        }
+    ],
+    "tags": [
+        "architecture",
+        "server"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Fri, 11 Sep 2026 09:41:55 +0000"
+}

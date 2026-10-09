@@ -1,0 +1,62 @@
+{
+    "id": "comparison",
+    "name": "Comparison",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/comparison.html",
+    "aliases": [
+        "comparison-operator"
+    ],
+    "description": "Comparison operators check how two values relate to each other. They may be equal or different, and, depending on the type of compared data, they may be greater or lesser than the other one.\n\nPHP comparisons exists with type-juggling, ``==``, ``<>``, ``<=>``, ``switch()`` and ``!=``, and with type checks, ``match()``, ``===`` and ``!==``. They are called loose comparison, as PHP applies some cast before executing the comparison. Inequalities only exist with type-juggling. \n\nOn the other hand, PHP has strict comparisons, which include comparing the type before running any further checks. They are ``===`` and ``!==``. \n\nThere are also functions dedicated to comparisons, with specific applications: ``strcmp()``, ``strcasecmp()``, ``strnatcasecmp()``, ``strcoll()``, ``similar_text()``, ``levensthein()``, ``bccomp()``, ``version_compare()``, ``hash_equals()``. \n\nSome of the functions include a loose or a strict version.",
+    "code": "<?php\n\n    if ($a == $b) {\n        print 'a and b are equal';\n    }\n\n?>",
+    "documentation": "https://www.php.net/manual/en/language.operators.comparison.php",
+    "related": [
+        "operator",
+        "type-juggling",
+        "switch",
+        "match",
+        "spaceship",
+        "magic-hash",
+        "truthy",
+        "underscore",
+        "zero",
+        "identity-comparison",
+        "relaxed-comparison",
+        "array_keys",
+        "double-arrow",
+        "triple"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.operators.comparison.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP Variable Comparison",
+            "url": "https://phpcheatsheets.com/compare/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Difference between the (=), (==), and (===) operators in PHP",
+            "url": "https://www.educative.io/answers/difference-between-the-and-operators-in-php"
+        }
+    ],
+    "tags": [
+        "operator",
+        "feature"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Mon, 14 Sep 2026 17:05:39 +0000"
+}

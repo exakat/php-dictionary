@@ -1,0 +1,55 @@
+{
+    "id": "bitwise-operator",
+    "name": "Bitwise Operators",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/bitwise-operator.html",
+    "aliases": [],
+    "description": "Bitwise operators evaluate specific bits within an integer. \n\nBitwise operators are convenient to handle bit fields. \n\n+ ``&``, ``&=``: ampersand operator, and\n+ ``|``, ``|=``: pipe operator, or\n+ ``^``, ``^=``: caret operator, xor\n\nAll these operators have a short assignation version, as shown above.\n\nThese operators differ from logical operators, which convert the value to boolean before manipulation.",
+    "code": "<?php\n\n    $a = 3;  // binary : 11\n    $b = 7;  // binary : 111\n    \n    print $a & $b; // 3; binary : 11\n\n?>",
+    "documentation": "https://www.php.net/manual/en/language.operators.bitwise.php",
+    "related": [
+        "and",
+        "logical-operator",
+        "short-assignation",
+        "bitfield",
+        "boolean",
+        "bitmask",
+        "bitshift-operator",
+        "letter-logical",
+        "pipe"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.operators.bitwise.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Are Bitwise Operators Still Relevant in Modern PHP?",
+            "url": "https://www.sitepoint.com/bitwise-operators-still-relevant-modern-php/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Bitmasks and Bitwise Operators in PHP",
+            "url": "https://rodstaines.medium.com/bitmasks-and-bitwise-operators-in-php-1718b80cd50f"
+        }
+    ],
+    "tags": [
+        "operator",
+        "feature"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+}

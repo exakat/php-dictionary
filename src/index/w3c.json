@@ -1,0 +1,51 @@
+{
+    "id": "w3c",
+    "name": "World Wide Web Consortium (W3C)",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/w3c.html",
+    "aliases": [
+        "world-wide-web-consortium"
+    ],
+    "description": "The ``W3C``, or World Wide Web Consortium, is the international standards organization for the World Wide Web. It publishes and maintains specifications for HTML, CSS, the DOM, accessibility guidelines such as ``WCAG``, and many other web technologies.\n\n``W3C`` standards are not PHP-specific, but they shape how PHP applications produce and consume web content: the HTML a PHP script generates is expected to be valid against ``W3C``'s HTML specification, and features like the PHP DOM extension implement the same DOM model that the ``W3C`` defines for browsers.",
+    "code": "",
+    "documentation": "https://www.w3.org/",
+    "related": [
+        "html",
+        "dom",
+        "whatwg",
+        "accessibility",
+        "css"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.w3.org/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "W3C Standards",
+            "url": "https://www.w3.org/standards/"
+        }
+    ],
+    "tags": [
+        "group",
+        "acronym",
+        "standard"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Wed, 26 Aug 2026 10:18:15 +0000"
+}

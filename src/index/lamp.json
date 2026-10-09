@@ -1,0 +1,50 @@
+{
+    "id": "lamp",
+    "name": "Linux Apache Mysql PHP (LAMP)",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/lamp.html",
+    "aliases": [],
+    "description": "LAMP is a popular open-source software stack used to build and deploy web applications. The acronym stands for:\n\n+ Linux: the operating system.\n+ Apache: the web server.\n+ MySQL: the database management system, or alternatives like MariaDB.\n+ PHP: the programming language used for server-side scripting.",
+    "code": "",
+    "documentation": "https://en.wikipedia.org/wiki/LAMP_(software_bundle)",
+    "related": [
+        "mysql",
+        "server",
+        "webserver",
+        "php",
+        "lemp",
+        "stack"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/LAMP_(software_bundle)"
+        }
+    ],
+    "tags": [
+        "acronym",
+        "folklore",
+        "stack"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": {
+        "Linux": "https://www.linux.com/",
+        "Apache": "https://www.apache.org",
+        "MySQL": "https://www.mysql.com/",
+        "MariaDB": "https://mariadb.org/"
+    },
+    "popularity": "",
+    "modified": "Fri, 18 Sep 2026 05:06:57 +0000"
+}

@@ -1,0 +1,50 @@
+{
+    "id": "collision",
+    "name": "Collision",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/collision.html",
+    "aliases": [
+        "name-collision"
+    ],
+    "description": "A collision, or name collision, happens when two entities of the same type have two distinct definitions. This usually leads to a PHP Fatal error, as the engine can't tell the difference between the two structures.\n\nNote that structures of different types may have the same name, although it might lead to ambiguities. \n\nStructures with the same name, and defined in different namespaces are possible. The naming collision may happen at import time, a.k.a. with a ``use`` expression, and may be solved with an alias. \n\nSome structures resolve collisions by simply overwriting the previous one: this is the case for variables.",
+    "code": "<?php\n\n    function trumpet() {}\n\n    // name collision: no two functions can have the same name\n    // name collision: function names are case insensitive, so trumpet === TRUMPET\n    // function TRUMPET() {}\n\n    // TRUMPET as a constant and TRUMPET as a function are distinct elements.\n    const TRUMPET = 1;\n\n    // variable collisions are silent : the variable's value is simply changed\n    $trunk = 1;\n    foreach($herd as $trunk) {\n        print $trunk; // may print a different value than 1\n    }\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Collision_(computer_science)",
+    "related": [
+        "namespace",
+        "use-trait",
+        "use-alias"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Collision_(computer_science)"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Hash collision",
+            "url": "https://en.wikipedia.org/wiki/Hash_collision"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Using namespaces: Aliasing/Importing",
+            "url": "https://www.php.net/manual/en/language.namespaces.importing.php"
+        }
+    ],
+    "tags": [
+        "name"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+}

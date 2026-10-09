@@ -1,0 +1,56 @@
+{
+    "id": "clean-code",
+    "name": "Clean Code",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/clean-code.html",
+    "aliases": [],
+    "description": "Clean code refers to code that is well-organized, easy to read, and easy to maintain. It follows best practices and principles that contribute to the overall quality of the codebase. Clean code is not only about functionality but also about readability, simplicity, and maintainability. It is a concept introduced by ``Robert C. Martin`` in his book ``Clean Code: A Handbook of Agile Software Craftsmanship``.",
+    "code": "",
+    "documentation": "https://en.wikipedia.org/wiki/Clean_Code",
+    "related": [
+        "design-pattern",
+        "explanation",
+        "streamlining",
+        "calisthenics"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Clean_Code"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Clean Code: A Handbook of Agile Software Craftsmanship",
+            "url": "https://www.oreilly.com/library/view/clean-code-a/9780136083238/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "SOLID",
+            "url": "https://en.wikipedia.org/wiki/SOLID"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "The Clean Code Blog",
+            "url": "http://blog.cleancoder.com/"
+        }
+    ],
+    "tags": [
+        "quality"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": {
+        "Robert C. Martin": "http://blog.cleancoder.com/"
+    },
+    "brand": "",
+    "popularity": "",
+    "modified": "Fri, 18 Sep 2026 04:44:53 +0000"
+}

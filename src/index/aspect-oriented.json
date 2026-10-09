@@ -1,0 +1,51 @@
+{
+    "id": "aspect-oriented",
+    "name": "Aspect-Oriented",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/aspect-oriented.html",
+    "aliases": [
+        "aop"
+    ],
+    "description": "Aspect-oriented design structures code so that cross-cutting concerns: behaviors that affect multiple classes or layers without belonging to any single one, are isolated into dedicated units called aspects.\n\nIn applications, common cross-cutting concerns include logging, caching, authorization, validation, and transaction management. They are typically implemented through decorators, middleware chains, event listeners, or AOP frameworks.\n\nThe key principle is that business logic classes should remain unaware of these concerns: they are woven in by the surrounding infrastructure rather than being called explicitly. This improves cohesion, reduces duplication, and makes each concern independently testable and replaceable.",
+    "code": "<?php\n\n// Cross-cutting concern isolated as a decorator\nfinal class LoggingRepository implements UserRepositoryInterface {\n    public function __construct(\n        private readonly UserRepositoryInterface $inner,\n        private readonly LoggerInterface         $logger,\n    ) {}\n\n    public function find(int $id): User {\n        $this->logger->info('find', ['id' => $id]);\n        return $this->inner->find($id);\n    }\n}\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Aspect-oriented_programming",
+    "related": [
+        "aspect-programming",
+        "decorator",
+        "middleware",
+        "proxy",
+        "paradigm",
+        "separation-of-concerns",
+        "decoupling"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Aspect-oriented_programming"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Go! AOP Framework for PHP",
+            "url": "https://github.com/goaop/framework"
+        }
+    ],
+    "tags": [
+        "paradigm"
+    ],
+    "packagist": [
+        "goaop/framework"
+    ],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Mon, 15 Jun 2026 11:03:58 +0000"
+}

@@ -1,0 +1,54 @@
+{
+    "id": "if-then",
+    "name": "If Then Else",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/if-then.html",
+    "aliases": [
+        "ifthen"
+    ],
+    "description": "A ``if-then-else`` command branches the execution based on a condition. When the condition is true, the first branch, called ``then`` is executed. When the condition is false, the second branch, called ``else``, is executed. \n\nIf-then structures may be chained with the ``elseif`` keyword. The ``else`` branch is then a new if-then structure, with a second condition.",
+    "code": "<?php\n\n    $number = rand(0, 10);\n    \n    if ($number % 2 === 0) {\n        print \"$number is even\\n\";\n    } else {\n        print \"$number is odd\\n\";\n    }\n\n?>",
+    "documentation": "https://www.php.net/manual/en/control-structures.if.php",
+    "related": [
+        "switch",
+        "match",
+        "ternary",
+        "coalesce",
+        "arm",
+        "branch",
+        "jump",
+        "conditional-structure",
+        "control-flow",
+        "simple-switch",
+        "iffectation"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/control-structures.if.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "How to use PHP if-else for conditional logic and programming",
+            "url": "https://www.ionos.com/digitalguide/websites/web-development/php-if-else/"
+        }
+    ],
+    "tags": [
+        "keyword",
+        "control flow"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Mon, 24 Aug 2026 07:40:40 +0000"
+}

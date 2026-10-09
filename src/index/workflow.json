@@ -1,0 +1,52 @@
+{
+    "id": "workflow",
+    "name": "Workflow",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/workflow.html",
+    "aliases": [],
+    "description": "A workflow is a sequence of tasks or steps that are performed to accomplish a specific goal. It defines how work moves from one stage to another, often involving people, processes, and tools. Workflows can be simple or complex, manual or automated, and are used in various fields like business, software development, healthcare, and more.",
+    "code": "",
+    "documentation": "https://en.wikipedia.org/wiki/Workflow",
+    "related": [
+        "algorithm",
+        "task"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Workflow"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Symfony: The Workflow Component",
+            "url": "https://symfony.com/doc/current/workflow.html"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "laravel-workflow (GitHub)",
+            "url": "https://github.com/laravel-workflow/laravel-workflow"
+        }
+    ],
+    "tags": [
+        "concept"
+    ],
+    "packagist": [
+        "symfony/workflow",
+        "laravel-workflow/laravel-workflow"
+    ],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 27 Aug 2026 05:42:51 +0000"
+}

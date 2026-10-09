@@ -1,0 +1,54 @@
+{
+    "id": "event-replay",
+    "name": "Event Replay",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/event-replay.html",
+    "aliases": [
+        "replaying-events",
+        "event-sourcing-replay"
+    ],
+    "description": "Event replay, also called event-sourcing replay, is the process of re-reading stored events from an event store to reconstruct the state of an aggregate, rebuild a projection, or bootstrap a new view of the data.\n\nIn event sourcing, the current state of any aggregate is not stored directly: it is always derived by loading the aggregate's event stream and applying each event in order. This is event replay at the aggregate level. For a simple entity, replaying tens or hundreds of events takes microseconds; for aggregates with thousands of events, snapshots are used to avoid replaying the entire history on every load.\n\nReplay is also used at the projection level: a read model can be dropped and rebuilt entirely from the event store by replaying all events through the projection's handlers. This is invaluable for fixing bugs in projections, adding new read models, and migrating to a new schema.\n\nTemporal replay enables querying the state of the system at any point in the past by replaying events up to a given timestamp.",
+    "code": "<?php\n\n// Reconstruct aggregate state by replaying its event stream\nclass Order {\n    private string $status = 'new';\n    private float  $total  = 0.0;\n\n    public static function reconstitute(array $events): self {\n        $order = new self();\n        foreach ($events as $event) {\n            $order->apply($event);\n        }\n        return $order;\n    }\n\n    private function apply(object $event): void {\n        match (true) {\n            $event instanceof OrderPlaced   => $this->total  = $event->total,\n            $event instanceof OrderShipped  => $this->status = 'shipped',\n            $event instanceof OrderCancelled => $this->status = 'cancelled',\n            default                         => null,\n        };\n    }\n}\n\n// Rebuild a projection from the event store\nclass RebuildOrderSummaryProjection {\n    public function run(EventStore $store): void {\n        $this->db->exec('TRUNCATE order_summaries');\n        foreach ($store->loadAll('orders') as $event) {\n            $this->project($event);\n        }\n    }\n}\n\n?>",
+    "documentation": "https://martinfowler.com/eaaDev/EventSourcing.html",
+    "related": [
+        "event-store",
+        "event-sourcing",
+        "event-streaming",
+        "snapshot",
+        "ddd",
+        "temporal-replay"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://martinfowler.com/eaaDev/EventSourcing.html"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "EventStore documentation",
+            "url": "https://developers.eventstore.com/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Broadway: CQRS and event sourcing library for PHP",
+            "url": "https://github.com/broadway/broadway"
+        }
+    ],
+    "tags": [
+        "concept"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sun, 30 Aug 2026 10:49:15 +0000"
+}

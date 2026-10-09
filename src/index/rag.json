@@ -1,0 +1,54 @@
+{
+    "id": "rag",
+    "name": "Retrieval Augmented Generation (RAG)",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/rag.html",
+    "aliases": [],
+    "description": "Retrieval Augmented Generation, aka RAG, is a technique used in artificial intelligence, especially in large language models, to improve the accuracy and relevance of generated responses.\n\nRAG is widely used in chatbots, search engines, and knowledge management systems to provide better, more reliable answers.",
+    "code": "",
+    "documentation": "https://en.wikipedia.org/wiki/Retrieval-augmented_generation",
+    "related": [
+        "vector-database",
+        "llm",
+        "mcp",
+        "ai"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Retrieval-augmented_generation"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Building a RAG (Retrieval-Augmented Generation) system in PHP with Neuron AI",
+            "url": "https://dev.to/robertobutti/building-a-rag-retrieval-augmented-generation-system-in-php-with-neuron-ai-4jmo"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Implementing Retrieval Augmented Generation (RAG)",
+            "url": "https://symfony.com/doc/current/ai/cookbook/rag-implementation.html"
+        }
+    ],
+    "tags": [
+        "acronym",
+        "ai"
+    ],
+    "packagist": [
+        "mzarnecki/php-rag"
+    ],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sat, 08 Aug 2026 14:32:33 +0000"
+}

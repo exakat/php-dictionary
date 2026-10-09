@@ -1,0 +1,56 @@
+{
+    "id": "record-type",
+    "name": "Record Type",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/record-type.html",
+    "aliases": [
+        "data-class"
+    ],
+    "description": "A record type, also called a data class, is a construct dedicated to grouping named fields into an immutable value, with equality, hashing, and a string representation generated automatically from the field list, rather than written by hand. Examples include Java's ``record``, Kotlin's ``data class``, C#'s ``record``, and Python's ``dataclass``.\n\nBecause the compiler generates the boilerplate, a record type is meant to be declared in a single line per field, and two records are considered equal when all their fields are equal, regardless of identity, unlike ordinary objects which compare by reference by default.\n\nPHP has no dedicated record type. A ``readonly`` class with constructor property promotion approaches the same intent: fields declared once, in the constructor signature, and never reassigned afterward. It still falls short on two points: PHP generates no value-based ``==`` semantics beyond its default shallow object comparison, and it generates no ``__toString()`` or hash from the field list, both of which must be written by hand.",
+    "code": "<?php\n\n    // Closest approximation: readonly + promoted properties.\n    final class Point {\n        public function __construct(\n            public readonly float $x,\n            public readonly float $y,\n        ) {}\n    }\n    \n    $a = new Point(1.0, 2.0);\n    $b = new Point(1.0, 2.0);\n    var_dump($a == $b);  // true, but by luck of default object comparison\n    var_dump($a === $b); // false: identity, not value, equality\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Record_(computer_science)",
+    "related": [
+        "readonly",
+        "struct-type",
+        "tuple",
+        "immutable",
+        "class"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Record_(computer_science)"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP Readonly Properties",
+            "url": "https://www.php.net/manual/en/language.oop5.properties.php#language.oop5.properties.readonly-properties"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Constructor Promotion",
+            "url": "https://www.php.net/manual/en/language.oop5.decon.php#language.oop5.decon.constructor.promotion"
+        }
+    ],
+    "tags": [
+        "concept",
+        "type",
+        "not supported"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Wed, 02 Sep 2026 16:41:00 +0000"
+}

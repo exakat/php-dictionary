@@ -1,0 +1,43 @@
+{
+    "id": "reading",
+    "name": "Reading",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/reading.html",
+    "aliases": [],
+    "description": "Reading is the action to access a value in a data container, to make use of it. The value is simply accessed, not changed.\n\nReading happens when a value is passed as an argument, used as an operand with an operator, or assigned to another variable.\n\nThis operation is usually the counterpart of writing. It may also happen at the same time.",
+    "code": "<?php\n\n$trunk = 1;\n\necho $trunk; // reading 1\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Variable_(computer_science)",
+    "related": [
+        "writing"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Variable_(computer_science)"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Basics",
+            "url": "https://www.php.net/manual/en/language.variables.basics.php"
+        }
+    ],
+    "tags": [
+        "concept"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+}

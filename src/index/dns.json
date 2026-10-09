@@ -1,0 +1,56 @@
+{
+    "id": "dns",
+    "name": "Domain Name System (DNS)",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/dns.html",
+    "aliases": [],
+    "description": "Domain Name System, or DNS, is the internet's equivalent of a phone book, translating human-readable domain names, like ``php.net`` into machine-readable IP addresses, ``172.217.3.110``. \n\nDNS is essential for the functioning of the internet, as it allows users to access websites and services using easy-to-remember names instead of complex numerical addresses.\n\nDNS requires the configuration of various records, with different types: ``A``, ``AAAA``, ``CNAME``, ``MX``, ``TXT``.\n",
+    "code": "",
+    "documentation": "https://en.wikipedia.org/wiki/Domain_Name_System",
+    "related": [
+        "ip",
+        "domain-name",
+        "domain",
+        "rfc"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Domain_Name_System"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "RFC-1034",
+            "url": "https://datatracker.ietf.org/doc/html/rfc1034"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "RFC-1035",
+            "url": "https://datatracker.ietf.org/doc/html/rfc1035"
+        }
+    ],
+    "tags": [
+        "acronym",
+        "protocol",
+        "rfc",
+        "hosting"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [
+        "https://en.wikipedia.org/wiki/Domain_Name_System"
+    ],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Wed, 19 Aug 2026 08:16:55 +0000"
+}

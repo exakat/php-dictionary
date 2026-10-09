@@ -1,0 +1,49 @@
+{
+    "id": "breach",
+    "name": "Breach",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/breach.html",
+    "aliases": [],
+    "description": "A breach is the actual usage of a vulnerability to gain unwanted access to resources on a server. \n\nA breach may: \n\n+ Steal sensitive information, such as, and not limited to, user credentials, financial data, source code\n+ Deface the website\n+ Install backdoors or malware\n+ Use of the server for further attacks, e.g., DDoS, phishing, crypto-mining\n\nAfter a breach, there is a phase of remediation.",
+    "code": "",
+    "documentation": "https://csrc.nist.gov/glossary/term/breach",
+    "related": [
+        "vulnerability",
+        "data-leak"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://csrc.nist.gov/glossary/term/breach"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "What Is a Data Breach? | IBM",
+            "url": "https://www.ibm.com/think/topics/data-breach"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "What is a Data Breach? | Microsoft Security",
+            "url": "https://www.microsoft.com/en-us/security/business/security-101/what-is-a-data-breach"
+        }
+    ],
+    "tags": [
+        "security"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 20 Aug 2026 07:35:12 +0000"
+}

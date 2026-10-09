@@ -1,0 +1,54 @@
+{
+    "id": "streaming-database",
+    "name": "Streaming Database",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/streaming-database.html",
+    "aliases": [
+        "streaming-sql-database"
+    ],
+    "description": "A streaming database is a database engine that runs continuous SQL queries directly over unbounded data streams, maintaining incrementally updated materialized views instead of static tables.\n\nUnlike a batch pipeline, which pulls data on a schedule and recomputes results from scratch, a streaming database keeps its views up to date incrementally, as new events arrive, delivering sub-second freshness without a separate ETL step.\n\nA streaming database differs from event streaming: event streaming, such as Kafka, is about durably publishing and consuming an ordered log of events. A streaming database sits on top of such a log, or ingests change data capture, and lets developers query it with plain SQL, joins, aggregations and time windows included.\n\nPopular streaming databases include ``RisingWave``, which is PostgreSQL wire-protocol compatible, ``Materialize``, and ``ksqlDB``, which is built on top of Kafka Streams.",
+    "code": "<?php\n\n    // RisingWave speaks the PostgreSQL wire protocol: PDO's pgsql driver works as-is\n    $pdo = new PDO('pgsql:host=localhost;port=4566;dbname=dev', 'root', '');\n\n    // Continuous materialized view: kept incrementally up to date as orders arrive\n    $pdo->exec('\n        CREATE MATERIALIZED VIEW revenue_per_minute AS\n        SELECT window_start, SUM(total) AS revenue\n        FROM TUMBLE(orders, order_time, INTERVAL \\'1\\' MINUTE)\n        GROUP BY window_start\n    ');\n\n    $rows = $pdo->query('SELECT * FROM revenue_per_minute ORDER BY window_start DESC LIMIT 10');\n    foreach ($rows as $row) {\n        echo $row['window_start'] . ': ' . $row['revenue'] . PHP_EOL;\n    }\n\n?>",
+    "documentation": "https://risingwave.com/blog/what-is-a-streaming-database-1/",
+    "related": [
+        "event-streaming",
+        "column-database",
+        "real-time",
+        "event-driven",
+        "database"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://risingwave.com/blog/what-is-a-streaming-database-1/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "The Comprehensive Guide to ksqlDB",
+            "url": "https://risingwave.com/blog/the-comprehensive-guide-to-ksqldb/"
+        }
+    ],
+    "tags": [
+        "database",
+        "concept"
+    ],
+    "packagist": [],
+    "extensions": [
+        "pgsql"
+    ],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": {
+        "Materialize": "https://materialize.com/"
+    },
+    "popularity": "",
+    "modified": "Fri, 18 Sep 2026 05:00:28 +0000"
+}

@@ -1,0 +1,43 @@
+{
+    "id": "pointer",
+    "name": "Pointer",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/pointer.html",
+    "aliases": [],
+    "description": "Pointers are a fundamental concept in programming, especially in languages like C and C++. A pointer is a variable that stores the memory address of another variable.\n\nPHP does not support a notion of pointer. The closest feature is called 'reference', yet it is quite different from pointers.",
+    "code": "<?php\n\n$a = 1;\n$b = &$a;\n$b = 2;\n\necho $a; // 2 \n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Pointer_(computer_programming)",
+    "related": [
+        "reference"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Pointer_(computer_programming)"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "References Explained",
+            "url": "https://www.php.net/manual/en/language.references.php"
+        }
+    ],
+    "tags": [
+        "not supported"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Wed, 02 Sep 2026 16:41:00 +0000"
+}

@@ -1,0 +1,51 @@
+{
+    "id": "constant-scalar-expression",
+    "name": "Constant Scalar Expression",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/constant-scalar-expression.html",
+    "aliases": [],
+    "description": "A constant scalar expression is an expression that can be evaluated at compile time and consists only of scalar values, constants, and some operators operators. \n\nConstant scalar expressions are used to initialize constants, and default values for parameters and properties.",
+    "code": "<?php\n\n    const A = 1;\n    const B = A + 10;\n\n?>",
+    "documentation": "https://wiki.php.net/rfc/const_scalar_exprs",
+    "related": [
+        "constant",
+        "parameter",
+        "scalar-type",
+        "expression"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://wiki.php.net/rfc/const_scalar_exprs"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP: Syntax - Manual",
+            "url": "https://www.php.net/manual/en/language.constants.syntax.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP RFC: New in Initializers",
+            "url": "https://wiki.php.net/rfc/new_in_initializers"
+        }
+    ],
+    "tags": [
+        "concept",
+        "constant",
+        "rfc"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "5.6+",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Tue, 25 Aug 2026 18:06:24 +0000"
+}

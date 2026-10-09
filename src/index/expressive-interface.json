@@ -1,0 +1,51 @@
+{
+    "id": "expressive-interface",
+    "name": "Expressive Interface",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/expressive-interface.html",
+    "aliases": [],
+    "description": "An expressive interface, refers to an API design pattern that makes code more readable, intuitive, and natural to write. It emphasizes clarity and ease of use, often resembling natural language.\n\nThe goal is to make your code self-documenting and reduce the cognitive load on developers reading or writing it.\n\nAn expressive interface is not related to an interface: it may be implemented without them.\n\nThe notion of expressive interface is similar to the fluent interface.",
+    "code": "<?php\n\n    class script {\n        function hello() {\n            print 'Hello ';\n            return $this;\n        }\n    \n        function word() {\n            print 'word.';\n            return $this;\n        }\n    }\n    \n    $script = new Script();\n    \n    $script->hello()->world();\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Fluent_interface",
+    "related": [
+        "fluent-interface",
+        "self-documenting",
+        "interface"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Fluent_interface"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Fluent Interface",
+            "url": "https://www.codegenes.net/blog/php-method-chaining-or-fluent-interface/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Fluent Interface Pattern in PHP",
+            "url": "https://softwarepatternslexicon.com/php/structural-patterns-in-php/fluent-interface-pattern/"
+        }
+    ],
+    "tags": [
+        "code practice",
+        "pattern"
+    ],
+    "packagist": [
+        "bassim/super-expressive-php"
+    ],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sat, 08 Aug 2026 08:10:54 +0000"
+}

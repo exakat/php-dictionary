@@ -1,0 +1,53 @@
+{
+    "id": "filesystemiterator",
+    "name": "FileSystemIterator",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/filesystemiterator.html",
+    "aliases": [],
+    "description": "The ``FilesystemIterator`` class is part of the SPL Library and is used for iterating over the contents of a directory. It extends the ``DirectoryIterator`` class and provides additional features for working with file system entries.",
+    "code": "<?php\n\n    $it = new FilesystemIterator(dirname(__FILE__), FilesystemIterator::CURRENT_AS_FILEINFO);\n    foreach ($it as $fileinfo) {\n        echo $fileinfo->getFilename() . \\n;\n    }\n\n?>",
+    "documentation": "https://www.php.net/manual/en/class.filesystemiterator.php",
+    "related": [
+        "directoryiterator"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/class.filesystemiterator.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "DirectoryIterator",
+            "url": "https://www.php.net/manual/en/class.directoryiterator.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "RecursiveDirectoryIterator",
+            "url": "https://www.php.net/manual/en/class.recursivedirectoryiterator.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "SPL",
+            "url": "https://www.php.net/manual/en/book.spl.php"
+        }
+    ],
+    "tags": [
+        "iterator"
+    ],
+    "packagist": [],
+    "extensions": [
+        "spl"
+    ],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Tue, 01 Sep 2026 08:32:10 +0000"
+}

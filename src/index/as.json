@@ -1,0 +1,47 @@
+{
+    "id": "as",
+    "name": "As",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/as.html",
+    "aliases": [],
+    "description": "The as operator has several usages:\n\n+ It is an optional keyword with the ``foreach()`` control structure, to access the key of the looped array\n+ It is an optional keyword with the use expression, in trait import\n+ It is an optional keyword with the use expression, in namespace import\n\nThe ``as`` operator often works to give a distinct name to an existing structure.",
+    "code": "<?php\n\n    use stdClass as StandardClass;\n\n    foreach($map as $key => $value) {\n        print \"$key => $value\\n\";\n    }\n\n?>",
+    "documentation": "https://www.php.net/manual/en/language.operators.assignment.php",
+    "related": [
+        "foreach",
+        "use-alias",
+        "alias"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.operators.assignment.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP as Keyword",
+            "url": "https://zetcode.com/php/as-keyword/"
+        }
+    ],
+    "tags": [
+        "disambiguation",
+        "keyword",
+        "feature",
+        "trait",
+        "loop"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+}

@@ -1,0 +1,62 @@
+{
+    "id": "async",
+    "name": "Async",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/async.html",
+    "aliases": [],
+    "description": "The ``async`` keyword is used in programming, and especially in languages like JavaScript, Python, and C#, to define a function that runs asynchronously. It means that it can perform operations without blocking the rest of the program.\n\nPHP does not support a notion of ``async``. The closest feature is called ``fiber`` or parallel processing, yet it is quite different from asynchronous. Generators also provide a pseudo-asynchronous processing.",
+    "code": "<?php\n\n    // Starting another process for parallel processing\n    shell_exec('php other.php &');\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Async/await",
+    "related": [
+        "fibers",
+        "yield-generator",
+        "asynchronous",
+        "spiral",
+        "thread",
+        "blocking-wait",
+        "stealth-generator",
+        "c10k",
+        "edge-triggered",
+        "fire-and-forget",
+        "non-blocking",
+        "one-shot",
+        "amp",
+        "channel",
+        "green-thread",
+        "reactphp"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Async/await"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "TrueAsync",
+            "url": "https://github.com/true-async"
+        }
+    ],
+    "tags": [
+        "not supported"
+    ],
+    "packagist": [
+        "amphp/amp"
+    ],
+    "extensions": [
+        "trueasync"
+    ],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Mon, 07 Sep 2026 09:09:10 +0000"
+}

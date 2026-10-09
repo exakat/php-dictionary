@@ -1,0 +1,47 @@
+{
+    "id": "unbacked-enum",
+    "name": "Unbacked Enum",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/unbacked-enum.html",
+    "aliases": [],
+    "description": "Unbacked enums are enumeration without a string or integer equivalent for each of its cases.\n\nUnbacked enums are the default cases, and are implied when not mentioned. The opposite is backed enum.",
+    "code": "<?php\n\n    enum Ecclectic {\n        case PHP;\n        case ELEPHPANT;\n        case SYNTAX_ERROR;\n        case SPADE;\n    }\n\n?>",
+    "documentation": "https://www.php.net/manual/en/language.types.enumerations.php",
+    "related": [
+        "enum",
+        "backed-enum",
+        "backedenum"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.types.enumerations.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP RFC: Enumerations",
+            "url": "https://wiki.php.net/rfc/enumerations"
+        }
+    ],
+    "tags": [
+        "enum"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [
+        "Enums/DuplicateCaseValue"
+    ],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "8.1",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Mon, 10 Aug 2026 16:53:46 +0000"
+}

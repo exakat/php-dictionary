@@ -1,0 +1,64 @@
+{
+    "id": "union-type",
+    "name": "Union Type",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/union-type.html",
+    "aliases": [
+        "union"
+    ],
+    "description": "Union types refer to the ability to specify multiple possible types for a property, parameter, or return value. It allows a property or parameter to accept values of different types. It allows a method or function to return values of different types. Union types were introduced in version 8.0.\n\nBefore PHP 8, a type declaration could only have a single type, except for the null type. Nowadays, with union types, the code can declare multiple types by separating them with a pipe ``|`` symbol. \n\nUnion types were introduced for exception catching, before PHP 8.",
+    "code": "<?php\n\n    class Elephpant {\n        private Herd | Waterhole | Matriarch $tusk;\n    }\n\n    try {\n\n    } catch (Herd|Waterhole|Matriarch $e) {\n\n    }\n\n?>",
+    "documentation": "https://www.php.net/manual/en/language.types.declarations.php#language.types.declarations.union",
+    "related": [
+        "type",
+        "composite-type",
+        "alias-types",
+        "dnf-type",
+        "literal-types",
+        "relative-types",
+        "type-declaration-property",
+        "intersection-type",
+        "named-type",
+        "type-inference",
+        "algebraic-data-type",
+        "duplicate",
+        "sum-type",
+        "type-system",
+        "option-type",
+        "result-type",
+        "type-contravariance",
+        "type-narrowing"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.types.declarations.php#language.types.declarations.union"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "What are union types and how do you use them in PHP?",
+            "url": "https://www.educative.io/answers/what-are-union-types-and-how-do-you-use-them-in-php"
+        }
+    ],
+    "tags": [
+        "feature",
+        "type"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [
+        "Functions/WrongTypeWithCall",
+        "Exceptions/MultipleCatch"
+    ],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "8.0",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+}

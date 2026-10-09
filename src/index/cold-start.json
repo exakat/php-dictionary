@@ -1,0 +1,47 @@
+{
+    "id": "cold-start",
+    "name": "Cold Start",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/cold-start.html",
+    "aliases": [
+        "cold-start-latency",
+        "cold-start-problem"
+    ],
+    "description": "A cold start, also known as the cold start problem or cold start latency, is the delay incurred when a serverless function or containerised service must be initialised from scratch before handling a request. The runtime environment, aka the container, the PHP process, the class autoloading, is not yet warm, so the first invocation takes significantly longer than subsequent ones.\n\nIn a FaaS environment, aka AWS Lambda, Google Cloud Functions, etc., a cold start involves: provisioning a container, downloading the function package, initialising the PHP runtime, and executing any bootstrap code, framework boot, DI container compilation, autoloader initialisation. For PHP, cold starts commonly range from a few hundred milliseconds to over a second depending on framework size.\n\nSubsequent invocations reuse the warm container and execute in milliseconds. Containers are typically kept warm for a few minutes of inactivity before being torn down.\n\nMitigation strategies include: provisioned concurrency by pre-warming a fixed number of instances, reducing the deployment package size and bootstrap time, using slim frameworks or no framework for latency-sensitive functions, and keeping functions warm via scheduled pings.",
+    "code": "<?php\n\n    // Bref, PHP on Lambda, minimise cold start by avoiding heavy bootstrap\n    // Bad: full Symfony kernel boot on every cold start\n    $kernel = new Kernel('prod', false);\n    $kernel->boot(); // loads 300+ classes, compiles DI container\n    \n    // Better for Lambda: pre-compiled container, minimal bootstrap\n    // Or use a micro-runtime that skips the framework entirely\n    return function (array $event): array {\n        // Lightweight handler: only what this function needs\n        $name = $event['queryStringParameters']['name'] ?? 'world';\n        return [\n            'statusCode' => 200,\n            'body'       => json_encode(['message' => 'Hello, ' . $name . '!']),\n        ];\n    };\n    \n    // Provisioned concurrency (configured in AWS, not in PHP):\n    // keeps N containers permanently warm, eliminating cold starts for baseline traffic\n\n?>",
+    "documentation": "https://docs.aws.amazon.com/lambda/latest/dg/lambda-concurrency.html",
+    "related": [
+        "faas",
+        "serverless",
+        "latency",
+        "performance"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://docs.aws.amazon.com/lambda/latest/dg/lambda-concurrency.html"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Bref: Cold Start",
+            "url": "https://bref.sh/docs/environment/cold-starts"
+        }
+    ],
+    "tags": [
+        "concept"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sun, 30 Aug 2026 09:35:29 +0000"
+}

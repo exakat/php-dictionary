@@ -1,0 +1,84 @@
+{
+    "id": "class",
+    "name": "Class",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/class.html",
+    "aliases": [
+        "classes"
+    ],
+    "description": "Basic class definitions, plural classes, begin with the keyword class, followed by a class name, followed by a pair of curly braces which enclose the definitions of the properties and methods belonging to the class.\n\nA class name may be validated with the following regex: ``^[a-zA-Z_\\x80-\\xff][a-zA-Z0-9_\\x80-\\xff]*$``; and by avoiding a list of PHP keywords, such as ``namespace``, ``class``, ``interface``, etc.",
+    "code": "<?php\n\nclass Elephpant {\n    const HABITAT = 1;\n\n    private $weight = 2;\n\n    function method() {\n        /// and more\n    }\n\n}\n\n?>",
+    "documentation": "https://www.php.net/manual/en/language.oop5.basic.php",
+    "related": [
+        "readonly",
+        "class-invasion",
+        "const",
+        "getter",
+        "implements",
+        "inheritance",
+        "method",
+        "setter",
+        "trait",
+        "wither",
+        "structure",
+        "cite",
+        "$this",
+        "lazy-objects",
+        "polymorphism",
+        "promoted-property",
+        "existence",
+        "phptoken",
+        "reflection",
+        "undefined",
+        "base-class",
+        "instance",
+        "is_a",
+        "naming-conflict",
+        "non-static",
+        "class-constant",
+        "conditioned",
+        "enum",
+        "extends",
+        "extension-method",
+        "property",
+        "record-type",
+        "struct-type"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.oop5.basic.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "How to use PHP classes for object-oriented pro\u00adgram\u00adming",
+            "url": "https://www.ionos.com/digitalguide/websites/web-development/php-classes/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Classes",
+            "url": "https://phplang.org/spec/14-classes.html"
+        }
+    ],
+    "tags": [
+        "keyword",
+        "concept",
+        "readonly"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [
+        "Classes/Classnames"
+    ],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "4.0+",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 17 Sep 2026 07:39:12 +0000"
+}

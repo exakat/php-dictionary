@@ -1,0 +1,82 @@
+{
+    "id": "json",
+    "name": "JavaScript Object Notation (JSON)",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/json.html",
+    "aliases": [],
+    "description": "JSON, or JavaScript Object Notation, is a lightweight data-interchange format. It is easy for humans to read and write. It is easy for machines to parse and generate. It is based on a subset of the JavaScript Programming Language Standard ECMA-262 3rd Edition - December 1999.",
+    "code": "<?php\n\n    $array = ['a' => 1, 'b' => \"c\", 'c' => [3, 4], 'd' => new stdclass()];\n    \n    echo json_encode($arr);\n    // displays {\\a\\:1,\\b\\:\\c\\,\\c\\:[3,4],\\d\\:{}}\n\n?>",
+    "documentation": "https://www.php.net/json",
+    "related": [
+        "csv",
+        "json_decode",
+        "jsonserializable",
+        "serde",
+        "jsonc",
+        "jsonl",
+        "yaml",
+        "toml",
+        "text",
+        "format",
+        "json_encode",
+        "jsonexception",
+        "parquet",
+        "ini",
+        "pgsql",
+        "pwa",
+        "schema",
+        "ajax",
+        "document-database",
+        "jwt",
+        "template",
+        "multidimensional-array",
+        "comma",
+        "mongodb",
+        "payload",
+        "protobuf",
+        "json-ld"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/json"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "JSON home",
+            "url": "https://www.json.org/json-en.html"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Working with JSON data in PHP and MySQL: storing and retrieving complex structures",
+            "url": "https://prahladyeri.github.io/blog/2024/11/working-with-json-data-in-php-mysql.html"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "An In-depth Comparison of JSON, YAML, and TOML",
+            "url": "https://www.anbowell.com/blog/an-in-depth-comparison-of-json-yaml-and-toml/"
+        }
+    ],
+    "tags": [
+        "acronym",
+        "format"
+    ],
+    "packagist": [
+        "jajo/jsondb"
+    ],
+    "extensions": [],
+    "analyzers": [
+        "Extension/Extjson"
+    ],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "5.0+",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Wed, 02 Sep 2026 15:09:13 +0000"
+}

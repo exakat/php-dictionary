@@ -1,0 +1,61 @@
+{
+    "id": "xml",
+    "name": "Extensible Markup Language (XML)",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/xml.html",
+    "aliases": [],
+    "description": "XML, Extensible Markup Language, is a markup language similar to HTML, but without predefined tags to use.\n\nPHP offers several sets of functions to handle XML: ``domxml``, ``simplexml``, ``xmlreader``, ``xmlwriter``.",
+    "code": "<?php\n$string = <<<XML\n<?xml version='1.0'?>\n<document>\n    <cmd>login</cmd>\n    <login>Richard</login>\n</document>\nXML;\n\n$xml = simplexml_load_string($string);\nprint_r($xml);\n\n?>",
+    "documentation": "https://www.php.net/manual/en/refs.xml.php",
+    "related": [
+        "simplexml",
+        "domxml",
+        "xmlwriter",
+        "xmlreader",
+        "schema",
+        "sitemap",
+        "soap",
+        "yaml",
+        "document-database",
+        "dom",
+        "svg",
+        "ajax",
+        "interoperability",
+        "rdf",
+        "saml"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/refs.xml.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP XML Tutorial: Create, Parse, Read with Example",
+            "url": "https://www.guru99.com/php-and-xml.html"
+        }
+    ],
+    "tags": [
+        "acronym",
+        "format"
+    ],
+    "packagist": [
+        "symfony/dom-crawler",
+        "spatie/array-to-xml",
+        "robrichards/xmlseclibs",
+        "sabre/xml"
+    ],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Tue, 11 Aug 2026 21:00:48 +0000"
+}

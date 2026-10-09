@@ -1,0 +1,50 @@
+{
+    "id": "hash-table",
+    "name": "Hash Table",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/hash-table.html",
+    "aliases": [
+        "hashtable"
+    ],
+    "description": "A hash table is a data structure that stores key-value pairs, and uses a hash function to compute an index, called a bucket, from the key, so that a value can be inserted, looked up, or deleted in average constant time ``O(1)``, regardless of the size of the table. It is one of the most used data structures in computing, backing associative arrays, sets, caches, and database indexes alike.\n\nCollisions, two keys hashing to the same bucket, are unavoidable once the table grows, and are resolved either through chaining, where each bucket holds a small list, or through open addressing, which probes for the next free slot. A hash table's performance degrades if the hash function distributes keys poorly, or if the table is not resized as it fills up.\n\nEvery PHP array is, internally, an ordered hash table: the Zend Engine's ``HashTable`` C structure maps both integer and string keys to a bucket, while a separate doubly linked list preserves insertion order. This is why PHP arrays iterate in a deterministic, insertion order, unlike hash tables in many other languages.",
+    "code": "<?php\n\n    // PHP's associative array is a hash table\n    $ages = [];\n    $ages['Alice'] = 30; // 'Alice' is hashed to find its bucket\n    $ages['Bob']   = 25;\n\n    echo $ages['Alice']; // O(1) average lookup\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Hash_table",
+    "related": [
+        "hash",
+        "array",
+        "random-access",
+        "rainbow-table",
+        "bucket"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Hash_table"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP's HashTable implementation",
+            "url": "https://www.phpinternalsbook.com/php5/hashtables/basic_structure.html"
+        }
+    ],
+    "tags": [
+        "data structure",
+        "concept"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Wed, 19 Aug 2026 08:26:03 +0000"
+}

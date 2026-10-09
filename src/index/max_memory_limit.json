@@ -1,0 +1,47 @@
+{
+    "id": "max_memory_limit",
+    "name": "max_memory_limit",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/max_memory_limit.html",
+    "aliases": [],
+    "description": "``max_memory_limit`` is not a PHP core directive: it designates the pattern, used by several frameworks and CMS, of defining an upper bound that a script is allowed to raise ``memory_limit`` to at runtime, on top of the regular, lower, day-to-day ``memory_limit``.\n\nThe best known example is WordPress' ``WP_MAX_MEMORY_LIMIT`` constant, which caps the value that ``wp_raise_memory_limit()`` may apply with ``ini_set('memory_limit', ...)`` when running memory-hungry admin tasks, such as image processing or plugin updates, while ``WP_MEMORY_LIMIT`` keeps the front-end footprint low.\n\nThis two-tier approach avoids granting every request the same generous ceiling: routine requests keep a conservative ``memory_limit``, while a small set of known heavy operations may temporarily request more, up to ``max_memory_limit``, without risking unbounded memory consumption on the rest of the application.",
+    "code": "<?php\n\n    // WordPress-style pattern\n    define('WP_MEMORY_LIMIT', '64M');\n    define('WP_MAX_MEMORY_LIMIT', '256M');\n\n    function raise_memory_limit(string $context = 'admin'): void {\n        $current = ini_get('memory_limit');\n        $limit = $context === 'admin' ? WP_MAX_MEMORY_LIMIT : WP_MEMORY_LIMIT;\n\n        if ($current !== '-1' && wp_convert_hr_to_bytes($limit) > wp_convert_hr_to_bytes($current)) {\n            ini_set('memory_limit', $limit);\n        }\n    }\n\n?>",
+    "documentation": "https://developer.wordpress.org/reference/functions/wp_raise_memory_limit/",
+    "related": [
+        "memory_limit",
+        "php-memory",
+        "vertical-scaling",
+        "ini_set"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://developer.wordpress.org/reference/functions/wp_raise_memory_limit/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP 8.5: New max_memory_limit INI directive to set a ceiling memory_limit",
+            "url": "https://php.watch/versions/8.5/max_memory_limit"
+        }
+    ],
+    "tags": [
+        "concept",
+        "configuration"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Fri, 17 Jul 2026 08:42:56 +0000"
+}

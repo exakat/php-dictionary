@@ -1,0 +1,60 @@
+{
+    "id": "duration",
+    "name": "Duration",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/duration.html",
+    "aliases": [
+        "time-duration",
+        "duration-class"
+    ],
+    "description": "The ``Time\\Duration`` class is a PHP 8.6 addition that represents a measurable amount of time, such as a timeout, a delay or an elapsed period. It is a ``final readonly`` class that stores seconds and nanoseconds, so it is precise to the nanosecond.\n\nDuration is meant for stopwatch-style time. It is different from ``DateInterval``, which suits calendar arithmetic such as one calendar month later.\n\nInstances are created with static factory methods: ``fromSeconds()``, ``fromNanoseconds()``, ``fromMicroseconds()``, ``fromMilliseconds()``, ``fromMinutes()``, ``fromHours()``, and ``fromIso8601DurationString()`` for ISO 8601 strings such as ``PT1H30M``. The single-value factories reject negative input.\n\nArithmetic returns a new instance: ``add()``, ``sub()``, ``multiplyBy()``, ``divideBy()``, ``negate()`` and ``absolute()``. ``divideBy()`` truncates fractional nanoseconds. ``Duration::compare()`` returns -1, 0 or 1, and it is used by ``usort()``. The ``<`` and related comparison operators work too.\n\nThe public properties are ``seconds``, ``nanoseconds`` and ``negative``. Operations that overflow the range throw ``Time\\TimeException``, which extends ``Exception``.\n",
+    "code": "<?php\n\nuse Time\\Duration;\n\n$oneSecond  = Duration::fromSeconds(1);\n$halfSecond = $oneSecond->divideBy(2);\n\n$onePointFiveSeconds = $oneSecond->add($halfSecond);\n\n$baseDelay = Duration::fromMilliseconds(100);\n$attempt   = 5;\n$delay     = $baseDelay->multiplyBy(2 ** $attempt); // 3.2 seconds\n\n$durations = [$oneSecond, $onePointFiveSeconds, $halfSecond];\nusort($durations, Duration::compare(...));          // 0.5s, 1s, 1.5s\n\n?>",
+    "documentation": "https://wiki.php.net/rfc/duration_class",
+    "related": [
+        "dateinterval",
+        "polling-api",
+        "datetime",
+        "timeout"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://wiki.php.net/rfc/duration_class"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP 8.6 RFC: Duration class",
+            "url": "https://wiki.php.net/rfc/duration_class"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP Dev RFC: Duration class",
+            "url": "https://discourse.thephp.foundation/t/php-dev-rfc-duration-class/5608"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP Duration class in PHP 8.6 (SensioLabs)",
+            "url": "https://sensiolabs.com/blog/2026/php-duration-class"
+        }
+    ],
+    "tags": [
+        "class",
+        "time"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "8.6",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Fri, 09 Oct 2026 16:29:52 +0000"
+}

@@ -1,0 +1,56 @@
+{
+    "id": "functional-test",
+    "name": "Functional Test",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/functional-test.html",
+    "aliases": [],
+    "description": "Functional tests are tests that verify that a feature of the application behaves as specified, by exercising it the way a user would, through its public interface, without checking the internal implementation.\n\nFunctional tests operate at a higher level than unit tests: instead of testing a single class or function in isolation, they drive a whole feature, such as submitting a form or calling an API endpoint, and assert on its observable output. They differ from acceptance tests in that they may run at any stage of development to validate that a feature works, rather than serving as the final, business-facing sign-off before release.\n\nFunctional tests are a form of black box testing, and are commonly written against a running application, a web page, or an HTTP API, using frameworks such as ``Codeception``, ``Behat``, or ``PHPUnit``'s own functional test cases in Symfony and Laravel.\n",
+    "code": "",
+    "documentation": "https://en.wikipedia.org/wiki/Functional_testing",
+    "related": [
+        "test",
+        "acceptance-test",
+        "blackbox",
+        "unit-test",
+        "integration-test",
+        "end-to-end-test"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Functional_testing"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Functional Testing: Complete Guide with Examples",
+            "url": "https://www.functionize.com/automated-testing/what-is-functional-testing"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Functional vs non-functional software testing",
+            "url": "https://circleci.com/blog/functional-vs-non-functional-testing/"
+        }
+    ],
+    "tags": [
+        "test"
+    ],
+    "packagist": [
+        "codeception/codeception",
+        "behat/behat"
+    ],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 03 Sep 2026 14:41:27 +0000"
+}

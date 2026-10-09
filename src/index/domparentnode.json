@@ -1,0 +1,51 @@
+{
+    "id": "domparentnode",
+    "name": "DOMParentNode",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/domparentnode.html",
+    "aliases": [],
+    "description": "``DOMParentNode`` is an interface introduced in version 8.0 for DOM nodes that can have children. It is implemented by ``DOMDocument``, ``DOMElement``, and ``DOMDocumentFragment``.\n\nIt provides ``prepend()`` and ``append()`` methods to insert nodes as first or last children, and ``childElementCount``, ``firstElementChild``, ``lastElementChild`` properties.",
+    "code": "<?php\n\n    $dom = new DOMDocument;\n    $dom->loadHTML('<p>Hello</p>');\n    $p = $dom->getElementsByTagName('p')->item(0);\n    $p->append($dom->createTextNode(' world'));\n\n?>",
+    "documentation": "https://www.php.net/manual/en/class.domparentnode.php",
+    "related": [
+        "dom",
+        "interface",
+        "domchildnode",
+        "php-interface",
+        "splsubject"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/class.domparentnode.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "DOMChildNode Class",
+            "url": "https://www.php.net/manual/en/class.domchildnode.php"
+        }
+    ],
+    "tags": [
+        "dom",
+        "interface",
+        "extension"
+    ],
+    "packagist": [],
+    "extensions": [
+        "dom"
+    ],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "8.0",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Fri, 17 Jul 2026 08:38:30 +0000"
+}

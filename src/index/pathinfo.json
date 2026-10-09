@@ -1,0 +1,44 @@
+{
+    "id": "pathinfo",
+    "name": "pathinfo()",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/pathinfo.html",
+    "aliases": [],
+    "description": "``pathinfo()`` is a native PHP function that returns information about a file path: its directory name, base name, extension and file name.\n\nBy default, it returns an associative array with the keys ``dirname``, ``basename``, ``extension``, though only when the file has one, and ``filename``. The optional second argument selects a single element, using the constants ``PATHINFO_DIRNAME``, ``PATHINFO_BASENAME``, ``PATHINFO_EXTENSION`` or ``PATHINFO_FILENAME``; in that case, the function returns a string instead of an array.\n\nThe function works on the path string only: it does not check that the file exists.",
+    "code": "<?php\n\n    $info = pathinfo('/www/htdocs/index.html');\n    // ['dirname' => '/www/htdocs', 'basename' => 'index.html', 'extension' => 'html', 'filename' => 'index']\n\n    echo pathinfo('/www/htdocs/index.html', PATHINFO_EXTENSION); // html\n\n    echo pathinfo('/www/htdocs/archive.tar.gz', PATHINFO_FILENAME); // archive.tar\n\n?>",
+    "documentation": "https://www.php.net/manual/en/function.pathinfo.php",
+    "related": [
+        "basename",
+        "dirname"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/function.pathinfo.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "pathinfo",
+            "url": "https://www.php.net/manual/en/function.pathinfo.php"
+        }
+    ],
+    "tags": [
+        "native function"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Fri, 09 Oct 2026 17:23:28 +0000"
+}

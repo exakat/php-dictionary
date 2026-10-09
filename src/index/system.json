@@ -1,0 +1,52 @@
+{
+    "id": "system",
+    "name": "System",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/system.html",
+    "aliases": [
+        "os",
+        "operating-system"
+    ],
+    "description": "The system, or the operating system, is the environment where PHP is running. It might be ``Linux``, ``MacOSX``, ``Windows``, ``Debian`` etc. The system provides specific features, such as access to the file system, or a shell to run commands.\n\n``system()`` is also a PHP native function, which execute a system command, and immediately display it to the standard output. It is usually recommended to use ``shell_exec()``, which returns the results, rather than display it.",
+    "code": "<?php\n\n// use a system command to get the name of the underlying OS name\necho shell_exec('cat /etc/os-releaselsb_release \u2013ahostnamectl');\n\n// same as above\nsystem('cat /etc/os-releaselsb_release \u2013ahostnamectl');\n\n?>",
+    "documentation": "https://www.php.net/manual/en/function.system.php",
+    "related": [
+        "shell_exec",
+        "backtick",
+        "execution",
+        "system-call",
+        "docker-container",
+        "escapeshellarg",
+        "escapeshellcmd",
+        "process",
+        "shell-injection"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/function.system.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "statgrab",
+            "url": "https://github.com/iliaal/statgrab"
+        }
+    ],
+    "tags": [
+        "system"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Tue, 01 Sep 2026 05:55:53 +0000"
+}

@@ -1,0 +1,54 @@
+{
+    "id": "specification",
+    "name": "Specification",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/specification.html",
+    "aliases": [
+        "spec",
+        "specification-pattern"
+    ],
+    "description": "A specification is a formal description of expected behaviour, constraints, or requirements. In software development, the term covers several contexts.\n\nIn the specification pattern, a Domain-Driven Design tactical pattern, a specification encapsulates a business rule as an object that can be combined with other specifications using logical operators, like AND, OR, NOT. This allows business rules to be reused, combined, and tested in isolation.\n\nIn a broader sense, a specification can refer to an API specification, such as ``OpenAPI``/``Swagger``, a language specification, such as the PHP language specification, a test specification, or an architecture decision record.",
+    "code": "<?php\n\n    interface Specification\n    {\n        public function isSatisfiedBy(mixed $candidate): bool;\n    }\n    \n    final class IsAdultUser implements Specification\n    {\n        public function isSatisfiedBy(mixed $candidate): bool\n        {\n            return $candidate instanceof User && $candidate->age >= 18;\n        }\n    }\n    \n    final class AndSpecification implements Specification\n    {\n        public function __construct(\n            private readonly Specification $left,\n            private readonly Specification $right,\n        ) {}\n    \n        public function isSatisfiedBy(mixed $candidate): bool\n        {\n            return $this->left->isSatisfiedBy($candidate)\n                && $this->right->isSatisfiedBy($candidate);\n        }\n    }\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Specification_pattern",
+    "related": [
+        "ddd",
+        "design-pattern",
+        "business-logic",
+        "validation",
+        "contract",
+        "swagger",
+        "adr",
+        "sbom"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Specification_pattern"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Specifications by Eric Evans & Martin Fowler",
+            "url": "https://martinfowler.com/apsupp/spec.pdf"
+        }
+    ],
+    "tags": [
+        "ddd",
+        "design pattern"
+    ],
+    "packagist": [
+        "happyr/doctrine-specification"
+    ],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Wed, 19 Aug 2026 08:25:44 +0000"
+}

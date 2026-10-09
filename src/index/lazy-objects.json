@@ -1,0 +1,57 @@
+{
+    "id": "lazy-objects",
+    "name": "Lazy Objects",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/lazy-objects.html",
+    "aliases": [],
+    "description": "Lazy objects are an application of lazy-loading, directly available in the PHP engine, and available as an engine feature since PHP 8.4.\n\nThe traditional way to create an object is to use ``new``. The object is immediately created, and then, accessed later if needed.\n\nLazy objects defer the actual instantiation of the object until it is actually accessed. Nothing happens until the object is used. In the case of large applications, where lots of services or assets are created systematically, lazy objects postpone initialization, and may even skip it entirely if it is not needed. \n\nLazy objects are good for objects that take a lot of resources to initialize, or when there are lots of such objects, with a good proportion of them not being used, in the end.",
+    "code": "<?php\n\n    // taken from the RFC (https://wiki.php.net/rfc/lazy-objects)\n    class Elephpant\n    {\n        public function __construct(private int $trunkLength)\n        {\n            // Heavy initialization logic here.\n        }\n\n        // ...\n    }\n\n    $initializer = static function (Elephpant $ghost): void {\n        $ghost->__construct(123);\n    };\n\n    $reflector = new ReflectionClass(Elephpant::class);\n    $object = $reflector->newLazyGhost($initializer);\n     \n    // At this point, $object is a lazy ghost object.\n\n?>",
+    "documentation": "https://wiki.php.net/rfc/lazy-objects",
+    "related": [
+        "lazy-loading",
+        "class",
+        "proxy-class",
+        "proxy",
+        "object"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://wiki.php.net/rfc/lazy-objects"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Lazy objects in PHP 8.4",
+            "url": "https://chrastecky.dev/programming/lazy-objects-in-php-8-4"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Using PHP 8.4's Lazy Objects",
+            "url": "https://www.phparch.com/2025/01/using-php-8-4s-lazy-objects/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP Object Lazy-Loading is More Than What You Think",
+            "url": "https://jolicode.com/blog/php-object-lazy-loading-is-more-than-what-you-think"
+        }
+    ],
+    "tags": [
+        "object",
+        "feature",
+        "rfc"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+}

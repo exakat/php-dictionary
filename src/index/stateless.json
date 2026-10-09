@@ -1,0 +1,45 @@
+{
+    "id": "stateless",
+    "name": "Stateless",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/stateless.html",
+    "aliases": [],
+    "description": "Stateless refers to a system or protocol that does not retain information about the previous interactions or states of users or devices. In a stateless system, each transaction or request is treated as an independent and isolated event, and the system does not store any information about the context or history of those interactions. This design is often used in computer networking, web development, and distributed systems.",
+    "code": "",
+    "documentation": "https://en.wikipedia.org/wiki/Stateless_protocol",
+    "related": [
+        "stateful",
+        "state",
+        "horizontal-scaling",
+        "load-balancer",
+        "pay-as-you-go"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Stateless_protocol"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP is Weird, Stateless, and Beautiful",
+            "url": "https://fideloper.com/php-weird-stateless-and-beautiful"
+        }
+    ],
+    "tags": [
+        "concept"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 16 Jul 2026 14:30:42 +0000"
+}

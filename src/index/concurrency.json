@@ -1,0 +1,80 @@
+{
+    "id": "concurrency",
+    "name": "Concurrency",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/concurrency.html",
+    "aliases": [
+        "concurency"
+    ],
+    "description": "Concurrency, sometimes misspelled ``concurency``, is a concept in computing where multiple tasks are in progress at the same time.\n\nPHP uses several ways to handle concurrency:\n\n+ Externally, by the webserver or PHP-fpm\n+ Internally, with forked processes, with pcntl\n+ Internally, with threads, with parallel\n+ Cooperating, with fibers\n+ Non-blocking IO, with swoole or amphp.",
+    "code": "",
+    "documentation": "https://en.wikipedia.org/wiki/Concurrency_(computer_science)",
+    "related": [
+        "thread",
+        "process",
+        "asynchronous",
+        "fpm",
+        "atomic-operation",
+        "file_put_contents",
+        "mutex",
+        "race-condition",
+        "actor-model",
+        "cache-stampede",
+        "green-thread",
+        "software-transactional-memory",
+        "amp",
+        "reactphp",
+        "sem",
+        "shared-memory",
+        "shared"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Concurrency_(computer_science)"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Understanding Concurrency in PHP",
+            "url": "https://www.honeybadger.io/blog/php-concurrency/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Understanding Fibers in PHP: A New Way to Handle Concurrency",
+            "url": "https://itsimiro.medium.com/understanding-fibers-in-php-a-new-way-to-handle-concurrency-ed07424320ff"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP is 5x Faster Than NestJS? Rethinking High-Load with Swoole",
+            "url": "https://dev.to/roman_shneer_9301c1e5f2fd/headline-php-is-5x-faster-than-nestjs-rethinking-high-load-with-swoole-31di"
+        }
+    ],
+    "tags": [
+        "parallelism"
+    ],
+    "packagist": [],
+    "extensions": [
+        "fibers",
+        "parallel",
+        "pcntl"
+    ],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": {
+        "FrankenPHP": "https://frankenphp.dev/",
+        "Swoole": "https://www.swoole.com/",
+        "OpenSwoole": "https://openswoole.com/",
+        "AMPHP": "https://amphp.org/"
+    },
+    "popularity": "",
+    "modified": "Fri, 18 Sep 2026 04:45:24 +0000"
+}

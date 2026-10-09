@@ -1,0 +1,53 @@
+{
+    "id": "strtolower",
+    "name": "strtolower()",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/strtolower.html",
+    "aliases": [
+        "mb_strtolower"
+    ],
+    "description": "``strtolower()`` converts all ASCII alphabetic characters in a string to lowercase.\n\nIt only handles the 26 ASCII letters, from ``A`` to ``Z``. Characters outside the ASCII range, such as accented letters or characters from non-Latin scripts, are not converted. For Unicode-aware lowercase, use ``mb_strtolower()``, which respects the encoding of the string.\n\n``strtolower()`` is commonly used when comparing strings in a case-insensitive manner, building slugs, or normalising input.",
+    "code": "<?php\n\n    echo strtolower('Hello World');  // hello world\n    echo strtolower('PHP 8.4');      // php 8.4\n\n    // Unicode-aware version\n    echo mb_strtolower('H\u00e9llo', 'UTF-8'); // h\u00e9llo\n\n?>",
+    "documentation": "https://www.php.net/manual/en/function.strtolower.php",
+    "related": [
+        "strtoupper",
+        "string",
+        "case-sensitivity",
+        "slug",
+        "mbstring",
+        "idempotent",
+        "setlocale",
+        "normalisation"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/function.strtolower.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP strtoupper() and strtolower() Functions: A Complete Guide",
+            "url": "https://reintech.io/blog/php-strtoupper-strtolower-functions-complete-guide"
+        }
+    ],
+    "tags": [
+        "native function",
+        "string"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+}

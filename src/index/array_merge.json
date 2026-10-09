@@ -1,0 +1,46 @@
+{
+    "id": "array_merge",
+    "name": "array_merge()",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/array_merge.html",
+    "aliases": [],
+    "description": "``array_merge()`` combines all the arrays passed as arguments into one array.\n\n``array_merge()`` accepts an arbitrary list of arrays: in terms of performances, it is better to call it with all the arrays once, rather than merge arrays one after the other.",
+    "code": "<?php\n\n    $array1 = [1, 2, 3];\n    $array2 = [4, 5, 6];\n    \n    array_merge($array1, $array2);\n    // [1, 2, 3, 4, 5, 6];\n    \n    $arrays = [$array1, $array2]; // may be more... \n    array_merge(...$arrays); \n    // [1, 2, 3, 4, 5, 6];\n\n?>",
+    "documentation": "https://www.php.net/manual/en/function.array-merge.php",
+    "related": [
+        "plus",
+        "merge"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/function.array-merge.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Effortlessly Merge Arrays: When to Use array_merge vs. the Splat Operator",
+            "url": "https://medium.com/@jochelle.mendonca/effortlessly-merge-arrays-when-to-use-array-merge-vs-the-splat-operator-4f422baf893b"
+        }
+    ],
+    "tags": [
+        "native function",
+        "classic bug",
+        "arbitrary number of argument"
+    ],
+    "packagist": [],
+    "extensions": [
+        "array"
+    ],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Wed, 26 Aug 2026 10:49:40 +0000"
+}

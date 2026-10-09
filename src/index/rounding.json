@@ -1,0 +1,45 @@
+{
+    "id": "rounding",
+    "name": "Rounding",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/rounding.html",
+    "aliases": [],
+    "description": "Rounding refers to the process of adjusting numerical values to a certain degree of precision. Most often, it means turning a float number into an integer, although there are rounding in various scales: rounding floats to 2 digits after the decimal separator; rounding to the nearest power of 10; rounding to the next unit, like Mb. \n\nRounding has several techniques: that needs to be consistent across applications: rounding to the next integer; to the previous integer; truncating; rounding to the nearest even number; flooring or ceiling; etc.",
+    "code": "<?php\n\n$pi = M_PI;\n\nprint round($pi, 0); // 3\n\n?>",
+    "documentation": "https://www.php.net/manual/en/function.round.php",
+    "related": [
+        "math",
+        "integer",
+        "float",
+        "real"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/function.round.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Up and Down Round values in PHP: ceil, floor and round functions: The ultimate tutorial 2024",
+            "url": "https://nestify.io/blog/up-down-round-values-in-php-ceil-floor-functions/"
+        }
+    ],
+    "tags": [
+        "math",
+        "integer"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Tue, 01 Sep 2026 05:31:03 +0000"
+}

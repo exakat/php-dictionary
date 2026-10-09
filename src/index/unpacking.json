@@ -1,0 +1,43 @@
+{
+    "id": "unpacking",
+    "name": "Unpacking",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/unpacking.html",
+    "aliases": [
+        "unpack"
+    ],
+    "description": "Unpacking has two meanings:\n\n+ ``unpack()``, a PHP native function, which extracts data from a binary string. It has the ``pack()`` reverse function.\n+ Unpacking arguments, with the ``...`` operator: turning an array into a list of arguments at call time. \n\n",
+    "code": "<?php\n\n    // Unpacking arguments\n    function trumpet($trunk, $herd, $calf) {\n        return $trunk + $herd * $calf;\n    }\n\n    $arguments = ['trunk' => 1, 'herd' => 2, 'calf' => 3];\n    echo trumpet(...$arguments);\n    // display 7\n\n?>",
+    "documentation": "https://www.php.net/manual/en/function.unpack.php",
+    "related": [
+        "variadic"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/function.unpack.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP RFC: Argument Unpacking",
+            "url": "https://wiki.php.net/rfc/argument_unpacking"
+        }
+    ],
+    "tags": [
+        "disambiguation"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+}

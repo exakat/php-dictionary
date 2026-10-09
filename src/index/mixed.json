@@ -1,0 +1,58 @@
+{
+    "id": "mixed",
+    "name": "Mixed",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/mixed.html",
+    "aliases": [],
+    "description": "A special type that represents any available type. It is equivalent to not explicitly setting the type, though it is now explicitly done. \n\nA ``mixed`` type may be also represented by a union of all possible types. \n\n``mixed`` is useful when literally any type should be supported, such as with a cache system. Yet, it is usually recommended to consider reducing the number of possible types by using a common interface or a union type.",
+    "code": "<?php\n\n    function cache(string $name, mixed $value) : bool {\n        static $cache = [];\n        \n        $cache[$name] = $value;\n        \n        return true;\n    }\n\n?>",
+    "documentation": "https://www.php.net/manual/en/language.types.declarations.php#language.types.declarations.mixed",
+    "related": [
+        "type",
+        "pseudo-type",
+        "special-typehint",
+        "type-inference",
+        "wildcard"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.types.declarations.php#language.types.declarations.mixed"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Mixed Type PHP 8",
+            "url": "https://www.amitmerchant.com/mixed-type-php8/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "A mixed type PHPStan journey",
+            "url": "https://staabm.github.io/2024/11/26/phpstan-mixed-types.html"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Why `mixed` Is the Worst Type in Your PHP Codebase (and How to Kill It)",
+            "url": "https://dev.to/gabrielanhaia/why-mixed-is-the-worst-type-in-your-php-codebase-and-how-to-kill-it-3ie"
+        }
+    ],
+    "tags": [
+        "keyword",
+        "type"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [
+        "Php/MixedKeyword"
+    ],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "8.0+",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 02 Jul 2026 06:40:05 +0000"
+}

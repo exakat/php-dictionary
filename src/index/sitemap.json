@@ -1,0 +1,46 @@
+{
+    "id": "sitemap",
+    "name": "sitemap",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/sitemap.html",
+    "aliases": [],
+    "description": "The ``sitemap`` file is an XML file that lists all the important pages of a website, helping search engines like Google discover, crawl, and index the content more efficiently.\n\n``sitemap`` ensures search engines don't miss any pages, especially on large or complex sites. ``sitemap`` is typically XML or HTML.\n\n``sitemap`` usually includes URL of pages, the date of last modification, the title, a short summary, the author, date of first edition.",
+    "code": "",
+    "documentation": "https://developers.google.com/search/docs/crawling-indexing/sitemaps/overview",
+    "related": [
+        "xml",
+        "html",
+        "web-spider",
+        "seo"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://developers.google.com/search/docs/crawling-indexing/sitemaps/overview"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "How to Generate Dynamic XML Sitemap for Website in PHP",
+            "url": "https://phppot.com/php/how-to-generate-dynamic-xml-sitemap-for-website-in-php/"
+        }
+    ],
+    "tags": [
+        "web"
+    ],
+    "packagist": [
+        "rumenx/php-sitemap"
+    ],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sat, 08 Aug 2026 08:10:54 +0000"
+}

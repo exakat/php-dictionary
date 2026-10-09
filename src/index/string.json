@@ -1,0 +1,84 @@
+{
+    "id": "string",
+    "name": "String",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/string.html",
+    "aliases": [],
+    "description": "A string is series of characters, where a character is the same as a byte. This means that PHP only supports a 256-character set, and hence does not offer native Unicode support.",
+    "code": "<?php\n\n$string = 'Hello world';\n\n?>",
+    "documentation": "https://www.php.net/manual/en/language.types.string.php",
+    "related": [
+        "stringable",
+        "single-quote",
+        "double-quote",
+        "magic-method",
+        "sprintf",
+        "concatenation",
+        "curly-bracket",
+        "format",
+        "heredoc",
+        "interpolation",
+        "nowdoc",
+        "string-interpolation",
+        "case-sensitivity",
+        "negative-index",
+        "scalar-type",
+        "printf",
+        "backedenum",
+        "callback",
+        "empty-string",
+        "native-type",
+        "escape-character",
+        "file_get_contents",
+        "offset",
+        "text",
+        "slug",
+        "string-increment",
+        "strtolower",
+        "strtoupper",
+        "operator",
+        "php_eol",
+        "regex",
+        "str_replace",
+        "strtr"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.types.string.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Character Encoding for PHP Developers: Unicode, UTF-8 and ASCII",
+            "url": "https://www.honeybadger.io/blog/php-character-encoding-unicode-utf8-ascii/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP 8.0: New Stringable interface",
+            "url": "https://php.watch/versions/8.0/stringable"
+        }
+    ],
+    "tags": [
+        "scalar",
+        "feature"
+    ],
+    "packagist": [
+        "symfony/string",
+        "voku/stringy"
+    ],
+    "extensions": [],
+    "analyzers": [
+        "Classes/CouldBeStringable"
+    ],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+}

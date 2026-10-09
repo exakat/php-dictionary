@@ -1,0 +1,54 @@
+{
+    "id": "javascript",
+    "name": "Javascript",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/javascript.html",
+    "aliases": [],
+    "description": "JavaScript is a programming language primarily used to make websites interactive. It runs mainly in the browser, on the client side, allowing things like form validation before submitting, dynamic page updates without reloading, animations and UI interactions, fetching data asynchronously.\n\nPHP interacts with JavaScript to serve it, or produce specific datasets.\n\nIt can also run on the server side using environments like Node.js.",
+    "code": "",
+    "documentation": "https://en.wikipedia.org/wiki/JavaScript",
+    "related": [
+        "ajax",
+        "css",
+        "html",
+        "pwa",
+        "asset",
+        "dom"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/JavaScript"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP-JS",
+            "url": "https://www.php-js.com/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Javascript",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+        }
+    ],
+    "tags": [
+        "language",
+        "frontend"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 17 Sep 2026 07:43:27 +0000"
+}

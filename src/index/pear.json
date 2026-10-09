@@ -1,0 +1,47 @@
+{
+    "id": "pear",
+    "name": "PEAR",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/pear.html",
+    "aliases": [],
+    "description": "PEAR stands for 'PHP Extension and Application Repository'. It was a framework and distribution system for reusable PHP components, libraries, and software packages. PEAR provides a structured and standardized way to package and distribute PHP code, making it easier for developers to share and reuse code across projects. \n\nNowadays, PEAR is not much used anymore and is replaced by composer.",
+    "code": "",
+    "documentation": "http://pear.php.net/",
+    "related": [
+        "composer",
+        "package-manager"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "http://pear.php.net/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PEAR - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/PHP_Extension_and_Application_Repository"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "The Evolution of PHP packages Dependency Management: PEAR vs. Composer",
+            "url": "https://medium.com/@shivkumar_57196/the-evolution-of-php-packages-dependency-management-pear-vs-composer-showdown-a30ca403728f"
+        }
+    ],
+    "tags": [
+        "acronym"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Fri, 21 Aug 2026 07:18:16 +0000"
+}

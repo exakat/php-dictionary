@@ -1,0 +1,55 @@
+{
+    "id": "oracle",
+    "name": "Oracle",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/oracle.html",
+    "aliases": [
+        "oci"
+    ],
+    "description": "Oracle is a relational database management system developed by Oracle Corporation. It is one of the most widely used enterprise databases, known for its robustness, advanced SQL features, and scalability.\n\nPHP connects to Oracle databases via the OCI8 extension called ``ext/oci8``, which provides functions prefixed with ``oci_`` such as ``oci_connect()``, ``oci_parse()``, ``oci_execute()``, and ``oci_fetch_array()``. Oracle can also be accessed via PDO using the ``pdo_oci`` driver.\n\nOracle-specific features that PHP developers encounter include: sequences in lieu of auto-increment, ``ROWNUM`` for pagination, PL/SQL stored procedures, and CLOB/BLOB handling for large data.\n\nThe term ``oracle`` is also used in testing to describe the mechanism by which a test determines whether its output is correct, and in cryptography for an attacker-accessible function that reveals partial information about a secret.",
+    "code": "<?php\n\n    $conn = oci_connect('user', 'password', 'localhost/XE');\n    $stmt = oci_parse($conn, 'SELECT id, name FROM users WHERE id = :id');\n    oci_bind_by_name($stmt, ':id', $userId);\n    oci_execute($stmt);\n    \n    while ($row = oci_fetch_array($stmt, OCI_ASSOC)) {\n        echo $row['NAME'];\n    }\n\n?>",
+    "documentation": "https://www.php.net/manual/en/book.oci8.php",
+    "related": [
+        "database",
+        "pdo",
+        "mysql",
+        "dba",
+        "sql-database"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/book.oci8.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PDO_OCI \u2014 PHP Manual",
+            "url": "https://www.php.net/manual/en/ref.pdo-oci.php"
+        }
+    ],
+    "tags": [
+        "extension",
+        "database",
+        "disambiguation"
+    ],
+    "packagist": [],
+    "extensions": [
+        "ext/oci8"
+    ],
+    "analyzers": [
+        "Extensions/Extoci8"
+    ],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sat, 08 Aug 2026 14:32:14 +0000"
+}

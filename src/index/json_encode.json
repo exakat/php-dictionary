@@ -1,0 +1,48 @@
+{
+    "id": "json_encode",
+    "name": "json_encode()",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/json_encode.html",
+    "aliases": [],
+    "description": "``json_encode()`` encodes a data structure into a JSON string.\n\nIn case an error arise during parsing, a ``null`` value is returned, as the default value. This error may be confused with the decoding of the ``'null'`` string, which is a valid JSON value. It may also raise a ``ValueError``, when the function is configured by ``JSON_THROW_ON_ERROR``.\n",
+    "code": "<?php\n\n    $data = [1,2,3];\n    try {\n        $json = json_encode($data);\n    } catch(ValueError $e) {\n        print \"JSON encoding error\";\n    }\n    // $json === '[1,2,3]';\n\n?>",
+    "documentation": "https://www.php.net/manual/en/function.json-encode.php",
+    "related": [
+        "json",
+        "jsonc",
+        "json_decode",
+        "get_object_vars"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/function.json-encode.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Serialize and Deserialize JSON with PHP",
+            "url": "https://mojoauth.com/serialize-and-deserialize/serialize-and-deserialize-json-with-php"
+        }
+    ],
+    "tags": [
+        "native function"
+    ],
+    "packagist": [],
+    "extensions": [
+        "json"
+    ],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sun, 23 Aug 2026 20:38:51 +0000"
+}

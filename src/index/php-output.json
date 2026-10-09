@@ -1,0 +1,50 @@
+{
+    "id": "php-output",
+    "name": "php://output",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/php-output.html",
+    "aliases": [],
+    "description": "``php://output`` is a special write-only stream that gives access to the body of the outgoing HTTP response. It does not work with CLI environment.\n\n``php://output`` is also implicitly written when using ``echo``, ``print``, the HTML mode, or ``print_r()``.",
+    "code": "<?php\n\n    $incoming = file_put_contents('php://output', '<p>hello world</p>');\n\n?>",
+    "documentation": "https://www.php.net/manual/en/wrappers.php.php",
+    "related": [
+        "http",
+        "stream",
+        "echo",
+        "print",
+        "php-input",
+        "file_put_contents",
+        "$HTTP_RAW_POST_DATA"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/wrappers.php.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP Output Buffering for dummies",
+            "url": "https://medium.com/@eric.morand/php-output-buffering-for-dummies-fad9624554b4"
+        }
+    ],
+    "tags": [
+        "http",
+        "php stream"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Tue, 11 Aug 2026 20:50:37 +0000"
+}

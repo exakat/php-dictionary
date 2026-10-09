@@ -1,0 +1,48 @@
+{
+    "id": "void-cast",
+    "name": "(void) Cast",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/void-cast.html",
+    "aliases": [],
+    "description": "The ``(void)`` cast is a special cast. It doesn't actually cast a value to ``void``, which does not exist as data, only as a type. ``(void)`` actually tells the ``#[NoDiscard]`` attribute that the returned value is explicitly discarded. Otherwise, PHP expects the returned value to be collected and used.",
+    "code": "<?php\n\n#[NoDiscard]\nfunction trumpet() {\n    return 1;\n}\n\n// OK\n(void) trumpet();\n\n// Wrong, the returned value MUST be collected\ntrumpet();\n\n?>",
+    "documentation": "https://www.php.net/manual/en/class.nodiscard.php",
+    "related": [
+        "nodiscard"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/class.nodiscard.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "#[\\NoDiscard] attribute",
+            "url": "https://www.php.net/manual/en/migration85.new-features.php#migration85.new-features.core.nodiscard-attribute"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Stop Ignoring Important Returns with PHP 8.5\u2019s #[\\NoDiscard] Attribute",
+            "url": "https://www.amitmerchant.com/the-nodiscard-attribute-in-php-85/"
+        }
+    ],
+    "tags": [
+        "cast"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+}

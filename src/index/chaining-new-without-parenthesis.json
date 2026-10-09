@@ -1,0 +1,52 @@
+{
+    "id": "chaining-new-without-parenthesis",
+    "name": "Chaining New Without Parenthesis",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/chaining-new-without-parenthesis.html",
+    "aliases": [],
+    "description": "Since PHP 8.4, it is possible to call a method, access a property or call the ``__invoke()`` method immediately upon instantiation, without parenthesis around the instantiation.\n\nWith this syntax, there must be parenthesis, albeit empty ones, after the ``new``.\n\nThis should not be confused with calling ``new`` without parenthesis for the constructor.",
+    "code": "<?php\n\nclass Elephpant {\n    public $property = 1;\n\n    public function trumpet() { echo __METHOD__; }\n\n    public function __invoke() { echo __METHOD__; }\n}\n\nnew elephpant()->property;  // 1\nnew elephpant()->trumpet();     // Elephpant::trumpet\nnew elephpant()();          // Elephpant::__invoke\n\n?>",
+    "documentation": "https://www.php.net/manual/en/migration84.new-features.php#migration84.new-features.core.new-chaining",
+    "related": [
+        "new",
+        "new-without-parenthesis",
+        "chaining"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/migration84.new-features.php#migration84.new-features.core.new-chaining"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP RFC: new MyClass()->method() without parentheses",
+            "url": "https://wiki.php.net/rfc/new_without_parentheses"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "New without parentheses in PHP 8.4",
+            "url": "https://stitcher.io/blog/new-with-parentheses-php-84"
+        }
+    ],
+    "tags": [
+        "feature"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [
+        "Php/NewWithoutParenthesis"
+    ],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "8.4",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+}

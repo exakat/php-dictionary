@@ -1,0 +1,47 @@
+{
+    "id": "getenv",
+    "name": "getenv()",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/getenv.html",
+    "aliases": [],
+    "description": "``getenv()`` is a PHP native function that reads the value of an environment variable. Called with a name, it returns that variable's value, or ``false`` if it is not set. Called with no argument, it returns an associative array of every currently available environment variable.\n\nUnlike the ``$_ENV`` superglobal, whose content is collected once at the start of the script and depends on the ``variables_order`` directive, ``getenv()`` always queries the environment directly, so it reflects changes made during execution, for example with ``putenv()``.\n\nWhen PHP runs under a SAPI such as FPM or FastCGI, ``getenv()`` returns the value set by the SAPI itself, even if ``putenv()`` was used to override it locally; passing ``true`` as the second, ``local_only``, argument restricts the lookup to locally-set values.\n",
+    "code": "<?php\n\n    // read a single environment variable\n    $home = getenv('HOME');\n\n    // read every environment variable\n    $env = getenv();\n\n    putenv('MY_VARIABLE=42');\n    echo getenv('MY_VARIABLE'); // 42\n\n?>",
+    "documentation": "https://www.php.net/manual/en/function.getenv.php",
+    "related": [
+        "$_env",
+        "environment-variable",
+        "environment",
+        "$_server"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/function.getenv.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Use of getenv() function in PHP",
+            "url": "https://linuxhint.com/use-of-getenv-function-in-php/"
+        }
+    ],
+    "tags": [
+        "native function",
+        "os"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Tue, 18 Aug 2026 05:30:04 +0000"
+}

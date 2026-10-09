@@ -1,0 +1,46 @@
+{
+    "id": "implode",
+    "name": "implode()",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/implode.html",
+    "aliases": [],
+    "description": "The ``implode()`` function is used to join elements of an array into a glue, placed between each element.\n\n``implode()`` uses the first argument as the separator, and the second as the array. In older versions of PHP, this order could be reversed, but it recommended to avoid using it, as that feature was removed.\n\n``implode()`` has an alias called ``join()``.\n\n``implode()`` converts the elements of the array to string before merging them in a string. In particular, objects are converted to string with the magic-method, and sub-arrays are converted to ``Array``, with a warning. Backed enumerations are not usable with that function.\n\n``implode()`` is faster to concatenate multiple strings than accumulating the concatenations in a single string. This happens because there is less need to allocate memory piecemeal.",
+    "code": "<?php\n\ndeclare(strict_types=1);\n\nclass Elephpant {\n    function __toString() {\n        return 'c';\n    }\n}\n\n$elephpant = new Elephpant();\necho implode('a', ['a', 'b', new Elephpant()]);\n\n?>",
+    "documentation": "https://www.php.net/manual/en/function.implode.php",
+    "related": [
+        "concatenation",
+        "micro-optimisation",
+        "separator"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/function.implode.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "How to use implode() in PHP (with examples)",
+            "url": "https://tinkerwell.app/blog/how-to-use-implode-in-php"
+        }
+    ],
+    "tags": [
+        "native function",
+        "micro-optimisation"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+}

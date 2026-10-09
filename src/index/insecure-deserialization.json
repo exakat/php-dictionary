@@ -1,0 +1,66 @@
+{
+    "id": "insecure-deserialization",
+    "name": "Insecure Deserialization",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/insecure-deserialization.html",
+    "aliases": [
+        "php-object-injection"
+    ],
+    "description": "Insecure deserialization, also called PHP object injection, is a vulnerability that occurs when untrusted data is deserialized without sufficient validation, allowing an attacker to manipulate the serialized object to execute arbitrary code.\n\nThe most common vector is the native ``unserialize()`` function. When user-controlled data is passed to ``unserialize()``, an attacker can craft a malicious serialized payload that instantiates arbitrary classes available in the application's scope. By targeting classes that implement magic methods such as ``__wakeup()``, ``__destruct()``, or ``__toString()``, the attacker can chain method calls, known as a Property Oriented Programming chain, to achieve remote code execution.\n\nOWASP lists insecure deserialization as one of the Top 10 web application security risks.\n\nMitigations include: never deserializing untrusted data with native ``unserialize()``; using safer formats such as JSON; using the ``allowed_classes`` option to whitelist permitted classes; and using HMAC signatures to authenticate serialized payloads.",
+    "code": "<?php\n\n    // VULNERABLE: passing user input directly to unserialize()\n    $data = $_GET['data'];\n    $obj  = unserialize($data); // Dangerous!\n    \n    // SAFER: use JSON for untrusted data\n    $obj = json_decode($_GET['data']);\n    \n    // SAFER: restrict allowed classes when unserialize is necessary\n    $obj = unserialize($data, ['allowed_classes' => [MyValueObject::class]]);\n\n?>",
+    "documentation": "https://owasp.org/www-community/vulnerabilities/PHP_Object_Injection",
+    "related": [
+        "serialization",
+        "unserialize",
+        "object-injection",
+        "__wakeup",
+        "__unserialize",
+        "attack",
+        "vulnerability",
+        "owasp",
+        "security",
+        "pop",
+        "sast"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://owasp.org/www-community/vulnerabilities/PHP_Object_Injection"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "A08:2025 Software or Data Integrity Failures",
+            "url": "https://top10.owasp.org/2025/A08_2025-Software_or_Data_Integrity_Failures/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Developing a custom gadget chain for PHP deserialization",
+            "url": "https://portswigger.net/web-security/deserialization/exploiting/lab-deserialization-developing-a-custom-gadget-chain-for-php-deserialization"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "The Quiet Shift Reshaping PHP Security",
+            "url": "https://www.linkedin.com/pulse/quiet-shift-reshaping-php-security-matthew-weier-o-phinney-fgquc/"
+        }
+    ],
+    "tags": [
+        "security",
+        "owasp"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [
+        "Security/UnserializeUserInput"
+    ],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Fri, 25 Sep 2026 13:59:40 +0000"
+}

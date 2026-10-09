@@ -1,0 +1,52 @@
+{
+    "id": "jsonserializable",
+    "name": "JsonSerializable",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/jsonserializable.html",
+    "aliases": [],
+    "description": "The ``JsonSerializable`` interface is used to customize how an object is serialized into JSON using ``json_encode()``.\n\n``JsonSerializable`` simplifies the conversion to JSON by introducing a method to prepare the data. These data may be based on the properties of the object, but they may also change these names, create virtual and hide existing properties; the values may also be formatted to fit any specification.\n\nThere is no reverse method, where a JSON representation is converted into an object. It has to be done in a custom method.",
+    "code": "<?php\n\nclass Point implements JsonSerializable {\n    public function __construct(\n        private int $x, \n        private int $y,\n        ) {\n    }\n\n    public function jsonSerialize(): mixed {\n        return [\n            'latitude' => $this->x,\n            'longitude' => $this->y\n        ];\n    }\n}\n\n$point = new Point(10, 20);\necho json_encode($point); // {latitude:10,longitude:20}\n\n?>",
+    "documentation": "https://www.php.net/manual/en/class.jsonserializable.php",
+    "related": [
+        "json",
+        "serialization",
+        "parquet",
+        "php-interface"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/class.jsonserializable.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "How to Use the JsonSerializable Interface",
+            "url": "https://www.sitepoint.com/use-jsonserializable-interface/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "The Problem with JsonSerializable and Doctrine when using Symfony",
+            "url": "https://theiconic.tech/the-problem-with-jsonserializable-and-doctrine-when-using-symfony-ad760e986b04"
+        }
+    ],
+    "tags": [
+        "json",
+        "php interface"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Mon, 15 Jun 2026 11:03:59 +0000"
+}

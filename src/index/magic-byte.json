@@ -1,0 +1,51 @@
+{
+    "id": "magic-byte",
+    "name": "Magic Bytes",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/magic-byte.html",
+    "aliases": [
+        "magic-bytes"
+    ],
+    "description": "Magic bytes are the first bytes of the content of a file. This is where the format of the file is actually defined, or specified. These bytes are used to recognize the type of the file.",
+    "code": "",
+    "documentation": "https://en.wikipedia.org/wiki/List_of_file_signatures",
+    "related": [
+        "file",
+        "magic-hash"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/List_of_file_signatures"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Fileinfo functions",
+            "url": "https://www.php.net/manual/en/book.fileinfo.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "mime_content_type()",
+            "url": "https://www.php.net/manual/en/function.mime-content-type.php"
+        }
+    ],
+    "tags": [
+        "file"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sat, 15 Aug 2026 08:27:29 +0000"
+}

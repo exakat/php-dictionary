@@ -1,0 +1,56 @@
+{
+    "id": "prng",
+    "name": "PRNG",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/prng.html",
+    "aliases": [
+        "pseudorandom-number-generator",
+        "csprng"
+    ],
+    "description": "A ``PRNG``, or pseudorandom number generator, is an algorithm that produces a sequence of numbers which appears random, but is entirely determined by its initial seed. Given the same seed, a PRNG always produces the same sequence, which makes it deterministic and reproducible, unlike a true random source.\n\nPHP's ``rand()`` and ``mt_rand()`` are classic PRNGs, and, since 8.2, the ``Random\\Engine`` interface exposes several interchangeable PRNG algorithms, such as ``Mt19937``, ``PcgOneseq128XslRr64`` and ``Xoshiro256StarStar``.\n\nPRNGs are generally not suitable for cryptography, since their output can sometimes be predicted from a partial sequence. ``random_bytes()``, ``random_int()`` and the ``Random\\Engine\\Secure`` engine rely instead on a cryptographically secure pseudorandom number generator, also known as CSPRNG.",
+    "code": "<?php\n\n    mt_srand(42);\n    echo mt_rand(1, 100); // always the same value for the same seed\n    \n    $engine = new Random\\Engine\\Mt19937(seed: 42);\n    $randomizer = new Random\\Randomizer($engine);\n    echo $randomizer->getInt(1, 100); // reproducible sequence\n\n?>",
+    "documentation": "https://www.php.net/manual/en/function.mt-rand.php",
+    "related": [
+        "random",
+        "generator",
+        "random_engine",
+        "random_cryptosafeengine",
+        "deterministic",
+        "determinism",
+        "cryptography"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/function.mt-rand.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Pseudorandom number generator - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Pseudorandom_number_generator"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP RFC: Random Extension 5.x Improvement",
+            "url": "https://wiki.php.net/rfc/rng_extension"
+        }
+    ],
+    "tags": [
+        "random",
+        "number"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Mon, 07 Sep 2026 09:09:23 +0000"
+}

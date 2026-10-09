@@ -1,0 +1,51 @@
+{
+    "id": "control-flow-graph",
+    "name": "Control Flow Graph (CFG)",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/control-flow-graph.html",
+    "aliases": [],
+    "description": "The Control Flow Graph is a logical representation of the execution of a source code. It takes into account the path that follow the execution in the source, including:\n\n+ Sequential execution: one command at a time\n+ Goto jumps: from one part of the code to another one\n+ Branching: where one of two or more sequence of actions are exclusively executed, depending on conditions\n+ Looping: where the same piece of code is executed repeatedly.\n\nControl Flow Graph is used in code analysis, to audit the modifications of data.",
+    "code": "",
+    "documentation": "https://www.geeksforgeeks.org/software-engineering/software-engineering-control-flow-graph-cfg/",
+    "related": [
+        "ssa",
+        "graph"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.geeksforgeeks.org/software-engineering/software-engineering-control-flow-graph-cfg/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Control-flow graph",
+            "url": "https://en.wikipedia.org/wiki/Control-flow_graph"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Cyclomatic complexity",
+            "url": "https://en.wikipedia.org/wiki/Cyclomatic_complexity"
+        }
+    ],
+    "tags": [
+        "acronym",
+        "analysis",
+        "static analysis"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Tue, 25 Aug 2026 12:17:01 +0000"
+}

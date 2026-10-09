@@ -1,0 +1,62 @@
+{
+    "id": "pattern",
+    "name": "Pattern",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/pattern.html",
+    "aliases": [
+        "software-pattern"
+    ],
+    "description": "A pattern is a named, reusable solution to a commonly recurring problem in software design. Patterns are not finished code; they are templates that describe a proven structure, the problem it solves, and the trade-offs involved in applying it.\n\nThe concept was popularised in software by the ``Gang of Four``, ``Gamma``, ``Helm``, ``Johnson``, ``Vlissides``, in their 1994 book ``Design Patterns: Elements of Reusable Object-Oriented Software``, which catalogued 23 patterns grouped into three categories:\n\n+ Creational patterns manage object creation: singleton, factory method, abstract factory, builder, prototype\n+ Structural patterns organise classes and objects: adapter, bridge, composite, decorator, facade, flyweight, proxy\n+ Behavioural patterns define communication between objects: chain of responsibility, command, iterator, mediator, memento, observer, state, strategy, template method, visitor\n\nPHP supports all classical OOP patterns through its class system. Many patterns are also embedded in popular frameworks. For example, Laravel uses Facade, Repository, and Observer, Symfony uses Decorator, Event Dispatcher, and Dependency Injection.\n\nPatterns have a broader scope beyond OOP: architectural patterns such as MVC, CQRS, Event Sourcing, etc, concurrency patterns, and enterprise integration patterns all describe recurring solutions at different levels of abstraction.\n\nA pattern applied in the wrong context becomes an anti-pattern.",
+    "code": "<?php\n\n    // Strategy pattern: swap algorithms at runtime behind a common interface\n    interface SortStrategy {\n        public function sort(array $data): array;\n    }\n    \n    class BubbleSort implements SortStrategy {\n        public function sort(array $data): array {\n            // bubble sort implementation\n            return $data;\n        }\n    }\n    \n    class QuickSort implements SortStrategy {\n        public function sort(array $data): array {\n            // quicksort implementation\n            return $data;\n        }\n    }\n    \n    class Sorter {\n        public function __construct(private SortStrategy $strategy) {}\n    \n        public function sort(array $data): array {\n            return $this->strategy->sort($data);\n        }\n    }\n    \n    $sorter = new Sorter(new QuickSort());\n    $sorted = $sorter->sort([3, 1, 4, 1, 5]);\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Software_design_pattern",
+    "related": [
+        "anti-pattern",
+        "pattern-matching",
+        "pattern-based-analysis",
+        "polymorphism",
+        "interface",
+        "specification",
+        "best-practice",
+        "look-up",
+        "nullpattern",
+        "wet",
+        "yoda"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Software_design_pattern"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Gang of 4 Design Patterns Explained",
+            "url": "https://www.digitalocean.com/community/tutorials/gangs-of-four-gof-design-patterns"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Gang of Four (GOF) Design Patterns - GeeksforGeeks",
+            "url": "https://www.geeksforgeeks.org/system-design/gang-of-four-gof-design-patterns/"
+        }
+    ],
+    "tags": [
+        "concept",
+        "quality",
+        "oop"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Mon, 07 Sep 2026 09:28:48 +0000"
+}

@@ -1,0 +1,56 @@
+{
+    "id": "functor",
+    "name": "Functor",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/functor.html",
+    "aliases": [],
+    "description": "A functor is a type that can be ``mapped over``. It must implement a function, usually called map or ``fmap``, that applies a function to the values inside the functor, without altering the functor's structure.",
+    "code": "",
+    "documentation": "https://en.wikipedia.org/wiki/Functor_(functional_programming)",
+    "related": [
+        "functional-programming",
+        "__invoke"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Functor_(functional_programming)"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Functional Programming Principles in PHP \u2013 Functors",
+            "url": "https://www.kai-sassnowski.com/post/php-functors-1/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "pwm/functor",
+            "url": "https://gist.github.com/pwm/2eb1fa03fcd54d8d32c21546ba80aa16"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Functors in PHP Programming",
+            "url": "https://www.educative.io/courses/learn-functional-programming-in-php/functors-in-php-programming"
+        }
+    ],
+    "tags": [
+        "code architecture"
+    ],
+    "packagist": [
+        "widmogrod/php-functional"
+    ],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 03 Sep 2026 14:41:47 +0000"
+}

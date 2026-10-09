@@ -1,0 +1,59 @@
+{
+    "id": "name-convention",
+    "name": "Name Conventions",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/name-convention.html",
+    "aliases": [
+        "naming-convention"
+    ],
+    "description": "A naming convention is a way to write a name for a structure, with a specific format.\n\nThere are technical conventions, which leads the PHP engine to refuse a name, such as starting a class name with a number.\n\nThere are developer conventions, which are a community practice, that fits within the technical conventions. For example, constants are written in upper case.\n\nHere are technical conventions for PHP: \n\n+ Variables, properties: they start with a ``$`` sign, followed by a letter or underscore, then by letters, digits and underscore. There have no length limit. As a regex: ``$[a-zA-Z_][a-zA-Z0-9_]*``\n+ Functions, methods: they start with a letter or underscore, then by letters, digits and underscore. There have no length limit. As a regex: ``[a-zA-Z_][a-zA-Z0-9_]*``\n+ Classes, traits, enumerations, interfaces: they start with a letter or underscore, then by letters, digits and underscore. There have no length limit. As a regex: ``[a-zA-Z_][a-zA-Z0-9_]*``\n+ Constants, global or class: they start with a letter or underscore, then by letters, digits and underscore. There have no length limit. As a regex: ``[a-zA-Z_][a-zA-Z0-9_]*``\n+ Array index: they must be valid strings or integers. \n\n",
+    "code": "<?php\n\n    // here, trumpet is the name of a function\n    function trumpet() {}\n\n    // the name is used to call the function\n    trumpet();\n\n?>",
+    "documentation": "https://www.php.net/manual/en/language.variables.basics.php",
+    "related": [
+        "namespace",
+        "anonymous",
+        "case-sensitivity",
+        "namespace-name",
+        "structure",
+        "word-combinaison",
+        "close-naming",
+        "naming-conflict",
+        "reserved-name",
+        "semantics",
+        "class-constant"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.variables.basics.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Naming convention (programming) (Wikipedia)",
+            "url": "https://en.wikipedia.org/wiki/Naming_convention_(programming)"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PSR-1: Basic Coding Standard",
+            "url": "https://www.php-fig.org/psr/psr-1/"
+        }
+    ],
+    "tags": [
+        "concept",
+        "name"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+}

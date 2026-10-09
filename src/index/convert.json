@@ -1,0 +1,63 @@
+{
+    "id": "convert",
+    "name": "Convert",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/convert.html",
+    "aliases": [],
+    "description": "To convert is to transform a piece of data, from one format to another. \n\nThe conversion may be lossless, when it may be reverted without loss of information. It is lossy when it cannot be reverted, or if this operation is very expensive. \n\nPHP has several conversion systems: \n\n+ Cast, with ``(int)``, ``(array)``, ``(string)``, etc\n+ String format conversion, with ``iconv()``, ``mb_convert_encoding()``, or ``UConverter::transcode``.\n+ Number base conversion, with ``base_convert()`` and ``intval()``.\n\nTo convert may also be called cast, encode/decode, escape, crypt/decrypt, hash, sign, etc. depending on the context.",
+    "code": "<?php\n\n    // convert an array to a JSON string\n    // This is also called 'encoding', and may be decoded\n    $array = ['a' => 1];\n    $json = json_encode($array);\n    \n    // convert a string to its MD5 signature\n    // it cannot be reverted easily, and it is considered lossful\n    $string = 'PHP rocks';\n    $hash = md5($string);\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Data_conversion",
+    "related": [
+        "cast",
+        "encode",
+        "decode",
+        "escape-data",
+        "crypt",
+        "decrypt",
+        "hash",
+        "sign",
+        "lossless",
+        "lossy"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Data_conversion"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Type Juggling",
+            "url": "https://www.php.net/manual/en/language.types.type-juggling.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "settype",
+            "url": "https://www.php.net/manual/en/function.settype.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Conversions",
+            "url": "https://phplang.org/spec/08-conversions.html"
+        }
+    ],
+    "tags": [
+        "concept",
+        "data"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Tue, 01 Sep 2026 05:31:03 +0000"
+}

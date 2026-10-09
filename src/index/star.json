@@ -1,0 +1,53 @@
+{
+    "id": "star",
+    "name": "Star *",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/star.html",
+    "aliases": [],
+    "description": "``*`` is a character, used in various situations: \n\n+ Multiplication: ``3 * 2 == 6``\n+ Power: ``3 ** 2 == 3 * 3 == 9``\n+ With slash, ``/*`` is a multi line comment: ``/* */``\n+ With double star and a slash, ``/**`` is a phpdoc comment: ``/** */``.\n+ As a wildcard in ``glob()`` calls\n+ As a wildcard in ``fnmatch()`` calls\n+ As a wildcard for all columns in SQL queries: ``SELECT * FROM table``\n+ As a quantifier in regex: 0 or more, for example ``/a*/``\n+ As part of a multiline comment with ``/** */`` and ``/* */``.\n",
+    "code": "<?php\n\n    file_get_contents('/tmp/test.txt');\n    \n    echo 2 * 3; // 6 \n    echo 2 ** 3; // * \n    \n    /*\n     A multiline comment\n    */\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Asterisk",
+    "related": [
+        "multiplication",
+        "comment",
+        "exponential",
+        "regex",
+        "sql",
+        "glob",
+        "fnmatch"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Asterisk"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Glob (programming)",
+            "url": "https://en.wikipedia.org/wiki/Glob_(programming)"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP: fnmatch()",
+            "url": "https://www.php.net/manual/en/function.fnmatch.php"
+        }
+    ],
+    "tags": [
+        "disambiguation",
+        "character"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Fri, 28 Aug 2026 10:29:32 +0000"
+}

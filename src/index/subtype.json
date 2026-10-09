@@ -1,0 +1,46 @@
+{
+    "id": "subtype",
+    "name": "subtype",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/subtype.html",
+    "aliases": [],
+    "description": "A subtype is any of the child types. It is the classes that extend the target class, with the ``extends`` keyword; it also covers all the classes that are subtypes of that child class. \n\nThe opposite is supertype.",
+    "code": "<?php\n\n    // Aparent is a supertype of AChild\n    class Aparent extends Agrandparent {}\n    \n    class Achild extends Aparent{}\n    \n    // Agrandchild is a subtype of AChild\n    class Agrandchild extends Achild {}\n    \n    // These are not subtype of AChild\n    class ABrother extends Aparent{}\n    \n    class ASister extends Aparent{}\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Subtyping",
+    "related": [
+        "supertype"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Subtyping"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Liskov substitution principle",
+            "url": "https://en.wikipedia.org/wiki/Liskov_substitution_principle"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Covariance and contravariance",
+            "url": "https://en.wikipedia.org/wiki/Covariance_and_contravariance_(computer_science)"
+        }
+    ],
+    "tags": [
+        "type"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Fri, 28 Aug 2026 10:07:30 +0000"
+}

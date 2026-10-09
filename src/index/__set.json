@@ -1,0 +1,52 @@
+{
+    "id": "__set",
+    "name": "__set() Method",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/__set.html",
+    "aliases": [],
+    "description": "``__set()`` is called when writing data to inaccessible, either protected or private, or non-existing properties. It is used to give a value to the property. ``__set()`` is a magic method.\n\nThat way, it is possible to create dynamically properties, without hardcoding them. \n\nThe ``__set()`` method is usually paired with the ``__get()`` method.\n\nThe method signature is ``public function __set(string $name, mixed $value): void``. The ``$name`` argument is the name of the property being interacted with. The ``$value`` argument specifies the value the ``$name``-ed property should be set to. The return value of ``__set()`` is ignored because of the way PHP processes the assignment operator. \n\nThe method must be declared as ``public``, or it is implicit. Arguments cannot be passed by reference. Property overloading only works in object context and will not be triggered in static context.",
+    "code": "<?php\n\n    class Elephpant {\n        private $values = ['a' => 1,\n                           'b' => 2,\n                           ];\n\n        // Checks the dictionary, or return 0\n        function __set($name, $value) {\n            if (isset($this->values[$name])) {\n                $this->values[$name] = $value;\n            }\n            \n            //do not set new values\n        }\n    }\n\n?>",
+    "documentation": "https://www.php.net/manual/en/language.oop5.magic.php",
+    "related": [
+        "__get",
+        "__isset",
+        "magic-constant",
+        "__unset",
+        "magic-method",
+        "magic-property",
+        "property-hook"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.oop5.magic.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP\u2019s magic methods: Invoke, toString, get, set \u2013 Class wizardry in a nutshell",
+            "url": "https://www.dinocajic.com/built-in-functions-invoke-tostring-get-set/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "__get(), __set(), __isset() and __unset()",
+            "url": "https://riptutorial.com/php/example/3635/--get------set------isset---and---unset--"
+        }
+    ],
+    "tags": [
+        "magic method"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Fri, 18 Sep 2026 09:32:21 +0000"
+}

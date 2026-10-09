@@ -1,0 +1,48 @@
+{
+    "id": "second-order-sql-injection",
+    "name": "Second Order SQL Injection",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/second-order-sql-injection.html",
+    "aliases": [],
+    "description": "A second-order SQL injection, also known as stored SQL injection or persistent SQL injection, is a type of SQL injection attack where the payload is not directly injected into the application's SQL query, but rather into the application's database, from where it is later retrieved and executed within another context, leading to a security vulnerability.",
+    "code": "",
+    "documentation": "https://portswigger.net/kb/issues/00100210_sql-injection-second-order",
+    "related": [
+        "sql-injection",
+        "sast"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://portswigger.net/kb/issues/00100210_sql-injection-second-order"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Second order SQL injection",
+            "url": "https://phpdelusions.net/top#second_order_sql_injection"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Second-Order SQL Injection Attack",
+            "url": "https://www.linkedin.com/pulse/second-order-sql-injection-attack-aravind-s#:~:text=In%20a%20Second%20Order%20SQL,a%20Second%20Order%20SQL%20Injection."
+        }
+    ],
+    "tags": [
+        "security",
+        "vulnerability"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Mon, 15 Jun 2026 11:03:59 +0000"
+}

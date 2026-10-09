@@ -1,0 +1,56 @@
+{
+    "id": "yaml",
+    "name": "YAML Ain't Markup Language (YAML)",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/yaml.html",
+    "aliases": [],
+    "description": "``YAML``, which stands for ``YAML Ain't Markup Language``, is a human-readable data serialization format. It is often used for configuration files, data exchange between languages with different data structures, and general-purpose data storage. YAML is designed to be easy for humans to read and write while also being easy for machines to parse and generate.",
+    "code": "\n<?php\n\n    $yaml = <<<YAML\n    ---\n    title: \"The title\" \n    date: \"2001-01-23\" \n    amount: 251.420000\n    ...\n    YAML;\n    \n    $parsed = yaml_parse($yaml);\n    var_dump($parsed);\n\n?>",
+    "documentation": "https://yaml.org/",
+    "related": [
+        "parquet",
+        "json",
+        "xml",
+        "format",
+        "serde"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://yaml.org/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "php-yaml",
+            "url": "https://packagist.org/packages/pecl/yaml"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP YAML",
+            "url": "https://www.php.net/manual/en/book.yaml.php"
+        }
+    ],
+    "tags": [
+        "acronym",
+        "format"
+    ],
+    "packagist": [
+        "symfony/yaml",
+        "mustangostang/spyc"
+    ],
+    "extensions": [
+        "yaml"
+    ],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Mon, 15 Jun 2026 11:03:59 +0000"
+}

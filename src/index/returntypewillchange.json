@@ -1,0 +1,52 @@
+{
+    "id": "returntypewillchange",
+    "name": "Return Type Will Change",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/returntypewillchange.html",
+    "aliases": [],
+    "description": "This is a native PHP attribute. It tells the engine that method overwriting or implementing a native method will use a different return type.\n\nPHP checks the compatibility of implementing methods versus a custom interface. Until PHP 8.1, it did not report such violation when the interface is a PHP native one: this was for backward compatibility.\n\nTo avoid using that attribute, one must made the return type compatible with PHP signatures.\n\nThis attributes only works with PHP native methods: it is ignored when used with other methods.",
+    "code": "<?php\n\nclass Elephpant implements ArrayAccess {\n    #[\\ReturnTypeWillChange]\n    public function offsetGet(mixed $offset) {}\n    // ...\n}\n\n?>",
+    "documentation": "https://php.watch/versions/8.1/ReturnTypeWillChange",
+    "related": [
+        "php-native-attribute",
+        "php-attribute"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://php.watch/versions/8.1/ReturnTypeWillChange"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "ReturnTypeWillChange Is For All",
+            "url": "https://php-tips.readthedocs.io/en/latest/tips/returntypewillchange_for_all.html"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "What's new in PHP 8.1",
+            "url": "https://stitcher.io/blog/new-in-php-81"
+        }
+    ],
+    "tags": [
+        "backward compatibility",
+        "attribute",
+        "php attribute"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [
+        "Php/NativeClassTypeCompatibility",
+        "Php/JsonSerializeReturnType"
+    ],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "8.1+",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+}

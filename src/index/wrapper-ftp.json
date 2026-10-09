@@ -1,0 +1,44 @@
+{
+    "id": "wrapper-ftp",
+    "name": "ftp://",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/wrapper-ftp.html",
+    "aliases": [
+        "wrapper-ftps"
+    ],
+    "description": "The ``ftp://`` wrapper is a native PHP wrapper, to access files on a remote ``FTP`` server. It handles both ``FTP`` and ``FTPS``.\n\nBecause it is a stream wrapper, ``ftp://``, and its encrypted counterpart ``ftps://``, can be used directly wherever PHP accepts a filesystem path, including functions like ``file_get_contents()``, ``file_put_contents()``, ``fopen()``, ``copy()``, and ``file_exists()``. Credentials and the target path are encoded in the URL itself, in the form ``ftp://user:password@host:port/path``, and the wrapper supports both reading and, depending on server permissions, writing and appending.\n\nUsing the ``ftp://`` wrapper requires PHP's ``allow_url_fopen`` setting to be enabled, and, because credentials travel in the URL and plain FTP transmits data without encryption, it is generally safer to prefer ``ftps://`` or a dedicated ``SFTP``/``SSH2`` based approach when handling sensitive data over an untrusted network.",
+    "code": "<?php\n\n    // display a distant file from a FTP server\n    print_r(file_get_content('ftp://user:password@ftp.server.com:/pub/file.txt'));\n\n?>",
+    "documentation": "https://www.php.net/manual/en/wrappers.ftp.php",
+    "related": [
+        "wrapper",
+        "php-wrapper"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/wrappers.ftp.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Mastering PHP Wrappers: Concepts, Use Cases, and Security Risks",
+            "url": "https://medium.com/@zoningxtr/mastering-php-wrappers-concepts-use-cases-and-security-risks-380bb59cb6c1"
+        }
+    ],
+    "tags": [
+        "wrapper"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sat, 08 Aug 2026 08:10:54 +0000"
+}

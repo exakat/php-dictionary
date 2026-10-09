@@ -1,0 +1,46 @@
+{
+    "id": "is_a",
+    "name": "is_a()",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/is_a.html",
+    "aliases": [],
+    "description": "``is_a()`` is a PHP native function, that checks if an object is of a specific class. \n\nUsually, ``is_a()`` is better replaced by ``instanceof``, which is a PHP operator. The function might be needed to create a closure, though.",
+    "code": "<?php\n\n    $object = (object) ['a' => 1];\n\n    var_dump(is_a($object, stdClass::class));\n\n?>",
+    "documentation": "https://www.php.net/manual/en/function.is-a.php",
+    "related": [
+        "instanceof",
+        "type-checking",
+        "object",
+        "polymorphism",
+        "class",
+        "is_object"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/function.is-a.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "is_a() versus instanceof",
+            "url": "https://php-tips.readthedocs.io/en/latest/tips/is_a_and_instanceof.html"
+        }
+    ],
+    "tags": [
+        "object"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Tue, 04 Aug 2026 11:30:29 +0000"
+}

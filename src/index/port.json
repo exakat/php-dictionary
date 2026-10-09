@@ -1,0 +1,43 @@
+{
+    "id": "port",
+    "name": "Port",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/port.html",
+    "aliases": [],
+    "description": "In computer networking, a port is a communication endpoint that facilitates the transfer of data between different processes or devices over a network.\n\nA port is identified by a number, known as the port number, which is part of the addressing information used to direct the data to its destination. Port numbers are standardized across different systems and protocols.\n\nPorts are categorized into two types: ``TCP``, Transmission Control Protocol, ports and ``UDP``, User Datagram Protocol, ports. TCP and UDP are both protocols used in the Internet Protocol Suite for transmitting data across networks, but they have different characteristics.",
+    "code": "<?php\n\n    $url = 'http://www.sample.com/';\n\n    $ch = curl_init();\n    curl_setopt($ch, CURLOPT_URL,$url);\n    curl_setopt($ch, CURLOPT_PORT, 8088);\n    $result = curl_exec($ch);\n    curl_close($ch);\n    echo $result;\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Port_(computer_networking)",
+    "related": [
+        "tcp",
+        "udp",
+        "ssh"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Port_(computer_networking)"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "IANA Service Name and Transport Protocol Port Number Registry",
+            "url": "https://www.iana.org/assignments/service-names-port-numbers/service-names-port-numbers.xhtml"
+        }
+    ],
+    "tags": [
+        "network"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Wed, 19 Aug 2026 07:53:12 +0000"
+}

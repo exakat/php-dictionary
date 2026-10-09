@@ -1,0 +1,49 @@
+{
+    "id": "import",
+    "name": "Import",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/import.html",
+    "aliases": [],
+    "description": "Imports are elements of a different namespaces, brought into the current one. They rely on the ``use`` expression, usually at the beginning of the file.\n\nOnce a class, interface, trait, enum, function or constant has been imported, it is available in the current namespace. It may also use another name, also called alias.\n\nImport is sometimes mistaken with inclusion, which bring in code.",
+    "code": "<?php\n\n    namespace A;\n    \n    // import classes\n    use B\\C; \n    use D\\E as F; \n    // import function\n    use function A\\foo; \n    // import constants\n    use const A\\D;\n    \n    // call an imported function with an imported constant\n    foo(D); \n\n?>",
+    "documentation": "https://www.php.net/manual/en/language.namespaces.importing.php",
+    "related": [
+        "relative-name",
+        "absolute-name",
+        "global-space",
+        "namespaced-name"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.namespaces.importing.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Avoiding Imports and Aliases in PHP",
+            "url": "https://localheinz.com/articles/2020/05/19/avoiding-imports-and-aliases-in-php/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "6 good practices for \u2018use\u2019 in PHP",
+            "url": "https://www.exakat.io/6-good-practices-for-use/"
+        }
+    ],
+    "tags": [
+        "concept"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Mon, 15 Jun 2026 11:03:59 +0000"
+}

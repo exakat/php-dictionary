@@ -1,0 +1,67 @@
+{
+    "id": "extension",
+    "name": "Extensions",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/extension.html",
+    "aliases": [],
+    "description": "Extensions are a custom way to add features to software. Extension is a very generic concept, with broad usage. \n\n+ PHP extensions\n+ Extensions, as a concept.",
+    "code": "",
+    "documentation": "https://www.php.net/manual/en/extensions.php",
+    "related": [
+        "directive",
+        "library-loading",
+        "module",
+        "pecl",
+        "pie",
+        "core",
+        "dynamic-loading",
+        "embed",
+        "engine",
+        "ffi",
+        "readline",
+        "filter",
+        "gettext",
+        "mysqli"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/extensions.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP-cpp : A C++ library for developing PHP extensions.",
+            "url": "https://www.php-cpp.com/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Writing PHP Extensions",
+            "url": "https://www.zend.com/resources/writing-php-extensions"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Zephir PHP",
+            "url": "https://zephir-lang.com/en"
+        }
+    ],
+    "tags": [
+        "disambiguation",
+        "concept",
+        "engine",
+        "feature"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+}

@@ -1,0 +1,49 @@
+{
+    "id": "file-mode",
+    "name": "File Mode",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/file-mode.html",
+    "aliases": [],
+    "description": "The file mode is the configuration of the pointer when accessing to the file. \n\nIn the example above, ``w+`` indicates that the file is open for writing and reading, and place the pointer at the beginning of the file.\n\nThere are several valid modes: 'r', 'r+', 'w', 'w+', 'a', 'a+', 'x', 'x+', 'c', 'c+', 'e'. Check docs for details about them.",
+    "code": "<?php\n\n    $fp = fopen($file, 'w+');\n\n?>",
+    "documentation": "https://www.php.net/manual/fr/function.fopen.php",
+    "related": [
+        "fopen",
+        "file_put_contents",
+        "file_get_contents",
+        "lock"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/fr/function.fopen.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "fopen",
+            "url": "https://www.php.net/manual/en/function.fopen.php"
+        }
+    ],
+    "tags": [
+        "file"
+    ],
+    "packagist": [],
+    "extensions": [
+        "file"
+    ],
+    "analyzers": [
+        "Php/FopenMode",
+        "Portability/FopenMode"
+    ],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Mon, 15 Jun 2026 11:03:58 +0000"
+}

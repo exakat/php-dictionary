@@ -1,0 +1,48 @@
+{
+    "id": "fastcgi",
+    "name": "FastCGI",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/fastcgi.html",
+    "aliases": [],
+    "description": "FastCGI stands for Fast Common Gateway Interface. It is a protocol, built on top of CGI. Unlike CGI, FastCGI has persistent processes that can handle more than one request before being destroyed. It also implements multiplexing.\n\nPHP may be built as a fast CGI, in the ``php-fpm`` daemon.",
+    "code": "",
+    "documentation": "https://www.php.net/manual/en/install.fpm.php",
+    "related": [
+        "fpm",
+        "cgi",
+        "cli"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/install.fpm.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Wikipedia: FastCGI",
+            "url": "https://en.wikipedia.org/wiki/FastCGI"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Nginx documentation: FastCGI",
+            "url": "https://nginx.org/en/docs/beginners_guide.html#fastcgi"
+        }
+    ],
+    "tags": [
+        "_noCode"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 17 Sep 2026 08:32:07 +0000"
+}

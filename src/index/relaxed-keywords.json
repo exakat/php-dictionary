@@ -1,0 +1,47 @@
+{
+    "id": "relaxed-keywords",
+    "name": "Relaxed Keywords",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/relaxed-keywords.html",
+    "aliases": [],
+    "description": "The relaxed keywords is the feature that allows most PHP keywords to be used as a method or class constant name. \n\nGenerally speaking, PHP keywords are not allowed as names for classes, functions, etc. This is still the case here, yet this constraint has been relaxed for method names. \n\nFunctions and global constants do not support that feature. Closures and arrow functions are not applicable, as they have no name. Only methods do use relaxed keywords.\n\nProperty names do not have this constraints, as the ``$`` sign make them distinct. \n\nUsing PHP keywords as names is not a commonly known feature, and generate a lot of surprise, when used. As a convention, it is recommended to avoid using PHP keywords. Yet, it may apply in specific situations.",
+    "code": "<?php\n\n    class Xs {\n        const function = 1;\n        function function() {}\n    }\n\n?>",
+    "documentation": "https://www.php.net/manual/en/migration70.other-changes.php#migration70.other-changes.loosening-reserved-words",
+    "related": [
+        "dollar"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/migration70.other-changes.php#migration70.other-changes.loosening-reserved-words"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "List of Keywords",
+            "url": "https://www.php.net/manual/en/reserved.keywords.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP RFC: Context Sensitive Lexer",
+            "url": "https://wiki.php.net/rfc/context_sensitive_lexer"
+        }
+    ],
+    "tags": [
+        "syntax",
+        "convention"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Fri, 14 Aug 2026 08:08:18 +0000"
+}

@@ -1,0 +1,49 @@
+{
+    "id": "$_FILES",
+    "name": "$_FILES",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/%24_FILES.html",
+    "aliases": [],
+    "description": "The ``$_FILES`` variable is a special superglobal variable that is used to retrieve information about files uploaded to the server via HTML forms with the ``enctype=\"multipart/form-data\"`` attribute. It provides access to the uploaded file's properties such as name, size, type, and temporary location on the server.\n\nWhen a file upload form is submitted, PHP populates the ``$_FILES`` variable with an array structure that contains information about the uploaded files. The array is organized based on the input field names used in the form.\n\n+ ``$_FILES['userfile']['name']``: the original name of the file on the client machine\n+ ``$_FILES['userfile']['type']``: the mime type of the file, if the browser provided this information. An example would be ``\"image/gif\"``. This mime type is however not checked on the PHP side and therefore don't take its value for granted\n+ ``$_FILES['userfile']['size']``: the size, in bytes, of the uploaded file\n+ ``$_FILES['userfile']['tmp_name']``: the temporary filename of the file in which the uploaded file was stored on the server\n+ ``$_FILES['userfile']['error']``: the error code associated with this file upload\n+ ``$_FILES['userfile']['full_path']``: the full path as submitted by the browser. This value does not always contain a real directory structure, and cannot be trusted. Available as of PHP 8.1.0\n\n``$_FILES`` is associated to the functions ``move_uploaded_file()`` and ``is_uploaded_file()``.",
+    "code": "<?php\n\n    // $a->file was filled with $_FILES at some point\n    move_uploaded_file($a->file['tmp_name'], $target);\n\n?>",
+    "documentation": "https://www.php.net/manual/en/reserved.variables.files.php",
+    "related": [
+        "incoming-data",
+        "upload",
+        "$_cookie",
+        "$_env",
+        "$_get",
+        "$_server"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/reserved.variables.files.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "POST method uploads",
+            "url": "https://www.php.net/manual/en/features.file-upload.post-method.php"
+        }
+    ],
+    "tags": [
+        "php variable",
+        "superglobal"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [
+        "Security/MoveUploadedFile"
+    ],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Tue, 01 Sep 2026 06:20:55 +0000"
+}

@@ -1,0 +1,42 @@
+{
+    "id": "back-slash",
+    "name": "Backslash \\",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/back-slash.html",
+    "aliases": [
+        "anti-slash"
+    ],
+    "description": "``\\`` is a character, also called anti-slash, used in various situations:\n\n+ Start of an escape sequence, in a string\n+ Escape character, in various languages\n+ Directory separator in path, on Windows systems. It is accepted by PHP, but not recommended.\n+ Name separator in a namespace.",
+    "code": "<?php\n\n    namespace A\\B\\C;\n\n    echo \\\\\\\\n\\\\n;  // displays a \\n followed by a new line\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Backslash",
+    "related": [
+        "slash",
+        "escape-character",
+        "fnmatch"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Backslash"
+        }
+    ],
+    "tags": [
+        "disambiguation",
+        "character",
+        "noSeeAlso"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sun, 30 Aug 2026 09:00:39 +0000"
+}

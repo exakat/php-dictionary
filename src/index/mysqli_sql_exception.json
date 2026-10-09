@@ -1,0 +1,50 @@
+{
+    "id": "mysqli_sql_exception",
+    "name": "mysqli_sql_exception",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/mysqli_sql_exception.html",
+    "aliases": [],
+    "description": "``mysqli_sql_exception`` is thrown when a mysqli related error is found. \n\nWhen an error occurs during a database operation using the MySQLi extension, such as a failed database connection or a syntax error in a query, a mysqli_sql_exception exception can be thrown.\n\nMethods like ``commit``, ``query``, ``prepare``, ``execute_query``, ``rollback``, ``real_query``, ``real_connect``, ``__construct``,  ``reap_async_query`` all throw exceptions when the strict mode is activated.",
+    "code": "<?php\n\n    $mysqli = new Mysqli($host, $user, $pass);\n\n    try {\n        $mysqli->execute_query();\n    } catch(mysqli_sql_exception $e) {\n        echo $e->getMessage().\"\\\\n\";\n    }\n\n?>",
+    "documentation": "https://www.php.net/manual/en/class.argumentcounterror.php",
+    "related": [
+        "throw",
+        "try-catch"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/class.argumentcounterror.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "mysqli_report()",
+            "url": "https://www.php.net/manual/en/mysqli-driver.report-mode.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PDOException",
+            "url": "https://www.php.net/manual/en/class.pdoexception.php"
+        }
+    ],
+    "tags": [
+        "exception",
+        "mysqli"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [
+        "Functions/WrongNumberOfArguments"
+    ],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sat, 29 Aug 2026 07:34:44 +0000"
+}

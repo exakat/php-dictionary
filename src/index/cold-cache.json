@@ -1,0 +1,61 @@
+{
+    "id": "cold-cache",
+    "name": "Cold Cache",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/cold-cache.html",
+    "aliases": [
+        "cache-miss-storm"
+    ],
+    "description": "A cold cache is a cache that holds little or none of the data an application is about to request, so almost every read falls through to the slower source of truth: a database, an external API, a filesystem, or a heavy computation. The opposite state is a ``hot-cache``, where frequently requested data is already sitting in fast storage.\n\nA cache goes cold after a restart, a deployment that recycles processes, a flush or invalidation, or simply because it was never used before, such as right after provisioning a new server. In-process caches, such as a plain PHP array or ``opcache``, are always cold at the start of every request or every worker process, which is why shared caches, such as Redis or APCu, exist: they stay warm across requests.\n\nA cold cache is not just slower, it is dangerous under load: if many requests hit a cold cache at once, they all fall through to the same backend simultaneously, which is the ``cache-stampede`` failure mode. This is why production systems favor ``cache-warming`` before traffic arrives, rather than letting the cache go cold and warm up under live load.",
+    "code": "<?php\n\nfunction getUser(CacheInterface $cache, int $id): array\n{\n    // Right after a deploy, the cache is cold: every request below is a miss,\n    // so every one of them queries the database directly.\n    return $cache->get(\"user:$id\", function () use ($id) {\n        return queryDatabaseForUser($id); // slow path, hit on every cold request\n    });\n}\n\n// Simulating a cold cache right after a restart: no entries yet\n$cache = new ArrayCache(); // starts empty: fully cold\n\nforeach ([1, 2, 3] as $id) {\n    getUser($cache, $id); // all 3 calls miss and hit the database\n}\n\n// After this point, the same 3 users are cached: the cache is now warmer\ngetUser($cache, 1); // hit: served from the cache, no database call\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Cache_(computing)#Motivation",
+    "related": [
+        "cache",
+        "hot-cache",
+        "cache-warming",
+        "cache-stampede",
+        "cold-start",
+        "ttl",
+        "latency",
+        "opcache"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Cache_(computing)#Motivation"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Cache stampede",
+            "url": "https://en.wikipedia.org/wiki/Cache_stampede"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Symfony Cache component",
+            "url": "https://symfony.com/doc/current/components/cache.html"
+        }
+    ],
+    "tags": [
+        "architecture",
+        "performance",
+        "concept"
+    ],
+    "packagist": [
+        "symfony/cache"
+    ],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Fri, 11 Sep 2026 14:14:29 +0000"
+}

@@ -1,0 +1,64 @@
+{
+    "id": "autocompletion",
+    "name": "Autocompletion",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/autocompletion.html",
+    "aliases": [
+        "autocomplete",
+        "code-completion"
+    ],
+    "description": "Autocompletion, or autocomplete, also called code completion, is an IDE or editor feature that suggests or completes code while the developer is typing. It speeds up development, reduces typos, and surfaces available APIs without requiring constant documentation lookups.\n\nPHP autocompletion relies on static analysis: type declarations in the source, PHPDoc annotations, and type inference, where a type is not explicitly specified, may be guessed with a high level of confidence. Autocompletion relies on an LSP server: ``Language Server Protocol``.\n\nAutocompletion also applies to IDE plugins, framework-specific stubs, and tools like stub files to enable completion for external components.",
+    "code": "<?php\n\n    // Full type information enables accurate autocompletion\n    function getUser(int $id): User {\n        return new User($id);\n    }\n\n    $user = getUser(1);\n    $user->  // IDE suggests: getName(), getEmail(), getId() \u2026\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Autocomplete",
+    "related": [
+        "type",
+        "type-inference",
+        "phpdoc",
+        "sca",
+        "lsp",
+        "language-service-protocol",
+        "php-ai-editor",
+        "php-editor",
+        "ide"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Autocomplete"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Laravel IDE Helper",
+            "url": "https://github.com/barryvdh/laravel-ide-helper"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP Language Server Protocol",
+            "url": "https://microsoft.github.io/language-server-protocol/"
+        }
+    ],
+    "tags": [
+        "concept",
+        "best practice"
+    ],
+    "packagist": [
+        "barryvdh/laravel-ide-helper"
+    ],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": {
+        "Intelephense": "https://intelephense.com/"
+    },
+    "popularity": "",
+    "modified": "Fri, 18 Sep 2026 04:43:42 +0000"
+}

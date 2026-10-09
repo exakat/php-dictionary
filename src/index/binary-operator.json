@@ -1,0 +1,44 @@
+{
+    "id": "binary-operator",
+    "name": "Binary Operator",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/binary-operator.html",
+    "aliases": [],
+    "description": "A binary operator is an operator that operates on a two operands. It performs an operation based on the value of both operand. PHP supports several binary operators, including the following:\n\n+ Assignation operator ``=``\n+ Equality operator ``==``\n+ Difference operator ``!-`` and ``<>``\n+ Identity operator ``===``\n+ Non-identity operator ``!==``\n+ Math operators, such as addition ``+``, substraction ``-``, multiplication ``*``, division ``/``, power ``**``, modulo ``%``\n+ Comparison operators, such as greater than ``>``, greater or equal than ``>=``, lesser than ``<``, lesser or equal than ``<=``\n+ Concatenation, with the dot operator ``.``\n+ Spaceship operator, ``<=>``\n+ All the short operators, that combines a binary operation with an assignation: for example, add and assign ``+=``\n\nAnd many others.",
+    "code": "<?php\n\n    $a = 1;\n    $a +=2;\n    var_dump($a === 3); // true\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Binary_operation",
+    "related": [
+        "unary",
+        "ternary",
+        "binary"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Binary_operation"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Mastering binary and bitwise in PHP",
+            "url": "https://thephp.website/en/issue/bitwise-php/"
+        }
+    ],
+    "tags": [
+        "feature",
+        "operator"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Mon, 10 Aug 2026 17:05:49 +0000"
+}

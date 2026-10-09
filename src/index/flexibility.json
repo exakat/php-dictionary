@@ -1,0 +1,47 @@
+{
+    "id": "flexibility",
+    "name": "Flexibility",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/flexibility.html",
+    "aliases": [],
+    "description": "Flexibility means that a piece of code can change the way it works, without changing the code that uses it. \n\nThe piece of code may be refactored, or changed in place, or it may also be duplicated with another method. Mocking, or the ability to emulate a simpler version of a class, is also a possible inner working change.\n\nAbstraction, with interfaces, proxy classes or relay functions, are ways to introduce flexibility.\n\nThe opposite of flexibility is rigidity.\n",
+    "code": "",
+    "documentation": "https://en.wikipedia.org/wiki/Extensibility",
+    "related": [
+        "interface",
+        "proxy-class",
+        "relay-function",
+        "rigidity",
+        "program-to-interface"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Extensibility"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP: The Flexibility that can Make or Break your Team Project",
+            "url": "https://www.linkedin.com/pulse/php-flexibility-can-make-break-your-team-project-gerrit-vermeulen"
+        }
+    ],
+    "tags": [
+        "code architecture"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Wed, 19 Aug 2026 06:48:26 +0000"
+}

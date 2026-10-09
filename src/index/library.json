@@ -1,0 +1,58 @@
+{
+    "id": "library",
+    "name": "Library",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/library.html",
+    "aliases": [
+        "package"
+    ],
+    "description": "A library is a collection of reusable code, functions, classes, or constants, that provides specific functionality and can be included in different applications.\n\nLibraries are included, and then executed: yet, they do not have an entry point of their own. The calling application controls when and how the library's code is invoked. This distinguishes a library from a framework, which imposes a structure and calls the application's code instead.\n\nLibraries cover a wide range of concerns: string manipulation, date handling, HTTP clients, cryptography, image processing, data parsing, and more. Using a well-maintained library avoids reinventing the wheel and benefits from the work and review of the wider community.\n\nLibraries are distributed through a package manager. The most common is ``Composer`` and libraries are indexed on ``Packagist``. A library is declared as a dependency in ``composer.json`` and loaded via the Composer autoloader. Choosing a library involves evaluating its activity, test coverage, license, and compatibility with the target PHP version.\n\nWriting a library requires extra discipline compared to application code: the public API must be stable, backward compatibility must be maintained across versions, and the library should have no opinion about the application's framework or infrastructure.",
+    "code": "",
+    "documentation": "https://en.wikipedia.org/wiki/Library_(computing)",
+    "related": [
+        "composer",
+        "packagist",
+        "framework",
+        "dependency",
+        "autoload",
+        "open-source",
+        "vendor-lockin",
+        "api",
+        "dynamic-loading",
+        "ffi",
+        "sdk"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Library_(computing)"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Composer documentation",
+            "url": "https://getcomposer.org/doc/"
+        }
+    ],
+    "tags": [
+        "concept",
+        "ecosystem"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": {
+        "Packagist": "https://packagist.org/"
+    },
+    "popularity": "",
+    "modified": "Fri, 18 Sep 2026 04:54:01 +0000"
+}

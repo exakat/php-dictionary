@@ -1,0 +1,45 @@
+{
+    "id": "dynamic-variable",
+    "name": "Dynamic Variable",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/dynamic-variable.html",
+    "aliases": [],
+    "description": "A dynamic variable is a variable whose name stored in a variable or an expression. \n\nThey are identified by a double $ sign, though the same operator may be used multiple times. \n\nThey are also called variable variable.",
+    "code": "<?php\n\n    $a = 'b';\n    $b = 'c';\n    $c = 'd';\n    \n    echo $$$a; \n    echo $$b; \n    echo $c; \n\n?>",
+    "documentation": "https://www.php.net/manual/en/language.variables.variable.php",
+    "related": [
+        "variable",
+        "dynamic"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.variables.variable.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "The Dangers of PHP's $$",
+            "url": "https://andy-carter.com/blog/the-dangers-of-php-variable-variables"
+        }
+    ],
+    "tags": [
+        "dynamic",
+        "feature"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [
+        "Variables/VariableVariables"
+    ],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Fri, 11 Sep 2026 08:42:52 +0000"
+}

@@ -1,0 +1,43 @@
+{
+    "id": "wrapper-file",
+    "name": "file://",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/wrapper-file.html",
+    "aliases": [],
+    "description": "The ``file://`` wrapper is a native PHP wrapper, to access files on a local filesystem, on the host system.\n\nIt may also be omitted, as the default behavior is to read files on the local system.",
+    "code": "<?php\n\n    // display the content of a file\n    // 3 / : two for protocol, one for path\n    print_r(file_get_content('file:///tmp/file.txt'));\n    \n    // also possible\n    print_r(file_get_content('/tmp/file.txt'));\n\n?>",
+    "documentation": "https://www.php.net/manual/en/wrappers.file.php",
+    "related": [
+        "wrapper",
+        "php-wrapper",
+        "file",
+        "security",
+        "thin-method",
+        "wrapper-pattern"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/wrappers.file.php"
+        }
+    ],
+    "tags": [
+        "wrapper"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Fri, 25 Sep 2026 14:27:06 +0000"
+}

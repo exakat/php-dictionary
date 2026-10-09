@@ -1,0 +1,58 @@
+{
+    "id": "transaction",
+    "name": "Transaction",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/transaction.html",
+    "aliases": [],
+    "description": "A transaction is a sequence of database operations that is treated as a single atomic unit. Either all operations succeed and are committed together, or any failure causes all of them to be rolled back, leaving the database unchanged.\n\nTransactions follow the ACID properties, which are Atomicity, Consistency, Isolation, and Durability.\n\nTransactions are most commonly used through PDO or database-specific extensions. An explicit transaction starts with ``beginTransaction()``, ends with ``commit()``, and is undone with ``rollBack()``.\n\nORM such as Doctrine and Eloquent also expose transaction helpers and often wrap operations automatically.",
+    "code": "<?php\n\n    $pdo = new PDO('mysql:host=localhost;dbname=shop', 'user', 'pass');\n\n    try {\n        $pdo->beginTransaction();\n\n        $pdo->exec(\"UPDATE accounts SET balance = balance - 100 WHERE id = 1\");\n        $pdo->exec(\"UPDATE accounts SET balance = balance + 100 WHERE id = 2\");\n\n        $pdo->commit();\n    } catch (Throwable $e) {\n        $pdo->rollBack();\n        throw $e;\n    }\n\n?>",
+    "documentation": "https://www.php.net/manual/en/pdo.transactions.php",
+    "related": [
+        "pdo",
+        "database",
+        "exception",
+        "try-catch",
+        "rollback",
+        "atomic-operation",
+        "database-commit",
+        "race-condition",
+        "acid",
+        "foreign-key",
+        "referential-integrity",
+        "software-transactional-memory",
+        "wal"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/pdo.transactions.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "ACID",
+            "url": "https://en.wikipedia.org/wiki/ACID"
+        }
+    ],
+    "tags": [
+        "concept",
+        "database"
+    ],
+    "packagist": [],
+    "extensions": [
+        "pdo"
+    ],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Tue, 01 Sep 2026 05:31:03 +0000"
+}

@@ -1,0 +1,54 @@
+{
+    "id": "temporal-replay",
+    "name": "Temporal Replay",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/temporal-replay.html",
+    "aliases": [],
+    "description": "Temporal replay is the technique of re-executing a recorded sequence of timestamped events, in their original order, to reconstruct the state a system had at any point in time, or to reproduce a past execution for debugging, testing, or auditing. It differs from a plain snapshot, which only captures a single state, in that it makes every intermediate state reachable, simply by stopping the replay at the desired timestamp.\n\nTemporal replay is central to event-sourced systems, where the event store is the source of truth, and the current state is only ever a projection obtained by replaying events from the beginning, or from the last snapshot. It is also the mechanism behind time-travel debuggers, which record every step of a program's execution so it can be replayed backwards and forwards, and behind chaos-engineering tools, which replay recorded production traffic against a new version of a service to compare its behavior.\n\nBecause temporal replay depends on determinism, replaying the same events the same way should produce the same state, side effects, such as sending an email or calling an external API, are usually recorded, or stubbed, rather than actually re-executed during a replay.",
+    "code": "",
+    "documentation": "https://martinfowler.com/eaaDev/EventSourcing.html",
+    "related": [
+        "event-sourcing",
+        "event-replay",
+        "time-travel",
+        "replay",
+        "snapshot",
+        "cqrs"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://martinfowler.com/eaaDev/EventSourcing.html"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Martin Fowler: CQRS",
+            "url": "https://martinfowler.com/bliki/CQRS.html"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Time travel debugging - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Time_travel_debugging"
+        }
+    ],
+    "tags": [
+        "concept",
+        "paradigm"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Fri, 28 Aug 2026 09:39:42 +0000"
+}

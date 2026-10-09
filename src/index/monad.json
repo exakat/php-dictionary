@@ -1,0 +1,49 @@
+{
+    "id": "monad",
+    "name": "Monad",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/monad.html",
+    "aliases": [],
+    "description": "A monad is a design pattern from functional programming, formalized as a language construct in Haskell, that wraps a value in a context and defines two operations: one to wrap a plain value into the monad, and one, usually called ``bind`` or ``>>=``, to chain functions that each take a plain value and return a new wrapped value. Common monads model optionality ``Maybe``, failure ``Either``, asynchronous computation, or sequencing of side effects ``IO``.\n\nThe reason it is a language construct in Haskell, via ``do`` notation, rather than just a library pattern, is that the compiler rewrites the imperative-looking ``do`` block into nested ``bind`` calls automatically, giving monadic code the visual shape of ordinary sequential statements.\n\nPHP has no monad construct and no syntax to chain wrapped values automatically. The pattern can be implemented as an ordinary class with a ``map()`` or ``flatMap()`` method, as several userland functional libraries do, but each chain must be written out explicitly with method calls; there is no ``do``-notation equivalent that lets the engine desugar the chaining for the programmer.",
+    "code": "<?php\n\n    // A minimal Maybe monad, written by hand; PHP has no notation for this.\n    final class Maybe {\n        private function __construct(private readonly mixed $value, private readonly bool $present) {}\n    \n        public static function some(mixed $v): self { return new self($v, true); }\n        public static function none(): self { return new self(null, false); }\n    \n        public function bind(callable $f): self {\n            return $this->present ? $f($this->value) : $this;\n        }\n    }\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Monad_(functional_programming)",
+    "related": [
+        "functor",
+        "functional-programming",
+        "option-type",
+        "result-type"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Monad_(functional_programming)"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Practical Monads",
+            "url": "https://www.educative.io/courses/learn-functional-programming-in-php/practical-monads"
+        }
+    ],
+    "tags": [
+        "concept",
+        "not supported"
+    ],
+    "packagist": [
+        "wiz-develop/php-monad"
+    ],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Wed, 02 Sep 2026 16:41:00 +0000"
+}

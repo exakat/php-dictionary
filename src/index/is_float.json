@@ -1,0 +1,57 @@
+{
+    "id": "is_float",
+    "name": "is_float()",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/is_float.html",
+    "aliases": [
+        "is_double",
+        "is_real"
+    ],
+    "description": "``is_float()`` is a PHP native function that checks whether a variable is of type ``float``. It returns ``true`` if the value is a float, ``false`` otherwise. ``is_double()`` and ``is_real()`` are aliases of ``is_float()``.\n\n``is_float()`` returns ``false`` for integers, even a whole-number value like ``4``, and for numeric strings such as ``\"4.0\"``: only the actual internal ``float`` type qualifies. Because floats use binary representation, comparing them for exact equality is unreliable, so ``is_float()`` is generally used to branch on type before further processing, rather than as a stand-in for a numeric range check like ``is_numeric()``.\n\nIt is commonly used when validating decoded JSON or configuration values, where distinguishing a float from an integer or a numeric string affects how the value should be formatted or compared.",
+    "code": "<?php\n\n    var_dump(is_float(4.0));   // true\n    var_dump(is_float(4));     // false\n    var_dump(is_float('4.0')); // false\n\n    $price = json_decode('19.99');\n    if (is_float($price)) {\n        echo number_format($price, 2);\n    }\n\n?>",
+    "documentation": "https://www.php.net/manual/en/function.is-float.php",
+    "related": [
+        "float",
+        "is_int",
+        "is_numeric",
+        "is_string",
+        "is_bool",
+        "gettype",
+        "type-checking",
+        "validation"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/function.is-float.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Type comparison tables",
+            "url": "https://www.php.net/manual/en/types.comparisons.php"
+        }
+    ],
+    "tags": [
+        "function",
+        "type-checking",
+        "validation"
+    ],
+    "packagist": [],
+    "extensions": [
+        "standard"
+    ],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Wed, 05 Aug 2026 08:13:45 +0000"
+}

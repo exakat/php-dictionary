@@ -1,0 +1,47 @@
+{
+    "id": "infinite-loop",
+    "name": "Infinite Loop",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/infinite-loop.html",
+    "aliases": [],
+    "description": "An infinite loop never ends, unless an external event make it break out of itself.\n\nInfinite loops are usually un wanted, and should be avoided. They happen when an exit condition is forgotten, omitted or tests a stationary aspect of the loop. That way, the loop keeps repeating.\n\nPHP prevents infinite loop automatically, by enforcing the ``max_execution_time`` or ``memory_limit`` error.\n\nInfinite loop are also a base structure in event loops: the code waits for an event by repeating itself, with a time moderation to avoid wasting too much energy. As such, it is a feature.\n\nSuch loops are related to polling, which is a process where a resource is checked on a regular basis for udpates. They may be replaced by hooks or streams.\n",
+    "code": "<?php\n\n    // infinite loop while\n    while(true) { }\n    \n    // infinite loop while\n    do { } while(1);\n    \n    for(;;) {} \n\n?>",
+    "documentation": "https://fr.wikipedia.org/wiki/Infinite_Loop",
+    "related": [
+        "inf",
+        "infinite",
+        "infiniteiterator",
+        "max_execution_time",
+        "return-value"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://fr.wikipedia.org/wiki/Infinite_Loop"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Infinite loops in PHP",
+            "url": "https://www.exakat.io/infinite-loops-in-php/"
+        }
+    ],
+    "tags": [
+        "concept"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [
+        "Structures/PossibleInfiniteLoop"
+    ],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sat, 12 Sep 2026 07:43:42 +0000"
+}

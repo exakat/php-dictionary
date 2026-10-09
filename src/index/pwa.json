@@ -1,0 +1,57 @@
+{
+    "id": "pwa",
+    "name": "Progressive Web App",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/pwa.html",
+    "aliases": [
+        "progressive-web-app"
+    ],
+    "description": "A Progressive Web App, or PWA, is a web application that uses modern browser APIs to deliver an app-like experience: offline support, push notifications, home-screen installation, and fast loading. PWAs are built with standard web technologies, such as HTML, CSS, and JavaScript, and progressively enhance the experience based on the device's capabilities.\n\nPHP typically acts as the backend for a PWA, exposing REST or GraphQL APIs that a JavaScript front-end consumes. PHP itself does not run in the browser, so the PWA logic lives in JavaScript.\n\nKey PWA components PHP can serve:\n\n+ The ``manifest.json`` file that describes the app's name, icons, and display mode\n+ A service worker registration script. The worker itself is static JavaScript\n+ API endpoints that the front-end fetches while online and caches for offline use\n\nPHP frameworks such as Symfony and Laravel ship tools and bundles for generating manifests and managing API layers that power PWAs.",
+    "code": "<?php\n\n    // PHP serving the Web App Manifest\n    header('Content-Type: application/manifest+json');\n    echo json_encode([\n        'name'             => 'My PWA',\n        'short_name'       => 'PWA',\n        'start_url'        => '/',\n        'display'          => 'standalone',\n        'background_color' => '#ffffff',\n        'theme_color'      => '#3367D6',\n        'icons'            => [\n            ['src' => '/icons/icon-192.png', 'sizes' => '192x192', 'type' => 'image/png'],\n            ['src' => '/icons/icon-512.png', 'sizes' => '512x512', 'type' => 'image/png'],\n        ],\n    ]);\n\n?>",
+    "documentation": "https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps",
+    "related": [
+        "api",
+        "rest-api",
+        "json",
+        "javascript",
+        "spa",
+        "mobile-app"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "web.dev \u2013 Learn PWA",
+            "url": "https://web.dev/learn/pwa/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Symfony UX PWA",
+            "url": "https://github.com/symfony/ux"
+        }
+    ],
+    "tags": [
+        "acronym",
+        "concept",
+        "web"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Mon, 13 Jul 2026 18:47:49 +0000"
+}

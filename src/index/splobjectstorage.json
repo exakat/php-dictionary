@@ -1,0 +1,58 @@
+{
+    "id": "splobjectstorage",
+    "name": "SplObjectStorage",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/splobjectstorage.html",
+    "aliases": [],
+    "description": "``SplObjectStorage`` provides a map from objects to arbitrary data, or a set of objects. Objects are used as keys, so each object appears only once. The associated data slot is optional.\n\nIt is commonly used to manage observers in the Observer pattern, to associate metadata with objects without modifying them, and as an object-keyed dictionary.",
+    "code": "<?php\n\n    $storage = new SplObjectStorage();\n    \n    $obj1 = new stdClass();\n    $obj2 = new stdClass();\n    \n    $storage->attach($obj1, 'data for obj1');\n    $storage->attach($obj2, 'data for obj2');\n    \n    foreach ($storage as $object) {\n        echo $storage->getInfo() . PHP_EOL;\n    }\n\n?>",
+    "documentation": "https://www.php.net/manual/en/class.splobjectstorage.php",
+    "related": [
+        "spl",
+        "datastructure",
+        "collection",
+        "object",
+        "iterator",
+        "splstorageobjects",
+        "splsubject"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/class.splobjectstorage.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "How PHP's SplObjectStorage Solves Problems You Didn't Know You Had",
+            "url": "https://levelup.gitconnected.com/how-phps-splobjectstorage-solves-problems-you-didn-t-know-you-had-7b9d4eb4334d"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP SplObjectStorage attach() Function",
+            "url": "https://www.geeksforgeeks.org/php/php-splobjectstorage-attach-function/"
+        }
+    ],
+    "tags": [
+        "spl",
+        "data structure",
+        "object"
+    ],
+    "packagist": [],
+    "extensions": [
+        "spl"
+    ],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "5.1",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Tue, 25 Aug 2026 12:17:01 +0000"
+}

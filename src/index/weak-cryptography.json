@@ -1,0 +1,52 @@
+{
+    "id": "weak-cryptography",
+    "name": "Weak Cryptography",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/weak-cryptography.html",
+    "aliases": [],
+    "description": "A weak cryptography vulnerability occurs when an application uses outdated, poorly designed, or insufficient cryptographic algorithms, protocols, or implementations to protect sensitive data. This makes it easier for attackers to break encryption, steal data, or compromise systems.\n\nWeak cryptography refers to the use of:\n\n+ Outdated algorithms, such as ``MD5``, ``SHA-1``, ``DES``, ``RC4``\n+ Short or predictable keys, such as 40-bit encryption, hardcoded keys\n+ Insecure protocols, such as ``SSLv2``, ``SSLv3``, early ``TLS`` versions\n+ Poor randomness, such as using ``rand()`` instead of ``random\\random_bytes()``\n+ Improper implementations, such as ``ECB`` mode in block ciphers, custom cryptography.",
+    "code": "",
+    "documentation": "https://top10.owasp.org/2025/A04_2025-Cryptographic_Failures/",
+    "related": [
+        "cryptography",
+        "md5",
+        "vulnerability",
+        "crack",
+        "sast"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://top10.owasp.org/2025/A04_2025-Cryptographic_Failures/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP : Weak mode for encrypting algorithm",
+            "url": "https://derscanner.com/vulnerability-database/PHP-:-Weak-mode-for-encrypting-algorithm"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Do not use a weak hash algorithm",
+            "url": "https://docs.datadoghq.com/fr/security/code_security/static_analysis/static_analysis_rules/php-security/weak-hash-algorithm/"
+        }
+    ],
+    "tags": [
+        "security"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Fri, 25 Sep 2026 14:26:35 +0000"
+}

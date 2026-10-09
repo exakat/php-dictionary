@@ -1,0 +1,58 @@
+{
+    "id": "idor",
+    "name": "Insecure Direct Object Reference (IDOR)",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/idor.html",
+    "aliases": [
+        "insecure-direct-object-reference"
+    ],
+    "description": "An Insecure Direct Object Reference, or ``IDOR``, is a vulnerability where an application exposes a direct reference to an internal object, such as a database id, a filename, or a primary key, and lets a user access that object without checking whether they are actually authorized to do so.\n\n``IDOR`` is typically exploited by tampering with an identifier in a URL, form field, or API payload, and substituting it with another value: if the application trusts the identifier without an authorization check, the attacker reaches data or actions that belong to someone else.\n\nMitigations include enforcing an authorization check on every request that references an object, and using indirect, unpredictable references, such as UUID or per-user mapping tables, instead of sequential ids.",
+    "code": "<?php\n\n    // IDOR: any authenticated user may fetch any invoice, just by changing the id\n    $id = $_GET['invoice_id'];\n    $invoice = $db->query(\"SELECT * FROM invoices WHERE id = $id\");\n\n    // Mitigation: also verify ownership of the requested object\n    $invoice = $db->query(\"SELECT * FROM invoices WHERE id = $id AND user_id = \" . $currentUser->id);\n\n?>",
+    "documentation": "",
+    "related": [
+        "authorize",
+        "bola",
+        "vulnerability",
+        "sql-injection",
+        "owasp",
+        "broken-access-control",
+        "indirect-reference-map"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "What Are Insecure Direct Object References",
+            "url": "https://www.acunetix.com/blog/web-security-zone/what-are-insecure-direct-object-references/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Insecure Direct Object Reference Prevention Cheat Sheet",
+            "url": "https://cheatsheetseries.owasp.org/cheatsheets/Insecure_Direct_Object_Reference_Prevention_Cheat_Sheet.html"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "IDOR Vulnerability in WordPress: 7 Proven Ways to Fix It",
+            "url": "https://www.pentesttesting.com/fix-idor-vulnerability-in-wordpress/"
+        }
+    ],
+    "tags": [
+        "security",
+        "acronym",
+        "vulnerability"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Fri, 25 Sep 2026 13:53:05 +0000"
+}

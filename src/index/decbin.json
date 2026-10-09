@@ -1,0 +1,50 @@
+{
+    "id": "decbin",
+    "name": "decbin()",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/decbin.html",
+    "aliases": [],
+    "description": "``decbin()`` is a PHP native function that converts a decimal integer to its binary string representation.\n\n``decbin()`` takes a single integer argument and returns a string of ``0`` and ``1`` characters, without any ``0b`` prefix. Negative numbers are converted using the 32-bit or 64-bit two's complement representation, depending on the platform, which produces a long string of ones.\n\nThe reverse operation is ``bindec()``, which converts a binary string back to a decimal number. Related functions convert to and from other bases: ``dechex()`` and ``hexdec()`` for hexadecimal, ``decoct()`` and ``octdec()`` for octal. ``base_convert()`` handles arbitrary bases.\n",
+    "code": "<?php\n\n    echo decbin(12);  // 1100\n    echo decbin(26);  // 11010\n    echo decbin(-1);  // 1111111111111111111111111111111111111111111111111111111111111111 (on 64-bit)\n\n?>",
+    "documentation": "https://www.php.net/manual/en/function.decbin.php",
+    "related": [
+        "numeric-base",
+        "integer"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/function.decbin.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP decbin() Function - W3Schools",
+            "url": "https://www.w3schools.com/php/func_math_decbin.asp"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP decbin() Function - GeeksforGeeks",
+            "url": "https://www.geeksforgeeks.org/php/php-decbin-function/"
+        }
+    ],
+    "tags": [
+        "native function",
+        "math"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 03 Sep 2026 09:05:30 +0000"
+}

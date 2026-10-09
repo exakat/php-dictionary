@@ -1,0 +1,57 @@
+{
+    "id": "image",
+    "name": "Image",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/image.html",
+    "aliases": [],
+    "description": "Images may be different things.\n\n+ A visual representation. PHP has several extensions to handle images: ``imagick``, ``gd``\n+ A Docker image: a pre-packaged snapshot of an application and everything it needs to run.\n",
+    "code": "",
+    "documentation": "https://www.php.net/manual/en/refs.utilspec.image.php",
+    "related": [
+        "jpg",
+        "png",
+        "gif",
+        "svg",
+        "docker",
+        "docker-image",
+        "docker-container",
+        "pdf",
+        "image-injection",
+        "lossless",
+        "lossy",
+        "steganography"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/refs.utilspec.image.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "How to Store Images in SQLite with PHP",
+            "url": "https://www.twilio.com/en-us/blog/developers/tutorials/building-blocks/store-images-sqlite-php"
+        }
+    ],
+    "tags": [
+        "disambiguation"
+    ],
+    "packagist": [],
+    "extensions": [
+        "gd",
+        "imagick"
+    ],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Fri, 18 Sep 2026 09:35:29 +0000"
+}

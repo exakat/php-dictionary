@@ -1,0 +1,46 @@
+{
+    "id": "supertype",
+    "name": "supertype",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/supertype.html",
+    "aliases": [],
+    "description": "A supertype is any of the parent types. It is the class that is extended, in a class definition, with the ``extends`` keyword; it also covers all the classes that are a supertype of that parent class. \n\nThe opposite is subtype.",
+    "code": "<?php\n\n    // Agrandparent is a supertype of AChild\n    class Agrandparent {}\n    \n    // Aparent is a supertype of AChild\n    class Aparent extends Agrandparent {}\n    \n    class Achild extends Aparent{}\n    \n    // These are not supertype of AChild\n    class ABrother extends Aparent{}\n    \n    class ASister extends Aparent{}\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Subtyping",
+    "related": [
+        "subtype"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Subtyping"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Polymorphism (computer science)",
+            "url": "https://en.wikipedia.org/wiki/Polymorphism_(computer_science)"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Liskov substitution principle",
+            "url": "https://en.wikipedia.org/wiki/Liskov_substitution_principle"
+        }
+    ],
+    "tags": [
+        "type"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Fri, 28 Aug 2026 10:06:25 +0000"
+}

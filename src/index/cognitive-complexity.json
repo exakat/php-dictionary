@@ -1,0 +1,57 @@
+{
+    "id": "cognitive-complexity",
+    "name": "Cognitive Complexity",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/cognitive-complexity.html",
+    "aliases": [],
+    "description": "Cognitive complexity is a way of measuring how difficult a piece of code is for a human to understand. Unlike metrics that focus purely on structure or execution paths, cognitive complexity tries to reflect the mental effort required to read, follow, and reason about code.",
+    "code": "<?php\n\nif ($a) {\n    if ($b) {\n        if ($c) {\n            // hard to follow\n        }\n    }\n}\n\nif ($a == 1) {}\nelseif ($a === 2) {}\nelseif ($a === 3) {}\nelseif ($a === 4) {}\nelse {}\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Cognitive_complexity",
+    "related": [
+        "cyclomatic-complexity",
+        "complexity",
+        "metrics",
+        "streamlining"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Cognitive_complexity"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "SonarSource: Cognitive Complexity, a new way of measuring understandability",
+            "url": "https://www.sonarsource.com/docs/CognitiveComplexity.pdf"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Cyclomatic complexity",
+            "url": "https://en.wikipedia.org/wiki/Cyclomatic_complexity"
+        }
+    ],
+    "tags": [
+        "complexity",
+        "static analysis"
+    ],
+    "packagist": [
+        "rarst/phpcs-cognitive-complexity",
+        "tomasvotruba/cognitive-complexity"
+    ],
+    "extensions": [],
+    "analyzers": [
+        "Structures/SwitchToSwitch"
+    ],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Fri, 28 Aug 2026 10:17:05 +0000"
+}

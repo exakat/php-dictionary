@@ -1,0 +1,54 @@
+{
+    "id": "pattern-matching",
+    "name": "Pattern Matching",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/pattern-matching.html",
+    "aliases": [],
+    "description": "Pattern Matching as a language concept contains two parts: matching a variable against a potentially complex data structure pattern, and optionally extracting values out of that variable into their own variables. In a sense it serves a similar purpose for complex data structures as regular expressions do for strings.",
+    "code": "<?php\n\n    // This code is extracted from the RFC\n    // It is not valid PHP code, as of PHP 8.4. \n    \n    // The \\is\\ keyword evaluates to a boolean.\n    if ($var is <pattern>) {\n      // Do stuff\n    }\n     \n    // Basic type matching\n    $var is string;\n    $var is int|float;\n    $var is ?array;\n    $var is (Account&Authenticated)|User;\n    $var is mixed; // Matches anything, effectively a wildcard.\n     \n    // Literal patterns\n    $var is \\foo\\;\n    $var is 5;\n    $var is 3|5|null;\n    $var is 'heart'|'spade'|self::Wild;\n \n?>",
+    "documentation": "https://wiki.php.net/rfc/pattern-matching",
+    "related": [
+        "syntax",
+        "algebraic-data-type",
+        "gadt",
+        "sealed-class",
+        "sum-type",
+        "option-type",
+        "pattern",
+        "range-type",
+        "result-type",
+        "structural-pattern-matching"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://wiki.php.net/rfc/pattern-matching"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Pattern matching",
+            "url": "https://en.wikipedia.org/wiki/Pattern_matching"
+        }
+    ],
+    "tags": [
+        "feature",
+        "_nocompileOK",
+        "rfc"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Wed, 08 Jul 2026 16:09:08 +0000"
+}

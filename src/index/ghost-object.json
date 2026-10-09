@@ -1,0 +1,62 @@
+{
+    "id": "ghost-object",
+    "name": "Ghost Object",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/ghost-object.html",
+    "aliases": [
+        "ghost"
+    ],
+    "description": "A ghost object is a design pattern, catalogued by Martin Fowler as one of the four varieties of ``Lazy Load``, where an object is created empty, without any of its real data, and silently loads its full state the first time one of its properties or methods is actually accessed.\n\nUnlike a plain ``proxy``, which typically wraps a separate real object behind a shared interface, a ghost object *is* an instance of the real class itself: it has the right type, passes ``instanceof`` checks, and can be passed around freely, but starts out hollow. Only when it is actually touched does it trigger the expensive work, a database query, a remote call, a heavy computation, to fill itself in.\n\nDoctrine ORM has long generated ghost-like proxy classes for its entities to defer loading related objects until they are accessed. PHP 8.4 brought this pattern into the engine itself with native ``lazy-objects``: ``ReflectionClass::newLazyGhost()`` creates a genuine instance of a class that stays uninitialized until first accessed, without any code generation or subclassing, making the ghost object pattern a language feature rather than a library trick.",
+    "code": "<?php\n\n    class Invoice\n    {\n        public function __construct(\n            private int $id,\n            private array $lines = [],\n            private float $total = 0.0,\n        ) {\n            // Imagine this constructor also runs a heavy computation\n            // or a database query to compute $lines and $total.\n        }\n    \n        public function getTotal(): float\n        {\n            return $this->total;\n        }\n    }\n    \n    // Build a ghost: an Invoice instance that looks real, but has no data yet\n    $initializer = static function (Invoice $ghost): void {\n        // Runs only once, the first time the ghost is actually touched\n        [$lines, $total] = loadInvoiceFromDatabase(42);\n        $ghost->__construct(42, $lines, $total);\n    };\n    \n    $reflector = new ReflectionClass(Invoice::class);\n    $invoice = $reflector->newLazyGhost($initializer);\n    \n    // Nothing has been loaded yet: $invoice is still a hollow ghost\n    echo $invoice->getTotal(); // first access: the initializer fires, filling in the real data\n\n?>",
+    "documentation": "https://martinfowler.com/eaaCatalog/lazyLoad.html",
+    "related": [
+        "lazy-objects",
+        "lazy-loading",
+        "proxy",
+        "proxy-class",
+        "instanceof",
+        "object"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://martinfowler.com/eaaCatalog/lazyLoad.html"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Doctrine ORM: Proxy Objects",
+            "url": "https://www.doctrine-project.org/projects/doctrine-orm/en/stable/reference/advanced-configuration.html"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP RFC: Lazy Objects",
+            "url": "https://wiki.php.net/rfc/lazy-objects"
+        }
+    ],
+    "tags": [
+        "design pattern",
+        "object",
+        "performance"
+    ],
+    "packagist": [
+        "ocramius/proxy-manager",
+        "doctrine/orm"
+    ],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": {
+        "Martin Fowler": "https://martinfowler.com/"
+    },
+    "brand": "",
+    "popularity": "",
+    "modified": "Fri, 18 Sep 2026 04:50:54 +0000"
+}

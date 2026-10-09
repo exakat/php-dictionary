@@ -1,0 +1,53 @@
+{
+    "id": "command-bus",
+    "name": "Command Bus",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/command-bus.html",
+    "aliases": [],
+    "description": "A command bus is a design pattern used in software development, particularly in the context of Domain-Driven Design, DDD, and CQRS, Command Query Responsibility Segregation. It helps to decouple the sender of a command from its handler, allowing for better separation of concerns and improving the overall architecture of the application.\n\nA command bus works together with commands and command handlers. \n\nHere's a simplified overview of how a command bus works:\n\n+ The sender, e.g., a controller in a web application, creates a command object and sends it to the command bus\n+ The command bus examines the command object and identifies the appropriate command handler based on the type of the command\n+ The command bus dispatches the command to the identified command handler\n+ The command handler processes the command and performs the required actions.",
+    "code": "",
+    "documentation": "https://tactician.thephpleague.com/",
+    "related": [
+        "code-architecture",
+        "command",
+        "message-bus"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://tactician.thephpleague.com/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "What is a command bus and why should you use it?",
+            "url": "https://barryvanveen.nl/articles/49-what-is-a-command-bus-and-why-should-you-use-it"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Command Bus",
+            "url": "https://laravel.com/docs/5.0/bus"
+        }
+    ],
+    "tags": [
+        "design pattern",
+        "concept"
+    ],
+    "packagist": [
+        "league/tactician",
+        "simple-bus/message-bus",
+        "simple-bus/symfony-bridge"
+    ],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sat, 08 Aug 2026 14:31:02 +0000"
+}

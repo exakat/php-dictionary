@@ -1,0 +1,43 @@
+{
+    "id": "__serialize",
+    "name": "__serialize() Method",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/__serialize.html",
+    "aliases": [],
+    "description": "The ``__serialize()`` method is called when a script tries to construct an associative array of key/value pairs that represent the serialized form of the object. \n\nWhen no array is returned, a ``TypeError`` is thrown.\n\n``__serialize()`` is a magic method.",
+    "code": "<?php\n\n    class WebPage {\n        private $html;\n        private $url;\n\n        public function __construct($url) {\n            $this->url = $url;\n        }\n\n        public function __serialize() {\n            return ['url' => $url];\n        }\n\n        public function __unserialize($arg) {\n            $this->url = $arg['url'];\n            $this->html = file_get_contents($this->url);\n        }\n    }\n\n?>",
+    "documentation": "https://www.php.net/manual/en/language.oop5.magic.php#language.oop5.magic.serialize",
+    "related": [
+        "unserialize",
+        "__unserialize",
+        "serialization"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.oop5.magic.php#language.oop5.magic.serialize"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Serializing Data In PHP",
+            "url": "https://www.phparch.com/2023/02/serializing-data-in-php/"
+        }
+    ],
+    "tags": [
+        "magic method"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Tue, 01 Sep 2026 06:21:06 +0000"
+}

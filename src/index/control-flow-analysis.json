@@ -1,0 +1,61 @@
+{
+    "id": "control-flow-analysis",
+    "name": "Control Flow Analysis",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/control-flow-analysis.html",
+    "aliases": [
+        "cfa"
+    ],
+    "description": "Control flow analysis, or ``CFA``, is a static analysis technique that examines the possible execution paths through a program. It builds upon the control flow graph to reason about which statements may be reached, which branches may be taken, and which code may be unreachable.\n\nApplications include:\n\n+ Dead code detection: identifying statements that can never be executed\n+ Reachability analysis: determining whether a particular point in the code can be reached\n+ Exception flow: tracing all paths through try/catch/finally blocks\n+ Return path coverage: verifying that all execution paths through a function return a value\n\nControl flow analysis is a prerequisite for more advanced analyses such as data flow analysis and taint analysis.",
+    "code": "<?php\n\nfunction divide(int $a, int $b): float {\n    if ($b === 0) {\n        throw new InvalidArgumentException('Division by zero');\n    }\n\n    return $a / $b;\n\n    // Control flow analysis detects that the line below is unreachable\n    echo 'done';\n}\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Control_flow_analysis",
+    "related": [
+        "control-flow",
+        "control-flow-graph",
+        "data-flow-analysis",
+        "analysis",
+        "sast",
+        "dead-code",
+        "taint",
+        "lexical-analysis",
+        "semantic-analysis",
+        "symbolic-analysis",
+        "pattern-based-analysis"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Control_flow_analysis"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Control-flow graph",
+            "url": "https://en.wikipedia.org/wiki/Control-flow_graph"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Data-flow analysis",
+            "url": "https://en.wikipedia.org/wiki/Data-flow_analysis"
+        }
+    ],
+    "tags": [
+        "analysis",
+        "static analysis"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sun, 30 Aug 2026 09:37:06 +0000"
+}

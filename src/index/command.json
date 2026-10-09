@@ -1,0 +1,52 @@
+{
+    "id": "command",
+    "name": "Command",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/command.html",
+    "aliases": [
+        "command-pattern"
+    ],
+    "description": "The Command design pattern encapsulates a request as an object, allowing it to be stored, queued, logged, or undone. A command object contains all the information needed to execute an action: the receiver, the method to call, and any parameters.\n\nThe Command pattern separates the object that invokes an operation from the object that knows how to perform it. It is widely used in:\n\n+ CLI applications: each CLI command is an object with an ``execute()`` method.\n+ CQRS architectures: write operations are represented as command objects dispatched through a command bus.\n+ Undo/redo systems: commands store enough state to reverse their effect.\n+ Task queues: serialized command objects are placed on a queue and processed asynchronously.\n\nSymfony Console and Laravel Artisan both build on this pattern for their CLI command systems.\n",
+    "code": "<?php\n\n    interface Command {\n        public function execute(): void;\n    }\n    \n    class CreateUserCommand implements Command {\n        public function __construct(\n            private string $email,\n            private string $password,\n        ) {}\n    \n        public function execute(): void {\n            // Create user logic\n            echo \"Creating user: {$this->email}\" . PHP_EOL;\n        }\n    }\n    \n    class CommandBus {\n        public function dispatch(Command $command): void {\n            $command->execute();\n        }\n    }\n    \n    $bus = new CommandBus();\n    $bus->dispatch(new CreateUserCommand('user@example.com', 'secret'));\n\n?>",
+    "documentation": "https://refactoring.guru/design-patterns/command",
+    "related": [
+        "command-bus",
+        "cqrs",
+        "design-pattern",
+        "cli",
+        "expression",
+        "instruction"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://refactoring.guru/design-patterns/command"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Command pattern - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Command_pattern"
+        }
+    ],
+    "tags": [
+        "design pattern",
+        "concept",
+        "command"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Fri, 04 Sep 2026 09:39:51 +0000"
+}

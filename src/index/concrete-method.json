@@ -1,0 +1,45 @@
+{
+    "id": "concrete-method",
+    "name": "Concrete Method",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/concrete-method.html",
+    "aliases": [],
+    "description": "A concrete method is a method that has code. It is usually the opposite of an ``abstract`` method.\n\nA concrete method may be part of an abstract class or not. It may also be overwritten, in a child class, though it is not compulsory, no always the case.\n\nInterfaces cannot have concrete methods.",
+    "code": "<?php\n\nabstract class AbstractClass {\n    abstract function trumpet(); // abstract method\n\n    function forage() {\n        return 1;\n    } // concrete method\n}\n\nclass ConcreteClass extends AbstractClass{\n\n    function trumpet() {\n        return 2;\n    } // concrete method\n\n    // No need to redefine the concrete methods.\n    // Yet, it is still possible\n}\n\n?>",
+    "documentation": "https://www.php.net/manual/en/language.oop5.abstract.php",
+    "related": [
+        "final",
+        "concrete",
+        "abstract-method",
+        "abstract-class"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.oop5.abstract.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP: Abstract Classes, Interfaces, and Traits Explained",
+            "url": "https://medium.com/@Amir_M4A/in-the-world-of-php-programming-there-are-several-key-concepts-that-developers-need-to-understand-b2ed1916287f"
+        }
+    ],
+    "tags": [
+        "abstract",
+        "class"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+}

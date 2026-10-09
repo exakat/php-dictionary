@@ -1,0 +1,54 @@
+{
+    "id": "continuation",
+    "name": "Continuation",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/continuation.html",
+    "aliases": [
+        "call-cc"
+    ],
+    "description": "A continuation represents the rest of a program's computation at a given point, reified as a callable value. Scheme's ``call-with-current-continuation`` captures this ``rest of the program`` and hands it to the current function as an ordinary function value; invoking that captured continuation later, even from a completely different call frame, resumes execution exactly where it was captured, as many times as desired, effectively implementing arbitrary non-local control flow: early exits, generators, backtracking, or cooperative threads can all be built on top of it.\n\nThis is a strictly more general mechanism than exceptions or generators: a continuation can be invoked more than once, including after the function that captured it has already returned, which exceptions and generators cannot do.\n\nPHP has no continuations and no ``call/cc`` equivalent. Non-local control flow is limited to a fixed set of built-in constructs: exceptions unwind the stack once and cannot be resumed, and ``Generator``/``Fiber`` can only be suspended and resumed by their own caller, in a strictly linear, single-shot fashion. There is no way to capture the current point of execution as a value and invoke it later, from anywhere else, as ``call/cc`` allows.",
+    "code": "",
+    "documentation": "https://en.wikipedia.org/wiki/Continuation",
+    "related": [
+        "yield-generator",
+        "fibers",
+        "exception",
+        "coroutine"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Continuation"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Continuation-passing style",
+            "url": "https://en.wikipedia.org/wiki/Continuation-passing_style"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP: Generators",
+            "url": "https://www.php.net/manual/en/language.generators.php"
+        }
+    ],
+    "tags": [
+        "concept",
+        "not supported"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Mon, 07 Sep 2026 09:09:10 +0000"
+}

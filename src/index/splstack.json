@@ -1,0 +1,54 @@
+{
+    "id": "splstack",
+    "name": "SplStack",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/splstack.html",
+    "aliases": [],
+    "description": "The ``SplStack`` class is part of the Standard PHP Library, SPL. It provides a stack data structure, Last\u2011In, First\u2011Out or LIFO, by extending ``SplDoublyLinkedList`` and setting the iteration mode to treat the list as a stack.",
+    "code": "<?php\n\n    $q = new SplStack();\n    $q[] = 1;\n    $q[] = 2;\n    $q[] = 3;\n    foreach ($q as $elem)  {\n     echo $elem.\\n;\n    }\n\n?>",
+    "documentation": "https://www.php.net/manual/en/class.splstack.php",
+    "related": [
+        "spldoublylinkedlist",
+        "lifo",
+        "datastack",
+        "datastructure",
+        "pop"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/class.splstack.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP: SplDoublyLinkedList",
+            "url": "https://www.php.net/manual/en/class.spldoublylinkedlist.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "SplQueue",
+            "url": "https://www.php.net/manual/en/class.splqueue.php"
+        }
+    ],
+    "tags": [
+        "php class"
+    ],
+    "packagist": [],
+    "extensions": [
+        "spl"
+    ],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Mon, 07 Sep 2026 09:20:06 +0000"
+}

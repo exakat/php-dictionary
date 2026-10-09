@@ -1,0 +1,51 @@
+{
+    "id": "__function__",
+    "name": "__FUNCTION__",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/__function__.html",
+    "aliases": [],
+    "description": "``__FUNCTION__`` holds the current function or method name.\n\nThe function name includes the namespace it was declared in, e.g. ``N\\X\\foo``. It also uses the definition's case.\n\nWhen used inside a method, ``__FUNCTION__`` is the name of the method it is used in. When used outside a function, this constant holds an empty string, and does not emit any warning.\n\n``__METHOD__`` and ``__FUNCTION__`` are almost identical.\n\nThis constant is written in uppercase, by convention. It is case insensitive, and may be used with any combination of uppercase and lower case. ",
+    "code": "<?php\n\n    function trumpet() {\n        echo __FUNCTION__; // trumpet\n    }\n\n    function STAMPEDE() {\n        echo __function__; // STAMPEDE\n    }\n\n    class Elephpant {\n        function trumpet() {\n            echo __FUNCTION__; // trumpet\n        }\n    }\n\n    trumpet();\n    (new Elephpant)->trumpet();\n\n?>",
+    "documentation": "https://www.php.net/manual/en/language.constants.magic.php",
+    "related": [
+        "magic-constant",
+        "__method__",
+        "__class__",
+        "__trait__"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.constants.magic.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP Magic Constants - W3Schools",
+            "url": "https://www.w3schools.com/php/php_magic_constants.asp"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Magic Constants in PHP - Scientech Easy",
+            "url": "https://www.scientecheasy.com/2024/09/magic-constants-in-php.html/"
+        }
+    ],
+    "tags": [
+        "magic constant"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+}

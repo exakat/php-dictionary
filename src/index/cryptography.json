@@ -1,0 +1,64 @@
+{
+    "id": "cryptography",
+    "name": "Cryptography",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/cryptography.html",
+    "aliases": [
+        "crypto"
+    ],
+    "description": "Cryptography is the practice and study of techniques for secure communication in the presence of adversarial behavior. It includes techniques like hashing and encryption. \n\nPHP include native cryptographic features, like ``hash()`` and ``crypt()``, and also extensions, such as ``openssl`` or ``sodium``.",
+    "code": "<?php\n\n    echo hash('ripemd160', 'The quick brown fox jumped over the lazy dog.');\n\n?>",
+    "documentation": "https://www.php.net/manual/en/refs.crypto.php",
+    "related": [
+        "libsodium",
+        "md5",
+        "openssl",
+        "weak-cryptography",
+        "algorithm",
+        "asymmetric-cryptography",
+        "random",
+        "secret",
+        "hmac",
+        "otp",
+        "privacy",
+        "random_cryptosafeengine",
+        "hashing",
+        "message-digest",
+        "prng",
+        "pseudonymisation"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/refs.crypto.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "OWASP Cryptographic Storage Cheat Sheet",
+            "url": "https://cheatsheetseries.owasp.org/cheatsheets/Cryptographic_Storage_Cheat_Sheet.html"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "ext/openssl",
+            "url": "https://www.php.net/manual/en/book.openssl.php"
+        }
+    ],
+    "tags": [
+        "security",
+        "algorithm"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 27 Aug 2026 04:51:43 +0000"
+}

@@ -1,0 +1,51 @@
+{
+    "id": "php-attribute",
+    "name": "PHP Native Attributes",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/php-attribute.html",
+    "aliases": [],
+    "description": "PHP defines its own native attributes.\n\n+ Attribute\n+ ReturnTypeWillChange\n+ SensitiveParameter\n+ AllowDynamicProperties\n+ Override\n+ Deprecated\n+ NoDiscard\n+ DelayedTargetValidation.",
+    "code": "<?php\n\n#[Deprecated]\nclass Elephpant {}\n\n?>",
+    "documentation": "https://www.php.net/manual/en/language.oop5.interfaces.php",
+    "related": [
+        "attribute-class",
+        "returntypewillchange",
+        "sensitiveparameter",
+        "allowdynamicproperties",
+        "override",
+        "deprecated",
+        "nodiscard",
+        "delayedtargetvalidation",
+        "overriding"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.oop5.interfaces.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP RFC: Attributes v2",
+            "url": "https://wiki.php.net/rfc/attributes_v2"
+        }
+    ],
+    "tags": [
+        "attribute"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+}

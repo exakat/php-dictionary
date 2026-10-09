@@ -1,0 +1,57 @@
+{
+    "id": "redis",
+    "name": "Redis",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/redis.html",
+    "aliases": [],
+    "description": "Redis is an in-memory key-value data store, used as a database, cache, message broker, or queue. It supports richer data structures than a plain key-value store, including hashes, lists, sets, sorted sets, and streams, and offers sub-millisecond latency thanks to its in-memory nature.\n\nRedis can persist its dataset to disk, be replicated, and be clustered for high availability and horizontal scaling.\n\nPHP applications talk to Redis mostly through the ``phpredis`` PECL C-extension, or through pure-PHP client libraries such as ``predis/predis``. Frameworks like Symfony and Laravel ship built-in cache, session, and queue adapters backed by Redis.\n",
+    "code": "<?php\n\n    $redis = new Redis();\n    $redis->connect('127.0.0.1', 6379);\n\n    $redis->set('user:42', json_encode(['name' => 'Ada']));\n    $user = json_decode($redis->get('user:42'), true);\n\n?>",
+    "documentation": "https://redis.io/docs/latest/develop/clients/php/",
+    "related": [
+        "key-value-store",
+        "cache",
+        "pubsub",
+        "sentinel",
+        "nosql-database"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://redis.io/docs/latest/develop/clients/php/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP and Redis Tutorial: Getting Started with PhpRedis",
+            "url": "https://redis.io/tutorials/develop/php/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "How to Use Redis with PHP using PhpRedis with Examples",
+            "url": "https://www.thegeekstuff.com/2014/02/phpredis/"
+        }
+    ],
+    "tags": [
+        "architecture",
+        "database"
+    ],
+    "packagist": [
+        "predis/predis"
+    ],
+    "extensions": [
+        "redis"
+    ],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Mon, 17 Aug 2026 09:22:45 +0000"
+}

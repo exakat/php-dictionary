@@ -1,0 +1,51 @@
+{
+    "id": "cap-theorem",
+    "name": "CAP Theorem",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/cap-theorem.html",
+    "aliases": [
+        "cap",
+        "brewer-theorem"
+    ],
+    "description": "The CAP theorem, also known as Brewer's theorem, states that a distributed data store can provide at most two of the following three guarantees simultaneously:\n\n+ Consistency: every read receives the most recent write or an error. All nodes see the same data at the same time.\n+ Availability: every request receives a non-error response, though it may not reflect the most recent write.\n+ Partition tolerance: the system continues to operate even if network messages are dropped or delayed between nodes.\n\nSince network partitions are unavoidable in real distributed systems, the practical choice is between CP, that is consistent and partition-tolerant, e.g., HBase, ZooKeeper, and AP, that is available and partition-tolerant, e.g., Cassandra, CouchDB.\n\nPHP applications interact with distributed stores from the client side, selecting a backend that matches their consistency or availability requirements.",
+    "code": "<?php\n\n    // CP: Redis with WAIT ensures synchronous replication before returning\n    $redis = new Redis();\n    $redis->connect('redis-primary', 6379);\n    $redis->set('balance', 100);\n    $redis->wait(1, 100); // wait for 1 replica, 100 ms timeout\n    \n    // AP: reading from a replica may return stale data\n    $replica = new Redis();\n    $replica->connect('redis-replica', 6379);\n    $balance = $replica->get('balance'); // possibly a past value\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/CAP_theorem",
+    "related": [
+        "distributed-systems",
+        "eventual-consistency",
+        "consistency",
+        "availability",
+        "acid",
+        "nosql-database",
+        "distributed-transactions"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/CAP_theorem"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Brewer's conjecture (original paper)",
+            "url": "https://dl.acm.org/doi/10.1145/564585.564601"
+        }
+    ],
+    "tags": [
+        "concept",
+        "distributed"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 16 Jul 2026 08:34:57 +0000"
+}

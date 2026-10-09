@@ -1,0 +1,52 @@
+{
+    "id": "subclass",
+    "name": "Subclass",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/subclass.html",
+    "aliases": [
+        "sub-class"
+    ],
+    "description": "A ``subclass`` is a class that extends another class. It is also called a child of that class.\n\nSubclasses have the same features than any other class, besides the extension.",
+    "code": "<?php\n\nclass Elephpant {}\n\n// this is a subclass\nclass Calf extends Elephpant {}\n\n?>",
+    "documentation": "https://www.php.net/manual/en/language.oop5.inheritance.php",
+    "related": [
+        "child-class",
+        "base-class",
+        "sub"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.oop5.inheritance.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Inheritance (object-oriented programming)",
+            "url": "https://en.wikipedia.org/wiki/Inheritance_(object-oriented_programming)"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Liskov substitution principle",
+            "url": "https://en.wikipedia.org/wiki/Liskov_substitution_principle"
+        }
+    ],
+    "tags": [
+        "class"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+}

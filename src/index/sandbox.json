@@ -1,0 +1,52 @@
+{
+    "id": "sandbox",
+    "name": "Sandbox",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/sandbox.html",
+    "aliases": [],
+    "description": "An isolated environment where code can be run or tested, without affecting the real system. Sandboxes are very useful to check PHP feature across several versions.",
+    "code": "",
+    "documentation": "https://en.wikipedia.org/wiki/Sandbox_(computer_security)",
+    "related": [
+        "parser"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Sandbox_(computer_security)"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "extend class PHP",
+            "url": "https://extendsclass.com/php.html"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP with sandboxed Claude",
+            "url": "https://www.einenlum.com/articles/how-to-use-sandboxed-claude-with-php/"
+        }
+    ],
+    "tags": [
+        "concept"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": {
+        "3v4l.org": "https://www.3v4l.org/",
+        "onlinephp.io": "https://onlinephp.io/",
+        "PHP Playground": "https://php-play.dev/"
+    },
+    "popularity": "",
+    "modified": "Fri, 18 Sep 2026 05:00:08 +0000"
+}

@@ -1,0 +1,54 @@
+{
+    "id": "opinionated",
+    "name": "Opinionated",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/opinionated.html",
+    "aliases": [
+        "opinioniated",
+        "opinionated-software"
+    ],
+    "description": "A tool, library, or framework is called opinionated when it enforces a specific way of solving a problem. That may be conventions for file structure, naming, architecture, or workflow, with little or no configuration to deviate from them. This is opposed to being unopinionated, or agnostic, where the tool stays neutral and leaves every such decision to the developer.\n\nOpinionated tools trade flexibility for consistency and speed: once its conventions are learned, less boilerplate and fewer decisions are needed to become productive, and a codebase built with it stays predictable across an entire team. Convention over configuration is the principle usually behind this design choice. The downside surfaces when a project's needs diverge from the tool's assumptions, and working around them becomes harder than it would have been with an unopinionated alternative.\n\nIn the PHP ecosystem, Laravel is generally considered more opinionated than Symfony, which favors composability and bring-your-own-components. PHPUnit is opinionated about the naming and location of test methods, while Behat is opinionated about describing behavior in Gherkin.",
+    "code": "",
+    "documentation": "https://en.wikipedia.org/wiki/Convention_over_configuration",
+    "related": [
+        "framework",
+        "boilerplate"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Convention_over_configuration"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Symfony vs. Laravel: Framework Choice for PHP Projects",
+            "url": "https://www.toptal.com/php/choosing-between-symfony-and-laravel-frameworks"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Laravel vs. Symfony: Clash of the PHP Frameworks",
+            "url": "https://www.zend.com/blog/laravel-vs-symfony"
+        }
+    ],
+    "tags": [
+        "concept",
+        "architecture",
+        "adjective"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Fri, 18 Sep 2026 09:30:38 +0000"
+}

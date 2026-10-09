@@ -1,0 +1,54 @@
+{
+    "id": "rainbow-table",
+    "name": "Rainbow Table",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/rainbow-table.html",
+    "aliases": [],
+    "description": "A rainbow table is a precomputed table used to reverse cryptographic hash functions, mainly to recover plaintext passwords from their hash. Instead of hashing every candidate password on demand, an attacker precomputes long chains of hash and reduction operations, keeps only the endpoints, and can then look up a captured hash in a fraction of the time a brute-force search would take, at the cost of a large upfront computation and storage effort.\n\nRainbow tables are defeated by salting: prefixing or suffixing every password with a random, per-user value before hashing. This forces an attacker to build a distinct table for every possible salt, which makes the precomputation cost prohibitive. This is precisely why ``password_hash()`` salts automatically, and why raw ``md5()`` or ``sha1()`` should never be used to store passwords.",
+    "code": "<?php\n\n    // password_hash() salts automatically: a rainbow table cannot help here\n    $hash = password_hash('correct horse battery staple', PASSWORD_DEFAULT);\n\n    // unsalted hash: vulnerable to a lookup in a precomputed rainbow table\n    $unsafeHash = md5('correct horse battery staple');\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Rainbow_table",
+    "related": [
+        "hash-table",
+        "hash-crypto",
+        "password-ext",
+        "sha",
+        "argon2"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Rainbow_table"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "password_hash",
+            "url": "https://www.php.net/manual/en/function.password-hash.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Salt (cryptography)",
+            "url": "https://en.wikipedia.org/wiki/Salt_(cryptography)"
+        }
+    ],
+    "tags": [
+        "security",
+        "vulnerability",
+        "concept"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Fri, 14 Aug 2026 08:11:15 +0000"
+}

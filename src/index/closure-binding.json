@@ -1,0 +1,42 @@
+{
+    "id": "closure-binding",
+    "name": "Closure Binding",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/closure-binding.html",
+    "aliases": [],
+    "description": "A closure acquires values from its context of creation. When the closure is created in a different context than wished, one may rebind the closure to another context.\n\nThis is done with the two methods ``Closure::bind()`` and ``Closure::bindTo()``.",
+    "code": "<?php\n\n    class Elephpant {\n        private static function trumpet() { return 1;}\n    }\n\n    $closure = function() {\n        // Self is undefined here, since it is not inside a class\n        return self::trumpet();\n    };\n\n    // Self now defined, and set to Elephpant\n    $bcl1 = Closure::bind($closure, null, 'Elephpant');\n\n?>",
+    "documentation": "https://www.php.net/manual/en/closure.bind.php",
+    "related": [
+        "closure",
+        "lexical"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/closure.bind.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP and Closures: Anonymous Functions and Variable Scoping",
+            "url": "https://reintech.io/blog/php-and-closures-anonymous-functions-and-variable-scoping"
+        }
+    ],
+    "tags": [
+        "closure"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+}

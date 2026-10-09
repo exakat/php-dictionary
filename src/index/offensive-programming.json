@@ -1,0 +1,54 @@
+{
+    "id": "offensive-programming",
+    "name": "Offensive Programming",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/offensive-programming.html",
+    "aliases": [],
+    "description": "Offensive programming is a programming approach where the code is written code assuming that internal states should never go wrong, and don't have to be guarded against. Only external input, such as user input, should be thoroughly validated before usage.\n\nOffensive programming requires drawing a line between internal and external data: while user input is obviously to be validated, there must be a clear rule for data coming from related services such as database, remote servers, API, file systems.",
+    "code": "<?php\n\n    $number = random_int(0, 10);\n    // This handle cases where no entropy sources are found \n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Defensive_programming",
+    "related": [
+        "defensive-programming",
+        "paradigm"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Defensive_programming"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Offensive programming",
+            "url": "https://en.wikipedia.org/wiki/Offensive_programming"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Defensive Coding Crash Course",
+            "url": "https://www.phparch.com/2019/08/defensive-coding-crash-course/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "More Tips for Defensive Programming in PHP",
+            "url": "https://www.sitepoint.com/more-tips-for-defensive-programming-in-php/"
+        }
+    ],
+    "tags": [
+        "paradigm"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Fri, 07 Aug 2026 09:44:22 +0000"
+}

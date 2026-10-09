@@ -1,0 +1,44 @@
+{
+    "id": "overengineer",
+    "name": "Over-engineer",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/overengineer.html",
+    "aliases": [
+        "overengineered",
+        "over-engineered"
+    ],
+    "description": "Over-engineering refers to the practice of designing and implementing a solution to a problem that goes beyond what is necessary or exceeds the requirements of the task. It involves adding unnecessary complexity, features, or components to a system, often resulting in increased development time, resource usage, and potential maintenance difficulties.",
+    "code": "",
+    "documentation": "https://en.wikipedia.org/wiki/Overengineering",
+    "related": [
+        "abstraction"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Overengineering"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Overengineering can kill your product",
+            "url": "https://www.mindtheproduct.com/overengineering-can-kill-your-product/"
+        }
+    ],
+    "tags": [
+        "concept"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Fri, 19 Jun 2026 21:26:58 +0000"
+}

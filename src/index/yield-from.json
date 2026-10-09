@@ -1,0 +1,54 @@
+{
+    "id": "yield-from",
+    "name": "yield from Keyword",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/yield-from.html",
+    "aliases": [],
+    "description": "The ``yield from`` keyword is used to delegate the iteration control of one generator to another. It was introduced in version 7.0 as part of the generator delegation feature. \n\nThis keyword allows to create more maintainable and modular code by reusing the code logic of one generator within another.\n\nGenerator delegation works with another generators, ``Traversable`` objects, and arrays.",
+    "code": "<?php\n\n    function inner() {\n        yield 1; // key 0\n        yield 2; // key 1\n        yield 3; // key 2\n    }\n    function gen() {\n        yield 0; // key 0\n        yield from inner(); // keys 0-2\n        yield 4; // key 1\n    }\n    // pass false as second parameter to get an array [0, 1, 2, 3, 4]\n    var_dump(iterator_to_array(gen()));\n\n?>",
+    "documentation": "https://www.php.net/manual/en/language.generators.syntax.php#control-structures.yield.from",
+    "related": [
+        "yield",
+        "yield-generator",
+        "traversable",
+        "array",
+        "function",
+        "method",
+        "closure",
+        "arrow-function",
+        "generator",
+        "range",
+        "stealth-generator"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.generators.syntax.php#control-structures.yield.from"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "How to Use Yield and Generators in PHP",
+            "url": "https://code.tutsplus.com/tutorials/how-to-use-yield-and-generators-in-php--cms-39200"
+        }
+    ],
+    "tags": [
+        "keyword",
+        "feature"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [
+        "Php/YieldFromUsage"
+    ],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "7.0",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 17 Sep 2026 07:47:39 +0000"
+}

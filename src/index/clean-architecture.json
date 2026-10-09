@@ -1,0 +1,45 @@
+{
+    "id": "clean-architecture",
+    "name": "Clean Architecture",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/clean-architecture.html",
+    "aliases": [],
+    "description": "Clean Architecture is a programming paradigm, where code is distributed in four layers: framework, interface adapters, application business rules, enterprise business rules. The layers are linked by the Dependency rule.",
+    "code": "",
+    "documentation": "https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html",
+    "related": [
+        "design-pattern",
+        "architecture",
+        "application",
+        "business-logic",
+        "separation-of-concerns"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Domain-Driven Design and Clean Architecture in PHP \u2014 Part 1 (Layers and Structure)",
+            "url": "https://medium.com/@pogulailo/domain-driven-design-and-clean-architecture-in-php-part-1-layers-and-structure-edcce57be42a"
+        }
+    ],
+    "tags": [
+        "paradigm"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sat, 08 Aug 2026 08:10:54 +0000"
+}

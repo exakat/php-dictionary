@@ -1,0 +1,50 @@
+{
+    "id": "source",
+    "name": "Source Code",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/source.html",
+    "aliases": [],
+    "description": "Source code is the human-readable set of instructions written in a programming language. It is the primary artifact produced by developers and is later compiled, transpiled, or interpreted to produce an executable program.\n\nSource code consists of ``.php`` files containing statements, expressions, class and function definitions, and HTML markup.\n\nThe term is also used in compound phrases such as open source and closed source.\n\nSource code is distinct from bytecode, machine code, or other intermediate representations produced during compilation.",
+    "code": "",
+    "documentation": "https://en.wikipedia.org/wiki/Source_code",
+    "related": [
+        "open-source",
+        "closed-source",
+        "transpile",
+        "compiler",
+        "opcode",
+        "technical-reference",
+        "lint-wont-execute",
+        "phar"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Source_code"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "php-src on git",
+            "url": "https://github.com/php/php-src"
+        }
+    ],
+    "tags": [
+        "concept"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Tue, 01 Sep 2026 05:31:03 +0000"
+}

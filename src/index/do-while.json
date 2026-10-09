@@ -1,0 +1,54 @@
+{
+    "id": "do-while",
+    "name": "Do While",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/do-while.html",
+    "aliases": [],
+    "description": "Do While is a loop structure. It runs the block of code until the condition is not met anymore. The block is run once before the condition is checked, so it is always run at least once.\n\nPart of the block execution may be skipped by using the ``continue`` keyword.",
+    "code": "<?php\n\n    $i = 1;\n    do {\n        print \"$i\\n\";\n    } while($i < 10);\n\n?>",
+    "documentation": "https://www.php.net/manual/en/control-structures.do.while.php",
+    "related": [
+        "continue",
+        "foreach",
+        "loop",
+        "for",
+        "while",
+        "control-flow"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/control-structures.do.while.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP: while",
+            "url": "https://www.php.net/manual/en/control-structures.while.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Do while loop",
+            "url": "https://en.wikipedia.org/wiki/Do_while_loop"
+        }
+    ],
+    "tags": [
+        "control flow",
+        "keyword",
+        "loop",
+        "feature"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+}

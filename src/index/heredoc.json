@@ -1,0 +1,53 @@
+{
+    "id": "heredoc",
+    "name": "Heredocs",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/heredoc.html",
+    "aliases": [],
+    "description": "Heredoc is a string syntax, similar to nowdoc, with internal variable interpolation. They behave like double quoted strings.\n\nThe Heredocs syntax uses an arbitrary delimiter. The same delimiter will mark the end of the string.\n\nHeredocs are convenient for large amount of text, that has to be hardcoded. Smaller string will be better suited with double quotes, while even longer text should be processed with a templating system.\n\nIt is possible to indent the text in a nowdocs string: to avoid this indentation to be passed at execution time, the final delimiter may be indented too. Its indentation will be removed from the parsed text.",
+    "code": "<?php\n\n$heredoc = <<<DELIM\nThis is a long text.\n\n$variable will not be replaced, and the text stays intact.\n\nDELIM;\n\n$heredoc = <<<DELIM\n    This is an indented text.\n    DELIM;\n\n?>",
+    "documentation": "https://www.php.net/manual/en/language.types.string.php#language.types.string.syntax.heredoc",
+    "related": [
+        "nowdoc",
+        "string",
+        "concatenation",
+        "indentation",
+        "interpolation",
+        "single-quote",
+        "tabulation",
+        "space",
+        "double-quote",
+        "empty-string",
+        "escape-character"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.types.string.php#language.types.string.syntax.heredoc"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP Heredoc",
+            "url": "https://www.phptutorial.net/php-tutorial/php-heredoc/"
+        }
+    ],
+    "tags": [
+        "feature",
+        "string",
+        "delimiter"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "5.5",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sat, 08 Aug 2026 08:10:54 +0000"
+}

@@ -1,0 +1,50 @@
+{
+    "id": "excimer",
+    "name": "Excimer",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/excimer.html",
+    "aliases": [],
+    "description": "``Excimer`` is a low-overhead sampling profiler for PHP, developed by the Wikimedia Foundation. Unlike deterministic profilers such as Xdebug, which instrument every function call, Excimer periodically samples the call stack at a fixed interval, using a timer signal, which keeps overhead low enough to run in production.\n\nExcimer can sample on wall-clock time or CPU time, which makes it useful for diagnosing both I/O-bound slowness, such as waiting on a database or a remote API, and CPU-bound slowness, such as heavy computation. Samples are collected into a log that can be aggregated into a flame graph or exported for further analysis.\n\nBecause sampling is cheap, Excimer is commonly left enabled at low sampling rates in production to catch real-world performance regressions that only appear under production load and traffic patterns, which synthetic benchmarks miss.",
+    "code": "<?php\n\n    // Sample the call stack every 100ms of wall-clock time.\n    $profiler = new ExcimerProfiler();\n    $profiler->setPeriod(0.1);\n    $profiler->setEventType(EXCIMER_REAL);\n    $profiler->start();\n\n    // ... application code runs here ...\n\n    $profiler->stop();\n\n    $log = $profiler->getLog();\n    foreach ($log as $event) {\n        foreach ($event->getTrace() as $frame) {\n            echo $frame['function'] . PHP_EOL;\n        }\n    }\n\n?>",
+    "documentation": "https://www.mediawiki.org/wiki/Excimer",
+    "related": [
+        "profiling",
+        "xdebug",
+        "flamegraph",
+        "performance"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.mediawiki.org/wiki/Excimer"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Excimer on Packagist",
+            "url": "https://packagist.org/packages/wikimedia/php-excimer-ui"
+        }
+    ],
+    "tags": [
+        "extension",
+        "profiling"
+    ],
+    "packagist": [],
+    "extensions": [
+        "excimer"
+    ],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": {
+        "blackfire": "https://blackfire.io/",
+        "tideways": "https://tideways.com/"
+    },
+    "popularity": "",
+    "modified": "Thu, 17 Sep 2026 09:16:02 +0000"
+}

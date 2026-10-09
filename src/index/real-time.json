@@ -1,0 +1,56 @@
+{
+    "id": "real-time",
+    "name": "Real Time",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/real-time.html",
+    "aliases": [
+        "realtime"
+    ],
+    "description": "Real time generally refers to the ability of an application to process data with minimal delay or in a continuous manner, often appearing instantaneous to the user. \n\nThis is the case with streams of data, chat systems, notifications, dashboards, collaborative tools, etc. \n\nHowever, PHP itself is not inherently a real-time language due to its traditional request-response model.\n\nThere are several technologies that are paired with PHP to achieve real-time features: polling, websockets, Server Sent Events or SSE, asynchronous PHP.\n",
+    "code": "",
+    "documentation": "https://en.wikipedia.org/wiki/Real-time_web",
+    "related": [
+        "sse",
+        "websocket",
+        "polling",
+        "ajax",
+        "asynchronous"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Real-time_web"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Building Real-Time Applications with PHP and WebSockets",
+            "url": "https://medium.com/@wwwebadvisor/building-real-time-applications-with-php-and-websockets-a860ca05ddc0"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "php-via",
+            "url": "https://via.zweiundeins.gmbh/"
+        }
+    ],
+    "tags": [
+        "architecture"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": {
+        "Ratchet": "http://socketo.me/"
+    },
+    "popularity": "",
+    "modified": "Fri, 18 Sep 2026 04:59:24 +0000"
+}

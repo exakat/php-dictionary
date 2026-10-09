@@ -1,0 +1,52 @@
+{
+    "id": "accountability",
+    "name": "Accountability",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/accountability.html",
+    "aliases": [],
+    "description": "Accountability isn't a built-in language feature: it's a development practice. It means writing code in a way that makes it clear who did what, what happened, and why, so actions can be traced and owned.\n\nAccountability may take several shapes: \n\n+ Logging actions\n+ Audit trails\n+ Reporting errors\n+ Adding tests\n+ Using VCS\n+ Code reviews.\n",
+    "code": "",
+    "documentation": "https://niksilver.com/2026/02/17/accountability-responsibility-and-reviewing-code/",
+    "related": [
+        "raci",
+        "audit",
+        "compliance",
+        "responsability",
+        "audit-trail"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://niksilver.com/2026/02/17/accountability-responsibility-and-reviewing-code/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Audit trailing | Sonar",
+            "url": "https://www.sonarsource.com/resources/library/audit-trailing/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Audit Logging Best Practices, Components & Challenges | Sonar",
+            "url": "https://www.sonarsource.com/resources/library/audit-logging/"
+        }
+    ],
+    "tags": [
+        "lifecycle"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Mon, 24 Aug 2026 05:04:01 +0000"
+}

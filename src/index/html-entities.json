@@ -1,0 +1,43 @@
+{
+    "id": "html-entities",
+    "name": "HTML Entities",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/html-entities.html",
+    "aliases": [],
+    "description": "HTML entities are a way to write special characters. For example, the superior and inferior characters have a special meaning in HTML. To be able to display them correctly, it is recommended to use the following writing: ``&gt;``  and ``&lt;``.\n\nThis protection is extended to many characters. They have a numerical entity, such as ``&38;`` and a literal entity, such as ``&amp;``, for the ampersand. \n\nSuch entities are typical of HTML. They are different in different languages. \n\nPHP uses ``htmlentities()`` and ``html_entities_decode()`` to convert those characters from and to their entities.\n\nHTML entities are useful in the HTML code, but they are confusing in a text file, which has no special entity.",
+    "code": "0",
+    "documentation": "https://htmlentities.io/",
+    "related": [
+        "entity",
+        "class-entity"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://htmlentities.io/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP htmlentities",
+            "url": "https://phppot.com/php/php-htmlentites/"
+        }
+    ],
+    "tags": [
+        "html",
+        "escape"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Tue, 11 Aug 2026 07:54:15 +0000"
+}

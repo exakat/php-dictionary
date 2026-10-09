@@ -1,0 +1,52 @@
+{
+    "id": "compliance",
+    "name": "Compliance",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/compliance.html",
+    "aliases": [],
+    "description": "Compliance generally refers to adhering to a set of predefined rules, standards, or regulations. These can range from coding style guides and interoperability standards to legal requirements, like GDPR, or security mandates, like OWASP. They may also be standards set up in house, or tacitly accepted without being written.",
+    "code": "",
+    "documentation": "https://en.wikipedia.org/wiki/Regulatory_compliance",
+    "related": [
+        "audit",
+        "standard",
+        "accountability",
+        "audit-trail",
+        "privacy"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Regulatory_compliance"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Everything You Need to Know About Maintaining PHP Compliance",
+            "url": "https://www.zend.com/blog/maintaining-php-compliance"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP: A Complete Due-Diligence Assessment Guide",
+            "url": "https://codenteam.com/php-a-complete-due-diligence-assessment-guide/"
+        }
+    ],
+    "tags": [
+        "audit"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Fri, 11 Sep 2026 09:46:37 +0000"
+}

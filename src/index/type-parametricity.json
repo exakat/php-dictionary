@@ -1,0 +1,54 @@
+{
+    "id": "type-parametricity",
+    "name": "Type Parametricity",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/type-parametricity.html",
+    "aliases": [
+        "parametric-polymorphism"
+    ],
+    "description": "Type parametricity, or parametric polymorphism, is the ability to write a function, class, or interface once and have it work uniformly over any type, with that type supplied as a parameter rather than hard-coded. ``list<Order>`` and ``array<string, Money>`` describe the same shape as ``list<Animal>``: only the type parameter changes, the code that manipulates the list does not.\n\nPHP has no native syntax for this. Every type declaration the engine understands, from class types to scalar types to DNF types, is checked at runtime, and a naive generics implementation would either need a full compilation step that verifies the parameter before execution, as Java and TypeScript do through type erasure, or it would need to check the parameter at every access, which the engine does not currently do.\n\nIn practice, PHP code expresses type parametricity today through a docblock type language, interpreted by tools such as ``PHPStan`` and ``Psalm`` rather than by the engine: ``@param list<Order> $orders``. This delivers most of the benefit of generics without a language change, at the cost of the check happening in a separate tool instead of the runtime. Proposals such as bound-erased generic types tried to bring the syntax into the language without the runtime check and were declined for breaking the invariant that a PHP type declaration is always enforced; a gradual, runtime-checked path starting with invariant type parameters on interfaces is being explored instead.",
+    "code": "<?php\n\n    /**\n     * @param list<Order> $orders\n     * @return Money\n     */\n    function total(array $orders): Money\n    {\n        return array_reduce($orders, fn (Money $sum, Order $o) => $sum->add($o->total()), Money::zero());\n    }\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Parametric_polymorphism",
+    "related": [
+        "generics",
+        "type-erasure",
+        "type-covariance",
+        "existential-type",
+        "row-polymorphism",
+        "type-system",
+        "polymorphism",
+        "docblock",
+        "sca"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Parametric_polymorphism"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Bound Erased Generic Types",
+            "url": "https://wiki.php.net/rfc/bound_erased_generic_types"
+        }
+    ],
+    "tags": [
+        "type",
+        "concept"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Tue, 01 Sep 2026 05:31:03 +0000"
+}

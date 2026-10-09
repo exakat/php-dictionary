@@ -1,0 +1,43 @@
+{
+    "id": "mvp",
+    "name": "Minimum Viable Product (MVP)",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/mvp.html",
+    "aliases": [],
+    "description": "Minimum Viable Product, or MVP, is the smallest version of a product that can be released to early adopters to gather feedback and validate assumptions with minimal effort.",
+    "code": "",
+    "documentation": "https://en.wikipedia.org/wiki/Minimum_viable_product",
+    "related": [
+        "agile"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Minimum_viable_product"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "How much does it take to build an MVP with PHP/Laravel?",
+            "url": "https://medium.com/@alariva/how-much-does-it-take-to-build-an-mvp-in-php-laravel-8d13d615a09b"
+        }
+    ],
+    "tags": [
+        "acronym"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Mon, 15 Jun 2026 11:03:59 +0000"
+}

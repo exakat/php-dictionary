@@ -1,0 +1,50 @@
+{
+    "id": "static-expression",
+    "name": "Static Expression",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/static-expression.html",
+    "aliases": [
+        "static-constant-expression"
+    ],
+    "description": "A static expression is an expression that is wholly defined at coding time. It is akin to hardcoded information. The opposite is dynamic expression.\n\nA static expression is built with literals and operators. \n\nIt is similar to a constant scalar expression, which is used by PHP to define constant with other constants. PHP does verify the constant scalar expressions at linting time, and exclude some operators from being used.\n",
+    "code": "<?php\n\n    $alphabet = 'a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z';\n\n    // This is a static expression\n    $letters = explode(',', $alphabet);\n    \n    const A = 1 * 2; // a constant scalar expression\n\n?>",
+    "documentation": "https://www.php.net/manual/en/language.constants.php",
+    "related": [
+        "dynamic-expression",
+        "type-inference",
+        "constant-scalar-expression"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.constants.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Constant folding - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Constant_folding"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "define",
+            "url": "https://www.php.net/manual/en/function.define.php"
+        }
+    ],
+    "tags": [
+        "pattern"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Fri, 28 Aug 2026 10:11:04 +0000"
+}

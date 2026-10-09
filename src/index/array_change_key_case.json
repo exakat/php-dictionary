@@ -1,0 +1,47 @@
+{
+    "id": "array_change_key_case",
+    "name": "array_change_key_case()",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/array_change_key_case.html",
+    "aliases": [],
+    "description": "``array_change_key_case()`` is a native PHP function that returns a copy of an array where all the string keys are converted to lowercase or uppercase.\n\nThe second argument selects the case: ``CASE_LOWER``, the default, or ``CASE_UPPER``. Integer keys are left unchanged, and when two keys become identical after the conversion, the later one overwrites the earlier one.\n\nThe original array is not modified.",
+    "code": "<?php\n\n    $data = ['Name' => 'Ada', 'CITY' => 'London', 0 => 'first'];\n\n    // Lowercase keys (default)\n    $lower = array_change_key_case($data);\n    // ['name' => 'Ada', 'city' => 'London', 0 => 'first']\n\n    // Uppercase keys\n    $upper = array_change_key_case($data, CASE_UPPER);\n    // ['NAME' => 'Ada', 'CITY' => 'London', 0 => 'first']\n\n?>",
+    "documentation": "https://www.php.net/manual/en/function.array-change-key-case.php",
+    "related": [
+        "array",
+        "array_filter",
+        "array_map",
+        "strtolower",
+        "strtoupper"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/function.array-change-key-case.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "array_change_key_case",
+            "url": "https://www.php.net/manual/en/function.array-change-key-case.php"
+        }
+    ],
+    "tags": [
+        "native function"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Fri, 09 Oct 2026 17:15:04 +0000"
+}

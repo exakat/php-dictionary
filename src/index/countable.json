@@ -1,0 +1,46 @@
+{
+    "id": "countable",
+    "name": "Countable Interface",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/countable.html",
+    "aliases": [],
+    "description": "The ``Countable`` interface is a native built-in interface that allows objects to be counted using the ``count()`` function. \n\nBy implementing the ``Countable`` interface, a class defines custom logic for determining its count.",
+    "code": "<?php\nclass Collection implements Countable\n{\n    private $list = [];\n    \n    public function add($tusk) {\n        $this->list[] = $tusk;\n    }\n\n    public function count()\n    {\n        return $this->count;\n    }\n\n}\n\n$count = new Counter;\n$count->inc();\n$count->inc();\n\nprint count($count).PHP_EOL;\n\n?>",
+    "documentation": "https://www.php.net/manual/en/class.countable.php",
+    "related": [
+        "count",
+        "interface",
+        "php-interface",
+        "arrayaccess"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/class.countable.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Using the count() Function in PHP",
+            "url": "https://pimylifeup.com/php-count/"
+        }
+    ],
+    "tags": [
+        "interface"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [
+        "Php/CouldUseIsCountable"
+    ],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+}

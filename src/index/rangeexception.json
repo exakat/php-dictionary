@@ -1,0 +1,50 @@
+{
+    "id": "rangeexception",
+    "name": "RangeException",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/rangeexception.html",
+    "aliases": [],
+    "description": "The RangeException exception is thrown if a value is out of range. It usually means that a values overflows or underflows.\n\nRangeException is defined by the SPL extension. It is used by the SplStack class.",
+    "code": "<?php\n\n    try {\n        $var = new SplStack();\n        $var->offsetSet(100,new DateTime('2000-01-01'));\n    } catch(OutOfRangeException $e) {\n        print $e->getMessage() . \\n; \n    }\n\n?>",
+    "documentation": "https://www.php.net/manual/en/class.rangeexception.php",
+    "related": [
+        "exception",
+        "overflow",
+        "underflow",
+        "domainexception",
+        "runtimeexception"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/class.rangeexception.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "SplStack",
+            "url": "https://www.php.net/manual/en/class.splstack.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "OutOfRangeException",
+            "url": "https://www.php.net/manual/en/class.outofrangeexception.php"
+        }
+    ],
+    "tags": [
+        "exception"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "5.1",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Fri, 28 Aug 2026 09:34:56 +0000"
+}

@@ -1,0 +1,46 @@
+{
+    "id": "passphrase",
+    "name": "Passphrase",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/passphrase.html",
+    "aliases": [],
+    "description": "A passphrase is a longer and more critical password. It may be build by combining several words, hence building a phrase.\n\nBecause a passphrase is typically longer than a conventional password, often four or more randomly chosen words following the ``Diceware`` method, it carries substantially more entropy while remaining easier for a human to memorize and type than an equivalent-strength string of random characters and symbols.\n\nPassphrases used as passwords are hashed and verified like any other password with ``password_hash()``/``password_verify()``, using the ``bcrypt`` or ``Argon2`` algorithms. They are also common as input to key-derivation functions: ``sodium_crypto_pwhash()`` in the ``sodium`` extension derives a fixed-length encryption or signing key from a passphrase and a salt, and OpenSSL private keys are frequently protected with a passphrase supplied to ``openssl_pkey_export()`` or the ``openssl`` command-line tool.",
+    "code": "",
+    "documentation": "https://en.wikipedia.org/wiki/Passphrase",
+    "related": [
+        "password-ext",
+        "password",
+        "ssl",
+        "word-combinaison"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Passphrase"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Generate Secure, Memorable Passphrases in PHP with PHP Passphrase",
+            "url": "https://laravel-news.com/generate-secure-memorable-passphrases-in-php-with-php-passphrase"
+        }
+    ],
+    "tags": [
+        "concept",
+        "authentication",
+        "security"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Mon, 07 Sep 2026 09:28:18 +0000"
+}

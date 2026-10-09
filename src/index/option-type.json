@@ -1,0 +1,56 @@
+{
+    "id": "option-type",
+    "name": "Option Type",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/option-type.html",
+    "aliases": [
+        "maybe-type"
+    ],
+    "description": "An option type, called ``Option`` in Rust and OCaml or ``Maybe`` in Haskell, is a native sum type with exactly two cases. Either a value is present, wrapped as ``Some(x)`` or ``Just x``; either it is absent, represented as ``None`` or ``Nothing``. It is used instead of a nullable type to represent the possible absence of a value.\n\nThe key difference with a plain nullable type is enforcement: the wrapped value cannot be used directly. It must first be unwrapped through pattern matching or a combinator such as ``map``/``and_then``, so the compiler guarantees that the ``None``/``Nothing`` case is always considered before the contained value is accessed.\n\nPHP has no option type. Absence of a value is represented with ``null``, combined with a nullable type declaration such as ``?string``. The nullsafe operator ``?->`` and null coalescing operator ``??`` make chaining safer, but nothing prevents dereferencing a possibly-null value directly and triggering a runtime error; the language does not force the check the way an option type does.",
+    "code": "<?php\n\n    function findUser(int $id): ?User {\n        return $id === 1 ? new User('Ada') : null;\n    }\n    \n    // Nothing forces this check: omitting it just yields a runtime error.\n    $user = findUser(2);\n    echo $user?->name ?? 'not found';\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Option_type",
+    "related": [
+        "nullsafe",
+        "sum-type",
+        "algebraic-data-type",
+        "union-type",
+        "pattern-matching"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Option_type"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "php-option: Option Type for PHP",
+            "url": "https://github.com/schmittjoh/php-option"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Maybe in PHP",
+            "url": "http://marcosh.github.io/post/2017/06/16/maybe-in-php.html"
+        }
+    ],
+    "tags": [
+        "concept",
+        "type",
+        "not supported"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Wed, 02 Sep 2026 16:41:00 +0000"
+}

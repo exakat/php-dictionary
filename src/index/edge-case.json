@@ -1,0 +1,51 @@
+{
+    "id": "edge-case",
+    "name": "Edge Case",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/edge-case.html",
+    "aliases": [],
+    "description": "An edge case is a situation that occurs at the extreme ends of input, operating conditions, or environment. It requires exceptional conditions to happen, yet it is a possible situation.",
+    "code": "<?php\n\n// PHP addition always returns an integer\n$integer = 2 + 1; \n\n// adding positive values to PHP_INT_MAX is an edge case\n$integer = PHP_INT_MAX + 1; \n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Edge_case",
+    "related": [
+        "coverage",
+        "overflow",
+        "test",
+        "unit-test"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Edge_case"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Integers",
+            "url": "https://www.php.net/manual/en/language.types.integer.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHPUnit documentation",
+            "url": "https://docs.phpunit.de/"
+        }
+    ],
+    "tags": [
+        "concept"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sun, 09 Aug 2026 12:00:46 +0000"
+}

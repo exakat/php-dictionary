@@ -1,0 +1,56 @@
+{
+    "id": "jump",
+    "name": "Jump",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/jump.html",
+    "aliases": [],
+    "description": "A jump typically refers to any non-linear control flow, where the program skips from one part of the code to another. In fact, it is bypassing the normal sequential execution.\n\nThere are a few constructs that qualify as jumps: ``goto``, ``break``, ``continue``, ``yield``, ``yield from``, ``throw``, ``return``.",
+    "code": "<?php\n\n    function trumpet(int $a) {\n        // jumps out of the method\n        if ($a > 10) { return; }\n        \n        foreach(range(1, 10) as $i) {\n            if (doSomething($i, $a)) {\n                // jumps out of the loop\n                break 1; \n            }\n        }\n        \n        // normal execution\n        return $a + 1;\n    }\n\n?>",
+    "documentation": "https://www.php.net/manual/en/language.control-structures.php",
+    "related": [
+        "goto",
+        "return",
+        "break",
+        "continue",
+        "throw",
+        "control-flow",
+        "if-then",
+        "yield-from",
+        "yield"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.control-structures.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "goto",
+            "url": "https://www.php.net/manual/en/control-structures.goto.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Control flow (Wikipedia)",
+            "url": "https://en.wikipedia.org/wiki/Control_flow"
+        }
+    ],
+    "tags": [
+        "concept"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+}

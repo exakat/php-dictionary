@@ -1,0 +1,48 @@
+{
+    "id": "php-constant",
+    "name": "PHP Constants",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/php-constant.html",
+    "aliases": [],
+    "description": "PHP provides a set of predefined global constants. \n\nThe set of predefined variables changes with PHP versions: for example, in version 8.0, ``T_READONLY`` was not defined, and appeared in version 8.1. \n\nIt is possible to list all available PHP native constants with the function ``get_declared_constants()``.",
+    "code": "<?php\n\n    print E_ALL;\n\n    print PHP_VERSION;\n\n?>",
+    "documentation": "https://www.php.net/manual/en/reserved.variables.php",
+    "related": [
+        "superglobal",
+        "variable",
+        "native",
+        "directory_separator",
+        "new-line",
+        "predefined-constant"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/reserved.variables.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Understanding PHP Constants: A Simple Guide with Examples",
+            "url": "https://flatcoding.com/tutorials/php/understanding-the-php-constant-expression/"
+        }
+    ],
+    "tags": [
+        "variable"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [
+        "Variables/VariablePhp"
+    ],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Tue, 01 Sep 2026 05:31:03 +0000"
+}

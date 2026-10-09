@@ -1,0 +1,54 @@
+{
+    "id": "exhaustiveness",
+    "name": "Exhaustiveness",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/exhaustiveness.html",
+    "aliases": [
+        "exhaustiveness-checking"
+    ],
+    "description": "Exhaustiveness is the property of a pattern-matching or ``switch``-like construct that guarantees every possible case has been handled, checked by the compiler or engine rather than left to the developer to remember. A construct is exhaustive over a type when it is impossible to reach the end of it without matching a branch.\n\nPHP's ``match`` is close but not exhaustive in this sense: it throws ``UnhandledMatchError`` at runtime if no arm applies, instead of refusing to compile a non-exhaustive match. That still closes an entire class of ``switch`` bugs, silent fallthrough and forgotten ``break``, but the gap is only caught when that code path executes, not before.\n\nTrue exhaustiveness needs a closed set of cases to check against, which is why it usually appears together with sum types or algebraic data types, such as enumerations with associated values: the compiler can list every case of the type and verify the match covers all of them, or point at exactly the one that is missing. Pattern matching proposals that add structural matching over types and shapes are a step toward this, but full exhaustiveness checking requires the closed, enumerable type that a sum type provides.",
+    "code": "<?php\n\n    enum Status { case Draft; case Published; case Archived; }\n\n    // Not exhaustive: throws UnhandledMatchError if a new case is added later\n    $label = match ($status) {\n        Status::Draft => 'Draft',\n        Status::Published => 'Live',\n        // Status::Archived is missing\n    };\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Pattern_matching#Exhaustiveness",
+    "related": [
+        "match",
+        "switch",
+        "pattern-matching",
+        "structural-pattern-matching",
+        "sum-type",
+        "algebraic-data-type",
+        "unhandledmatcherror",
+        "enum",
+        "type-system"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Pattern_matching#Exhaustiveness"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Pattern Matching RFC",
+            "url": "https://wiki.php.net/rfc/pattern-matching"
+        }
+    ],
+    "tags": [
+        "type",
+        "concept"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 13 Aug 2026 06:14:04 +0000"
+}

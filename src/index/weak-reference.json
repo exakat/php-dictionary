@@ -1,0 +1,48 @@
+{
+    "id": "weak-reference",
+    "name": "Weak References",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/weak-reference.html",
+    "aliases": [],
+    "description": "Weak references allow the programmer to retain a reference to an object which does not prevent the object from being destroyed. They are useful for implementing cache like structures. ",
+    "code": "<?php\n\n$obj = new stdClass;\n$weakref = WeakReference::create($obj);\n\nvar_dump($weakref->get());\nunset($obj);\n\nvar_dump($weakref->get());\n// NULL\n\n?>",
+    "documentation": "https://www.php.net/manual/en/class.weakreference.php",
+    "related": [
+        "reference",
+        "circular-reference"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/class.weakreference.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP 8.0 feature focus: Weak maps",
+            "url": "https://platform.sh/blog/php-80-feature-focus-weak-maps/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "WeakReferences",
+            "url": "https://www.cmuir.co.nz/post/weakreferences/"
+        }
+    ],
+    "tags": [
+        "memory",
+        "reference"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "7.4",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Mon, 07 Sep 2026 14:42:42 +0000"
+}

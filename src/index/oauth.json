@@ -1,0 +1,59 @@
+{
+    "id": "oauth",
+    "name": "OAuth",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/oauth.html",
+    "aliases": [],
+    "description": "OAuth is an open standard for access delegation, commonly used to grant applications access to user information on other services without exposing passwords. OAuth 2.0 is the current version, defined in RFC 6749.\n\nOAuth is typically implemented via libraries such as ``league/oauth2-server`` for building an authorisation server, or ``league/oauth2-client`` for consuming third-party OAuth 2.0 providers such as Google, GitHub, or Facebook.",
+    "code": "",
+    "documentation": "https://oauth.net/2/",
+    "related": [
+        "authentication",
+        "security",
+        "jwt",
+        "api",
+        "protocol",
+        "token",
+        "splsubject",
+        "mfa",
+        "openid",
+        "saml",
+        "sso"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://oauth.net/2/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "RFC 6749",
+            "url": "https://datatracker.ietf.org/doc/html/rfc6749"
+        }
+    ],
+    "tags": [
+        "security",
+        "protocol",
+        "authentication",
+        "rfc"
+    ],
+    "packagist": [
+        "league/oauth2-server",
+        "league/oauth2-client"
+    ],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sun, 02 Aug 2026 06:21:50 +0000"
+}

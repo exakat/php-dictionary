@@ -1,0 +1,49 @@
+{
+    "id": "sapi",
+    "name": "Server Application Programming Interface (SAPI)",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/sapi.html",
+    "aliases": [],
+    "description": "SAPI stands for Server Application Programming Interface. SAPI are the interface between PHP and a supporting platform, such as a web server like ``nginx``, ``apache``, ``caddy``, ... , a debugger like phpdbg, ... or the command line interface.",
+    "code": "<?php\n\necho PHP_SAPI;\necho php_sapi_name();\n\n?>",
+    "documentation": "https://docs.php.earth/php/sapi/",
+    "related": [
+        "cgi",
+        "cli",
+        "repl",
+        "tui"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://docs.php.earth/php/sapi/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Server application programming interface - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Server_application_programming_interface"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP, FPM, and Nginx | Servers for Hackers",
+            "url": "https://serversforhackers.com/c/php-fpm-and-nginx"
+        }
+    ],
+    "tags": [
+        "acronym"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Fri, 21 Aug 2026 07:18:28 +0000"
+}

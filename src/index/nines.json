@@ -1,0 +1,53 @@
+{
+    "id": "nines",
+    "name": "The Nines (Availability)",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/nines.html",
+    "aliases": [
+        "five-nines",
+        "four-nines",
+        "three-nines",
+        "nine-sla"
+    ],
+    "description": "``The nines`` is a shorthand used to express an availability target as a count of the ``9`` digits in its percentage: 99% is ``two nines``, 99.9% is ``three nines``, 99.99% is ``four nines``, and 99.999% is ``five nines``. Each additional nine represents a tenfold reduction in the amount of downtime allowed over a given period.\n\n+ Two nines, 99%: about 3.65 days of downtime per year\n+ Three nines, 99.9%: about 8.76 hours of downtime per year\n+ Four nines, 99.99%: about 52.6 minutes of downtime per year\n+ Five nines, 99.999%: about 5.26 minutes of downtime per year\n\nThis notation is a common shorthand inside Service Level Agreements, expressed as a nine SLA, since ``99.99% uptime`` is easier to state as a commitment than the exact number of minutes of allowed downtime. It is also used as a target for infrastructure and application design, driving decisions on redundancy, failover, and monitoring.\n\nReaching a higher number of nines becomes exponentially more expensive: each extra nine typically requires additional redundancy, more aggressive monitoring and alerting, and a matured incident-response process.",
+    "code": "",
+    "documentation": "https://en.wikipedia.org/wiki/Five_nines",
+    "related": [
+        "sla",
+        "availability",
+        "downtime",
+        "monitoring",
+        "reliability"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Five_nines"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Nine nines - SLA & Downtime calculator",
+            "url": "https://hyperping.com/nine-nines"
+        }
+    ],
+    "tags": [
+        "architecture",
+        "business"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sun, 30 Aug 2026 15:06:55 +0000"
+}

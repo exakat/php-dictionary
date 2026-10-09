@@ -1,0 +1,46 @@
+{
+    "id": "tempest",
+    "name": "Tempest",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/tempest.html",
+    "aliases": [],
+    "description": "Tempest is the framework that gets out of your way. With zero configuration and zero boilerplate, Tempest gives the architectural freedom to focus entirely on your business logic. Tempest is an MVC framework.",
+    "code": "",
+    "documentation": "https://tempestphp.com/",
+    "related": [
+        "framework",
+        "mvc",
+        "boilerplate"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://tempestphp.com/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Building Real Applications with TempestPHP",
+            "url": "https://www.juststeveking.com/articles/building-real-applications-with-tempestphp/"
+        }
+    ],
+    "tags": [
+        "framework",
+        "brand"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Tue, 11 Aug 2026 20:51:37 +0000"
+}

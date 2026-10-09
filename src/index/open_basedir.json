@@ -1,0 +1,43 @@
+{
+    "id": "open_basedir",
+    "name": "open_basedir",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/open_basedir.html",
+    "aliases": [],
+    "description": "The ``open_basedir`` directive limits access to files in a list of provided directories, and their nested directories. That directive can only be set in the ``php.ini``.\n\nFunctions such as ``fopen()``, ``file_get_contents``, ``file_put_contents``, ``curl_get()`` when working on local files, ``zip_open()``, etc. are affected.",
+    "code": "",
+    "documentation": "https://www.php.net/manual/en/ini.core.php#ini.open-basedir",
+    "related": [
+        "include_path",
+        "php.ini",
+        "htaccess"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/ini.core.php#ini.open-basedir"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "What is open_basedir in PHP and How to Configure It Securely",
+            "url": "https://serveravatar.com/configure-open-basedir/"
+        }
+    ],
+    "tags": [
+        "directive"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sat, 08 Aug 2026 08:10:54 +0000"
+}

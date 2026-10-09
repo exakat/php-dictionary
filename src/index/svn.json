@@ -1,0 +1,41 @@
+{
+    "id": "svn",
+    "name": "SVN",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/svn.html",
+    "aliases": [],
+    "description": "SVN, or Subversion, is a version control system, VCS, used for managing and tracking changes to files and directories in software development and other collaborative environments. It allows multiple users to work on the same set of files, keeping track of changes, and maintaining a history of who made what changes and when. Subversion is commonly used for source code management, but it can also be used for versioning other types of documents and data.",
+    "code": "",
+    "documentation": "https://en.wikipedia.org/wiki/Apache_Subversion",
+    "related": [
+        "cvs",
+        "svm",
+        "vcs-commit",
+        "vcs",
+        "hg"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Apache_Subversion"
+        }
+    ],
+    "tags": [
+        "vcs",
+        "noSeeAlso"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sat, 08 Aug 2026 08:10:54 +0000"
+}

@@ -1,0 +1,53 @@
+{
+    "id": "jobqueue",
+    "name": "Jobqueue",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/jobqueue.html",
+    "aliases": [],
+    "description": "A job queue is a concept that refers to a system or data structure used to manage and schedule the execution of various tasks or jobs in a sequential or parallel manner. \n\nJob queues are commonly used in scenarios where there is a need to process multiple tasks asynchronously, ensuring that tasks are executed efficiently and in an organized manner.\n\nA job queue may organize the tasks in different way: by priority, by type, by sequence, by estimated load, by available worker, etc.",
+    "code": "",
+    "documentation": "https://en.wikipedia.org/wiki/Job_queue",
+    "related": [
+        "cron",
+        "message-queue",
+        "process",
+        "queue",
+        "task"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Job_queue"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "12 Best Practices for Production Queues",
+            "url": "https://boring-observability.dev/blog/laravel-background-jobs-best-practices"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Build a Job Queue From Scratch with PHP and Redis",
+            "url": "https://grahamsutton.dev/build-a-job-queue-with-php-and-redis/"
+        }
+    ],
+    "tags": [
+        "architecture",
+        "concept"
+    ],
+    "packagist": [],
+    "extensions": [
+        "gearman"
+    ],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sat, 08 Aug 2026 08:10:54 +0000"
+}

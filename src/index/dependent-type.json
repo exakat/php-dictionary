@@ -1,0 +1,45 @@
+{
+    "id": "dependent-type",
+    "name": "Dependent Type",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/dependent-type.html",
+    "aliases": [],
+    "description": "A dependent type is a type whose definition depends on a value. \n\nPHP does not support dependent type explicitly, though several situations behaves in a similar manner.",
+    "code": "<?php\n\n    print abs(-1); // 1, as integer\n    print abs(-1.33); // 1.33, as float\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Dependent_type",
+    "related": [
+        "type",
+        "type-inference"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Dependent_type"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "The Future of Programming is Dependent Types",
+            "url": "https://medium.com/background-thread/the-future-of-programming-is-dependent-types-programming-word-of-the-day-fcd5f2634878"
+        }
+    ],
+    "tags": [
+        "type",
+        "dependent type"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sun, 23 Aug 2026 20:33:57 +0000"
+}

@@ -1,0 +1,60 @@
+{
+    "id": "cve",
+    "name": "Common Vulnerabilities And Exposures (CVE)",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/cve.html",
+    "aliases": [],
+    "description": "CVE, or Common Vulnerabilities and Exposures, is a standardized, industry-recognized list of publicly disclosed cybersecurity vulnerabilities and exposures in software and hardware. Maintained by the MITRE Corporation, it acts as a dictionary that assigns unique identifiers, e.g. ``CVE-2022-44702``, to security flaws. This allows professionals to uniformly identify, track, and remediate risks.",
+    "code": "",
+    "documentation": "https://en.wikipedia.org/wiki/Common_Vulnerabilities_and_Exposures",
+    "related": [
+        "vulnerability",
+        "pentest"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Common_Vulnerabilities_and_Exposures"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP : Vulnerability Statistics",
+            "url": "https://www.cvedetails.com/vendor/74/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "cve.org",
+            "url": "https://www.cve.org/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "MITRE",
+            "url": "https://attack.mitre.org/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "The Quiet Shift Reshaping PHP Security",
+            "url": "https://www.linkedin.com/pulse/quiet-shift-reshaping-php-security-matthew-weier-o-phinney-fgquc/"
+        }
+    ],
+    "tags": [
+        "acronym",
+        "security"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sun, 21 Jun 2026 19:57:41 +0000"
+}

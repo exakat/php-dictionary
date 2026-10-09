@@ -1,0 +1,58 @@
+{
+    "id": "configuration",
+    "name": "Configuration",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/configuration.html",
+    "aliases": [],
+    "description": "Configuration is a set of data that conditions the execution of the program.\n\nGenerally, configuration isn't changed during the execution of the program. \n\nPHP has three locations for configuration: ``php.ini``, ``.htaccess`` and usage of the ``ini_set()`` functions. \n\nEach item of configuration is called a directive.",
+    "code": "",
+    "documentation": "https://www.php.net/manual/en/configuration.php",
+    "related": [
+        "directive",
+        "file",
+        "php.ini",
+        "convention",
+        "dsn",
+        "feature-flag",
+        "flag",
+        "magic",
+        "hard-coded",
+        "htaccess",
+        "option"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/configuration.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "List of php.ini directives",
+            "url": "https://www.php.net/manual/en/ini.list.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP: Runtime Configuration",
+            "url": "https://www.php.net/manual/en/ini.core.php"
+        }
+    ],
+    "tags": [
+        "architecture"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [
+        "Php/DirectiveName"
+    ],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Tue, 25 Aug 2026 19:10:41 +0000"
+}

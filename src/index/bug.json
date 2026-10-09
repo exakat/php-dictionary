@@ -1,0 +1,45 @@
+{
+    "id": "bug",
+    "name": "Bug",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/bug.html",
+    "aliases": [],
+    "description": "A bug is a discrepancy between the expected result of a program and its actual result. \n\nBugs have many different varieties: \n\n+ Code does not compile\n+ Program stops before completing, with a 'Fatal error'\n+ Program outputs a wrong result\n+ Program outputs a result different from expected\n+ Program is vulnerable to security attack\n+ Poor performance.",
+    "code": "<?php\n\n// a case of syntax error\n// echo hello world; \n\necho -3 ** 2; // known bug\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Software_bug",
+    "related": [
+        "linting",
+        "strpos-syndrom"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Software_bug"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Modern PHP Security Part 1: bug classes",
+            "url": "https://labs.detectify.com/security-guidance/modern-php-security-part-1-bug-classes/"
+        }
+    ],
+    "tags": [
+        "concept",
+        "bug"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Mon, 07 Sep 2026 14:43:22 +0000"
+}

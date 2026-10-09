@@ -1,0 +1,41 @@
+{
+    "id": "strlen",
+    "name": "strlen()",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/strlen.html",
+    "aliases": [],
+    "description": "``strlen()`` returns the number of bytes in a string, not the number of characters it displays as.\n\nFor a plain ASCII string, bytes and characters are the same thing, so ``strlen()`` gives the expected result. For a string encoded in UTF-8 or another multibyte encoding, a single displayed character can occupy several bytes, so ``strlen()`` returns a larger number than the count of characters a person would see on screen; ``mb_strlen()`` counts characters instead, using the encoding it is given.\n\n``strlen()`` runs in constant time on a well-formed PHP string, because the length is stored alongside the bytes rather than computed by scanning them, which is one of the reasons it stays cheap to call even on very large strings.",
+    "code": "<?php\n\n    echo strlen('hello');       // 5\n    echo strlen('h\u00e9llo');       // 6, \u00e9 is 2 bytes in UTF-8\n    echo mb_strlen('h\u00e9llo');    // 5, characters not bytes\n\n?>",
+    "documentation": "https://www.php.net/manual/en/function.strlen.php",
+    "related": [
+        "string",
+        "count",
+        "mbstring"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/function.strlen.php"
+        }
+    ],
+    "tags": [
+        "native function",
+        "string"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Fri, 25 Sep 2026 18:46:41 +0000"
+}

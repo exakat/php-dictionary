@@ -1,0 +1,49 @@
+{
+    "id": "variable-argument",
+    "name": "Variable Arguments",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/variable-argument.html",
+    "aliases": [],
+    "description": "Variable arguments refer to a method call where the list of arguments depends on the call, rather than the signature of the method.\n\nVariable arguments are achieved with the variadic operator, or with the ``func_get_args()`` function. The variadic operator covers most of the cases, and ``func_get_args()`` covers the remaining edge cases.\n\nVariable arguments may be static or dynamic. It is static when the list of arguments varies from call to call, and is hard-coded. A dynamic argument list depends on the variadic ``...`` operator, or the ``call_user_func_array()`` function.\n",
+    "code": "<?php\n\n    // No arguments in the signature.\n    function trumpet() {\n        // displays the list of arguments\n        print_r(func_get_args());\n    }\n\n    // static arguments\n    trumpet(1, 2);\n    trumpet(4, 5, 6);\n\n    // dynamic variable arguments\n    $args = range(5, rand(9, 11)) ;\n    trumpet(...$args);\n\n?>",
+    "documentation": "https://www.php.net/manual/en/functions.arguments.php#functions.variable-arg-list",
+    "related": [
+        "function",
+        "variadic",
+        "func_get_args",
+        "three-dots"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/functions.arguments.php#functions.variable-arg-list"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Variable-length argument lists",
+            "url": "https://riptutorial.com/php/example/18652/variable-length-argument-lists"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Named Arguments and Variadics in PHP 8",
+            "url": "https://markbakeruk.net/2021/09/28/named-arguments-and-variadics-in-php-8/"
+        }
+    ],
+    "tags": [
+        "feature"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+}

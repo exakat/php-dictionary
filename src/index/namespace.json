@@ -1,0 +1,65 @@
+{
+    "id": "namespace",
+    "name": "Namespaces",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/namespace.html",
+    "aliases": [],
+    "description": "Namespaces are a way to encapsulate items like classes, interfaces, enumerations, traits, functions, and constants, preventing naming conflicts between different parts of a program. They help organize and structure code, especially in larger projects where multiple developers may be contributing.\n\nA namespace may not be called ``namespace``. Otherwise, its name follows the same regex as other PHP structures: ``^[a-zA-Z_\\x80-\\xff][a-zA-Z0-9_\\x80-\\xff]*$``.",
+    "code": "<?php\n\nnamespace a {\n    class x {\n    }\n}\n\nnamespace b {\n    // a second class x, although distinct from the previous one\n    class x {\n    }\n}\n\n?>",
+    "documentation": "https://www.php.net/manual/en/language.namespaces.rationale.php",
+    "related": [
+        "use-alias",
+        "fully-qualified-name",
+        "subnamespace",
+        "collision",
+        "global",
+        "name",
+        "namespace-name",
+        "domain",
+        "include",
+        "name-convention",
+        "naming-conflict",
+        "prefix",
+        "absolute-name",
+        "first-class-module",
+        "module-system",
+        "package-visibility"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.namespaces.rationale.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Understanding PHP Namespaces: Organising Your Code",
+            "url": "https://medium.com/@bluznierca1/understanding-php-namespaces-organising-your-code-ba2590c5e529"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Namespaces",
+            "url": "https://phplang.org/spec/18-namespaces.html"
+        }
+    ],
+    "tags": [
+        "namespace",
+        "naming",
+        "human names"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [
+        "Namespaces/NamespaceUsage"
+    ],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "5.3",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 27 Aug 2026 04:31:44 +0000"
+}

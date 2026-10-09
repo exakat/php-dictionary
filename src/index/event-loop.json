@@ -1,0 +1,50 @@
+{
+    "id": "event-loop",
+    "name": "Event Loop",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/event-loop.html",
+    "aliases": [],
+    "description": "An event loop is a mechanism for handling asynchronous operations and event-driven programming. While PHP traditionally follows a synchronous execution model where each operation blocks the execution until it completes, the introduction of event loops enables non-blocking I/O operations and improves concurrency.\n\nPHP event loops are often implemented using extensions like ReactPHP or Amp.",
+    "code": "<?php\n\n// Code from revolt's event loop\n// https://revolt.run/fundamentals\nrequire __DIR__ . '/vendor/autoload.php';\n\nuse Revolt\\EventLoop;\n\n$suspension = EventLoop::getSuspension();\n\n$repeatId = EventLoop::repeat(1, function (): void {\n    print '++ Executing callback created by EventLoop::repeat()' . PHP_EOL;\n});\n\nEventLoop::delay(5, function () use ($suspension, $repeatId): void {\n    print '++ Executing callback created by EventLoop::delay()' . PHP_EOL;\n\n    EventLoop::cancel($repeatId);\n    $suspension->resume(null);\n\n    print '++ Suspension::resume() is async!' . PHP_EOL;\n});\n\nprint '++ Suspending to event loop...' . PHP_EOL;\n\n$suspension->suspend();\n\nprint '++ Script end' . PHP_EOL;",
+    "documentation": "https://en.wikipedia.org/wiki/Event_loop",
+    "related": [
+        "event-driven",
+        "blocking-wait",
+        "c10k",
+        "amp",
+        "reactphp",
+        "edge-triggered",
+        "fire-and-forget",
+        "non-blocking",
+        "one-shot"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Event_loop"
+        }
+    ],
+    "tags": [
+        "event-driven"
+    ],
+    "packagist": [
+        "revolt/event-loop"
+    ],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": {
+        "ReactPHP": "https://reactphp.org/",
+        "AMPHP": "https://amphp.org/",
+        "Revolt": "https://revolt.run/"
+    },
+    "popularity": "",
+    "modified": "Fri, 18 Sep 2026 05:06:57 +0000"
+}

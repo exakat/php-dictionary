@@ -1,0 +1,46 @@
+{
+    "id": "shuffle",
+    "name": "shuffle()",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/shuffle.html",
+    "aliases": [],
+    "description": "``shuffle()`` randomizes the order of the elements in an array, using a pseudo-random number generator.\n\nThe function reorders elements in place, and re-indexes the array with sequential integer keys starting from 0. Any string keys, or explicit integer keys, that existed before the call are discarded: the original association between a key and its value is lost, only the value order survives.\n\n``shuffle()`` always returns true, so its result is rarely checked, unlike functions such as ``sort()`` that may fail on unsortable input.",
+    "code": "<?php\n\n    $fruits = ['a' => 'apple', 'b' => 'banana', 'c' => 'cherry'];\n\n    shuffle($fruits);\n\n    print_r($fruits);\n    // Keys are now 0, 1, 2 in random order: the original a/b/c keys are gone.\n\n?>",
+    "documentation": "https://www.php.net/manual/en/function.shuffle.php",
+    "related": [
+        "array",
+        "random",
+        "sort"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/function.shuffle.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Fisher-Yates shuffle algorithm",
+            "url": "https://en.wikipedia.org/wiki/Fisher%E2%80%93Yates_shuffle"
+        }
+    ],
+    "tags": [
+        "native function",
+        "array"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Fri, 25 Sep 2026 14:29:07 +0000"
+}

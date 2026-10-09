@@ -1,0 +1,45 @@
+{
+    "id": "array_values",
+    "name": "array_values()",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/array_values.html",
+    "aliases": [],
+    "description": "The ``array_values()`` PHP native function returns the values in an array, with automatically generated indexes. It indexes anew the values as if they all were appended in the array, one after the other.\n\nThe values are in the same order as in the original array.\n\n``array_values()`` provides a way to reach the value by position or offset, in an array, when the keys have been set arbitrarily. For the first value, there is the function ``array_first()``.",
+    "code": "<?php\n\n    $array = ['a' => 1, 'b' => 2, ];\n\n    // displays [1, 2]\n    var_dump(array_values($array)); \n\n    $array = [-2 => 'a', 3 => 'b', 'c'];\n    // displays ['a', 'b', 'c']; \n    // equivalent to [0 => 'a', 1 => 'b', 2 => 'c']; \n    var_dump(array_values($array)); \n\n    print array_values($array)[0]; // prints the first value, a\n    print array_first($array);     // prints the first value, a\n    print array_values($array)[1]; // prints the second value, b\n\n?>",
+    "documentation": "https://www.php.net/manual/en/function.array-values.php",
+    "related": [
+        "array_keys",
+        "index-array",
+        "array_combine"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/function.array-values.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Making Sense of PHP\u2019s array_values() Function",
+            "url": "https://clouddevs.com/php/array_values-function/"
+        }
+    ],
+    "tags": [
+        "php native"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sun, 30 Aug 2026 07:35:46 +0000"
+}

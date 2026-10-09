@@ -1,0 +1,51 @@
+{
+    "id": "zend-assertions",
+    "name": "zend.assertions",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/zend-assertions.html",
+    "aliases": [],
+    "description": "``zend.assertions`` is the PHP directive that controls usage of assertions. When set to 1, the assertions are active and executed: this is for development mode. \n\nWhen set to 0, the code is active, but not executed. When set to -1, the code is removed: this is for production mode.",
+    "code": "",
+    "documentation": "https://www.php.net/manual/en/function.assert.php",
+    "related": [
+        "assertion",
+        "one",
+        "zero",
+        "minus-one"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/function.assert.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "zend.assertions",
+            "url": "https://php.watch/codex/zend.assertions"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Use zend.assertions PHP setting instead of assert.active",
+            "url": "https://www.drupal.org/project/drupal/issues/3380147"
+        }
+    ],
+    "tags": [
+        "directive"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Tue, 01 Sep 2026 06:21:35 +0000"
+}

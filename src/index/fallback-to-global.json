@@ -1,0 +1,46 @@
+{
+    "id": "fallback-to-global",
+    "name": "Fallback To Global",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/fallback-to-global.html",
+    "aliases": [],
+    "description": "The fallback to global mechanism is a PHP feature, which search for functions and global constants, first in the current namespace, then in the global namespace, before failing. \n\nThis feature was introduced as a transition mechanism, when namespaces were introduced. Adding a namespace to a file does not make all the function and constants invalid, but rather still working. This does not apply to classes, interfaces, traits and enumeration, which have to be in the current namespace, or imported with the ``use`` expression.\n\nThe fallback mechanism applies to global constants and functions. \n\nThis mechanism is usually transparent to users. It introduces the possibility of a man in the middle attack: adding a local definition to a global function or constant will overwrite this function.\n\nThere is a penalty cost to use the fallback mechanism, as PHP has to search for the function locally, then globally, before finding it. Using the fully qualified name, or an import expression ``use`` speeds up the process.",
+    "code": "<?php\n\n    namespace {\n        function forage() { echo __FUNCTION__;}\n        function bathe() { echo __FUNCTION__;}\n    }\n\n    namespace A {\n        use function bathe as graze;\n\n        function trumpet() { echo __FUNCTION__;}\n        function bathe() { echo __FUNCTION__;}\n\n        trumpet(); // A\\trumpet;\n        forage(); // forage;\n        bathe(); // A\\bathe;\n        \\bathe(); // bathe\n        graze(); // A\\bathe;\n    \n        // this replaces the native PHP strtolower with another function, \n        // in the A namespace\n        function strtolower($string) { return \\strtoupper($string);}\n        \n        echo strtolower('aB');  // AB\n        echo \\strtolower('aB'); // ab\n    }\n\n?>",
+    "documentation": "https://www.php.net/manual/en/language.namespaces.fallback.php",
+    "related": [
+        "global",
+        "function",
+        "fallback",
+        "monkey-patch"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.namespaces.fallback.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Using namespaces: fallback to global function/constant",
+            "url": "http://semantic-portal.net/php-language-reference-namespaces-global-function"
+        }
+    ],
+    "tags": [
+        "compatibility",
+        "fully-qualified-name",
+        "use"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Tue, 15 Sep 2026 16:15:41 +0000"
+}

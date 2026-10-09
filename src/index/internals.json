@@ -1,0 +1,47 @@
+{
+    "id": "internals",
+    "name": "Internals",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/internals.html",
+    "aliases": [],
+    "description": "In PHP, internals refers to everything under the hood of the language itself, not the code written with PHP.\n\nInternals are the features written in C, C++ language and compiled with the engine; the Zend engine itself. It also refers to the contributors working on the core of PHP, as they are member of the ``internal mailing list``.",
+    "code": "",
+    "documentation": "https://www.phpinternalsbook.com/",
+    "related": [
+        "zend-engine",
+        "feature",
+        "copy-on-write",
+        "core",
+        "uopz"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.phpinternalsbook.com/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP Internal Books",
+            "url": "https://github.com/phpinternalsbook/PHP-Internals-Book"
+        }
+    ],
+    "tags": [
+        "engine"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Fri, 19 Jun 2026 21:24:31 +0000"
+}

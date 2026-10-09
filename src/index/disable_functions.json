@@ -1,0 +1,57 @@
+{
+    "id": "disable_functions",
+    "name": "disable_functions",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/disable_functions.html",
+    "aliases": [],
+    "description": "The ``disable_functions`` PHP directive prevents specific native functions from being called by the code. It takes a comma-separated list of function names, such as ``exec, shell_exec, system, passthru, popen``, and makes those functions unavailable at runtime, even when they are compiled into PHP.\n\nThis directive can only be set in the ``php.ini`` file, a virtual host configuration, or the server configuration: it is read at startup and cannot be changed with ``ini_set()`` in the code. A script that tries to call a disabled function gets a fatal error, and the function appears as undefined.\n\n``disable_functions`` only works on native functions and extension functions. It cannot disable a custom function: this can be achieved by defining the forbidden function in the code and making it emit a warning or do nothing. A disabled function may also be redefined as a custom function, which is why it is not a complete protection on its own.",
+    "code": "",
+    "documentation": "https://www.php.net/manual/en/ini.core.php#ini.disable-functions",
+    "related": [
+        "disable-functions",
+        "disable-classes",
+        "disable",
+        "function",
+        "directive",
+        "attack-surface",
+        "phpinfo"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/ini.core.php#ini.disable-functions"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Disabling functions using the PHP disable_functions directive",
+            "url": "https://kb.hosting.com/docs/php-disable_functions-directive"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP.INI settings Disable exec, shell_exec, system, popen and Other Functions To Improve Security",
+            "url": "https://www.cyberciti.biz/faq/linux-unix-apache-lighttpd-php-disable-exec-shell-exec-system-popen/"
+        }
+    ],
+    "tags": [
+        "directive",
+        "security"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [
+        "Security/CantDisableFunction"
+    ],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Fri, 09 Oct 2026 16:53:29 +0000"
+}

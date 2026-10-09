@@ -1,0 +1,48 @@
+{
+    "id": "model",
+    "name": "Model",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/model.html",
+    "aliases": [],
+    "description": "The model is the classes that describes the business logic. \n\nThe model is often used as part of the MVC pattern, though it may be used independently.",
+    "code": "",
+    "documentation": "https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller",
+    "related": [
+        "mvc",
+        "view-presentation",
+        "controller"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "What is MVC Architecture?",
+            "url": "https://www.h2kinfosys.com/blog/what-is-mvc-architecture/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "MVC explained!",
+            "url": "https://www.educative.io/answers/mvc-explained"
+        }
+    ],
+    "tags": [
+        "concept"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 13 Aug 2026 08:15:55 +0000"
+}

@@ -1,0 +1,57 @@
+{
+    "id": "swagger",
+    "name": "Swagger",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/swagger.html",
+    "aliases": [
+        "openapi"
+    ],
+    "description": "Swagger is a toolset for designing, documenting, and consuming REST APIs. The underlying specification is now published as the ``OpenAPI Specification``, aka OAS, while the Swagger brand covers the surrounding ecosystem of tools.\n\nSwagger documentation is typically generated from source code using annotations or attributes. Libraries such as ``zircote/swagger-php`` parse docblocks or PHP 8 attributes and emit a ``openapi.json`` or ``openapi.yaml`` file that conforms to the ``OpenAPI`` standard. The Swagger UI then renders that file as interactive, browser-based API documentation.\n\n``OpenAPI`` documents describe endpoints, request parameters, response schema, authentication schemes, and examples. They can also drive code generation, contract testing, and mock servers.",
+    "code": "<?php\n\n    use OpenApi\\Attributes as OA;\n\n    #[OA\\Info(title: 'My API', version: '1.0.0')]\n    class ApiInfo {}\n\n    class UserController\n    {\n        #[OA\\Get(\n            path: '/users/{id}',\n            summary: 'Fetch a single user',\n            tags: ['Users'],\n            parameters: [\n                new OA\\Parameter(name: 'id', in: 'path', required: true, schema: new OA\\Schema(type: 'integer'))\n            ],\n            responses: [\n                new OA\\Response(response: 200, description: 'User found'),\n                new OA\\Response(response: 404, description: 'User not found'),\n            ]\n        )]\n        public function show(int $id): JsonResponse {}\n    }\n\n?>",
+    "documentation": "https://swagger.io/docs/",
+    "related": [
+        "api",
+        "rest-api",
+        "route",
+        "specification"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://swagger.io/docs/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "OpenAPI Specification",
+            "url": "https://spec.openapis.org/oas/latest.html"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Swagger UI",
+            "url": "https://swagger.io/tools/swagger-ui/"
+        }
+    ],
+    "tags": [
+        "documentation",
+        "api",
+        "tool"
+    ],
+    "packagist": [
+        "zircote/swagger-php"
+    ],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Fri, 11 Sep 2026 09:09:44 +0000"
+}

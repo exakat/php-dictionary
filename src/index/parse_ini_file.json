@@ -1,0 +1,53 @@
+{
+    "id": "parse_ini_file",
+    "name": "parse_ini_file()",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/parse_ini_file.html",
+    "aliases": [],
+    "description": "``parse_ini_file()`` is a PHP native function that reads an INI configuration file and returns its content as an associative array.\n\nBy default, sections, i.e. lines like ``[section]``, are dropped and only the settings inside them are returned. Passing ``true`` as the second argument, ``process_sections``, keeps each section as its own nested array in the result.\n\nA third argument, ``scanner_mode``, controls how values are read: ``INI_SCANNER_NORMAL``, the default, returns every value as a string; ``INI_SCANNER_RAW`` disables all value interpretation, including PHP constants; ``INI_SCANNER_TYPED`` converts recognizable values, such as ``true``, ``false``, ``null``, and numeric strings, to their native PHP type.\n\n``parse_ini_file()`` reads and interprets PHP constants found in unquoted values, which makes it unsafe to run against a file supplied or editable by an untrusted party. ``parse_ini_string()`` performs the same parsing on a string already held in memory, rather than a file on disk.\n",
+    "code": "<?php\n\n    // config.ini:\n    // [database]\n    // host = localhost\n    // port = 5432\n    // enabled = true\n\n    $config = parse_ini_file('config.ini', true, INI_SCANNER_TYPED);\n\n    // $config = [\n    //     'database' => [\n    //         'host' => 'localhost',\n    //         'port' => 5432,     // int, thanks to INI_SCANNER_TYPED\n    //         'enabled' => true,  // bool, thanks to INI_SCANNER_TYPED\n    //     ],\n    // ];\n\n?>",
+    "documentation": "https://www.php.net/manual/en/function.parse-ini-file.php",
+    "related": [
+        "parse_ini_string",
+        "php.ini",
+        "directive",
+        "array",
+        "json_decode"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/function.parse-ini-file.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP: parse_ini_string()",
+            "url": "https://www.php.net/manual/en/function.parse-ini-string.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "INI file - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/INI_file"
+        }
+    ],
+    "tags": [
+        "native function",
+        "configuration"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Fri, 28 Aug 2026 09:43:09 +0000"
+}

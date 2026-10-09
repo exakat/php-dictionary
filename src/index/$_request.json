@@ -1,0 +1,53 @@
+{
+    "id": "$_request",
+    "name": "$_REQUEST",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/%24_request.html",
+    "aliases": [],
+    "description": "An associative array of variables, transmitted to the current script via the HTTP GET and HTTP methods.\n\nWhen the same name is used both in GET and POST method, the priority is defined by the ``variable_order`` directive. \n\nThe received values are all strings or arrays. They are strings by default, and other scalar types needs a casting. The values are arrays when the URL uses the ``[]`` format. \n\n``$_REQUEST`` is a superglobal: it is always available, in every scope.",
+    "code": "<?php\n\n    // https://www.example.com/index.php?x=1\n    $_REQUEST['x'] === '1';\n    \n    // POST y=abc\n    $_REQUEST['y'] === 'abc';\n    \n    // https://www.example.com/index.php?z[]=def&z[]=ghi\n    $_REQUEST['z'] === ['def', 'ghi'];\n\n?>",
+    "documentation": "https://www.php.net/manual/en/reserved.variables.get.php",
+    "related": [
+        "$_post",
+        "$_get",
+        "$_cookie",
+        "$_env",
+        "form",
+        "incoming-data",
+        "variable_order"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/reserved.variables.get.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "The Basics of the PHP Request",
+            "url": "https://x-team.com/magazine/basics-php-request"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Comprehensive Explanation of PHP\u2019s $_REQUEST Superglobal for Form Data Handling",
+            "url": "https://medium.com/@otabekjurabekov3/comprehensive-explanation-of-phps-request-superglobal-for-form-data-handling-6034ad14827d"
+        }
+    ],
+    "tags": [
+        "php variable",
+        "superglobal"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sat, 08 Aug 2026 08:10:54 +0000"
+}

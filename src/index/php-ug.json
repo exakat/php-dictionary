@@ -1,0 +1,43 @@
+{
+    "id": "php-ug",
+    "name": "PHP User Groups",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/php-ug.html",
+    "aliases": [
+        "phpug"
+    ],
+    "description": "PHP-UG are the PHP User Groups. They are informal groups of PHP developer and related, who gather on a regular to irregular schedule. They usually have an organisation time, speakers and various activities. There are user group all over the world.",
+    "code": "",
+    "documentation": "https://php.ug/",
+    "related": [
+        "community"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://php.ug/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP User Groups",
+            "url": "https://wiki.php.net/usergroups"
+        }
+    ],
+    "tags": [
+        "community"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 03 Sep 2026 10:53:43 +0000"
+}

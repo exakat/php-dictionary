@@ -1,0 +1,46 @@
+{
+    "id": "forum",
+    "name": "Forum",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/forum.html",
+    "aliases": [],
+    "description": "A forum is a web application that allows users to hold structured discussions online.\n\nA forum, also called a discussion board, is software where users can:\n\n+ Create discussion topics\n+ Post replies\n+ Organize conversations into categories\n+ Interact through comments, reactions, or private messages\n\nIt's one of the earliest and most common types of PHP web applications.\n\nThe PHP ecosystem offers a lot of forums. Here is a non-exhaustive list: \n\n+ ``phpBB``\n+ ``MyBB``\n+ ``Flarum``\n+ ``Simple Machines Forum``\n+ ``XenForo``\n+ ``PunBB``\n+ ``ElkArte``.\n",
+    "code": "",
+    "documentation": "https://en.wikipedia.org/wiki/Internet_forum",
+    "related": [
+        "open-source",
+        "marketplace",
+        "plugin",
+        "framework"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Internet_forum"
+        }
+    ],
+    "tags": [
+        "product"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": {
+        "phpBB": "https://www.phpbb.com/",
+        "MyBB": "https://mybb.com/",
+        "Flarum": "https://flarum.org/",
+        "XenForo": "https://xenforo.com/",
+        "ElkArte": "https://www.elkarte.net/",
+        "Simple Machines Forum": "https://www.simplemachines.org/"
+    },
+    "popularity": "",
+    "modified": "Fri, 18 Sep 2026 04:50:42 +0000"
+}

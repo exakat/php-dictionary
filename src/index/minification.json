@@ -1,0 +1,60 @@
+{
+    "id": "minification",
+    "name": "Minification",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/minification.html",
+    "aliases": [
+        "minified",
+        "minify",
+        "unminify"
+    ],
+    "description": "Minification is the process to remove elements that are useless in a PHP code, without changing its execution.\n\nFor example, whitespaces and comments may be removed from PHP code: it makes the code much smaller, but also, less readable.\n\nMinified code has a smaller footprint on the disk, and may be faster to load, read and process. Minifying has very limited impact on PHP code, and is not considered an optimisation technique.\n\nMinification is applied successfully on HTML, CSS, SVG, XML, JSON, JavaScript, and image formats.\n\nMinification may be used for obfuscation.\n\nUnminify is the contrary of minifying.",
+    "code": "<?php\n\n    // minified version\n    for($i=0; $i<10;++$i) { print \"$i\\n\";}\n    \n    // minified version\n    for($i = 0; $i < 10; ++$i) {\n        // This displays a number\n        print \"$i\\n\";\n    }\n    \n    // structure that cannot be minified\n    echo 1 . 2; // displays 12 \n    echo 1.2; // displays 1.2 \n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Minification_(programming)",
+    "related": [
+        "obfuscation"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Minification_(programming)"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Minify PHP: Should you do it? The Helpful Tools For it?",
+            "url": "https://rabbitloader.com/articles/minify-php/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP minify",
+            "url": "https://php-minify.com/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "The State of Minification in PHP \u2013 How 1 Project Grew into 6",
+            "url": "https://dev.to/hexydec/the-state-of-minification-in-php-how-1-project-grew-into-6-536i"
+        }
+    ],
+    "tags": [
+        "readability",
+        "optimisation"
+    ],
+    "packagist": [
+        "php-code-minifier/php-code-minifier"
+    ],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Tue, 11 Aug 2026 20:52:18 +0000"
+}

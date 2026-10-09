@@ -1,0 +1,50 @@
+{
+    "id": "namespaced-name",
+    "name": "Namespaced Name",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/namespaced-name.html",
+    "aliases": [],
+    "description": "A namespaced name is a name that includes a ``\\`` character.\n\nA namespaced name may be relative or absolute. \n\nNamespaced names are sometimes reported in errors.",
+    "code": "<?php\n\nnamespace B\\A {\n    class C {}\n}\n\nnamespace B {\n    use A\\B as C;\n    //import \n    new C();\n\n    // relative name\n    new A\\C(); // actually calls B \\ A\\C\n}\n\n?>",
+    "documentation": "https://www.php.net/manual/en/language.namespaces.basics.php",
+    "related": [
+        "import",
+        "absolute-name",
+        "relative-name"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.namespaces.basics.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP: Name resolution rules - Manual",
+            "url": "https://www.php.net/manual/en/language.namespaces.rules.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Fully qualified name - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Fully_qualified_name"
+        }
+    ],
+    "tags": [
+        "namespace"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": {
+        "syntax error, unexpected namespaced name \"%s\", expecting \"function\"": "syntax-error,-unexpected-namespaced-name-\"%s\",-expecting-\"function\""
+    },
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sat, 22 Aug 2026 08:06:27 +0000"
+}

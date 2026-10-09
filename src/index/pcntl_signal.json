@@ -1,0 +1,52 @@
+{
+    "id": "pcntl_signal",
+    "name": "pcntl_signal()",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/pcntl_signal.html",
+    "aliases": [],
+    "description": "``pcntl_signal()`` installs a signal handler for a given OS signal. When the specified signal is received by the PHP process, the installed callable is executed.\n\nCommon signals include ``SIGTERM``, the graceful termination, ``SIGINT``, the ``Ctrl+C`` interrupt, ``SIGHUP``, the reload configuration, and ``SIGCHLD``, the child process state change. The constant ``SIG_DFL`` restores the default OS handler and ``SIG_IGN`` ignores the signal.\n\nSignal handlers are not called immediately when a signal arrives: the engine checks for pending signals between opcodes. Calling ``pcntl_async_signals(true)`` enables asynchronous signal dispatching so that handlers run as soon as the signal is received, without waiting for the next opcode boundary.\n\n``pcntl_signal()`` is available only in CLI SAPI and requires the ``pcntl`` extension.",
+    "code": "<?php\n\n    pcntl_async_signals(true);\n    \n    pcntl_signal(SIGTERM, function (int $signal): void {\n        echo 'Received SIGTERM, shutting down gracefully.' . PHP_EOL;\n        // Clean up resources, flush buffers, etc.\n        exit(0);\n    });\n    \n    pcntl_signal(SIGINT, function (int $signal): void {\n        echo 'Received SIGINT (Ctrl+C).' . PHP_EOL;\n        exit(0);\n    });\n    \n    echo 'Running... send SIGTERM or press Ctrl+C' . PHP_EOL;\n    while (true) {\n        sleep(1);\n    }\n\n?>",
+    "documentation": "https://www.php.net/manual/en/function.pcntl-signal.php",
+    "related": [
+        "pcntl",
+        "handler",
+        "system-event",
+        "process",
+        "cli"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/function.pcntl-signal.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "pcntl_async_signals()",
+            "url": "https://www.php.net/manual/en/function.pcntl-async-signals.php"
+        }
+    ],
+    "tags": [
+        "native function",
+        "signal",
+        "process",
+        "cli"
+    ],
+    "packagist": [],
+    "extensions": [
+        "pcntl"
+    ],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Mon, 07 Sep 2026 09:29:36 +0000"
+}

@@ -1,0 +1,54 @@
+{
+    "id": "service-mesh",
+    "name": "Service Mesh",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/service-mesh.html",
+    "aliases": [
+        "mesh",
+        "servicemesh"
+    ],
+    "description": "A service mesh is a dedicated infrastructure layer that handles service-to-service communication inside a microservice architecture, taking concerns like service discovery, load balancing, retries, timeouts, circuit breaking, encryption, and observability out of application code and into the network layer itself. It is typically implemented by attaching a lightweight sidecar proxy, such as Envoy, to every service instance; each sidecar intercepts all inbound and outbound traffic for its service, forming a data plane, while a separate control plane configures and coordinates all the sidecars centrally, for example to roll out a canary release or enforce mutual TLS between services. For a PHP application, this means a service written in Laravel, Symfony, or plain PHP running inside a container can gain retries, load balancing, and encrypted service-to-service traffic without any PHP-side code changes at all, since the mesh operates transparently at the network layer, usually inside a Kubernetes cluster managed by tools like Istio or Linkerd. Adopting a mesh adds real operational complexity, so it tends to pay off mainly once an application has grown into enough independent services that manually coordinating their communication has become a burden.",
+    "code": "",
+    "documentation": "https://en.wikipedia.org/wiki/Service_mesh",
+    "related": [
+        "microservice",
+        "docker",
+        "api"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Service_mesh"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "What is a service mesh?",
+            "url": "https://www.redhat.com/en/topics/microservices/what-is-a-service-mesh"
+        }
+    ],
+    "tags": [
+        "architecture",
+        "network",
+        "concept"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": {
+        "Istio": "https://istio.io/",
+        "Linkerd": "https://linkerd.io/",
+        "Envoy": "https://www.envoyproxy.io/"
+    },
+    "popularity": "",
+    "modified": "Fri, 18 Sep 2026 05:00:15 +0000"
+}

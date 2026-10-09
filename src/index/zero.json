@@ -1,0 +1,56 @@
+{
+    "id": "zero",
+    "name": "zero",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/zero.html",
+    "aliases": [],
+    "description": "Zero is the ``0`` integer. Zero is part of the falsy values: it is the equivalent of ``false``. \n\nIt is often used to return successful execution, where non-zero answers are unsuccessful execution, represented by their error message.\n\nAdding 0 to a string turns it into an integer, just like the cast operator ``(int)`` does.\n\nComparisons between 0 and other falsy values, such as empty string ``''`` changed with PHP 8.0: it was true and became false.\n\nDivision by zero emits the ``DivisionByZeroError``, as that operation is impossible. Multiplication is possible and always returns 0.\n\n0 is one of the two valid index when building a callback with an array, along with 1.\n\n0 is a classic magic number, although it has so many uses that it is usually look over, as generating too many false positives or scattered issues.",
+    "code": "<?php\n\n    $zero = 0;\n    \n    $four = 4 + 0;\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/0",
+    "related": [
+        "false",
+        "comparison",
+        "divisionbyzeroerror",
+        "empty-string",
+        "one",
+        "array-callable",
+        "array-callback",
+        "minus-one",
+        "truthy",
+        "arithmeticerror",
+        "logarithm",
+        "zend-assertions"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/0"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "What is the origin of Zero?",
+            "url": "https://www.scientificamerican.com/article/what-is-the-origin-of-zer/"
+        }
+    ],
+    "tags": [
+        "falsy",
+        "integer",
+        "magic number"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Mon, 15 Jun 2026 11:03:59 +0000"
+}

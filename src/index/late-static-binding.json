@@ -1,0 +1,61 @@
+{
+    "id": "late-static-binding",
+    "name": "Late Static Binding",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/late-static-binding.html",
+    "aliases": [
+        "late-binding"
+    ],
+    "description": "PHP implements a feature called late static bindings, or simply late binding, which can be used to reference the called class in a context of static inheritance.\n\nBefore PHP 5.3, the ``self`` keyword always referred to the class where it was written, regardless of which child class actually made the call. This made it impossible for a static method inherited by a subclass to refer to that subclass reliably: calling a parent's static method that used ``new self()``, for example, always instantiated the parent class, even when invoked through a child. Late static binding solves this by introducing the ``static::`` keyword, which resolves at call time, hence \"late\", to the class that was actually used to make the call, rather than the class where the method was defined.\n\nThe mechanism keeps track of the \"called class\" as execution moves through the call stack: a static call, an instance method call, or a ``parent::`` / ``self::`` forwarding call all propagate that information, unless it is reset by an explicit ``ClassName::`` call, which starts a new binding scope. The special function ``get_called_class()`` returns the same class name that ``static::class`` would resolve to.\n\nLate static binding is heavily used to implement patterns such as the Active Record pattern, fluent factory methods, or the Singleton pattern, where a base class needs to instantiate or refer to whichever subclass is actually being used, without hardcoding that subclass's name.",
+    "code": "<?php\n\n    class Elephpant {\n        public static function who() {\n            echo __CLASS__;\n        }\n        public static function announce() {\n            static::who(); // Here comes Late Static Bindings\n        }\n    }\n\n    class AfricanElephpant extends Elephpant {\n        public static function who() {\n            echo __CLASS__;\n        }\n    }\n\n    AfricanElephpant::announce();\n\n?>",
+    "documentation": "https://www.php.net/manual/en/language.oop5.late-static-bindings.php",
+    "related": [
+        "self",
+        "static",
+        "parent",
+        "early-binding",
+        "child-class",
+        "compile-time",
+        "execution-time",
+        "mro"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.oop5.late-static-bindings.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Late static binding in PHP - What, How & When",
+            "url": "https://www.amitmerchant.com/late-static-binding-php-what-how-when/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "A real life example of using Late Static Binding in PHP",
+            "url": "https://dev.to/asifzcpe/a-real-life-example-of-using-late-static-binding-in-php-h6b/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Example of using Late Static Binding in PHP",
+            "url": "https://dev.to/developeralamin/example-of-using-late-static-binding-in-php-18kh"
+        }
+    ],
+    "tags": [
+        "concept",
+        "feature"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 10 Sep 2026 20:22:40 +0000"
+}

@@ -1,0 +1,54 @@
+{
+    "id": "$_server",
+    "name": "$_SERVER",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/%24_server.html",
+    "aliases": [],
+    "description": "The ``$_SERVER`` variable is a special superglobal variable that holds information about the headers, scripts and path locations.\n\nThe entries in this array are created by the web server, therefore there is no guarantee that every web server provides any of these.\n\nThe ``$_SERVER`` variable is an associative array where the keys are the variable names and the values are the corresponding values.\n\n``$_SERVER`` is a superglobal: it is always available, in every scope.",
+    "code": "<?php\n\n    echo $_SERVER['PHP_SELF'];\n\n?>",
+    "documentation": "https://www.php.net/manual/en/reserved.variables.server.php",
+    "related": [
+        "$_post",
+        "$_get",
+        "$_FILES",
+        "$_cookie",
+        "$_env",
+        "$globals",
+        "http-headers",
+        "ip"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/reserved.variables.server.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP Superglobals Explained, With Cheatsheet",
+            "url": "https://code.tutsplus.com/php-superglobals-explained-with-cheatsheet--cms-36598t"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP: Superglobals - Manual",
+            "url": "https://www.php.net/manual/en/language.variables.superglobals.php"
+        }
+    ],
+    "tags": [
+        "php variable",
+        "superglobal"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Mon, 24 Aug 2026 05:04:01 +0000"
+}

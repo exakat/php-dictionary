@@ -1,0 +1,38 @@
+{
+    "id": "ignored-catch",
+    "name": "Ignored Catch",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/ignored-catch.html",
+    "aliases": [],
+    "description": "``catch`` does not check that the caught exception exists. It simply checks that the raised exception match the class name, its parent or its interface. When a typo happens in the class name or the class does not exists, the clause fails every time. ",
+    "code": "<?php\n\n    try {\n        callSomeMethod();\n    } catch (\\UndefinedException $e) {\n        die('This never happens');\n    } catch (\\Exception) {\n        // process the error here\n    }\n\n?>",
+    "documentation": "https://www.php.net/manual/en/language.exceptions.php",
+    "related": [
+        "try-catch",
+        "catch"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.exceptions.php"
+        }
+    ],
+    "tags": [
+        "classic bug",
+        "noSeeAlso"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Fri, 18 Sep 2026 09:30:59 +0000"
+}

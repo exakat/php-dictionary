@@ -1,0 +1,57 @@
+{
+    "id": "outeriterator",
+    "name": "OuterIterator",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/outeriterator.html",
+    "aliases": [],
+    "description": "``OuterIterator`` is a PHP interface that extends ``Iterator`` to represent iterators that wrap other iterators. It adds a single method, ``getInnerIterator()``, which returns the inner iterator being wrapped.\n\n``OuterIterator`` is the foundation of PHP's iterator decoration pattern: classes such as ``IteratorIterator``, ``FilterIterator``, ``MapIterator``, ``LimitIterator``, and ``RecursiveIteratorIterator`` all implement it.\n\nImplementing ``OuterIterator`` allows building custom iterator decorators that add behaviour, such as filtering, mapping, or limiting, on top of any existing ``Traversable`` without modifying the wrapped object.",
+    "code": "<?php\n\n    class DoubleValueIterator extends IteratorIterator implements OuterIterator\n    {\n        public function current(): mixed\n        {\n            return parent::current() * 2;\n        }\n    }\n    \n    $array = new ArrayIterator([1, 2, 3, 4]);\n    $doubled = new DoubleValueIterator($array);\n    \n    foreach ($doubled as $value) {\n        echo $value . PHP_EOL; // 2, 4, 6, 8\n    }\n\n?>",
+    "documentation": "https://www.php.net/manual/en/class.outeriterator.php",
+    "related": [
+        "iterator",
+        "iteratoraggregate",
+        "recursiveiterator",
+        "spl",
+        "traversable",
+        "php-interface"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/class.outeriterator.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Standard PHP Library From A to Z",
+            "url": "https://tuhinbepari.medium.com/standard-php-library-from-a-to-z-9bcb4d7b3aa8"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Using SPL Iterators, Part 1",
+            "url": "https://www.sitepoint.com/using-spl-iterators-1/"
+        }
+    ],
+    "tags": [
+        "interface",
+        "iterator",
+        "spl"
+    ],
+    "packagist": [],
+    "extensions": [
+        "spl"
+    ],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "5.1",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Fri, 07 Aug 2026 09:46:20 +0000"
+}

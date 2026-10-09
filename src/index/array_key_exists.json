@@ -1,0 +1,44 @@
+{
+    "id": "array_key_exists",
+    "name": "array_key_exists()",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/array_key_exists.html",
+    "aliases": [],
+    "description": "``array_key_exists()`` reports if a key has been assigned any value in an array. It reports true if it is, and false otherwise.\n\n``array_key_exists()`` is often compared to ``isset()``, although they have differences: ``array_key_exists()`` returns true as long as the index exists, while ``isset()`` also checks the corresponding value for not being null.\n\nUnlike its name, ``array_key_exists()`` works on array as well as objects. This is a deprecated feature, since PHP 8.0.",
+    "code": "<?php\n\n    $array = ['a' => 1, 2, 3 => 3, 4 => null];\n    var_dump(array_key_exists('a'  , $array));    // true\n    var_dump(array_key_exists(1    , $array));    // false (0 => 2)\n    var_dump(array_key_exists('3'  , $array));    // true\n    var_dump(array_key_exists(4    , $array));    // true\n    var_dump(array_key_exists('abc', $array));    // false\n\n?>",
+    "documentation": "https://www.php.net/manual/en/function.array-key-exists.php",
+    "related": [
+        "isset",
+        "compiler-optimized-function"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/function.array-key-exists.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "isset() vs array_key_exists()",
+            "url": "https://medium.com/@erlandmuchasaj/isset-vs-array-key-exists-b5b054f63eea"
+        }
+    ],
+    "tags": [
+        "native function"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "Php/ArrayKeyExistsWithObjects",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": {
+        "array_key_exists(): Argument #2 ($array) must be of type array, %s given": "array_key_exists():-argument-#2-($array)-must-be-of-type-array,-%s-given"
+    },
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Fri, 18 Sep 2026 15:29:05 +0000"
+}

@@ -1,0 +1,42 @@
+{
+    "id": "closedgeneratorexception",
+    "name": "ClosedGeneratorException",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/closedgeneratorexception.html",
+    "aliases": [],
+    "description": "A ``ClosedGeneratorException`` is an exception that occurs when the code tries to perform an operation on a generator that has already been closed. Generators iterates over a set of values without needing to create an array to hold all the values in memory at once.\n\nOnce a generator is closed, it cannot be used for further iteration. Any attempt to use methods like ``next()``, ``send()``, or ``throw()`` on a closed generator throws a ``ClosedGeneratorException``, to indicate that the generator is no longer available for iteration.",
+    "code": "<?php\n\n// Code example from Ben Peachey (see external links)\n// Adapted for presentation purposes\n\nclass CustomException extends Exception {}\n\nfunction from() {\n    yield 1;\n    throw new CustomException();\n}\n\nfunction gen($gen) {\n    yield from $gen;\n}\n\n$gen = from();\n$gens[] = gen($gen);\n$gens[] = gen($gen);\n\nforeach ($gens as $g) {\n    $g->current(); // init.\n}\n\nforeach ($gens as $i => $g) {\n    try {\n        $g->current();\n        $g->next();\n    } catch (\\ClosedGeneratorException $e) {\n        print 'Caught ClosedGeneratorException'.PHP_EOL;\n    } catch (\\Exception $e) {\n        print 'Caught Generic Exception'.PHP_EOL;\n    }\n}\n\n?>",
+    "documentation": "https://www.php.net/manual/en/class.closedgeneratorexception.php",
+    "related": [
+        "yield-generator",
+        "foreach"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/class.closedgeneratorexception.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Explaining the ClosedGeneratorException in PHP",
+            "url": "https://gist.github.com/Potherca/a74a14e698158d927f9d32c4b5f4e303"
+        }
+    ],
+    "tags": [
+        "exception"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Mon, 07 Sep 2026 09:09:10 +0000"
+}

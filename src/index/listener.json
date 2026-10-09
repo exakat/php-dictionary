@@ -1,0 +1,60 @@
+{
+    "id": "listener",
+    "name": "Listener",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/listener.html",
+    "aliases": [
+        "event-listener",
+        "subscriber"
+    ],
+    "description": "A listener, or event listener, also called a subscriber in pub/sub terminology, is a callable function that is registered to handle a specific event or message when it is dispatched. Listeners are a core concept in event-driven and pub/sub architectures.\n\nListeners are commonly registered with an event dispatcher. When an event is dispatched, the dispatcher calls all registered listeners for that event type, passing the event object as an argument. Listeners may be prioritised, stoppable, or asynchronous.\n\nPSR-14 standardises the event dispatcher interface, making listeners interoperable across frameworks. Symfony's EventDispatcher, Laravel's Events system, and many other frameworks implement this pattern.\n\nA listener differs from an observer in that listeners are usually registered externally on a dispatcher, while observers are typically attached directly to the subject object they watch.",
+    "code": "<?php\n\n// PSR-14 compliant listener\nuse App\\Event\\UserRegisteredEvent;\n\nfinal class SendWelcomeEmailListener\n{\n    public function __invoke(UserRegisteredEvent $event): void\n    {\n        $user = $event->getUser();\n        // send welcome email to $user->getEmail()\n    }\n}\n\n// Registering the listener (Symfony example)\n// In services.yaml:\n// App\\Listener\\SendWelcomeEmailListener:\n//     tags:\n//         - { name: kernel.event_listener, event: App\\Event\\UserRegisteredEvent }\n\n?>",
+    "documentation": "https://www.php-fig.org/psr/psr-14/",
+    "related": [
+        "pubsub",
+        "event-driven",
+        "message-bus",
+        "observer",
+        "decoupling",
+        "callback",
+        "hook"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php-fig.org/psr/psr-14/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Events and Event Listeners",
+            "url": "https://symfony.com/doc/current/event_dispatcher.html"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Laravel Events",
+            "url": "https://laravel.com/docs/events"
+        }
+    ],
+    "tags": [
+        "architecture",
+        "messaging",
+        "psr"
+    ],
+    "packagist": [
+        "symfony/event-dispatcher",
+        "league/event"
+    ],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sun, 30 Aug 2026 14:48:50 +0000"
+}

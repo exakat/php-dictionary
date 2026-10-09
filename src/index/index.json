@@ -1,0 +1,51 @@
+{
+    "id": "index",
+    "name": "Index",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/index.html",
+    "aliases": [
+        "indices"
+    ],
+    "description": "An index, plural indices, may be several things:\n\n+ An identifier in an array\n+ A optimized datastructure for a database, SQL or key-value store\n+ A optimized datastructure for fast search operations\n\nAn indexed array is an array whose index are integers. This distinguish them from the associative arrays, whose keys are strings.",
+    "code": "",
+    "documentation": "https://www.php.net/manual/en/language.types.array.php",
+    "related": [
+        "index-array",
+        "index-sql",
+        "associative-array"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.types.array.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Associative array (Wikipedia)",
+            "url": "https://en.wikipedia.org/wiki/Associative_array"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "array_key_exists",
+            "url": "https://www.php.net/manual/en/function.array-key-exists.php"
+        }
+    ],
+    "tags": [
+        "concept",
+        "disambiguation"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sun, 30 Aug 2026 11:40:38 +0000"
+}

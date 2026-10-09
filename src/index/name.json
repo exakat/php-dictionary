@@ -1,0 +1,53 @@
+{
+    "id": "name",
+    "name": "Name",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/name.html",
+    "aliases": [],
+    "description": "A name is a generic coding concept: it is a short and human handle to designate a larger or variable structure. \n\nPHP assigns names to many coding structures: variables, constants, functions, classes, interfaces, traits, enumerations, methods, properties, goto labels. Most of these have also an anonymous version, where the same structure may be created without a name. \n\nNames usually require to be unique within a piece of code: this is the case for structures which have a definition, such as a class or a function. To avoid such conflict, it is recommended to use namespaces.\n\nPHP are famously very flexible with names: they usually accept a letter, underscore as first element, then letters, numbers and underscores, as much as needed. They also accept any unicode above code 127, or 0x80, which means that emojis, characters, symbols and many languages are usable as part of a name.\n",
+    "code": "<?php\n\n    // here, trumpet is the name of a function\n    function trumpet() {}\n\n    // the name is used to call the function\n    trumpet();\n\n?>",
+    "documentation": "https://www.php.net/manual/en/language.namespaces.php",
+    "related": [
+        "namespace",
+        "anonymous",
+        "case-sensitivity",
+        "namespace-name",
+        "structure",
+        "word-combinaison",
+        "close-naming",
+        "naming-conflict",
+        "reserved-name",
+        "semantics"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.namespaces.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "When PHP Meet Unicode: A Tour of Identifiers Beyond ASCII",
+            "url": "https://www.exakat.io/when-php-meet-unicode-a-tour-of-identifiers-beyond-ascii/"
+        }
+    ],
+    "tags": [
+        "concept",
+        "name",
+        "semantics",
+        "readability"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+}

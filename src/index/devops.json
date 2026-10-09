@@ -1,0 +1,59 @@
+{
+    "id": "devops",
+    "name": "DevOps",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/devops.html",
+    "aliases": [
+        "dev-ops",
+        "development-operations"
+    ],
+    "description": "DevOps, or development operations, is a set of cultural practices, tools, and methodologies that combine software development, the Dev part and IT operations, the Ops part, to shorten the systems development lifecycle and deliver high-quality software continuously.\n\nKey DevOps practices relevant to PHP projects include:\n\n+ Continuous Integration, CI: automatically building and testing code on every push\n+ Continuous Deployment, CD: automatically deploying tested code to production\n+ Infrastructure as Code, IaC: managing servers, containers, and services via version-controlled configuration files\n+ Containerisation: packaging PHP applications in Docker containers for consistent environments.\n+ Monitoring and observability: tracking application performance, errors, and uptime.\n+ Automated testing: unit, integration, and end-to-end tests run in the pipeline.",
+    "code": "",
+    "documentation": "https://about.gitlab.com/topics/devops/",
+    "related": [
+        "ci",
+        "deploy",
+        "docker-container",
+        "tool",
+        "monitoring",
+        "test",
+        "git",
+        "sdlc",
+        "iac",
+        "docker",
+        "timing-attack",
+        "build",
+        "sla"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://about.gitlab.com/topics/devops/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "GitHub Actions for PHP",
+            "url": "https://github.com/shivammathur/setup-php"
+        }
+    ],
+    "tags": [
+        "sdlc",
+        "tool"
+    ],
+    "packagist": [
+        "deployer/deployer"
+    ],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 17 Sep 2026 09:06:57 +0000"
+}

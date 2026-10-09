@@ -1,0 +1,47 @@
+{
+    "id": "subnamespace",
+    "name": "Subnamespaces",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/subnamespace.html",
+    "aliases": [],
+    "description": "In PHP, there is no such notion as subnamespaces. There are namespaces, which may share the same prefix than other namespaces: yet, any collaboration stops at the similarity level. \n\nIn particular, the fallback mechanisms for functions applies to the current namespace, and then, the global, rather than any intermediate namespace.\n\nThe analogy between PHP namespaces and a file system does not applies to subnamespaces.",
+    "code": "<?php\n\n    // also known at the global namespace\n    namespace {\n        function trumpet() {}\n    }\n\n    namespace Herd {\n        function trumpet() {}\n    }\n\n    // sometimes refered to as subnamespace\n    namespace Herd\\Waterhole {\n\n        // This calls the global namespace definition,\n        // not the one in Herd\n        trumpet();\n    }\n\n?>",
+    "documentation": "https://www.php.net/manual/en/language.namespaces.rationale.php",
+    "related": [
+        "namespace",
+        "sub"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.namespaces.rationale.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Namespaces",
+            "url": "https://www.php.net/manual/en/language.namespaces.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP: Using Namespaces: Basics",
+            "url": "https://www.php.net/manual/en/language.namespaces.basics.php"
+        }
+    ],
+    "tags": [
+        "concept"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+}

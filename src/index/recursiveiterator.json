@@ -1,0 +1,53 @@
+{
+    "id": "recursiveiterator",
+    "name": "RecursiveIterator",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/recursiveiterator.html",
+    "aliases": [],
+    "description": "The ``RecursiveIterator`` interface is an interface that is able to iterate through nested iterators.\n\nThe ``RecursiveIterator`` is implemented by the ``RecursiveArrayIterator``, and ``RecursiveDirectoryIterator``.",
+    "code": "",
+    "documentation": "https://www.php.net/manual/en/class.recursiveiteratoriterator.php",
+    "related": [
+        "iterator",
+        "spl",
+        "recursivearrayiterator",
+        "recursivedirectoryiterator",
+        "directoryiterator",
+        "outeriterator",
+        "php-interface",
+        "recursivetreeiterator"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/class.recursiveiteratoriterator.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP: Doing Recursion With Recursive IteratorIterators",
+            "url": "https://dev.to/gbhorwood/php-doing-recursion-with-recursive-iteratoriterators-fj1"
+        }
+    ],
+    "tags": [
+        "php interface",
+        "iterator"
+    ],
+    "packagist": [],
+    "extensions": [
+        "spl"
+    ],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Tue, 18 Aug 2026 05:31:24 +0000"
+}

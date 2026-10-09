@@ -1,0 +1,47 @@
+{
+    "id": "sha",
+    "name": "Secure Hash Algorithm (SHA)",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/sha.html",
+    "aliases": [],
+    "description": "Secure Hash Algorithm, or SHA, is a family of cryptographic hash functions used to turn data into a fixed-length string called a hash or digest.\n\nKey properties\n\n+ Deterministic: same input gives the same output\n+ One-way: it is not possible to go back to the original data, unless may be with brute-force or rainbow tables\n+ Collision resistant: it is hard to find two inputs with the same hash\n+ Fast to compute\n\nCommon SHA versions\n\n+ SHA-1: a 160-bit hash. It is now considered insecure and should not be used anymore\n+ SHA-2:\n\n  . SHA-224\n  . SHA-256, the most common\n  . SHA-384\n  . SHA-512\n\n+ SHA-3: future version\n\nThe SHA hashes re commonly used for password hashing and storage, although it is replaced by more modern methods, like bcrypt, file integrity check, signature, git commits with SHA-1.",
+    "code": "<?php\n\n    // recommended SHA256 for password\n    password_hash($password, PASSWORD_DEFAULT);\n\n    // raw SHA256 \n    echo hash('sha256', 'The quick brown fox jumped over the lazy dog.');\n    \n\n?>",
+    "documentation": "https://www.php.net/manual/en/function.hash.php",
+    "related": [
+        "git",
+        "hash",
+        "checksum",
+        "crack",
+        "revision"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/function.hash.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "SHA1",
+            "url": "https://datatracker.ietf.org/doc/html/rfc3174"
+        }
+    ],
+    "tags": [
+        "cryptography",
+        "algorithm",
+        "rfc"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 09 Jul 2026 09:10:05 +0000"
+}

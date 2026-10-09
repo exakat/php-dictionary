@@ -1,0 +1,64 @@
+{
+    "id": "collection",
+    "name": "Collection",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/collection.html",
+    "aliases": [],
+    "description": "A collection is an array in which only elements of the same type can be stored.\n\nCollections may be build with array, or dedicated classes. There is native no support for native PHP collections, although there are several packages which provide such features.",
+    "code": "",
+    "documentation": "https://en.wikipedia.org/wiki/Collection_%28abstract_data_type%29",
+    "related": [
+        "enum",
+        "hash",
+        "associative-array",
+        "index-array",
+        "array",
+        "map",
+        "generics",
+        "bucket",
+        "datastructure",
+        "ds",
+        "indexed-array",
+        "sequence",
+        "set",
+        "spldoublylinkedlist",
+        "splobjectstorage"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Collection_%28abstract_data_type%29"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Collections \u2014 How to improve your PHP code",
+            "url": "https://medium.com/@pogulailo/collections-how-to-improve-your-php-code-fd319ee52e13"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Illuminate Collections vs PHP Arrays",
+            "url": "https://hackernoon.com/illuminate-collections-vs-php-arrays"
+        }
+    ],
+    "tags": [
+        "data structure"
+    ],
+    "packagist": [
+        "ramsey/collection",
+        "doctrine/collections",
+        "illuminate/collections"
+    ],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Wed, 19 Aug 2026 08:25:59 +0000"
+}

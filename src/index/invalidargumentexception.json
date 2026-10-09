@@ -1,0 +1,41 @@
+{
+    "id": "invalidargumentexception",
+    "name": "InvalidArgumentException",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/invalidargumentexception.html",
+    "aliases": [],
+    "description": "``InvalidArgumentException`` is an ``Exception`` thrown when an argument is not of the expected type. It is a ``LogicException``, and it may be thrown when using SPL classes.",
+    "code": "<?php\n\n    function trumpet(string $a) {}\n\n    // OK\n    trumpet(\"abc\");\n\n    // KO : invalid argument\n    trumpet(12);\n\n?>",
+    "documentation": "https://www.php.net/manual/en/class.invalidargumentexception.php",
+    "related": [
+        "logicexception"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/class.invalidargumentexception.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "How to Handle InvalidArgument Exception in PHP",
+            "url": "https://rollbar.com/blog/php-invalidargumentexception/"
+        }
+    ],
+    "tags": [
+        "exception"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+}

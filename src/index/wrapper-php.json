@@ -1,0 +1,44 @@
+{
+    "id": "wrapper-php",
+    "name": "php://",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/wrapper-php.html",
+    "aliases": [],
+    "description": "The ``php://`` wrapper is a native PHP wrapper, to access ``stdin``, ``stdout`` and ``stderr``. These are the incoming, outgoing and error streams of the executed PHP code.",
+    "code": "<?php\n\n    // display the raw incoming data\n    print_r(file_get_content('php://stdin'));\n\n?>",
+    "documentation": "https://www.php.net/manual/en/class.streamwrapper.php",
+    "related": [
+        "wrapper",
+        "php-wrapper",
+        "php-filter",
+        "protocol"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/class.streamwrapper.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Mastering PHP Wrappers for Web Penetration Testing: A Hacker\u2019s Guide",
+            "url": "https://undercodetesting.com/mastering-php-wrappers-for-web-penetration-testing-a-hackers-guide/"
+        }
+    ],
+    "tags": [
+        "wrapper"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Fri, 07 Aug 2026 14:45:45 +0000"
+}

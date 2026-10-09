@@ -1,0 +1,45 @@
+{
+    "id": "key-value-store",
+    "name": "Key-value Stores",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/key-value-store.html",
+    "aliases": [],
+    "description": "A key value store is a database which stores data like a hash. The server stores values as a collection, and each object is identified with a unique key. \n\nClassic key-value stores include memcache, redis, tokyo-tyrant.",
+    "code": "",
+    "documentation": "https://en.wikipedia.org/wiki/Key%E2%80%93value_database",
+    "related": [
+        "database",
+        "bucket",
+        "document-database",
+        "nosql-database",
+        "storage-system"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Key%E2%80%93value_database"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Php and Redis",
+            "url": "https://developer.redis.com/develop/php/"
+        }
+    ],
+    "tags": [
+        "architecture"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sat, 08 Aug 2026 08:10:54 +0000"
+}

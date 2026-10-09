@@ -1,0 +1,53 @@
+{
+    "id": "bracket",
+    "name": "Bracket",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/bracket.html",
+    "aliases": [],
+    "description": "Bracket is a generic class of characters. \n\nThey include \n\n+ Parenthesis, ``()``, or round brackets\n+ Curly ``{}``, or accolades\n+ Square ``[]``, or brackets\n\nBrackets are a element of the PHP syntax.\n",
+    "code": "<?php\n\n    // curly brackes for block\n    {\n        // square brackets for array syntax\n        $array[1] = 2;\n    }\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Bracket",
+    "related": [
+        "parenthesis",
+        "curly-bracket",
+        "array-curly-braces",
+        "balanced",
+        "bracketless"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Bracket"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Bracket matching",
+            "url": "https://en.wikipedia.org/wiki/Bracket_matching"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP Curly Braces: How and When to Use it?",
+            "url": "https://schoolsofweb.com/php-curly-braces-how-and-when-to-use-it/"
+        }
+    ],
+    "tags": [
+        "disambiguation",
+        "syntax"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Tue, 01 Sep 2026 05:31:03 +0000"
+}

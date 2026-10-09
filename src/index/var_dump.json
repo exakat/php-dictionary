@@ -1,0 +1,49 @@
+{
+    "id": "var_dump",
+    "name": "var_dump()",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/var_dump.html",
+    "aliases": [],
+    "description": "``var_dump()`` displays the information in a variable or any data container. It is a debugging function.\n\n``var_dump()`` is one of the most famous PHP functions. It is often related to ``print_r()`` and ``var_export()``. ",
+    "code": "<?php\n\n    $a = true;\n    var_dump($a);\n    // bool(true)\n\n?>",
+    "documentation": "https://www.php.net/var_dump",
+    "related": [
+        "print_r",
+        "debug_backtrace",
+        "var_export",
+        "debugger"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/var_dump"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP var_dump() Function: Explanation with Examples",
+            "url": "https://www.slingacademy.com/article/php-var-dump-function-explanation-with-examples/"
+        }
+    ],
+    "tags": [
+        "debug",
+        "native function"
+    ],
+    "packagist": [
+        "koriym/printo",
+        "symfony/var-dumper",
+        "spiral/dumper"
+    ],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Tue, 11 Aug 2026 20:58:59 +0000"
+}

@@ -1,0 +1,47 @@
+{
+    "id": "typeerror",
+    "name": "TypeError",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/typeerror.html",
+    "aliases": [],
+    "description": "A type error refers to an error that occurs when there is a mismatch or violation of data types. It typically happens when a function or operation is performed on a value of an incompatible type. PHP is a dynamically typed language, which means that variable types can change during runtime. However, certain operations and functions expect specific types, and if the actual type doesn't match the expected type, a type error may occur.\n\nIn other situations, PHP applies some type juggling, and automatically convert the type to a suitable type. This is often the case to preserve backward compatibility, when a transparent operation make sense. \n",
+    "code": "<?php\n\nfunction trumpet(int $i) {  }\n\ntry {\n    trumpet('5');\n} catch (\\TypeError $t) {\n    print 'Wrong type of argument sent to trumpet()';\n}\n\n// PHP convert the integer 12 to the string '12', to allow the concatenation to proceed. \n$number = 12;\nprint \"There are \".$number.\" apple in the tree.\";\n\n\n?>",
+    "documentation": "https://www.php.net/manual/en/class.typeerror.php",
+    "related": [
+        "error",
+        "addition",
+        "intersection-type",
+        "type-checking",
+        "type-declaration-property"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/class.typeerror.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Type Juggling",
+            "url": "https://www.php.net/manual/en/language.types.type-juggling.php"
+        }
+    ],
+    "tags": [
+        "error",
+        "exception",
+        "native error"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "7.0",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+}

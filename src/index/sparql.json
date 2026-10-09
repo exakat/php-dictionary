@@ -1,0 +1,56 @@
+{
+    "id": "sparql",
+    "name": "SPARQL",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/sparql.html",
+    "aliases": [],
+    "description": "``SPARQL`` is a query language for RDF, Resource Description Framework, data stores.\n\n``SPARQL`` is used to query and manipulate data stored in RDF format, which represents information as subject-predicate-object triples.\n\nPHP has libraries for interacting with ``SPARQL`` endpoints and RDF databases.",
+    "code": "<?php\n\n    use BorderCloud\\SPARQL\\SparqlClient;\n    \n    $endpoint = \"https://query.example.com/sparql\";\n    $sc = new SparqlClient();\n    $sc->setEndpointRead($endpoint);\n    //$sc->setMethodHTTPRead(\"GET\");\n    $q = \"select *  where {?x ?y ?z.} LIMIT 5\";\n    $rows = $sc->query($q, 'rows');\n    $err = $sc->getErrors();\n    if ($err) {\n        print_r($err);\n        throw new Exception(print_r($err, true));\n    }\n    \n    foreach ($rows[\"result\"][\"variables\"] as $variable) {\n        printf(\"%-20.20s\", $variable);\n        echo '|';\n    }\n    echo \"\\n\";\n\n?>",
+    "documentation": "https://www.w3.org/TR/sparql11-overview/",
+    "related": [
+        "query",
+        "rdf-triple-store",
+        "rdf",
+        "graph-database",
+        "nosql-database"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.w3.org/TR/sparql11-overview/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "SPARQL 1.1 Query Language",
+            "url": "https://www.w3.org/TR/sparql11-query/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "SPARQL Query Language 1.2",
+            "url": "https://www.w3.org/TR/sparql12-query/"
+        }
+    ],
+    "tags": [
+        "query language",
+        "database"
+    ],
+    "packagist": [
+        "easyrdf/easyrdf",
+        "madbob/sparqler"
+    ],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sat, 29 Aug 2026 07:36:25 +0000"
+}

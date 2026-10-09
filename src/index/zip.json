@@ -1,0 +1,49 @@
+{
+    "id": "zip",
+    "name": "zip Extension",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/zip.html",
+    "aliases": [],
+    "description": "The zip extension provides functions to handle the zip compression format. It reads, writes and accesses arbitrary part of files. It also provides a compression format for the output of PHP.\n\nThe functions, defined by this extension, are deprecated, and shall be removed in version 9. It is recommended to use the OOP API, and its ``ZipArchive`` class.",
+    "code": "<?php\n\n    // Example from the PHP manual \n    // https://www.php.net/manual/en/zip.examples.php\n    \n    $zip = new ZipArchive();\n    $filename = \"./test112.zip\";\n    \n    if ($zip->open($filename, ZipArchive::CREATE)!==TRUE) {\n        exit(\"cannot open <$filename>\\n\");\n    }\n    \n    $zip->addFromString(\"testfilephp.txt\" . time(), \"#1 This is a test string added as testfilephp.txt.\\n\");\n    $zip->addFromString(\"testfilephp2.txt\" . time(), \"#2 This is a test string added as testfilephp2.txt.\\n\");\n    $zip->addFile($thisdir . \"/too.php\",\"/testfromfile.php\");\n    echo \"numfiles: \" . $zip->numFiles . \"\\n\";\n    echo \"status:\" . $zip->status . \"\\n\";\n    $zip->close();\n\n?>",
+    "documentation": "https://www.php.net/manual/en/book.zip.php",
+    "related": [
+        "zlib",
+        "bzip2"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/book.zip.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "How To Upload And Zip Single Or Multiple Files in PHP",
+            "url": "https://medium.com/nerd-for-tech/how-to-upload-and-zip-single-or-multiple-files-in-php-4a6fcb8bbe02"
+        }
+    ],
+    "tags": [
+        "extension",
+        "format"
+    ],
+    "packagist": [],
+    "extensions": [
+        "zip"
+    ],
+    "analyzers": [
+        "Extensions/Extzip"
+    ],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Mon, 31 Aug 2026 17:32:15 +0000"
+}

@@ -1,0 +1,50 @@
+{
+    "id": "spldoublylinkedlist",
+    "name": "SplDoublyLinkedList",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/spldoublylinkedlist.html",
+    "aliases": [],
+    "description": "The ``SplDoublyLinkedList`` class is an implementation of the concept of doubly linked list. Each of the elements of the list keeps a reference on the previous and the following element in the list. A doubly linked list allows traversal forward and backward, though insertions and removals cost more to execute.",
+    "code": "",
+    "documentation": "https://www.php.net/manual/en/class.spldoublylinkedlist.php",
+    "related": [
+        "spl",
+        "datastructure",
+        "splstack",
+        "collection",
+        "iterator",
+        "deque"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/class.spldoublylinkedlist.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Doubly Linked List",
+            "url": "https://en.wikipedia.org/wiki/Doubly_linked_list"
+        }
+    ],
+    "tags": [
+        "spl"
+    ],
+    "packagist": [],
+    "extensions": [
+        "spl"
+    ],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Mon, 15 Jun 2026 11:03:59 +0000"
+}

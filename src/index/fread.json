@@ -1,0 +1,59 @@
+{
+    "id": "fread",
+    "name": "fread()",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/fread.html",
+    "aliases": [],
+    "description": "``fread()`` is a PHP native function that reads up to ``length`` bytes from the file pointer referenced by ``stream``. It is one of the fundamental file reading functions.\n\nKey characteristics:\n\n+ Returns a string of up to ``length`` bytes, or ``false`` on failure\n+ Reads binary-safe data, making it suitable for both text and binary files\n+ Stops reading when EOF, end of file, is reached or the specified length is reached\n+ For character encodings like UTF-8, reading by byte length may split multi-byte characters; consider using ``fgetc()`` or ``fgets()`` for text files\n\n``fread()`` is typically used after ``fopen()`` and should be paired with ``fclose()`` to free resources. For reading entire files at once, ``file_get_contents()`` is more convenient. For line-by-line reading, ``fgets()`` is preferred.",
+    "code": "<?php\n\n    $fp = fopen('data.txt', 'r');\n    if ($fp) {\n        // Read first 100 bytes\n        $content = fread($fp, 100);\n        echo $content;\n\n        // Read remaining content\n        $remaining = fread($fp, filesize('data.txt') - 100);\n        echo $remaining;\n\n        fclose($fp);\n    }\n\n?>",
+    "documentation": "https://www.php.net/manual/en/function.fread.php",
+    "related": [
+        "fopen",
+        "fgets",
+        "fgetc",
+        "file_get_contents",
+        "file",
+        "stream",
+        "fclose",
+        "fwrite",
+        "fseek",
+        "ftell",
+        "rewind",
+        "readable",
+        "binary",
+        "resource-leak"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/function.fread.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Filesystem functions",
+            "url": "https://www.php.net/manual/en/ref.filesystem.php"
+        }
+    ],
+    "tags": [
+        "function",
+        "file"
+    ],
+    "packagist": [],
+    "extensions": [
+        "standard"
+    ],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Wed, 15 Jul 2026 13:52:13 +0000"
+}

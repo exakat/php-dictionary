@@ -1,0 +1,54 @@
+{
+    "id": "shutdown",
+    "name": "Shutdown",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/shutdown.html",
+    "aliases": [
+        "termination"
+    ],
+    "description": "Shutdown is the final phase of a PHP request lifecycle, when the engine tears down everything that was set up to run the script.\n\nIt happens when the script reaches its natural end, or when it is interrupted early with ``exit()`` or ``die()``. It also happens after an uncaught error or a fatal error, since those stop the normal execution flow.\n\nDuring shutdown, PHP calls any function registered with ``register_shutdown_function()``, then destroys the remaining objects, triggering their ``__destruct()`` method. Output buffers are flushed, and resources like open files or database connections that were not explicitly closed are released by the engine.\n\nAt the engine level, shutdown is actually split in two steps: ``RSHUTDOWN``, which cleans up the current request, and ``MSHUTDOWN``, which unloads the extensions when the whole PHP process ends. Userland code, such as shutdown functions and destructors, only runs during ``RSHUTDOWN``.\n\nShutdown is also the only moment when a fatal error may still be detected and logged, using ``error_get_last()`` inside a registered shutdown function, since such errors bypass regular error handlers.",
+    "code": "<?php\n\n    register_shutdown_function(function () {\n        $error = error_get_last();\n        if ($error !== null && $error['type'] === E_ERROR) {\n            error_log($error['message']);\n        }\n    });\n\n    class Connection {\n        function __destruct() {\n            echo 'Connection closed', PHP_EOL;\n        }\n    }\n\n    $db = new Connection();\n\n?>",
+    "documentation": "https://www.php.net/manual/en/function.register-shutdown-function.php",
+    "related": [
+        "shutdown-function",
+        "destructor",
+        "exit",
+        "lifecycle",
+        "execution",
+        "garbage-collection"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/function.register-shutdown-function.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Learning the PHP lifecycle",
+            "url": "https://www.phpinternalsbook.com/php7/extensions_design/php_lifecycle.html"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "How to catch a fatal error in PHP",
+            "url": "https://www.php.net/manual/en/function.error-get-last.php"
+        }
+    ],
+    "tags": [
+        "concept",
+        "lifecycle"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sat, 08 Aug 2026 08:10:54 +0000"
+}

@@ -1,0 +1,56 @@
+{
+    "id": "concatenation",
+    "name": "Concatenation .",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/concatenation.html",
+    "aliases": [
+        "concat",
+        "dot",
+        "."
+    ],
+    "description": "Concatenation is the PHP feature that appends two strings together, to make a third, longer one.\n\nConcatenation is also achieved with interpolation, inside a string; by calling echo, multiple times or with multiple arguments; by using the ``join()`` function.\n\nConcatenation is done with the dot operator ``.``.",
+    "code": "<?php\n\n    $a = \"world\";\n    $b = \"Hello \";\n    echo $b . $a; \n    // displays Hello world\n\n?>",
+    "documentation": "https://www.php.net/manual/en/language.operators.string.php",
+    "related": [
+        "string",
+        "interpolation",
+        "heredoc",
+        "__tostring",
+        "implode",
+        "operator"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.operators.string.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "All String Concatenations in PHP",
+            "url": "https://www.exakat.io/en/all-string-concatenations-in-php/"
+        }
+    ],
+    "tags": [
+        "feature",
+        "concatenation",
+        "token",
+        "punctuation",
+        "character"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Mon, 14 Sep 2026 17:07:09 +0000"
+}

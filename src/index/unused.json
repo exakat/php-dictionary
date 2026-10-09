@@ -1,0 +1,45 @@
+{
+    "id": "unused",
+    "name": "Unused",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/unused.html",
+    "aliases": [],
+    "description": "Unused is a state of a structure. It has been declared, defined or created, but it is not used, called, read. This is a characteristic of dead code.\n\nBeing unused happens to constants, variables, parameters, properties, methods, classes, traits, interfaces, use expressions.\n\nIt may also happen to results: some piece of data is calculated, returned, but then, not used. This often leads to a slower execution.\n\nIt also happens to propagate: removing an unused function may actually create another unused function, which was only called by the first one. \n",
+    "code": "<?php\n\n    const A = 1;\n    const B = 2;\n\n    echo A;\n\n    // B is defined but not used\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Dead_code",
+    "related": [
+        "used",
+        "useless",
+        "propagation"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Dead_code"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Psalm: UnusedClass",
+            "url": "https://psalm.dev/docs/running_psalm/issues/UnusedClass/"
+        }
+    ],
+    "tags": [
+        "concept",
+        "dead code",
+        "static analysis"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Wed, 19 Aug 2026 06:49:24 +0000"
+}

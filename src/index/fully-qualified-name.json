@@ -1,0 +1,55 @@
+{
+    "id": "fully-qualified-name",
+    "name": "Fully Qualified Name",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/fully-qualified-name.html",
+    "aliases": [
+        "fqn",
+        "fqcn"
+    ],
+    "description": "A fully qualified name, or ``FQN``, or a fully qualified class name, ``FQCN``, is a unique identifier for the PHP name of a constant, class, trait, interface, enum or function. A fully qualified name includes its namespace name.\n\nPHP names may be fully qualified, unqualified or relative.\n\nFully qualified names are usually considered hard to read, and are shortened by using the ``use`` import keyword.\n",
+    "code": "<?php\n\n    namespace Savanna {\n        const HABITAT = 1;\n\n        function trumpet() {\n            // This is a local name: the namespace Savanna is optional.\n            // The fully qualified name is \\Savanna\\HABITAT;\n            echo HABITAT;\n\n            // This is a fully qualified name\n            echo \\Savanna\\HABITAT;\n        }\n    }\n\n?>",
+    "documentation": "https://www.php.net/manual/en/language.namespaces.rules.php",
+    "related": [
+        "use",
+        "namespace",
+        "relative-types",
+        "absolute-value",
+        "absolute",
+        "identifier",
+        "relative"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.namespaces.rules.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Namespaces",
+            "url": "https://www.php.net/manual/en/language.namespaces.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Using namespaces: Aliasing/Importing",
+            "url": "https://www.php.net/manual/en/language.namespaces.importing.php"
+        }
+    ],
+    "tags": [
+        "namespace"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "5.3",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+}

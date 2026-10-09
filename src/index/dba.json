@@ -1,0 +1,47 @@
+{
+    "id": "dba",
+    "name": "Database Abstraction Layer (DBA) Extension",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/dba.html",
+    "aliases": [],
+    "description": "The Database Abstraction Layer, or DBA, extension provides a unified and consistent programming interface for interacting with various key-value database systems, especially those that follow the Berkeley DB-style architecture. This extension allows developers to perform database operations like reading, writing, updating, and deleting records using the same set of functions, regardless of the underlying database type. It simplifies the process of working with different flat-file database formats by abstracting away their individual APIs, making the code more portable and easier to maintain when switching between supported database engines like ``DBM``, ``GDBM``, or ``Berkeley DB``.",
+    "code": "<?php\n\n// Example from the PHP manual\n\n$id = dba_open('/tmp/test.db', \"\\n\", 'db2');\n\nif (!$id) {\n    echo \"dba_open failed\\n\";\n    exit;\n}\n\ndba_replace('key', 'This is an example!', $id);\n\nif (dba_exists('key', $id)) {\n    echo dba_fetch('key', $id);\n    dba_delete('key', $id);\n}\n\ndba_close($id);\n?>",
+    "documentation": "https://www.php.net/manual/en/book.dba.php",
+    "related": [
+        "database",
+        "oracle"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/book.dba.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "A Comprehensive Guide to the PHP DBA Library for Database Abstraction",
+            "url": "https://reintech.io/blog/a-comprehensive-guide-to-php-dba-library-for-database-abstraction"
+        }
+    ],
+    "tags": [
+        "extension",
+        "acronym"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [
+        "Extensions/Extdba"
+    ],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Tue, 16 Jun 2026 15:33:27 +0000"
+}

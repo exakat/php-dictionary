@@ -1,0 +1,46 @@
+{
+    "id": "disable-classes",
+    "name": "Disable Classes",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/disable-classes.html",
+    "aliases": [],
+    "description": "This directive disables the provided list of classes in the ``php.ini``.\n\nOnce disabled, the classes may be created again, via an extension or in the custom PHP code. Custom classes may still be created and used.",
+    "code": "",
+    "documentation": "https://www.php.net/manual/en/ini.core.php#ini.disable-classes",
+    "related": [
+        "disable-functions",
+        "php.ini",
+        "auto_prepend_file"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/ini.core.php#ini.disable-classes"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP RFC: Remove disable_classes INI setting",
+            "url": "https://wiki.php.net/rfc/remove_disable_classes"
+        }
+    ],
+    "tags": [
+        "php.ini",
+        "rfc"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [
+        "Security/CantDisableClass"
+    ],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sat, 08 Aug 2026 08:10:54 +0000"
+}

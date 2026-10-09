@@ -1,0 +1,51 @@
+{
+    "id": "referential-integrity",
+    "name": "Referential Integrity",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/referential-integrity.html",
+    "aliases": [],
+    "description": "Referential integrity is a database property guaranteeing that a reference from one row to another always points to a row that actually exists. It is enforced by foreign key constraints: the database refuses to insert a row that references a missing parent, and refuses to delete, or update, a parent row while dependent rows still reference it, unless a cascade rule is declared.\n\nWhen referential integrity is disabled, or bypassed, for example by turning off foreign key checks to speed up a bulk import, orphaned rows can accumulate silently: a product referencing a deleted category, an order referencing a locale that was never created. Nothing fails loudly, but joins start returning null, or dropping rows, and reports quietly under-count.\n\nReferential integrity is most at risk during data migrations and ETL jobs, where rows are written out of dependency order, or where a lookup used to resolve a reference falls back to null instead of raising an error. Re-enabling and validating constraints after a bulk load is a common way to catch these gaps before they reach production.",
+    "code": "<?php\n\n    // Without referential integrity, a bad reference is written silently\n    $stmt = $pdo->prepare('INSERT INTO orders (customer_id, locale_id) VALUES (?, ?)');\n    $stmt->execute([$customerId, $localeId ?? null]); // null locale_id: silent orphan\n\n    // With a foreign key constraint, this insert would fail loudly instead\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Referential_integrity",
+    "related": [
+        "foreign-key",
+        "database",
+        "migration",
+        "etl",
+        "cascading-failure",
+        "transaction",
+        "validation",
+        "silent"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Referential_integrity"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Master Referential Integrity Best Practices for PHP",
+            "url": "https://moldstud.com/articles/p-master-referential-integrity-best-practices-for-php"
+        }
+    ],
+    "tags": [
+        "database",
+        "concept"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Tue, 04 Aug 2026 11:03:58 +0000"
+}

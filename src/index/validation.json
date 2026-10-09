@@ -1,0 +1,66 @@
+{
+    "id": "validation",
+    "name": "Validation",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/validation.html",
+    "aliases": [
+        "filtering",
+        "check"
+    ],
+    "description": "Validation is the process to check that a data conform to a specific pattern or set of constraints. The data is not modified by a validation process. There are PHP extension and external components to perform validation tasks. \n\nValidation applies to simple values, such as strings or integer; they also apply to larger structures, like XML, JSON or YAML, where the number of simple value is high.\n\nValidation is also called filtering.",
+    "code": "<?php\n\n    if (intval($string) > 0) {\n        print \"The string is an integer\";\n    }\n\n?>",
+    "documentation": "https://www.php.net/manual/en/filter.examples.validation.php",
+    "related": [
+        "sanitation",
+        "parse",
+        "parser",
+        "schema",
+        "specification",
+        "filter",
+        "parse_url",
+        "is_array",
+        "is_bool",
+        "is_int",
+        "is_string",
+        "refinement-type",
+        "etl",
+        "htmlpurifier",
+        "is_float",
+        "is_numeric",
+        "referential-integrity"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/filter.examples.validation.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP Form Validation",
+            "url": "https://www.geeksforgeeks.org/php-form-validation/"
+        }
+    ],
+    "tags": [
+        "concept"
+    ],
+    "packagist": [
+        "respect/validation",
+        "beberlei/assert",
+        "lemmon/validator"
+    ],
+    "extensions": [
+        "filter"
+    ],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Wed, 05 Aug 2026 08:37:31 +0000"
+}

@@ -1,0 +1,61 @@
+{
+    "id": "sealed-class",
+    "name": "Sealed Class",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/sealed-class.html",
+    "aliases": [
+        "sealed-interface",
+        "sealed-hierarchy"
+    ],
+    "description": "A sealed class, or sealed interface, is a class whose set of direct children is restricted and known at compile time. Only explicitly listed classes are allowed to extend it; no other class may do so, even in an external library.\n\nThis makes sealed hierarchies exhaustively enumerable: a compiler can verify that a ``switch`` or pattern match covers every possible subtype, with no catch-all needed.\n\nSealed classes are available in Kotlin ``sealed class``, Java since version 17, ``sealed interface ... permits ...``, Scala 3 ``sealed trait``, and Swift, ``enum`` with associated values serves a similar role. C# has no direct equivalent but approximates it with abstract classes and internal constructors.\n\nPHP has no concept of sealed classes or sealed interfaces. Inheritance cannot be restricted beyond ``final``, which prevents all children class rather than allowing a controlled set.",
+    "code": "<?php\n\n    // PHP has no sealed keyword.\n    // final prevents all children, which is too restrictive.\n    final class Circle {}  // Nothing can extend Circle at all.\n\n    // The sealed pattern must be enforced by convention or static analysis only.\n\n?>",
+    "documentation": "https://www.scala-lang.org/api/3.3.2/scala/caps$$Sealed.html",
+    "related": [
+        "final",
+        "abstract-class",
+        "inheritance",
+        "enum",
+        "pattern-matching",
+        "polymorphism"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.scala-lang.org/api/3.3.2/scala/caps$$Sealed.html"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Kotlin sealed classes",
+            "url": "https://kotlinlang.org/docs/sealed-classes.html"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Java 17 sealed classes JEP 409",
+            "url": "https://openjdk.org/jeps/409"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Scala 3 sealed traits",
+            "url": "https://docs.scala-lang.org/tour/pattern-matching.html#sealed-classes"
+        }
+    ],
+    "tags": [
+        "not supported"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Wed, 02 Sep 2026 16:41:00 +0000"
+}

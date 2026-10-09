@@ -1,0 +1,50 @@
+{
+    "id": "http-headers",
+    "name": "HTTP Request Headers",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/http-headers.html",
+    "aliases": [],
+    "description": "HTTP request headers are sent by the client to the server at the start of an HTTP request. They carry metadata about the client, the requested resource, and the desired response format.\n\nRequest headers are available in the ``$_SERVER`` superglobal with the ``HTTP_`` prefix, e.g., ``$_SERVER['HTTP_ACCEPT']``, or through ``getallheaders()`` for the full list.\n\nCommon request headers include ``Accept``, ``Authorization``, ``Content-Type``, ``User-Agent``, and ``Cookie``.",
+    "code": "<?php\n\n// Read a specific request header\n$userAgent = $_SERVER['HTTP_USER_AGENT'] ?? 'unknown';\n\n// Read all request headers\n$requestHeaders = getallheaders();\n\nforeach ($requestHeaders as $name => $value) {\n    echo \"$name: $value\", PHP_EOL;\n}\n\n?>",
+    "documentation": "https://www.php.net/manual/en/function.getallheaders.php",
+    "related": [
+        "http-header",
+        "http",
+        "headers",
+        "$_server",
+        "http-code",
+        "redirect",
+        "seo"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/function.getallheaders.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Request header",
+            "url": "https://developer.mozilla.org/en-US/docs/Glossary/Request_header"
+        }
+    ],
+    "tags": [
+        "web",
+        "network"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 06 Aug 2026 05:50:47 +0000"
+}

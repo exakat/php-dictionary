@@ -1,0 +1,68 @@
+{
+    "id": "static",
+    "name": "static",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/static.html",
+    "aliases": [],
+    "description": "The ``static`` keyword has several distinct usages.\n\nStatic is one of the three special keywords that are used to access properties or methods from inside the class definition. It relates to the current called class.\n\nStatic is a keyword for methods and properties: they are turned into class elements, and should be reached with the ``::`` syntax, instead of ``->`` or ``?->``.\n\nStatic is a keyword for closures and arrow functions: it prevents the current scope from being included in the closure, thus limiting the number of accessible values.\n\nStatic is a keyword for variables: those variables aren't removed at the end of the method execution and are available at the beginning of the next call.",
+    "code": "<?php\n\n    class Elephpant {\n        private const HABITAT = 1;\n\n        function habitat() {\n            return static::HABITAT;\n\n            // same as \\Elephpant::HABITAT; when the object is of class Elephpant\n            // same as \\AsianElephpant::HABITAT; when the object is of class AsianElephpant\n        }\n    }\n\n    class AsianElephpant extends Elephpant {\n        private const HABITAT = 2;\n    }\n\n?>",
+    "documentation": "https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php",
+    "related": [
+        "parent",
+        "closure",
+        "arrow-function",
+        "variable",
+        "late-static-binding",
+        "child-class",
+        "language-construct",
+        "property",
+        "self",
+        "dynamic",
+        "special-typehint",
+        "native-type",
+        "relative-types",
+        "type-declaration-property",
+        "var"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Stop using \u201cstatic\u201d in PHP",
+            "url": "https://blog.devgenius.io/stop-using-static-in-php-b150527819b2"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "5 usages of static keyword in PHP",
+            "url": "https://www.exakat.io/en/5-usages-of-static-keyword-in-php/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Scope of Variables",
+            "url": "https://jobtensor.com/Tutorial/PHP/en/Variables"
+        }
+    ],
+    "tags": [
+        "disambiguation",
+        "feature"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+}

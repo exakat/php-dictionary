@@ -1,0 +1,61 @@
+{
+    "id": "parquet",
+    "name": "Parquet",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/parquet.html",
+    "aliases": [],
+    "description": "Parquet an open-source, column-oriented data file format designed for efficient data storage and high-performance analytics. \n\nIt optimizes Big Data processing by storing data by column rather than row, allowing for superior compression and faster, targeted queries.\n\nParquet is an Apache Software Foundation format.\n",
+    "code": "",
+    "documentation": "https://parquet.apache.org/",
+    "related": [
+        "csv",
+        "json_decode",
+        "jsonserializable",
+        "serde",
+        "json",
+        "jsonc",
+        "jsonl",
+        "yaml",
+        "toml",
+        "text",
+        "column-database"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://parquet.apache.org/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "php-parquet",
+            "url": "https://github.com/codename-hub/php-parquet"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "What is Parquet?",
+            "url": "https://www.databricks.com/blog/what-is-parquet"
+        }
+    ],
+    "tags": [
+        "folklore",
+        "format"
+    ],
+    "packagist": [
+        "flow-php/parquet"
+    ],
+    "extensions": [
+        "parquet"
+    ],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 09 Jul 2026 09:10:31 +0000"
+}

@@ -1,0 +1,49 @@
+{
+    "id": "constant-case",
+    "name": "Constant Case",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/constant-case.html",
+    "aliases": [],
+    "description": "Constant case, also written ``CONSTANT_CASE``, is a way of writing constant names, without spaces. The rules are:\n\n+ All the letters are set to upper case\n+ Each word is separated from the other by an underscore\n\nConstant case is used for constants, both global and class. It is not used for magic constants, which are case insensitive.\n",
+    "code": "<?php\n\n    const CONSTANT_CASE = 1;\n    \n    class Elephpant {\n        const CLASS_CONSTANT_CASE = 1;\n\n        function trumpet() {\n            echo __METHOD__;\n            echo __method__; // same as above\n        }\n    }\n\n?>",
+    "documentation": "https://stringcase.org/cases/snake/",
+    "related": [
+        "pascal-case",
+        "camel-case",
+        "snake-case",
+        "magic-constant",
+        "class-constant",
+        "constant",
+        "underscore"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://stringcase.org/cases/snake/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "stringcase website",
+            "url": "https://stringcase.org/"
+        }
+    ],
+    "tags": [
+        "convention"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+}

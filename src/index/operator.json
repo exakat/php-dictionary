@@ -1,0 +1,64 @@
+{
+    "id": "operator",
+    "name": "Operators",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/operator.html",
+    "aliases": [],
+    "description": "An operator takes one or more values, or expressions in programming jargon, and yields another value, so that the construction itself becomes an expression.",
+    "code": "<?php\n\n    // not operator, unary\n    $a = !$b;\n    \n    // plus operator\n    $c = $d + 2;\n    \n    // ternary operator\n    $e = $d ? 3 : 2;\n\n?>",
+    "documentation": "https://www.php.net/manual/en/language.operators.php",
+    "related": [
+        "short-tag",
+        "short-syntax",
+        "operator-overloading",
+        "comparison",
+        "operand",
+        "operator-precedence",
+        "precedence",
+        "error-suppression",
+        "instanceof",
+        "integer",
+        "string",
+        "variable",
+        "concatenation",
+        "identical",
+        "noscream",
+        "post-increment",
+        "pre-increment",
+        "ternary"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.operators.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP operators",
+            "url": "https://php-operators.com/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "How to use PHP operators",
+            "url": "https://www.ionos.com/digitalguide/websites/web-development/php-operators/"
+        }
+    ],
+    "tags": [
+        "operator",
+        "feature"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 17 Sep 2026 07:31:51 +0000"
+}

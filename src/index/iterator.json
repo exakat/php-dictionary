@@ -1,0 +1,62 @@
+{
+    "id": "iterator",
+    "name": "Iterator",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/iterator.html",
+    "aliases": [],
+    "description": "An iterator is an object which can be traversed with a ``foreach()`` loop. \n\n``Iterator`` is an interface, which shall be implemented by objects. There are also a list of default iterators in the SPL extension.\n\nAn iterator may be turned into an array, with the ``iterator_to_array()`` function. Arrays may be used as iterator natively, or used as an object with the ``ArrayObject`` class.",
+    "code": "<?php\n\n    class myIterator implements Iterator { /**/ }\n    \n    $it = new myIterator;\n    \n    foreach($it as $key => $value) {\n        var_dump($key, $value);\n        echo \"\\n\";\n    }\n\n?>",
+    "documentation": "https://www.php.net/manual/en/class.iterator.php",
+    "related": [
+        "spl",
+        "traversal",
+        "foreach",
+        "arrayobject",
+        "directoryiterator",
+        "iterator_to_array",
+        "php-interface",
+        "recursiveiterator",
+        "iteratoraggregate",
+        "outeriterator",
+        "recursivearrayiterator",
+        "recursivedirectoryiterator",
+        "seekableiterator",
+        "spldoublylinkedlist",
+        "splfileobject",
+        "splobjectstorage"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/class.iterator.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Modern PHP Developer - Iterator",
+            "url": "https://startutorial.com/view/modern-php-developer-iterator"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Iterator in PHP",
+            "url": "https://refactoring.guru/design-patterns/iterator/php/example"
+        }
+    ],
+    "tags": [
+        "iterator",
+        "interface"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sat, 08 Aug 2026 14:32:00 +0000"
+}

@@ -1,0 +1,48 @@
+{
+    "id": "class-invasion",
+    "name": "Class Invasion",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/class-invasion.html",
+    "aliases": [],
+    "description": "Objects of the same type have access to each others private and protected features, like properties, constants and methods, even though they are not the same instances. \n\nThis means that the host object of a class A can call any method and property on a different object of the same class.\n\nIt also works between siblings class. When the called method is defined in the parent class, protected methods are also accessible that way. \n\nClass invasion works on private and protected methods, properties and constants. \n\nClass invasion doesn't work when running an external closure inside the class.",
+    "code": "<?php\n\n// Example of Host class accessing local object (direct class invasion)\nclass Elephpant {\n    private $p = 'abc';\n    private const HABITAT = 'def';\n\n    private function privateMethod() { echo __METHOD__; }\n\n    function sniff(Elephpant $other) {\n        echo $other->p;\n        echo $other::HABITAT; // also works on constant, though less useful\n    }\n\n    function set($s) {\n        $this->p = $s;\n    }\n\n    function mirrorTest() {\n        // The current object ($this) calls the local object's private method\n        $elephpant = new Elephpant;\n        $elephpant->privateMethod();\n    }\n}\n\n$matriarch = new Elephpant;\n$matriarch->set('xyz');\n\n$calf = new Elephpant;\n$calf->sniff($matriarch);\n// display xyzdef\n\n// class invasion between sibling classes\nclass theParent {\n    // Necessary. Could be abstract too.\n    protected function execute() { echo __METHOD__; }\n}\n\nclass sister extends theParent {\n    // cannot be called outside of a sibling class instance\n    protected function execute() { echo __METHOD__; }\n}\n\nclass brother extends theParent {\n    // calling a sister's class method\n    function greetSibling($sibling) { $sibling->execute(); }\n}\n\n(new brother)->greetSibling(new sister);\n\n?>",
+    "documentation": "https://www.php.net/manual/en/language.oop5.visibility.php#language.oop5.visibility-other-objects",
+    "related": [
+        "class",
+        "visibility"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.oop5.visibility.php#language.oop5.visibility-other-objects"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Invading private properties and methods in PHP",
+            "url": "https://freek.dev/2192-invading-private-properties-and-methods-in-php"
+        }
+    ],
+    "tags": [
+        "class",
+        "feature",
+        "php specific"
+    ],
+    "packagist": [
+        "spatie/invade"
+    ],
+    "extensions": [],
+    "analyzers": [
+        "Classes/ClassInvasion"
+    ],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+}

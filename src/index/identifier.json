@@ -1,0 +1,51 @@
+{
+    "id": "identifier",
+    "name": "Identifier",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/identifier.html",
+    "aliases": [],
+    "description": "An identifier is simply a name used to identify a function, class, enum, interface, trait, method, constant, or class constant. \n\nIdentifiers are subject to certain rules, depending on their usage: for example, ``xor`` may be used as a name for a method, but not for a global constant.\n\nIdentifiers are mentioned in syntax errors, where a string is used while the parser expected another kind of token.\n\nIdentifiers are relative to the current namespace. They may be created by creating one of the supporting structure, such as function, global constant... Their features are related to absolute names, such as ``\\A``, and relative names, such as ``B\\C``, not shown here.\n\nIn the illustration, ``A`` is an identifier for a global constant: it is valid. ``B`` should most probably be a variable, and yields an error.",
+    "code": "<?php\n\n    // A is a valid identifier\n    foreach(A as $b) {}\n\n?>",
+    "documentation": "https://www.php.net/manual/en/language.variables.basics.php",
+    "related": [
+        "fully-qualified-name",
+        "relative-name",
+        "unique-identifier",
+        "uuid"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.variables.basics.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Identifier (Wikipedia)",
+            "url": "https://en.wikipedia.org/wiki/Identifier"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Variable variables",
+            "url": "https://www.php.net/manual/en/language.variables.variable.php"
+        }
+    ],
+    "tags": [
+        "name"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": {
+        "syntax error, unexpected identifier \"%s\", expecting variable": "syntax-error,-unexpected-identifier-\"%s\",-expecting-variable"
+    },
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sun, 16 Aug 2026 07:46:06 +0000"
+}

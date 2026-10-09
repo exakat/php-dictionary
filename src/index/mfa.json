@@ -1,0 +1,65 @@
+{
+    "id": "mfa",
+    "name": "Multi-Factor Authentication (MFA)",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/mfa.html",
+    "aliases": [
+        "two-factor-authentication",
+        "2fa",
+        "multi-factor"
+    ],
+    "description": "Multi-Factor Authentication, MFA, also called two-factor authentication when exactly two factors are used, is a security mechanism that requires a user to provide two or more independent verification factors before access is granted. The three classical factors are:\n\n+ Something known: a password or PIN.\n+ Something possessed: a hardware token, authenticator app, ``TOTP``/``HOTP``, or ``SMS`` code.\n+ Something being: a biometric such as a fingerprint or face recognition.\n\nRequiring at least two factors dramatically reduces the risk of account compromise: stealing a password alone is no longer enough.\n\nIn the PHP ecosystem, MFA is relevant both at the application level, protecting user accounts, and at the infrastructure level. Packagist, for example, has introduced mandatory MFA for package publishers to harden the supply chain against account takeover.\n\nPHP itself does not ship MFA libraries, but the ecosystem offers several: ``scheb/2fa-bundle`` with Symfony, ``pragmarx/google2fa`` with Laravel, and generic ``TOTP``/``HOTP`` packages.",
+    "code": "<?php\n\n    use OTPHP\\TOTP;\n    \n    // Generate a TOTP secret for a user at enrolment time\n    $totp   = TOTP::generate();\n    $secret = $totp->getSecret(); // store this in the user record\n    \n    // At login time, verify the code the user typed\n    $userCode = $_POST['totp_code'];\n    if (!$totp->verify($userCode)) {\n        throw new RuntimeException('Invalid MFA code');\n    }\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Multi-factor_authentication",
+    "related": [
+        "authentication",
+        "otp",
+        "sso",
+        "oauth",
+        "password",
+        "security",
+        "supply-chain-attack",
+        "packagist"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Multi-factor_authentication"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "The Quiet Shift Reshaping PHP Security",
+            "url": "https://www.linkedin.com/pulse/quiet-shift-reshaping-php-security-matthew-weier-o-phinney-fgquc/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "NIST SP 800-63B: MFA guidelines",
+            "url": "https://pages.nist.gov/800-63-3/sp800-63b.html"
+        }
+    ],
+    "tags": [
+        "security",
+        "authentication",
+        "acronym"
+    ],
+    "packagist": [
+        "scheb/2fa-bundle",
+        "pragmarx/google2fa",
+        "spomky-labs/otphp"
+    ],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Fri, 04 Sep 2026 10:21:24 +0000"
+}

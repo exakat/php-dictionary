@@ -1,0 +1,52 @@
+{
+    "id": "vertical-scaling",
+    "name": "Vertical Scaling",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/vertical-scaling.html",
+    "aliases": [
+        "scale-up",
+        "scaling-up"
+    ],
+    "description": "Vertical scaling, also called scaling up, means increasing the resources to handler larger loads. Resources may be any of processor cores, RAM, disk I/O, or network bandwidth, of an existing machine or container to handle a greater workload, rather than adding more instances.\n\nVertical scaling may involve upgrading the server hardware, increasing ``PHP-FPM`` worker counts, raising ``memory_limit``, or enabling ``OPcache`` to reduce CPU pressure. It is generally simpler to implement than horizontal scaling because it does not require architectural changes to externalise shared state.\n\nHowever, vertical scaling has an upper limit dictated by the maximum hardware configuration available, and a single large server remains a single point of failure. For most production workloads, vertical and horizontal scaling are used together.",
+    "code": "<?php\n\n    // php.ini / php-fpm.conf adjustments for vertical scaling\n    // memory_limit = 512M\n    // opcache.enable = 1\n    // opcache.memory_consumption = 256\n    // pm.max_children = 50\n    \n    // Checking current memory limit at runtime\n    echo ini_get('memory_limit'); // 512M\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Scalability#Vertical_or_scale_up",
+    "related": [
+        "scaling",
+        "horizontal-scaling",
+        "performance",
+        "memory_limit",
+        "opcache",
+        "architecture",
+        "fpm",
+        "worker"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Scalability#Vertical_or_scale_up"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Scaling PHP Applications: Strategies for High Traffic and Performance",
+            "url": "https://medium.com/@london.lingo.01/scaling-php-applications-strategies-for-high-traffic-and-performance-e20bd80aa466"
+        }
+    ],
+    "tags": [
+        "architecture",
+        "production"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Tue, 01 Sep 2026 05:31:03 +0000"
+}

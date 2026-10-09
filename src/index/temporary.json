@@ -1,0 +1,54 @@
+{
+    "id": "temporary",
+    "name": "Temporary",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/temporary.html",
+    "aliases": [],
+    "description": "Temporary describes resources, values, or storage that exist only for a bounded duration and are automatically discarded when that boundary is crossed. The boundary may be the end of a script execution, the end of a variable's scope, or an explicit time-to-live.\n\nPHP exposes several built-in mechanisms for temporary storage:\n\n+ ``php://tmp``: a read-write stream that lives in memory and spills to disk when data exceeds the memory limit. It is destroyed at the end of execution.\n+ ``php://memory``: a purely in-memory read-write stream, never written to disk. Also destroyed at the end of execution.\n+ ``tmpfile()``: creates a real temporary file on disk. The file descriptor is returned and the file is deleted automatically when the handle is closed or the script ends.\n+ ``tempnam()``: generates a unique temporary filename in a given directory. Unlike ``tmpfile()``, the file is not deleted automatically; the caller is responsible for cleanup.\n+ ``SQLite`` in-memory database: opening ``SQLite3`` with the special name ``:memory:`` creates a fully functional relational database that vanishes when the connection is closed.\n+ Variables: local variables are temporary by nature: they exist for the duration of the function or script that defines them and are released at the end of scope.\n+ Sessions: sessions store temporary per-user state across requests, but that state expires once the session is destroyed or times out.\n+ Cookies: a cookie without an explicit ``Expires`` or ``Max-Age`` attribute is a session cookie: the browser discards it when the session ends.\n+ Cache entries: cached values are temporary by design, governed by a TTL after which they are invalidated and regenerated.",
+    "code": "<?php\n\n   // Temporary in-memory stream\n   $stream = fopen('php://memory', 'r+');\n   fwrite($stream, 'hello');\n   rewind($stream);\n   echo stream_get_contents($stream); // hello\n   fclose($stream);                   // gone\n\n   // Temporary file on disk\n   $tmp = tmpfile();\n   fwrite($tmp, 'world');\n   fclose($tmp); // file deleted here\n\n   // Temporary in-memory SQLite database\n   $db = new SQLite3(':memory:');\n   $db->exec('CREATE TABLE t (v TEXT)');\n   $db->close(); // database gone\n\n?>",
+    "documentation": "https://www.php.net/manual/en/function.tmpfile.php",
+    "related": [
+        "php-tmp",
+        "php-memory",
+        "sqlite3",
+        "session",
+        "cookie",
+        "cache",
+        "ttl",
+        "variable",
+        "temporary-expression"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/function.tmpfile.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "tempnam()",
+            "url": "https://www.php.net/manual/en/function.tempnam.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "SQLite3 in-memory",
+            "url": "https://www.php.net/manual/en/sqlite3.construct.php"
+        }
+    ],
+    "tags": [
+        "adjective"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Mon, 17 Aug 2026 07:47:42 +0000"
+}

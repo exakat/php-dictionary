@@ -1,0 +1,60 @@
+{
+    "id": "task-runner",
+    "name": "Task Runner",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/task-runner.html",
+    "aliases": [],
+    "description": "A task runner refers to a tool or framework that automates repetitive tasks, such as building, testing, and deploying PHP applications. It helps streamline development workflows by reducing manual effort and increasing efficiency.\n\nTask runners provide a way to define and execute tasks or scripts in a predefined sequence, often using configuration files or scripts. These tasks can include various activities, such as compiling code, running tests, optimizing assets, generating documentation, and deploying the application to a server.",
+    "code": "",
+    "documentation": "https://en.wikipedia.org/wiki/Build_automation",
+    "related": [
+        "pipeline",
+        "ci",
+        "cd",
+        "ssh"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Build_automation"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Castor, a journey across the sea of task runners",
+            "url": "https://jolicode.com/blog/castor-a-journey-across-the-sea-of-task-runners"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Being Productive With Task Runners",
+            "url": "https://www.smashingmagazine.com/2016/06/harness-machines-productive-task-runners/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Scotty: a beautiful SSH task runner",
+            "url": "https://freek.dev/3064-scotty-a-beautiful-ssh-task-runner/"
+        }
+    ],
+    "tags": [
+        "ci",
+        "tool"
+    ],
+    "packagist": [
+        "consolidation/robo",
+        "phing/phing",
+        "jolicode/castor",
+        "spatie/scotty"
+    ],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sat, 08 Aug 2026 08:10:54 +0000"
+}

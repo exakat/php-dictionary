@@ -1,0 +1,52 @@
+{
+    "id": "fallback",
+    "name": "Fallback",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/fallback.html",
+    "aliases": [],
+    "description": "A fallback refers to a backup plan or default behavior that is executed when the primary operation fails, is unavailable, or doesn't meet certain conditions. It ensures that the system or application can function, either by default, or if something unexpected happens.\n\n+ Fallback to global is the mechanism that uses PHP native function, in the global namespace, when they are not found in the local namespace\n+ Fallback constant to string was a mechanism to use the literal constant name instead of its value, when the constant was not defined. It is now removed\n+ A default value is a fallback mechanism.\n\n",
+    "code": "<?php\n\n    namespace A;\n    \n    // function A\\strtolower does not exists, so it uses \\strtolower\n    echo strtolower('ABC');\n\n?>",
+    "documentation": "https://www.merriam-webster.com/dictionary/fallback",
+    "related": [
+        "fallback-to-global",
+        "fallback-function",
+        "default-value",
+        "stale-while-revalidate",
+        "resilience"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.merriam-webster.com/dictionary/fallback"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Default parameter values",
+            "url": "https://www.php.net/manual/en/functions.arguments.php#functions.arguments.default"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Null coalescing operator",
+            "url": "https://www.php.net/manual/en/language.operators.comparison.php#language.operators.comparison.coalesce"
+        }
+    ],
+    "tags": [
+        "concept"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Fri, 14 Aug 2026 09:19:07 +0000"
+}

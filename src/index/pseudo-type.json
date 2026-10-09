@@ -1,0 +1,54 @@
+{
+    "id": "pseudo-type",
+    "name": "Pseudo-type",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/pseudo-type.html",
+    "aliases": [
+        "pseudotype"
+    ],
+    "description": "A pseudo-type is a keyword and a type that describes an input or output, but is not an actual type. \n\nFor example, ``iterable`` represents both ``array`` and ``Traversable`` objects, yet a variable cannot be both, not be instantiated as such.\n\nUnion type, DNF or intersectional types are not pseudo-types, as they are made of multiple keywords.\n\nThere are several pseudo-type: ``mixed``, ``callable``, ``object``, ``iterable``.",
+    "code": "<?php\n\nfunction trumpet(iterable $trunk) { }\n\ntrumpet([]); // OK\ntrumpet(new ArrayIterator([1])); // OK\ntrumpet(1); // KO\n\n?>",
+    "documentation": "https://www.php.net/manual/en/language.types.declarations.php",
+    "related": [
+        "mixed",
+        "iterable",
+        "callable",
+        "object",
+        "type"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.types.declarations.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Stop using Pseudo-Types",
+            "url": "https://f2r.github.io/en/stop-using-pseudo-types.html"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "New mixed pseudo type - PHP 8.0",
+            "url": "https://php.watch/versions/8.0/mixed-type"
+        }
+    ],
+    "tags": [
+        "feature"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+}

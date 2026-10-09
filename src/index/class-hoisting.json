@@ -1,0 +1,45 @@
+{
+    "id": "class-hoisting",
+    "name": "Class Hoisting",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/class-hoisting.html",
+    "aliases": [],
+    "description": "Class hoisting is a compilation mode where the declarations of functions, classes... are moved before their actual usage.\n\nThis allows the usage of functions that are declared later in the code. \n\nPHP doesn't do class hoisting: it does two passes on the code, and later, triggers the autoload if a class is missing.",
+    "code": "<?php\n\n// displays trumpet\ntrumpet();\n\nfunction trumpet() { echo __FUNCTION__; }\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Declaration_(computer_programming)",
+    "related": [
+        "autoload",
+        "linting",
+        "hoisting",
+        "order-of-execution"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Declaration_(computer_programming)"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Early binding in PHP",
+            "url": "https://www.npopov.com/2021/10/20/Early-binding-in-PHP.html"
+        }
+    ],
+    "tags": [
+        "concept",
+        "compilation"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+}

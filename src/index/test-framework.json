@@ -1,0 +1,56 @@
+{
+    "id": "test-framework",
+    "name": "Test Framework",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/test-framework.html",
+    "aliases": [],
+    "description": "A test framework is a library or tool that provides the infrastructure for writing, organising, and running automated tests. It typically offers assertion helpers, double, test runners, fixtures, and reporting.\n\nA test framework does not dictate what to test; it provides the mechanics to express and execute tests repeatably, integrate with CI pipelines, and produce machine-readable reports, such as ``JUnit XML``, code coverage, etc.",
+    "code": "<?php\n\n    // PHPUnit example\n    use PHPUnit\\Framework\\TestCase;\n\n    class MathTest extends TestCase {\n        public function testAdd(): void {\n            $this->assertSame(4, 2 + 2);\n        }\n    }\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/List_of_unit_testing_frameworks",
+    "related": [
+        "test",
+        "phpunit",
+        "ci",
+        "double",
+        "fixture",
+        "code-coverage",
+        "regression",
+        "test-driven-development",
+        "property-based-testing",
+        "red-green-refactor",
+        "test-impact-analysis"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/List_of_unit_testing_frameworks"
+        }
+    ],
+    "tags": [
+        "concept",
+        "test",
+        "tool"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": {
+        "PHPUnit": "https://phpunit.de/",
+        "pest": "https://pestphp.com/",
+        "Codeception": "https://codeception.com/",
+        "Testo": "https://php-testo.github.io/",
+        "Atoum": "https://atoum.org/"
+    },
+    "popularity": "",
+    "modified": "Fri, 18 Sep 2026 05:07:22 +0000"
+}

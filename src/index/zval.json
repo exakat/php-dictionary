@@ -1,0 +1,43 @@
+{
+    "id": "zval",
+    "name": "Zval",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/zval.html",
+    "aliases": [],
+    "description": "``ZVAL`` is a C structure, that represents data in the PHP engine. It is a structure, which is never directly used from PHP code.\n\nIt may be access with ``debug_zval_dump()`` function, for debugging purposes. It is useful to debug PHP engine, or extensions.\n",
+    "code": "<?php\n\n    // From the manual \n    $var1 = 'Hello';\n    $var1 .= ' World';\n    $var2 = $var1;\n    \n    debug_zval_dump($var1);\n    \n    // displays string(11) \"Hello World\" refcount(3)\n\n?>",
+    "documentation": "https://www.phpinternalsbook.com/php5/zvals/basic_structure.html",
+    "related": [
+        "zend-engine",
+        "garbage-collection",
+        "reference-count"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.phpinternalsbook.com/php5/zvals/basic_structure.html"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "debug_zval_dump",
+            "url": "https://www.php.net/manual/fr/function.debug-zval-dump.php"
+        }
+    ],
+    "tags": [
+        "engine"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sat, 08 Aug 2026 08:10:54 +0000"
+}

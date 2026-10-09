@@ -1,0 +1,57 @@
+{
+    "id": "n-query",
+    "name": "N+1 Query Problem",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/n-query.html",
+    "aliases": [
+        "n-plus-one-query"
+    ],
+    "description": "The ``N+1 query problem``, also written as the n-plus-one query problem, is a term used in the context of queries, and most often in the context of databases and Object-Relational Mapping systems. This issue arises when a program queries a database for a set of entities and then, for each of those entities, issues an additional query to retrieve related data. This leads to a large number of individual queries being executed, which can result in poor performance and increased database load.\n\nHere's a breakdown of the issue:\n\n+ Initial query, the 1 query: the code retrieves a set of entities. This is a list of ``N`` results.\n+ Subsequent queries, the N queries: for each of the 'N' results, the code issues a separate query to fetch additional related data.\n\nAs a result, the code ends up performing ``N+1`` queries, hence the name of ``N+1 query problem``. This approach can cause significant performance issues, as executing many individual queries is slower than fetching the required data in batches: either all of them in one call, or by groups of arbitrary size.\n\n``N+1 query problem`` happens with anything that requires a query. It may be a SQL database, but also remote API calls, or even system calls.",
+    "code": "",
+    "documentation": "https://www.freecodecamp.org/news/n-plus-one-query-problem/",
+    "related": [
+        "loop",
+        "batch",
+        "orm",
+        "sql"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.freecodecamp.org/news/n-plus-one-query-problem/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Here's How You Can Stop N+1 Queries Forever",
+            "url": "https://hackernoon.com/heres-how-you-can-stop-n1-queries-forever"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Eloquent Performance: 4 Examples of N+1 Query Problems",
+            "url": "https://laravel-news.com/laravel-n1-query-problems"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "The N+1 Query Problem",
+            "url": "https://lighthouse-php.com/master/performance/n-plus-one.html"
+        }
+    ],
+    "tags": [
+        "classic bug",
+        "concept"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sun, 30 Aug 2026 14:50:05 +0000"
+}

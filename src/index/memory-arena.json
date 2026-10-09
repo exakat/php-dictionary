@@ -1,0 +1,55 @@
+{
+    "id": "memory-arena",
+    "name": "Memory Arena",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/memory-arena.html",
+    "aliases": [
+        "arena-allocator"
+    ],
+    "description": "A memory arena is a large, contiguous block of memory that is pre-allocated upfront and then carved into smaller pieces on demand. Rather than calling the system allocator individually for each object, code requests slices from the arena, which simply advances an internal pointer. When the arena is done, the entire block is freed in a single operation.\n\nThe pattern trades deallocation granularity for speed and locality. Individual objects in an arena cannot be freed independently; the whole region is reclaimed at once when the arena's lifetime ends. This makes arenas well-suited for short-lived, batch-style work such as parsing, compilation, or request processing where many small allocations are created together and discarded together.\n\nPHP's Zend Engine uses arena allocators internally for per-request memory. The ``emalloc``/``efree`` family of functions that extensions use are backed by a per-request arena that is wiped at the end of each request, making object-by-object deallocation unnecessary. ``OPcache`` similarly uses dedicated memory regions for its shared memory segment. PHP's JIT compiler uses arenas for generated machine code buffers.\n\nFrom a PHP developer's perspective, arenas are invisible: the engine manages them automatically. Understanding them helps explain why PHP's per-request memory model is efficient and why ``memory_limit`` is enforced at the request level rather than the object level.",
+    "code": "",
+    "documentation": "https://en.wikipedia.org/wiki/Region-based_memory_management",
+    "related": [
+        "memory",
+        "memory_limit",
+        "garbage-collection",
+        "zval",
+        "opcache",
+        "jit",
+        "shared-memory",
+        "memory-leak",
+        "php-memory"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Region-based_memory_management"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP internals: memory management",
+            "url": "https://www.phpinternalsbook.com/php7/memory_management/zend_memory_manager.html"
+        }
+    ],
+    "tags": [
+        "concept",
+        "memory",
+        "internals"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 20 Aug 2026 08:25:27 +0000"
+}

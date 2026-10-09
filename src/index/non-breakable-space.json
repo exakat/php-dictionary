@@ -1,0 +1,60 @@
+{
+    "id": "non-breakable-space",
+    "name": "Non Breakable Spaces",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/non-breakable-space.html",
+    "aliases": [
+        "unbreakable-space"
+    ],
+    "description": "Space is one of the base ASCII characters. They are often used to separate words, and are forbidden from being used in names. \n\nPHP supports Unicode characters, and some of the characters are called: non breaking spaces. They behave like a space, by displaying a blank area. Yet, they are recognized internally as a non-space, and can be used in a name.\n\nNon-breakable spaces are useful for tests, as they make the testing name more readable. They are also quite rare, and confusing for newcomers.\n\nUnbreakable space is ``\\u{00A0}`` as a PHP escape sequence, or ``\\xc2\\xa0`` as ASCII characters; it is the HTML escape sequence ``&nbsp;``.",
+    "code": "<?php\n\n    // This is a space, PHP doesn't compile this code\n    const A B = 1;\n\n    // This is a non breakabe space, it compile and is not visibly different from the line above\n    const A\u00a0B = 1;\n    echo A\u00a0B;\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Non-breaking_space",
+    "related": [
+        "space",
+        "trim"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Non-breaking_space"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Non breakable space in PHP",
+            "url": "https://3v4l.org/ATkWY"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Handling Invisible characters with PHP",
+            "url": "https://dev.to/yasserelgammal/handling-invisible-characters-with-php-1507"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Non-Breaking Spaces and UTF-8 Madness",
+            "url": "https://www.bigmessowires.com/2021/10/14/non-breaking-spaces-and-utf-8-madness/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Using non-breakable spaces in test method names",
+            "url": "https://mnapoli.fr/using-non-breakable-spaces-in-test-method-names"
+        }
+    ],
+    "tags": [
+        "character",
+        "_nocompileOK"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Tue, 11 Aug 2026 21:01:31 +0000"
+}

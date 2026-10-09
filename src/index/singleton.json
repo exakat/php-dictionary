@@ -1,0 +1,58 @@
+{
+    "id": "singleton",
+    "name": "Singleton",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/singleton.html",
+    "aliases": [],
+    "description": "A singleton is a class which can only have one object. There is no way to instantiate the class and get a second, distinct object.\n\nA singleton is used when there is a significant cost or limitations at maintaining multiple instances of the same object. For example, multiple ``SQLite3`` access to the same file, even as read-only, means several copies of the same file in memory. Or, several object referencing the same lock may be a problem.\n\nSingleton are more difficult to test, as there is only one instance, and it is difficult to control it. Singleton may be achieve by dependency injection, with the same object.",
+    "code": "<?php\n\n// One method to build a singleton class\nclass Singleton {\n  private static self $instance;\n  \n  // The constructor is private, to avoid multiple instantiation\n  // it is still accessible indirectly, via a public static method. \n  private function __construct()\n  {\n    // the usual constructor code\n  }\n\n  // the factory to build the singleton \n  public static function getInstance() : self {\n    if (!isset(self::$instance)) {\n      self::$instance = new self;\n    }\n \n    return self::$instance;\n  }\n}\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Singleton_pattern",
+    "related": [
+        "design-pattern",
+        "multiton",
+        "prototype"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Singleton_pattern"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "The little singleton",
+            "url": "https://blog.cleancoder.com/uncle-bob/2015/07/01/TheLittleSingleton.html"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Stop Using Singleton Pattern",
+            "url": "https://medium.com/@dotcom.software/stop-using-singleton-pattern-c078abc99eb2"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP Design Patterns Game : The Singleton Pattern",
+            "url": "https://phpmagazine.net/2023/03/php-design-patterns-game-the-singleton-pattern.html"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "The Singleton Labyrinth",
+            "url": "https://dev.to/suckup_de/the-singleton-labyrinth-19je"
+        }
+    ],
+    "tags": [
+        "pattern"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+}

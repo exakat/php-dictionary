@@ -1,0 +1,54 @@
+{
+    "id": "xdebug",
+    "name": "Xdebug",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/xdebug.html",
+    "aliases": [],
+    "description": "Xdebug is an extension for PHP, and provides a range of features to improve the PHP development experience.\n\nXdebug's most celebrated feature is its step debugger: it allows for pausing PHP execution mid-run and inspecting what's happening, with integration with an IDE.",
+    "code": "",
+    "documentation": "https://xdebug.org/",
+    "related": [
+        "framework",
+        "debug",
+        "php-editor",
+        "ide",
+        "trace",
+        "troubleshoot",
+        "excimer",
+        "pcov",
+        "premature-optimization"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://xdebug.org/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Debugging PHP with VSCode and XDebug: A Step-by-Step Guide",
+            "url": "https://dev.to/phpcontrols/debugging-php-with-vscode-and-xdebug-a-step-by-step-guide-4296"
+        }
+    ],
+    "tags": [
+        "debug",
+        "brand"
+    ],
+    "packagist": [],
+    "extensions": [
+        "xdebug"
+    ],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 17 Sep 2026 09:13:08 +0000"
+}

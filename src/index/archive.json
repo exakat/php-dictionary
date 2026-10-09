@@ -1,0 +1,47 @@
+{
+    "id": "archive",
+    "name": "Archive",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/archive.html",
+    "aliases": [],
+    "description": "An archive is a single document that stores a collection of files and directories.\n\nThere is PHAR, ``PHP Archives``, which contains PHP code, and any other kind of file, and can be executed directly.\n\nThere are also other archive formats, such as TAR, for files or JAR, for Java applications, etc.\n\nAn archive is often an artefact of compression, using ``Zip``, ``Rar`` or ``Tar``.",
+    "code": "",
+    "documentation": "https://www.php.net/manual/en/functions.arguments.php",
+    "related": [
+        "phar",
+        "compression"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/functions.arguments.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHAR (file format) - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/PHAR_(file_format)"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP: Using Phar Archives: Introduction - Manual",
+            "url": "https://www.php.net/manual/en/phar.using.intro.php"
+        }
+    ],
+    "tags": [
+        "concept"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Mon, 24 Aug 2026 05:04:01 +0000"
+}

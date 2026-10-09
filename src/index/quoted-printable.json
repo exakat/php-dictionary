@@ -1,0 +1,44 @@
+{
+    "id": "quoted-printable",
+    "name": "Quoted Printable",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/quoted-printable.html",
+    "aliases": [],
+    "description": "Quoted-printable is a content transfer encoding defined in RFC 2045 that's primarily used in email to ensure that message data remains intact when transmitted over protocols that are not 8-bit clean, such as SMTP.",
+    "code": "<?php\n\n$headers  = \"MIME-Version: 1.0\\r\\n\";\n$headers .= \"Content-Type: text/plain; charset=UTF-8\\r\\n\";\n$headers .= \"Content-Transfer-Encoding: quoted-printable\\r\\n\";\n\n$body = quoted_printable_encode(\"Caf\u00e9\\nR\u00e9sum\u00e9\");\n\nmail(\"example@php.net\", \"Some subject\", $body, $headers);\n\n?>",
+    "documentation": "https://www.php.net/manual/en/function.quoted-printable-encode.php",
+    "related": [
+        "smtp"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/function.quoted-printable-encode.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "RFC-2045",
+            "url": "https://datatracker.ietf.org/doc/html/rfc2045"
+        }
+    ],
+    "tags": [
+        "format",
+        "rfc"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Mon, 15 Jun 2026 11:03:59 +0000"
+}

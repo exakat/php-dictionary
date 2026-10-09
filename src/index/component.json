@@ -1,0 +1,45 @@
+{
+    "id": "component",
+    "name": "Component",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/component.html",
+    "aliases": [],
+    "description": "A component is a part or element that combines with others to form a larger system, structure, or product. Components are code libraries, or groups of classes that work together.",
+    "code": "",
+    "documentation": "https://en.wikipedia.org/wiki/Component-based_software_engineering",
+    "related": [
+        "code-architecture",
+        "design-pattern"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Component-based_software_engineering"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "So, You Wanna Build PHP Apps Without a Full-Blown Framework? (The Component Oriented Way!)",
+            "url": "https://component-oriented-php.github.io/tutorials/"
+        }
+    ],
+    "tags": [
+        "architecture",
+        "concept"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": {
+        "Packagist": "https://packagist.org/"
+    },
+    "popularity": "",
+    "modified": "Fri, 18 Sep 2026 04:45:32 +0000"
+}

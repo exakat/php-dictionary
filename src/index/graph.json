@@ -1,0 +1,59 @@
+{
+    "id": "graph",
+    "name": "Graph",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/graph.html",
+    "aliases": [],
+    "description": "A graph is a data structure consisting of a set of nodes, also called vertices, and edges that connect pairs of nodes. Graphs can be directed or undirected, weighted or unweighted.\n\nGraphs are used to model many real-world problems: social networks, dependency trees, network topology, and code analysis tools such as call graphs and control flow graphs.\n\nPHP has no built-in graph data structure, but several libraries provide graph implementations and algorithms.",
+    "code": "<?php\n\n// Simple adjacency list representation\n$graph = [\n    'A' => ['B', 'C'],\n    'B' => ['A', 'D'],\n    'C' => ['A'],\n    'D' => ['B'],\n];\n\n// Traverse neighbors of A\nforeach ($graph['A'] as $neighbor) {\n    echo $neighbor, PHP_EOL; // B, C\n}\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Graph_(abstract_data_type)",
+    "related": [
+        "call-graph",
+        "control-flow-graph",
+        "graph-database",
+        "graphql",
+        "tree",
+        "network",
+        "treemap",
+        "breadth-first-search",
+        "depth-first-search"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Graph_(abstract_data_type)"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Structures_Graph Tutorial",
+            "url": "https://pear.php.net/package/Structures_Graph/docs/latest/Structures_Graph/tutorial_Structures_Graph.pkg.html"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "GraphDS: An object oriented, lightweight implementation of the graph data-structure in PHP",
+            "url": "https://github.com/algb12/GraphDS"
+        }
+    ],
+    "tags": [
+        "data structure",
+        "concept"
+    ],
+    "packagist": [
+        "graphp/graph"
+    ],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Mon, 07 Sep 2026 09:10:00 +0000"
+}

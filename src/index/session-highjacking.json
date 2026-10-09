@@ -1,0 +1,52 @@
+{
+    "id": "session-highjacking",
+    "name": "Session Hijacking",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/session-highjacking.html",
+    "aliases": [
+        "session-hijacking"
+    ],
+    "description": "Session hijacking, also known as session stealing, is an attack where an unauthorized person takes over a user's session. In the context of web applications, this typically involves gaining control of a user's session in order to impersonate them and perform actions on their behalf.\n\nThere are several ways to realize session hijacking: session fixation, man in the middle attack, session ID stealing, CSRF and XSS.\n\nSession hijacking is mitigated by having a way to identify if a user is the actual owner of a session, or it was stolen, and is being used by someone else. For example, a secondary cookie, the IP address or the browser signature are generally stable. Someone providing a session ID, with a new browser signature should trigger a new identity validation.",
+    "code": "",
+    "documentation": "https://owasp.org/www-community/attacks/Session_hijacking_attack",
+    "related": [
+        "session-fixation",
+        "session",
+        "xss",
+        "csrf",
+        "man-in-the-middle"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://owasp.org/www-community/attacks/Session_hijacking_attack"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Session And Security in PHP",
+            "url": "https://sjinnovation.com/session-and-security-in-php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP Security Vulnerabilities: Session Hijacking, Cross-Site Scripting, SQL Injection, and How to Fix Them",
+            "url": "https://www.freecodecamp.org/news/php-security-vulnerabilities/"
+        }
+    ],
+    "tags": [
+        "security"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Mon, 15 Jun 2026 11:03:59 +0000"
+}

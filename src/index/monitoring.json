@@ -1,0 +1,60 @@
+{
+    "id": "monitoring",
+    "name": "Monitoring",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/monitoring.html",
+    "aliases": [],
+    "description": "Monitoring is the process of observing, tracking, and analyzing the performance, health, and behavior of applications or infrastructure over time. It involves collecting metrics, logs, and traces to detect issues, optimize performance, and ensure reliability.\n\nMonitoring is a proactive practice: it helps teams identify and resolve problems before they impact users or business operations.",
+    "code": "",
+    "documentation": "https://en.wikipedia.org/wiki/Monitoring",
+    "related": [
+        "apm",
+        "telemetry",
+        "log",
+        "trace",
+        "metrics",
+        "devops",
+        "downtime",
+        "flamegraph",
+        "availability",
+        "qos",
+        "reliability",
+        "sla",
+        "percentile"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Monitoring"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP Monitoring: Using PHP Observability Tools to Improve Web Apps",
+            "url": "https://www.zend.com/blog/php-monitoring"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "The Quiet Shift Reshaping PHP Security",
+            "url": "https://www.linkedin.com/pulse/quiet-shift-reshaping-php-security-matthew-weier-o-phinney-fgquc/"
+        }
+    ],
+    "tags": [
+        "monitoring"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Wed, 19 Aug 2026 08:21:46 +0000"
+}

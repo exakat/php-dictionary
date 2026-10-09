@@ -1,0 +1,53 @@
+{
+    "id": "asymmetric-cryptography",
+    "name": "Asymmetric Cryptography",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/asymmetric-cryptography.html",
+    "aliases": [],
+    "description": "Asymmetric cryptography, also called public-key cryptography, is a method of encrypting and authenticating data using two mathematically linked keys, a public key and a private key.\n\nThe method is build on three elements: \n\n+ The public key can be shared freely with anyone.\n+ The private key is kept secret by its owner.\n+ What one key encrypts, only the other can decrypt\n\nRSA, ECC or Elliptic Curve, Diffie-Hellman and DSA are all asymmetric cryptography.",
+    "code": "",
+    "documentation": "https://en.wikipedia.org/wiki/Public-key_cryptography",
+    "related": [
+        "cryptography",
+        "crypt",
+        "decrypt"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Public-key_cryptography"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "ext/openssl",
+            "url": "https://www.php.net/manual/en/book.openssl.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "ext/sodium",
+            "url": "https://www.php.net/manual/en/book.sodium.php"
+        }
+    ],
+    "tags": [
+        "security"
+    ],
+    "packagist": [],
+    "extensions": [
+        "sodium",
+        "openssl"
+    ],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Mon, 31 Aug 2026 17:30:50 +0000"
+}

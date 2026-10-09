@@ -1,0 +1,50 @@
+{
+    "id": "underscore",
+    "name": "Underscore",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/underscore.html",
+    "aliases": [],
+    "description": "Underscore is the ``_`` character. \n\nThe underscore is used in integers to make them readable when the number of digit grows. \n\nIt is also used in double, to identify PHP magic methods, such as ``__get``, ``__set``, ``__call``, etc. \n\nIt was also used in earlier PHP versions to identify protected methods and properties: the name of the method was prefixed with ``_``. This practice is rare nowadays, and is enforced with visibility. \n\nUnderscore used to be added to class and method names, to keep them unique. This is now a task for namespaces.\n\nIt is used as prefix with PHP superglobal variables, such as ``$_GET``, ``$_POST``. \n\nUnderscore is also used as the numeric separators in integers and floats: it adds some breathing room in the string of digits, and makes it more readable, without changing the value.\n\nUnderscore is a valid name for a variable, a function, a constant, a method, a property. It is not valid anymore for classes and similar, since PHP 8.4. It is now reserved for future features. There is also a PHP native function called ``_()``, which belongs to the ``gettext`` extension.",
+    "code": "<?php\n\n$million = 1_000_000;\n\nclass _ {\n    const _ = '_';\n    \n    function _() {\n        _::$_ = _::_; \n    }\n    \n    private static $_ = 1;\n\n}\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Underscore",
+    "related": [
+        "false",
+        "comparison",
+        "divisionbyzeroerror",
+        "constant-case",
+        "numeric-separator",
+        "snake-case"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Underscore"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP RFC: Numeric Literal Separator",
+            "url": "https://wiki.php.net/rfc/numeric_literal_separator"
+        }
+    ],
+    "tags": [
+        "character"
+    ],
+    "packagist": [],
+    "extensions": [
+        "gettext"
+    ],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Mon, 10 Aug 2026 16:53:47 +0000"
+}

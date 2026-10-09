@@ -1,0 +1,61 @@
+{
+    "id": "compile",
+    "name": "Compile",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/compile.html",
+    "aliases": [
+        "compiled",
+        "compiling"
+    ],
+    "description": "To compile, compiling, or compilation, is the process to turn the source code into machine code for direct execution, producing compiled code.\n\nGenerally speaking, PHP is interpreted, so its code is directly run by the PHP engine. It is initially linted, for syntax correctness, then converted into opcodes, which are run by the engine.\n\nSome tools convert PHP directly to a binary, such as KPHP.\n\nThere are tools to convert PHP into a binary file, such as static-php-cli or roadrunner. These solutions merge the PHP engine with the target code. \n\nOther tools transpile PHP code to another language, such as Rust or .NET, and then, compile it to a binary file. These are not common approaches.",
+    "code": "",
+    "documentation": "https://en.wikipedia.org/wiki/Lint_(software)",
+    "related": [
+        "linting",
+        "interpreted",
+        "aot",
+        "__halt_compiler",
+        "jit",
+        "transpile",
+        "virtual-machine",
+        "artifact",
+        "monomorphization",
+        "order-of-execution"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Lint_(software)"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "kphp",
+            "url": "https://vkcom.github.io/kphp/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "static-php-cli",
+            "url": "https://github.com/crazywhalecc/static-php-cli"
+        }
+    ],
+    "tags": [
+        "concept",
+        "lifecycle"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": {
+        "RoadRunner": "https://roadrunner.dev/"
+    },
+    "popularity": "",
+    "modified": "Fri, 18 Sep 2026 04:45:17 +0000"
+}

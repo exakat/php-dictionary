@@ -1,0 +1,50 @@
+{
+    "id": "while",
+    "name": "While",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/while.html",
+    "aliases": [],
+    "description": "While is a loop structure. It runs the block of code until the condition is not met anymore. \n\nPart of the loop execution may be skipped by using the ``continue`` keyword.",
+    "code": "<?php\n\n    /*\n    while(condition) {\n        // the block\n    }\n    */\n    \n    $i = 0;\n    while($i < 10) {\n        print \"$i\\n\";\n    }\n\n?>",
+    "documentation": "https://www.php.net/manual/en/control-structures.while.php",
+    "related": [
+        "continue",
+        "do-while",
+        "foreach",
+        "loop",
+        "for",
+        "control-flow"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/control-structures.while.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "While Loop in PHP",
+            "url": "https://www.scaler.com/topics/php-tutorial/while-loop-in-php/"
+        }
+    ],
+    "tags": [
+        "control flow",
+        "keyword",
+        "loop",
+        "feature",
+        "command"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+}

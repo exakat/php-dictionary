@@ -1,0 +1,58 @@
+{
+    "id": "scalar-type",
+    "name": "Scalar Types",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/scalar-type.html",
+    "aliases": [
+        "scalar",
+        "scalar-typehint",
+        "primitive-type"
+    ],
+    "description": "Scalar types refer to the basic data types that hold a single value. \n\nPHP scalar types include the following:\n\nInteger ``int``: integers are whole numbers without decimal points. \n\nFloat ``float``: floats, also known as floating-point numbers or doubles, represent decimal numbers. \n\nString  ``string``: strings are sequences of characters enclosed in quotes, single or double.\n\nBoolean  ``bool``: booleans have two possible values: true or false. \n\nNote that ``null`` is not considered a scalar type, and often behaves differently.",
+    "code": "<?php\n\n    function gen_one_to_three() {\n        for ($i = 1; $i <= 3; $i++) {\n            // Note that $i is preserved between yields.\n            yield $i;\n        }\n    }\n\n?>",
+    "documentation": "https://www.php.net/manual/en/language.generators.syntax.php#control-structures.yield",
+    "related": [
+        "type",
+        "special-typehint",
+        "string",
+        "boolean",
+        "float",
+        "integer",
+        "alias-types",
+        "constant-scalar-expression",
+        "literal-types",
+        "primitive-obsession",
+        "relative-types"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.generators.syntax.php#control-structures.yield"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP 7 Scalar Type Declaration",
+            "url": "https://www.etutorialspoint.com/index.php/tutorial/php-scalar-type-declaration"
+        }
+    ],
+    "tags": [
+        "type",
+        "feature"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [
+        "Php/NotScalarTypehint"
+    ],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "7.0",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+}

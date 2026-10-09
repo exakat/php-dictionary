@@ -1,0 +1,48 @@
+{
+    "id": "relay-function",
+    "name": "Relay Function",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/relay-function.html",
+    "aliases": [
+        "relay-method"
+    ],
+    "description": "A relay function, or a relay method, is a function that calls another function, with the same arguments. It is merely relaying the arguments from one to the other.\n\nA relay function also returns the value of the relayed function.\n\nA relay function does not add any added value over the other function, except a renaming of the feature.\n\nRelay functions may be nested several levels, depending on the situation.",
+    "code": "<?php\n\n    function trumpet($trunk) {\n        return forage($trunk);\n    }\n\n    function forage($trunk) {\n        return migrate($trunk);\n    }\n\n    function migrate($trunk) {\n        return doSomething();\n    }\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Delegation_pattern",
+    "related": [
+        "function",
+        "method",
+        "direct-output",
+        "flexibility"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Delegation_pattern"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Proxy pattern",
+            "url": "https://en.wikipedia.org/wiki/Proxy_pattern"
+        }
+    ],
+    "tags": [
+        "method"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+}

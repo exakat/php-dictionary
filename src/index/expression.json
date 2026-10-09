@@ -1,0 +1,45 @@
+{
+    "id": "expression",
+    "name": "Expression",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/expression.html",
+    "aliases": [],
+    "description": "In PHP, an expression is a combination of one or more variables, operators, constants, and functions that evaluates to a single value. Expressions can be simple or complex, depending on the operations involved.",
+    "code": "<?php\n\n// one generic expression\n$a = A + cos($b);\n\n?>",
+    "documentation": "https://www.php.net/manual/en/language.expressions.php",
+    "related": [
+        "constant-scalar-expression",
+        "command",
+        "instruction",
+        "sign",
+        "temporary-expression"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.expressions.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Expressions",
+            "url": "https://phplang.org/spec/10-expressions.html"
+        }
+    ],
+    "tags": [
+        "concept"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Fri, 19 Jun 2026 21:25:09 +0000"
+}

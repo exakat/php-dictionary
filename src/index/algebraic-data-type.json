@@ -1,0 +1,59 @@
+{
+    "id": "algebraic-data-type",
+    "name": "Algebraic Data Type",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/algebraic-data-type.html",
+    "aliases": [
+        "ADT"
+    ],
+    "description": "An algebraic data type is a composite type built by combining simpler types through two fundamental operations: product and sum.\n\nA product type holds values of several types simultaneously, connected by AND. Every field is always present. A ``struct``, record, or tuple is a product type: ``{ name: string, age: int }`` means a name AND an age, always both.\n\nA sum type holds a value of exactly one of several alternatives, connected by OR. Only one case is active at a time, and each case may carry different data. ``Circle(Float) | Rectangle(Float, Float)`` means either a circle, with a radius, or a rectangle, with two sides, never both at once.\n\nFull ``ADT`` systems pair sum types with exhaustive pattern matching: the compiler enforces that every case is handled, turning incomplete switches into compile-time errors.\n\nPHP supports product types natively through classes and arrays. Sum types are approximated by union types ``int|string`` and by enums, but neither carries associated data per variant, and ``match`` does not perform exhaustive structural decomposition over union type values.\n\nPHP does not support true ``ADT``.",
+    "code": "",
+    "documentation": "https://en.wikipedia.org/wiki/Algebraic_data_type",
+    "related": [
+        "sum-type",
+        "gadt",
+        "union-type",
+        "enum",
+        "intersection-type",
+        "pattern-matching",
+        "type-system",
+        "generics",
+        "existential-type",
+        "higher-kinded-type",
+        "option-type",
+        "result-type",
+        "structural-pattern-matching"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Algebraic_data_type"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "ADTs in PHP: an approximation guide",
+            "url": "https://stitcher.io/blog/php-enums"
+        }
+    ],
+    "tags": [
+        "concept",
+        "type",
+        "not supported"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Wed, 02 Sep 2026 16:41:00 +0000"
+}

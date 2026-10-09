@@ -1,0 +1,49 @@
+{
+    "id": "temporary-expression",
+    "name": "Temporary Expression",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/temporary-expression.html",
+    "aliases": [],
+    "description": "A temporary expression is an expression which is used on the spot, and it is not stored in a variable, or a container for later reuse. \n\nThe storage in a variable confers certain features to the resulting value, while an anonymous expression cannot use them. For example, ``array_pop()`` extracts the last value in an array, but reduces that array by one, which makes no sense outside a variable.",
+    "code": "<?php\n\n    // object x is created, assigned a new value to its 'p' property, then never stored anywhere. \n    (new x)->p = 2;\n    \n    // x = 3 (constant assignation) would yield a syntax error\n    // on the other hand, x[3] is a temporary expression, used for reading, but not available for writing.\n    x[3] = 3;\n\n    // x is again a constant, and it may be an object since PHP 8.4\n    x->p = 4;\n\n?>",
+    "documentation": "https://www.php.net/manual/en/language.expressions.php",
+    "related": [
+        "expression"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.expressions.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP: array_pop()",
+            "url": "https://www.php.net/manual/en/function.array-pop.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Value (computer science): lvalue and rvalue - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Value_(computer_science)#lvalue_and_rvalue"
+        }
+    ],
+    "tags": [
+        "syntax",
+        "_nocompileOK"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": {
+        "Cannot use temporary expression in write context": "cannot-use-temporary-expression-in-write-context"
+    },
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Fri, 28 Aug 2026 09:39:42 +0000"
+}

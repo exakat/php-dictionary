@@ -1,0 +1,44 @@
+{
+    "id": "expose_php",
+    "name": "expose_php",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/expose_php.html",
+    "aliases": [],
+    "description": "The ``expose_php`` directive displays the usage of PHP and its version in the headers of the webserver.\n\nIt is considered a security leak to leave this configuration on, as it gives potential attackers information on the available technologies, and potential vulnerabilities. It is recommended to leave it off.\n\n``expose_php`` has no impact on the code itself.",
+    "code": "",
+    "documentation": "https://www.php.net/manual/en/ini.core.php#ini.expose_php",
+    "related": [
+        "php.ini",
+        "data-leak",
+        "hardening"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/ini.core.php#ini.expose_php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Hiding",
+            "url": "https://www.php.net/manual/en/security.hiding.php"
+        }
+    ],
+    "tags": [
+        "php.ini",
+        "security"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sat, 08 Aug 2026 08:10:54 +0000"
+}

@@ -1,0 +1,45 @@
+{
+    "id": "object-persistence",
+    "name": "Object Persistence",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/object-persistence.html",
+    "aliases": [],
+    "description": "Object persistence is the feature that keeps an object available between two different PHP requests, on a web server.\n\nIn practice, this is achieved by saving a current object, with its properties and data, so that it may be reconstructed later. \n\nThis is achieved natively with the ``serialize()`` and ``unserialize()`` functions. \n\nThe text representation of the object may then be stored in various medium, such as files, sessions, database. \n\nIt is also possible to achieve object persistence by using a different format, such as JSON, XML, CSV, etc. The whole process works similarly to PHP's own process, though it has to be reconstructed entirely.\n\nObject persistence may save the values of the object's property, such as scalars or arrays; or it may remove data, and reconstruct it later, such as database connections, composed objects or references.",
+    "code": "<?php\n\nclass User {\n    public $name;\n    public $email;\n\n    public function __construct($name, $email) {\n        $this->name = $name;\n        $this->email = $email;\n    }\n}\n\n// Create an object\n$user = new User('Damien', 'damien@exakat.io');\n\n// Serialize the object\n$serializedUser = serialize($user);\n\n// Save to a file (or database)\nfile_put_contents('user.txt', $serializedUser);\n\n// Later, reconstruct the object\n$loadedUser = unserialize(file_get_contents('user.txt'));\n\necho $loadedUser->name; // Outputs: Damien\n\n?>",
+    "documentation": "https://www.php.net/manual/en/language.oop5.serialization.php",
+    "related": [
+        "session",
+        "persistence",
+        "snapshot"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.oop5.serialization.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Persist Large Object Graphs in PHP",
+            "url": "https://dev.to/melia72/persist-php-objects-without-a-database-5fip"
+        }
+    ],
+    "tags": [
+        "object"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sat, 08 Aug 2026 14:31:03 +0000"
+}

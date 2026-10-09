@@ -1,0 +1,49 @@
+{
+    "id": "uri-class",
+    "name": "URI Class",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/uri-class.html",
+    "aliases": [],
+    "description": "The ``URI`` class is the class provided by the uri extension. It is built with a string, as a URL, and parses it into smaller parts with its methods.",
+    "code": "<?php\n\n    use Uri\\Rfc3986\\Uri;\n \n    $url = new Uri('https://www.php.net:443/phpinfo');\n\n?>",
+    "documentation": "https://www.php.net/manual/en/book.uri.php",
+    "related": [
+        "uri",
+        "url",
+        "uri-extension"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/book.uri.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP 8.5 Introduces a New URI Extension",
+            "url": "https://laravel-news.com/php-85-introduces-a-new-uri-extension"
+        }
+    ],
+    "tags": [
+        "class",
+        "rfc",
+        "url"
+    ],
+    "packagist": [],
+    "extensions": [
+        "uri"
+    ],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Tue, 25 Aug 2026 19:12:45 +0000"
+}

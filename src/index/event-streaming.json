@@ -1,0 +1,51 @@
+{
+    "id": "event-streaming",
+    "name": "Event Streaming",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/event-streaming.html",
+    "aliases": [
+        "event-stream",
+        "stream-processing"
+    ],
+    "description": "Event streaming, also called stream processing, is a pattern where events are continuously published to an ordered, durable log, called a stream, and consumers read from that log at their own pace, independently of producers. Unlike message queues, where a message is consumed once and deleted, a stream is retained and can be replayed, and multiple consumer groups can read the same events independently.\n\nThe key properties of event streaming are: persistence where events are stored durably, ordering where events within a partition are ordered, and replayability where consumers can reset their offset and re-read events from the beginning or any point in time. These properties make event streaming suitable for event sourcing, real-time analytics, change data capture, and building multiple independent views from the same event log.\n\nApache Kafka is the most widely used event streaming platform. AWS Kinesis and Google Cloud Pub/Sub provide managed alternatives. Producers publish events via the ``rdkafka`` extension or high-level libraries; consumers run as long-lived workers using RoadRunner, Swoole, or ReactPHP.",
+    "code": "<?php\n\n    // Producer: publish an event to a Kafka topic\n    $conf = new RdKafka\\Conf();\n    $conf->set('metadata.broker.list', 'kafka:9092');\n    \n    $producer = new RdKafka\\Producer($conf);\n    $topic    = $producer->newTopic('orders');\n    \n    $topic->produce(RD_KAFKA_PARTITION_UA, 0, json_encode([\n        'event'     => 'OrderPlaced',\n        'orderId'   => 42,\n        'total'     => 9900,\n        'timestamp' => time(),\n    ]));\n    \n    $producer->flush(1000);\n    \n    // Consumer: read events independently, at own pace\n    $conf->set('group.id', 'inventory-service');\n    $conf->set('auto.offset.reset', 'earliest'); // replay from beginning if needed\n    \n    $consumer = new RdKafka\\KafkaConsumer($conf);\n    $consumer->subscribe(['orders']);\n    \n    while (true) {\n        $message = $consumer->consume(1000);\n        if ($message->err === RD_KAFKA_RESP_ERR_NO_ERROR) {\n            $event = json_decode($message->payload, true);\n            // process independently from the producer\n        }\n    }\n\n?>",
+    "documentation": "https://kafka.apache.org/documentation/",
+    "related": [
+        "event-sourcing",
+        "event-driven",
+        "message-queue",
+        "pubsub",
+        "event-store",
+        "event-replay"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://kafka.apache.org/documentation/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "AWS Kinesis documentation",
+            "url": "https://docs.aws.amazon.com/kinesis/"
+        }
+    ],
+    "tags": [
+        "concept"
+    ],
+    "packagist": [],
+    "extensions": [
+        "rdkafka"
+    ],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sun, 30 Aug 2026 10:49:19 +0000"
+}

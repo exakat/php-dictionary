@@ -1,0 +1,71 @@
+{
+    "id": "datastructure",
+    "name": "Data Structure",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/datastructure.html",
+    "aliases": [
+        "data-structure"
+    ],
+    "description": "A data structure is a way of organizing and storing data in memory to enable efficient access and modification. PHP's primary data structures are the classes and arrays, which include indexed arrays, associative arrays, anonymous classes and nested structures in a single construct.\n\nFor more specialized needs, the spl and ds extensions offer types beyond the default PHP ones.\n\nChoosing the right data structure has a direct impact on algorithmic complexity and memory usage.",
+    "code": "<?php\n\n    use Ds\\Vector;\n    use Ds\\Map;\n    \n    $vector = new Vector([1, 2, 3]);\n    $map    = new Map(['key' => 'value']);\n    \n    $stack = new SplStack();\n    $stack->push('first');\n\n?>",
+    "documentation": "https://www.php.net/manual/en/book.spl.php",
+    "related": [
+        "array",
+        "ds",
+        "spl",
+        "collection",
+        "deque",
+        "splstack",
+        "map",
+        "tree",
+        "queue",
+        "algorithmic-complexity",
+        "big-o-notation",
+        "bucket",
+        "handle",
+        "pair",
+        "pop",
+        "sequence",
+        "set",
+        "spldoublylinkedlist",
+        "splobjectstorage"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/book.spl.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Data Structures for PHP (ds extension)",
+            "url": "https://www.php.net/manual/en/book.ds.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "SPL Data Structures",
+            "url": "https://www.php.net/manual/en/spl.datastructures.php"
+        }
+    ],
+    "tags": [
+        "data"
+    ],
+    "packagist": [
+        "php-ds/php-ds"
+    ],
+    "extensions": [
+        "ds",
+        "spl"
+    ],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Fri, 14 Aug 2026 07:52:36 +0000"
+}

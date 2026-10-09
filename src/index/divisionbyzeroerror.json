@@ -1,0 +1,54 @@
+{
+    "id": "divisionbyzeroerror",
+    "name": "DivisionByZeroError",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/divisionbyzeroerror.html",
+    "aliases": [],
+    "description": "The ``DivisionByZeroError`` exception is thrown when an attempt is made to divide a number by zero. It is never possible to divide by zero, the result is undefined. It is true for all zeroes: ``0``, ``+0``, ``-0``.",
+    "code": "<?php\n\n    try {\n        echo 1 / $a;\n    } catch(DivisionByZeroError $e){\n        echo 'Trying to divide by 0';\n    }\n\n?>",
+    "documentation": "https://www.php.net/manual/en/class.divisionbyzeroerror.php",
+    "related": [
+        "error",
+        "arithmeticerror",
+        "division",
+        "zero"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/class.divisionbyzeroerror.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP: intdiv()",
+            "url": "https://www.php.net/manual/en/function.intdiv.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Arithmetic operators",
+            "url": "https://www.php.net/manual/en/language.operators.arithmetic.php"
+        }
+    ],
+    "tags": [
+        "exception",
+        "math",
+        "native exception"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [
+        "Exceptions/CouldUseTry",
+        "Structures/CheckDivision"
+    ],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 17 Sep 2026 07:37:45 +0000"
+}

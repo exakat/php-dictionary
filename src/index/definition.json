@@ -1,0 +1,49 @@
+{
+    "id": "definition",
+    "name": "Definition",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/definition.html",
+    "aliases": [],
+    "description": "A definition is the description of a particular constant, function, method, property, class, trait, interface or enum. \n\nA variable also has a definition, also called an initialisation: variables have no formal definition. They use an unconditional assignation to do so.\n\nThe definition is also called a declaration. The declaration must happen before usage. \n\nDefinitions happens in custom code, in libraries or in extensions. \n\nThere are functions dedicated to listing defined elements: ``get_declared_constants()``, ``get_declared_traits()``, ``get_declared_interfaces()``, ``get_declared_classes()``, ``get_class_vars()`` and ``get_class_methods()``.",
+    "code": "<?php\n\n    //function declaration\n    function trumpet() {\n        print 'OK';\n    }\n\n    // call to the function trumpet\n    trumpet();\n\n?>",
+    "documentation": "https://www.php.net/manual/en/language.functions.php",
+    "related": [
+        "call",
+        "autoload",
+        "declaration",
+        "initialisation"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.functions.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Difference Between Declaration and Definition in Programming",
+            "url": "https://testbook.com/key-differences/difference-between-definition-and-declaration"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Difference Between Declaration and Definition",
+            "url": "https://byjus.com/gate/difference-between-definition-and-declaration/"
+        }
+    ],
+    "tags": [
+        "concept"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+}

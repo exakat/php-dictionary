@@ -1,0 +1,58 @@
+{
+    "id": "apcu",
+    "name": "APCu",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/apcu.html",
+    "aliases": [
+        "apc-user-cache"
+    ],
+    "description": "``APCu``, ``APC`` User Cache, is a PHP extension that provides a shared-memory, in-process key-value store for caching arbitrary data between requests, without needing an external service like Memcached or Redis.\n\n``APCu`` is the successor of ``APC``, Alternative PHP Cache, once its opcode-caching part was superseded by ``OPcache``; only the user-cache API survived under the name APCu.\n\nCommon functions include:\n\n+ ``apcu_store()`` to write a value, with an optional TTL, time-to-live\n+ ``apcu_fetch()`` to read a value back\n+ ``apcu_delete()`` to remove an entry\n+ ``apcu_exists()`` to check for a key without fetching its value\n+ ``apcu_inc()`` / ``apcu_dec()`` for atomic counters\n+ ``apcu_clear_cache()`` to flush the whole cache\n\nBecause the cache lives in shared memory local to the PHP process pool, it is fast, but it is not shared across servers; in a multi-server, load-balanced setup, a distributed cache such as Redis or Memcached is usually preferred.",
+    "code": "<?php\n\n    if (apcu_exists('user_count')) {\n        $count = apcu_fetch('user_count');\n    } else {\n        $count = count_users_from_database();\n        apcu_store('user_count', $count, 300); // cache for 5 minutes\n    }\n\n    apcu_inc('page_views');\n\n?>",
+    "documentation": "https://www.php.net/manual/en/book.apcu.php",
+    "related": [
+        "shared-memory",
+        "opcache",
+        "cache",
+        "memcached",
+        "redis",
+        "session"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/book.apcu.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "A Guide to the PHP APCu Library for Caching and Performance Optimization",
+            "url": "https://reintech.io/blog/guide-php-apcu-library-caching-performance-optimization"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "GitHub - krakjoe/apcu",
+            "url": "https://github.com/krakjoe/apcu"
+        }
+    ],
+    "tags": [
+        "extension",
+        "cache"
+    ],
+    "packagist": [],
+    "extensions": [
+        "apcu"
+    ],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 27 Aug 2026 05:39:14 +0000"
+}

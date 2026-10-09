@@ -1,0 +1,48 @@
+{
+    "id": "display_errors",
+    "name": "display_errors",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/display_errors.html",
+    "aliases": [],
+    "description": "``display_errors`` configures the display of PHP errors, warnings and notices to the standard output. By default, it is on, with the value 1. \n\nIn production environments, it is recommended to set ``display_errors`` to 0. The error messages should be send to a logging system, for further exploitation. Otherwise, it is considered a data leak, and may lead to a vulnerability.\n",
+    "code": "",
+    "documentation": "https://www.php.net/manual/en/errorfunc.configuration.php#ini.display-errors",
+    "related": [
+        "data-leak",
+        "environment",
+        "error-reporting",
+        "html_errors",
+        "set_error_handler"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/errorfunc.configuration.php#ini.display-errors"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Display Errors",
+            "url": "https://developer.wordpress.org/advanced-administration/security/hardening/display-errors/"
+        }
+    ],
+    "tags": [
+        "directive",
+        "vulnerability"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Mon, 15 Jun 2026 11:03:58 +0000"
+}

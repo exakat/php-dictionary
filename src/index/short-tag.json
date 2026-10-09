@@ -1,0 +1,52 @@
+{
+    "id": "short-tag",
+    "name": "Short Tags",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/short-tag.html",
+    "aliases": [
+        "short-open-tag"
+    ],
+    "description": "PHP uses special tags to identify code that has to be executed. The short tags are a special set of PHP tag, shorter than the usual ``<?php``. It was simply ``<?``.\n\nShort tags may be disabled in ``php.ini`` configuration, with the ``short_open_tag`` directive. \n\nShort tags are different from echo tags: those tags immediately display data.\n\nFrom the manual: as short tags can be disabled it is recommended to only use the normal tags ``<?php ?>`` and ``<?= ?>`` to maximise compatibility.",
+    "code": "<?php\n\necho 1;\n?>\n\n<? \n// this is a short tag\necho 2;\n\n?>",
+    "documentation": "https://www.php.net/manual/en/language.basic-syntax.phptags.php",
+    "related": [
+        "php-tag",
+        "echo-tag",
+        "open-tag",
+        "close-tag",
+        "operator",
+        "php.ini",
+        "short_open_tag"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.basic-syntax.phptags.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP RFC: Deprecate short open tags, again",
+            "url": "https://wiki.php.net/rfc/deprecate_php_short_tags_v2"
+        }
+    ],
+    "tags": [
+        "rfc",
+        "syntax"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [
+        "Structures/ShortTags"
+    ],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sat, 08 Aug 2026 08:10:54 +0000"
+}

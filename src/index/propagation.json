@@ -1,0 +1,47 @@
+{
+    "id": "propagation",
+    "name": "Propagation",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/propagation.html",
+    "aliases": [],
+    "description": "Propagation is the consequence of one piece of code, that applies to another part of the code, via a dependency.\n\nIn the example code, ``trumpet()`` and ``forage()`` are not typed, with arguments nor with return. Yet, the final call to ``strlen()`` means that both parameters must be ``string`` and both their return type will be ``int``. The types propagated from ``strlen()`` to the other functions.\n\nPropagation is visible with types, as illustrated; it also applies to functions that die or use the ``never`` return type; and to unused piece of code, where not using a piece of code renders any called code unused, and, also useless.\n\nPropagation is often silent, and does not yield error. Yet, it implies structure in the code, that makes it difficult to update.",
+    "code": "<?php\n\n// type propagation via calls\nfunction trumpet($trunk) {\n    forage($trunk);\n}\n\nfunction forage($trunk) {\n    migrate($trunk);\n}\n\nfunction migrate($trunk) {\n    strlen($trunk);\n}\n\n// useless function, via lack of usage\nfunction bathe($trunk) {\n    // doSomething\n}\n\n// $result is not used,\n// so bathe() is not used\n$result = bathe(1);\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Type_inference",
+    "related": [
+        "useless",
+        "type",
+        "exit",
+        "cascading"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Type_inference"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Detecting Unused Private Properties, Methods, and Constants",
+            "url": "https://phpstan.org/blog/detecting-unused-private-properties-methods-constants"
+        }
+    ],
+    "tags": [
+        "quality",
+        "static analysis"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+}

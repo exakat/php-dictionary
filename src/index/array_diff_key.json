@@ -1,0 +1,48 @@
+{
+    "id": "array_diff_key",
+    "name": "array_diff_key()",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/array_diff_key.html",
+    "aliases": [],
+    "description": "``array_diff_key()`` is a PHP native function that computes the difference between arrays, comparing keys instead of values.\n\n``array_diff_key()`` takes an array ``$array``, and one or several other arrays ``...$arrays``. It returns a new array made of the elements of ``$array`` whose key is not present in any of the other arrays, keeping the original keys and values of ``$array``.\n\nSince only the keys are compared, and never cast to string, ``array_diff_key()`` is safe to use with arrays holding objects, arrays, or resources as values.\n\nThe complement function is ``array_intersect_key()``, which returns the elements whose key is shared amongst the arrays. ``array_diff_assoc()`` compares both keys and values, while plain ``array_diff()`` compares values only.\n",
+    "code": "<?php\n\n    $array1 = ['a' => 'green', 'b' => 'brown', 'c' => 'blue', 'red'];\n    $array2 = ['a' => 'yellow', 'b' => 'orange', 'green'];\n\n    $result = array_diff_key($array1, $array2);\n    print_r($result);\n    // ['c' => 'blue']\n\n?>",
+    "documentation": "https://www.php.net/manual/en/function.array-diff-key.php",
+    "related": [
+        "array_diff",
+        "array_diff_assoc",
+        "array_intersect_key",
+        "array_key_exists"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/function.array-diff-key.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP array_diff_key() Function",
+            "url": "https://www.w3schools.com/php/func_array_diff_key.asp"
+        }
+    ],
+    "tags": [
+        "native function",
+        "array",
+        "arbitrary number of argument"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Wed, 26 Aug 2026 10:49:40 +0000"
+}

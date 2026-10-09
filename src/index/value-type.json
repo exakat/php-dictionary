@@ -1,0 +1,51 @@
+{
+    "id": "value-type",
+    "name": "Value Type",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/value-type.html",
+    "aliases": [
+        "stack-allocation"
+    ],
+    "description": "A value type, as in C#, Swift, or Go, is copied in full whenever it is assigned or passed to a function, rather than shared by reference; two variables holding a value type never alias the same storage. Value types are typically small enough, and lack the identity-based behavior of objects, that the compiler can allocate them on the stack, or inline within another structure, and reclaim them automatically when they go out of scope, without involving the garbage collector or heap allocator at all.\n\nThis differs from a reference type, where the variable holds a pointer to shared, heap-allocated storage, and copying the variable only copies the pointer, leaving both variables observing the same underlying data.\n\nValue type are related to stack allocation, though they are not the same.\n\nPHP has exactly two kinds of values with respect to this distinction: scalars, like ``int``, ``float``, ``bool``, ``string``, and arrays behave like value types, copied on assignment, aka cow, courtesy of copy-on-write so the actual duplication is deferred until a mutation would otherwise be observable; every ``object``, without exception, is a reference type, allocated on the heap and shared by reference whenever assigned or passed. PHP gives the programmer no way to declare a class as a value type, and no way to request stack allocation for anything: allocation strategy is entirely up to the engine and is never a choice exposed in the language.",
+    "code": "<?php\n\n    $a = [1, 2, 3];\n    $b = $a;      // copy-on-write: logically a full copy, value semantics\n    $b[] = 4;\n    echo count($a); // 3, unaffected\n    \n    class Box { public int $n = 1; }\n    $trunk = new Box();\n    $tusk = $trunk;      // reference copy: both variables share the same object\n    $tusk->n = 2;\n    echo $trunk->n;   // 2, objects are never value types in PHP\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Value_type_and_reference_type",
+    "related": [
+        "struct-type",
+        "immutable",
+        "move-semantics",
+        "array",
+        "copy-on-write"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Value_type_and_reference_type"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Go Type System Overview",
+            "url": "https://go101.org/article/type-system-overview.html"
+        }
+    ],
+    "tags": [
+        "concept",
+        "type",
+        "not supported"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+}

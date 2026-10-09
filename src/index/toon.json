@@ -1,0 +1,52 @@
+{
+    "id": "toon",
+    "name": "Token Oriented Object Notation (TOON)",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/toon.html",
+    "aliases": [],
+    "description": "``TOON``, which stands for ``Token Oriented Object Notation``, is a compact, human-readable encoding of the JSON data model that minimizes tokens and makes structure easy for models to follow. It's intended for LLM input as a drop-in, lossless representation of JSON data.",
+    "code": "<?php\n\n    // example from https://github.com/toon-format/toon\n    $toon = <<<TOON\ncontext:\n  task: Our favorite hikes together\n  location: Boulder\n  season: spring_2025\nfriends[3]: ana,luis,sam\nhikes[3]{id,name,distanceKm,elevationGain,companion,wasSunny}:\n  1,Blue Lake Trail,7.5,320,ana,true\n  2,Ridge Overlook,9.2,540,luis,false\n  3,Wildflower Loop,5.1,180,sam,true    \nTOON;\n\n?>",
+    "documentation": "https://toonformat.dev/",
+    "related": [
+        "markdown",
+        "text"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://toonformat.dev/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "toon format",
+            "url": "https://github.com/toon-format/toon"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "How to Use TOON Format in PHP - Complete Tutorial",
+            "url": "https://jsontotable.org/blog/toon/how-to-use-toon-in-php"
+        }
+    ],
+    "tags": [
+        "acronym",
+        "format",
+        "ai"
+    ],
+    "packagist": [
+        "sbsaga/toon",
+        "helgesverre/toon"
+    ],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Mon, 24 Aug 2026 04:49:21 +0000"
+}

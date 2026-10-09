@@ -1,0 +1,53 @@
+{
+    "id": "weakmap",
+    "name": "Weakmap",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/weakmap.html",
+    "aliases": [],
+    "description": "``WeakMap`` is a special object type: it is a map, or key\u2013value storage, where the keys are objects and the stored values are automatically removed when the object key is no longer referenced anywhere else in the program.\n\n``WeakMap`` may be considered an associative array, where the keys must be objects. It also doesn't prevent objects from being garbage-collected.\n\n``WeakMap`` was introduced in version 8.0.",
+    "code": "<?php\n\n    $weakMap = new WeakMap();\n    \n    $obj = new stdClass();\n    $weakMap[$obj] = 'some data';\n    \n    echo $weakMap[$obj]; // some data\n    \n    // Now unset $obj:\n    unset($obj);\n    \n    // The entry is automatically removed from the WeakMap\n    var_dump($weakMap); // empty WeakMap\n\n?>",
+    "documentation": "https://www.php.net/manual/en/class.weakmap.php",
+    "related": [
+        "array",
+        "cache",
+        "splstorageobjects",
+        "garbage-collection",
+        "resource-leak"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/class.weakmap.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Hacking PHP\u2019s WeakMap for Value Object D\u00d7",
+            "url": "https://withinboredom.info/posts/hacking-phps-weakmap-for-value-object-dx/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "WeakMaps a hidden gem in PHP",
+            "url": "https://flareapp.io/blog/weakmaps-a-hidden-gem-in-php"
+        }
+    ],
+    "tags": [
+        "php class",
+        "feature"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Fri, 11 Sep 2026 08:57:53 +0000"
+}

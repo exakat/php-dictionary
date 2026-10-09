@@ -1,0 +1,44 @@
+{
+    "id": "magic-in-the-code",
+    "name": "Magic Code",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/magic-in-the-code.html",
+    "aliases": [],
+    "description": "Magic in the code happens when a simple command execute a lot more than it seems. Things that are happening in the background must be known to the coder, or it will come as a surprise.",
+    "code": "",
+    "documentation": "https://en.wikipedia.org/wiki/Magic_(programming)",
+    "related": [
+        "magic"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Magic_(programming)"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Demystify Laravel's Magic",
+            "url": "https://laracasts.com/series/demystifying-laravel-magic"
+        }
+    ],
+    "tags": [
+        "concept",
+        "value"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 03 Sep 2026 10:54:12 +0000"
+}

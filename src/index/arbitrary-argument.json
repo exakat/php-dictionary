@@ -1,0 +1,43 @@
+{
+    "id": "arbitrary-argument",
+    "name": "Arbitrary Number Of Argument",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/arbitrary-argument.html",
+    "aliases": [],
+    "description": "PHP allows any number of arguments to be passed to a function call. In the function definition, receiving those arguments means managing an arbitrary number of parameters.\n\nThis is achieved with the variadic operator, or with functions such as ``func_get_args()``.\n\nThey are also called variable argument lists.\n\nWhen the arguments are dynamic, aka they are collected at execution time, the variadic operator or the function ``call_user_func_array()`` turns an array to arguments.",
+    "code": "<?php\n\n    function trumpet(...$args) {\n        print \"This function is called with \".count($args).\" arguments\\n\";\n        print \"This function is called with \".func_get_count().\" arguments\\n\";\n        print \"This function is called with \".count($func_get_args()).\" arguments\\n\";\n    }\n\n    $array = range(0, rand(5, 10)); // generates an array with 1 to 11 elements\n\n    trumpet(...$array);\n    call_user_func_array('trumpet', $array);\n\n?>",
+    "documentation": "https://www.php.net/manual/en/functions.arguments.php#functions.variable-arg-list",
+    "related": [
+        "parameter",
+        "variadic",
+        "func_get_args"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/functions.arguments.php#functions.variable-arg-list"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Variadic functions via ...",
+            "url": "https://www.php.net/manual/en/migration56.new-features.php#migration56.new-features.variadics"
+        }
+    ],
+    "tags": [
+        "feature"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+}

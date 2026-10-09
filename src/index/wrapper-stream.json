@@ -1,0 +1,60 @@
+{
+    "id": "wrapper-stream",
+    "name": "Stream Wrapper",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/wrapper-stream.html",
+    "aliases": [
+        "stream-wrapper"
+    ],
+    "description": "A stream wrapper is additional code which tells the stream how to handle specific protocols and encodings. \n\nPHP supports several wrappers natively, in particular ``file://``, ``http://``, ``ftp://``, ``php://``, ``zlib://``, ``data://``, ``glob://``, ``phar://``, ``ssh2://``, ``rar://``, ``ogg://`` and ``expect://``.\n\nCustom wrappers may be registered with ``stream_wrapper_register()``. A wrapper may write in any kind of format. \n",
+    "code": "<?php\n\n    // opening a file with the file wrapper\n    $fp = fopen('file://tmp/myfile.txt', 'r+');\n    \n    // opening a file with the ftp wrapper\n    $fp = fopen('ftp://user:password@example.com/pub/file.txt', 'r+');\n    \n    // opening a file with the phar wrapper\n    $fp = fopen('phar://someFile.txt', 'r+');\n\n?>",
+    "documentation": "https://www.php.net/manual/en/book.stream.php",
+    "related": [
+        "protocol",
+        "stream"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/book.stream.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "A Guide to Streams in PHP: In-Depth Tutorial With Examples",
+            "url": "https://stackify.com/a-guide-to-streams-in-php-in-depth-tutorial-with-examples/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Supported Protocols and Wrappers",
+            "url": "https://www.php.net/manual/en/wrappers.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "stream_wrapper_register()",
+            "url": "https://www.php.net/manual/en/function.stream-wrapper-register.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Example class registered as stream wrapper",
+            "url": "https://www.php.net/manual/en/stream.streamwrapper.example-1.php"
+        }
+    ],
+    "tags": [
+        "feature",
+        "wrapper"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Mon, 24 Aug 2026 07:40:44 +0000"
+}

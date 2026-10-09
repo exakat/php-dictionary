@@ -1,0 +1,58 @@
+{
+    "id": "data-flow-analysis",
+    "name": "Data Flow Analysis (DFA)",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/data-flow-analysis.html",
+    "aliases": [
+        "dfa"
+    ],
+    "description": "Data flow analysis, or ``DFA``, is a static analysis technique that tracks how data values move through a program. It follows variables from the point where they are defined or assigned to the points where they are used.\n\nCommon data flow problems include:\n\n+ Reaching definitions: which assignments of a variable can reach a given use\n+ Live variables: which variables hold values that may still be used later\n+ Taint analysis: whether user-supplied data can reach a sensitive sink without sanitisation\n+ Type inference: propagating known type information across the program\n+ Null propagation: detecting paths where a null value is used without a check\n\nData flow analysis requires a control flow graph. It is foundational for security tools that detect injection vulnerabilities and for compilers that optimise code.",
+    "code": "<?php\n\nfunction process(string $input): string {\n    $sanitized = htmlspecialchars($input, ENT_QUOTES, 'UTF-8');\n    // Data flow analysis confirms $sanitized is safe to echo\n    return $sanitized;\n}\n\nfunction unsafe(string $input): void {\n    // Data flow analysis flags $input as tainted at this sink\n    echo $input;\n}\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Data-flow_analysis",
+    "related": [
+        "control-flow-analysis",
+        "control-flow-graph",
+        "taint",
+        "analysis",
+        "sast",
+        "sql-injection",
+        "xss",
+        "lexical-analysis",
+        "semantic-analysis",
+        "symbolic-analysis",
+        "pattern-based-analysis"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Data-flow_analysis"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Yama: Precise Opcode-based Data Flow Analysis for Detecting PHP Applications Vulnerabilities",
+            "url": "https://github.com/xjzzzxx/Yama"
+        }
+    ],
+    "tags": [
+        "analysis",
+        "static analysis",
+        "security",
+        "acronym"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sun, 30 Aug 2026 09:58:53 +0000"
+}

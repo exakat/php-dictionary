@@ -1,0 +1,48 @@
+{
+    "id": "array_unshift",
+    "name": "array_unshift()",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/array_unshift.html",
+    "aliases": [],
+    "description": "``array_unshift()`` prepends one or more elements to the beginning of an array. All numeric keys are reset starting from zero, while string keys remain unchanged. The function returns the new number of elements in the array.\n\n``array_unshift()`` is the opposite of ``array_shift()``, which removes and returns the first element. Together with ``array_push()`` and ``array_pop()``, these four functions are used to implement queue, FIFO, or stack, LIFO, data structures.\n\nNote that ``array_unshift()`` is an ``O(n)`` operation because all integer keys must be renumbered.\n",
+    "code": "<?php\n\n    $array = [1, 2, 3];\n    $count = array_unshift($array, 0);\n    // $array == [0, 1, 2, 3], $count == 4\n\n    // Prepend multiple elements\n    array_unshift($array, -2, -1);\n    // $array == [-2, -1, 0, 1, 2, 3]\n\n    // String keys are preserved; integer keys are reset\n    $assoc = ['b' => 2, 'c' => 3];\n    array_unshift($assoc, 1);\n    // $assoc == [0 => 1, 'b' => 2, 'c' => 3]\n\n?>",
+    "documentation": "https://www.php.net/array_unshift",
+    "related": [
+        "array_shift",
+        "array_push",
+        "array_pop",
+        "fifo",
+        "lifo",
+        "prepend"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/array_unshift"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "array_unshift",
+            "url": "https://www.php.net/manual/en/function.array-unshift.php"
+        }
+    ],
+    "tags": [
+        "array"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Mon, 24 Aug 2026 08:35:53 +0000"
+}

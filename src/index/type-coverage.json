@@ -1,0 +1,62 @@
+{
+    "id": "type-coverage",
+    "name": "Type Coverage",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/type-coverage.html",
+    "aliases": [],
+    "description": "Type coverage reports how much of the PHP code has types. The elements that can be typed are: \n\n+ Arguments in methods\n+ Return type\n+ Properties\n+ Class constants\n\nSome elements cannot be typed: \n\n+ Arrays\n+ Lexical variables\n+ Yield values\n+ Local variables.\n\nType coverage is used as a metrics, to ensure that every line of code is used at least once during the tests. While it is a necessary feature, this is not always sufficient to ensure that the application is well tested, as lines of code are reused in several situations, and would require multiple tests.",
+    "code": "<?php\n\n    function trumpet($i = 0) : int {\n        return $i + 1;\n    }\n\n?>",
+    "documentation": "https://www.php.net/manual/en/language.types.declarations.php",
+    "related": [
+        "type",
+        "coverage",
+        "analysis",
+        "type-checking",
+        "type-inference"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.types.declarations.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "How to Measure Your Type Coverage",
+            "url": "https://tomasvotruba.com/blog/how-to-measure-your-type-coverage"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "phpunit/php-code-coverage",
+            "url": "https://github.com/sebastianbergmann/php-code-coverage"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP code coverage tool",
+            "url": "https://php.watch/articles/php-code-coverage-comparison"
+        }
+    ],
+    "tags": [
+        "type",
+        "static analysis"
+    ],
+    "packagist": [
+        "tomasvotruba/type-coverage"
+    ],
+    "extensions": [
+        "pcov"
+    ],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+}

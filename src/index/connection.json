@@ -1,0 +1,55 @@
+{
+    "id": "connection",
+    "name": "Connection",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/connection.html",
+    "aliases": [
+        "connexion"
+    ],
+    "description": "Connection, or ``connexion`` in French, refers to the communication link established between a running instance of PHP and a remote server.\n\nThe connection may be established with different kind of servers: web, SQL, NoSQL, FTP, etc. \n\nThe connection may be protected by a login and password, or other identification and authentication methods.\n\nOnce the connection is established, PHP sends queries to the remote server, and receives results set.\n\nThe remote server may be on the same physical machine as PHP: it is considered remote as it acts autonomously.",
+    "code": "",
+    "documentation": "https://www.php.net/manual/en/pdo.connections.php",
+    "related": [
+        "connexion-persistence",
+        "ftp",
+        "server",
+        "dsn"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/pdo.connections.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP: mysqli - Connections",
+            "url": "https://www.php.net/manual/en/mysqli.quickstart.connections.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Connection pool",
+            "url": "https://en.wikipedia.org/wiki/Connection_pool"
+        }
+    ],
+    "tags": [
+        "database",
+        "server",
+        "architecture"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sun, 30 Aug 2026 09:36:49 +0000"
+}

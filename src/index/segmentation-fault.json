@@ -1,0 +1,41 @@
+{
+    "id": "segmentation-fault",
+    "name": "Segmentation Fault",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/segmentation-fault.html",
+    "aliases": [],
+    "description": "``Segmentation fault`` is the laconic error message that is displayed when PHP crashes. It signals that an error occurred during the execution of the PHP code, and it was not handled by any part of the engine. \n\nSegmentation faults are notoriously hard to fix. They are often linked to a bug, and there are some rare PHP syntax that leads to them. PHP 8.3 addresses them with a sensor that stops the problem before it gets out of hand.",
+    "code": "<?php\n\n    // start the file by including itself immediately.\n    // What do you expect? \n    include __FILE__; \n    \n    // Until PHP 8.3\n    // Segmentation fault\n\n?>",
+    "documentation": "https://www.zend.com/blog/debugging-php-segmentation-faults",
+    "related": [
+        "engine"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.zend.com/blog/debugging-php-segmentation-faults"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Find Segfaults in PHP like a boss",
+            "url": "https://jolicode.com/blog/find-segfaults-in-php-like-a-boss"
+        }
+    ],
+    "tags": [
+        "error"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Tue, 01 Sep 2026 05:31:03 +0000"
+}

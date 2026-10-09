@@ -1,0 +1,55 @@
+{
+    "id": "noscream",
+    "name": "@, No Scream Operator",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/noscream.html",
+    "aliases": [
+        "@"
+    ],
+    "description": "The ``@`` operator prevent error reports in specific expressions. \n\nThe operator must be added before the expression it protect. The execution proceeds and no warning is emitted, if ever one is encountered. Fatal errors, on the other hand, are still displayed as necessary. For example, a call to a non-existing function is still reported, even with the operator set in place.\n\nThe operator ``@`` set the context at the expression level: any error happening during the processing of the expression is suppressed. This applies to all expressions inside a method, or even all the code inside an include.\n\nThe operator is called the ``no scream`` operator.",
+    "code": "<?php\n\n    echo @$a; // no error\n    \n    $all = [];\n    foreach(someArray() as $value) {\n        @$all[$value]++;  // slow initialisation and incrementation \n    }\n    \n    // Fatal error, in any case\n    @trumpet();\n    \n    @trample();\n    function trample() {\n        // This error won't show up\n        trigger_error('a', E_USER_WARNING);\n    }\n\n?>",
+    "documentation": "https://www.php.net/manual/en/language.operators.errorcontrol.php",
+    "related": [
+        "trigger_error",
+        "error-reporting",
+        "error-suppression",
+        "habit",
+        "operator",
+        "non-numeric"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.operators.errorcontrol.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "I scream, you scream, we all scream for @ no scream operator",
+            "url": "https://www.exakat.io/i-scream-you-scream-we-all-scream-for/"
+        }
+    ],
+    "tags": [
+        "error suppression",
+        "character",
+        "feature",
+        "bad practice"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [
+        "Structures/Noscream"
+    ],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Mon, 14 Sep 2026 17:08:15 +0000"
+}

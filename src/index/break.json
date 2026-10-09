@@ -1,0 +1,49 @@
+{
+    "id": "break",
+    "name": "Break",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/break.html",
+    "aliases": [],
+    "description": "``break`` is a control structure, which ends execution of the current ``for``, ``foreach``, ``while``, ``do-while`` or ``switch`` structure.\n\n``break`` accepts an optional argument, which tells how many enclosing structures are to be broken out of. \n\n``break`` should not be confused with ``continue``: ``continue`` doesn't work in a ``switch``, like ``break`` does.",
+    "code": "<?php\n\nforeach([1,2,3] as $b) {\n    // break upon the first even number\n    if ($b % 2 == 0) {\n        break;\n    }\n    \n    echo $b;\n}\n\nforeach([1,2,3] as $b1) {\n    foreach([1,2,3] as $b2) {\n        // break upon the first even number\n        if (($b1 + $b2) % 2 == 0) {\n            break 2; // exit both loops\n        }\n    }\n    \n    echo $b1 + $b2;\n}\n\n?>",
+    "documentation": "https://www.php.net/manual/en/control-structures.break.php",
+    "related": [
+        "continue",
+        "switch",
+        "loop",
+        "control-flow",
+        "infiniteiterator",
+        "jump",
+        "switch-case"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/control-structures.break.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Difference between break and continue in PHP",
+            "url": "https://www.geeksforgeeks.org/php/difference-between-break-and-continue-in-php/"
+        }
+    ],
+    "tags": [
+        "keyword",
+        "feature",
+        "changed behavior"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "5.4",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Mon, 14 Sep 2026 17:02:11 +0000"
+}

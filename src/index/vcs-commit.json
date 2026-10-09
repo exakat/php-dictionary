@@ -1,0 +1,61 @@
+{
+    "id": "vcs-commit",
+    "name": "VCS Commit",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/vcs-commit.html",
+    "aliases": [
+        "git-commit"
+    ],
+    "description": "A commit is a snapshot of source code at a specific point in time. It is a fundamental feature of a version control system.\n\nIt records changes made to the files in the project, such as adding, modifying, and deleting code. Each commit has a unique identifier, a ``SHA-1`` or ``SHA-256`` hash, a message describing the changes, and metadata such as the author name, email, and timestamp.\n\nSeveral commits are grouped into a pull request or PR, for code review. Commit message conventions such as Conventional Commits help automate changelogs and semantic versioning.",
+    "code": "",
+    "documentation": "https://git-scm.com/docs/git-commit",
+    "related": [
+        "git",
+        "vcs",
+        "pr",
+        "code-review",
+        "branch",
+        "merge",
+        "diff",
+        "rollback",
+        "worktree",
+        "svn",
+        "hg",
+        "commit",
+        "timing-attack"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://git-scm.com/docs/git-commit"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Conventional Commits specification",
+            "url": "https://www.conventionalcommits.org/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Git internals: commits and objects",
+            "url": "https://git-scm.com/book/en/v2/Git-Internals-Git-Objects"
+        }
+    ],
+    "tags": [
+        "sdlc",
+        "vcs"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Fri, 07 Aug 2026 09:59:47 +0000"
+}

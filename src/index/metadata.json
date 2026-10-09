@@ -1,0 +1,49 @@
+{
+    "id": "metadata",
+    "name": "Metadata",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/metadata.html",
+    "aliases": [],
+    "description": "Metadata is data that describes other data: it does not carry the actual content, but information about its structure, origin, or meaning.\n\nMetadata takes several forms:\n\n+ Attributes, since PHP 8.0, allow attaching structured metadata to classes, methods, properties, and functions, readable at runtime through Reflection, and used by frameworks for routing, serialization, validation, or dependency injection\n+ Docblocks, PHPDoc comments, provide informal metadata such as ``@param``, ``@return``, or ``@deprecated``, consumed by IDE, static analysis tools, and documentation generators, though not by the PHP engine itself\n+ Reflection exposes structural metadata about classes, methods, and parameters at runtime, such as visibility, type declarations, and attributes\n+ File metadata, such as timestamps, permissions, or EXIF data embedded in images, describes properties of a file rather than a class or function\n\nMetadata is central to many cross-cutting concerns: ``ORM`` use it to map classes to database tables, serializers use it to control field visibility, and routers use it to bind URLs to controllers.",
+    "code": "<?php\n\n    #[Attribute]\n    class Route {\n        public function __construct(public string $path) {}\n    }\n\n    class UserController {\n        #[Route('/users')]\n        public function list(): array {\n            return [];\n        }\n    }\n\n    $method = new ReflectionMethod(UserController::class, 'list');\n    foreach ($method->getAttributes(Route::class) as $attribute) {\n        $route = $attribute->newInstance();\n        echo $route->path; // /users\n    }\n\n?>",
+    "documentation": "https://www.php.net/manual/en/language.attributes.php",
+    "related": [
+        "attribute",
+        "reflection",
+        "docblock",
+        "annotation",
+        "exif",
+        "serialization",
+        "orm"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.attributes.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP Attributes overview",
+            "url": "https://www.php.net/manual/en/language.attributes.overview.php"
+        }
+    ],
+    "tags": [
+        "concept"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 13 Aug 2026 05:58:07 +0000"
+}

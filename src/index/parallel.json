@@ -1,0 +1,50 @@
+{
+    "id": "parallel",
+    "name": "Parallel",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/parallel.html",
+    "aliases": [],
+    "description": "Running processes in parallel means that several distinct processes are running at the same time. This approach takes advantage of modern CPUs, which have several cores, and modern operating systems, with a robust process management.\n\nPHP has several ways to start threads or processes, and monitor them: ``amphp``, ``ReactPHP``, ``fibers``.",
+    "code": "",
+    "documentation": "https://en.wikipedia.org/wiki/Parallel_computing",
+    "related": [
+        "asynchronous",
+        "actor-model",
+        "openswoole",
+        "software-transactional-memory",
+        "swoole"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Parallel_computing"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Parallel Processing with PHP: why, how, and when",
+            "url": "https://dev.to/robertobutti/parallel-processing-with-php-why-how-and-when-33gh"
+        }
+    ],
+    "tags": [
+        "architecture"
+    ],
+    "packagist": [
+        "amphp/amp",
+        "react/event-loop"
+    ],
+    "extensions": [
+        "fibers"
+    ],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Mon, 07 Sep 2026 09:26:46 +0000"
+}

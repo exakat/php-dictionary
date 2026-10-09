@@ -1,0 +1,50 @@
+{
+    "id": "dao",
+    "name": "Data Access Object (DAO)",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/dao.html",
+    "aliases": [],
+    "description": "Data Access Object is a design pattern used to abstract and encapsulate all access to a data source, typically a database. The DAO manages the connection with the data source to obtain and store data, leaving the rest of the application decoupled from the persistence layer.",
+    "code": "",
+    "documentation": "https://en.wikipedia.org/wiki/Data_access_object",
+    "related": [
+        "pdo"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Data_access_object"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Getting Started with PHP Data Access Object (DAO) Pattern",
+            "url": "https://moldstud.com/articles/p-getting-started-with-php-data-access-object-dao-pattern-a-beginners-guide"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Decoupling models from the database: Data Access Object pattern in PHP",
+            "url": "https://codeutopia.net/blog/2009/01/05/decoupling-models-from-the-database-data-access-object-pattern-in-php/"
+        }
+    ],
+    "tags": [
+        "database",
+        "acronym",
+        "design pattern"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Mon, 17 Aug 2026 09:06:21 +0000"
+}

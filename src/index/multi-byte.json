@@ -1,0 +1,55 @@
+{
+    "id": "multi-byte",
+    "name": "Multi-byte",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/multi-byte.html",
+    "aliases": [
+        "mb",
+        "multibyte"
+    ],
+    "description": "Multi-byte refers to string encoding where characters are coded over several bytes, rather than just one. \n\nIn ASCII, the roman alphabet is coded over 1 character, making it mono-byte. But other languages, such as Chinese, needs for than one byte to represents all the ideograms. \n\nUnicode, for example, is multi-byte: 2 bytes. It may be encoded as UTF-8 on 2 bytes, UTF-16 on 4 bytes or UTF-32 on 8 bytes.\n\nString functions are single-byte. When needed, extensions such as ``iconv``, ``intl`` and ``mbstring`` are able to manipulate multi-byte characters without breaking them.",
+    "code": "<?php\n\n    print strlen('me'); // 2 chars\n    \n    print strlen('\u6211'); // 3 chars\n    \n    print mb_strlen('\u6211'); // 1 chars\n\n?>",
+    "documentation": "https://www.php.net/manual/en/book.mbstring.php",
+    "related": [
+        "unicode",
+        "utf-8",
+        "ascii",
+        "byte",
+        "text"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/book.mbstring.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Character Encoding",
+            "url": "https://medium.com/@gftea/character-encoding-ff9a14a10ec7"
+        }
+    ],
+    "tags": [
+        "encoding",
+        "string"
+    ],
+    "packagist": [],
+    "extensions": [
+        "mbstring",
+        "intl",
+        "iconv"
+    ],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Tue, 01 Sep 2026 05:31:03 +0000"
+}

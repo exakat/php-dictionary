@@ -1,0 +1,45 @@
+{
+    "id": "register_argc_argv",
+    "name": "register_argc_argv",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/register_argc_argv.html",
+    "aliases": [],
+    "description": "This directive controls the availability of the ``$argv`` and ``$argc`` PHP native variables. By default, the directive is active and the variables are available.",
+    "code": "<?php\n\n    if (ini_get('register_argc_argv')) {\n        var_dump($argv);\n    } else {\n        print '$argv and $argc are disabled.';\n    }\n\n?>",
+    "documentation": "https://www.php.net/manual/en/ini.core.php#ini.register-argc-argv",
+    "related": [
+        "$argv",
+        "$argc",
+        "directive"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/ini.core.php#ini.register-argc-argv"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Register_argc_argv: A Detailed Look at Its Significance and Use in PHP",
+            "url": "https://www.mydreams.cz/en/hosting-wiki/10316-register-argc-argv-a-detailed-look-at-its-significance-and-use-in-php.html"
+        }
+    ],
+    "tags": [
+        "directive"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Tue, 18 Aug 2026 05:24:38 +0000"
+}

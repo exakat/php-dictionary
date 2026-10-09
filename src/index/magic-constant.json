@@ -1,0 +1,62 @@
+{
+    "id": "magic-constant",
+    "name": "Magic Constants",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/magic-constant.html",
+    "aliases": [],
+    "description": "Constants which hold information about the current location of the code.\n\nThose constants are magic, because they have a constant syntax, yet their value may change, even during the execution of the code. \n\n+ __LINE__\tThe current line number of the file.\n+ __FILE__\tThe full path and filename of the file with symlinks resolved. If used inside an include, the name of the included file is returned.\n+ __DIR__\tThe directory of the file. If used inside an include, the directory of the included file is returned. This is equivalent to ``dirname(__FILE__)``. This directory name does not have a trailing slash unless it is the root directory.\n+ __FUNCTION__\tThe function name, or ``{closure}`` for anonymous functions.\n+ __CLASS__\tThe class name. The class name includes the namespace it was declared in, e.g. ``Foo\\Bar``. When used in a trait method, __CLASS__ is the name of the class the trait is used in.\n+ __TRAIT__\tThe trait name. The trait name includes the namespace it was declared in, e.g. ``Foo\\Bar``.\n+ __METHOD__\tThe class method name.\n+ __NAMESPACE__ The name of the current namespace.\n+ __PROPERTY__ The name of the current property hook.\n\nThose constants are case insensitive. While the common convention is to use them all in uppercase, all the following syntaxes work: ``__METHOD__``, ``__method__``, ``__meTHod__``.",
+    "code": "<?php\n\nfunction trumpet() {\n    // shows trumpet\n    echo __FUNCTION__;\n}\n\nfunction forage() {\n    // shows forage\n    echo __FUNCTION__;\n}\n\n?>",
+    "documentation": "https://www.php.net/manual/en/language.constants.magic.php",
+    "related": [
+        "magic",
+        "magic-property",
+        "magic-method",
+        "__class__",
+        "__function__",
+        "__method__",
+        "property-hook",
+        "__get",
+        "__set",
+        "special-constant",
+        "__file__",
+        "__line__",
+        "__unset",
+        "constant-case",
+        "automagic"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.constants.magic.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "get_class()",
+            "url": "https://www.php.net/manual/en/function.get-class.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Namespaces",
+            "url": "https://www.php.net/manual/en/language.namespaces.php"
+        }
+    ],
+    "tags": [
+        "magic constant"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [
+        "Constants/MagicConstantUsage"
+    ],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+}

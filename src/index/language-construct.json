@@ -1,0 +1,46 @@
+{
+    "id": "language-construct",
+    "name": "Language Construct",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/language-construct.html",
+    "aliases": [],
+    "description": "PHP has a notion of ``language construct``, which are special keywords, with an attached feature. \n\nLanguage constructs are: ``echo``, ``require``, ``require_once``, ``include``, ``include_once``, ``return``, ``die``, ``exit``, ``unset``, ``isset``, ``print``, ``empty``.\n\nLanguage constructs usually do not require parenthesis, and they are mostly known for that. The parenthesis is not necessary, but possible. It makes the language construct look like a function call. \n\nAlso, language construct do not behave like a function, so they can't be used by their name, as a callback. \n\nThere have some special behavior: echo accepts an arbitrary number of argument, while print only accepts one. die and exit work without arguments, but, in the event that an argument is provided, it must be enclosed in parenthesis.",
+    "code": "<?php\n\necho 'a', 'b', 'c';\n\ndie;\n\n?>",
+    "documentation": "https://www.php.net/manual/en/reserved.keywords.php",
+    "related": [
+        "self",
+        "static",
+        "parent",
+        "echo",
+        "empty",
+        "exit"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/reserved.keywords.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP Language Constructs vs Built-in Functions",
+            "url": "http://www.phpknowhow.com/basics/language-constructs-vs-built-in-functions/"
+        }
+    ],
+    "tags": [
+        "syntax"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sat, 08 Aug 2026 08:10:54 +0000"
+}

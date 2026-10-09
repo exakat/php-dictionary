@@ -1,0 +1,51 @@
+{
+    "id": "arcane",
+    "name": "Arcane",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/arcane.html",
+    "aliases": [],
+    "description": "Arcane refers to weird and obscure features, that are unknown, unused or forgotten. Sometimes, all at the same time. They have been with the language for a long time, and they eventually drop from the feature list.\n\n+ It is possible to use ``++`` on a string containing variables. In that case, trailing letters are augmented by one. \n+ ``strpos()`` used to accept an integer as second argument: it would convert it automatically to its ASCII equivalent\n+ ``range()`` used to produce all the values between the interval boundaries, even when the boundaries where one string and one integer \n+ Logical operators works on strings, and then, produce strings.",
+    "code": "<?php\n\n    $a = 'b';\n    echo ++$a; // c\n    \n    // 98 is b\n    print strpos('abc', 99); // 1\n    // This was removed in PHP 8.0\n\n    var_dump(a & 'A' );    // 'A'\n    var_dump(a & 'B' );    // '@'\n\n?>",
+    "documentation": "https://www.php.net/manual/en/language.types.type-juggling.php",
+    "related": [
+        "deprecated",
+        "deprecation"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.types.type-juggling.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "The Dark Corners of PHP: Lesser-Known Features and Quirks",
+            "url": "https://medium.com/@makalin/the-dark-corners-of-php-lesser-known-features-and-quirks-04abc4b163e6"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP: Deprecated Features - Manual",
+            "url": "https://www.php.net/manual/en/migration74.deprecated.php"
+        }
+    ],
+    "tags": [
+        "concept",
+        "adjective",
+        "trick"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+}

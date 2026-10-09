@@ -1,0 +1,57 @@
+{
+    "id": "php-wrapper",
+    "name": "PHP Wrappers",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/php-wrapper.html",
+    "aliases": [],
+    "description": "A wrapper is a custom way to access remote resources. It is designed to look like accessing a file, on the file system, but using other drivers than the ones of the hard drive. It is based on a configuration string, which looks like a URL: ``ftp://www.site.com/file.txt``, where the part before the ``://`` is the protocol.\n\nAmong the predefined PHP wrappers, there are ``http://``, ``ftp://``, ``zlib://``, ``phar://``, ``rar://``, ``expect://``.",
+    "code": "<?php\n\n$html = file_get_content('http://www.php.net/');\n\n?>",
+    "documentation": "https://www.php.net/manual/en/class.streamwrapper.php",
+    "related": [
+        "protocol",
+        "wrapper",
+        "wrapper-file",
+        "thin-method",
+        "wrapper-ftp",
+        "wrapper-pattern",
+        "wrapper-php",
+        "wrapper-http",
+        "zlib"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/class.streamwrapper.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Protocols and Wrapper in PHP",
+            "url": "https://www.geeksforgeeks.org/protocols-and-wrapper-in-php/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Php wrapper and Local File Inclusion",
+            "url": "https://medium.com/@robsfromashes/php-wrapper-and-local-file-inclusion-2fb82c891f55"
+        }
+    ],
+    "tags": [
+        "wrapper",
+        "native feature"
+    ],
+    "packagist": [
+        "bovigo/vfsStream"
+    ],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Tue, 11 Aug 2026 14:42:07 +0000"
+}

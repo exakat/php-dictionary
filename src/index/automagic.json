@@ -1,0 +1,49 @@
+{
+    "id": "automagic",
+    "name": "Automagic",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/automagic.html",
+    "aliases": [
+        "automagically"
+    ],
+    "description": "Automagic is a porte-manteau, merging automatic and magic. Some PHP operations are automagic, meaning that a lot more is processed than what it appears.\n\nSuch operations usually yield surprise and confusion, or are a cherished feature.\n\nAutomagic is mostly used as an adverb, automagically.",
+    "code": "<?php\n\n    var_dump(10 === '1e1');  // true\n    // PHP automagically converts the string into a number, and 1e1 yields 10. \n\n    $array = [null => 1, '33' => 2];\n    echo $array[0]; // 1\n    // PHP converts the NULL into 0\n    echo $array[33]; // 2\n    // PHP converts numeric strings to strings\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Magic_(programming)",
+    "related": [
+        "magic-method",
+        "magic-constant"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Magic_(programming)"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Magic Methods",
+            "url": "https://www.php.net/manual/en/language.oop5.magic.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Magic Constants",
+            "url": "https://www.php.net/manual/en/language.constants.magic.php"
+        }
+    ],
+    "tags": [
+        "neologism"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Wed, 26 Aug 2026 09:57:47 +0000"
+}

@@ -1,0 +1,47 @@
+{
+    "id": "ini",
+    "name": "INI",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/ini.html",
+    "aliases": [],
+    "description": "The INI format is a simple, human-readable file format used for configuration settings. It consists of key-value pairs grouped into sections.\n\nIt is natively supported by PHP, and used internally for the ``php.ini`` file.\n\nIt is related to the TOML format.",
+    "code": "<?php\n\n    parse_ini_file('/path/to/php.ini');\n    \n    parse_ini_string(<<<INI\n    ; This is a comment\n    # Another comment\n    \n    [database]\n    host = localhost\n    username = root\n    password = secret\n    port = 3306\n    INI);\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/INI_file",
+    "related": [
+        "format",
+        "json",
+        "toml"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/INI_file"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "INI configuration",
+            "url": "http://linuxcnc.org/docs/html/config/ini-config.html"
+        }
+    ],
+    "tags": [
+        "format"
+    ],
+    "packagist": [
+        "matomo/ini"
+    ],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Mon, 15 Jun 2026 11:03:59 +0000"
+}

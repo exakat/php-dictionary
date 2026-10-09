@@ -1,0 +1,50 @@
+{
+    "id": "supply-chain",
+    "name": "Supply Chain",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/supply-chain.html",
+    "aliases": [],
+    "description": "The supply chain is the set of components, libraries, tools and processes that are used to build an application.\n\n+ The application source code, including version management\n+ The component dependencies, such as ``composer.json``\n+ The build and development tools, such as unit test, static analysis...\n+ CI pipelines\n+ Production environment, such as PHP, extensions, virtualization...\n+ External services, databases, APIs, cloud providers...",
+    "code": "",
+    "documentation": "https://en.wikipedia.org/wiki/Supply_chain_attack",
+    "related": [
+        "supply-chain-attack",
+        "composer",
+        "composer.json",
+        "packagist",
+        "package-manager"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Supply_chain_attack"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "The PHP Stack\u2019s Supply Chain",
+            "url": "https://phpunit.expert/presentations/the-php-stacks-supply-chain.html"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Supply Chain Security in PHP Projects",
+            "url": "https://dev.to/dobrenteiistvan/supply-chain-security-in-php-projects-10p4"
+        }
+    ],
+    "tags": [
+        "sdl"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 01 Oct 2026 09:27:50 +0000"
+}

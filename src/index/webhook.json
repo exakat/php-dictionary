@@ -1,0 +1,58 @@
+{
+    "id": "webhook",
+    "name": "Webhook",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/webhook.html",
+    "aliases": [
+        "http-callback"
+    ],
+    "description": "A webhook is an HTTP callback mechanism where a server notifies a client by sending an HTTP POST request to a pre-registered URL when a specific event occurs. Rather than polling for updates, the receiving application exposes an endpoint and waits for the provider to push data to it.\n\nWebhooks are widely used for event-driven integrations: payment confirmations, repository push events, form submissions, or status updates from external services. Because the provider may retry delivery on failure, webhook consumers must be idempotent to avoid processing the same event twice.\n\nA webhook endpoint typically reads the raw request body, validates a signature header to authenticate the sender, and dispatches the payload to a queue or handler.",
+    "code": "",
+    "documentation": "https://en.wikipedia.org/wiki/Webhook",
+    "related": [
+        "hook",
+        "git-hook",
+        "idempotent",
+        "event-driven",
+        "http",
+        "http-header",
+        "payload",
+        "retry",
+        "deduplication",
+        "queue",
+        "signature"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Webhook"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "How to Create a Webhook in PHP",
+            "url": "https://www.delftstack.com/howto/php/create-webhook-in-php/"
+        }
+    ],
+    "tags": [
+        "architecture",
+        "web"
+    ],
+    "packagist": [
+        "spatie/laravel-webhook-client"
+    ],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 02 Jul 2026 09:53:09 +0000"
+}

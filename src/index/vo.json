@@ -1,0 +1,50 @@
+{
+    "id": "vo",
+    "name": "Value Object (VO)",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/vo.html",
+    "aliases": [],
+    "description": "``VO`` stands for Value Object. It is a simple object whose equality is not based on identity. This means that two value objects are equal when they have the same values. They do not have to be the same object. \n\n``VO`` is a class, with properties, constants and methods. \n\n``VO`` may be confused with Data Transfer Object: the former's role is to carry data inside the application, the first one holds data, and can only be compared by its values.",
+    "code": "",
+    "documentation": "https://en.wikipedia.org/wiki/Data_transfer_object",
+    "related": [
+        "ddd",
+        "class-entity",
+        "dto",
+        "popo"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Data_transfer_object"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Writing value objects in PHP",
+            "url": "https://dev.to/ianrodrigues/writing-value-objects-in-php-4acg"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Understanding Value Objects in PHP",
+            "url": "https://wendelladriel.com/blog/understanding-value-objects-in-php"
+        }
+    ],
+    "tags": [
+        "acronym",
+        "ddd"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Tue, 01 Sep 2026 07:46:12 +0000"
+}

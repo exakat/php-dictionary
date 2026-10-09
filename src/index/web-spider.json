@@ -1,0 +1,50 @@
+{
+    "id": "web-spider",
+    "name": "Web-spider",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/web-spider.html",
+    "aliases": [
+        "spider",
+        "crawler"
+    ],
+    "description": "A web spider, also called a web crawler or bot, is a program that automatically browses the internet and collects information from websites.\n\nA simple robot follows a straightforward process:\n\n+ Visits a webpage\n+ Reads its content\n+ Follows links to other pages\n+ Repeats the process over and over\n\nWeb-spiders collect information such as the content, for search engines or AI, related links, for ``SEO`` ranking, or security. \n\nWeb-spiders should limit their visits according to the ``robots.txt`` file, available at the top of the website. Some of them don't respect it, or even exploit it to their own advantage.",
+    "code": "",
+    "documentation": "https://en.wikipedia.org/wiki/Web_crawler",
+    "related": [
+        "webscraping",
+        "robots.txt",
+        "sitemap",
+        "webserver",
+        "captcha"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Web_crawler"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "What is a web crawler? | How web spiders work",
+            "url": "https://www.cloudflare.com/learning/bots/what-is-a-web-crawler/"
+        }
+    ],
+    "tags": [
+        "web"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 06 Aug 2026 05:31:12 +0000"
+}

@@ -1,0 +1,47 @@
+{
+    "id": "alias",
+    "name": "Alias",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/alias.html",
+    "aliases": [],
+    "description": "An alias is a distinct name for an existing named structure. It is a classic way to cope with possible naming conflict, and improve readability. \n\nFor example, there are aliases in namespaces import, to disambiguate classes, traits, interfaces, enums, functions and constants from other namespaces. There is also the ``class_alias()`` function, which allows the application-wide creation of aliases. \n\nThere are also aliases for methods, when importing them from a trait. \n\nReferences are also considered an alias, as they stand for a variable with another name.",
+    "code": "<?php\n\n    use stdClass as StandardClass;\n    \n    foreach($map as $key => $value) {\n        print \"$key => $value\\n\";\n    }\n\n?>",
+    "documentation": "https://www.php.net/manual/en/language.operators.assignment.php",
+    "related": [
+        "use-alias",
+        "alias-types",
+        "insteadof",
+        "reference",
+        "class_alias",
+        "as"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.operators.assignment.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Using namespaces: Aliasing/Importing",
+            "url": "https://www.php.net/manual/en/language.namespaces.importing.php"
+        }
+    ],
+    "tags": [
+        "concept",
+        "alias"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Tue, 01 Sep 2026 05:31:03 +0000"
+}

@@ -1,0 +1,52 @@
+{
+    "id": "return-type",
+    "name": "Return Type",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/return-type.html",
+    "aliases": [
+        "returntype",
+        "return-typehint",
+        "returntypehint"
+    ],
+    "description": "Return types are the types used for the return value of a method or function. \n\nThey are the same as the argument types, with a few addition: \n\n+ ``void``, which means that no value is returned. No usage of return, or return with no explicit value\n+ ``never``, which means that the function won't return: either it will kill the application, or it will throw an exception.\n\nReturn types are ignored when the method throws an exception. \n\nReturn type are covariant: they get more or equally precise with each new child generation.",
+    "code": "<?php\n\nfunction trumpet() : bool {\n    if (rand(0,1)) {\n        return true;\n    } else {\n        return false;\n    }\n}\n\n?>",
+    "documentation": "https://www.php.net/manual/en/functions.returning-values.php",
+    "related": [
+        "type",
+        "return",
+        "type-covariance",
+        "yield-generator",
+        "intersection-type",
+        "type-declaration-property"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/functions.returning-values.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Return Types In PHP",
+            "url": "https://dev.to/karleb/return-types-in-php-3fip"
+        }
+    ],
+    "tags": [
+        "type"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [
+        "Typehints/MissingReturntype"
+    ],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+}

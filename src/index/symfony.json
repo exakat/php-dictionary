@@ -1,0 +1,57 @@
+{
+    "id": "symfony",
+    "name": "Symfony",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/symfony.html",
+    "aliases": [],
+    "description": "Symfony is a popular PHP framework: build with confidence at any scale. \n\nSymfony is a high-performance PHP framework for building scalable, maintainable web applications and APIs. It follows the MVC, Model-View-Controller, pattern and provides reusable components, a modular architecture, and powerful tools.",
+    "code": "",
+    "documentation": "https://symfony.com/",
+    "related": [
+        "framework",
+        "mvc"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://symfony.com/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Symfony 8 installation",
+            "url": "https://symfony.com/doc/current/setup.html"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Symfony cast",
+            "url": "https://github.com/symfonycasts"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Symfony blog",
+            "url": "https://symfony.com/blog/"
+        }
+    ],
+    "tags": [
+        "framework",
+        "brand"
+    ],
+    "packagist": [
+        "symfony/symfony"
+    ],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 02 Jul 2026 08:14:38 +0000"
+}

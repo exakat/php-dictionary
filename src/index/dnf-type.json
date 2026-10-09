@@ -1,0 +1,63 @@
+{
+    "id": "dnf-type",
+    "name": "Disjunctive Normal Form (DNF)",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/dnf-type.html",
+    "aliases": [
+        "dnf"
+    ],
+    "description": "``DNF`` stands for ``Disjunctive Normal Form``. It is a standard form used in propositional logic and Boolean algebra. DNF represents logical expressions as a disjunction ``OR`` of one or more conjunctions ``AND`` of literals. In simpler terms, it is a way to express logical statements using only the logical operators ``OR`` and ``AND``.\n\nThe ``DNF`` form allows for the representation of any logical expression using a combination of ``OR`` and ``AND`` operators. It is particularly useful in logic analysis, theorem proving, and boolean circuit design.",
+    "code": "<?php\n\n    class Elephpant {\n        private (A&B)|(C&D) $trunk;\n    }\n\n?>",
+    "documentation": "https://www.php.net/manual/en/language.types.declarations.php#language.types.declarations.composite.dnf",
+    "related": [
+        "logical-operator",
+        "and",
+        "type",
+        "composite-type",
+        "union-type",
+        "intersection-type",
+        "relative-types",
+        "type-declaration-property"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.types.declarations.php#language.types.declarations.composite.dnf"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP RFC: Disjunctive Normal Form Types",
+            "url": "https://wiki.php.net/rfc/dnf_types"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Disjunctive normal form",
+            "url": "https://en.wikipedia.org/wiki/Disjunctive_normal_form"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "DNF Types in PHP 8.2",
+            "url": "https://lindevs.com/dnf-types-in-php-8-2"
+        }
+    ],
+    "tags": [
+        "acronym",
+        "type",
+        "feature",
+        "rfc"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "8.2",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+}

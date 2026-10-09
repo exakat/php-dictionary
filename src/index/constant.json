@@ -1,0 +1,68 @@
+{
+    "id": "constant",
+    "name": "Constants",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/constant.html",
+    "aliases": [
+        "global-constant"
+    ],
+    "description": "Constants are named values, that never change. \n\nConstants may be created with the const keyword or the ``define()`` function. They may be tested for existence with the ``defined()`` function.\n\nThere are global constants, which are accessible with their name and their namespaces. There are also constants in classes, interfaces, enums and traits. Those are called class constant.\n\nConstants are namespace dependent. They can be imported using the ``use const`` command. \n\nConstants are usually written in uppercase. \n\nGlobal constants used to be case insensitive, when created with ``define()``. This feature was removed in version 8.0. Nowadays, both ``const`` and ``define`` create case insensitive values.",
+    "code": "<?php\n\nconst A = 1;\ndefine('B', 2);\n\n// displays 1\necho A;\n\n?>",
+    "documentation": "https://www.php.net/manual/en/language.constants.php",
+    "related": [
+        "class-constant",
+        "centralization",
+        "constant-scalar-expression",
+        "dynamic-constant",
+        "new-in-initializer",
+        "predefined-constant",
+        "class-constant-syntax",
+        "constant-case",
+        "define",
+        "literal",
+        "anonymous-constant",
+        "directory_separator",
+        "dynamic-class-constant",
+        "hard-coded",
+        "magic-number",
+        "order-of-execution",
+        "compile-time-evaluation",
+        "constant-expression",
+        "magic-value",
+        "php_eol"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.constants.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Understanding PHP Constants: A Simple Guide with Examples",
+            "url": "https://flatcoding.com/tutorials/php/understanding-the-php-constant-expression/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Constants",
+            "url": "https://phplang.org/spec/06-constants.html"
+        }
+    ],
+    "tags": [
+        "syntax",
+        "feature"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+}

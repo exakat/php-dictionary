@@ -1,0 +1,73 @@
+{
+    "id": "design-pattern",
+    "name": "Design Pattern",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/design-pattern.html",
+    "aliases": [],
+    "description": "A design pattern, or simply a pattern, is a general solution to a common problem. Design patterns also get a name, for easy reference. \n\nCommon design patterns: \n\n+ Factory\n+ Dependency injection\n+ Decorator\n+ Module\n+ Iterators\n+ This list is not exhaustive...\n\nDesign patterns are not dedicated to PHP, though most of them do apply to PHP.",
+    "code": "",
+    "documentation": "https://en.wikipedia.org/wiki/Software_design_pattern",
+    "related": [
+        "best-practice",
+        "observer",
+        "singleton",
+        "wrapper-designpattern",
+        "clean-architecture",
+        "clean-code",
+        "component",
+        "registry",
+        "facade",
+        "proxy-class",
+        "snapshot",
+        "specification",
+        "command",
+        "decorator",
+        "god-object",
+        "kiss",
+        "middleware",
+        "observer-pattern"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Software_design_pattern"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "The Catalog of PHP Examples",
+            "url": "https://refactoring.guru/design-patterns/php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "DesignPatternsPHP",
+            "url": "https://designpatternsphp.readthedocs.io/en/latest/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Design Pattenrs (the book)",
+            "url": "https://en.wikipedia.org/wiki/Design_Patterns"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Boosting PHP Performance with Design Patterns: Real-World Examples",
+            "url": "https://phpmagazine.net/2023/03/boosting-php-performance-with-design-patterns-real-world-examples.html"
+        }
+    ],
+    "tags": [
+        "concept"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sat, 08 Aug 2026 08:10:54 +0000"
+}

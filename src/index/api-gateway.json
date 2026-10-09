@@ -1,0 +1,58 @@
+{
+    "id": "api-gateway",
+    "name": "API Gateway",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/api-gateway.html",
+    "aliases": [],
+    "description": "An API gateway is a server that acts as the single entry point for all client requests to a backend system. It sits in front of a set of services and is responsible for routing requests to the appropriate service, as well as handling cross-cutting concerns that would otherwise be duplicated across services.\n\nTypical API gateway responsibilities: request routing, which are path-based or host-based to microservices, authentication and authorisation, based on ``JWT`` validation or API key checking, rate limiting and throttling, SSL termination, request/response transformation, logging and metrics collection, and caching.\n\nBy centralising these concerns at the gateway, individual services are freed from implementing them independently. A client makes a single call to the gateway; the gateway fans out to one or more services internally.\n\nCommon API gateways: ``AWS API Gateway``, ``Kong``, ``Traefik``, ``NGINX`` with ``Lua``, and ``Caddy``. In microservices deployments, the gateway typically sits in front of a Kubernetes ingress and routes traffic to ``PHP-FPM`` pods.",
+    "code": "<?php\n\n// PHP does not typically implement an API gateway itself \u2014\n// gateways are infrastructure components (Kong, Traefik, AWS API Gateway).\n// PHP services sit behind the gateway and receive pre-authenticated, pre-validated requests.\n\n// Kong plugin (Lua) enforcing JWT auth before the request reaches PHP:\n// config:\n//   plugins:\n//     - name: jwt\n//       config:\n//         secret_is_base64: false\n\n// In PHP: trust that the gateway has validated the token\n// The user identity is forwarded via a header set by the gateway\n$userId = (int) $_SERVER['HTTP_X_USER_ID']; // set by the gateway, not the client\n\n// AWS API Gateway: Lambda proxy integration\n// The gateway invokes a PHP Lambda function per route\n// Route: GET /orders/{id} -> order-service Lambda\n\n// BFF (Backend for Frontend): PHP as a gateway\n// PHP aggregates calls to multiple microservices and returns a tailored response\n$user    = $userClient->get('/users/' . $userId);\n$orders  = $orderClient->get('/orders?user=' . $userId);\n$returns = $returnClient->get('/returns?user=' . $userId);\n\nreturn [\n    'user'    => $user,\n    'orders'  => $orders,\n    'returns' => $returns,\n];\n\n?>",
+    "documentation": "https://microservices.io/patterns/apigateway.html",
+    "related": [
+        "microservice",
+        "service-discovery",
+        "rate-limit",
+        "authentication",
+        "middleware",
+        "rest-api",
+        "soa"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://microservices.io/patterns/apigateway.html"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "API Gateway in PHP",
+            "url": "https://habib-cst.medium.com/api-gateway-in-php-e22d7a6d57e3"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "API Gateway examples using SDK for PHP",
+            "url": "https://docs.aws.amazon.com/sdk-for-php/v3/developer-guide/php_api-gateway_code_examples.html"
+        }
+    ],
+    "tags": [
+        "concept",
+        "architecture"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": {
+        "Kong": "https://konghq.com/",
+        "Traefik": "https://traefik.io/",
+        "Caddy": "https://caddyserver.com/",
+        "NGINX": "https://nginx.org/"
+    },
+    "popularity": "",
+    "modified": "Thu, 17 Sep 2026 14:42:11 +0000"
+}

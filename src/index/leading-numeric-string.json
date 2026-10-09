@@ -1,0 +1,46 @@
+{
+    "id": "leading-numeric-string",
+    "name": "Leading Numeric String",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/leading-numeric-string.html",
+    "aliases": [],
+    "description": "A leading numeric string is a subset of numeric strings, where the first characters are numbers, or the occasional ``+`` or ``-``, and the rest of the string is non-digits.\n\nLeading numeric strings are used during conversion of strings into a number, although they are not used with the implicit integer conversion for arrays.\n\nLeading numeric strings emit a warning when they drop the final characters.",
+    "code": "<?php\n\n    echo '123bc' + 1;\n    // Warning: A non-numeric value encountered \n    // 124\n    \n    print_r(['123bc' =>1]);\n    /*\n      Array\n      (\n          [123bc] => 1\n      )\n    */\n\n?>",
+    "documentation": "https://www.php.net/manual/en/language.types.numeric-strings.php",
+    "related": [
+        "numeric-string"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.types.numeric-strings.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Saner string to number comparisons RFC",
+            "url": "https://wiki.php.net/rfc/saner-numeric-strings"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Type Juggling",
+            "url": "https://www.php.net/manual/en/language.types.type-juggling.php"
+        }
+    ],
+    "tags": [
+        "string"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sat, 15 Aug 2026 09:52:56 +0000"
+}

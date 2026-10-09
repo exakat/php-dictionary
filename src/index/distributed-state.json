@@ -1,0 +1,57 @@
+{
+    "id": "distributed-state",
+    "name": "Distributed State",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/distributed-state.html",
+    "aliases": [],
+    "description": "Distributed state refers to application state that is scattered across multiple, loosely-connected locations rather than being owned by a single, well-defined component.\n\nDistributed state creates several detectable problems:\n\n+ Implicit coupling: changing state in one file silently breaks another\n+ Unpredictable execution order: the value depends on when code runs, not just what it does\n+ Untestable code: a function cannot be tested in isolation if it reads global state\n+ Hidden dependencies: the function signature lies. It looks pure but reads from $_SESSION or a static.\n",
+    "code": "<?php\n\n  //Global variables spread across files:\n  $config = [];  // set in bootstrap.php\n  // ... modified in module1.php, module2.php, read everywhere\n  \n  Static class properties shared across classes:\n  class Auth { public static $user = null; }\n  class Logger { /* reads Auth::$user */ }\n  class Cart   { /* also reads Auth::$user */ }\n  \n  Superglobals ($_SESSION, $_COOKIE, $_SERVER) accessed everywhere:\n  // session key 'cart' written in CartController, read in CheckoutController,\n  // cleared in OrderController \u2014 no single owner\n  $_SESSION['cart'][] = $item;\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Distributed_computing",
+    "related": [
+        "state",
+        "implicit-state",
+        "hidden-state",
+        "implicit",
+        "stateful",
+        "global-variable",
+        "$globals",
+        "appeasement-pattern",
+        "load-balancer"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Distributed_computing"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "CAP theorem",
+            "url": "https://en.wikipedia.org/wiki/CAP_theorem"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Redis: Get Started",
+            "url": "https://redis.io/docs/latest/develop/get-started/"
+        }
+    ],
+    "tags": [
+        "concept",
+        "code smell"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Tue, 25 Aug 2026 12:17:01 +0000"
+}

@@ -1,0 +1,64 @@
+{
+    "id": "nullsafe-object-operator",
+    "name": "Null Safe Object Operator",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/nullsafe-object-operator.html",
+    "aliases": [],
+    "description": "The Null Safe Object Operator behaves like the object operator, until the object is null. Then, instead of failing with a fatal error, it returns null.",
+    "code": "<?php\n\n    function trumpet() : ?Elephpant {}\n    \n    class Elephpant {\n        public $trunkLength = 1;\n    }\n    \n    // This will not fail, but also display nothing\n    echo trumpet()?->trunkLength;\n    \n    // This will fail, when trumpet() returns null\n    echo trumpet()->trunkLength;\n\n?>",
+    "documentation": "https://www.php.net/manual/en/language.oop5.basic.php#language.oop5.basic.nullsafe",
+    "related": [
+        "property",
+        "method",
+        "object",
+        "object-operator",
+        "scope-resolution-operator"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.oop5.basic.php#language.oop5.basic.nullsafe"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "This nullsafe operator could come in PHP 8",
+            "url": "https://www.amitmerchant.com/nullsafe-operator-php/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Mastering Null Safety in PHP 8: A Comprehensive Guide to Using the Null Safe Operator",
+            "url": "https://medium.com/@prevailexcellent/mastering-null-safety-in-php-8-a-comprehensive-guide-to-using-the-null-safe-operator-47835ba1140b/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Null safe operator in practice",
+            "url": "https://www.exakat.io/en/null-safe-operator-in-practice/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Exploring the Null Safe Operator in PHP",
+            "url": "https://techvblogs.com/blog/exploring-the-null-safe-operator-php"
+        }
+    ],
+    "tags": [
+        "operator",
+        "feature",
+        "error suppression"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [
+        "Php/UseNullSafeOperator"
+    ],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "8.0+",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 17 Sep 2026 07:41:41 +0000"
+}

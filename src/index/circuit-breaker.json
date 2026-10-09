@@ -1,0 +1,84 @@
+{
+    "id": "circuit-breaker",
+    "name": "Circuit Breaker",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/circuit-breaker.html",
+    "aliases": [],
+    "description": "A circuit breaker is a general software engineering design pattern used to improve the resilience and stability of distributed systems. It prevents cascading failures by monitoring the calls to external services, like APIs, databases, or microservices. When a service fails repeatedly, the circuit breaker triggers and stops further calls to that service for a predefined period, allowing the target system to recover, and the local service to report the unavailability without producing incorrect values. \n\nAfter the timeout, it may allow a limited number of test calls to see if the service has recovered.",
+    "code": "",
+    "documentation": "https://en.wikipedia.org/wiki/Circuit_breaker_design_pattern",
+    "related": [
+        "feature-flag",
+        "downtime",
+        "availability",
+        "qos",
+        "reliability",
+        "sla",
+        "canary",
+        "fault-isolation",
+        "resilience",
+        "retry",
+        "backoff",
+        "timeout",
+        "bulkhead",
+        "chaos-engineering",
+        "cascading-failure",
+        "deadline",
+        "jitter",
+        "stale-while-revalidate"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Circuit_breaker_design_pattern"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "CircuitBreaker",
+            "url": "https://martinfowler.com/bliki/CircuitBreaker.html"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Circuit Breaker Pattern in PHP",
+            "url": "https://laravel-news.com/circuit-breaker-pattern-in-php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP Circuit Breaker Pattern \u2013 Build Resilient, Fault-Tolerant Systems",
+            "url": "https://nullodyssey.dev/blog/php-circuit-breaker-pattern/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Implementing the Circuit Breaker Pattern in PHP",
+            "url": "https://medium.com/@edouard.courty/implementing-the-circuit-breaker-pattern-in-php-5123b8cca271"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Simple Circuit Breaker pattern implementation in PHP",
+            "url": "https://medium.com/@dotcom.software/circuit-breaker-pattern-in-php-10ee1b35e14d"
+        }
+    ],
+    "tags": [
+        "architecture"
+    ],
+    "packagist": [
+        "ackintosh/ganesha",
+        "prestashop/circuit-breaker",
+        "ejsmont-artur/php-circuit-breaker"
+    ],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Fri, 14 Aug 2026 09:22:34 +0000"
+}

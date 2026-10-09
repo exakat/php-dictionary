@@ -1,0 +1,47 @@
+{
+    "id": "one-shot",
+    "name": "One-shot",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/one-shot.html",
+    "aliases": [
+        "one-shot-mode"
+    ],
+    "description": "One-shot is an I/O watcher mode where the handler fires exactly once and is automatically deregistered after the first event. Subsequent activity on the same stream does not trigger the callback until the watcher is explicitly re-added.\n\nThis avoids the need for manual cleanup and is useful for request/response patterns where a stream is expected to produce a single meaningful event: accept one connection, read one response, write one payload.\n\nWithout one-shot semantics, a persistent watcher must be explicitly removed inside its own callback to prevent it from firing again, which is error-prone under concurrent conditions.\n\nOne-shot maps to ``EPOLLONESHOT`` in the Linux ``epoll`` API. In version 8.6, the ``Io\\Poll`` API exposes this behaviour through the ``Event::OneShot`` enum case, combinable with ``Event::Read`` or ``Event::Write``.",
+    "code": "<?php\n\n    use Io\\Poll\\Context;\n    use Io\\Poll\\Event;\n    \n    $context = new Context();\n    \n    // Fires once then the watcher is removed automatically\n    $context->add($stream, Event::Read | Event::OneShot, function ($handle) {\n        $data = fread($handle->stream, 8192);\n        echo 'Received: ' . $data;\n        // No need to call $context->remove() manually\n    });\n    \n    $context->run();\n\n?>",
+    "documentation": "https://man7.org/linux/man-pages/man7/epoll.7.html",
+    "related": [
+        "polling",
+        "event-loop",
+        "edge-triggered",
+        "non-blocking",
+        "async"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://man7.org/linux/man-pages/man7/epoll.7.html"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP RFC: Poll API",
+            "url": "https://wiki.php.net/rfc/poll_api"
+        }
+    ],
+    "tags": [
+        "concept"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "8.6",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Mon, 03 Aug 2026 17:17:26 +0000"
+}

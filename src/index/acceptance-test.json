@@ -1,0 +1,62 @@
+{
+    "id": "acceptance-test",
+    "name": "Acceptance Test",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/acceptance-test.html",
+    "aliases": [
+        "user-acceptance-test",
+        "uat"
+    ],
+    "description": "Acceptance tests, also called user acceptance tests or ``UAT``, are tests that verify that the software meets the business requirements and satisfies the expectations of the end user, before it is accepted and released.\n\nAcceptance tests are usually the final phase of testing, run after unit, integration, and functional tests have already passed. They are often written from user stories or business specifications, using tools such as Behat or Codeception, sometimes in a natural-language format like Gherkin, so that non-developers, such as product owners or clients, can read and validate them.\n\nAcceptance tests focus on whether the software does what the business needs, not on how it is implemented internally; in that sense, they are a form of black box testing.\n",
+    "code": "",
+    "documentation": "https://en.wikipedia.org/wiki/Acceptance_testing",
+    "related": [
+        "test",
+        "functional-test",
+        "blackbox",
+        "unit-test",
+        "integration-test",
+        "end-to-end-test"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Acceptance_testing"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "A guide to acceptance testing",
+            "url": "https://www.qase.io/blog/acceptance-testing/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Difference Between Unit, Functional, Acceptance, and Integration Tests",
+            "url": "https://www.geeksforgeeks.org/software-testing/difference-between-unit-functional-acceptance-and-integration-tests/"
+        }
+    ],
+    "tags": [
+        "test"
+    ],
+    "packagist": [
+        "behat/behat",
+        "codeception/codeception"
+    ],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": {
+        "Behat": "https://behat.org/",
+        "Codeception": "https://codeception.com/"
+    },
+    "popularity": "",
+    "modified": "Thu, 17 Sep 2026 14:42:43 +0000"
+}

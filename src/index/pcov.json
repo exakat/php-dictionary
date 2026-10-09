@@ -1,0 +1,50 @@
+{
+    "id": "pcov",
+    "name": "PCOV",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/pcov.html",
+    "aliases": [],
+    "description": "``PCOV`` is a PIE extension dedicated to code coverage collection. It records which lines of code were executed during a test run, the same job Xdebug can do, but ``PCOV`` does only that, with none of Xdebug's step debugging, profiling, or tracing machinery, which makes it substantially faster.\n\nCode coverage is used to measure how much of a codebase is exercised by a test suite, typically reported as a percentage of lines, branches, or functions covered. Test runners such as ``PHPUnit`` can drive ``PCOV`` directly through its API to produce coverage reports, for example in Clover XML or HTML.\n\nBecause it has a single purpose, ``PCOV`` is the preferred choice for coverage collection in CI pipelines where Xdebug would otherwise slow the run down considerably; Xdebug remains preferable when interactive step debugging is also needed.",
+    "code": "<?php\n\n    // PHPUnit driven with PCOV as the coverage driver:\n    // vendor/bin/phpunit --coverage-html coverage/\n    // (PHPUnit auto-detects and prefers PCOV over Xdebug when both are loaded.)\n\n    // Low-level API, rarely called directly by application code.\n    pcov\\start();\n\n    require 'code-under-test.php';\n\n    $waiting = pcov\\collect(pcov\\inclusive, [__DIR__ . '/code-under-test.php']);\n    pcov\\clear();\n\n    print_r($waiting);\n\n?>",
+    "documentation": "https://packagist.org/packages/pecl/pcov",
+    "related": [
+        "xdebug",
+        "phpunit",
+        "testable",
+        "green"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://packagist.org/packages/pecl/pcov"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PCOV on github",
+            "url": "https://github.com/krakjoe/pcov"
+        }
+    ],
+    "tags": [
+        "extension",
+        "testing",
+        "acronym"
+    ],
+    "packagist": [],
+    "extensions": [
+        "pcov"
+    ],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": {
+        "PHPUnit": "https://phpunit.de/"
+    },
+    "popularity": "",
+    "modified": "Thu, 17 Sep 2026 09:09:00 +0000"
+}

@@ -1,0 +1,58 @@
+{
+    "id": "saas",
+    "name": "Software-as-a-Service (SAAS)",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/saas.html",
+    "aliases": [],
+    "description": "SaaS stands for Software as a Service. It's a software distribution model where applications are hosted by a provider and made available to customers over the internet, typically through a web browser.",
+    "code": "",
+    "documentation": "https://en.wikipedia.org/wiki/Software_as_a_service",
+    "related": [
+        "on-premise-software",
+        "iaas",
+        "paas",
+        "application",
+        "cloud",
+        "pay-as-you-go",
+        "release",
+        "hosting",
+        "serverless"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Software_as_a_service"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "The Pros and Cons of Software as a Service (SaaS) | Insight",
+            "url": "https://www.insight.com/en_US/content-and-resources/article/the-pros-and-cons-of-software-as-a-service.html"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "SaaS Business Model Explained: Pros, Cons & Stages",
+            "url": "https://vilmate.com/blog/saas-business-model-explained/"
+        }
+    ],
+    "tags": [
+        "business",
+        "publication",
+        "hosting"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Fri, 21 Aug 2026 07:18:27 +0000"
+}

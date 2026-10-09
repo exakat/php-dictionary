@@ -1,0 +1,57 @@
+{
+    "id": "sem",
+    "name": "Semaphore",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/sem.html",
+    "aliases": [
+        "semaphore"
+    ],
+    "description": "A semaphore is a synchronization primitive used to control access to shared resources in concurrent systems.\n\nSemaphores can be implemented using the sysvsem extension. They are useful for limiting access to a finite number of resources.",
+    "code": "<?php\n\n    // Create a semaphore\n    $sem = sem_acquire(sem_get(ftok(__FILE__, 't')));\n    \n    // Critical section\n    // ... access shared resource ...\n    \n    // Release the semaphore\n    sem_release($sem);\n\n?>",
+    "documentation": "https://www.php.net/manual/en/book.sem.php",
+    "related": [
+        "mutex",
+        "concurrency",
+        "shared-memory",
+        "thread",
+        "green-thread"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/book.sem.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP Dark Arts: Semaphores",
+            "url": "https://re-cycledair.com/php-dark-arts-semaphores"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Semaphore Pattern in PHP",
+            "url": "https://codesociety.net/patterns/concurrency/semaphore/php/"
+        }
+    ],
+    "tags": [
+        "synchronization",
+        "concurrency"
+    ],
+    "packagist": [],
+    "extensions": [
+        "sysvsem"
+    ],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sat, 08 Aug 2026 08:08:10 +0000"
+}

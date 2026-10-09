@@ -1,0 +1,50 @@
+{
+    "id": "service-registry",
+    "name": "Service Registry",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/service-registry.html",
+    "aliases": [],
+    "description": "A service registry is a database of available service instances in a distributed system. Each instance registers itself on startup, providing its host, port, health endpoint, and metadata, and deregisters on shutdown. Consumers query the registry to discover where to send requests.\n\nThe registry must be highly available and consistent, since all service communication depends on it. Common implementations are Consul, Etcd, and Apache ZooKeeper. Kubernetes uses its own internal DNS and etcd-backed service registry transparently.\n\nServices are expected to send periodic heartbeats to the registry; instances that fail to heartbeat are automatically removed, ensuring the registry only lists healthy instances.\n\nWith microservices, the registry is rarely queried directly. Kubernetes DNS or an API gateway abstracts it. When using Consul directly, PHP can register via the Consul HTTP API at startup, e.g., in a Swoole or FrankenPHP worker, and query it for service locations.",
+    "code": "<?php\n\n    // Register this PHP service instance with Consul on startup\n    $payload = [\n        'Name'    => 'order-service',\n        'ID'      => 'order-service-' . gethostname(),\n        'Address' => gethostbyname(gethostname()),\n        'Port'    => 8080,\n        'Check'   => [\n            'HTTP'     => 'http://' . gethostbyname(gethostname()) . ':8080/health',\n            'Interval' => '10s',\n            'Timeout'  => '2s',\n        ],\n    ];\n    \n    $ch = curl_init('http://consul:8500/v1/agent/service/register');\n    curl_setopt($ch, CURLOPT_CUSTOMREQUEST, 'PUT');\n    curl_setopt($ch, CURLOPT_POSTFIELDS, json_encode($payload));\n    curl_setopt($ch, CURLOPT_HTTPHEADER, ['Content-Type: application/json']);\n    curl_exec($ch);\n\n?>",
+    "documentation": "https://microservices.io/patterns/service-registry.html",
+    "related": [
+        "service-discovery",
+        "microservice",
+        "kubernetes",
+        "api-gateway",
+        "distributed-systems",
+        "load-balancer"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://microservices.io/patterns/service-registry.html"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Service Registry Design Pattern in Microservices Explained",
+            "url": "https://medium.com/javarevisited/service-registry-design-pattern-in-microservices-explained-a796494c608e"
+        }
+    ],
+    "tags": [
+        "concept"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": {
+        "Consul": "https://www.consul.io/",
+        "etcd": "https://etcd.io/",
+        "Apache ZooKeeper": "https://zookeeper.apache.org/"
+    },
+    "popularity": "",
+    "modified": "Fri, 18 Sep 2026 05:00:18 +0000"
+}

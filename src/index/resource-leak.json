@@ -1,0 +1,66 @@
+{
+    "id": "resource-leak",
+    "name": "Resource Leak",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/resource-leak.html",
+    "aliases": [
+        "file-leak",
+        "connection-leak"
+    ],
+    "description": "A resource leak occurs when a resource, such as a file handle, database connection, network socket, or stream, is opened but never properly closed. The resource remains allocated until the process ends or the PHP request finishes, consuming memory and system file descriptors unnecessarily.\n\nResource leaks are common with ``fopen()``, ``fsockopen()``, database connections opened via ``mysqli_connect()`` or PDO, and cURL handles. If the code returns early, throws an exception, or follows an unexpected path before reaching the ``fclose()`` / ``mysqli_close()`` / ``curl_close()`` call, the resource is leaked. \n\nIn a regular code execution, function returns trigger variable cleaning, which, in turn, leads to the automatic closing of resources. So, the leak might happen when a resource is stored in a property, with a longer life-span, even though it might not be used. ``WeakMap`` is a solution to store data where it might be removed when memory gets tight.\n\nPHP's request lifecycle mitigates leaks for short-lived web requests: resources are released at the end of the request. However, in long-running CLI scripts, daemons, or applications using ReactPHP or Swoole, leaked resources accumulate and can exhaust system limits.\n\nThe recommended mitigation is to use ``try``/``finally`` blocks to guarantee cleanup, or to wrap resources in objects that close themselves in their destructor.",
+    "code": "<?php\n\n    // BAD: fclose() may never be reached if an exception is thrown\n    $fp = fopen('data.csv', 'r');\n    processLines($fp);   // may throw\n    fclose($fp);         // skipped on exception \u2192 resource leak\n\n    // GOOD: finally guarantees the handle is always closed\n    $fp = fopen('data.csv', 'r');\n    try {\n        processLines($fp);\n    } finally {\n        fclose($fp);\n    }\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Resource_leak",
+    "related": [
+        "resource",
+        "exception",
+        "try-catch",
+        "finally",
+        "fopen",
+        "pdo",
+        "weakmap",
+        "memory-leak",
+        "leak",
+        "fclose",
+        "fread",
+        "ftell",
+        "fwrite",
+        "linear-type"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Resource_leak"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP: fclose",
+            "url": "https://www.php.net/manual/en/function.fclose.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Exceptions",
+            "url": "https://www.php.net/manual/en/language.exceptions.php"
+        }
+    ],
+    "tags": [
+        "bug",
+        "concept",
+        "vulnerability"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Tue, 11 Aug 2026 21:02:10 +0000"
+}

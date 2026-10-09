@@ -1,0 +1,55 @@
+{
+    "id": "pre-increment",
+    "name": "Pre-increment",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/pre-increment.html",
+    "aliases": [],
+    "description": "Pre-increment is the ``++`` operator, used on a variable, when it is placed before the variable. This means that the increment happens before the variable is read: in this case, the first echo displays 2, as the increment happens before the echo call. \n\nThere is also a pre-decrement, which uses the operator ``--``, and reduces the variable of 1. \n\nPre-increment and pre-decrement have a corresponding post-increment and post-decrement.",
+    "code": "<?php\n\n    $a = 1;\n    echo ++$a; // displays 2\n    echo $a;   // displays 2\n\n?>",
+    "documentation": "https://www.php.net/manual/en/language.operators.increment.php",
+    "related": [
+        "post-increment",
+        "addition",
+        "variable",
+        "increment",
+        "double",
+        "minus",
+        "operator"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.operators.increment.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Understanding the Increment and decrement operators in PHP",
+            "url": "https://flatcoding.com/tutorials/php/increment-and-decrement-operators-in-php/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Useless post increment/decrementPHP-W1090",
+            "url": "https://deepsource.com/directory/php/issues/PHP-W1090"
+        }
+    ],
+    "tags": [
+        "operator",
+        "feature"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Mon, 14 Sep 2026 17:10:24 +0000"
+}

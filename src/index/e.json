@@ -1,0 +1,55 @@
+{
+    "id": "e",
+    "name": "E",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/e.html",
+    "aliases": [
+        "m_e",
+        "euler"
+    ],
+    "description": "The letter ``e``, or ``E``, plays several distinct roles:\n\n+ Floating number format: ``e`` is used as part of a float literal to denote a power of 10. ``1.5e3`` means ``1.5 \u00d7 10\u00b3 = 1500``, and ``7E-10`` means ``7 \u00d7 10\u207b\u00b9\u2070``. The letter is case-insensitive in this context. It is not an operator; it is part of the numeric syntax\n+ Exponential constant: ``M_E`` is a PHP predefined math constant equal to Euler's number ``e \u2248 2.718281828459045``. It is the base of the natural logarithm, and satisfies ``log(M_E) === 1``. The function ``exp(1)`` also returns this value, although floating-point rounding means ``exp(1) === M_E`` may evaluate to ``false``\n+ Euler constant: ``M_EULER`` is a distinct PHP constant, equal to the Euler constant ``\u03b3 \u2248 0.5772156649015329``. It is also called Euler-Mascheroni, or gamma. It should not be confused with ``M_E``\n+ Error constant prefix: all PHP error level constants start with ``E_``: ``E_ERROR``, ``E_WARNING``, ``E_NOTICE``, ``E_DEPRECATED``, ``E_ALL``, and others. They are used with ``error_reporting()`` and combined with bitwise operators\n+ Escape sequence for escape character: in double-quoted strings and heredocs, ``\\e`` is the escape sequence for the ESC character, ASCII 27, ``0x1B``. It is used in ANSI terminal escape codes.\n",
+    "code": "<?php\n\n    // e in float scientific notation\n    $a = 1.5e3;   // 1500.0\n    $b = 7E-10;   // 0.0000000007\n    $c = 1e308;   // close to PHP_FLOAT_MAX\n\n    // M_E : Euler's number\n    echo M_E;             // 2.718281828459\n    echo exp(1);          // 2.718281828459\n    echo log(M_E);        // 1\n\n    // M_EULER : Euler-Mascheroni constant (different from M_E)\n    echo M_EULER;         // 0.57721566490153\n\n    // E_ error level constants\n    error_reporting(E_ALL);\n    error_reporting(E_ERROR | E_WARNING);\n\n    // \\e escape sequence : ESC character for ANSI terminal codes\n    echo \"\\e[31mRed text\\e[0m\\n\";\n\n?>",
+    "documentation": "https://www.php.net/manual/en/language.types.float.php",
+    "related": [
+        "float",
+        "exponential",
+        "logarithm",
+        "nan",
+        "inf",
+        "error-reporting",
+        "escape-sequence",
+        "exponent"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.types.float.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Math constants",
+            "url": "https://www.php.net/manual/en/math.constants.php"
+        }
+    ],
+    "tags": [
+        "character",
+        "math",
+        "native constant"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Fri, 17 Jul 2026 08:37:53 +0000"
+}

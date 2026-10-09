@@ -1,0 +1,53 @@
+{
+    "id": "max_input_vars",
+    "name": "max_input_vars",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/max_input_vars.html",
+    "aliases": [],
+    "description": "The ``max_input_vars`` directive caps the number of input variables PHP will accept per request, counting every entry in ``$_GET``, ``$_POST`` and ``$_COOKIE``, including each element of nested arrays.\n\nThe default value is 1000. When a request exceeds that limit, PHP silently drops the extra variables instead of raising a catchable error: a warning is only emitted if ``E_WARNING`` is part of ``error_reporting`` and displayed, which makes the failure easy to miss in production.\n\nThis directive exists to mitigate a denial-of-service vector related to hash collisions in the internal array implementation: a request with a huge number of keys forces expensive hash-table rebuilding. Large forms, big multi-select inputs, or deeply structured JSON-like arrays submitted as form fields are the usual reasons legitimate applications need to raise this value.\n\n``max_input_vars`` can only be set in ``php.ini``, a virtual host configuration, or ``.htaccess``: unlike ``memory_limit``, it cannot be changed with ``ini_set()`` at runtime, since the limit must be enforced while the request body is still being parsed, before user code ever executes.",
+    "code": "",
+    "documentation": "https://www.php.net/manual/en/info.configuration.php#ini.max-input-vars",
+    "related": [
+        "directive",
+        "php",
+        "ini_set",
+        "$_get",
+        "$_post",
+        "$_cookie",
+        "memory",
+        "max_execution_time"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/info.configuration.php#ini.max-input-vars"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Environment - max input vars",
+            "url": "https://docs.moodle.org/502/en/Environment_-_max_input_vars"
+        }
+    ],
+    "tags": [
+        "directive",
+        "security",
+        "silent behavior",
+        "classic bug"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "5.3.9",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sun, 23 Aug 2026 20:41:12 +0000"
+}

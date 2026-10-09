@@ -1,0 +1,41 @@
+{
+    "id": "code-formatting",
+    "name": "Coding Formatting",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/code-formatting.html",
+    "aliases": [],
+    "description": "Coding formatting is a coding convention that specify how the code should be written and presented. Formatting only impacts the presentation of the code, not its execution.\n\nFor example, arrays must be in short array form ``[1,2,3]`` instead of long form ``array(1,2,3)``. They also should always be on several lines when the number of items is over 5, and the last element must have the trailing comma.",
+    "code": "",
+    "documentation": "https://book.the-turing-way.org/reproducible-research/code-quality/code-quality-style.html",
+    "related": [
+        "coding-convention"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://book.the-turing-way.org/reproducible-research/code-quality/code-quality-style.html"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Wordpress PHP coding standards",
+            "url": "https://quentin.delcourt.be/blog/learning-from-open-source-php-projects-part-1-code-formatting/index.html"
+        }
+    ],
+    "tags": [
+        "best practice"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sat, 08 Aug 2026 08:10:54 +0000"
+}

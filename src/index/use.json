@@ -1,0 +1,51 @@
+{
+    "id": "use",
+    "name": "Use",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/use.html",
+    "aliases": [],
+    "description": "The use operator has three distinct usages. \n\nThe use operator allows the import and aliasing of fully qualified names, such as classes, interfaces, constants, etc. in the current namespace. \n\nWhen ``use`` used inside a class or a trait, it imports a trait and its methods and properties. It is also the place to solve naming conflicts.\n\nWhen ``use`` is used with a closure, it imports the listed variables in the closure, from the defining environment.",
+    "code": "<?php\n\nnamespace My\\Space {\n    // class importation with use\n    use \\Some\\Other\\Space\\Elephpant as Pachyderm;\n\n    class Herd {\n        // trait importation of use\n        use Foraging;\n\n        function trumpet() {\n            $trunk = 1;\n            // use imports the variable $trunk in the closure. Its value is accessible at execution time.\n            $closure = function ($calf) use ($trunk) { return $trunk + $calf;};\n        }\n    }\n\n    // class importation with use\n    use \\Some\\Other\\Space\\Elephpant as Tusker;\n}\n\n?>",
+    "documentation": "https://www.php.net/manual/en/language.namespaces.importing.php",
+    "related": [
+        "fully-qualified-name",
+        "use-alias",
+        "closure",
+        "trait",
+        "use-trait",
+        "class-alias",
+        "class-operator",
+        "class_alias",
+        "insteadof"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.namespaces.importing.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Anonymous functions",
+            "url": "https://www.php.net/manual/en/functions.anonymous.php"
+        }
+    ],
+    "tags": [
+        "keyword",
+        "disambiguation",
+        "multiple meanings"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+}

@@ -1,0 +1,43 @@
+{
+    "id": "array_unique",
+    "name": "array_unique()",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/array_unique.html",
+    "aliases": [],
+    "description": "The ``array_unique()`` PHP native function removes duplicate values from an array. It is important to note that it treats values as strings for comparison by default, unless a specific sort flag is provided.\n\nThe second parameter, ``flags``, can be used to modify the comparison behavior:\n- ``SORT_STRING``: compare items as strings, by default.\n- ``SORT_REGULAR``: compare items normally. This is equivalent to ``===`` comparison, and works with enumerations.\n- ``SORT_NUMERIC``: compare items numerically.\n- ``SORT_LOCALE_STRING``: compare items as strings, based on the current locale.",
+    "code": "<?php\n\n    $array = [1, '1', 2, 2];\n    \n    // Default behavior (SORT_STRING): returns [1, 2]\n    var_dump(array_unique($array)); \n    \n    // SORT_REGULAR: treats 1 and '1' as different if they are of different types\n    // Note: with SORT_REGULAR, it still might return only one value if types are loosely equal\n    var_dump(array_unique($array, SORT_REGULAR));\n    \n    // Preserve keys: array_unique preserves keys by default\n    $arrayWithKeys = ['a' => 'red', 'b' => 'green', 'c' => 'red'];\n    var_dump(array_unique($arrayWithKeys)); // returns ['a' => 'red', 'b' => 'green']\n\n?>",
+    "documentation": "https://www.php.net/manual/en/function.array-unique.php",
+    "related": [
+        "array_keys"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/function.array-unique.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Understanding and Implementing PHP's `array_unique()` Function",
+            "url": "https://reintech.io/blog/understanding-implementing-php-array-unique-function"
+        }
+    ],
+    "tags": [
+        "php native"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Mon, 15 Jun 2026 11:03:58 +0000"
+}

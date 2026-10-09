@@ -1,0 +1,76 @@
+{
+    "id": "value-object",
+    "name": "Value Object",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/value-object.html",
+    "aliases": [],
+    "description": "A value object is a design pattern used to represent immutable objects that encapsulate a set of related values or attributes. Unlike entities, which are identified by their identity and can change over time, value objects are defined by their state and remain constant throughout their lifetime.\n\nValue objects are typically used to model concepts that don't have a distinct identity but are important for the behavior and correctness of the system. For example, a Date value object can represent a specific date, and its attributes may include the year, month, and day. Another example is a Money value object that represents a monetary amount, including attributes such as the currency and the value.",
+    "code": "\n<?php\n\n    class Person {\n        public $name;\n        public $lastName;\n    }\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Value_object",
+    "related": [
+        "dto",
+        "entity",
+        "service",
+        "calisthenics",
+        "phantom-type",
+        "refinement-type",
+        "rich-domain-model"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Value_object"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Writing value objects in PHP",
+            "url": "https://dev.to/ianrodrigues/writing-value-objects-in-php-4acg"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Value objects in PHP",
+            "url": "https://lessthan12ms.com/value-objects-in-php.html"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Is it a DTO or a Value Object?",
+            "url": "https://matthiasnoback.nl/2022/09/is-it-a-dto-or-a-value-object/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Bring Value to your code",
+            "url": "https://notes.belgeek.dev/2023/11/05/bring-value-to-your-code/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Value Objects in PHP 8: Building a better code",
+            "url": "https://dev.to/cnastasi/value-objects-in-php-8-building-a-better-code-38k8"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Advanced Value Objects in PHP 8",
+            "url": "https://dev.to/cnastasi/advanced-value-objects-in-php-8-1lp0"
+        }
+    ],
+    "tags": [
+        "concept"
+    ],
+    "packagist": [
+        "sebastian/type",
+        "cuyz/valinor",
+        "std-out/simple-data-objects"
+    ],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Wed, 26 Aug 2026 09:35:29 +0000"
+}

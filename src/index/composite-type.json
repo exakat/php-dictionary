@@ -1,0 +1,58 @@
+{
+    "id": "composite-type",
+    "name": "Composite Type",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/composite-type.html",
+    "aliases": [],
+    "description": "Composite types combine multiple types into a single type expression. PHP supports three forms of composite types:\n\n+ Union types ``A|B``: the value must satisfy at least one of the listed types. Introduced in version 8.0, with ``catch`` clauses supporting multi-type syntax since PHP 7.1.\n+ Intersection types ``A&B``: the value must satisfy all of the listed types simultaneously. Restricted to class and interface names. Introduced in version 8.1.\n+ DNF types ``(A&B)|C``: disjunctive normal form, which combines intersections and unions. Introduced in version 8.2.\n\nComposite types are accepted in parameter types, property types, and return types. ``catch`` clauses accept union types only. ``instanceof`` does not accept any composite form.",
+    "code": "<?php\n\n    // Union type\n    function trumpet(int|string $id): void {}\n\n    // Intersection type\n    function forage(Countable&Iterator $col): void {}\n\n    // DNF type\n    function migrate((Countable&Iterator)|null $col): void {}\n\n?>",
+    "documentation": "https://www.php.net/manual/en/language.types.type-system.php#language.types.type-system.composite",
+    "related": [
+        "union-type",
+        "intersection-type",
+        "dnf-type",
+        "named-type",
+        "type",
+        "type-declaration-property",
+        "return-type",
+        "parameter"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.types.type-system.php#language.types.type-system.composite"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP RFC: Union Types 2.0",
+            "url": "https://wiki.php.net/rfc/union_types_v2"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP RFC: Pure intersection types",
+            "url": "https://wiki.php.net/rfc/pure-intersection-types"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP RFC: Disjunctive Normal Form Types",
+            "url": "https://wiki.php.net/rfc/dnf_types"
+        }
+    ],
+    "tags": [
+        "type"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "8.0",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+}

@@ -1,0 +1,50 @@
+{
+    "id": "identification",
+    "name": "Identification",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/identification.html",
+    "aliases": [],
+    "description": "Identification refers to the process of recognizing who the user is, usually by having them provide a unique identifier. \n\nIdentification is closely related, but distinct from authentication, which is the proof that the identified user is who he claims to be.",
+    "code": "",
+    "documentation": "https://en.wikipedia.org/wiki/Identification_(information)",
+    "related": [
+        "authentication",
+        "authorize",
+        "identity"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Identification_(information)"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Authentication (Wikipedia)",
+            "url": "https://en.wikipedia.org/wiki/Authentication"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "password_verify",
+            "url": "https://www.php.net/manual/en/function.password-verify.php"
+        }
+    ],
+    "tags": [
+        "authorization"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sun, 16 Aug 2026 07:46:06 +0000"
+}

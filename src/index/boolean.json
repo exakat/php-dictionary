@@ -1,0 +1,51 @@
+{
+    "id": "boolean",
+    "name": "Boolean",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/boolean.html",
+    "aliases": [
+        "bool"
+    ],
+    "description": "A boolean is a value that is either ``true`` or ``false``. \n\nPHP's booleans are constants. They may be prefixed by ``\\``, and are case-insensitive. They can't be redefined in any namespace.\n\nThere are operators to convert any data to a boolean, and operators to combine boolean together. There are also bit operators, which process integers as a field of boolean. \n\nBooleans have a related scalar type: ``bool``. There is also a special ``false`` type.",
+    "code": "<?php\n\n    $a = True;\n    $b = \\FALSE;\n\n?>",
+    "documentation": "https://www.php.net/manual/en/language.types.boolean.php",
+    "related": [
+        "type-juggling",
+        "scalar-type",
+        "false",
+        "falsy",
+        "true",
+        "truthy",
+        "cast",
+        "bitwise-operator"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.types.boolean.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Understanding PHP Types \u2013 Booleans",
+            "url": "https://dev.to/hurayraiit/understanding-php-types-booleans-256c"
+        }
+    ],
+    "tags": [
+        "feature",
+        "type"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Fri, 14 Aug 2026 07:52:17 +0000"
+}

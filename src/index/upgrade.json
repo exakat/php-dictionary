@@ -1,0 +1,51 @@
+{
+    "id": "upgrade",
+    "name": "Upgrade",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/upgrade.html",
+    "aliases": [],
+    "description": "An upgrade refers to the process of updating or replacing an existing installation of PHP or any library or component with a newer version. Major upgrade refers to a change in the first digit of the version, while minor upgrades are for the other numbers in the version.\n\nAn upgrade often requires a migration: the current code has to be made compatible with the current version, but also with the upcoming version. ",
+    "code": "",
+    "documentation": "https://en.wikipedia.org/wiki/Software_versioning",
+    "related": [
+        "version",
+        "semantic-versioning",
+        "forward-compatible",
+        "legacy",
+        "maintenance",
+        "migration"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Software_versioning"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Deal with major upgrades in PHP",
+            "url": "https://medium.com/yousign-engineering-product/deal-with-major-upgrades-in-php-490ed55c54a1"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "The Quiet Shift Reshaping PHP Security",
+            "url": "https://www.linkedin.com/pulse/quiet-shift-reshaping-php-security-matthew-weier-o-phinney-fgquc/"
+        }
+    ],
+    "tags": [
+        "software lifecycle"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Tue, 01 Sep 2026 06:03:07 +0000"
+}

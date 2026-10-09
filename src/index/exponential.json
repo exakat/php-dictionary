@@ -1,0 +1,47 @@
+{
+    "id": "exponential",
+    "name": "Exponential",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/exponential.html",
+    "aliases": [
+        "exp"
+    ],
+    "description": "The exponential is a mathematical function. It satisfies the expressions: ``exp($a + $b) = exp($a) * exp($b)``, and ``exp(0) === 1``.\n\nThere is a special ``expm1()`` function, which calculates the exponential value of ``$x - 1``. When ``$x`` is close to 0, this function provides more significant digits than using the expression ``exp($x) - 1``.\n\nExponential calculations may also be led with the constant ``M_E`` and the operator ``**`` or the function ``pow()``, although there is a slight difference.",
+    "code": "<?php\n\n    $e = exp(1); // also known as the contant M_E\n    \n    var_dump(exp(2) === M_E ** 2); // false\n    var_dump(exp(2) - M_E ** 2);   // float(8.881784197001252E-16)\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Exponential_function",
+    "related": [
+        "exponent",
+        "e",
+        "logarithm",
+        "sqrt",
+        "star"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Exponential_function"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP Math Functions: A Comprehensive Guide with Examples",
+            "url": "https://codingeasypeasy.com/blog/php-math-functions-a-comprehensive-guide-with-examples/"
+        }
+    ],
+    "tags": [
+        "math"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "8.1",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Tue, 01 Sep 2026 06:21:34 +0000"
+}

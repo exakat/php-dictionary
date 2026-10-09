@@ -1,0 +1,42 @@
+{
+    "id": "userland",
+    "name": "Userland",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/userland.html",
+    "aliases": [],
+    "description": "A ``userland`` feature, or definition, is a piece of code defined with PHP code, by one of the PHP developers. ``userland`` features are opposed to ``native`` features, which are available within PHP itself.\n\nFunctions, classes, enums, traits, constants, etc. may be userland. Loaded components with composer from packagist are also userland structures. \n\nThe main difference between userland and native features is tenuous. Though, some very specific feature may be reserved to native features. For example, magic methods are case-insensitive and magic, while userland constant cannot be case-insensitive. This is never critical.\n\nThere are some specific guidelines for userland naming. \n",
+    "code": "<?php\n\n    // trumpet is a userland function\n    function trumpet() {}\n\n?>",
+    "documentation": "https://www.php.net/manual/en/userlandnaming.php",
+    "related": [
+        "custom",
+        "native"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/userlandnaming.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "User space",
+            "url": "https://en.wikipedia.org/wiki/User_space"
+        }
+    ],
+    "tags": [
+        "folklore"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+}

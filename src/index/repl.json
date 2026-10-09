@@ -1,0 +1,59 @@
+{
+    "id": "repl",
+    "name": "Read Eval Print Loop (REPL)",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/repl.html",
+    "aliases": [],
+    "description": "PHP's REPL mode, or Read-Eval-Print Loop, is an interactive shell that allows to execute PHP code line by line and see immediate results. It's useful for testing code snippets, debugging, and experimenting with PHP functions without creating separate files.\n\nThis mode is also called the interactive mode. It is started, on command line, by calling PHP with the ``-a`` option: ``>php -a``. The mode is ended by calling ``quit``.",
+    "code": "$ php -a\nInteractive shell\n\nphp > echo 5+3;\n8\nphp > quit\n$",
+    "documentation": "https://www.php.net/manual/en/features.commandline.interactive.php",
+    "related": [
+        "webserver",
+        "sapi",
+        "cli",
+        "readline",
+        "keymap"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/features.commandline.interactive.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Creating a PHP REPL for learning purposes",
+            "url": "https://medium.com/@dat.tm24/creating-a-php-repl-for-learning-purposes-d90a6a717195"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Boris, A tiny, but robust REPL for PHP.",
+            "url": "https://github.com/borisrepl/boris"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Say Hello to Boris: A Better REPL for PHP",
+            "url": "https://www.sitepoint.com/say-hello-to-boris-a-better-repl-for-php/"
+        }
+    ],
+    "tags": [
+        "acronym",
+        "engine"
+    ],
+    "packagist": [
+        "psy/psysh",
+        "d11wtq/boris"
+    ],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Fri, 18 Sep 2026 15:38:01 +0000"
+}

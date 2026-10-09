@@ -1,0 +1,45 @@
+{
+    "id": "htmlentities",
+    "name": "htmlentities()",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/htmlentities.html",
+    "aliases": [],
+    "description": "``htmlentities()`` is a native PHP function which converts special characters in a string to their equivalent in HTML.\n\n``htmlentities()`` takes the string to be encoded, as an argument. It also accepts an argument ``$encoding`` to specify what the original encoding of the string is, in particular when it is not ``utf-8``, which is the default configuration.\n\nThere are options to control which characters shall be encoded: for example, single and double quotes may be converted or not, with ``ENT_QUOTES`` and ``ENT_NOQUOTES``, respectively.\n\nFinally, ``$double_encode`` makes ``htmlentities()`` skip encoding a second time any entities already set in the string.\n\nThe opposite of ``htmlentities()`` is ``html_entity_decode()``.",
+    "code": "<?php\n\n    $str = \"A 'quote' is <b>bold</b>\";\n    \n    echo htmlentities($str);\n    echo \"\\n\\n\";\n    echo htmlentities($str, ENT_COMPAT);\n\n?>",
+    "documentation": "https://www.php.net/manual/en/function.htmlentities.php",
+    "related": [
+        "html",
+        "entity",
+        "default_charset",
+        "html_entity_decode",
+        "htmlspecialchars"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/function.htmlentities.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "HTML Entity List",
+            "url": "https://htmlentities.io/articles/html-entities-list-reference"
+        }
+    ],
+    "tags": [
+        "web"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Tue, 11 Aug 2026 14:41:43 +0000"
+}

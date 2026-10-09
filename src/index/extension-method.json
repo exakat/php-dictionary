@@ -1,0 +1,52 @@
+{
+    "id": "extension-method",
+    "name": "Extension Method",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/extension-method.html",
+    "aliases": [],
+    "description": "An extension method, as found in C#, Kotlin, and Swift, lets a developer add a method to a type without modifying that type's source and without subclassing it: ``fun String.shout() = this.uppercase() + '!'`` adds a ``shout()`` method callable on every ``String``, including strings from the standard library. The compiler resolves the call statically, based on the static type of the receiver, and injects it as if it were a real member.\n\nExtension methods are typically used to attach domain-specific behavior to library or built-in types, or to gradually retrofit an interface's default methods onto existing implementations.\n\nPHP has no extension method mechanism. Methods can only be added to a class by editing its source, extending it, or mixing in a trait, all of which require access to the class declaration or the willingness to create a subclass; a built-in type such as ``string`` or a final third-party class cannot receive new methods at all. The common workaround is a free function or a static helper class, called as ``Str::shout($value)`` instead of ``$value->shout()``.",
+    "code": "<?php\n\n    // PHP has no way to add shout() to string itself.\n    final class Str {\n        public static function shout(string $s): string {\n            return strtoupper($s) . '!';\n        }\n    }\n    \n    echo Str::shout('hello'); // HELLO!, not 'hello'->shout()\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Extension_method",
+    "related": [
+        "trait",
+        "class",
+        "mixin",
+        "static-method"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Extension_method"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Traits",
+            "url": "https://www.php.net/manual/en/language.oop5.traits.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Kotlin extension functions documentation",
+            "url": "https://kotlinlang.org/docs/extensions.html"
+        }
+    ],
+    "tags": [
+        "concept",
+        "not supported"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Wed, 02 Sep 2026 16:41:00 +0000"
+}

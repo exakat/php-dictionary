@@ -1,0 +1,53 @@
+{
+    "id": "folklore",
+    "name": "Folklore",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/folklore.html",
+    "aliases": [],
+    "description": "The PHP community's folklore is all the non-language related creations, that serves as a link in the community. \n\n+ ElePHPant\n+ Double claw hammer\n+ Wurst conference\n+ PHP 6\n+ Footgun\n+ Vanilla\n+ PHP is dead\n+ ...This is by no mean an exhaustive list.\n\n",
+    "code": "",
+    "documentation": "https://en.wikipedia.org/wiki/Folklore",
+    "related": [
+        "community",
+        "quine",
+        "elephpant",
+        "footgun",
+        "vanilla"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Folklore"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "History of PHP",
+            "url": "https://www.php.net/manual/en/history.php.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Wikipedia: PHP",
+            "url": "https://en.wikipedia.org/wiki/PHP"
+        }
+    ],
+    "tags": [
+        "community",
+        "animal"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Tue, 01 Sep 2026 08:37:45 +0000"
+}

@@ -1,0 +1,47 @@
+{
+    "id": "array_is_list",
+    "name": "array_is_list()",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/array_is_list.html",
+    "aliases": [],
+    "description": "``array_is_list()`` is a native PHP function that checks if the given array is a list.\n\nAn array is considered a list if its keys are sequential integers starting from 0. Associative arrays or arrays with gaps, non-integer or out of sequence keys are not considered lists. This function was introduced in version 8.1 to help distinguish between sequential and associative arrays, which is useful when working with functions like ``json_encode()`` that treat lists as JSON arrays and associative arrays as JSON objects.",
+    "code": "<?php\n\n    $list = [1, 2, 3];\n    var_dump(array_is_list($list)); // true\n    \n    $assoc = ['a' => 1, 'b' => 2];\n    var_dump(array_is_list($assoc)); // false\n    \n    $empty = [];\n    var_dump(array_is_list($empty)); // true\n    \n    $gapped = [0 => 'a', 2 => 'c'];\n    var_dump(array_is_list($gapped)); // false\n\n?>",
+    "documentation": "https://www.php.net/manual/en/function.array-is-list.php",
+    "related": [
+        "is_array",
+        "json_encode",
+        "count",
+        "array_keys"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/function.array-is-list.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "How to Encode an Array in JSON with PHP (Production-Ready Guide)",
+            "url": "https://thelinuxcode.com/how-to-encode-an-array-in-json-with-php-production-ready-guide/"
+        }
+    ],
+    "tags": [
+        "native function",
+        "array"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "8.1",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Mon, 13 Jul 2026 09:16:10 +0000"
+}

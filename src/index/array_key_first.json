@@ -1,0 +1,49 @@
+{
+    "id": "array_key_first",
+    "name": "array_key_first()",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/array_key_first.html",
+    "aliases": [],
+    "description": "``array_key_first()`` is a native PHP function that returns the first key of an array, or null if the array is empty.\n\nThis function does not modify the internal pointer of the array, unlike using ``reset()`` and ``key()``.",
+    "code": "<?php\n\n    $array = ['a' => 1, 'b' => 2, 'c' => 3];\n    \n    $key = array_key_first($array);\n    // 'a'\n\n?>",
+    "documentation": "https://www.php.net/manual/en/function.array-key-first.php",
+    "related": [
+        "array",
+        "array_search"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/function.array-key-first.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Introduced array_key_first() and array_key_last() functions - PHP 7.3",
+            "url": "https://php.watch/versions/7.3/array-key-first-last"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "array_key_last()",
+            "url": "https://www.php.net/manual/en/function.array-key-last.php"
+        }
+    ],
+    "tags": [
+        "native function"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "8.1",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Wed, 26 Aug 2026 10:16:27 +0000"
+}

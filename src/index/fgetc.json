@@ -1,0 +1,52 @@
+{
+    "id": "fgetc",
+    "name": "fgetc()",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/fgetc.html",
+    "aliases": [],
+    "description": "``fgetc()`` is a PHP native function that reads a single character from an open file pointer. It returns a string containing one byte, or ``false`` when the end of the file, ``EOF``, is reached.\n\nKey characteristics:\n\n+ Reads exactly one byte per call, making it the slowest way to read a file, but the finest-grained\n+ Returns ``false`` on ``EOF``, which must be checked with ``===`` since ``\"0\"`` or an empty string are otherwise valid, falsy-looking results\n+ Binary-safe, like the other stream functions\n\n``fgetc()`` is typically used to build custom character-by-character parsers, for instance for CSV-like formats with unusual quoting rules, or for reading protocols where the message boundary is not a newline. For line-based reading, ``fgets()`` is far more efficient; for reading arbitrary chunks, ``fread()`` is preferred.",
+    "code": "<?php\n\n    $fp = fopen('data.txt', 'r');\n    if ($fp) {\n        while (($char = fgetc($fp)) !== false) {\n            echo $char;\n        }\n        fclose($fp);\n    }\n\n?>",
+    "documentation": "https://www.php.net/manual/en/function.fgetc.php",
+    "related": [
+        "fgets",
+        "fread",
+        "fopen",
+        "fclose",
+        "stream",
+        "file",
+        "binary"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/function.fgetc.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Filesystem functions",
+            "url": "https://www.php.net/manual/en/ref.filesystem.php"
+        }
+    ],
+    "tags": [
+        "function",
+        "file"
+    ],
+    "packagist": [],
+    "extensions": [
+        "standard"
+    ],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 03 Sep 2026 14:39:01 +0000"
+}

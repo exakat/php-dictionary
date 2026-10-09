@@ -1,0 +1,54 @@
+{
+    "id": "onion-architecture",
+    "name": "Onion Architecture",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/onion-architecture.html",
+    "aliases": [
+        "onion"
+    ],
+    "description": "Onion Architecture is a software architecture pattern introduced by ``Jeffrey Palermo``. It organizes code in concentric layers, like an onion, to enforce separation of concerns and keep the core business logic independent from external systems like databases, UI, or frameworks.",
+    "code": "",
+    "documentation": "https://en.wikipedia.org/wiki/Hexagonal_architecture_(software)",
+    "related": [
+        "adapter",
+        "hexagonal",
+        "separation-of-concerns"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Hexagonal_architecture_(software)"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Hexagonal Architecture",
+            "url": "https://fideloper.com/hexagonal-architecture"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Hexagonal Architechure (Ports and Adapters) with PHP",
+            "url": "https://leosteil.medium.com/hexagonal-architechure-ports-and-adpters-with-php-95d3fdb94656"
+        }
+    ],
+    "tags": [
+        "design"
+    ],
+    "packagist": [
+        "pccomponentes/ddd"
+    ],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": {
+        "Jeffrey Palermo": "https://jeffreypalermo.com/"
+    },
+    "brand": "",
+    "popularity": "",
+    "modified": "Fri, 18 Sep 2026 04:54:52 +0000"
+}

@@ -1,0 +1,56 @@
+{
+    "id": "print_r",
+    "name": "print_r()",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/print_r.html",
+    "aliases": [],
+    "description": "``print_r()`` is a built-in PHP function used for displaying the contents of an array or an object in a human-readable format. \n\nIt's particularly helpful for debugging and understanding the structure of complex data structures in the PHP code. \n\nWhen using ``print_r()``, it displays the array or object's values and structure to the browser or the console.\n\n``print_r()`` has a second parameter, which controls the direct output of the debug information to a string, instead of the standard output. This is useful to control the final destination of the message: it might be sent to a logging system, or duplicated.\n\n``print_r()`` carries the risk to have debugging tools published to production: while it doesn't provide any meaningful attack surface, it is a data leak. It has no eradication mechanism, like ``assert()``. \n",
+    "code": "<?php\n\n    $a = 1;\n\n    print_r($a);\n/*\nArray\n(\n    [0] => 1\n)\n*/\n\n?>",
+    "documentation": "https://www.php.net/manual/en/function.print-r.php",
+    "related": [
+        "assertion",
+        "data-leak",
+        "echo",
+        "print",
+        "var_dump",
+        "debug_backtrace",
+        "debugger",
+        "var_export"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/function.print-r.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Utilizing PHP's print_r() function",
+            "url": "https://mikebranski.com/utilizing-phps-print_r-function/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "A practical Guide to PHP's `print_r()` and `var_dump()` Functions",
+            "url": "https://reintech.io/blog/practical-guide-to-php-print-r-var-dump-functions"
+        }
+    ],
+    "tags": [
+        "feature",
+        "native function"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [
+        "Structures/VardumpUsage"
+    ],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Tue, 01 Sep 2026 05:31:03 +0000"
+}

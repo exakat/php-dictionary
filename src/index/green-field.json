@@ -1,0 +1,56 @@
+{
+    "id": "green-field",
+    "name": "Greenfield",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/green-field.html",
+    "aliases": [
+        "greenfield-project",
+        "greenfield-development",
+        "greenfield"
+    ],
+    "description": "A greenfield project is a software development effort that starts from scratch, with no existing codebase, legacy constraints, or inherited technical debt. The term comes from civil engineering, where building on undeveloped land, aka a green field, imposes no constraints from prior construction.\n\nGreenfield development offers maximum design freedom: the team chooses the architecture, language runtime, framework, data model, and tooling without having to preserve backward compatibility or work around previous decisions. This freedom also means that all foundational choices, such as dependency injection strategy, persistence layer, authentication model, error handling conventions, must be made explicitly and early.\n\nCharacteristics of greenfield PHP projects:\n\n+ No legacy code to maintain: the team can adopt modern PHP features such as named arguments, fibers, readonly properties, union types, and current best practices from day one.\n+ Framework choice is open: a framework, such as Laravel, Symfony, Slim, or a custom stack can be selected on merit rather than migration cost.\n+ No migration risk: the database schema, API contracts, and deployment pipeline are defined for the target state, not constrained by an existing one.\n+ Higher up-front design cost: decisions that a brownfield project has already made, even poorly, must be made here deliberately.\n\nThe opposite of greenfield is brownfield development: working inside or alongside an existing system, where the constraints of prior decisions shape every new choice.\n\nGreenfield projects benefit from:\n\n+ Composer and Packagist for dependency management from the start.\n+ Strict type declarations ``declare(strict_types=1)`` enforced project-wide from the first file.\n+ Modern tooling: static analysis, automated refactoring, testing, all configured before the first feature is written.",
+    "code": "<?php\n\n   // Greenfield entry point: strict types and modern conventions from file one.\n   declare(strict_types=1);\n\n   // Dependency injection container wired at bootstrap, no global state.\n   $container = new \\DI\\Container();\n\n   $app = $container->get(App::class);\n   $app->run();\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Greenfield_project",
+    "related": [
+        "brownfield",
+        "legacy",
+        "debt",
+        "architecture",
+        "dependency-injection",
+        "composer"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Greenfield_project"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Greenfield- vs. Brownfield-Approach - Definition & Explanation",
+            "url": "https://easy-software.com/en/glossary/greenfield-vs-brownfield-approach/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Difference between Brownfield and Greenfield Software Development",
+            "url": "https://qarea.com/blog/difference-between-brownfield-and-greenfield-software-development"
+        }
+    ],
+    "tags": [
+        "architecture",
+        "adjective"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Tue, 01 Sep 2026 05:31:03 +0000"
+}

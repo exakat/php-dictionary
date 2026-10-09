@@ -1,0 +1,50 @@
+{
+    "id": "csv-injection",
+    "name": "CSV Injection",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/csv-injection.html",
+    "aliases": [],
+    "description": "A CSV injection is a vulnerability, where a csv file triggers the execution of a formula, stored in a cell. Formulas in cells starts usually with ``=``, and may also use ``+``, ``-``, ``@``, tabulation and carriage return.\n\nDepending on the opening spreadsheet software, various targets may be achieved, ranging from sending local data to a remote server, to take over the computer. \n\nCSV injections rarely target PHP itself, as it is not a spreadsheet, nor support formulas in CSV files. Also, components such as ``PHPspreadsheet`` are able to run a wide range of formulas. \n\nPHP may relay an injection by saving it in a CSV file.",
+    "code": "",
+    "documentation": "https://owasp.org/www-community/attacks/CSV_Injection",
+    "related": [
+        "semicolon",
+        "escape-data",
+        "injection",
+        "csv"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://owasp.org/www-community/attacks/CSV_Injection"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "The Absurdly Underestimated Dangers of CSV Injection",
+            "url": "http://georgemauer.net/2017/10/07/csv-injection.html"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Everything about CSV Injection and CSV Excel Macro Injection",
+            "url": "https://blog.securelayer7.net/how-to-perform-csv-excel-macro-injection/"
+        }
+    ],
+    "tags": [
+        "security",
+        "vulnerability"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sat, 08 Aug 2026 08:10:54 +0000"
+}

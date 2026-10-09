@@ -1,0 +1,61 @@
+{
+    "id": "image-injection",
+    "name": "Image Injection",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/image-injection.html",
+    "aliases": [],
+    "description": "Image injection is a class of attack where malicious content is embedded inside a file that is presented or processed as an image. The attack exploits the fact that parsers and browsers use different heuristics to determine a file's type, and that image processing libraries sometimes execute embedded code.\n\nCommon image injection scenarios include:\n\n+ Polyglot files: a file that is simultaneously a valid image and a valid script, written in HTML, PHP, ``SVG``, etc. When such a file is saved with a ``.jpg`` extension and later served or included, the server or browser may execute the embedded payload\n+ ``SVG`` injection: ``SVG`` files are XML and may contain ``<script>`` elements. Displaying attacker-supplied ``SVG`` inline triggers cross-site scripting\n+ Metadata injection: ``EXIF`` data embedded in a JPEG can contain PHP code that is executed if the application passes the raw file to ``eval()`` or ``include()``\n\nMitigation strategies include:\n\n+ Re-encoding uploaded images with GD or ``Imagick`` to strip embedded payloads\n+ Validating MIME type server-side with ``getimagesize()`` or ``finfo``\n+ Storing uploads outside the document root and serving through a controller\n+ Disabling ``SVG`` upload or sanitising ``SVG`` content.",
+    "code": "<?php\n\n    // Re-encoding strips EXIF and any embedded code\n    function sanitizeImage(string $path): bool {\n        $info = getimagesize($path);\n        if ($info === false) {\n            return false;\n        }\n    \n        [$width, $height, $type] = $info;\n    \n        $src = match ($type) {\n            IMAGETYPE_JPEG => imagecreatefromjpeg($path),\n            IMAGETYPE_PNG  => imagecreatefrompng($path),\n            IMAGETYPE_GIF  => imagecreatefromgif($path),\n            default        => false,\n        };\n    \n        if ($src === false) {\n            return false;\n        }\n    \n        imagejpeg($src, $path, 90);\n        imagedestroy($src);\n    \n        return true;\n    }\n\n?>",
+    "documentation": "https://owasp.org/www-community/vulnerabilities/Unrestricted_File_Upload",
+    "related": [
+        "image",
+        "injection",
+        "svg",
+        "xss",
+        "upload",
+        "security",
+        "escape-html",
+        "ldap-injection",
+        "sql-injection"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://owasp.org/www-community/vulnerabilities/Unrestricted_File_Upload"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Image File Upload Security \u2014 OWASP Cheat Sheet",
+            "url": "https://cheatsheetseries.owasp.org/cheatsheets/File_Upload_Cheat_Sheet.html"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Persistent PHP payloads in PNGs: How to inject PHP code in an image \u2013 and keep it there !",
+            "url": "https://www.synacktiv.com/en/publications/persistent-php-payloads-in-pngs-how-to-inject-php-code-in-an-image-and-keep-it-there"
+        }
+    ],
+    "tags": [
+        "security",
+        "injection",
+        "image"
+    ],
+    "packagist": [],
+    "extensions": [
+        "gd",
+        "imagick"
+    ],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Tue, 01 Sep 2026 05:31:03 +0000"
+}

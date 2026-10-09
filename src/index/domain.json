@@ -1,0 +1,55 @@
+{
+    "id": "domain",
+    "name": "Domain",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/domain.html",
+    "aliases": [],
+    "description": "In software development, a domain is a sphere of knowledge or activity that a system is designed to model. Domain-Driven Design, DDD, organises code around domains, using domain models to represent business concepts faithfully.\n\nA domain is the core subject of the application: e-commerce, banking, healthcare, etc. The domain model captures the rules, entities, and behaviours that belong to that subject.",
+    "code": "",
+    "documentation": "https://en.wikipedia.org/wiki/Domain-driven_design",
+    "related": [
+        "ddd",
+        "namespace",
+        "domain-name",
+        "business-logic",
+        "dns",
+        "splsubject"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Domain-driven_design"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Domain Driven Design Reference",
+            "url": "https://www.domainlanguage.com/wp-content/uploads/2016/05/DDD_Reference_2015-03.pdf"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Martin Fowler: DomainDrivenDesign",
+            "url": "https://martinfowler.com/bliki/DomainDrivenDesign.html"
+        }
+    ],
+    "tags": [
+        "concept",
+        "architecture",
+        "ddd"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Tue, 25 Aug 2026 18:26:12 +0000"
+}

@@ -1,0 +1,46 @@
+{
+    "id": "dot-directory",
+    "name": ". Directory",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/dot-directory.html",
+    "aliases": [],
+    "description": "The ``.`` directory represents the current directory. It is useful to designate the current directory, and apply an operation on all the files in that directory. It is also used in ``php.ini`` directives, to indicate a path relative to the current directory.",
+    "code": "<?php\n\n    // lists of the files in the current directory\n    $files = glob('./*.php');\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Directory_(computing)",
+    "related": [
+        "path",
+        "concatenation",
+        "dot-dot-directory",
+        "dot-file"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Directory_(computing)"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Dot and dot-dot directories",
+            "url": "https://www.qnx.com/developers/docs/8.0/com.qnx.doc.neutrino.user_guide/topic/files_Dot.html"
+        }
+    ],
+    "tags": [
+        "filesystem"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Tue, 01 Sep 2026 05:31:03 +0000"
+}

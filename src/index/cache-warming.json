@@ -1,0 +1,63 @@
+{
+    "id": "cache-warming",
+    "name": "Cache Warming",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/cache-warming.html",
+    "aliases": [
+        "warm-up",
+        "warming-up"
+    ],
+    "description": "Cache warming, or warming up, is the practice of proactively populating a cache before real traffic depends on it, instead of letting the first users pay the cost of a ``cold-cache``. It applies to both data and code.\n\nFor data, a warm-up script runs the same queries or computations that production traffic would trigger, storing the results in Redis, APCu, or another cache backend, so that by the time a deployment goes live, the ``hot-cache`` already holds the most requested entries. This is common after a deployment, a cache flush, or when bringing up a new server behind a load balancer.\n\nFor code, PHP has its own form of warming: ``opcache`` compiles PHP source into opcodes on first execution and caches them in shared memory; a freshly started worker or a newly deployed server is ``cold`` until each file has been compiled at least once. ``OPcache`` preloading, see ``opcache-preloading``, warms the code cache ahead of time by compiling an entire set of files at ``PHP-FPM`` startup, so the very first request already runs on precompiled opcodes.\n\nCache warming trades a slower, predictable startup, such as a deployment step or a health-check delay, for a faster and more predictable steady state, avoiding the thundering-herd effect of many cold requests competing to warm the same cache at once, see ``cache-stampede``.",
+    "code": "<?php\n\n// Data warm-up: run after every deployment, before the server accepts traffic\nfunction warmUpCache(CacheInterface $cache, ProductRepository $products): void\n{\n    foreach ($products->findMostPopular(limit: 100) as $product) {\n        // Populate the cache proactively: the first real visitor gets a hit,\n        // not a cold miss that falls through to the database.\n        $cache->get(\"product:{$product->id}\", fn () => $product, ttl: 3600);\n    }\n}\n\n// Code warm-up: compile the framework's core files into shared memory\n// at PHP-FPM startup, referenced from opcache.preload in php.ini\nfunction warmUpOpcache(iterable $files): void\n{\n    foreach ($files as $file) {\n        opcache_compile_file($file); // precompiled: no parsing cost on first request\n    }\n}\n\n?>",
+    "documentation": "https://www.php.net/manual/en/opcache.preloading.php",
+    "related": [
+        "cache",
+        "hot-cache",
+        "cold-cache",
+        "cache-stampede",
+        "opcache",
+        "opcache-preloading",
+        "cold-start",
+        "ttl",
+        "deployment"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/opcache.preloading.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Preloading in PHP 7.4",
+            "url": "https://stitcher.io/blog/preloading-in-php-74"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Symfony Cache: Cache Warmers",
+            "url": "https://symfony.com/doc/current/reference/dic_tags.html#kernel-cache-warmer"
+        }
+    ],
+    "tags": [
+        "architecture",
+        "performance",
+        "deployment"
+    ],
+    "packagist": [
+        "symfony/cache"
+    ],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Fri, 11 Sep 2026 14:14:43 +0000"
+}

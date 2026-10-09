@@ -1,0 +1,61 @@
+{
+    "id": "order-of-execution",
+    "name": "Order Of Execution",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/order-of-execution.html",
+    "aliases": [
+        "execution-order"
+    ],
+    "description": "The order of execution is the sequence that PHP uses to run the code. While a single file means that commands are executed one after the other, there are several PHP operations that makes that order much more elaborate.\n\nPHP processes a file in two steps before executing it. In the first step, the engine parses and compiles the source into opcodes. During this compilation step, unconditionally declared top-level functions and classes are registered early, as in early binding, making them available to the whole file regardless of their textual position. In the second step, the opcodes are executed sequentially, top to bottom.\n\nAs a result, the rules for what must be defined before use depend on the kind of entity:\n\n+ Functions: a function declared unconditionally at the top level is early-bound and can be called before its definition in the file. A function declared inside a conditional block or inside another function is only available after that declaration is reached at runtime\n+ Classes: an unconditionally declared top-level class is also early-bound. A conditionally declared class must be defined before use, or PHP will attempt to load it via autoloading. Autoloading gives classes a second chance that functions do not have\n+ Constants: ``const`` declarations at the top level are evaluated at compile time and are available immediately. ``define()`` calls are runtime statements and only take effect when execution reaches them\n+ Variables: a variable must be assigned before it is read. Reading an uninitialized variable produces a notice and yields ``null``. PHP has no variable hoisting at all\n+ Included files: code from an ``include`` or ``require`` runs at the point where the statement is reached, not before. Any definitions in the included file become available from that point onward.",
+    "code": "<?php\n\n    // Works: top-level function, early-bound by the compiler\n    trumpet();\n    function trumpet() { echo 'trumpet'; }\n\n    // Fails at runtime: function is inside a conditional, not early-bound\n    // forage(); // Fatal error: call to undefined function\n    if (true) {\n        function forage() { echo 'forage'; }\n    }\n    forage(); // works only after this point\n\n    // Works: const is compile-time\n    echo MY_CONST;\n    const MY_CONST = 42;\n\n    // Fails: define() is a runtime call\n    // echo MY_RT_CONST; // undefined constant\n    define('MY_RT_CONST', 99);\n    echo MY_RT_CONST; // works only after this point\n\n    // Classes: unconditional top-level class is early-bound\n    $obj = new Elephpant();\n    class Elephpant {}\n\n    // Classes: conditional class requires autoload or prior declaration\n    if (true) {\n        class Calf {}\n    }\n    $obj2 = new Calf(); // works only after this point\n\n?>",
+    "documentation": "https://www.npopov.com/2021/10/20/Early-binding-in-PHP.html",
+    "related": [
+        "type-checking",
+        "linting",
+        "compile",
+        "early-binding",
+        "class-hoisting",
+        "autoload",
+        "constant",
+        "include",
+        "execution",
+        "hoisting",
+        "global-code"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.npopov.com/2021/10/20/Early-binding-in-PHP.html"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Compare define() vs const in PHP",
+            "url": "https://www.tutorialspoint.com/article/compare-define-vs-const-in-php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP: Syntax - Manual",
+            "url": "https://www.php.net/manual/en/language.constants.syntax.php"
+        }
+    ],
+    "tags": [
+        "concept",
+        "lifecycle"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+}

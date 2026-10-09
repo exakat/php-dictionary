@@ -1,0 +1,45 @@
+{
+    "id": "stream_context_create",
+    "name": "stream_context_create()",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/stream_context_create.html",
+    "aliases": [],
+    "description": "``stream_context_create()`` is a native PHP function that creates a stream context: a set of options and parameters that can be passed to file and network functions such as ``fopen()``, ``file_get_contents()`` or ``stream_socket_client()``.\n\nThe first argument is an array of options, indexed by wrapper name, such as ``['http' => ['method' => 'POST']]``. The second argument is an array of parameters, such as a notification callback, that apply to the stream as a whole.\n\nThe function returns the context, which is then passed as the last argument of the stream function. Functions called without a context use the default context, which can be changed with ``stream_context_set_default()``.",
+    "code": "<?php\n\n    $context = stream_context_create([\n        'http' => [\n            'method' => 'POST',\n            'header' => 'Content-Type: application/json',\n            'content' => '{\"name\":\"Ada\"}',\n        ],\n    ]);\n\n    echo file_get_contents('https://example.com/api', false, $context);\n\n?>",
+    "documentation": "https://www.php.net/manual/en/function.stream-context-create.php",
+    "related": [
+        "file_get_contents",
+        "fopen",
+        "max_filter_count"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/function.stream-context-create.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "stream_context_create",
+            "url": "https://www.php.net/manual/en/function.stream-context-create.php"
+        }
+    ],
+    "tags": [
+        "native function"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Fri, 09 Oct 2026 17:10:07 +0000"
+}

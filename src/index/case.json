@@ -1,0 +1,52 @@
+{
+    "id": "case",
+    "name": "Case",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/case.html",
+    "aliases": [],
+    "description": "``case`` is a PHP keyword, which may be used in three distinct situations: \n\n+ With ``switch()`` expression\n+ With ``match()`` expression\n+ With enumeration\n\n``case`` is often complemented with ``default``.",
+    "code": "<?php\n\n    enum Suit\n    {\n        case Hearts;\n        case Diamonds;\n        case Clubs;\n        case Spades;\n    }\n    \n    switch ($i) {\n        case 0:\n            echo \"i equals 0\";\n            break;\n        case 1:\n            echo \"i equals 1\";\n            break;\n        case 2:\n            echo \"i equals 2\";\n            break;\n    }\n\n?>",
+    "documentation": "https://www.php.net/manual/en/control-structures.switch.php",
+    "related": [
+        "default",
+        "match",
+        "enum",
+        "enum-case",
+        "switch",
+        "switch-case"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/control-structures.switch.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "match",
+            "url": "https://www.php.net/manual/en/control-structures.match.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Switch statement",
+            "url": "https://en.wikipedia.org/wiki/Switch_statement"
+        }
+    ],
+    "tags": [
+        "keyword",
+        "disambiguation"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Wed, 26 Aug 2026 10:13:54 +0000"
+}

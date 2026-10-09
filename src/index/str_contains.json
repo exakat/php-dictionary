@@ -1,0 +1,52 @@
+{
+    "id": "str_contains",
+    "name": "str_contains()",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/str_contains.html",
+    "aliases": [],
+    "description": "``str_contains()`` is a PHP native function that checks if a string contains another string.\n\nThe function returns a boolean. It is meant to be a replacement to ``strpos()``, which returns the position of the found string, but is often misused.\n\nThe search is case sensitive. There is no case insensitive version of ``str_contains()``. This has to be done by setting the strings to the same case first.\n\nThe empty string is always found. ``null`` value is not accepted, but still default to empty string ``''``, so ``true``.\n",
+    "code": "<?php\n\n    var_dump(str_contains('abc', '')); // true\n    \n    var_dump(str_contains('abc', 'a')); // true\n    \n    var_dump(str_contains('abc', 'A')); // false\n    \n    var_dump(str_contains('abc', 'd')); // false\n    \n    var_dump(str_contains('abc', 'abcabc')); // false\n    \n    var_dump(str_contains('abc', 'abcabc')); // false\n\n?>",
+    "documentation": "https://www.php.net/manual/fr/function.str-contains.php",
+    "related": [
+        "null",
+        "empty-string",
+        "fnmatch",
+        "preg_match",
+        "strpos"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/fr/function.str-contains.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP: strpos()",
+            "url": "https://www.php.net/manual/en/function.strpos.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP RFC: str_contains",
+            "url": "https://wiki.php.net/rfc/str_contains"
+        }
+    ],
+    "tags": [
+        "string"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Fri, 28 Aug 2026 09:39:42 +0000"
+}

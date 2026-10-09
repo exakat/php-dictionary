@@ -1,0 +1,95 @@
+{
+    "id": "type-checking",
+    "name": "Type Checking",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/type-checking.html",
+    "aliases": [
+        "type-verification"
+    ],
+    "description": "Type checking is the process of verifying that the types of expressions, variables, arguments, and return values are consistent with their declarations and usage. It can take place before execution, as static type checking, or during execution, as runtime type checking, and the two complement each other.\n\nStatic type checking is performed by tools before the script ever runs. These tools rely on type inference to deduce the type of every expression, then compare those inferred types against declared signatures and usage. Because PHP does not natively support generics, static checkers extend the language with PHPDoc-style ``@template`` annotations that let a single class or function describe type-safe behaviour for multiple element types; those annotations exist only for the checker and are fully erased at runtime.\n\nRuntime type checking is enforced by the PHP engine at the moment a typed boundary is crossed: when a function is called, when a value is assigned to a typed property, or when a function returns. In strict mode, ``declare(strict_types=1)``, PHP rejects values that do not match the declared type instead of coercing them, throwing a ``TypeError``. Explicit guards such as ``is_string()``, ``instanceof``, or ``assert()`` are also runtime checks that programmers add themselves.\n\nThe two phases sit at different points in the order of execution: static analysis happens entirely before the script starts, while runtime enforcement happens progressively as each statement executes. A type error caught statically prevents a whole class of bugs from ever reaching production; a runtime error caught by PHP's engine surfaces only when the relevant code path is actually reached.\n",
+    "code": "<?php\n\n    declare(strict_types=1);\n\n    // Static type checking that verifies this signature is used correctly\n    // Runtime type checking: PHP rejects a non-string argument at call time\n    function shout(string $message): string {\n        return strtoupper($message);\n    }\n\n    // PHPDoc generics: @template T informs static checkers; erased at runtime\n    /**\n     * @template T\n     * @param T $value\n     * @return T\n     */\n    function identity(mixed $value): mixed {\n        return $value;\n    }\n\n    // Explicit runtime check narrows the type for both static and runtime phases\n    function process(mixed $value): string {\n        if (!is_string($value)) {\n            throw new \\TypeError('Expected string');\n        }\n        // inferred as string from here by static checkers AND enforced at runtime\n        return strtoupper($value);\n    }\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Type_system#Type_checking",
+    "related": [
+        "type-inference",
+        "sca",
+        "runtime-checks",
+        "gradual-type-checking",
+        "generics",
+        "type-erasure",
+        "order-of-execution",
+        "strict_types",
+        "type",
+        "typeerror",
+        "type-juggling",
+        "type-coverage",
+        "instanceof",
+        "is_a",
+        "array-shape",
+        "nominal-type",
+        "phantom-type",
+        "refinement-type",
+        "strict",
+        "structural-typing",
+        "type-narrowing",
+        "coercion",
+        "gettype",
+        "is_array",
+        "is_bool",
+        "is_int",
+        "is_iterable",
+        "is_string",
+        "gradual-typing",
+        "is_float",
+        "phpstan",
+        "psalm"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Type_system#Type_checking"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP RFC: Scalar Type Declarations",
+            "url": "https://wiki.php.net/rfc/scalar_type_hints_v5"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHPStan \u2013 Understanding Types",
+            "url": "https://phpstan.org/writing-php-code/phpdoc-types"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Psalm \u2013 Typing in Psalm",
+            "url": "https://psalm.dev/docs/annotating_code/type_syntax/atomic_types/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Runtime type checking is great",
+            "url": "https://blog.jez.io/runtime-type-checking/"
+        }
+    ],
+    "tags": [
+        "type",
+        "concept",
+        "quality",
+        "rfc",
+        "static analysis"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Tue, 01 Sep 2026 05:31:03 +0000"
+}

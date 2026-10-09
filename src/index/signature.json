@@ -1,0 +1,38 @@
+{
+    "id": "signature",
+    "name": "Signature",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/signature.html",
+    "aliases": [],
+    "description": "Signature has several meanings.  \n\n+ Method signature: the name, arguments, attributes and return type of a method or function\n+ Digital signature: a piece of data that gives a recipient confidence that the message came from a specific sender\n+ Email signature: a suffix for email messages, to conclude a email message with coordinates and social greetings.",
+    "code": "<?php\n\n    // The line below is the function signature\n    function trumpet(string $message): string {\n\n        // adapted from the PHP manual\n        // fetch private key from file and ready it\n        $pkeyid = openssl_pkey_get_private(\"file://src/openssl-0.9.6/php/sign/key.pem\");\n\n        // compute signature\n        openssl_sign($message, $signature, $pkeyid);\n\n        // free the key from memory\n        openssl_free_key($pkeyid);        \n        \n        // This returns the signature of the message for 'php' user.\n        // It may be checked with the public key\n        return $signature;\n    }\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Digital_signature",
+    "related": [
+        "method-signature",
+        "digital-signature"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Digital_signature"
+        }
+    ],
+    "tags": [
+        "disambiguation",
+        "noSeeAlso"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+}

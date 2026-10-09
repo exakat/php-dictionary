@@ -1,0 +1,45 @@
+{
+    "id": "ducktyping",
+    "name": "Duck Typing",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/ducktyping.html",
+    "aliases": [
+        "duck-typing"
+    ],
+    "description": "In duck typing, an object is of a given type if it has all methods and properties required by that type. \n\nIt is described by this sentence: 'If it walks like a duck and it quacks like a duck, then it must be a duck'.\n\nThis may apply to a class that offers a set of methods, that are listed in an interface, but the class doesn't implement explicitly that interface.",
+    "code": "<?php\n\n    interface Trumpets {\n        function trumpet() ;\n    }\n\n    // class Elephpant doesn't implement Trumpets, yet it is of type Trumpets because it implements trumpet()\n    class Elephpant {\n        function trumpet() {}\n        function forage() {}\n    }\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Duck_typing",
+    "related": [
+        "rubber-ducking"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Duck_typing"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Duck Typing in PHP",
+            "url": "https://matthiasnoback.nl/2017/02/convenient-ducktyping-in-php/"
+        }
+    ],
+    "tags": [
+        "concept",
+        "type",
+        "animal"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+}

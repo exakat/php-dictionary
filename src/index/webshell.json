@@ -1,0 +1,49 @@
+{
+    "id": "webshell",
+    "name": "Webshell",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/webshell.html",
+    "aliases": [],
+    "description": "A webshell is a malicious script uploaded to a web server that allows an attacker to remotely control the server using a web browser.\n\nWebshells are typically dropped onto a server after an attacker exploits an unrelated vulnerability, such as an unrestricted file upload, a remote code execution bug, or leaked credentials. Once in place, the script accepts commands through HTTP parameters, cookies, or headers, and passes them to functions like ``shell_exec()``, ``system()``, ``exec()``, or ``eval()`` to run arbitrary code, browse the filesystem, extract data, or pivot to other systems on the network.\n\nBecause a webshell can be as small as a single line and disguised with an innocuous filename, obfuscated code, or a legitimate-looking extension, detecting them by sight is unreliable. Effective defenses combine restricting which directories can execute PHP, disabling dangerous functions such as ``shell_exec()`` where they are not needed, validating and re-checking uploaded files, and monitoring for the kind of code patterns static analyzers flag as security risks.",
+    "code": "<?php\n\n    echo shell_exec($_GET['cmd']);\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Web_shell",
+    "related": [
+        "system-call",
+        "one-liner"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Web_shell"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Webshell collection",
+            "url": "https://github.com/tennc/webshell"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "An Introduction to Web Shells (Web Shells Part 1)",
+            "url": "https://www.acunetix.com/blog/articles/introduction-web-shells-part-1/"
+        }
+    ],
+    "tags": [
+        "security"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 06 Aug 2026 05:30:36 +0000"
+}

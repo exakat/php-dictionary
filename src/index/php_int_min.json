@@ -1,0 +1,46 @@
+{
+    "id": "php_int_min",
+    "name": "PHP_INT_MIN",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/php_int_min.html",
+    "aliases": [],
+    "description": "``PHP_INT_MIN`` is the smallest integer that can be processed by PHP. \n\nNowadays, ``PHP_INT_MIN`` is often -9223372036854775808. This value depends on the underlying machine: in particular, 64 bits, machine and OS, have larger absolute values of ``PHP_INT_MIN``, while 32 bits have smaller. The hardware and the software have to be compatible to provide a larger absolute value of ``PHP_INT_MIN``.\n\nBeyond ``PHP_INT_MIN``, integers are often converted to floats, and loose precision. \n\nThere is also ``PHP_INT_MAX``, which is the positive version of ``PHP_INT_MIN``, minus one.",
+    "code": "<?php\n\n$max = PHP_INT_MIN;\n\nvar_dump(is_int($max)); // true\n\n?>",
+    "documentation": "https://www.php.net/manual/en/reserved.constants.php",
+    "related": [
+        "integer",
+        "float",
+        "php_int_max",
+        "precision"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/reserved.constants.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP Integers Guide: Types, Limits, and Conversions",
+            "url": "https://flatcoding.com/tutorials/php/php-int/"
+        }
+    ],
+    "tags": [
+        "native constant"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Fri, 19 Jun 2026 21:27:49 +0000"
+}

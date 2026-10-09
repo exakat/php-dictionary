@@ -1,0 +1,41 @@
+{
+    "id": "object-api",
+    "name": "Object API",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/object-api.html",
+    "aliases": [],
+    "description": "The Object API is a set of classes, interfaces, enums and traits to execute features. \n\nThe alternative is the function API, which is a set of functions to execute features. \n\nSome PHP extensions have a dual object and function API, for example ``mysqli``, although they are rare.",
+    "code": "",
+    "documentation": "https://www.php.net/manual/en/language.oop5.php",
+    "related": [
+        "mysqli"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.oop5.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "mysqli_connect",
+            "url": "https://www.php.net/manual/fr/mysqli.construct.php"
+        }
+    ],
+    "tags": [
+        "class"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Fri, 19 Jun 2026 21:25:55 +0000"
+}

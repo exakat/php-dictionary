@@ -1,0 +1,48 @@
+{
+    "id": "multithreading",
+    "name": "Multithreading",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/multithreading.html",
+    "aliases": [
+        "multithread",
+        "multitask",
+        "multitasking"
+    ],
+    "description": "Multithreading, sometimes loosely called multitasking or to multitask, refers to the ability of a PHP application to execute multiple threads, smaller units of a process, within the same process, allowing for concurrent execution of code. However, PHP traditionally does not support true multithreading due to its single-threaded, request-response model.",
+    "code": "",
+    "documentation": "https://en.wikipedia.org/wiki/Multithreading_(computer_architecture)",
+    "related": [
+        "asynchronous",
+        "thread"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Multithreading_(computer_architecture)"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Multithreading in PHP: Looking to the Future",
+            "url": "https://medium.com/@edmond.ht/multithreading-in-php-looking-to-the-future-4f42a48e47fe"
+        }
+    ],
+    "tags": [
+        "architecture"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sun, 30 Aug 2026 14:50:02 +0000"
+}

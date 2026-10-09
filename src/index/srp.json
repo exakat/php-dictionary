@@ -1,0 +1,53 @@
+{
+    "id": "srp",
+    "name": "Single Responsability Principle (SRP)",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/srp.html",
+    "aliases": [],
+    "description": "Single Responsibility Principle is a coding principle where one component is responsible for one task, and nothing more. \n\nIt particularly aims at avoid multiple responsibilities in code, where several tasks are performed at the same time. This means that any modifications to that method has an impact on each of the tasks, leading to potential spillovers. \n\nSingle Responsibility Principle relies on the possibility to identify one responsibility per component, and exclude any other.",
+    "code": "",
+    "documentation": "https://en.wikipedia.org/wiki/Single-responsibility_principle",
+    "related": [
+        "solid",
+        "cohesion",
+        "responsability",
+        "separation-of-concerns",
+        "testable",
+        "god-object"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Single-responsibility_principle"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "How To Use Single Responsibility Principle in PHP/Laravel",
+            "url": "https://mohasin-dev.medium.com/how-to-use-single-responsibility-principle-in-php-laravel-with-example-9c728360f4f2"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Single Responsibility Principle (SRP)",
+            "url": "https://dev.to/anashussain284/single-responsibility-principle-srp-15hd"
+        }
+    ],
+    "tags": [
+        "concept",
+        "acronym",
+        "solid"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Wed, 26 Aug 2026 10:49:40 +0000"
+}

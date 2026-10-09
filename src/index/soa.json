@@ -1,0 +1,49 @@
+{
+    "id": "soa",
+    "name": "Service-Oriented Architecture (SOA)",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/soa.html",
+    "aliases": [
+        "service-oriented-architecture"
+    ],
+    "description": "Service-Oriented Architecture, or ``SOA``, is an architectural style where software is composed of discrete, reusable services that communicate over a network through well-defined interfaces. Each service encapsulates a specific business capability and can be consumed by other services or applications.\n\n``SOA`` predates microservices and typically operates at a coarser granularity. Services are usually coordinated by an Enterprise Service Bus, which handles routing, transformation, and orchestration. Communication is commonly done via ``SOAP`` or ``WSDL`` contracts, though REST-based ``SOA`` also exists.\n\n``SOA`` principles appear in SOAP-based web services ``ext-soap``, service layer patterns inside frameworks, and large enterprise integrations where PHP acts as a consumer or producer of shared business services.\n\n``SOA`` and microservices share the goal of decomposing a system into services, but differ in coupling, governance, and deployment model. ``SOA`` tends toward centralised orchestration; microservices favour decentralised choreography.",
+    "code": "<?php\n\n    // PHP as a SOAP service consumer in an SOA context\n    $client = new SoapClient('https://services.example.com/orders?wsdl');\n    \n    $result = $client->getOrderStatus([\n        'orderId'    => 42,\n        'customerId' => 100,\n    ]);\n    \n    echo $result->status; // 'shipped'\n    \n    // PHP as a REST service in SOA\n    // Each endpoint maps to a shared business capability\n    // consumed by multiple internal applications\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Service-oriented_architecture",
+    "related": [
+        "microservice",
+        "monolith",
+        "soap",
+        "rest-api",
+        "api-gateway",
+        "separation-of-concerns"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Service-oriented_architecture"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "How to Implement Service-Oriented Architecture with PHP",
+            "url": "https://datatas.com/how-to-implement-service-oriented-architecture-with-php/"
+        }
+    ],
+    "tags": [
+        "concept",
+        "acronym"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Fri, 11 Sep 2026 09:43:32 +0000"
+}

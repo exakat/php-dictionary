@@ -1,0 +1,55 @@
+{
+    "id": "fault-isolation",
+    "name": "Fault Isolation",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/fault-isolation.html",
+    "aliases": [
+        "failure-isolation"
+    ],
+    "description": "Fault isolation, also called failure isolation, is the design property that limits the impact, or blast radius, of a failure to the component or service where it originates, preventing it from cascading to other parts of the system.\n\nIn a tightly coupled system , such as monolith, distributed monolith, a failure in one subsystem can bring down the entire application. Fault isolation ensures that the failure of a payment service, for example, does not prevent users from browsing or adding items to their cart.\n\nCommon patterns that implement fault isolation: the circuit breaker, that stops sending requests to a failing service, the bulkhead which limits the resources a single consumer can use, preventing it from exhausting shared pools, and timeouts, that prevents a slow downstream from blocking threads indefinitely.\n\nMicroservices architecture promotes fault isolation by deploying each service independently. However, it requires explicit design: synchronous call chains without timeouts or circuit breakers produce the opposite: a single slow service that blocks all callers.\n\nFault isolation is implemented via timeout configuration on HTTP clients, circuit breaker libraries, and queue-based decoupling of non-critical side-effects.",
+    "code": "<?php\n\n    // Circuit breaker with a library (e.g., Ganesha or php-circuit-breaker)\n    $circuitBreaker = Ackintosh\\Ganesha\\Builder::withRateStrategy()\n        ->timeWindow(30)\n        ->failureRateThreshold(50)\n        ->build();\n    \n    if ($circuitBreaker->isAvailable('payment-service')) {\n        try {\n            $result = $paymentClient->charge($order);\n            $circuitBreaker->success('payment-service');\n        } catch (Exception $e) {\n            $circuitBreaker->failure('payment-service');\n            // Degrade gracefully: queue for retry, show user a message\n            $retryQueue->push(new RetryPayment($order->id));\n        }\n    } else {\n        // Circuit is open: skip the call entirely, don't block the user\n        $retryQueue->push(new RetryPayment($order->id));\n    }\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Fault_isolation",
+    "related": [
+        "circuit-breaker",
+        "resilience",
+        "microservice",
+        "distributed-monolith",
+        "distributed-systems",
+        "coupling",
+        "cascading-failure",
+        "blast-radius",
+        "bulkhead",
+        "timeout",
+        "connection-pool"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Fault_isolation"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP Monitoring: Using PHP Observability Tools to Improve Web Apps",
+            "url": "https://www.zend.com/blog/php-monitoring"
+        }
+    ],
+    "tags": [
+        "concept"
+    ],
+    "packagist": [
+        "ackintosh/ganesha"
+    ],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Mon, 07 Sep 2026 09:10:31 +0000"
+}

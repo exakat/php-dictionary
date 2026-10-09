@@ -1,0 +1,44 @@
+{
+    "id": "missing-validation",
+    "name": "Missing Validation",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/missing-validation.html",
+    "aliases": [],
+    "description": "Missing Validation is a common security vulnerability that occurs when an application fails to validate user input or data before processing it. This can lead to a wide range of security issues, including injection attacks, data corruption, unauthorized access, or even system compromise.\n\nMissing validation means the application does not check whether the input or data it receives is:\n\n+ Correctly formatted, e.g., an email address, number, or date\n+ Within expected boundaries, e.g., length, type, or range\n+ Safe to process, e.g., free from malicious code or unexpected characters\n\nIt is important to remember that validation applies to incoming variables, such as ``$_GET``, but also with formatted data, like ``JSON`` or ``YAML``; formatted files like ``PDF`` or ``Zip``; database data, etc. In fact, every external source of data should be considered a potential vector of attack.\n",
+    "code": "<?php\n\n    $file = $_GET['fileName'];\n    \n    // Some validation on the name size.\n    if (strlen($file) > 150) { die('This file name is too long');}\n    \n    // Validation is not sufficient, and any file may be reached on the system\n    fopen($filename);\n\n?>",
+    "documentation": "",
+    "related": [
+        "vulnerability",
+        "sast"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Improper Data Validation",
+            "url": "https://owasp.org/www-community/vulnerabilities/Improper_Data_Validation"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Input Validation Errors: The Root of All Evil in Web Application Security",
+            "url": "https://www.invicti.com/blog/web-security/input-validation-errors-root-of-all-evil"
+        }
+    ],
+    "tags": [
+        "security"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Fri, 25 Sep 2026 14:03:43 +0000"
+}

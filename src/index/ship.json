@@ -1,0 +1,43 @@
+{
+    "id": "ship",
+    "name": "Ship",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/ship.html",
+    "aliases": [
+        "shipping"
+    ],
+    "description": "Shipping, or to ship, refers to the publication of one or more features or services, to the public. This means the application, as a whole, is now accessible for actual usage by customers, clients, and users. \n\nUntil it is shipped, a feature is hidden on the author's infrastructure, and is only used by a limited number of users.\n\nTo ship is the ultimate goal of any piece of software: everything else is a toy project.\n\nHere, to ship is not related to sending a package by postal service.",
+    "code": "",
+    "documentation": "https://en.wikipedia.org/wiki/Software_release_life_cycle",
+    "related": [
+        "deploy"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Software_release_life_cycle"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Seven ways to consistently ship great features",
+            "url": "https://ben.balter.com/2017/05/23/seven-ways-to-consistently-ship-great-features/"
+        }
+    ],
+    "tags": [
+        "sdlc"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sat, 08 Aug 2026 08:10:54 +0000"
+}

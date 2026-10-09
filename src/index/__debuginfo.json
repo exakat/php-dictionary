@@ -1,0 +1,49 @@
+{
+    "id": "__debuginfo",
+    "name": "__debugInfo() Method",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/__debuginfo.html",
+    "aliases": [],
+    "description": "``__debugInfo()`` is called by ``var_dump()`` to customize the information displayed for an object.\n\nBy default, ``var_dump()`` shows every property of an object, including private and protected ones. When ``__debugInfo()`` is defined, its return value is shown instead, allowing sensitive properties to be hidden, computed values to be added, or the output to be simplified.\n\n``__debugInfo()`` must return an array. The keys become the displayed property names, and are not required to match actual property names.\n\n``__debugInfo()`` was introduced in version 5.6. Before that version, ``var_dump()`` always displays the object's actual properties, and the method, if present, is simply ignored.\n\n``__debugInfo()`` is a magic method.",
+    "code": "<?php\n\n    class Elephpant {\n        private $public = 'a';\n        private $secret = 'password';\n\n        function __debugInfo() {\n            return ['public' => $this->public,\n                    'secret' => '***redacted***'];\n        }\n    }\n\n    var_dump(new Elephpant);\n\n?>",
+    "documentation": "https://www.php.net/manual/en/language.oop5.magic.php#object.debuginfo",
+    "related": [
+        "magic-method",
+        "var_dump",
+        "__tostring",
+        "__sleep",
+        "__wakeup",
+        "print_r",
+        "var_export"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.oop5.magic.php#object.debuginfo"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "__debugInfo()",
+            "url": "https://riptutorial.com/php/example/4605/--debuginfo--"
+        }
+    ],
+    "tags": [
+        "magic method"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [
+        "Php/debugInfoUsage"
+    ],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "5.6",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+}

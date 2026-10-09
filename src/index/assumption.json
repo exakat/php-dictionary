@@ -1,0 +1,41 @@
+{
+    "id": "assumption",
+    "name": "Assumption",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/assumption.html",
+    "aliases": [],
+    "description": "An assumption is a piece of code that makes use of knowledge that is not visible in the source. \n\nAssumptions are often related to arrays: after checking that a variable is of type array, some specific indexes are used, while there is no guarantee that they are available.\n\nAssumptions may apply to any type of data. \n\nAssumptions are characterized by a lack of checks, before or after. They are based on code discipline, actual or expected, and hard rules that are thought to never be violated: ``this never happens``. \n\nAssumptions lead to faster code, and faster coding. They also yield errors later, when the assumptions rules are violated.\n\nAssumptions may be upgraded to assertions, by adding an explicit check on the situation.",
+    "code": "<?php\n\n    function trumpet($elephpant) {\n        if ($elephpant instanceof Elephpant) {\n            print $elephpant->getName();\n        } else {\n            // if $elephpant is not an object of type Elephpant, then it is an array. Where does this come from?\n            print $elephpant['name'];\n\n            // if $elephpant is an array, is 'name' always available?\n\n        }\n    }\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Assertion_(software_development)",
+    "related": [
+        "assertion"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Assertion_(software_development)"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "From assumptions to assertions",
+            "url": "https://rskuipers.com/entry/from-assumptions-to-assertions"
+        }
+    ],
+    "tags": [
+        "error"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+}

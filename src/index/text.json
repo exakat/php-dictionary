@@ -1,0 +1,55 @@
+{
+    "id": "text",
+    "name": "Text",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/text.html",
+    "aliases": [],
+    "description": "Text refers to data that is human-readable and composed of characters, such as letters, numbers, punctuation, according to a specific encoding, such as ASCII or UTF-8. \n\nText isn't a built-in data type or a standard term. However, text generally refers to strings, even though PHP strings are able to manipulate text and binary data, and even some text is multi-byte, leading to binary characters.\n\nIt is also used in the context of files, where text files are translated, while binary files are read as is, without any transformation.\n\nIn security, plain text refers to data that is not protected by cryptography and may be directly read.\n\nText and binary are also mentioned in database, where columns may be text, with an extra set of functions, or binary, where the whole data is treated as non-modifiable.\n",
+    "code": "",
+    "documentation": "https://en.wikipedia.org/wiki/String_(computer_science)",
+    "related": [
+        "fopen",
+        "string",
+        "multi-byte",
+        "plain-text",
+        "rich-text",
+        "json",
+        "parquet",
+        "toon"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/String_(computer_science)"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Character encoding",
+            "url": "https://en.wikipedia.org/wiki/Character_encoding"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP: mbstring",
+            "url": "https://www.php.net/manual/en/book.mbstring.php"
+        }
+    ],
+    "tags": [
+        "concept"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Fri, 28 Aug 2026 10:04:35 +0000"
+}

@@ -1,0 +1,59 @@
+{
+    "id": "php-filter",
+    "name": "php://filter",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/php-filter.html",
+    "aliases": [
+        "php-filter-wrapper"
+    ],
+    "description": "``php://filter`` is a meta-wrapper that allows applying one or more filter chains to a stream before the data is read or written. It is part of the ``php://`` family of built-in stream wrappers.\n\nA filter chain is specified in the URL itself: ``php://filter/read=<filters>/resource=<target>``. Built-in filters include string conversions ``string.toupper``, encoding transforms ``convert.base64-encode``, ``convert.iconv.*``, and compression ``zlib.deflate``.\n\nWhile legitimately used to read or transform stream data on-the-fly, ``php://filter`` is widely exploited in Local File Inclusion vulnerabilities. By using ``convert.base64-encode``, an attacker can read the raw PHP source of any included file instead of executing it, leaking credentials and logic. Advanced exploit chains using ``iconv`` filters can even achieve remote code execution from an LFI alone.",
+    "code": "<?php\n\n    // Legitimate use: read a file and base64-encode its contents on the fly\n    $encoded = file_get_contents('php://filter/read=convert.base64-encode/resource=config.php');\n    \n    // Attacker use (LFI context): exfiltrate PHP source code via include\n    // include($_GET['page']);\n    // => ?page=php://filter/read=convert.base64-encode/resource=index.php\n    // Returns base64 of index.php source instead of executing it\n\n?>",
+    "documentation": "https://www.php.net/manual/en/wrappers.php.php",
+    "related": [
+        "wrapper-php",
+        "wrapper",
+        "stream",
+        "local-file-inclusion",
+        "rce",
+        "filter",
+        "security",
+        "base64"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/wrappers.php.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "LFI to RCE via php://filter",
+            "url": "https://www.synacktiv.com/publications/php-filters-chain-what-is-it-and-how-to-use-it.html"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP filter chains: file read from error-based oracle",
+            "url": "https://github.com/synacktiv/php_filter_chain_generator"
+        }
+    ],
+    "tags": [
+        "wrapper",
+        "security",
+        "vulnerability"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Mon, 13 Jul 2026 18:49:40 +0000"
+}

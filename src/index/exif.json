@@ -1,0 +1,63 @@
+{
+    "id": "exif",
+    "name": "EXIF (Exchangeable Image File Format)",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/exif.html",
+    "aliases": [
+        "exif-data"
+    ],
+    "description": "EXIF is a standard for storing metadata in image files, particularly JPEG and TIFF. It embeds information such as camera settings, date and time, GPS coordinates, orientation, thumbnail images, and other technical details captured by cameras and smartphones.\n\nPHP provides the ``exif`` extension, which offers functions to read and write EXIF data from image files. This is commonly used for:\n\n+ Retrieving camera make and model\n+ Reading image orientation for automatic rotation\n+ Extracting GPS coordinates for geotagging\n+ Accessing date/time the photo was taken\n+ Reading thumbnail images embedded in EXIF data\n\nThe EXIF data is stored in the file header and does not affect image quality. It is a subset of the TIFF format and is defined by the JEIDA standard, the Japan Electronic Industry Development Association.\n\nCommon EXIF functions include ``exif_read_data()``, ``exif_imagetype()``, ``exif_thumbnail()``, and ``exif_process_raw_data()``. Note that EXIF data may contain sensitive information such as GPS location, which should be considered for privacy.",
+    "code": "<?php\n\n    // Reading EXIF data from an image\n    $exif = exif_read_data('photo.jpg', 'COMPUTED', true);\n    if ($exif !== false) {\n        echo 'Camera: ' . $exif['Make'] . ' ' . $exif['Model'] . \"\\n\";\n        echo 'Date: ' . $exif['DateTimeOriginal'] . \"\\n\";\n        echo 'Width: ' . $exif['COMPUTED']['Width'] . \"\\n\";\n        echo 'Height: ' . $exif['COMPUTED']['Height'] . \"\\n\";\n    }\n\n    // Check image type by EXIF data\n    $type = exif_imagetype('photo.jpg');\n    if ($type === IMAGETYPE_JPEG) {\n        echo 'This is a JPEG image';\n    }\n\n?>",
+    "documentation": "https://www.php.net/manual/en/book.exif.php",
+    "related": [
+        "gd",
+        "imagick",
+        "file",
+        "image",
+        "metadata",
+        "privacy",
+        "steganography",
+        "security",
+        "encoding-text"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/book.exif.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP EXIF functions",
+            "url": "https://www.php.net/manual/en/ref.exif.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "EXIF standard",
+            "url": "https://en.wikipedia.org/wiki/Exchangeable_image_file_format"
+        }
+    ],
+    "tags": [
+        "extension",
+        "metadata",
+        "image",
+        "acronym"
+    ],
+    "packagist": [],
+    "extensions": [
+        "exif"
+    ],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Tue, 14 Jul 2026 05:43:38 +0000"
+}

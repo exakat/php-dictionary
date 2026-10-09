@@ -1,0 +1,46 @@
+{
+    "id": "session-fixation",
+    "name": "Session Fixation",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/session-fixation.html",
+    "aliases": [],
+    "description": "A session fixation attack is a type of security exploit where an attacker sets a victim's session identifier to a known value, allowing the attacker to hijack the session once the victim logs in. This type of attack exploits the way web applications manage session authentication.\n\nTo prevent session fixation attacks, web applications should employ secure session management practices, such as generating random session identifiers for each user session and invalidating session identifiers after login or logout. Additionally, using secure HTTPS connections can help protect against session hijacking and interception of session identifiers.",
+    "code": "",
+    "documentation": "https://owasp.org/www-community/attacks/Session_fixation",
+    "related": [
+        "session",
+        "vulnerability",
+        "session-highjacking"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://owasp.org/www-community/attacks/Session_fixation"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP Session Fixation / Hijacking",
+            "url": "https://stackoverflow.com/questions/5081025/php-session-fixation-hijacking"
+        }
+    ],
+    "tags": [
+        "security",
+        "vulnerability"
+    ],
+    "packagist": [
+        "stefangabos/zebra_session"
+    ],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Mon, 15 Jun 2026 11:03:59 +0000"
+}

@@ -1,0 +1,42 @@
+{
+    "id": "auto_prepend_file",
+    "name": "Preappend File Directive",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/auto_prepend_file.html",
+    "aliases": [],
+    "description": "The ``auto_prepend_file`` PHP directive adds a ``require`` call before the main file. The file is then automatically executed, and all its definitions are added. They are then available later in the execution.\n\nOnly one file is prepended: if several files need to be, they should be included in a centralized file.",
+    "code": "",
+    "documentation": "https://www.php.net/manual/en/ini.core.php#ini.auto-prepend-file",
+    "related": [
+        "disable-functions",
+        "disable-classes"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/ini.core.php#ini.auto-prepend-file"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "How to Use auto_prepend_file in PHP Effectively",
+            "url": "https://medium.com/serveravatar/how-to-use-auto-prepend-file-in-php-effectively-ee3917b668f6"
+        }
+    ],
+    "tags": [
+        "directive"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Tue, 11 Aug 2026 20:51:43 +0000"
+}

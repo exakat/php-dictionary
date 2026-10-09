@@ -1,0 +1,60 @@
+{
+    "id": "rdf",
+    "name": "RDF (Resource Description Framework)",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/rdf.html",
+    "aliases": [
+        "resource-description-framework"
+    ],
+    "description": "RDF, Resource Description Framework, is a W3C standard model for describing and exchanging data on the Web. Data is expressed as triples of the form subject-predicate-object, such as 'PHP hasType Language', which together form a directed graph of statements.\n\nRDF underpins the Semantic Web and Linked Data initiatives: resources are identified by URIs, statements can be serialized in several formats such as RDF/XML, Turtle, N-Triples and JSON-LD, and collections of triples are queried with SPARQL.\n\nLibraries such as EasyRdf provide an API to parse, build, and serialize RDF data, and to query a remote or local triple store.",
+    "code": "<?php\n\n    $graph = new EasyRdf\\Graph('http://example.com/data');\n    $graph->add('http://example.com/data#me', 'foaf:name', 'Alice');\n    echo $graph->serialise('turtle');\n\n?>",
+    "documentation": "https://www.w3.org/RDF/",
+    "related": [
+        "rdf-triple-store",
+        "triple",
+        "sparql",
+        "graph-database",
+        "semantic-analysis",
+        "xml",
+        "json-ld"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.w3.org/RDF/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "RDF 1.1 Primer",
+            "url": "https://www.w3.org/TR/rdf11-primer/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "EasyRdf",
+            "url": "https://www.easyrdf.org/"
+        }
+    ],
+    "tags": [
+        "standard",
+        "semantic-web",
+        "acronym"
+    ],
+    "packagist": [
+        "easyrdf/easyrdf"
+    ],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Wed, 02 Sep 2026 15:09:14 +0000"
+}

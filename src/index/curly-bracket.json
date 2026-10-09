@@ -1,0 +1,49 @@
+{
+    "id": "curly-bracket",
+    "name": "Curly Brackets",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/curly-bracket.html",
+    "aliases": [
+        "curly-braces"
+    ],
+    "description": "Curly brackets have different usage:\n\n+ Delimit a block of code \n+ Represents a variable delimiter inside string\n+ It used to identify a single byte in a string, with an array syntax\n\nThey are also called curly braces.",
+    "code": "<?php\n\n    for($a = 1; $a < 10; ++$i) {\n        // block\n        \n        // delimit a variable to avoid confusing it with $vars\n        echo \"{$var}s\";\n    }\n\n    // old syntax: it used to be the second character in the string\n    // This is a removed feature in PHP 8.0+\n    // modern syntax : use angular brackets\n    echo $string{1};\n\n?>",
+    "documentation": "https://www.php.net/manual/en/language.types.string.php#language.types.string.parsing.complex",
+    "related": [
+        "block",
+        "string",
+        "square-bracket",
+        "token",
+        "balanced",
+        "bracketless"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.types.string.php#language.types.string.parsing.complex"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP Curly Braces: How and When to Use it?",
+            "url": "https://schoolsofweb.com/php-curly-braces-how-and-when-to-use-it/"
+        }
+    ],
+    "tags": [
+        "delimiter",
+        "disambiguation"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sat, 08 Aug 2026 08:10:54 +0000"
+}

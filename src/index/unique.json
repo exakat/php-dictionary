@@ -1,0 +1,50 @@
+{
+    "id": "unique",
+    "name": "Unique (disambiguation)",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/unique.html",
+    "aliases": [],
+    "description": "The word ``unique`` appears in several distinct PHP concepts.\n\n+ ``array_unique()``: a built-in PHP function that removes duplicate values from an array, returning only the first occurrence of each value. Comparison is by string representation by default, configurable via sort flags.\n+ Unique identifier: a value that distinguishes one entity from all others within a given scope. Covers auto-increment integers, ``UUID``, ``ULID``, Sqids, and slugs.\n+ Uniqueness constraint, SQL: a database constraint that prevents duplicate values in a column or combination of columns. Related to indexing strategy and race conditions on insert.\n+ Deduplication: the broader process of detecting and discarding duplicate occurrences of an operation, message, or record, commonly applied in queues, webhooks, and distributed systems.",
+    "code": "",
+    "documentation": "https://en.wikipedia.org/wiki/Unique_key",
+    "related": [
+        "array_unique",
+        "unique-identifier",
+        "deduplication",
+        "index-sql",
+        "uuid",
+        "ulid",
+        "sqids",
+        "duplicate"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Unique_key"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "array_unique()",
+            "url": "https://www.php.net/manual/en/function.array-unique.php"
+        }
+    ],
+    "tags": [
+        "disambiguation"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Mon, 31 Aug 2026 17:42:30 +0000"
+}

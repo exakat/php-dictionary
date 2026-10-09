@@ -1,0 +1,50 @@
+{
+    "id": "backward-incompatible",
+    "name": "Backward Incompatible",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/backward-incompatible.html",
+    "aliases": [],
+    "description": "A feature is backward incompatible when it cannot work with a previous version, and requires a specific version, or more recent.\n\nFor example, the function ``str_contains`` is backward incompatible, as it was introduced in version 8.0, and is not available in previous versions.\n\nThe keyword ``throw`` can be used within expressions since PHP 8.0. In older versions, ``throw`` was available, but needed to be an instruction on its own.\n\nThe contrary of a backward incompatible feature is forward compatible.",
+    "code": "<?php\n\n    check() or throw new Exception('Check failed!');\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Backward_compatibility",
+    "related": [
+        "forward-compatible",
+        "backward-compatible",
+        "legacy"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Backward_compatibility"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP Breaks Backwards Compatibility",
+            "url": "https://thephp.cc/articles/php-breaks-backwards-compatibility"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP: Backward incompatible changes",
+            "url": "https://www.php.net/manual/en/migration70.incompatible.php"
+        }
+    ],
+    "tags": [
+        "compatibility"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "8.0",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Thu, 20 Aug 2026 07:35:12 +0000"
+}

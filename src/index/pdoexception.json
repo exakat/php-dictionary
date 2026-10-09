@@ -1,0 +1,46 @@
+{
+    "id": "pdoexception",
+    "name": "PDOException",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/pdoexception.html",
+    "aliases": [],
+    "description": "``PDOException`` represents an error raised by PDO. It is recommended to never throw a ``PDOException`` from custom code, and only catch such exception, emitted directly by the PHP engine.",
+    "code": "<?php\n\n    try {\n      $pdo = new PDO('sqlite:myfile.sqlite');\n    } catch(PDOException $e) {\n        die('Unable to open database connection');\n    } \n\n?>",
+    "documentation": "https://www.php.net/manual/en/class.pdoexception.php",
+    "related": [
+        "exception"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/class.pdoexception.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "How to Handle PDOException in PHP | Rollbar",
+            "url": "https://rollbar.com/blog/php-pdoexception/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "How to Handle Errors in PHP PDO with Examples",
+            "url": "https://www.plus2net.com/php_tutorial/pdo-error.php"
+        }
+    ],
+    "tags": [
+        "exception"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Fri, 21 Aug 2026 07:18:14 +0000"
+}

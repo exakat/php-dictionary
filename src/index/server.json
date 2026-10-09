@@ -1,0 +1,57 @@
+{
+    "id": "server",
+    "name": "Server",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/server.html",
+    "aliases": [],
+    "description": "A server is a piece of computer hardware or software that provides functionality for other programs or devices, called clients. \n\nServers can serve data to other computers over a network, either locally or across a network or the internet. \n\nThey are designed to handle requests, process them, and deliver responses.\n\nPHP can act both as a client and server, depending on the situation.",
+    "code": "",
+    "documentation": "https://en.wikipedia.org/wiki/Server_(computing)",
+    "related": [
+        "sql-database",
+        "webserver",
+        "client",
+        "query",
+        "response",
+        "attack",
+        "shard",
+        "socket",
+        "connection",
+        "hosting",
+        "lamp",
+        "ldap",
+        "lemp",
+        "ssh"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Server_(computing)"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "What Is the Client-Server Model? Definition & How It Works",
+            "url": "https://jumpcloud.com/it-index/what-is-the-client-server-model"
+        }
+    ],
+    "tags": [
+        "server",
+        "hosting"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Tue, 01 Sep 2026 06:21:35 +0000"
+}

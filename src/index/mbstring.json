@@ -1,0 +1,52 @@
+{
+    "id": "mbstring",
+    "name": "Multibyte String",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/mbstring.html",
+    "aliases": [
+        "multibyte-string"
+    ],
+    "description": "``mbstring`` is the PHP extension dedicated to processing multibyte character strings, that is, text encoded in character sets where a single character can occupy more than one byte, such as UTF-8, UTF-16, EUC-JP, Shift-JIS, or Big5. Native PHP string functions like strlen, substr, or strtoupper operate byte by byte and were designed for single-byte encodings such as ASCII or Latin-1; applied blindly to multibyte text, they routinely miscount character lengths, cut a multibyte character in half, or fail to case-convert characters outside the ASCII range. mbstring provides a parallel set of functions, all prefixed with mb_, such as mb_strlen, mb_substr, mb_strtoupper, and mb_convert_case, that are character-aware and behave correctly regardless of the encoding in use. Beyond string manipulation, the extension also performs encoding detection and conversion between character sets through mb_convert_encoding and mb_detect_encoding, integrates with regular expressions through a multibyte-safe regex engine, and can override PHP's built-in string functions transparently via configuration so that legacy code becomes multibyte-safe without modification. It is essential for internationalized applications handling Asian languages, emoji, or any text outside the ASCII range, and is bundled with most PHP distributions though it must still be enabled explicitly.",
+    "code": "<?php\n\n    /* Convert EUC-JP to UTF-7 */\n    $str = mb_convert_encoding($str, \"UTF-7\", \"EUC-JP\");\n\n?>",
+    "documentation": "https://www.php.net/manual/en/book.mbstring.php",
+    "related": [
+        "iconv",
+        "encoding",
+        "encoding-text",
+        "strtolower",
+        "strtoupper",
+        "mb_substr",
+        "normalisation",
+        "str_split",
+        "strlen"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/book.mbstring.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Understanding mb_substr() in PHP: A Guide to Multibyte String Substrings",
+            "url": "https://medium.com/@dabersamir/understanding-mb-substr-in-php-a-guide-to-multibyte-string-substrings-abd1613666c1"
+        }
+    ],
+    "tags": [
+        "extension",
+        "string"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Fri, 25 Sep 2026 21:30:05 +0000"
+}

@@ -1,0 +1,58 @@
+{
+    "id": "monolith",
+    "name": "Monolith",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/monolith.html",
+    "aliases": [
+        "monolithic",
+        "monolithic-architecture",
+        "monolithic-application"
+    ],
+    "description": "A monolith, or monolithic architecture, refers to an application that is built and deployed as one single, tightly integrated codebase.\n\nThe monolith concept is not specific to PHP: it applies to other programming languages.\n\nIn a monolithic application, all concerns live in one project, be it routing, controller, business logic, database, views, logging, authentication, etc. Everything is deployed together, and a change in one part usually requires the deployment of the whole monolith.\n\nThe opposite of a monolith is micro-services. \n\nMonoliths are often preferred unless scale or team size truly demands microservices.",
+    "code": "",
+    "documentation": "https://en.wikipedia.org/wiki/Monolithic_application",
+    "related": [
+        "microservice",
+        "application"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Monolithic_application"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP Monolith to Microservices: When to Split Web Applications",
+            "url": "https://www.zend.com/blog/php-monolith-to-microservices"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Microservices vs. Monolith: A PHP Developer\u2019s Guide to Architecture Decisions in 2025",
+            "url": "https://www.fuseweb.nl/en/blog/2025/02/03/microservices-vs-monolith-php-architecture-guide-2025"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Migrating a PHP monolith in production: how I think about it",
+            "url": "https://dev.to/silvafilipe/migrating-a-php-monolith-in-production-how-i-think-about-it-26k7"
+        }
+    ],
+    "tags": [
+        "architecture"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Tue, 01 Sep 2026 11:40:52 +0000"
+}

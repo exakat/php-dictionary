@@ -1,0 +1,48 @@
+{
+    "id": "arm",
+    "name": "Arm",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/arm.html",
+    "aliases": [],
+    "description": "An arm is a branch in a ``match()`` expression. There is the ``default`` arm, and the other ``arms``. The arm includes the case, on the left, and the payload, on the right.",
+    "code": "<?php\n\n    // a match with 2 arm, including the default\n    $a = match($b) {\n        1 => 2,\n        default => 3,\n    };\n\n?>",
+    "documentation": "https://www.php.net/manual/en/control-structures.match.php",
+    "related": [
+        "if-then",
+        "branch",
+        "match"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/control-structures.match.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP match expression - flow control in PHP with match",
+            "url": "https://zetcode.com/php/match-expression/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Match expression",
+            "url": "https://php.watch/versions/8.0/match-expression"
+        }
+    ],
+    "tags": [
+        "concept"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Mon, 24 Aug 2026 08:32:34 +0000"
+}

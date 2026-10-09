@@ -1,0 +1,44 @@
+{
+    "id": "microtime",
+    "name": "microtime()",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/microtime.html",
+    "aliases": [],
+    "description": "``microtime()`` is a native PHP function, which returns the current timestamp, including microseconds. This is a very precise measure of time.\n\n``microtime()`` is often used for speed measurements, and it may be easily replaced by ``hrtime()`` for that purpose, since PHP 7.3.",
+    "code": "<?php\n\n    $time_start = microtime(true);\n    \n    // Sleep some time\n    usleep(100);\n    \n    $time_end = microtime(true);\n    $time = $time_end - $time_start;\n    \n    echo \"Slept for $time seconds\\n\";\n\n?>",
+    "documentation": "https://www.php.net/manual/fr/function.microtime.php",
+    "related": [
+        "hrtime",
+        "micro-second"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/fr/function.microtime.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "hrtime",
+            "url": "https://www.php.net/manual/fr/function.hrtime.php"
+        }
+    ],
+    "tags": [
+        "micro",
+        "native function",
+        "date"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Tue, 25 Aug 2026 19:12:45 +0000"
+}

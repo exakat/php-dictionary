@@ -1,0 +1,50 @@
+{
+    "id": "declare-encoding",
+    "name": "declare Encoding",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/declare-encoding.html",
+    "aliases": [],
+    "description": "``declare()`` with the ``encoding`` keyword specifies the encoding of the file that holds PHP script. This applies to the current file only. It affects both syntax, that PHP processes, and the literal values, which are ultimately displayed.",
+    "code": "<?php\n\n    declare(encoding='UTF-8');\n\n?>",
+    "documentation": "https://www.php.net/manual/en/control-structures.declare.php",
+    "related": [
+        "declare",
+        "encoding"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/control-structures.declare.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP declare Statement",
+            "url": "https://www.tutorialspoint.com/php-declare-statement"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Using declare",
+            "url": "https://www.informit.com/articles/article.aspx?p=2738464&seqNum=18"
+        }
+    ],
+    "tags": [
+        "declare",
+        "portability"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [
+        "Php/DeclareEncoding"
+    ],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Tue, 25 Aug 2026 19:12:45 +0000"
+}

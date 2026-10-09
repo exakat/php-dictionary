@@ -1,0 +1,46 @@
+{
+    "id": "fann",
+    "name": "Fast Artificial Neural Network (FANN)",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/fann.html",
+    "aliases": [],
+    "description": "``FANN``, for Fast Artificial Neural Network, is a PIE extension that wraps the FANN C library, a lightweight library for creating, training, and running multilayer feedforward artificial neural networks.\n\nThe extension exposes functions to build a network with a chosen number of layers and neurons, train it against a data set using algorithms such as backpropagation, and then run inference on new inputs. Networks can be saved to and loaded from disk, so a model can be trained once and reused across requests without retraining.\n\nFANN predates the current generation of PHP machine-learning libraries, and its API is comparatively low-level: it does not provide dataset preprocessing, model selection, or GPU acceleration. It remains useful for small, fast, embeddable networks where pulling in a heavier stack such as TensorFlow via a bridge is unnecessary.",
+    "code": "<?php\n\n    // Create a network: 2 inputs, one hidden layer of 3 neurons, 1 output.\n    $ann = fann_create_standard(3, 2, 3, 1);\n\n    fann_set_activation_function_hidden($ann, FANN_SIGMOID_SYMMETRIC);\n    fann_set_activation_function_output($ann, FANN_SIGMOID_SYMMETRIC);\n\n    // Train on a data file of input/output pairs (FANN training file format).\n    fann_train_on_file($ann, 'xor.data', 5000, 500, 0.0001);\n\n    $output = fann_run($ann, [1, -1]);\n    print_r($output);\n\n    fann_destroy($ann);\n\n?>",
+    "documentation": "https://www.php.net/manual/en/book.fann.php",
+    "related": [
+        "machine-learning",
+        "algorithm",
+        "gmp"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/book.fann.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "FANN library",
+            "url": "https://leenissen.dk/fann/wp/"
+        }
+    ],
+    "tags": [
+        "extension",
+        "acronym"
+    ],
+    "packagist": [],
+    "extensions": [
+        "fann"
+    ],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Tue, 14 Jul 2026 05:36:20 +0000"
+}

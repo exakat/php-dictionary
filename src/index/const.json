@@ -1,0 +1,59 @@
+{
+    "id": "const",
+    "name": "Const",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/const.html",
+    "aliases": [],
+    "description": "``const`` is a PHP keyword, that creates constant definitions. \n\n``const`` is allowed inside classes, interfaces, enumerations and traits, to create static constants. ``const`` is also allowed in the global scope, to create global constants. \n\n``const`` is only allowed in the body of a classes, interfaces, enumerations and traits, and the first level of a main file. It is not possible to create conditioned constants with a if-then structure and const: this requires an include.",
+    "code": "<?php if ($a == 5): ?>\nA is equal to 5\n<?php endif; ?>",
+    "documentation": "https://www.php.net/manual/en/control-structures.alternative-syntax.php",
+    "related": [
+        "class",
+        "trait",
+        "define",
+        "defined",
+        "conditioned",
+        "class-constant",
+        "include",
+        "conditional",
+        "execution-time",
+        "compile-time-evaluation",
+        "lvalue",
+        "macro",
+        "template-metaprogramming"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/control-structures.alternative-syntax.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP: Class Constants",
+            "url": "https://www.php.net/manual/en/language.oop5.constants.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "define",
+            "url": "https://www.php.net/manual/en/function.define.php"
+        }
+    ],
+    "tags": [
+        "keyword",
+        "constant"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Tue, 01 Sep 2026 05:31:03 +0000"
+}

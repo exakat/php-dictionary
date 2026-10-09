@@ -1,0 +1,62 @@
+{
+    "id": "seo",
+    "name": "Search Engine Optimization (SEO)",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/seo.html",
+    "aliases": [
+        "search-engine-optimization"
+    ],
+    "description": "Search Engine Optimization, or SEO, is the practice of improving a website so that search engines rank it higher in search results. From a PHP developer's perspective, SEO involves both the content served and the technical implementation.\n\nKey technical SEO factors influenced by PHP code include:\n\n+ Generating clean, semantic HTML\n+ Managing canonical URLs and redirects, HTTP codes 301/302\n+ Serving proper HTTP status codes, HTTP codes 404, 410, etc.\n+ Controlling caching headers for fast page loads\n+ Generating XML sitemaps and robots.txt dynamically\n+ Handling ``<meta>`` tags, Open Graph, and structured data, like JSON-LD\n+ Producing human-readable, keyword-rich URLs, or slugs\n\nPHP-based CMSs and frameworks such as WordPress, Drupal, Symfony, and Laravel all have dedicated SEO plugins or packages.\n\nCommon pitfalls include duplicate content, when missing canonical tags, slow response times, broken links, and incorrect use of HTTP status codes.",
+    "code": "<?php\n\n    // Canonical URL header\n    header('Link: <https://example.com/page>; rel=\"canonical\"');\n\n    // Permanent redirect\n    header('Location: https://example.com/new-url', true, 301);\n    exit;\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Search_engine_optimization",
+    "related": [
+        "web",
+        "html",
+        "webserver",
+        "http-headers",
+        "sitemap",
+        "url",
+        "redirect",
+        "slug",
+        "cache",
+        "canonical"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Search_engine_optimization"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Google Search Central \u2014 SEO documentation",
+            "url": "https://developers.google.com/search/docs"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "SEO for developers",
+            "url": "https://web.dev/learn/"
+        }
+    ],
+    "tags": [
+        "acronym",
+        "web",
+        "network",
+        "performance"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Mon, 15 Jun 2026 11:03:59 +0000"
+}

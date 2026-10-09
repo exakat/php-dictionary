@@ -1,0 +1,53 @@
+{
+    "id": "ssh2",
+    "name": "SSH2",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/ssh2.html",
+    "aliases": [],
+    "description": "``ssh2`` is a PIE extension, built on ``libssh2``, that provides functions to open SSH connections from PHP and use them to execute remote commands, transfer files over ``SFTP`` or ``SCP``, forward ports, and manage host authentication.\n\nA connection is opened with ``ssh2_connect()``, then authenticated with one of several methods: password, public key, or keyboard-interactive, via ``ssh2_auth_password()`` or ``ssh2_auth_pubkey_file()``. Once authenticated, the extension exposes a stream for running remote shell commands with ``ssh2_exec()``, and separate stream wrappers for SFTP file operations through ``ssh2_sftp()``.\n\nThe extension has historically had inconsistent packaging across distributions and PHP versions, which pushed many projects toward the pure-PHP ``phpseclib`` library instead, since it requires no compiled extension and works identically across environments.",
+    "code": "<?php\n\n    $connection = ssh2_connect('example.com', 22);\n    ssh2_auth_pubkey_file(\n        $connection,\n        'user',\n        '/home/user/.ssh/id_rsa.pub',\n        '/home/user/.ssh/id_rsa'\n    );\n\n    $stream = ssh2_exec($connection, 'uptime');\n    stream_set_blocking($stream, true);\n    echo stream_get_contents($stream);\n\n    $sftp = ssh2_sftp($connection);\n    $remote = fopen('ssh2.sftp://' . $sftp . '/remote/path/file.txt', 'r');\n\n?>",
+    "documentation": "https://www.php.net/manual/en/book.ssh2.php",
+    "related": [
+        "ftp",
+        "socket",
+        "openssl"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/book.ssh2.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "phpseclib, a pure-PHP alternative",
+            "url": "https://phpseclib.com/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "libssh2",
+            "url": "https://libssh2.org/"
+        }
+    ],
+    "tags": [
+        "extension",
+        "acronym"
+    ],
+    "packagist": [
+        "phpseclib/phpseclib"
+    ],
+    "extensions": [
+        "ssh2"
+    ],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Fri, 28 Aug 2026 10:31:03 +0000"
+}

@@ -1,0 +1,46 @@
+{
+    "id": "jsonc",
+    "name": "JSON Lines (JSONC)",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/jsonc.html",
+    "aliases": [],
+    "description": "JSONC, aka SON with Comments, is a superset of JSON that extends its functionality by allowing single-line ``//`` and multi-line ``/* */`` comments.\n \nThis feature is commonly used in configuration files to improve readability, enabling developers to annotate data directly within the JSON structure.\n \nUnlike standard JSON, which does not support comments, JSONC retains full compatibility with valid JSON. However, the reverse is not true: not all JSONC files are valid JSON.",
+    "code": "<?php\n\n    $JSONL = <<<JSONL\n{a:1}\n{b:2}\nJSONL;\n\nforeach(explode(\\n, $JSONL) as $line) {\n    print_r(json_decode($line));\n}\n\n/**\nstdClass Object\n(\n    [a] => 1\n)\nstdClass Object\n(\n    [b] => 2\n)\n*/\n\n?>",
+    "documentation": "https://github.com/aleron75/jsonc",
+    "related": [
+        "json_decode",
+        "jsonl",
+        "json",
+        "json_encode",
+        "parquet"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://github.com/aleron75/jsonc"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "JSONC homepage",
+            "url": "https://jsonc.org/"
+        }
+    ],
+    "tags": [
+        "acronym",
+        "format"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Sat, 08 Aug 2026 08:10:54 +0000"
+}
