@@ -1,0 +1,63 @@
+{
+    "id": "mocking",
+    "name": "Mocking",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/mocking.html",
+    "aliases": [
+        "mocks"
+    ],
+    "description": "Mocking is the practice of replacing a dependency with a controlled object during a test. The code under test calls the mock as if it were the real dependency, and the test decides what it returns and checks how it was called.\n\nMocking is useful when the real dependency is slow, unavailable, or hard to put in a specific state: a remote API, a payment gateway, a clock, or a rare error condition.\n\nMocks have a cost. They must imitate the behaviour of the real dependency, so any change to that dependency has to be reflected in the mock. Tests that mock too much end up checking the mock rather than the code.\n\nMocking is done by hand, with an anonymous class, or with a library such as PHPUnit's mock builder, Mockery or Prophecy.",
+    "code": "",
+    "documentation": "https://martinfowler.com/articles/mocksArentStubs.html",
+    "related": [
+        "mock",
+        "test-double",
+        "spy",
+        "fixture",
+        "third-party-api"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://martinfowler.com/articles/mocksArentStubs.html"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Mocking",
+            "url": "https://laravel.com/docs/13.x/mocking"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Test doubles (PHPUnit)",
+            "url": "https://docs.phpunit.de/en/13.1/test-doubles.html#test-doubles"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Avoid mocking repositories by using in-memory implementations",
+            "url": "https://danielrotter.at/2023/09/22/avoid-mocking-repositories-by-using-in-memory-implementations.html"
+        }
+    ],
+    "tags": [
+        "test",
+        "best practice"
+    ],
+    "packagist": [
+        "mockery/mockery",
+        "phpspec/prophecy"
+    ],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Wed, 14 Oct 2026 16:55:56 +0000"
+}

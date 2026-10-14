@@ -1,0 +1,56 @@
+{
+    "id": "authorization-header",
+    "name": "Authorization Header",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/authorization-header.html",
+    "aliases": [
+        "Authorization"
+    ],
+    "description": "The Authorization header carries the credentials that a client sends to a server to authenticate a request. It has the form of a scheme name followed by the credentials:\n\n``Authorization: Bearer <token>``\n\n``Authorization: Basic <base64 of user:password>``\n\nA server that needs authentication answers with 401 Unauthorized and a ``WWW-Authenticate`` header. The Authorization header is never part of the response, and it should only be sent over HTTPS, because otherwise the credentials can be read by anyone on the network.\n\nPHP reads the header from the request with ``$_SERVER['HTTP_AUTHORIZATION']``, and sent on outgoing requests by the HTTP client.",
+    "code": "",
+    "documentation": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Authorization",
+    "related": [
+        "bearer-token",
+        "http-header",
+        "headers",
+        "https",
+        "http-code"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Authorization"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "RFC 9110: Authorization",
+            "url": "https://datatracker.ietf.org/doc/html/rfc9110#section-11.6.2"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "MDN: Authorization",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Authorization"
+        }
+    ],
+    "tags": [
+        "security",
+        "header",
+        "http"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Wed, 14 Oct 2026 16:56:34 +0000"
+}

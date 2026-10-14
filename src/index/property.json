@@ -41,7 +41,11 @@
         "computed-property",
         "data-hiding",
         "modifier",
-        "mutable-state"
+        "mutable-state",
+        "constructor-property-promotion",
+        "nullsafe-object-operator",
+        "object-operator",
+        "short-assignation"
     ],
     "citations": [
         {
@@ -74,5 +78,5 @@
     "author": "",
     "brand": "",
     "popularity": "",
-    "modified": "Thu, 17 Sep 2026 07:38:40 +0000"
+    "modified": "Wed, 14 Oct 2026 16:39:28 +0000"
 }

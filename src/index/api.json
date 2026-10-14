@@ -21,7 +21,11 @@
         "mcp",
         "oauth",
         "pwa",
-        "search-engine"
+        "search-engine",
+        "bearer-token",
+        "open-data",
+        "service-mesh",
+        "third-party-api"
     ],
     "citations": [
         {
@@ -59,5 +63,5 @@
     "author": "",
     "brand": "",
     "popularity": "",
-    "modified": "Tue, 01 Sep 2026 05:31:03 +0000"
+    "modified": "Wed, 14 Oct 2026 16:39:28 +0000"
 }

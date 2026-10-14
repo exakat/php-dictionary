@@ -3,7 +3,7 @@
     "name": "SQL Database",
     "url": "https://php-dictionary.readthedocs.io/en/latest/index/sql-database.html",
     "aliases": [],
-    "description": "A SQL database is a database server that processes data based on the SQL language.\n\nPHP is able to connect to many databases, including SQLite3, MySQL, MariaDB, PostgreSQL, Oracle, MSSQL, etc.",
+    "description": "A SQL database is a database server that processes data based on the SQL language.\n\nPHP is able to connect to many databases, including ``SQLite3``, ``MySQL``, ``MariaDB``, ``PostgreSQL``, ``Oracle``, ``MSSQL``, etc.",
     "code": "",
     "documentation": "https://en.wikipedia.org/wiki/SQL",
     "related": [
@@ -48,5 +48,5 @@
     "author": "",
     "brand": "",
     "popularity": "",
-    "modified": "Fri, 11 Sep 2026 09:41:55 +0000"
+    "modified": "Wed, 14 Oct 2026 17:34:09 +0000"
 }

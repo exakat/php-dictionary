@@ -3,7 +3,7 @@
     "name": "JavaScript Object Notation (JSON)",
     "url": "https://php-dictionary.readthedocs.io/en/latest/index/json.html",
     "aliases": [],
-    "description": "JSON, or JavaScript Object Notation, is a lightweight data-interchange format. It is easy for humans to read and write. It is easy for machines to parse and generate. It is based on a subset of the JavaScript Programming Language Standard ECMA-262 3rd Edition - December 1999.",
+    "description": "``JSON``, or JavaScript Object Notation, is a lightweight data-interchange format. It is easy for humans to read and write. It is easy for machines to parse and generate. It is based on a subset of the JavaScript Programming Language Standard ECMA-262 3rd Edition - December 1999.",
     "code": "<?php\n\n    $array = ['a' => 1, 'b' => \"c\", 'c' => [3, 4], 'd' => new stdclass()];\n    \n    echo json_encode($arr);\n    // displays {\\a\\:1,\\b\\:\\c\\,\\c\\:[3,4],\\d\\:{}}\n\n?>",
     "documentation": "https://www.php.net/json",
     "related": [
@@ -33,7 +33,11 @@
         "mongodb",
         "payload",
         "protobuf",
-        "json-ld"
+        "json-ld",
+        "composer.json",
+        "content-type-header",
+        "interoperability",
+        "malformed-response-body"
     ],
     "citations": [
         {
@@ -78,5 +82,5 @@
     "author": "",
     "brand": "",
     "popularity": "",
-    "modified": "Wed, 02 Sep 2026 15:09:13 +0000"
+    "modified": "Wed, 14 Oct 2026 17:40:30 +0000"
 }

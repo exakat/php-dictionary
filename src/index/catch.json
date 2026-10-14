@@ -5,7 +5,7 @@
     "aliases": [],
     "description": "``catch`` is the complement clause of try. It defines which exception is caught. Optionally, it defines which variable holds the exception when it happens, since PHP 8.0.\n\nMultiple catches may be used. They are applied in the order of writing, and the first clause which succeed is the last. \n\nIt is possible to catch multiple exceptions at the same time: in that case, the second exception is chained.",
     "code": "<?php\n\n    try {\n        callSomeMethod();\n    } catch (\\SomeException $e) {\n        display(\"Warning\");\n    } catch (\\SomeSeriousException $e) {\n        display(\"Alert\");\n    } catch (\\Exception) {\n        // process the error here\n    }\n\n?>",
-    "documentation": "https://www.php.net/manual/en/language.exceptions.php",
+    "documentation": "https://www.php.net/manual/en/language.exception.php",
     "related": [
         "try-catch",
         "finally",
@@ -17,7 +17,7 @@
         {
             "@type": "CreativeWork",
             "name": "Documentation",
-            "url": "https://www.php.net/manual/en/language.exceptions.php"
+            "url": "https://www.php.net/manual/en/language.exception.php"
         },
         {
             "@type": "CreativeWork",
@@ -42,5 +42,5 @@
     "author": "",
     "brand": "",
     "popularity": "",
-    "modified": "Fri, 11 Sep 2026 13:41:44 +0000"
+    "modified": "Wed, 14 Oct 2026 17:58:07 +0000"
 }

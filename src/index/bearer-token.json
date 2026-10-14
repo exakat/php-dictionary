@@ -1,0 +1,57 @@
+{
+    "id": "bearer-token",
+    "name": "Bearer Token",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/bearer-token.html",
+    "aliases": [
+        "bearer"
+    ],
+    "description": "A bearer token is an access credential sent with an HTTP request to prove the caller's identity. Whoever holds the token is granted access, so it must be treated as a secret.\n\nThe token is sent in the ``Authorization`` header, with the scheme name ``Bearer`` followed by the token:\n\n``Authorization: Bearer <token>``\n\nBearer tokens are defined by RFC 6750, and are commonly used with OAuth 2.0 and API keys. They must only be sent over HTTPS, must not be logged, and should be stored in environment variables or a secret store rather than in the code.",
+    "code": "<?php\n\n    $headers = ['Authorization' => 'Bearer ' . $token];\n",
+    "documentation": "https://datatracker.ietf.org/doc/html/rfc6750",
+    "related": [
+        "authorization-header",
+        "http-header",
+        "oauth",
+        "https",
+        "api",
+        "third-party-api"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://datatracker.ietf.org/doc/html/rfc6750"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "RFC 6750: The OAuth 2.0 Authorization Framework: Bearer Token Usage",
+            "url": "https://datatracker.ietf.org/doc/html/rfc6750"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "MDN: Authorization",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Authorization"
+        }
+    ],
+    "tags": [
+        "security",
+        "http",
+        "authentication"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Wed, 14 Oct 2026 16:37:45 +0000"
+}

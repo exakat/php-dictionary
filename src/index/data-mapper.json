@@ -24,11 +24,6 @@
             "@type": "CreativeWork",
             "name": "Data Mapper",
             "url": "https://designpatternsphp.readthedocs.io/en/latest/Structural/DataMapper/README.html"
-        },
-        {
-            "@type": "CreativeWork",
-            "name": "How to write a Data Mapper with PHP",
-            "url": "https://blog.emre.xyz/posts/how-to-write-a-data-mapper-with-php/"
         }
     ],
     "tags": [
@@ -50,5 +45,5 @@
         "Cycle ORM": "https://github.com/cycle/orm"
     },
     "popularity": "",
-    "modified": "Fri, 18 Sep 2026 04:45:41 +0000"
+    "modified": "Wed, 14 Oct 2026 18:03:07 +0000"
 }

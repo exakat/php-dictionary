@@ -28,8 +28,8 @@
         },
         {
             "@type": "CreativeWork",
-            "name": "PHP.INI settings Disable exec, shell_exec, system, popen and Other Functions To Improve Security",
-            "url": "https://www.cyberciti.biz/faq/linux-unix-apache-lighttpd-php-disable-exec-shell-exec-system-popen/"
+            "name": "How to enable/disable PHP native functions \u2013 php.ini",
+            "url": "https://inspector.dev/how-to-enable-disable-php-native-functions-php-ini-tutorial/"
         }
     ],
     "tags": [
@@ -53,5 +53,5 @@
     "author": "",
     "brand": "",
     "popularity": "",
-    "modified": "Fri, 09 Oct 2026 16:53:29 +0000"
+    "modified": "Wed, 14 Oct 2026 18:04:41 +0000"
 }

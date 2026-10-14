@@ -3,7 +3,7 @@
     "name": "Serverless",
     "url": "https://php-dictionary.readthedocs.io/en/latest/index/serverless.html",
     "aliases": [],
-    "description": "Serverless computing is an execution model where a cloud provider allocates compute resources on demand, scaling to zero when idle. Developers deploy functions or entire applications without managing servers.\n\nPHP runs serverlessly via AWS Lambda with Bref, Google Cloud Functions, Azure Functions, or Vercel. The ``bref`` package is the most common bridge, wrapping PHP applications for Lambda execution.",
+    "description": "Serverless computing is an execution model where a cloud provider allocates compute resources on demand, scaling to zero when idle. Developers deploy functions or entire applications without managing servers.\n\nPHP runs serverlessly via AWS Lambda with ``Bref``, ``Google Cloud Functions``, ``Azure Functions``, or ``Vercel``. The ``bref`` package is the most common bridge, wrapping PHP applications for Lambda execution.",
     "code": "",
     "documentation": "https://en.wikipedia.org/wiki/Serverless_computing",
     "related": [
@@ -54,5 +54,5 @@
         "Bref": "https://bref.sh"
     },
     "popularity": "",
-    "modified": "Fri, 18 Sep 2026 05:00:12 +0000"
+    "modified": "Wed, 14 Oct 2026 17:36:42 +0000"
 }

@@ -6,7 +6,7 @@
         "full-text-search",
         "search-index"
     ],
-    "description": "A search engine is a system that indexes and retrieves data based on queries. In applications, a search engine typically refers to a dedicated search service or library that provides full-text search capabilities beyond what a relational database can offer natively.\n\nPopular search engines used with PHP projects include Elasticsearch, OpenSearch, Meilisearch, Typesense, and Apache Solr. They offer features such as full-text indexing, relevance ranking, faceted search, autocomplete, and typo tolerance.\n\nSearch engines usually operate as external services communicating via HTTP APIs. PHP libraries are used as clients to index documents and execute queries against the engine.",
+    "description": "A search engine is a system that indexes and retrieves data based on queries. In applications, a search engine typically refers to a dedicated search service or library that provides full-text search capabilities beyond what a relational database can offer natively.\n\nPopular search engines used with PHP projects include ``Elasticsearch``, ``OpenSearch``, ``Meilisearch``, ``Typesense``, and ``Apache Solr``. They offer features such as full-text indexing, relevance ranking, faceted search, autocomplete, and typo tolerance.\n\nSearch engines usually operate as external services communicating via HTTP APIs. PHP libraries are used as clients to index documents and execute queries against the engine.",
     "code": "<?php\n\n    // Indexing a document with Elasticsearch PHP client\n    use Elastic\\Elasticsearch\\ClientBuilder;\n    \n    $client = ClientBuilder::create()\n        ->setHosts(['localhost:9200'])\n        ->build();\n    \n    $client->index([\n        'index' => 'products',\n        'id'    => 42,\n        'body'  => [\n            'title'       => 'Widget Pro',\n            'description' => 'A high-quality widget for professionals.',\n            'price'       => 29.99,\n        ],\n    ]);\n    \n    // Searching documents\n    $response = $client->search([\n        'index' => 'products',\n        'body'  => [\n            'query' => [\n                'match' => ['description' => 'widget'],\n            ],\n        ],\n    ]);\n    \n    foreach ($response['hits']['hits'] as $hit) {\n        echo $hit['_source']['title'] . PHP_EOL;\n    }\n\n?>",
     "documentation": "https://www.elastic.co/guide/en/elasticsearch/client/php-api/current/index.html",
     "related": [
@@ -56,5 +56,5 @@
     "author": "",
     "brand": "",
     "popularity": "",
-    "modified": "Fri, 10 Jul 2026 09:21:48 +0000"
+    "modified": "Wed, 14 Oct 2026 17:37:51 +0000"
 }

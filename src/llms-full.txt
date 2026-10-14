@@ -2498,7 +2498,7 @@ The motivation behind this proposal is to simplify exception handling code, espe
 
 Related: Catch, Exception, Try-catch, Finally, Anonymous
 
-Documentation: https://www.php.net/manual/en/language.exceptions.php
+Documentation: https://www.php.net/manual/en/language.exception.php
 
 URL: https://php-dictionary.readthedocs.io/en/latest/index/anonymous-catch.html
 
@@ -2869,7 +2869,7 @@ if ($statusCode === 200) {
 ?>
 ```
 
-Related: REST API, GraphQL, Simple Object Access Protocol (SOAP), Remote Procedure Call (RPC), gRPC (Google Remote Procedure Call), Library, Swagger, Web Real-Time Communication (WebRTC), Wrapper Pattern, Application, Headless, Model Context Protocol (MCP), OAuth, Progressive Web App, Search Engine
+Related: REST API, GraphQL, Simple Object Access Protocol (SOAP), Remote Procedure Call (RPC), gRPC (Google Remote Procedure Call), Library, Swagger, Web Real-Time Communication (WebRTC), Wrapper Pattern, Application, Headless, Model Context Protocol (MCP), OAuth, Progressive Web App, Search Engine, Bearer Token, Open Data, Service Mesh, Third-Party API
 
 Documentation: https://en.wikipedia.org/wiki/API
 
@@ -3131,7 +3131,7 @@ print password_hash($password, PASSWORD_ARGON2ID);
 
 Related: Algorithm, Hash, Crack
 
-Documentation: https://guriasoft.com/server-side/php/argon2
+Documentation: https://www.php.net/manual/en/function.password-hash.php
 
 URL: https://php-dictionary.readthedocs.io/en/latest/index/argon2.html
 
@@ -5428,6 +5428,26 @@ URL: https://php-dictionary.readthedocs.io/en/latest/index/authentication.html
 
 ---
 
+## Authorization Header
+
+The Authorization header carries the credentials that a client sends to a server to authenticate a request. It has the form of a scheme name followed by the credentials:
+
+``Authorization: Bearer <token>``
+
+``Authorization: Basic <base64 of user:password>``
+
+A server that needs authentication answers with 401 Unauthorized and a ``WWW-Authenticate`` header. The Authorization header is never part of the response, and it should only be sent over HTTPS, because otherwise the credentials can be read by anyone on the network.
+
+PHP reads the header from the request with ``$_SERVER['HTTP_AUTHORIZATION']``, and sent on outgoing requests by the HTTP client.
+
+Related: Bearer Token, HTTP Headers, Headers, Hyper Text Transfer Protocol Secure (HTTPS), HTTP Code
+
+Documentation: https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Authorization
+
+URL: https://php-dictionary.readthedocs.io/en/latest/index/authorization-header.html
+
+---
+
 ## Authorize
 
 To authorize means to give permission or approval for someone to do something, or to officially empower them to take a certain action.
@@ -6342,6 +6362,31 @@ Related: GNU Multiple Precision (GMP), Math, Real Numbers
 Documentation: https://www.php.net/manual/en/book.bc.php
 
 URL: https://php-dictionary.readthedocs.io/en/latest/index/bcmath.html
+
+---
+
+## Bearer Token
+
+A bearer token is an access credential sent with an HTTP request to prove the caller's identity. Whoever holds the token is granted access, so it must be treated as a secret.
+
+The token is sent in the ``Authorization`` header, with the scheme name ``Bearer`` followed by the token:
+
+``Authorization: Bearer <token>``
+
+Bearer tokens are defined by RFC 6750, and are commonly used with OAuth 2.0 and API keys. They must only be sent over HTTPS, must not be logged, and should be stored in environment variables or a secret store rather than in the code.
+
+```php
+<?php
+
+    $headers = ['Authorization' => 'Bearer ' . $token];
+
+```
+
+Related: Authorization Header, HTTP Headers, OAuth, Hyper Text Transfer Protocol Secure (HTTPS), Application Programming Interface (API), Third-Party API
+
+Documentation: https://datatracker.ietf.org/doc/html/rfc6750
+
+URL: https://php-dictionary.readthedocs.io/en/latest/index/bearer-token.html
 
 ---
 
@@ -8067,6 +8112,22 @@ URL: https://php-dictionary.readthedocs.io/en/latest/index/cancellation.html
 
 ---
 
+## Canned Response
+
+A canned response is a fixed, pre-recorded answer that a test returns instead of calling the real service. For example, a test for an HTTP client can return a stored JSON body with status 200, rather than contacting the API.
+
+Canned responses make tests deterministic: the same input always produces the same output, with no network, no quota and no change over time. They are often used together with a fake HTTP client or a mock handler, and can cover success cases, error codes such as 429 or 500, and malformed bodies.
+
+Canned responses are only as good as the recording they come from. If the real API changes, the canned response goes stale, which is why contract tests exist.
+
+Related: Test Double, Mocking, Offline Test Suite, Malformed Response Body, Contract Test
+
+Documentation: https://martinfowler.com/articles/mocksArentStubs.html
+
+URL: https://php-dictionary.readthedocs.io/en/latest/index/canned-response.html
+
+---
+
 ## Canonical
 
 Canonical PHP are the PHP recommended operators and functions. This adjective is often used in its non-canonical, to highlight that the feature exists, but is not recommended.
@@ -8363,7 +8424,7 @@ It is possible to catch multiple exceptions at the same time: in that case, the 
 
 Related: Try-catch, Finally, Throwable, Exception, Anonymous Catch
 
-Documentation: https://www.php.net/manual/en/language.exceptions.php
+Documentation: https://www.php.net/manual/en/language.exception.php
 
 URL: https://php-dictionary.readthedocs.io/en/latest/index/catch.html
 
@@ -8393,7 +8454,7 @@ If a catchable fatal error is not actually caught, it behaves exactly like an or
 
 Related: Fatal Error, Error, Throwable, set_error_handler()
 
-Documentation: https://www.php.net/manual/en/language.errors.php7.php
+Documentation: https://www.php.net/manual/en/class.error.php
 
 URL: https://php-dictionary.readthedocs.io/en/latest/index/catchable-fatal-error.html
 
@@ -9748,6 +9809,27 @@ Related: Test, Coverage, Mutation Testing, Test Framework
 Documentation: https://en.wikipedia.org/wiki/Code_coverage
 
 URL: https://php-dictionary.readthedocs.io/en/latest/index/code-coverage.html
+
+---
+
+## Code Duplication
+
+Code duplication happens when the same, or nearly the same, block of code is written more than once in a project. Copy and paste is the most common cause, but it also comes from similar functions written independently.
+
+Duplicated code is harder to maintain: a bug fix or a change has to be applied to every copy, and the copies tend to drift apart over time. Duplication is one of the most common code smells.
+
+Two tools help find it:
+
++ The copy/paste detector, ``phpcpd``, is a PHP tool that scans the source for duplicated blocks and reports the files and line ranges involved. It is a good first pass to measure how much duplication a project has.
++ ``deslop`` finds, ranks and helps fix duplicated code across a codebase, worst offenders first. It gives the most important duplicates to address before the others.
+
+Duplication is not always bad. Some repetition is cheaper than a wrong abstraction, so the goal is to remove the duplication that causes real maintenance costs.
+
+Related: Don't Repeat Yourself (DRY), Duplicate, Code Smell, Write Everything Twice (WET), Refactoring
+
+Documentation: https://en.wikipedia.org/wiki/Duplicate_code
+
+URL: https://php-dictionary.readthedocs.io/en/latest/index/code-duplication.html
 
 ---
 
@@ -11802,6 +11884,36 @@ URL: https://php-dictionary.readthedocs.io/en/latest/index/constraint.html
 
 ---
 
+## Constructor Property Promotion
+
+Constructor property promotion lets a class declare its properties directly in the constructor signature. Adding a visibility modifier, such as ``public``, ``protected`` or ``private``, to a constructor parameter declares a property with that name and assigns the argument to it.
+
+Before PHP 8.0, the same class needed a property declaration, a parameter and an assignment for each value. Promotion removes the repetition:
+
+``class Client { public function __construct(private string $token, private int $timeout = 10) {} }``
+
+The promoted parameters can have default values, types and ``readonly``. Promotion works well with dependency injection, where a class receives its dependencies in the constructor.
+
+```php
+<?php
+
+    class Client {
+        public function __construct(
+            private readonly string $token,
+            private int $timeout = 10,
+        ) {}
+    }
+
+```
+
+Related: Constructor, Dependency Injection, Type Widening, Readonly, Named Constructors, Properties
+
+Documentation: https://www.php.net/manual/en/language.oop5.decon.php#language.oop5.decon.constructor.promotion
+
+URL: https://php-dictionary.readthedocs.io/en/latest/index/constructor-property-promotion.html
+
+---
+
 ## Constructor
 
 The constructor is a magic method in a class, which is called at instantiation of an object, with the provided arguments. It is called ``__construct``.
@@ -11901,6 +12013,30 @@ URL: https://php-dictionary.readthedocs.io/en/latest/index/container.html
 
 ---
 
+## Content-Type Header
+
+The Content-Type header tells the receiver the media type of the body: for example ``application/json``, ``text/html`` or ``multipart/form-data``. It is sent in both requests and responses.
+
+The receiver uses it to decode the body correctly. A server that receives a request with a missing or wrong Content-Type may reject it with 415 Unsupported Media Type, and a client that ignores the response's Content-Type may parse an HTML error page as JSON.
+
+For JSON APIs, the request must send ``Content-Type: application/json``, and the client should check the response header before decoding the body. A ``charset`` parameter can be added to text types, such as ``text/html; charset=UTF-8``.
+
+```php
+<?php
+
+    header('Content-Type: application/json; charset=utf-8');
+    echo json_encode(['status' => 'ok']);
+
+```
+
+Related: HTTP Headers, Headers, JavaScript Object Notation (JSON), HTTP Code, Malformed Response Body
+
+Documentation: https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Type
+
+URL: https://php-dictionary.readthedocs.io/en/latest/index/content-type-header.html
+
+---
+
 ## Continuation
 
 A continuation represents the rest of a program's computation at a given point, reified as a callable value. Scheme's ``call-with-current-continuation`` captures this ``rest of the program`` and hands it to the current function as an ordinary function value; invoking that captured continuation later, even from a completely different call frame, resumes execution exactly where it was captured, as many times as desired, effectively implementing arbitrary non-local control flow: early exits, generators, backtracking, or cooperative threads can all be built on top of it.
@@ -11941,6 +12077,22 @@ Related: Break, Control Flow, Do While, For, foreach(), While, Jump
 Documentation: https://www.php.net/manual/en/control-structures.continue.php
 
 URL: https://php-dictionary.readthedocs.io/en/latest/index/continue.html
+
+---
+
+## Contract Test
+
+A contract test checks that two sides of an interface agree on the messages they exchange. For an HTTP API, the consumer, aka the application, declares what it expects from the provider, aka the remote service: the endpoints, the request fields, the response fields and their types. The provider is then checked against that contract.
+
+Contract tests sit between unit tests and end-to-end tests. Unlike unit tests with a mock, they catch the case where the mock no longer matches the real service. Unlike end-to-end tests, they do not need the whole system running, and can run offline against the recorded contract.
+
+A contract test is only as good as its contract, so it must be updated when either side changes.
+
+Related: Design By Contract (DBC), Mocking, Test Double, Canned Response, Integration Test, Third-Party API
+
+Documentation: https://martinfowler.com/bliki/ContractTest.html
+
+URL: https://php-dictionary.readthedocs.io/en/latest/index/contract-test.html
 
 ---
 
@@ -18720,7 +18872,7 @@ Exceptions are thrown at the point of detection of the issue, and processed some
 
 Related: throw, Try-catch, RangeException, Anonymous Catch, BadFunctioncallException, Chaining, DomainException, Error Handling, Error, Chaining Exceptions, ImagickException, LengthException, PharException, PHP Predefined Exception, SVMException, Throwable, Traversable, Type Error, UnexpectedValueException, UnhandledMatchError, OutOfRangeException, OverflowException, set_error_handler(), ValueError, Fatal Error, PDOException, Resource Leak, Transaction, ImagickPixelException, Troubleshoot, Continuation, Defer Statement, Effect System, Result Type
 
-Documentation: https://www.php.net/manual/en/language.exceptions.php
+Documentation: https://www.php.net/manual/en/language.exception.php
 
 URL: https://php-dictionary.readthedocs.io/en/latest/index/exception.html
 
@@ -19894,7 +20046,7 @@ Fatal error is a type of PHP error, which ends the execution of the application.
 
 Related: Catchable Fatal Error, Deprecation, Error, Error Handling, Exception, Notice, Try-catch, Warning, Lint, Won't Execute, Method Compatibility
 
-Documentation: https://www.php.net/manual/en/language.errors.php7.php
+Documentation: https://www.php.net/manual/en/class.error.php
 
 URL: https://php-dictionary.readthedocs.io/en/latest/index/fatal-error.html
 
@@ -20560,7 +20712,7 @@ Finally is run every time after a try, with or without any catch clause. It is a
 
 Related: Try-catch, Catch, Exit, Resource Leak
 
-Documentation: https://www.php.net/manual/en/language.exceptions.php#language.exceptions.finally
+Documentation: https://www.php.net/manual/en/language.exception.php#language.exceptions.finally
 
 URL: https://php-dictionary.readthedocs.io/en/latest/index/finally.html
 
@@ -20787,7 +20939,7 @@ Fixtures typically populate a database, a filesystem, or an object graph with pr
 
 Good fixtures make tests deterministic and repeatable: the same input state produces the same result every time, regardless of the order in which tests run or what ran before them. Poorly managed fixtures, by contrast, are a common source of flaky tests, since hidden dependencies between tests can make outcomes depend on execution order.
 
-Related: Mock, Dataset, PHPunit
+Related: Mock, Dataset, PHPunit, Mocking, Spy, Test Double, Test Framework
 
 Documentation: https://en.wikipedia.org/wiki/Test_fixture
 
@@ -24464,7 +24616,7 @@ Here are some of the most common HTTP status codes and their general meanings:
     504 Gateway Timeout: the server, while acting as a gateway or proxy, did not receive a timely response from an upstream server.
     505 HTTP Version Not Supported: the server does not support the HTTP version used in the request.
 
-Related: Hyper Text Transfer Protocol (HTTP), Response, HTTP Request Headers, REST API, Redirect
+Related: Hyper Text Transfer Protocol (HTTP), Response, HTTP Request Headers, REST API, Redirect, Authorization Header, Content-Type Header, Malformed Response Body, Retry-After Header
 
 Documentation: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status
 
@@ -24532,7 +24684,7 @@ HTTP headers are handled by the following functions: ``headers_sent()``, ``heade
 ?>
 ```
 
-Related: Hyper Text Transfer Protocol (HTTP), Hyper Text Transfer Protocol Secure (HTTPS), PHP Handlers, Headers, HTTP Request Headers, HTTP Method, Payload, Replay, Time To Live (TTL), Webhook
+Related: Hyper Text Transfer Protocol (HTTP), Hyper Text Transfer Protocol Secure (HTTPS), PHP Handlers, Headers, HTTP Request Headers, HTTP Method, Payload, Replay, Time To Live (TTL), Webhook, Authorization Header, Bearer Token, Content Delivery Network (CDN), Content-Type Header, CRLF Injection, Content Security Policy (CSP), Retry-After Header
 
 Documentation: https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers
 
@@ -25194,7 +25346,7 @@ URL: https://php-dictionary.readthedocs.io/en/latest/index/iffectation.html
 
 Related: Try-catch, Catch
 
-Documentation: https://www.php.net/manual/en/language.exceptions.php
+Documentation: https://www.php.net/manual/en/language.exception.php
 
 URL: https://php-dictionary.readthedocs.io/en/latest/index/ignored-catch.html
 
@@ -26752,7 +26904,7 @@ The most important with integration testing is to test realistic scenarios: actu
 
 Integration testing relies on mock objects, to simulate external, autonomous or hard to generate situations.
 
-Related: Test, End To End Test, Unit Test
+Related: Test, End To End Test, Unit Test, Acceptance Test, Contract Test, Functional Test, Offline Test Suite
 
 Documentation: https://en.wikipedia.org/wiki/Integration_testing
 
@@ -27897,7 +28049,7 @@ URL: https://php-dictionary.readthedocs.io/en/latest/index/json-ld.html
 
 ## JavaScript Object Notation (JSON)
 
-JSON, or JavaScript Object Notation, is a lightweight data-interchange format. It is easy for humans to read and write. It is easy for machines to parse and generate. It is based on a subset of the JavaScript Programming Language Standard ECMA-262 3rd Edition - December 1999.
+``JSON``, or JavaScript Object Notation, is a lightweight data-interchange format. It is easy for humans to read and write. It is easy for machines to parse and generate. It is based on a subset of the JavaScript Programming Language Standard ECMA-262 3rd Edition - December 1999.
 
 ```php
 <?php
@@ -27910,7 +28062,7 @@ JSON, or JavaScript Object Notation, is a lightweight data-interchange format. I
 ?>
 ```
 
-Related: Comma Separated Values (CSV), json_decode(), JsonSerializable, Serde, JSON Lines (JSONC), JSON Lines (JSONL), YAML Ain't Markup Language (YAML), Tom's Obvious Minimal Language (TOML), Text, Format, json_encode(), JsonException, Parquet, INI, PostgreSQL, Progressive Web App, Schema, AJAX, Document Database, JSON Web Token (JWT), Template, Multidimensional Array, Comma, MongoDB, Payload, Protocol Buffers, JSON-LD
+Related: Comma Separated Values (CSV), json_decode(), JsonSerializable, Serde, JSON Lines (JSONC), JSON Lines (JSONL), YAML Ain't Markup Language (YAML), Tom's Obvious Minimal Language (TOML), Text, Format, json_encode(), JsonException, Parquet, INI, PostgreSQL, Progressive Web App, Schema, AJAX, Document Database, JSON Web Token (JWT), Template, Multidimensional Array, Comma, MongoDB, Payload, Protocol Buffers, JSON-LD, composer\.json, Content-Type Header, Interoperability, Malformed Response Body
 
 Documentation: https://www.php.net/json
 
@@ -27978,11 +28130,11 @@ URL: https://php-dictionary.readthedocs.io/en/latest/index/json_encode.html
 
 ## JSON Lines (JSONC)
 
-JSONC, aka SON with Comments, is a superset of JSON that extends its functionality by allowing single-line ``//`` and multi-line ``/* */`` comments.
+``JSONC``, aka SON with Comments, is a superset of JSON that extends its functionality by allowing single-line ``//`` and multi-line ``/* */`` comments.
  
 This feature is commonly used in configuration files to improve readability, enabling developers to annotate data directly within the JSON structure.
  
-Unlike standard JSON, which does not support comments, JSONC retains full compatibility with valid JSON. However, the reverse is not true: not all JSONC files are valid JSON.
+Unlike standard JSON, which does not support comments, ``JSONC`` retains full compatibility with valid JSON. However, the reverse is not true: not all ``JSONC`` files are valid JSON.
 
 ```php
 <?php
@@ -28048,7 +28200,7 @@ URL: https://php-dictionary.readthedocs.io/en/latest/index/jsonexception.html
 
 JSONL, JSON Lines, is a text-based format where each line is a valid, independent JSON object, separated by newline characters. 
 
-It is ideal for storing structured data, large datasets, and logging, as it allows for streaming and processing files line-by-line without loading the entire file into memory. It is also known as newline-delimited JSON, NDJSON.
+It is ideal for storing structured data, large datasets, and logging, as it allows for streaming and processing files line-by-line without loading the entire file into memory. It is also known as newline-delimited ``JSON``, ``NDJSON``.
 
 ```php
 <?php
@@ -28914,6 +29066,35 @@ Related: Resource Leak, Memory Leak, Data Leak, Path Traversal, phpinfo()
 Documentation: https://en.wikipedia.org/wiki/Memory_leak
 
 URL: https://php-dictionary.readthedocs.io/en/latest/index/leak.html
+
+---
+
+## Least Privilege Principle
+
+The principle of least privilege states that every user, process, service, or component should be granted only the minimum rights it needs to perform its task, and nothing more, for the minimum time needed.
+
+Privileges are granted by default as narrowly as possible, and extended only when a concrete need is demonstrated. A web application that only reads from a table should connect to the database with a user that has ``SELECT`` rights, not with the administrator account. A script that only writes logs should not run as root. An API token issued for one service should not be able to reach the resources of another.
+
+The principle limits the damage of a mistake or an attack: when a credential is leaked, a bug is exploited, or a dependency misbehaves, the reachable surface is small. This is the reason it is closely related to the blast radius of a failure. Least privilege is not the same as access control: access control decides who may do what, least privilege decides how much each actor is allowed to do in the first place.
+
+```php
+<?php
+
+    // Too much privilege: the application connects as the database owner
+    $pdo = new PDO('mysql:host=db;dbname=shop', 'root', $password);
+
+    // Least privilege: a dedicated user, limited to the operations it needs
+    // GRANT SELECT, INSERT ON shop.orders TO 'shop_app'@'%';
+    $pdo = new PDO('mysql:host=db;dbname=shop', 'shop_app', $password);
+
+?>
+```
+
+Related: Blast Radius, Broken Access Control, Role Based Access Control (RBAC), Access Control List (ACL), Authorize, Permission, Typosquatting, Supply Chain Attack, Multi-Factor Authentication (MFA)
+
+Documentation: https://en.wikipedia.org/wiki/Principle_of_least_privilege
+
+URL: https://php-dictionary.readthedocs.io/en/latest/index/least-privilege.html
 
 ---
 
@@ -30435,6 +30616,32 @@ Related: Continuous Integration (CI), Task Runner, Deployment, Composer, Build
 Documentation: https://en.wikipedia.org/wiki/Make_(software)
 
 URL: https://php-dictionary.readthedocs.io/en/latest/index/makefile.html
+
+---
+
+## Malformed Response Body
+
+A malformed response body is an HTTP response whose content does not match what the client expects. Examples include invalid JSON, a truncated payload, an HTML error page returned instead of JSON, or a body missing a required field.
+
+The status code can be 200 and the body still be unusable, so checking the status alone is not enough. Code that calls ``json_decode()`` must check for errors, and code that reads a field must handle its absence.
+
+Tests should cover malformed bodies, using canned responses, to check that the client raises a clear error instead of crashing or silently returning wrong data.
+
+```php
+<?php
+
+    $data = json_decode($body, true);
+    if (json_last_error() !== JSON_ERROR_NONE || !is_array($data)) {
+        throw new UnexpectedValueException('Malformed response body');
+    }
+
+```
+
+Related: JavaScript Object Notation (JSON), Canned Response, Error Handling, HTTP Code, Third-Party API
+
+Documentation: https://www.php.net/manual/en/function.json-last-error.php
+
+URL: https://php-dictionary.readthedocs.io/en/latest/index/malformed-response-body.html
 
 ---
 
@@ -32142,11 +32349,29 @@ On the other hand, mocks have to be coded to replace the dependency, and emulate
 
 Mock objects are also called ``test double``.
 
-Related: Test Data Provider, Spy, Fixture, Use Alias
+Related: Test Data Provider, Spy, Fixture, Test Double, Use Alias
 
 Documentation: https://www.radview.com/glossary/what-is-mock-testing/
 
 URL: https://php-dictionary.readthedocs.io/en/latest/index/mock.html
+
+---
+
+## Mocking
+
+Mocking is the practice of replacing a dependency with a controlled object during a test. The code under test calls the mock as if it were the real dependency, and the test decides what it returns and checks how it was called.
+
+Mocking is useful when the real dependency is slow, unavailable, or hard to put in a specific state: a remote API, a payment gateway, a clock, or a rare error condition.
+
+Mocks have a cost. They must imitate the behaviour of the real dependency, so any change to that dependency has to be reflected in the mock. Tests that mock too much end up checking the mock rather than the code.
+
+Mocking is done by hand, with an anonymous class, or with a library such as PHPUnit's mock builder, Mockery or Prophecy.
+
+Related: Mock, Test Double, Spy, Fixture, Third-Party API
+
+Documentation: https://martinfowler.com/articles/mocksArentStubs.html
+
+URL: https://php-dictionary.readthedocs.io/en/latest/index/mocking.html
 
 ---
 
@@ -35298,6 +35523,22 @@ Related: Defensive Programming, Paradigm
 Documentation: https://en.wikipedia.org/wiki/Defensive_programming
 
 URL: https://php-dictionary.readthedocs.io/en/latest/index/offensive-programming.html
+
+---
+
+## Offline Test Suite
+
+An offline test suite is a set of tests that run without network access. Every external dependency, such as an HTTP API, a database service or a message queue, is replaced by a test double or a canned response.
+
+Offline tests are fast, can run on a laptop without credentials, and do not fail because a remote service is down or rate limited. They are reproducible: the same code gives the same result every time.
+
+An offline suite does not prove that the code works with the real service. That check belongs to a separate, optional live sandbox or integration suite, and to contract tests.
+
+Related: Unit Test, Integration Test, Canned Response, Test Double, Deterministic, Sandbox
+
+Documentation: https://martinfowler.com/articles/mocksArentStubs.html
+
+URL: https://php-dictionary.readthedocs.io/en/latest/index/offline-test-suite.html
 
 ---
 
@@ -40631,7 +40872,7 @@ Properties are also called members.
 ?>
 ```
 
-Related: Visibility, static, Class, Interface, Trait, Enumeration (enum), Readonly, Attribute, Default Value, Magic Property, Dynamic Properties, Property Hook, Type System, Asymmetric Visibility, Data Container, Static Property, stdclass, Typed Property, Method, Readable, Virtual Property, Writable, get_object_vars(), Promoted Properties, Property Type Declaration, Var, Writeable, Non-static, State, Computed Property, Data Hiding, Modifier, Mutability
+Related: Visibility, static, Class, Interface, Trait, Enumeration (enum), Readonly, Attribute, Default Value, Magic Property, Dynamic Properties, Property Hook, Type System, Asymmetric Visibility, Data Container, Static Property, stdclass, Typed Property, Method, Readable, Virtual Property, Writable, get_object_vars(), Promoted Properties, Property Type Declaration, Var, Writeable, Non-static, State, Computed Property, Data Hiding, Modifier, Mutability, Constructor Property Promotion, Null Safe Object Operator, Object Operator ->, Short Assignations
 
 Documentation: https://www.php.net/manual/en/language.oop5.properties.php
 
@@ -43492,6 +43733,32 @@ URL: https://php-dictionary.readthedocs.io/en/latest/index/result-type.html
 
 ---
 
+## Retry-After Header
+
+The Retry-After header tells a client how long to wait before sending another request. It is usually sent with a 429 Too Many Requests response, when the client has hit a rate limit, and with a 503 Service Unavailable response during maintenance.
+
+The value is either a number of seconds, such as ``Retry-After: 120``, or an HTTP date, such as ``Retry-After: Wed, 21 Oct 2026 07:28:00 GMT``.
+
+A client should honour this header before retrying, rather than using its own fixed delay. Retrying immediately makes rate limiting worse, and a correct retry loop reads the header, waits, and only then tries again, with a maximum number of attempts.
+
+```php
+<?php
+
+    $wait = (int) $response->getHeaderLine('Retry-After');
+    if ($wait > 0) {
+        sleep($wait);
+    }
+
+```
+
+Related: Retry, Retry, Rate Limiting, HTTP Code, HTTP Headers, Timeout, Third-Party API
+
+Documentation: https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Retry-After
+
+URL: https://php-dictionary.readthedocs.io/en/latest/index/retry-after-header.html
+
+---
+
 ## Retry
 
 A retry is the act of re-attempting an operation that previously failed, typically due to a transient error such as a network timeout, a temporarily unavailable service, or a rate-limit response.
@@ -43500,7 +43767,7 @@ Retry strategies differ in how they space repeated attempts: immediate retry, fi
 
 Because retries re-send the same request, the server-side operation must be idempotent to avoid unintended side effects such as duplicate charges or duplicate records. Idempotency keys are a common mechanism for making retried requests safe on the server side.
 
-Related: Idempotent, Backoff, Jitter, Circuit Breaker, Webhook, Deduplication, Hyper Text Transfer Protocol (HTTP), Reliability, Error Handling, Queue, Cascading Failure, Replay, Resilience, Worker
+Related: Idempotent, Backoff, Jitter, Circuit Breaker, Webhook, Deduplication, Hyper Text Transfer Protocol (HTTP), Reliability, Error Handling, Queue, Cascading Failure, Replay, Resilience, Worker, Chaos Engineering, Deadline, Retry-After Header, Third-Party API, Timeout
 
 Documentation: https://en.wikipedia.org/wiki/Exponential_backoff
 
@@ -44332,9 +44599,9 @@ URL: https://php-dictionary.readthedocs.io/en/latest/index/sast.html
 
 ## Software Bill Of Material (SBOM)
 
-A Software Bill of Materials, aka SBOM, is a formal, machine-readable inventory of all components, libraries, and dependencies used in a software project. It lists every piece of code, directly included or indirectly pulled in via dependencies, so one knows exactly what's in the application source code. It makes it possible to track vulnerabilities, licenses, and outdated libraries.
+A Software Bill of Materials, aka ``SBOM``, is a formal, machine-readable inventory of all components, libraries, and dependencies used in a software project. It lists every piece of code, directly included or indirectly pulled in via dependencies, so one knows exactly what's in the application source code. It makes it possible to track vulnerabilities, licenses, and outdated libraries.
 
-For PHP projects, an SBOM typically contains:
+For PHP projects, a ``SBOM`` typically contains:
 
 + Composer dependencies: these are the packages listed in composer.json, and their actual version in composer.lock
 + PHP version, core extensions and third party extensions
@@ -44342,7 +44609,7 @@ For PHP projects, an SBOM typically contains:
 + Licenses for each component
 + Known vulnerabilities, if any, such as CVEs from the PHP Security Advisories Database
 
-SBOM uses the CycloneDX format as a standard.
+``SBOM`` uses the CycloneDX format as a standard.
 
 
 Related: Dependency, Specification, Supply Chain Attack
@@ -44355,11 +44622,11 @@ URL: https://php-dictionary.readthedocs.io/en/latest/index/sbom.html
 
 ## Static Code Analysis (SCA)
 
-Static code analysis, or SCA or static analysis, analyzes the source code: it reports possible bugs, conventions violations, incorrect structures, vulnerabilities, versions or OS portability incompatibilities, etc. 
+Static code analysis, or ``SCA`` or static analysis, analyzes the source code: it reports possible bugs, conventions violations, incorrect structures, vulnerabilities, versions or OS portability incompatibilities, etc. 
 
-PHP includes static code analysis, by reporting a wide range of errors before executing the code, at linting time. Then, the other errors are reported at execution time. SCA works in-between these two phases: after the code compiles, but before it is executed. 
+PHP includes static code analysis, by reporting a wide range of errors before executing the code, at linting time. Then, the other errors are reported at execution time. ``SCA`` works in-between these two phases: after the code compiles, but before it is executed. 
 
-SCA is usually invoked manually, during development time, at commit time, to avoid pushing incorrect code, and in CI/CD pipelines, to ensure it was correctly run.
+``SCA`` is usually invoked manually, during development time, at commit time, to avoid pushing incorrect code, and in CI/CD pipelines, to ensure it was correctly run.
 
 Related: Analysis, Audit, Autocompletion, Static Single Assignment Form (SSA), Tool, Type Checking, Static Application Security Testing (SAST), PHPStan, Psalm, Control Flow Analysis, Data Flow Analysis (DFA), Semantic Analysis, Symbolic Analysis, Pattern-Based Analysis, Docblock, Linting, Continuous Integration (CI), Array Shape, Gradual Typing, Tokenizer, Type Narrowing, Type Parametricity, Type System, White Box Testing
 
@@ -44547,7 +44814,7 @@ URL: https://php-dictionary.readthedocs.io/en/latest/index/scope.html
 
 ## Software Development Kit (SDK)
 
-SDK stands for Software Development Kit. It is a set of tools, libraries, documentation, and resources that developers use to create software applications for specific platforms, frameworks, or programming languages. SDKs provide a structured way for developers to access and utilize the features and capabilities of a particular software platform or service.
+SDK stands for Software Development Kit. It is a set of tools, libraries, documentation, and resources that developers use to create software applications for specific platforms, frameworks, or programming languages. SDK provide a structured way for developers to access and utilize the features and capabilities of a particular software platform or service.
 
 An SDK typically includes:
 
@@ -44557,7 +44824,7 @@ An SDK typically includes:
 + Tools: utilities and software programs that aid in the development, debugging, and testing of applications.
 + API: interfaces that define how software components should interact with each other, allowing developers to integrate their applications with the platform or service provided by the SDK.
 
-SDKs are commonly provided by companies or organizations to encourage developers to build applications that integrate with their platforms, such as mobile operating systems, cloud computing services, social media platforms, and many others.
+SDK are commonly provided by companies or organizations to encourage developers to build applications that integrate with their platforms, such as mobile operating systems, cloud computing services, social media platforms, and many others.
 
 Related: Library, Tool
 
@@ -44624,7 +44891,7 @@ URL: https://php-dictionary.readthedocs.io/en/latest/index/sealed-class.html
 
 A search engine is a system that indexes and retrieves data based on queries. In applications, a search engine typically refers to a dedicated search service or library that provides full-text search capabilities beyond what a relational database can offer natively.
 
-Popular search engines used with PHP projects include Elasticsearch, OpenSearch, Meilisearch, Typesense, and Apache Solr. They offer features such as full-text indexing, relevance ranking, faceted search, autocomplete, and typo tolerance.
+Popular search engines used with PHP projects include ``Elasticsearch``, ``OpenSearch``, ``Meilisearch``, ``Typesense``, and ``Apache Solr``. They offer features such as full-text indexing, relevance ranking, faceted search, autocomplete, and typo tolerance.
 
 Search engines usually operate as external services communicating via HTTP APIs. PHP libraries are used as clients to index documents and execute queries against the engine.
 
@@ -45113,7 +45380,7 @@ Key technical SEO factors influenced by PHP code include:
 + Handling ``<meta>`` tags, Open Graph, and structured data, like JSON-LD
 + Producing human-readable, keyword-rich URLs, or slugs
 
-PHP-based CMSs and frameworks such as WordPress, Drupal, Symfony, and Laravel all have dedicated SEO plugins or packages.
+PHP-based CMS and frameworks such as WordPress, Drupal, Symfony, and Laravel all have dedicated SEO plugins or packages.
 
 Common pitfalls include duplicate content, when missing canonical tags, slow response times, broken links, and incorrect use of HTTP status codes.
 
@@ -45338,7 +45605,7 @@ URL: https://php-dictionary.readthedocs.io/en/latest/index/serialization.html
 
 ## serialize_precision
 
-The ``serialize_precision`` PHP ini directive controls the number of significant digits used when serializing float values via ``serialize()`` and ``json_encode()``.
+The ``serialize_precision`` directive controls the number of significant digits used when serializing float values via ``serialize()`` and ``json_encode()``.
 
 Since PHP 7.1, the default is ``-1``, which uses the minimum number of digits needed to uniquely represent each float, ensuring round-trip fidelity. A positive integer value uses that many significant digits instead, which may introduce rounding.
 
@@ -45408,7 +45675,7 @@ URL: https://php-dictionary.readthedocs.io/en/latest/index/server.html
 
 Serverless computing is an execution model where a cloud provider allocates compute resources on demand, scaling to zero when idle. Developers deploy functions or entire applications without managing servers.
 
-PHP runs serverlessly via AWS Lambda with Bref, Google Cloud Functions, Azure Functions, or Vercel. The ``bref`` package is the most common bridge, wrapping PHP applications for Lambda execution.
+PHP runs serverlessly via AWS Lambda with ``Bref``, ``Google Cloud Functions``, ``Azure Functions``, or ``Vercel``. The ``bref`` package is the most common bridge, wrapping PHP applications for Lambda execution.
 
 Related: Cloud, IaaS, PaaS, Software-as-a-Service (SAAS), Architecture, Pay-as-you-go, SplSubject, Cold Start, Edge Computing, Function-as-a-Service (FaaS)
 
@@ -45494,11 +45761,11 @@ URL: https://php-dictionary.readthedocs.io/en/latest/index/service-mesh.html
 
 A service registry is a database of available service instances in a distributed system. Each instance registers itself on startup, providing its host, port, health endpoint, and metadata, and deregisters on shutdown. Consumers query the registry to discover where to send requests.
 
-The registry must be highly available and consistent, since all service communication depends on it. Common implementations are Consul, Etcd, and Apache ZooKeeper. Kubernetes uses its own internal DNS and etcd-backed service registry transparently.
+The registry must be highly available and consistent, since all service communication depends on it. Common implementations are ``Consul``, ``Etcd``, and ``Apache ZooKeeper``. ``Kubernetes`` uses its own internal DNS and etcd-backed service registry transparently.
 
 Services are expected to send periodic heartbeats to the registry; instances that fail to heartbeat are automatically removed, ensuring the registry only lists healthy instances.
 
-With microservices, the registry is rarely queried directly. Kubernetes DNS or an API gateway abstracts it. When using Consul directly, PHP can register via the Consul HTTP API at startup, e.g., in a Swoole or FrankenPHP worker, and query it for service locations.
+With microservices, the registry is rarely queried directly. Kubernetes DNS or an API gateway abstracts it. When using Consul directly, PHP can register via the ``Consul`` HTTP API at startup, e.g., in a Swoole or FrankenPHP worker, and query it for service locations.
 
 ```php
 <?php
@@ -46445,7 +46712,7 @@ URL: https://php-dictionary.readthedocs.io/en/latest/index/short-ternary.html
 
 ## short_open_tag
 
-``short_open_tag`` is a php.ini directive that controls whether the short PHP opening tag ``<?`` is recognised by the parser.
+``short_open_tag`` is a ``php.ini`` directive that controls whether the short PHP opening tag ``<?`` is recognised by the parser.
 
 When ``short_open_tag = Off``, only ``<?php`` and ``<?=`` are valid opening tags. This is the recommended setting and the default since version 7.0.
 
@@ -48239,7 +48506,7 @@ URL: https://php-dictionary.readthedocs.io/en/latest/index/spy.html
 
 ## Sqids
 
-Sqids, formerly known as Hashids, is an open-source library that encodes one or more non-negative integers into short, YouTube-like alphanumeric strings, and decodes them back.
+``Sqids``, formerly known as ``Hashids``, is an open-source library that encodes one or more non-negative integers into short, YouTube-like alphanumeric strings, and decodes them back.
 
 The generated strings are URL-safe, avoid common profanity by design, and can use a custom alphabet and a minimum length. Sqids is not a cryptographic function: the encoding is deterministic and reversible by anyone who knows the alphabet and salt used. It is therefore suited for obfuscating sequential integer IDs in URLs to prevent enumeration, not for security-sensitive encoding.
 
@@ -48274,7 +48541,7 @@ URL: https://php-dictionary.readthedocs.io/en/latest/index/sqids.html
 
 A SQL database is a database server that processes data based on the SQL language.
 
-PHP is able to connect to many databases, including SQLite3, MySQL, MariaDB, PostgreSQL, Oracle, MSSQL, etc.
+PHP is able to connect to many databases, including ``SQLite3``, ``MySQL``, ``MariaDB``, ``PostgreSQL``, ``Oracle``, ``MSSQL``, etc.
 
 Related: Structured Query Language (SQL), MySQL, PostgreSQL, Oracle, SQLite3, Column Database, Database, Server, Document Database
 
@@ -50730,7 +50997,7 @@ Modern applications are built on top of components which are fetched from centra
 
 When those external repositories are infected with malicious component or code, the dependency manager loads them like the rest of the code. Blind trust in the imported code lead to vulnerabilities.
 
-Related: Supply Chain, Software Bill Of Material (SBOM), Poisoned Pipeline Execution (PPE)
+Related: Supply Chain, Software Bill Of Material (SBOM), Poisoned Pipeline Execution (PPE), Attack Surface, Least Privilege Principle, Multi-Factor Authentication (MFA), Typosquatting
 
 Documentation: https://en.wikipedia.org/wiki/Supply_chain_attack
 
@@ -51742,6 +52009,28 @@ URL: https://php-dictionary.readthedocs.io/en/latest/index/test-data-provider.ht
 
 ---
 
+## Test Double
+
+A test double is any object that stands in for a real dependency during a test. The name comes from stunt doubles: the object plays the role of the real one, so the code under test can run without it.
+
+There are several kinds of test doubles:
+
++ Dummy: passed around to satisfy a signature, but never used.
++ Stub: returns fixed answers to calls.
++ Spy: records how it was called, so the test can check it later.
++ Fake: a working but simplified implementation, such as an in-memory repository.
++ Mock: checks expectations on the calls it receives.
+
+Test doubles keep tests fast, isolated and reproducible, because they do not depend on databases, networks or clocks.
+
+Related: Mock, Mocking, Spy, Fixture, Canned Response
+
+Documentation: https://martinfowler.com/articles/mocksArentStubs.html
+
+URL: https://php-dictionary.readthedocs.io/en/latest/index/test-double.html
+
+---
+
 ## Test-Driven Development
 
 Test-driven development is a software development approach where tests are written before the code.
@@ -51983,6 +52272,22 @@ URL: https://php-dictionary.readthedocs.io/en/latest/index/thin.html
 
 ---
 
+## Third-Party API
+
+A third-party API is an interface offered by a service that the application does not own or control, such as a payment provider, a mail service or a weather service. The application calls it over HTTP and depends on its availability, its rules and its rate limits.
+
+Integrating a third-party API has several risks: the service can be down, slow, or change its response format; it can impose rate limits or quotas; and it can require credentials that must be stored safely.
+
+Good practice is to wrap the API behind a small class of the application's own, so the rest of the code does not depend on the vendor. This wrapper can be replaced by a test double in tests, and it is the place to handle retries, timeouts and malformed responses.
+
+Related: Application Programming Interface (API), Hyper Text Transfer Protocol (HTTP), Rate Limiting, Retry, Timeout, Malformed Response Body, Mocking
+
+Documentation: https://en.wikipedia.org/wiki/Web_API
+
+URL: https://php-dictionary.readthedocs.io/en/latest/index/third-party-api.html
+
+---
+
 ## Thread
 
 A thread is a set of instructions, designed to be executed independently from the parent process. 
@@ -52102,7 +52407,7 @@ try{
 
 Related: Try-catch, Exception, ArgumentCountError, ArithmeticError Error, Error, Chaining Exceptions, mysqli_sql_exception, PHP Predefined Exception, Jump, Method Compatibility, Return Value
 
-Documentation: https://www.php.net/manual/en/language.exceptions.php
+Documentation: https://www.php.net/manual/en/language.exception.php
 
 URL: https://php-dictionary.readthedocs.io/en/latest/index/throw.html
 
@@ -52236,7 +52541,7 @@ A timeout only bounds one call. When an operation is retried, or spans several d
 ?>
 ```
 
-Related: Resilience, Deadline, Retry, Backoff, Circuit Breaker, Bulkhead, http://, Client URL (CURL), Availability
+Related: Resilience, Deadline, Retry, Backoff, Circuit Breaker, Bulkhead, http://, Client URL (CURL), Availability, Connection Pool, Duration, Fault Isolation, Retry-After Header, Third-Party API
 
 Documentation: https://www.php.net/manual/en/function.set-time-limit.php
 
@@ -52976,7 +53281,7 @@ try {
 
 Related: Finally, Anonymous Catch, ArgumentCountError, ArithmeticError Error, Catch, Error, Chaining Exceptions, Exception Handler, Exception, mysqli_sql_exception, PHP Predefined Exception, throw, Syntax, Fatal Error, Resource Leak, Eval(), Ignored Catch, set_error_handler(), Transaction
 
-Documentation: https://www.php.net/manual/en/language.exceptions.php
+Documentation: https://www.php.net/manual/en/language.exception.php
 
 URL: https://php-dictionary.readthedocs.io/en/latest/index/try-catch.html
 
@@ -53773,6 +54078,37 @@ Related: Silent Behavior, Semantics
 Documentation: https://en.wikipedia.org/wiki/Typographical_error
 
 URL: https://php-dictionary.readthedocs.io/en/latest/index/typo.html
+
+---
+
+## Typosquatting
+
+Typosquatting is an attack where a malicious actor registers a name that is a misspelling, a plural, a swapped letter, or a visually similar variant of a legitimate one, and waits for developers to install it by mistake. The name is chosen to be close enough to pass unnoticed when typed quickly or copied from memory.
+
+In a package repository, such as Packagist for PHP, a typosquatted package looks like a popular library, for example ``monolgo/monolog`` instead of ``monolog/monolog``. A ``composer require`` with the wrong name installs the attacker's code, which then runs with the full rights of the application, its build, and its deployment pipeline.
+
+Typosquatting is a form of supply chain attack: the attacker does not compromise the target project directly, but the dependency that the project trusts. Checking the exact spelling and the vendor name of each dependency, reviewing the ``composer.json`` changes in code review, and pinning dependencies in ``composer.lock`` reduce the risk. Static analysis can flag unknown or recently created packages, and a lockfile audit can flag a package whose name is one edit away from a popular one.
+
+```php
+<?php
+
+    // Legitimate package
+    // composer require monolog/monolog
+
+    // Typosquatted package: one letter away, registered by an attacker
+    // composer require monolgo/monolog
+
+    // Review the lock file after any dependency change
+    // composer.lock must list only the packages that were reviewed
+
+?>
+```
+
+Related: Supply Chain Attack, Supply Chain, Packagist, Composer, Software Bill Of Material (SBOM), Least Privilege Principle
+
+Documentation: https://en.wikipedia.org/wiki/Typosquatting
+
+URL: https://php-dictionary.readthedocs.io/en/latest/index/typosquatting.html
 
 ---
 

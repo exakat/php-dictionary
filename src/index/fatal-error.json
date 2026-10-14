@@ -5,7 +5,7 @@
     "aliases": [],
     "description": "Fatal error is a type of PHP error, which ends the execution of the application. Fatal errors may be caught before ending the execution with a ``catch`` clause on ``Error``.",
     "code": "<?php\n\n    try {\n        1 + [];\n    } catch (Error $e) {\n        print A fatal error was caught.;\n    }\n\n?>",
-    "documentation": "https://www.php.net/manual/en/language.errors.php7.php",
+    "documentation": "https://www.php.net/manual/en/class.error.php",
     "related": [
         "catchable-fatal-error",
         "deprecation",
@@ -22,7 +22,7 @@
         {
             "@type": "CreativeWork",
             "name": "Documentation",
-            "url": "https://www.php.net/manual/en/language.errors.php7.php"
+            "url": "https://www.php.net/manual/en/class.error.php"
         },
         {
             "@type": "CreativeWork",
@@ -48,5 +48,5 @@
     "author": "",
     "brand": "",
     "popularity": "",
-    "modified": "Thu, 27 Aug 2026 04:45:24 +0000"
+    "modified": "Wed, 14 Oct 2026 18:05:35 +0000"
 }

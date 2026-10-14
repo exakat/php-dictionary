@@ -20,8 +20,8 @@
         },
         {
             "@type": "CreativeWork",
-            "name": "Serialize and Deserialize JSON with PHP",
-            "url": "https://mojoauth.com/serialize-and-deserialize/serialize-and-deserialize-json-with-php"
+            "name": "How to encode and decode JSON in PHP?",
+            "url": "https://blog.nette.org/en/how-to-encode-and-decode-json-in-php"
         }
     ],
     "tags": [
@@ -44,5 +44,5 @@
     "author": "",
     "brand": "",
     "popularity": "",
-    "modified": "Sun, 23 Aug 2026 20:38:51 +0000"
+    "modified": "Wed, 14 Oct 2026 18:07:32 +0000"
 }

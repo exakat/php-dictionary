@@ -18,7 +18,12 @@
         "bulkhead",
         "wrapper-http",
         "curl",
-        "availability"
+        "availability",
+        "connection-pool",
+        "duration",
+        "fault-isolation",
+        "retry-after-header",
+        "third-party-api"
     ],
     "citations": [
         {
@@ -67,5 +72,5 @@
     "author": "",
     "brand": "",
     "popularity": "",
-    "modified": "Wed, 19 Aug 2026 08:14:41 +0000"
+    "modified": "Wed, 14 Oct 2026 16:39:28 +0000"
 }

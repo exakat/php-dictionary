@@ -5,7 +5,7 @@
     "aliases": [],
     "description": "``catch`` does not check that the caught exception exists. It simply checks that the raised exception match the class name, its parent or its interface. When a typo happens in the class name or the class does not exists, the clause fails every time. ",
     "code": "<?php\n\n    try {\n        callSomeMethod();\n    } catch (\\UndefinedException $e) {\n        die('This never happens');\n    } catch (\\Exception) {\n        // process the error here\n    }\n\n?>",
-    "documentation": "https://www.php.net/manual/en/language.exceptions.php",
+    "documentation": "https://www.php.net/manual/en/language.exception.php",
     "related": [
         "try-catch",
         "catch"
@@ -14,7 +14,7 @@
         {
             "@type": "CreativeWork",
             "name": "Documentation",
-            "url": "https://www.php.net/manual/en/language.exceptions.php"
+            "url": "https://www.php.net/manual/en/language.exception.php"
         }
     ],
     "tags": [
@@ -34,5 +34,5 @@
     "author": "",
     "brand": "",
     "popularity": "",
-    "modified": "Fri, 18 Sep 2026 09:30:59 +0000"
+    "modified": "Wed, 14 Oct 2026 18:06:19 +0000"
 }

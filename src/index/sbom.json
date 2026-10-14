@@ -3,7 +3,7 @@
     "name": "Software Bill Of Material (SBOM)",
     "url": "https://php-dictionary.readthedocs.io/en/latest/index/sbom.html",
     "aliases": [],
-    "description": "A Software Bill of Materials, aka SBOM, is a formal, machine-readable inventory of all components, libraries, and dependencies used in a software project. It lists every piece of code, directly included or indirectly pulled in via dependencies, so one knows exactly what's in the application source code. It makes it possible to track vulnerabilities, licenses, and outdated libraries.\n\nFor PHP projects, an SBOM typically contains:\n\n+ Composer dependencies: these are the packages listed in composer.json, and their actual version in composer.lock\n+ PHP version, core extensions and third party extensions\n+ System dependencies versions: the underlying libraries that PHP extensions depend upon\n+ Licenses for each component\n+ Known vulnerabilities, if any, such as CVEs from the PHP Security Advisories Database\n\nSBOM uses the CycloneDX format as a standard.\n",
+    "description": "A Software Bill of Materials, aka ``SBOM``, is a formal, machine-readable inventory of all components, libraries, and dependencies used in a software project. It lists every piece of code, directly included or indirectly pulled in via dependencies, so one knows exactly what's in the application source code. It makes it possible to track vulnerabilities, licenses, and outdated libraries.\n\nFor PHP projects, a ``SBOM`` typically contains:\n\n+ Composer dependencies: these are the packages listed in composer.json, and their actual version in composer.lock\n+ PHP version, core extensions and third party extensions\n+ System dependencies versions: the underlying libraries that PHP extensions depend upon\n+ Licenses for each component\n+ Known vulnerabilities, if any, such as CVEs from the PHP Security Advisories Database\n\n``SBOM`` uses the CycloneDX format as a standard.\n",
     "code": "",
     "documentation": "https://en.wikipedia.org/wiki/Software_supply_chain",
     "related": [
@@ -47,5 +47,5 @@
     "author": "",
     "brand": "",
     "popularity": "",
-    "modified": "Wed, 19 Aug 2026 06:47:38 +0000"
+    "modified": "Wed, 14 Oct 2026 17:39:26 +0000"
 }

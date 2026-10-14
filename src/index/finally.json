@@ -5,7 +5,7 @@
     "aliases": [],
     "description": "Finally is the default clause of a try-catch expression. It is run after all the catch clauses have been called.\n\nFinally is run every time after a try, with or without any catch clause. It is also run before the return expression, if any.",
     "code": "<?php\n\n    try {\n        doSomething();\n    } catch (\\Exception $e) {\n        print \"An exception was raised and caught\";\n    } finally {\n        print \"Finally\\n\";\n    }\n\n?>",
-    "documentation": "https://www.php.net/manual/en/language.exceptions.php#language.exceptions.finally",
+    "documentation": "https://www.php.net/manual/en/language.exception.php#language.exceptions.finally",
     "related": [
         "try-catch",
         "catch",
@@ -16,7 +16,7 @@
         {
             "@type": "CreativeWork",
             "name": "Documentation",
-            "url": "https://www.php.net/manual/en/language.exceptions.php#language.exceptions.finally"
+            "url": "https://www.php.net/manual/en/language.exception.php#language.exceptions.finally"
         },
         {
             "@type": "CreativeWork",
@@ -45,5 +45,5 @@
     "author": "",
     "brand": "",
     "popularity": "",
-    "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+    "modified": "Wed, 14 Oct 2026 18:05:56 +0000"
 }

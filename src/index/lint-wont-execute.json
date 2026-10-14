@@ -24,8 +24,8 @@
         },
         {
             "@type": "CreativeWork",
-            "name": "PHP errors",
-            "url": "https://www.php.net/manual/en/language.errors.php"
+            "name": "PHP: Error",
+            "url": "https://www.php.net/manual/en/class.error.php"
         },
         {
             "@type": "CreativeWork",
@@ -51,5 +51,5 @@
     "author": "",
     "brand": "",
     "popularity": "",
-    "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+    "modified": "Wed, 14 Oct 2026 18:16:11 +0000"
 }

@@ -24,11 +24,6 @@
             "@type": "CreativeWork",
             "name": "convert_uuencode",
             "url": "https://www.php.net/manual/en/function.convert-uuencode.php"
-        },
-        {
-            "@type": "CreativeWork",
-            "name": "Uuencoding with PHP",
-            "url": "https://mojoauth.com/binary-encoding-decoding/uuencoding-with-php/"
         }
     ],
     "tags": [
@@ -47,5 +42,5 @@
     "author": "",
     "brand": "",
     "popularity": "",
-    "modified": "Mon, 15 Jun 2026 11:03:59 +0000"
+    "modified": "Wed, 14 Oct 2026 18:14:32 +0000"
 }

@@ -1,0 +1,56 @@
+{
+    "id": "offline-test-suite",
+    "name": "Offline Test Suite",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/offline-test-suite.html",
+    "aliases": [
+        "offline tests"
+    ],
+    "description": "An offline test suite is a set of tests that run without network access. Every external dependency, such as an HTTP API, a database service or a message queue, is replaced by a test double or a canned response.\n\nOffline tests are fast, can run on a laptop without credentials, and do not fail because a remote service is down or rate limited. They are reproducible: the same code gives the same result every time.\n\nAn offline suite does not prove that the code works with the real service. That check belongs to a separate, optional live sandbox or integration suite, and to contract tests.",
+    "code": "",
+    "documentation": "https://martinfowler.com/articles/mocksArentStubs.html",
+    "related": [
+        "unit-test",
+        "integration-test",
+        "canned-response",
+        "test-double",
+        "deterministic",
+        "sandbox"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://martinfowler.com/articles/mocksArentStubs.html"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Laravel: Preventing stray requests",
+            "url": "https://laravel.com/docs/13.x/http-client#preventing-stray-requests"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Test doubles (PHPUnit)",
+            "url": "https://docs.phpunit.de/en/13.1/test-doubles.html#test-doubles"
+        }
+    ],
+    "tags": [
+        "test",
+        "best practice"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Wed, 14 Oct 2026 16:37:44 +0000"
+}

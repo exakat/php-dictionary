@@ -9,7 +9,11 @@
     "related": [
         "test",
         "end-to-end-test",
-        "unit-test"
+        "unit-test",
+        "acceptance-test",
+        "contract-test",
+        "functional-test",
+        "offline-test-suite"
     ],
     "citations": [
         {
@@ -39,5 +43,5 @@
     "author": "",
     "brand": "",
     "popularity": "",
-    "modified": "Sat, 08 Aug 2026 08:10:54 +0000"
+    "modified": "Wed, 14 Oct 2026 16:39:28 +0000"
 }

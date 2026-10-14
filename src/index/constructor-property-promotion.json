@@ -1,0 +1,57 @@
+{
+    "id": "constructor-property-promotion",
+    "name": "Constructor Property Promotion",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/constructor-property-promotion.html",
+    "aliases": [
+        "promoted constructor properties"
+    ],
+    "description": "Constructor property promotion lets a class declare its properties directly in the constructor signature. Adding a visibility modifier, such as ``public``, ``protected`` or ``private``, to a constructor parameter declares a property with that name and assigns the argument to it.\n\nBefore PHP 8.0, the same class needed a property declaration, a parameter and an assignment for each value. Promotion removes the repetition:\n\n``class Client { public function __construct(private string $token, private int $timeout = 10) {} }``\n\nThe promoted parameters can have default values, types and ``readonly``. Promotion works well with dependency injection, where a class receives its dependencies in the constructor.",
+    "code": "<?php\n\n    class Client {\n        public function __construct(\n            private readonly string $token,\n            private int $timeout = 10,\n        ) {}\n    }\n",
+    "documentation": "https://www.php.net/manual/en/language.oop5.decon.php#language.oop5.decon.constructor.promotion",
+    "related": [
+        "constructor",
+        "dependency-injection",
+        "type-promotion",
+        "readonly",
+        "named-constructor",
+        "property"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/language.oop5.decon.php#language.oop5.decon.constructor.promotion"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP RFC: Constructor Property Promotion",
+            "url": "https://wiki.php.net/rfc/constructor_promotion"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP manual: Constructors and Destructors",
+            "url": "https://www.php.net/manual/en/language.oop5.decon.php"
+        }
+    ],
+    "tags": [
+        "oop",
+        "php 8",
+        "syntax"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "8.0",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Wed, 14 Oct 2026 16:37:45 +0000"
+}

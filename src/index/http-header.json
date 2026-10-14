@@ -16,7 +16,14 @@
         "payload",
         "replay",
         "ttl",
-        "webhook"
+        "webhook",
+        "authorization-header",
+        "bearer-token",
+        "cdn",
+        "content-type-header",
+        "crlf-injection",
+        "csp",
+        "retry-after-header"
     ],
     "citations": [
         {
@@ -60,5 +67,5 @@
     "author": "",
     "brand": "",
     "popularity": "",
-    "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+    "modified": "Wed, 14 Oct 2026 16:39:28 +0000"
 }

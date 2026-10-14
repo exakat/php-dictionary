@@ -3966,7 +3966,7 @@
         "aliases": [],
         "description": "Traditionally, the catch statement requires specifying both an Exception class and an identifier variable to hold the caught exception.\n\nPHP 8.0 introduced a new language construct that makes the identifier variable optional, allowing for a fully anonymous catch statement. This means there is no need to specify a variable to hold the caught exception.\n\nThe motivation behind this proposal is to simplify exception handling code, especially in cases where there is no need to use the caught exception object. It leads to cleaner and more concise code, especially when the specific details of the exception are not interesting and can be handled generically.",
         "code": "<?php\n\n    try {\n        $a / 0;\n    } catch (DivisionByZero) {\n    \n    }\n\n?>",
-        "documentation": "https://www.php.net/manual/en/language.exceptions.php",
+        "documentation": "https://www.php.net/manual/en/language.exception.php",
         "related": [
             "catch",
             "exception",
@@ -3978,7 +3978,7 @@
             {
                 "@type": "CreativeWork",
                 "name": "Documentation",
-                "url": "https://www.php.net/manual/en/language.exceptions.php"
+                "url": "https://www.php.net/manual/en/language.exception.php"
             },
             {
                 "@type": "CreativeWork",
@@ -4003,7 +4003,7 @@
         "author": "",
         "brand": "",
         "popularity": "",
-        "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+        "modified": "Wed, 14 Oct 2026 17:53:02 +0000"
     },
     {
         "id": "anonymous-class",
@@ -4395,7 +4395,11 @@
             "mcp",
             "oauth",
             "pwa",
-            "search-engine"
+            "search-engine",
+            "bearer-token",
+            "open-data",
+            "service-mesh",
+            "third-party-api"
         ],
         "citations": [
             {
@@ -4433,7 +4437,7 @@
         "author": "",
         "brand": "",
         "popularity": "",
-        "modified": "Tue, 01 Sep 2026 05:31:03 +0000"
+        "modified": "Wed, 14 Oct 2026 16:39:28 +0000"
     },
     {
         "id": "api-gateway",
@@ -4983,7 +4987,7 @@
         "aliases": [],
         "description": "Argon2 is a modern, secure, and highly efficient password hashing algorithm. It was the winner of the Password Hashing Competition, PHC, in 2015 and is designed to resist brute-force attacks, including GPU-based attacks. PHP has built-in support for Argon2 starting from version 7.2.",
         "code": "<?php\n$password = \"PHP is alive and kicking!\";\n\n// Hash the password with Argon2id\nprint password_hash($password, PASSWORD_ARGON2ID);\n\n?>",
-        "documentation": "https://guriasoft.com/server-side/php/argon2",
+        "documentation": "https://www.php.net/manual/en/function.password-hash.php",
         "related": [
             "algorithm",
             "hash",
@@ -4993,7 +4997,7 @@
             {
                 "@type": "CreativeWork",
                 "name": "Documentation",
-                "url": "https://guriasoft.com/server-side/php/argon2"
+                "url": "https://www.php.net/manual/en/function.password-hash.php"
             },
             {
                 "@type": "CreativeWork",
@@ -5004,6 +5008,11 @@
                 "@type": "CreativeWork",
                 "name": "Argon2 in PHP",
                 "url": "https://mojoauth.com/hashing/argon2-in-php"
+            },
+            {
+                "@type": "CreativeWork",
+                "name": "Argon2",
+                "url": "https://en.wikipedia.org/wiki/Argon2"
             }
         ],
         "tags": [
@@ -5027,7 +5036,7 @@
         "author": "",
         "brand": "",
         "popularity": "",
-        "modified": "Mon, 15 Jun 2026 11:03:58 +0000"
+        "modified": "Wed, 14 Oct 2026 17:57:48 +0000"
     },
     {
         "id": "argument",
@@ -8857,6 +8866,62 @@
         "modified": "Sat, 12 Sep 2026 07:43:43 +0000"
     },
     {
+        "id": "authorization-header",
+        "name": "Authorization Header",
+        "url": "https://php-dictionary.readthedocs.io/en/latest/index/authorization-header.html",
+        "aliases": [
+            "Authorization"
+        ],
+        "description": "The Authorization header carries the credentials that a client sends to a server to authenticate a request. It has the form of a scheme name followed by the credentials:\n\n``Authorization: Bearer <token>``\n\n``Authorization: Basic <base64 of user:password>``\n\nA server that needs authentication answers with 401 Unauthorized and a ``WWW-Authenticate`` header. The Authorization header is never part of the response, and it should only be sent over HTTPS, because otherwise the credentials can be read by anyone on the network.\n\nPHP reads the header from the request with ``$_SERVER['HTTP_AUTHORIZATION']``, and sent on outgoing requests by the HTTP client.",
+        "code": "",
+        "documentation": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Authorization",
+        "related": [
+            "bearer-token",
+            "http-header",
+            "headers",
+            "https",
+            "http-code"
+        ],
+        "citations": [
+            {
+                "@type": "CreativeWork",
+                "name": "Documentation",
+                "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Authorization"
+            },
+            {
+                "@type": "CreativeWork",
+                "name": "RFC 9110: Authorization",
+                "url": "https://datatracker.ietf.org/doc/html/rfc9110#section-11.6.2"
+            },
+            {
+                "@type": "CreativeWork",
+                "name": "MDN: Authorization",
+                "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Authorization"
+            }
+        ],
+        "tags": [
+            "security",
+            "header",
+            "http"
+        ],
+        "packagist": [],
+        "extensions": [],
+        "analyzers": [],
+        "cobblers": [],
+        "rule": "",
+        "phpVersionSince": "",
+        "phpVersionUntil": "",
+        "phpVersionDeprecated": "",
+        "phpErrors": [
+            ""
+        ],
+        "changedBehavior": "",
+        "author": "",
+        "brand": "",
+        "popularity": "",
+        "modified": "Wed, 14 Oct 2026 16:56:34 +0000"
+    },
+    {
         "id": "authorize",
         "name": "Authorize",
         "url": "https://php-dictionary.readthedocs.io/en/latest/index/authorize.html",
@@ -10433,6 +10498,63 @@
         "brand": "",
         "popularity": "",
         "modified": "Wed, 12 Aug 2026 08:05:19 +0000"
+    },
+    {
+        "id": "bearer-token",
+        "name": "Bearer Token",
+        "url": "https://php-dictionary.readthedocs.io/en/latest/index/bearer-token.html",
+        "aliases": [
+            "bearer"
+        ],
+        "description": "A bearer token is an access credential sent with an HTTP request to prove the caller's identity. Whoever holds the token is granted access, so it must be treated as a secret.\n\nThe token is sent in the ``Authorization`` header, with the scheme name ``Bearer`` followed by the token:\n\n``Authorization: Bearer <token>``\n\nBearer tokens are defined by RFC 6750, and are commonly used with OAuth 2.0 and API keys. They must only be sent over HTTPS, must not be logged, and should be stored in environment variables or a secret store rather than in the code.",
+        "code": "<?php\n\n    $headers = ['Authorization' => 'Bearer ' . $token];\n",
+        "documentation": "https://datatracker.ietf.org/doc/html/rfc6750",
+        "related": [
+            "authorization-header",
+            "http-header",
+            "oauth",
+            "https",
+            "api",
+            "third-party-api"
+        ],
+        "citations": [
+            {
+                "@type": "CreativeWork",
+                "name": "Documentation",
+                "url": "https://datatracker.ietf.org/doc/html/rfc6750"
+            },
+            {
+                "@type": "CreativeWork",
+                "name": "RFC 6750: The OAuth 2.0 Authorization Framework: Bearer Token Usage",
+                "url": "https://datatracker.ietf.org/doc/html/rfc6750"
+            },
+            {
+                "@type": "CreativeWork",
+                "name": "MDN: Authorization",
+                "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Authorization"
+            }
+        ],
+        "tags": [
+            "security",
+            "http",
+            "authentication"
+        ],
+        "packagist": [],
+        "extensions": [],
+        "analyzers": [],
+        "cobblers": [],
+        "rule": "",
+        "phpVersionSince": "",
+        "phpVersionUntil": "",
+        "phpVersionDeprecated": "",
+        "phpErrors": [
+            ""
+        ],
+        "changedBehavior": "",
+        "author": "",
+        "brand": "",
+        "popularity": "",
+        "modified": "Wed, 14 Oct 2026 16:37:45 +0000"
     },
     {
         "id": "behavior",
@@ -13604,6 +13726,61 @@
         "modified": "Wed, 26 Aug 2026 04:23:49 +0000"
     },
     {
+        "id": "canned-response",
+        "name": "Canned Response",
+        "url": "https://php-dictionary.readthedocs.io/en/latest/index/canned-response.html",
+        "aliases": [
+            "canned responses"
+        ],
+        "description": "A canned response is a fixed, pre-recorded answer that a test returns instead of calling the real service. For example, a test for an HTTP client can return a stored JSON body with status 200, rather than contacting the API.\n\nCanned responses make tests deterministic: the same input always produces the same output, with no network, no quota and no change over time. They are often used together with a fake HTTP client or a mock handler, and can cover success cases, error codes such as 429 or 500, and malformed bodies.\n\nCanned responses are only as good as the recording they come from. If the real API changes, the canned response goes stale, which is why contract tests exist.",
+        "code": "",
+        "documentation": "https://martinfowler.com/articles/mocksArentStubs.html",
+        "related": [
+            "test-double",
+            "mocking",
+            "offline-test-suite",
+            "malformed-response-body",
+            "contract-test"
+        ],
+        "citations": [
+            {
+                "@type": "CreativeWork",
+                "name": "Documentation",
+                "url": "https://martinfowler.com/articles/mocksArentStubs.html"
+            },
+            {
+                "@type": "CreativeWork",
+                "name": "Http::fake() and Http::response() (Laravel)",
+                "url": "https://laravel.com/docs/13.x/http-client#testing"
+            },
+            {
+                "@type": "CreativeWork",
+                "name": "Mocking Guzzle HTTP requests with MockHandler",
+                "url": "https://docs.guzzlephp.org/en/stable/testing.html"
+            }
+        ],
+        "tags": [
+            "test",
+            "http"
+        ],
+        "packagist": [],
+        "extensions": [],
+        "analyzers": [],
+        "cobblers": [],
+        "rule": "",
+        "phpVersionSince": "",
+        "phpVersionUntil": "",
+        "phpVersionDeprecated": "",
+        "phpErrors": [
+            ""
+        ],
+        "changedBehavior": "",
+        "author": "",
+        "brand": "",
+        "popularity": "",
+        "modified": "Wed, 14 Oct 2026 16:37:44 +0000"
+    },
+    {
         "id": "canonical",
         "name": "Canonical",
         "url": "https://php-dictionary.readthedocs.io/en/latest/index/canonical.html",
@@ -14114,7 +14291,7 @@
         "aliases": [],
         "description": "``catch`` is the complement clause of try. It defines which exception is caught. Optionally, it defines which variable holds the exception when it happens, since PHP 8.0.\n\nMultiple catches may be used. They are applied in the order of writing, and the first clause which succeed is the last. \n\nIt is possible to catch multiple exceptions at the same time: in that case, the second exception is chained.",
         "code": "<?php\n\n    try {\n        callSomeMethod();\n    } catch (\\SomeException $e) {\n        display(\"Warning\");\n    } catch (\\SomeSeriousException $e) {\n        display(\"Alert\");\n    } catch (\\Exception) {\n        // process the error here\n    }\n\n?>",
-        "documentation": "https://www.php.net/manual/en/language.exceptions.php",
+        "documentation": "https://www.php.net/manual/en/language.exception.php",
         "related": [
             "try-catch",
             "finally",
@@ -14126,7 +14303,7 @@
             {
                 "@type": "CreativeWork",
                 "name": "Documentation",
-                "url": "https://www.php.net/manual/en/language.exceptions.php"
+                "url": "https://www.php.net/manual/en/language.exception.php"
             },
             {
                 "@type": "CreativeWork",
@@ -14151,7 +14328,7 @@
         "author": "",
         "brand": "",
         "popularity": "",
-        "modified": "Fri, 11 Sep 2026 13:41:44 +0000"
+        "modified": "Wed, 14 Oct 2026 17:58:07 +0000"
     },
     {
         "id": "catchable-fatal-error",
@@ -14162,7 +14339,7 @@
         ],
         "description": "A catchable fatal error is a fatal error that PHP allows user code to intercept before the script terminates, instead of stopping execution unconditionally.\n\nSince PHP 7, most fatal errors are represented as ``Error`` objects, which implement ``Throwable`` and can be intercepted with a ``try``/``catch`` block, making them catchable by nature. Before PHP 7, a narrower category existed as its own error level, ``E_RECOVERABLE_ERROR``, notably raised when an object without a ``__toString()`` method was used in a string context; it could only be intercepted through a custom error handler set with ``set_error_handler()``, not with ``catch``.\n\nIf a catchable fatal error is not actually caught, it behaves exactly like an ordinary fatal error: execution stops.",
         "code": "<?php\n\n    class NoConversion {}\n    \n    try {\n        $s = (string) new NoConversion(); // fatal error, but catchable\n    } catch (\\Error $e) {\n        echo 'Caught: ' . $e->getMessage();\n    }\n\n?>",
-        "documentation": "https://www.php.net/manual/en/language.errors.php7.php",
+        "documentation": "https://www.php.net/manual/en/class.error.php",
         "related": [
             "fatal-error",
             "error",
@@ -14173,7 +14350,7 @@
             {
                 "@type": "CreativeWork",
                 "name": "Documentation",
-                "url": "https://www.php.net/manual/en/language.errors.php7.php"
+                "url": "https://www.php.net/manual/en/class.error.php"
             },
             {
                 "@type": "CreativeWork",
@@ -14183,6 +14360,7 @@
         ],
         "tags": [
             "error",
+            "class",
             "specification"
         ],
         "packagist": [],
@@ -14198,7 +14376,7 @@
         "author": "",
         "brand": "",
         "popularity": "",
-        "modified": "Thu, 27 Aug 2026 05:38:49 +0000"
+        "modified": "Wed, 14 Oct 2026 18:00:55 +0000"
     },
     {
         "id": "cd",
@@ -16883,6 +17061,71 @@
         },
         "popularity": "",
         "modified": "Fri, 18 Sep 2026 04:45:08 +0000"
+    },
+    {
+        "id": "code-duplication",
+        "name": "Code Duplication",
+        "url": "https://php-dictionary.readthedocs.io/en/latest/index/code-duplication.html",
+        "aliases": [
+            "copy paste",
+            "code clone"
+        ],
+        "description": "Code duplication happens when the same, or nearly the same, block of code is written more than once in a project. Copy and paste is the most common cause, but it also comes from similar functions written independently.\n\nDuplicated code is harder to maintain: a bug fix or a change has to be applied to every copy, and the copies tend to drift apart over time. Duplication is one of the most common code smells.\n\nTwo tools help find it:\n\n+ The copy/paste detector, ``phpcpd``, is a PHP tool that scans the source for duplicated blocks and reports the files and line ranges involved. It is a good first pass to measure how much duplication a project has.\n+ ``deslop`` finds, ranks and helps fix duplicated code across a codebase, worst offenders first. It gives the most important duplicates to address before the others.\n\nDuplication is not always bad. Some repetition is cheaper than a wrong abstraction, so the goal is to remove the duplication that causes real maintenance costs.",
+        "code": "",
+        "documentation": "https://en.wikipedia.org/wiki/Duplicate_code",
+        "related": [
+            "dry",
+            "duplicate",
+            "code-smell",
+            "wet",
+            "refactoring"
+        ],
+        "citations": [
+            {
+                "@type": "CreativeWork",
+                "name": "Documentation",
+                "url": "https://en.wikipedia.org/wiki/Duplicate_code"
+            },
+            {
+                "@type": "CreativeWork",
+                "name": "phpcpd: PHP Copy/Paste Detector",
+                "url": "https://github.com/sebastianbergmann/phpcpd"
+            },
+            {
+                "@type": "CreativeWork",
+                "name": "Refactoring.Guru: Duplicate Code",
+                "url": "https://refactoring.guru/smells/duplicate-code"
+            },
+            {
+                "@type": "CreativeWork",
+                "name": "Don't repeat yourself",
+                "url": "https://en.wikipedia.org/wiki/Don%27t_repeat_yourself"
+            }
+        ],
+        "tags": [
+            "concept",
+            "code smell",
+            "static analysis",
+            "best practice"
+        ],
+        "packagist": [
+            "sebastian/phpcpd"
+        ],
+        "extensions": [],
+        "analyzers": [],
+        "cobblers": [],
+        "rule": "",
+        "phpVersionSince": "",
+        "phpVersionUntil": "",
+        "phpVersionDeprecated": "",
+        "phpErrors": [
+            ""
+        ],
+        "changedBehavior": "",
+        "author": "",
+        "brand": "",
+        "popularity": "",
+        "modified": "Wed, 14 Oct 2026 15:52:00 +0000"
     },
     {
         "id": "code-formatter",
@@ -20691,6 +20934,63 @@
         "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
     },
     {
+        "id": "constructor-property-promotion",
+        "name": "Constructor Property Promotion",
+        "url": "https://php-dictionary.readthedocs.io/en/latest/index/constructor-property-promotion.html",
+        "aliases": [
+            "promoted constructor properties"
+        ],
+        "description": "Constructor property promotion lets a class declare its properties directly in the constructor signature. Adding a visibility modifier, such as ``public``, ``protected`` or ``private``, to a constructor parameter declares a property with that name and assigns the argument to it.\n\nBefore PHP 8.0, the same class needed a property declaration, a parameter and an assignment for each value. Promotion removes the repetition:\n\n``class Client { public function __construct(private string $token, private int $timeout = 10) {} }``\n\nThe promoted parameters can have default values, types and ``readonly``. Promotion works well with dependency injection, where a class receives its dependencies in the constructor.",
+        "code": "<?php\n\n    class Client {\n        public function __construct(\n            private readonly string $token,\n            private int $timeout = 10,\n        ) {}\n    }\n",
+        "documentation": "https://www.php.net/manual/en/language.oop5.decon.php#language.oop5.decon.constructor.promotion",
+        "related": [
+            "constructor",
+            "dependency-injection",
+            "type-promotion",
+            "readonly",
+            "named-constructor",
+            "property"
+        ],
+        "citations": [
+            {
+                "@type": "CreativeWork",
+                "name": "Documentation",
+                "url": "https://www.php.net/manual/en/language.oop5.decon.php#language.oop5.decon.constructor.promotion"
+            },
+            {
+                "@type": "CreativeWork",
+                "name": "PHP RFC: Constructor Property Promotion",
+                "url": "https://wiki.php.net/rfc/constructor_promotion"
+            },
+            {
+                "@type": "CreativeWork",
+                "name": "PHP manual: Constructors and Destructors",
+                "url": "https://www.php.net/manual/en/language.oop5.decon.php"
+            }
+        ],
+        "tags": [
+            "oop",
+            "php 8",
+            "syntax"
+        ],
+        "packagist": [],
+        "extensions": [],
+        "analyzers": [],
+        "cobblers": [],
+        "rule": "",
+        "phpVersionSince": "8.0",
+        "phpVersionUntil": "",
+        "phpVersionDeprecated": "",
+        "phpErrors": [
+            ""
+        ],
+        "changedBehavior": "",
+        "author": "",
+        "brand": "",
+        "popularity": "",
+        "modified": "Wed, 14 Oct 2026 16:37:45 +0000"
+    },
+    {
         "id": "container",
         "name": "Container",
         "url": "https://php-dictionary.readthedocs.io/en/latest/index/container.html",
@@ -20797,6 +21097,64 @@
         "brand": "",
         "popularity": "",
         "modified": "Tue, 01 Sep 2026 05:31:03 +0000"
+    },
+    {
+        "id": "content-type-header",
+        "name": "Content-Type Header",
+        "url": "https://php-dictionary.readthedocs.io/en/latest/index/content-type-header.html",
+        "aliases": [
+            "Content-Type"
+        ],
+        "description": "The Content-Type header tells the receiver the media type of the body: for example ``application/json``, ``text/html`` or ``multipart/form-data``. It is sent in both requests and responses.\n\nThe receiver uses it to decode the body correctly. A server that receives a request with a missing or wrong Content-Type may reject it with 415 Unsupported Media Type, and a client that ignores the response's Content-Type may parse an HTML error page as JSON.\n\nFor JSON APIs, the request must send ``Content-Type: application/json``, and the client should check the response header before decoding the body. A ``charset`` parameter can be added to text types, such as ``text/html; charset=UTF-8``.",
+        "code": "<?php\n\n    header('Content-Type: application/json; charset=utf-8');\n    echo json_encode(['status' => 'ok']);\n",
+        "documentation": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Type",
+        "related": [
+            "http-header",
+            "headers",
+            "json",
+            "http-code",
+            "malformed-response-body"
+        ],
+        "citations": [
+            {
+                "@type": "CreativeWork",
+                "name": "Documentation",
+                "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Type"
+            },
+            {
+                "@type": "CreativeWork",
+                "name": "RFC 9110: Content-Type",
+                "url": "https://datatracker.ietf.org/doc/html/rfc9110#section-8.3"
+            },
+            {
+                "@type": "CreativeWork",
+                "name": "MDN: Content-Type",
+                "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Type"
+            }
+        ],
+        "tags": [
+            "header",
+            "http",
+            "json"
+        ],
+        "packagist": [],
+        "extensions": [],
+        "analyzers": [
+            "Functions/Functionnames"
+        ],
+        "cobblers": [],
+        "rule": "",
+        "phpVersionSince": "",
+        "phpVersionUntil": "",
+        "phpVersionDeprecated": "",
+        "phpErrors": [
+            ""
+        ],
+        "changedBehavior": "",
+        "author": "",
+        "brand": "",
+        "popularity": "",
+        "modified": "Wed, 14 Oct 2026 16:37:45 +0000"
     },
     {
         "id": "continuation",
@@ -20971,6 +21329,65 @@
         "brand": "",
         "popularity": "",
         "modified": "Sat, 08 Aug 2026 08:10:54 +0000"
+    },
+    {
+        "id": "contract-test",
+        "name": "Contract Test",
+        "url": "https://php-dictionary.readthedocs.io/en/latest/index/contract-test.html",
+        "aliases": [
+            "contract testing"
+        ],
+        "description": "A contract test checks that two sides of an interface agree on the messages they exchange. For an HTTP API, the consumer, aka the application, declares what it expects from the provider, aka the remote service: the endpoints, the request fields, the response fields and their types. The provider is then checked against that contract.\n\nContract tests sit between unit tests and end-to-end tests. Unlike unit tests with a mock, they catch the case where the mock no longer matches the real service. Unlike end-to-end tests, they do not need the whole system running, and can run offline against the recorded contract.\n\nA contract test is only as good as its contract, so it must be updated when either side changes.",
+        "code": "",
+        "documentation": "https://martinfowler.com/bliki/ContractTest.html",
+        "related": [
+            "contract",
+            "mocking",
+            "test-double",
+            "canned-response",
+            "integration-test",
+            "third-party-api"
+        ],
+        "citations": [
+            {
+                "@type": "CreativeWork",
+                "name": "Documentation",
+                "url": "https://martinfowler.com/bliki/ContractTest.html"
+            },
+            {
+                "@type": "CreativeWork",
+                "name": "Pact PHP",
+                "url": "https://github.com/pact-foundation/pact-php"
+            },
+            {
+                "@type": "CreativeWork",
+                "name": "Martin Fowler: Contract Test",
+                "url": "https://martinfowler.com/bliki/ContractTest.html"
+            }
+        ],
+        "tags": [
+            "test",
+            "api",
+            "best practice"
+        ],
+        "packagist": [
+            "pact-foundation/pact-php"
+        ],
+        "extensions": [],
+        "analyzers": [],
+        "cobblers": [],
+        "rule": "",
+        "phpVersionSince": "",
+        "phpVersionUntil": "",
+        "phpVersionDeprecated": "",
+        "phpErrors": [
+            ""
+        ],
+        "changedBehavior": "",
+        "author": "",
+        "brand": "",
+        "popularity": "",
+        "modified": "Wed, 14 Oct 2026 16:57:05 +0000"
     },
     {
         "id": "contribution",
@@ -22692,8 +23109,8 @@
             },
             {
                 "@type": "CreativeWork",
-                "name": "CTF101 \u2014 Web Exploitation",
-                "url": "https://ctf101.org/web-exploitation/overview/"
+                "name": "PHP Tricks in Web CTF challenges",
+                "url": "https://medium.com/@Asm0d3us/part-1-php-tricks-in-web-ctf-challenges-e1981475b3e4"
             }
         ],
         "tags": [
@@ -22715,7 +23132,7 @@
         "author": "",
         "brand": "",
         "popularity": "",
-        "modified": "Wed, 19 Aug 2026 06:49:23 +0000"
+        "modified": "Wed, 14 Oct 2026 18:15:34 +0000"
     },
     {
         "id": "ctype",
@@ -23577,11 +23994,6 @@
                 "@type": "CreativeWork",
                 "name": "Data Mapper",
                 "url": "https://designpatternsphp.readthedocs.io/en/latest/Structural/DataMapper/README.html"
-            },
-            {
-                "@type": "CreativeWork",
-                "name": "How to write a Data Mapper with PHP",
-                "url": "https://blog.emre.xyz/posts/how-to-write-a-data-mapper-with-php/"
             }
         ],
         "tags": [
@@ -23603,7 +24015,7 @@
             "Cycle ORM": "https://github.com/cycle/orm"
         },
         "popularity": "",
-        "modified": "Fri, 18 Sep 2026 04:45:41 +0000"
+        "modified": "Wed, 14 Oct 2026 18:03:07 +0000"
     },
     {
         "id": "database",
@@ -27662,8 +28074,8 @@
             },
             {
                 "@type": "CreativeWork",
-                "name": "PHP.INI settings Disable exec, shell_exec, system, popen and Other Functions To Improve Security",
-                "url": "https://www.cyberciti.biz/faq/linux-unix-apache-lighttpd-php-disable-exec-shell-exec-system-popen/"
+                "name": "How to enable/disable PHP native functions \u2013 php.ini",
+                "url": "https://inspector.dev/how-to-enable-disable-php-native-functions-php-ini-tutorial/"
             }
         ],
         "tags": [
@@ -27687,7 +28099,7 @@
         "author": "",
         "brand": "",
         "popularity": "",
-        "modified": "Fri, 09 Oct 2026 16:53:29 +0000"
+        "modified": "Wed, 14 Oct 2026 18:04:41 +0000"
     },
     {
         "id": "display_errors",
@@ -33665,7 +34077,7 @@
         "aliases": [],
         "description": "Exceptions are a mechanism for handling errors and exceptional situations in a more structured and controlled way compared to traditional error handling methods like using error codes or ``die()`` statements. Exceptions provide a way to separate the normal flow of code from error-handling code, making it easier to manage errors and maintain clean and readable code.\n\nExceptions are thrown at the point of detection of the issue, and processed somewhere else in the code, when they are caught by a try-catch statement. Ultimately, exceptions block the execution of the application when they are not caught.",
         "code": "<?php\n\n    class Elephpant {\n        final const HABITAT = 1;\n\n        final function method() { }\n    }\n\n?>",
-        "documentation": "https://www.php.net/manual/en/language.exceptions.php",
+        "documentation": "https://www.php.net/manual/en/language.exception.php",
         "related": [
             "throw",
             "try-catch",
@@ -33706,7 +34118,7 @@
             {
                 "@type": "CreativeWork",
                 "name": "Documentation",
-                "url": "https://www.php.net/manual/en/language.exceptions.php"
+                "url": "https://www.php.net/manual/en/language.exception.php"
             },
             {
                 "@type": "CreativeWork",
@@ -33752,7 +34164,7 @@
         "author": "",
         "brand": "",
         "popularity": "",
-        "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+        "modified": "Wed, 14 Oct 2026 18:05:16 +0000"
     },
     {
         "id": "exception-chain",
@@ -33822,7 +34234,7 @@
             {
                 "@type": "CreativeWork",
                 "name": "Exceptions",
-                "url": "https://www.php.net/manual/en/language.exceptions.php"
+                "url": "https://www.php.net/manual/en/language.exception.php"
             },
             {
                 "@type": "CreativeWork",
@@ -33849,7 +34261,7 @@
         "author": "",
         "brand": "",
         "popularity": "",
-        "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+        "modified": "Wed, 14 Oct 2026 18:04:58 +0000"
     },
     {
         "id": "excimer",
@@ -35823,7 +36235,7 @@
         "aliases": [],
         "description": "Fatal error is a type of PHP error, which ends the execution of the application. Fatal errors may be caught before ending the execution with a ``catch`` clause on ``Error``.",
         "code": "<?php\n\n    try {\n        1 + [];\n    } catch (Error $e) {\n        print A fatal error was caught.;\n    }\n\n?>",
-        "documentation": "https://www.php.net/manual/en/language.errors.php7.php",
+        "documentation": "https://www.php.net/manual/en/class.error.php",
         "related": [
             "catchable-fatal-error",
             "deprecation",
@@ -35840,7 +36252,7 @@
             {
                 "@type": "CreativeWork",
                 "name": "Documentation",
-                "url": "https://www.php.net/manual/en/language.errors.php7.php"
+                "url": "https://www.php.net/manual/en/class.error.php"
             },
             {
                 "@type": "CreativeWork",
@@ -35866,7 +36278,7 @@
         "author": "",
         "brand": "",
         "popularity": "",
-        "modified": "Thu, 27 Aug 2026 04:45:24 +0000"
+        "modified": "Wed, 14 Oct 2026 18:05:35 +0000"
     },
     {
         "id": "fault-isolation",
@@ -37170,7 +37582,7 @@
         "aliases": [],
         "description": "Finally is the default clause of a try-catch expression. It is run after all the catch clauses have been called.\n\nFinally is run every time after a try, with or without any catch clause. It is also run before the return expression, if any.",
         "code": "<?php\n\n    try {\n        doSomething();\n    } catch (\\Exception $e) {\n        print \"An exception was raised and caught\";\n    } finally {\n        print \"Finally\\n\";\n    }\n\n?>",
-        "documentation": "https://www.php.net/manual/en/language.exceptions.php#language.exceptions.finally",
+        "documentation": "https://www.php.net/manual/en/language.exception.php#language.exceptions.finally",
         "related": [
             "try-catch",
             "catch",
@@ -37181,7 +37593,7 @@
             {
                 "@type": "CreativeWork",
                 "name": "Documentation",
-                "url": "https://www.php.net/manual/en/language.exceptions.php#language.exceptions.finally"
+                "url": "https://www.php.net/manual/en/language.exception.php#language.exceptions.finally"
             },
             {
                 "@type": "CreativeWork",
@@ -37210,7 +37622,7 @@
         "author": "",
         "brand": "",
         "popularity": "",
-        "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+        "modified": "Wed, 14 Oct 2026 18:05:56 +0000"
     },
     {
         "id": "finfo",
@@ -37588,7 +38000,11 @@
         "related": [
             "mock",
             "dataset",
-            "phpunit"
+            "phpunit",
+            "mocking",
+            "spy",
+            "test-double",
+            "test-framework"
         ],
         "citations": [
             {
@@ -37628,7 +38044,7 @@
         "author": "",
         "brand": "",
         "popularity": "",
-        "modified": "Sat, 08 Aug 2026 08:10:54 +0000"
+        "modified": "Wed, 14 Oct 2026 16:39:28 +0000"
     },
     {
         "id": "flag",
@@ -44417,7 +44833,11 @@
             "response",
             "http-headers",
             "rest-api",
-            "redirect"
+            "redirect",
+            "authorization-header",
+            "content-type-header",
+            "malformed-response-body",
+            "retry-after-header"
         ],
         "citations": [
             {
@@ -44452,7 +44872,7 @@
         "author": "",
         "brand": "",
         "popularity": "",
-        "modified": "Thu, 17 Sep 2026 08:08:51 +0000"
+        "modified": "Wed, 14 Oct 2026 16:39:28 +0000"
     },
     {
         "id": "http-encoding",
@@ -44521,7 +44941,14 @@
             "payload",
             "replay",
             "ttl",
-            "webhook"
+            "webhook",
+            "authorization-header",
+            "bearer-token",
+            "cdn",
+            "content-type-header",
+            "crlf-injection",
+            "csp",
+            "retry-after-header"
         ],
         "citations": [
             {
@@ -44565,7 +44992,7 @@
         "author": "",
         "brand": "",
         "popularity": "",
-        "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+        "modified": "Wed, 14 Oct 2026 16:39:28 +0000"
     },
     {
         "id": "http-headers",
@@ -45695,7 +46122,7 @@
         "aliases": [],
         "description": "``catch`` does not check that the caught exception exists. It simply checks that the raised exception match the class name, its parent or its interface. When a typo happens in the class name or the class does not exists, the clause fails every time. ",
         "code": "<?php\n\n    try {\n        callSomeMethod();\n    } catch (\\UndefinedException $e) {\n        die('This never happens');\n    } catch (\\Exception) {\n        // process the error here\n    }\n\n?>",
-        "documentation": "https://www.php.net/manual/en/language.exceptions.php",
+        "documentation": "https://www.php.net/manual/en/language.exception.php",
         "related": [
             "try-catch",
             "catch"
@@ -45704,7 +46131,7 @@
             {
                 "@type": "CreativeWork",
                 "name": "Documentation",
-                "url": "https://www.php.net/manual/en/language.exceptions.php"
+                "url": "https://www.php.net/manual/en/language.exception.php"
             }
         ],
         "tags": [
@@ -45724,7 +46151,7 @@
         "author": "",
         "brand": "",
         "popularity": "",
-        "modified": "Fri, 18 Sep 2026 09:30:59 +0000"
+        "modified": "Wed, 14 Oct 2026 18:06:19 +0000"
     },
     {
         "id": "image",
@@ -48340,7 +48767,11 @@
         "related": [
             "test",
             "end-to-end-test",
-            "unit-test"
+            "unit-test",
+            "acceptance-test",
+            "contract-test",
+            "functional-test",
+            "offline-test-suite"
         ],
         "citations": [
             {
@@ -48370,7 +48801,7 @@
         "author": "",
         "brand": "",
         "popularity": "",
-        "modified": "Sat, 08 Aug 2026 08:10:54 +0000"
+        "modified": "Wed, 14 Oct 2026 16:39:28 +0000"
     },
     {
         "id": "interface",
@@ -49880,7 +50311,7 @@
         "author": "",
         "brand": "",
         "popularity": "",
-        "modified": "Sat, 08 Aug 2026 08:10:54 +0000"
+        "modified": "Wed, 14 Oct 2026 17:40:46 +0000"
     },
     {
         "id": "isset",
@@ -50446,7 +50877,7 @@
         "name": "JavaScript Object Notation (JSON)",
         "url": "https://php-dictionary.readthedocs.io/en/latest/index/json.html",
         "aliases": [],
-        "description": "JSON, or JavaScript Object Notation, is a lightweight data-interchange format. It is easy for humans to read and write. It is easy for machines to parse and generate. It is based on a subset of the JavaScript Programming Language Standard ECMA-262 3rd Edition - December 1999.",
+        "description": "``JSON``, or JavaScript Object Notation, is a lightweight data-interchange format. It is easy for humans to read and write. It is easy for machines to parse and generate. It is based on a subset of the JavaScript Programming Language Standard ECMA-262 3rd Edition - December 1999.",
         "code": "<?php\n\n    $array = ['a' => 1, 'b' => \"c\", 'c' => [3, 4], 'd' => new stdclass()];\n    \n    echo json_encode($arr);\n    // displays {\\a\\:1,\\b\\:\\c\\,\\c\\:[3,4],\\d\\:{}}\n\n?>",
         "documentation": "https://www.php.net/json",
         "related": [
@@ -50476,7 +50907,11 @@
             "mongodb",
             "payload",
             "protobuf",
-            "json-ld"
+            "json-ld",
+            "composer.json",
+            "content-type-header",
+            "interoperability",
+            "malformed-response-body"
         ],
         "citations": [
             {
@@ -50521,7 +50956,7 @@
         "author": "",
         "brand": "",
         "popularity": "",
-        "modified": "Wed, 02 Sep 2026 15:09:13 +0000"
+        "modified": "Wed, 14 Oct 2026 17:40:30 +0000"
     },
     {
         "id": "json-ld",
@@ -50615,7 +51050,7 @@
             },
             {
                 "@type": "CreativeWork",
-                "name": "JSON constants (JSON_THROW_ON_ERROR)",
+                "name": "JSON constants",
                 "url": "https://www.php.net/manual/en/json.constants.php"
             }
         ],
@@ -50639,7 +51074,7 @@
         "author": "",
         "brand": "",
         "popularity": "",
-        "modified": "Fri, 25 Sep 2026 21:30:05 +0000"
+        "modified": "Wed, 14 Oct 2026 16:54:22 +0000"
     },
     {
         "id": "json_encode",
@@ -50663,8 +51098,8 @@
             },
             {
                 "@type": "CreativeWork",
-                "name": "Serialize and Deserialize JSON with PHP",
-                "url": "https://mojoauth.com/serialize-and-deserialize/serialize-and-deserialize-json-with-php"
+                "name": "How to encode and decode JSON in PHP?",
+                "url": "https://blog.nette.org/en/how-to-encode-and-decode-json-in-php"
             }
         ],
         "tags": [
@@ -50687,14 +51122,14 @@
         "author": "",
         "brand": "",
         "popularity": "",
-        "modified": "Sun, 23 Aug 2026 20:38:51 +0000"
+        "modified": "Wed, 14 Oct 2026 18:07:32 +0000"
     },
     {
         "id": "jsonc",
         "name": "JSON Lines (JSONC)",
         "url": "https://php-dictionary.readthedocs.io/en/latest/index/jsonc.html",
         "aliases": [],
-        "description": "JSONC, aka SON with Comments, is a superset of JSON that extends its functionality by allowing single-line ``//`` and multi-line ``/* */`` comments.\n \nThis feature is commonly used in configuration files to improve readability, enabling developers to annotate data directly within the JSON structure.\n \nUnlike standard JSON, which does not support comments, JSONC retains full compatibility with valid JSON. However, the reverse is not true: not all JSONC files are valid JSON.",
+        "description": "``JSONC``, aka SON with Comments, is a superset of JSON that extends its functionality by allowing single-line ``//`` and multi-line ``/* */`` comments.\n \nThis feature is commonly used in configuration files to improve readability, enabling developers to annotate data directly within the JSON structure.\n \nUnlike standard JSON, which does not support comments, ``JSONC`` retains full compatibility with valid JSON. However, the reverse is not true: not all ``JSONC`` files are valid JSON.",
         "code": "<?php\n\n    $JSONL = <<<JSONL\n{a:1}\n{b:2}\nJSONL;\n\nforeach(explode(\\n, $JSONL) as $line) {\n    print_r(json_decode($line));\n}\n\n/**\nstdClass Object\n(\n    [a] => 1\n)\nstdClass Object\n(\n    [b] => 2\n)\n*/\n\n?>",
         "documentation": "https://github.com/aleron75/jsonc",
         "related": [
@@ -50733,7 +51168,7 @@
         "author": "",
         "brand": "",
         "popularity": "",
-        "modified": "Sat, 08 Aug 2026 08:10:54 +0000"
+        "modified": "Wed, 14 Oct 2026 17:40:13 +0000"
     },
     {
         "id": "jsonexception",
@@ -50794,7 +51229,7 @@
         "aliases": [
             "ndjson"
         ],
-        "description": "JSONL, JSON Lines, is a text-based format where each line is a valid, independent JSON object, separated by newline characters. \n\nIt is ideal for storing structured data, large datasets, and logging, as it allows for streaming and processing files line-by-line without loading the entire file into memory. It is also known as newline-delimited JSON, NDJSON.",
+        "description": "JSONL, JSON Lines, is a text-based format where each line is a valid, independent JSON object, separated by newline characters. \n\nIt is ideal for storing structured data, large datasets, and logging, as it allows for streaming and processing files line-by-line without loading the entire file into memory. It is also known as newline-delimited ``JSON``, ``NDJSON``.",
         "code": "<?php\n\n    $JSONL = <<<JSONL\n{a:1}\n{b:2}\nJSONL;\n\nforeach(explode(\\n, $JSONL) as $line) {\n    print_r(json_decode($line));\n}\n\n/**\nstdClass Object\n(\n    [a] => 1\n)\nstdClass Object\n(\n    [b] => 2\n)\n*/\n\n?>",
         "documentation": "https://github.com/indykoning/php-jsonl",
         "related": [
@@ -50832,7 +51267,7 @@
         "author": "",
         "brand": "",
         "popularity": "",
-        "modified": "Sat, 08 Aug 2026 08:10:54 +0000"
+        "modified": "Wed, 14 Oct 2026 17:39:54 +0000"
     },
     {
         "id": "jsonserializable",
@@ -52196,6 +52631,66 @@
         "modified": "Tue, 11 Aug 2026 21:00:36 +0000"
     },
     {
+        "id": "least-privilege",
+        "name": "Least Privilege Principle",
+        "url": "https://php-dictionary.readthedocs.io/en/latest/index/least-privilege.html",
+        "aliases": [
+            "principle of least privilege"
+        ],
+        "description": "The principle of least privilege states that every user, process, service, or component should be granted only the minimum rights it needs to perform its task, and nothing more, for the minimum time needed.\n\nPrivileges are granted by default as narrowly as possible, and extended only when a concrete need is demonstrated. A web application that only reads from a table should connect to the database with a user that has ``SELECT`` rights, not with the administrator account. A script that only writes logs should not run as root. An API token issued for one service should not be able to reach the resources of another.\n\nThe principle limits the damage of a mistake or an attack: when a credential is leaked, a bug is exploited, or a dependency misbehaves, the reachable surface is small. This is the reason it is closely related to the blast radius of a failure. Least privilege is not the same as access control: access control decides who may do what, least privilege decides how much each actor is allowed to do in the first place.",
+        "code": "<?php\n\n    // Too much privilege: the application connects as the database owner\n    $pdo = new PDO('mysql:host=db;dbname=shop', 'root', $password);\n\n    // Least privilege: a dedicated user, limited to the operations it needs\n    // GRANT SELECT, INSERT ON shop.orders TO 'shop_app'@'%';\n    $pdo = new PDO('mysql:host=db;dbname=shop', 'shop_app', $password);\n\n?>",
+        "documentation": "https://en.wikipedia.org/wiki/Principle_of_least_privilege",
+        "related": [
+            "blast-radius",
+            "broken-access-control",
+            "rbac",
+            "acl",
+            "authorize",
+            "permission",
+            "typosquatting",
+            "supply-chain-attack",
+            "mfa"
+        ],
+        "citations": [
+            {
+                "@type": "CreativeWork",
+                "name": "Documentation",
+                "url": "https://en.wikipedia.org/wiki/Principle_of_least_privilege"
+            },
+            {
+                "@type": "CreativeWork",
+                "name": "OWASP Top 10: Broken Access Control",
+                "url": "https://owasp.org/Top10/2025/A01_2025-Broken_Access_Control/"
+            },
+            {
+                "@type": "CreativeWork",
+                "name": "NIST SP 800-53: AC-6 Least Privilege",
+                "url": "https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/SP_800_53_5_1_1/home?element=AC-6"
+            }
+        ],
+        "tags": [
+            "security",
+            "concept",
+            "best practice"
+        ],
+        "packagist": [],
+        "extensions": [],
+        "analyzers": [],
+        "cobblers": [],
+        "rule": "",
+        "phpVersionSince": "",
+        "phpVersionUntil": "",
+        "phpVersionDeprecated": "",
+        "phpErrors": [
+            ""
+        ],
+        "changedBehavior": "",
+        "author": "",
+        "brand": "",
+        "popularity": "",
+        "modified": "Wed, 14 Oct 2026 15:30:43 +0000"
+    },
+    {
         "id": "legacy",
         "name": "Legacy",
         "url": "https://php-dictionary.readthedocs.io/en/latest/index/legacy.html",
@@ -52995,8 +53490,8 @@
             },
             {
                 "@type": "CreativeWork",
-                "name": "PHP errors",
-                "url": "https://www.php.net/manual/en/language.errors.php"
+                "name": "PHP: Error",
+                "url": "https://www.php.net/manual/en/class.error.php"
             },
             {
                 "@type": "CreativeWork",
@@ -53022,7 +53517,7 @@
         "author": "",
         "brand": "",
         "popularity": "",
-        "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+        "modified": "Wed, 14 Oct 2026 18:16:11 +0000"
     },
     {
         "id": "linting",
@@ -55212,6 +55707,63 @@
         "brand": "",
         "popularity": "",
         "modified": "Thu, 09 Jul 2026 08:16:23 +0000"
+    },
+    {
+        "id": "malformed-response-body",
+        "name": "Malformed Response Body",
+        "url": "https://php-dictionary.readthedocs.io/en/latest/index/malformed-response-body.html",
+        "aliases": [
+            "malformed response",
+            "invalid response body"
+        ],
+        "description": "A malformed response body is an HTTP response whose content does not match what the client expects. Examples include invalid JSON, a truncated payload, an HTML error page returned instead of JSON, or a body missing a required field.\n\nThe status code can be 200 and the body still be unusable, so checking the status alone is not enough. Code that calls ``json_decode()`` must check for errors, and code that reads a field must handle its absence.\n\nTests should cover malformed bodies, using canned responses, to check that the client raises a clear error instead of crashing or silently returning wrong data.",
+        "code": "<?php\n\n    $data = json_decode($body, true);\n    if (json_last_error() !== JSON_ERROR_NONE || !is_array($data)) {\n        throw new UnexpectedValueException('Malformed response body');\n    }\n",
+        "documentation": "https://www.php.net/manual/en/function.json-last-error.php",
+        "related": [
+            "json",
+            "canned-response",
+            "error-handling",
+            "http-code",
+            "third-party-api"
+        ],
+        "citations": [
+            {
+                "@type": "CreativeWork",
+                "name": "Documentation",
+                "url": "https://www.php.net/manual/en/function.json-last-error.php"
+            },
+            {
+                "@type": "CreativeWork",
+                "name": "json_last_error()",
+                "url": "https://www.php.net/manual/en/function.json-last-error.php"
+            },
+            {
+                "@type": "CreativeWork",
+                "name": "JSON constants",
+                "url": "https://www.php.net/manual/en/json.constants.php"
+            }
+        ],
+        "tags": [
+            "http",
+            "error handling",
+            "json"
+        ],
+        "packagist": [],
+        "extensions": [],
+        "analyzers": [],
+        "cobblers": [],
+        "rule": "",
+        "phpVersionSince": "",
+        "phpVersionUntil": "",
+        "phpVersionDeprecated": "",
+        "phpErrors": [
+            ""
+        ],
+        "changedBehavior": "",
+        "author": "",
+        "brand": "",
+        "popularity": "",
+        "modified": "Wed, 14 Oct 2026 16:54:51 +0000"
     },
     {
         "id": "man-in-the-middle",
@@ -58166,9 +58718,7 @@
         "id": "mock",
         "name": "Mock",
         "url": "https://php-dictionary.readthedocs.io/en/latest/index/mock.html",
-        "aliases": [
-            "test-double"
-        ],
+        "aliases": [],
         "description": "A mock replaces a code dependency with an object, to make testing easier. Mocks are used when the dependency is difficult to set in a reproducible state: for example, in a rare state, or after a long set up.\n\nMocks turns the dependency into another piece of code, with total control over its behavior. \n\nOn the other hand, mocks have to be coded to replace the dependency, and emulates its behavior as closely as possible: any change to the dependency behavior has to be back-ported. \n\nMock objects are also called ``test double``.",
         "code": "",
         "documentation": "https://www.radview.com/glossary/what-is-mock-testing/",
@@ -58176,6 +58726,7 @@
             "test-data-provider",
             "spy",
             "fixture",
+            "test-double",
             "use-alias"
         ],
         "citations": [
@@ -58186,7 +58737,7 @@
             },
             {
                 "@type": "CreativeWork",
-                "name": "Test doubles",
+                "name": "Test doubles (PHPUnit)",
                 "url": "https://docs.phpunit.de/en/13.1/test-doubles.html#test-doubles"
             },
             {
@@ -58225,7 +58776,70 @@
         "author": "",
         "brand": "",
         "popularity": "",
-        "modified": "Tue, 11 Aug 2026 14:21:58 +0000"
+        "modified": "Wed, 14 Oct 2026 16:55:27 +0000"
+    },
+    {
+        "id": "mocking",
+        "name": "Mocking",
+        "url": "https://php-dictionary.readthedocs.io/en/latest/index/mocking.html",
+        "aliases": [
+            "mocks"
+        ],
+        "description": "Mocking is the practice of replacing a dependency with a controlled object during a test. The code under test calls the mock as if it were the real dependency, and the test decides what it returns and checks how it was called.\n\nMocking is useful when the real dependency is slow, unavailable, or hard to put in a specific state: a remote API, a payment gateway, a clock, or a rare error condition.\n\nMocks have a cost. They must imitate the behaviour of the real dependency, so any change to that dependency has to be reflected in the mock. Tests that mock too much end up checking the mock rather than the code.\n\nMocking is done by hand, with an anonymous class, or with a library such as PHPUnit's mock builder, Mockery or Prophecy.",
+        "code": "",
+        "documentation": "https://martinfowler.com/articles/mocksArentStubs.html",
+        "related": [
+            "mock",
+            "test-double",
+            "spy",
+            "fixture",
+            "third-party-api"
+        ],
+        "citations": [
+            {
+                "@type": "CreativeWork",
+                "name": "Documentation",
+                "url": "https://martinfowler.com/articles/mocksArentStubs.html"
+            },
+            {
+                "@type": "CreativeWork",
+                "name": "Mocking",
+                "url": "https://laravel.com/docs/13.x/mocking"
+            },
+            {
+                "@type": "CreativeWork",
+                "name": "Test doubles (PHPUnit)",
+                "url": "https://docs.phpunit.de/en/13.1/test-doubles.html#test-doubles"
+            },
+            {
+                "@type": "CreativeWork",
+                "name": "Avoid mocking repositories by using in-memory implementations",
+                "url": "https://danielrotter.at/2023/09/22/avoid-mocking-repositories-by-using-in-memory-implementations.html"
+            }
+        ],
+        "tags": [
+            "test",
+            "best practice"
+        ],
+        "packagist": [
+            "mockery/mockery",
+            "phpspec/prophecy"
+        ],
+        "extensions": [],
+        "analyzers": [],
+        "cobblers": [],
+        "rule": "",
+        "phpVersionSince": "",
+        "phpVersionUntil": "",
+        "phpVersionDeprecated": "",
+        "phpErrors": [
+            ""
+        ],
+        "changedBehavior": "",
+        "author": "",
+        "brand": "",
+        "popularity": "",
+        "modified": "Wed, 14 Oct 2026 16:55:56 +0000"
     },
     {
         "id": "model",
@@ -63867,6 +64481,62 @@
         "brand": "",
         "popularity": "",
         "modified": "Fri, 07 Aug 2026 09:44:22 +0000"
+    },
+    {
+        "id": "offline-test-suite",
+        "name": "Offline Test Suite",
+        "url": "https://php-dictionary.readthedocs.io/en/latest/index/offline-test-suite.html",
+        "aliases": [
+            "offline tests"
+        ],
+        "description": "An offline test suite is a set of tests that run without network access. Every external dependency, such as an HTTP API, a database service or a message queue, is replaced by a test double or a canned response.\n\nOffline tests are fast, can run on a laptop without credentials, and do not fail because a remote service is down or rate limited. They are reproducible: the same code gives the same result every time.\n\nAn offline suite does not prove that the code works with the real service. That check belongs to a separate, optional live sandbox or integration suite, and to contract tests.",
+        "code": "",
+        "documentation": "https://martinfowler.com/articles/mocksArentStubs.html",
+        "related": [
+            "unit-test",
+            "integration-test",
+            "canned-response",
+            "test-double",
+            "deterministic",
+            "sandbox"
+        ],
+        "citations": [
+            {
+                "@type": "CreativeWork",
+                "name": "Documentation",
+                "url": "https://martinfowler.com/articles/mocksArentStubs.html"
+            },
+            {
+                "@type": "CreativeWork",
+                "name": "Laravel: Preventing stray requests",
+                "url": "https://laravel.com/docs/13.x/http-client#preventing-stray-requests"
+            },
+            {
+                "@type": "CreativeWork",
+                "name": "Test doubles (PHPUnit)",
+                "url": "https://docs.phpunit.de/en/13.1/test-doubles.html#test-doubles"
+            }
+        ],
+        "tags": [
+            "test",
+            "best practice"
+        ],
+        "packagist": [],
+        "extensions": [],
+        "analyzers": [],
+        "cobblers": [],
+        "rule": "",
+        "phpVersionSince": "",
+        "phpVersionUntil": "",
+        "phpVersionDeprecated": "",
+        "phpErrors": [
+            ""
+        ],
+        "changedBehavior": "",
+        "author": "",
+        "brand": "",
+        "popularity": "",
+        "modified": "Wed, 14 Oct 2026 16:37:44 +0000"
     },
     {
         "id": "offset",
@@ -72193,7 +72863,7 @@
             {
                 "@type": "CreativeWork",
                 "name": "IEEE Std 1003.1-2008 (POSIX.1)",
-                "url": "https://standards.ieee.org/findstds/standard/1003.1-2008.html"
+                "url": "https://standards.ieee.org/ieee/1003.1/7700/"
             }
         ],
         "tags": [
@@ -72218,7 +72888,7 @@
         "author": "",
         "brand": "",
         "popularity": "",
-        "modified": "Fri, 09 Oct 2026 17:24:01 +0000"
+        "modified": "Wed, 14 Oct 2026 18:09:01 +0000"
     },
     {
         "id": "post-increment",
@@ -73935,7 +74605,11 @@
             "computed-property",
             "data-hiding",
             "modifier",
-            "mutable-state"
+            "mutable-state",
+            "constructor-property-promotion",
+            "nullsafe-object-operator",
+            "object-operator",
+            "short-assignation"
         ],
         "citations": [
             {
@@ -73968,7 +74642,7 @@
         "author": "",
         "brand": "",
         "popularity": "",
-        "modified": "Thu, 17 Sep 2026 07:38:40 +0000"
+        "modified": "Wed, 14 Oct 2026 16:39:28 +0000"
     },
     {
         "id": "property-based-testing",
@@ -79237,7 +79911,7 @@
             {
                 "@type": "CreativeWork",
                 "name": "Exceptions",
-                "url": "https://www.php.net/manual/en/language.exceptions.php"
+                "url": "https://www.php.net/manual/en/language.exception.php"
             }
         ],
         "tags": [
@@ -79260,7 +79934,7 @@
         "author": "",
         "brand": "",
         "popularity": "",
-        "modified": "Tue, 11 Aug 2026 21:02:10 +0000"
+        "modified": "Wed, 14 Oct 2026 18:09:21 +0000"
     },
     {
         "id": "responsability",
@@ -79500,7 +80174,12 @@
             "cascading-failure",
             "replay",
             "resilience",
-            "worker"
+            "worker",
+            "chaos-engineering",
+            "deadline",
+            "retry-after-header",
+            "third-party-api",
+            "timeout"
         ],
         "citations": [
             {
@@ -79538,7 +80217,65 @@
         "author": "",
         "brand": "",
         "popularity": "",
-        "modified": "Tue, 18 Aug 2026 05:24:52 +0000"
+        "modified": "Wed, 14 Oct 2026 16:39:28 +0000"
+    },
+    {
+        "id": "retry-after-header",
+        "name": "Retry-After Header",
+        "url": "https://php-dictionary.readthedocs.io/en/latest/index/retry-after-header.html",
+        "aliases": [
+            "Retry-After"
+        ],
+        "description": "The Retry-After header tells a client how long to wait before sending another request. It is usually sent with a 429 Too Many Requests response, when the client has hit a rate limit, and with a 503 Service Unavailable response during maintenance.\n\nThe value is either a number of seconds, such as ``Retry-After: 120``, or an HTTP date, such as ``Retry-After: Wed, 21 Oct 2026 07:28:00 GMT``.\n\nA client should honour this header before retrying, rather than using its own fixed delay. Retrying immediately makes rate limiting worse, and a correct retry loop reads the header, waits, and only then tries again, with a maximum number of attempts.",
+        "code": "<?php\n\n    $wait = (int) $response->getHeaderLine('Retry-After');\n    if ($wait > 0) {\n        sleep($wait);\n    }\n",
+        "documentation": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Retry-After",
+        "related": [
+            "retry",
+            "retry-logic",
+            "rate-limit",
+            "http-code",
+            "http-header",
+            "timeout",
+            "third-party-api"
+        ],
+        "citations": [
+            {
+                "@type": "CreativeWork",
+                "name": "Documentation",
+                "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Retry-After"
+            },
+            {
+                "@type": "CreativeWork",
+                "name": "RFC 9110: Retry-After",
+                "url": "https://datatracker.ietf.org/doc/html/rfc9110#section-10.2.3"
+            },
+            {
+                "@type": "CreativeWork",
+                "name": "MDN: Retry-After",
+                "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Retry-After"
+            }
+        ],
+        "tags": [
+            "header",
+            "http",
+            "rate limiting"
+        ],
+        "packagist": [],
+        "extensions": [],
+        "analyzers": [],
+        "cobblers": [],
+        "rule": "",
+        "phpVersionSince": "",
+        "phpVersionUntil": "",
+        "phpVersionDeprecated": "",
+        "phpErrors": [
+            ""
+        ],
+        "changedBehavior": "",
+        "author": "",
+        "brand": "",
+        "popularity": "",
+        "modified": "Wed, 14 Oct 2026 16:37:45 +0000"
     },
     {
         "id": "return",
@@ -81103,7 +81840,7 @@
         "name": "Software Bill Of Material (SBOM)",
         "url": "https://php-dictionary.readthedocs.io/en/latest/index/sbom.html",
         "aliases": [],
-        "description": "A Software Bill of Materials, aka SBOM, is a formal, machine-readable inventory of all components, libraries, and dependencies used in a software project. It lists every piece of code, directly included or indirectly pulled in via dependencies, so one knows exactly what's in the application source code. It makes it possible to track vulnerabilities, licenses, and outdated libraries.\n\nFor PHP projects, an SBOM typically contains:\n\n+ Composer dependencies: these are the packages listed in composer.json, and their actual version in composer.lock\n+ PHP version, core extensions and third party extensions\n+ System dependencies versions: the underlying libraries that PHP extensions depend upon\n+ Licenses for each component\n+ Known vulnerabilities, if any, such as CVEs from the PHP Security Advisories Database\n\nSBOM uses the CycloneDX format as a standard.\n",
+        "description": "A Software Bill of Materials, aka ``SBOM``, is a formal, machine-readable inventory of all components, libraries, and dependencies used in a software project. It lists every piece of code, directly included or indirectly pulled in via dependencies, so one knows exactly what's in the application source code. It makes it possible to track vulnerabilities, licenses, and outdated libraries.\n\nFor PHP projects, a ``SBOM`` typically contains:\n\n+ Composer dependencies: these are the packages listed in composer.json, and their actual version in composer.lock\n+ PHP version, core extensions and third party extensions\n+ System dependencies versions: the underlying libraries that PHP extensions depend upon\n+ Licenses for each component\n+ Known vulnerabilities, if any, such as CVEs from the PHP Security Advisories Database\n\n``SBOM`` uses the CycloneDX format as a standard.\n",
         "code": "",
         "documentation": "https://en.wikipedia.org/wiki/Software_supply_chain",
         "related": [
@@ -81147,7 +81884,7 @@
         "author": "",
         "brand": "",
         "popularity": "",
-        "modified": "Wed, 19 Aug 2026 06:47:38 +0000"
+        "modified": "Wed, 14 Oct 2026 17:39:26 +0000"
     },
     {
         "id": "sca",
@@ -81157,7 +81894,7 @@
             "static-code-analysis",
             "static-analysis"
         ],
-        "description": "Static code analysis, or SCA or static analysis, analyzes the source code: it reports possible bugs, conventions violations, incorrect structures, vulnerabilities, versions or OS portability incompatibilities, etc. \n\nPHP includes static code analysis, by reporting a wide range of errors before executing the code, at linting time. Then, the other errors are reported at execution time. SCA works in-between these two phases: after the code compiles, but before it is executed. \n\nSCA is usually invoked manually, during development time, at commit time, to avoid pushing incorrect code, and in CI/CD pipelines, to ensure it was correctly run.",
+        "description": "Static code analysis, or ``SCA`` or static analysis, analyzes the source code: it reports possible bugs, conventions violations, incorrect structures, vulnerabilities, versions or OS portability incompatibilities, etc. \n\nPHP includes static code analysis, by reporting a wide range of errors before executing the code, at linting time. Then, the other errors are reported at execution time. ``SCA`` works in-between these two phases: after the code compiles, but before it is executed. \n\n``SCA`` is usually invoked manually, during development time, at commit time, to avoid pushing incorrect code, and in CI/CD pipelines, to ensure it was correctly run.",
         "code": "",
         "documentation": "https://en.wikipedia.org/wiki/Static_program_analysis",
         "related": [
@@ -81230,7 +81967,7 @@
             "mago": "https://github.com/carthage-software/mago"
         },
         "popularity": "",
-        "modified": "Thu, 17 Sep 2026 08:58:28 +0000"
+        "modified": "Wed, 14 Oct 2026 17:39:07 +0000"
     },
     {
         "id": "scaffolding",
@@ -81595,7 +82332,7 @@
         "name": "Software Development Kit (SDK)",
         "url": "https://php-dictionary.readthedocs.io/en/latest/index/sdk.html",
         "aliases": [],
-        "description": "SDK stands for Software Development Kit. It is a set of tools, libraries, documentation, and resources that developers use to create software applications for specific platforms, frameworks, or programming languages. SDKs provide a structured way for developers to access and utilize the features and capabilities of a particular software platform or service.\n\nAn SDK typically includes:\n\n+ Libraries: pre-written code modules that provide functions and classes to perform specific tasks.\n+ Documentation: guides, tutorials, and reference materials that explain how to use the SDK and its components.\n+ Sample code: example code snippets or complete applications that demonstrate how to use the SDK in practice.\n+ Tools: utilities and software programs that aid in the development, debugging, and testing of applications.\n+ API: interfaces that define how software components should interact with each other, allowing developers to integrate their applications with the platform or service provided by the SDK.\n\nSDKs are commonly provided by companies or organizations to encourage developers to build applications that integrate with their platforms, such as mobile operating systems, cloud computing services, social media platforms, and many others.",
+        "description": "SDK stands for Software Development Kit. It is a set of tools, libraries, documentation, and resources that developers use to create software applications for specific platforms, frameworks, or programming languages. SDK provide a structured way for developers to access and utilize the features and capabilities of a particular software platform or service.\n\nAn SDK typically includes:\n\n+ Libraries: pre-written code modules that provide functions and classes to perform specific tasks.\n+ Documentation: guides, tutorials, and reference materials that explain how to use the SDK and its components.\n+ Sample code: example code snippets or complete applications that demonstrate how to use the SDK in practice.\n+ Tools: utilities and software programs that aid in the development, debugging, and testing of applications.\n+ API: interfaces that define how software components should interact with each other, allowing developers to integrate their applications with the platform or service provided by the SDK.\n\nSDK are commonly provided by companies or organizations to encourage developers to build applications that integrate with their platforms, such as mobile operating systems, cloud computing services, social media platforms, and many others.",
         "code": "",
         "documentation": "https://en.wikipedia.org/wiki/Software_development_kit",
         "related": [
@@ -81635,7 +82372,7 @@
         "author": "",
         "brand": "",
         "popularity": "",
-        "modified": "Wed, 19 Aug 2026 06:47:39 +0000"
+        "modified": "Wed, 14 Oct 2026 17:38:46 +0000"
     },
     {
         "id": "sdlc",
@@ -81759,7 +82496,7 @@
             "full-text-search",
             "search-index"
         ],
-        "description": "A search engine is a system that indexes and retrieves data based on queries. In applications, a search engine typically refers to a dedicated search service or library that provides full-text search capabilities beyond what a relational database can offer natively.\n\nPopular search engines used with PHP projects include Elasticsearch, OpenSearch, Meilisearch, Typesense, and Apache Solr. They offer features such as full-text indexing, relevance ranking, faceted search, autocomplete, and typo tolerance.\n\nSearch engines usually operate as external services communicating via HTTP APIs. PHP libraries are used as clients to index documents and execute queries against the engine.",
+        "description": "A search engine is a system that indexes and retrieves data based on queries. In applications, a search engine typically refers to a dedicated search service or library that provides full-text search capabilities beyond what a relational database can offer natively.\n\nPopular search engines used with PHP projects include ``Elasticsearch``, ``OpenSearch``, ``Meilisearch``, ``Typesense``, and ``Apache Solr``. They offer features such as full-text indexing, relevance ranking, faceted search, autocomplete, and typo tolerance.\n\nSearch engines usually operate as external services communicating via HTTP APIs. PHP libraries are used as clients to index documents and execute queries against the engine.",
         "code": "<?php\n\n    // Indexing a document with Elasticsearch PHP client\n    use Elastic\\Elasticsearch\\ClientBuilder;\n    \n    $client = ClientBuilder::create()\n        ->setHosts(['localhost:9200'])\n        ->build();\n    \n    $client->index([\n        'index' => 'products',\n        'id'    => 42,\n        'body'  => [\n            'title'       => 'Widget Pro',\n            'description' => 'A high-quality widget for professionals.',\n            'price'       => 29.99,\n        ],\n    ]);\n    \n    // Searching documents\n    $response = $client->search([\n        'index' => 'products',\n        'body'  => [\n            'query' => [\n                'match' => ['description' => 'widget'],\n            ],\n        ],\n    ]);\n    \n    foreach ($response['hits']['hits'] as $hit) {\n        echo $hit['_source']['title'] . PHP_EOL;\n    }\n\n?>",
         "documentation": "https://www.elastic.co/guide/en/elasticsearch/client/php-api/current/index.html",
         "related": [
@@ -81809,7 +82546,7 @@
         "author": "",
         "brand": "",
         "popularity": "",
-        "modified": "Fri, 10 Jul 2026 09:21:48 +0000"
+        "modified": "Wed, 14 Oct 2026 17:37:51 +0000"
     },
     {
         "id": "second-order-sql-injection",
@@ -82639,7 +83376,7 @@
         "aliases": [
             "search-engine-optimization"
         ],
-        "description": "Search Engine Optimization, or SEO, is the practice of improving a website so that search engines rank it higher in search results. From a PHP developer's perspective, SEO involves both the content served and the technical implementation.\n\nKey technical SEO factors influenced by PHP code include:\n\n+ Generating clean, semantic HTML\n+ Managing canonical URLs and redirects, HTTP codes 301/302\n+ Serving proper HTTP status codes, HTTP codes 404, 410, etc.\n+ Controlling caching headers for fast page loads\n+ Generating XML sitemaps and robots.txt dynamically\n+ Handling ``<meta>`` tags, Open Graph, and structured data, like JSON-LD\n+ Producing human-readable, keyword-rich URLs, or slugs\n\nPHP-based CMSs and frameworks such as WordPress, Drupal, Symfony, and Laravel all have dedicated SEO plugins or packages.\n\nCommon pitfalls include duplicate content, when missing canonical tags, slow response times, broken links, and incorrect use of HTTP status codes.",
+        "description": "Search Engine Optimization, or SEO, is the practice of improving a website so that search engines rank it higher in search results. From a PHP developer's perspective, SEO involves both the content served and the technical implementation.\n\nKey technical SEO factors influenced by PHP code include:\n\n+ Generating clean, semantic HTML\n+ Managing canonical URLs and redirects, HTTP codes 301/302\n+ Serving proper HTTP status codes, HTTP codes 404, 410, etc.\n+ Controlling caching headers for fast page loads\n+ Generating XML sitemaps and robots.txt dynamically\n+ Handling ``<meta>`` tags, Open Graph, and structured data, like JSON-LD\n+ Producing human-readable, keyword-rich URLs, or slugs\n\nPHP-based CMS and frameworks such as WordPress, Drupal, Symfony, and Laravel all have dedicated SEO plugins or packages.\n\nCommon pitfalls include duplicate content, when missing canonical tags, slow response times, broken links, and incorrect use of HTTP status codes.",
         "code": "<?php\n\n    // Canonical URL header\n    header('Link: <https://example.com/page>; rel=\"canonical\"');\n\n    // Permanent redirect\n    header('Location: https://example.com/new-url', true, 301);\n    exit;\n\n?>",
         "documentation": "https://en.wikipedia.org/wiki/Search_engine_optimization",
         "related": [
@@ -82692,7 +83429,7 @@
         "author": "",
         "brand": "",
         "popularity": "",
-        "modified": "Mon, 15 Jun 2026 11:03:59 +0000"
+        "modified": "Wed, 14 Oct 2026 17:37:31 +0000"
     },
     {
         "id": "separation-of-concerns",
@@ -83050,7 +83787,7 @@
         "name": "serialize_precision",
         "url": "https://php-dictionary.readthedocs.io/en/latest/index/serialize_precision.html",
         "aliases": [],
-        "description": "The ``serialize_precision`` PHP ini directive controls the number of significant digits used when serializing float values via ``serialize()`` and ``json_encode()``.\n\nSince PHP 7.1, the default is ``-1``, which uses the minimum number of digits needed to uniquely represent each float, ensuring round-trip fidelity. A positive integer value uses that many significant digits instead, which may introduce rounding.",
+        "description": "The ``serialize_precision`` directive controls the number of significant digits used when serializing float values via ``serialize()`` and ``json_encode()``.\n\nSince PHP 7.1, the default is ``-1``, which uses the minimum number of digits needed to uniquely represent each float, ensuring round-trip fidelity. A positive integer value uses that many significant digits instead, which may introduce rounding.",
         "code": "<?php\n\n    // With serialize_precision = -1 (default since PHP 7.1)\n    $value = 3.141592653589793;\n    echo json_encode($value);\n    // outputs: 3.141592653589793\n    \n    // With serialize_precision = 14\n    // outputs: 3.1415926535898\n\n?>",
         "documentation": "https://www.php.net/manual/en/ini.core.php#ini.serialize-precision",
         "related": [
@@ -83092,7 +83829,7 @@
         "author": "",
         "brand": "",
         "popularity": "",
-        "modified": "Mon, 06 Jul 2026 10:22:47 +0000"
+        "modified": "Wed, 14 Oct 2026 17:37:05 +0000"
     },
     {
         "id": "server",
@@ -83203,7 +83940,7 @@
         "name": "Serverless",
         "url": "https://php-dictionary.readthedocs.io/en/latest/index/serverless.html",
         "aliases": [],
-        "description": "Serverless computing is an execution model where a cloud provider allocates compute resources on demand, scaling to zero when idle. Developers deploy functions or entire applications without managing servers.\n\nPHP runs serverlessly via AWS Lambda with Bref, Google Cloud Functions, Azure Functions, or Vercel. The ``bref`` package is the most common bridge, wrapping PHP applications for Lambda execution.",
+        "description": "Serverless computing is an execution model where a cloud provider allocates compute resources on demand, scaling to zero when idle. Developers deploy functions or entire applications without managing servers.\n\nPHP runs serverlessly via AWS Lambda with ``Bref``, ``Google Cloud Functions``, ``Azure Functions``, or ``Vercel``. The ``bref`` package is the most common bridge, wrapping PHP applications for Lambda execution.",
         "code": "",
         "documentation": "https://en.wikipedia.org/wiki/Serverless_computing",
         "related": [
@@ -83254,7 +83991,7 @@
             "Bref": "https://bref.sh"
         },
         "popularity": "",
-        "modified": "Fri, 18 Sep 2026 05:00:12 +0000"
+        "modified": "Wed, 14 Oct 2026 17:36:42 +0000"
     },
     {
         "id": "service",
@@ -83465,7 +84202,7 @@
         "name": "Service Registry",
         "url": "https://php-dictionary.readthedocs.io/en/latest/index/service-registry.html",
         "aliases": [],
-        "description": "A service registry is a database of available service instances in a distributed system. Each instance registers itself on startup, providing its host, port, health endpoint, and metadata, and deregisters on shutdown. Consumers query the registry to discover where to send requests.\n\nThe registry must be highly available and consistent, since all service communication depends on it. Common implementations are Consul, Etcd, and Apache ZooKeeper. Kubernetes uses its own internal DNS and etcd-backed service registry transparently.\n\nServices are expected to send periodic heartbeats to the registry; instances that fail to heartbeat are automatically removed, ensuring the registry only lists healthy instances.\n\nWith microservices, the registry is rarely queried directly. Kubernetes DNS or an API gateway abstracts it. When using Consul directly, PHP can register via the Consul HTTP API at startup, e.g., in a Swoole or FrankenPHP worker, and query it for service locations.",
+        "description": "A service registry is a database of available service instances in a distributed system. Each instance registers itself on startup, providing its host, port, health endpoint, and metadata, and deregisters on shutdown. Consumers query the registry to discover where to send requests.\n\nThe registry must be highly available and consistent, since all service communication depends on it. Common implementations are ``Consul``, ``Etcd``, and ``Apache ZooKeeper``. ``Kubernetes`` uses its own internal DNS and etcd-backed service registry transparently.\n\nServices are expected to send periodic heartbeats to the registry; instances that fail to heartbeat are automatically removed, ensuring the registry only lists healthy instances.\n\nWith microservices, the registry is rarely queried directly. Kubernetes DNS or an API gateway abstracts it. When using Consul directly, PHP can register via the ``Consul`` HTTP API at startup, e.g., in a Swoole or FrankenPHP worker, and query it for service locations.",
         "code": "<?php\n\n    // Register this PHP service instance with Consul on startup\n    $payload = [\n        'Name'    => 'order-service',\n        'ID'      => 'order-service-' . gethostname(),\n        'Address' => gethostbyname(gethostname()),\n        'Port'    => 8080,\n        'Check'   => [\n            'HTTP'     => 'http://' . gethostbyname(gethostname()) . ':8080/health',\n            'Interval' => '10s',\n            'Timeout'  => '2s',\n        ],\n    ];\n    \n    $ch = curl_init('http://consul:8500/v1/agent/service/register');\n    curl_setopt($ch, CURLOPT_CUSTOMREQUEST, 'PUT');\n    curl_setopt($ch, CURLOPT_POSTFIELDS, json_encode($payload));\n    curl_setopt($ch, CURLOPT_HTTPHEADER, ['Content-Type: application/json']);\n    curl_exec($ch);\n\n?>",
         "documentation": "https://microservices.io/patterns/service-registry.html",
         "related": [
@@ -83508,7 +84245,7 @@
             "Apache ZooKeeper": "https://zookeeper.apache.org/"
         },
         "popularity": "",
-        "modified": "Fri, 18 Sep 2026 05:00:18 +0000"
+        "modified": "Wed, 14 Oct 2026 17:36:03 +0000"
     },
     {
         "id": "session",
@@ -84935,7 +85672,7 @@
         "aliases": [
             "short-open-tag-directive"
         ],
-        "description": "``short_open_tag`` is a php.ini directive that controls whether the short PHP opening tag ``<?`` is recognised by the parser.\n\nWhen ``short_open_tag = Off``, only ``<?php`` and ``<?=`` are valid opening tags. This is the recommended setting and the default since version 7.0.\n\nThe directive also affects ASP-style tags ``<% %>``, which were removed entirely in version 7.0.\n\nUsing short tags in production code is discouraged because the code breaks silently when ``short_open_tag`` is disabled, which frequently happens on shared hosting or when moving between environments.",
+        "description": "``short_open_tag`` is a ``php.ini`` directive that controls whether the short PHP opening tag ``<?`` is recognised by the parser.\n\nWhen ``short_open_tag = Off``, only ``<?php`` and ``<?=`` are valid opening tags. This is the recommended setting and the default since version 7.0.\n\nThe directive also affects ASP-style tags ``<% %>``, which were removed entirely in version 7.0.\n\nUsing short tags in production code is discouraged because the code breaks silently when ``short_open_tag`` is disabled, which frequently happens on shared hosting or when moving between environments.",
         "code": "<?php\n\n    // php.ini\n    // short_open_tag = Off   (recommended)\n    // short_open_tag = On    (legacy / risky)\n    \n    // With short_open_tag = On, these are equivalent:\n    //   <?php echo $trunk; ?>\n    //   <? echo $trunk; ?>\n\n    // <?= is always available since PHP 5.4, regardless of the directive.\n    echo $trunk;\n\n?>",
         "documentation": "https://www.php.net/manual/en/ini.core.php#ini.short-open-tag",
         "related": [
@@ -84978,7 +85715,7 @@
         "author": "",
         "brand": "",
         "popularity": "",
-        "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+        "modified": "Wed, 14 Oct 2026 17:34:56 +0000"
     },
     {
         "id": "shuffle",
@@ -87829,7 +88566,7 @@
         "aliases": [
             "hashids"
         ],
-        "description": "Sqids, formerly known as Hashids, is an open-source library that encodes one or more non-negative integers into short, YouTube-like alphanumeric strings, and decodes them back.\n\nThe generated strings are URL-safe, avoid common profanity by design, and can use a custom alphabet and a minimum length. Sqids is not a cryptographic function: the encoding is deterministic and reversible by anyone who knows the alphabet and salt used. It is therefore suited for obfuscating sequential integer IDs in URLs to prevent enumeration, not for security-sensitive encoding.\n\nA key difference from ``UUID`` and ``ULID`` is that Sqids encode existing integers rather than generating new identifiers. They are most useful when a database already uses auto-increment primary keys and exposing those raw integers in URLs is undesirable.",
+        "description": "``Sqids``, formerly known as ``Hashids``, is an open-source library that encodes one or more non-negative integers into short, YouTube-like alphanumeric strings, and decodes them back.\n\nThe generated strings are URL-safe, avoid common profanity by design, and can use a custom alphabet and a minimum length. Sqids is not a cryptographic function: the encoding is deterministic and reversible by anyone who knows the alphabet and salt used. It is therefore suited for obfuscating sequential integer IDs in URLs to prevent enumeration, not for security-sensitive encoding.\n\nA key difference from ``UUID`` and ``ULID`` is that Sqids encode existing integers rather than generating new identifiers. They are most useful when a database already uses auto-increment primary keys and exposing those raw integers in URLs is undesirable.",
         "code": "<?php\n\n    use Sqids\\Sqids;\n\n    $sqids = new Sqids();\n\n    $id = $sqids->encode([1, 2, 3]); // e.g. 'TmhB'\n    $numbers = $sqids->decode($id);  // [1, 2, 3]\n\n    // Custom alphabet and minimum length\n    $sqids = new Sqids(alphabet: 'abcdefghij', minLength: 8);\n    echo $sqids->encode([42]); // e.g. 'dfidbicd'\n\n?>",
         "documentation": "https://sqids.org/php",
         "related": [
@@ -87878,7 +88615,7 @@
         "author": "",
         "brand": "",
         "popularity": "",
-        "modified": "Sun, 02 Aug 2026 06:03:20 +0000"
+        "modified": "Wed, 14 Oct 2026 17:34:28 +0000"
     },
     {
         "id": "sql",
@@ -87947,7 +88684,7 @@
         "name": "SQL Database",
         "url": "https://php-dictionary.readthedocs.io/en/latest/index/sql-database.html",
         "aliases": [],
-        "description": "A SQL database is a database server that processes data based on the SQL language.\n\nPHP is able to connect to many databases, including SQLite3, MySQL, MariaDB, PostgreSQL, Oracle, MSSQL, etc.",
+        "description": "A SQL database is a database server that processes data based on the SQL language.\n\nPHP is able to connect to many databases, including ``SQLite3``, ``MySQL``, ``MariaDB``, ``PostgreSQL``, ``Oracle``, ``MSSQL``, etc.",
         "code": "",
         "documentation": "https://en.wikipedia.org/wiki/SQL",
         "related": [
@@ -87992,7 +88729,7 @@
         "author": "",
         "brand": "",
         "popularity": "",
-        "modified": "Fri, 11 Sep 2026 09:41:55 +0000"
+        "modified": "Wed, 14 Oct 2026 17:34:09 +0000"
     },
     {
         "id": "sql-injection",
@@ -92140,7 +92877,11 @@
         "related": [
             "supply-chain",
             "sbom",
-            "poisoned-pipeline-execution"
+            "poisoned-pipeline-execution",
+            "attack-surface",
+            "least-privilege",
+            "mfa",
+            "typosquatting"
         ],
         "citations": [
             {
@@ -92190,7 +92931,7 @@
         "author": "",
         "brand": "",
         "popularity": "",
-        "modified": "Sat, 08 Aug 2026 08:10:54 +0000"
+        "modified": "Wed, 14 Oct 2026 16:39:28 +0000"
     },
     {
         "id": "surrogate-key",
@@ -93190,11 +93931,6 @@
             },
             {
                 "@type": "CreativeWork",
-                "name": "Vertical Tab (\\v) in PHP",
-                "url": "https://compile7.org/special-characters/how-to-use-vertical-tab-v-in-php/"
-            },
-            {
-                "@type": "CreativeWork",
                 "name": "Elastic tabstops - a better way to indent and align code",
                 "url": "https://nick-gravgaard.com/elastic-tabstops/"
             }
@@ -93217,7 +93953,7 @@
         "author": "",
         "brand": "",
         "popularity": "",
-        "modified": "Thu, 01 Oct 2026 09:27:50 +0000"
+        "modified": "Wed, 14 Oct 2026 18:12:46 +0000"
     },
     {
         "id": "taint",
@@ -94230,6 +94966,68 @@
         "modified": "Wed, 19 Aug 2026 06:48:43 +0000"
     },
     {
+        "id": "test-double",
+        "name": "Test Double",
+        "url": "https://php-dictionary.readthedocs.io/en/latest/index/test-double.html",
+        "aliases": [
+            "test doubles"
+        ],
+        "description": "A test double is any object that stands in for a real dependency during a test. The name comes from stunt doubles: the object plays the role of the real one, so the code under test can run without it.\n\nThere are several kinds of test doubles:\n\n+ Dummy: passed around to satisfy a signature, but never used.\n+ Stub: returns fixed answers to calls.\n+ Spy: records how it was called, so the test can check it later.\n+ Fake: a working but simplified implementation, such as an in-memory repository.\n+ Mock: checks expectations on the calls it receives.\n\nTest doubles keep tests fast, isolated and reproducible, because they do not depend on databases, networks or clocks.",
+        "code": "",
+        "documentation": "https://martinfowler.com/articles/mocksArentStubs.html",
+        "related": [
+            "mock",
+            "mocking",
+            "spy",
+            "fixture",
+            "canned-response"
+        ],
+        "citations": [
+            {
+                "@type": "CreativeWork",
+                "name": "Documentation",
+                "url": "https://martinfowler.com/articles/mocksArentStubs.html"
+            },
+            {
+                "@type": "CreativeWork",
+                "name": "Test doubles (PHPUnit)",
+                "url": "https://docs.phpunit.de/en/13.1/test-doubles.html#test-doubles"
+            },
+            {
+                "@type": "CreativeWork",
+                "name": "Mocks Aren't Stubs",
+                "url": "https://martinfowler.com/articles/mocksArentStubs.html"
+            },
+            {
+                "@type": "CreativeWork",
+                "name": "Test double (Wikipedia)",
+                "url": "https://en.wikipedia.org/wiki/Test_double"
+            }
+        ],
+        "tags": [
+            "test",
+            "best practice"
+        ],
+        "packagist": [
+            "phpunit/phpunit"
+        ],
+        "extensions": [],
+        "analyzers": [],
+        "cobblers": [],
+        "rule": "",
+        "phpVersionSince": "",
+        "phpVersionUntil": "",
+        "phpVersionDeprecated": "",
+        "phpErrors": [
+            ""
+        ],
+        "changedBehavior": "",
+        "author": "",
+        "brand": "",
+        "popularity": "",
+        "modified": "Wed, 14 Oct 2026 16:37:44 +0000"
+    },
+    {
         "id": "test-driven-development",
         "name": "Test-Driven Development",
         "url": "https://php-dictionary.readthedocs.io/en/latest/index/test-driven-development.html",
@@ -94697,6 +95495,65 @@
         "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
     },
     {
+        "id": "third-party-api",
+        "name": "Third-Party API",
+        "url": "https://php-dictionary.readthedocs.io/en/latest/index/third-party-api.html",
+        "aliases": [
+            "external API",
+            "third party API"
+        ],
+        "description": "A third-party API is an interface offered by a service that the application does not own or control, such as a payment provider, a mail service or a weather service. The application calls it over HTTP and depends on its availability, its rules and its rate limits.\n\nIntegrating a third-party API has several risks: the service can be down, slow, or change its response format; it can impose rate limits or quotas; and it can require credentials that must be stored safely.\n\nGood practice is to wrap the API behind a small class of the application's own, so the rest of the code does not depend on the vendor. This wrapper can be replaced by a test double in tests, and it is the place to handle retries, timeouts and malformed responses.",
+        "code": "",
+        "documentation": "https://en.wikipedia.org/wiki/Web_API",
+        "related": [
+            "api",
+            "http",
+            "rate-limit",
+            "retry",
+            "timeout",
+            "malformed-response-body",
+            "mocking"
+        ],
+        "citations": [
+            {
+                "@type": "CreativeWork",
+                "name": "Documentation",
+                "url": "https://en.wikipedia.org/wiki/Web_API"
+            },
+            {
+                "@type": "CreativeWork",
+                "name": "Wrap third-party code (Wikipedia: Adapter pattern)",
+                "url": "https://en.wikipedia.org/wiki/Adapter_pattern"
+            },
+            {
+                "@type": "CreativeWork",
+                "name": "Laravel HTTP client",
+                "url": "https://laravel.com/docs/13.x/http-client"
+            }
+        ],
+        "tags": [
+            "api",
+            "http",
+            "architecture"
+        ],
+        "packagist": [],
+        "extensions": [],
+        "analyzers": [],
+        "cobblers": [],
+        "rule": "",
+        "phpVersionSince": "",
+        "phpVersionUntil": "",
+        "phpVersionDeprecated": "",
+        "phpErrors": [
+            ""
+        ],
+        "changedBehavior": "",
+        "author": "",
+        "brand": "",
+        "popularity": "",
+        "modified": "Wed, 14 Oct 2026 16:37:45 +0000"
+    },
+    {
         "id": "thread",
         "name": "Thread",
         "url": "https://php-dictionary.readthedocs.io/en/latest/index/thread.html",
@@ -94875,7 +95732,7 @@
         "aliases": [],
         "description": "Throw is the keyword which raises an exception.\n\nWhen an exception is thrown, the normal flow of the program is interrupted, and PHP starts looking for an exception handler to catch and handle the exception.",
         "code": "<?php\ntry{\n    throw new Exception('Error');\n} catch (\\Exception $e) {\n    print 'Warning : error was identified!';\n}\n\n?>",
-        "documentation": "https://www.php.net/manual/en/language.exceptions.php",
+        "documentation": "https://www.php.net/manual/en/language.exception.php",
         "related": [
             "try-catch",
             "exception",
@@ -94893,7 +95750,7 @@
             {
                 "@type": "CreativeWork",
                 "name": "Documentation",
-                "url": "https://www.php.net/manual/en/language.exceptions.php"
+                "url": "https://www.php.net/manual/en/language.exception.php"
             },
             {
                 "@type": "CreativeWork",
@@ -94923,7 +95780,7 @@
         "author": "",
         "brand": "",
         "popularity": "",
-        "modified": "Tue, 11 Aug 2026 20:51:00 +0000"
+        "modified": "Wed, 14 Oct 2026 18:13:38 +0000"
     },
     {
         "id": "throwable",
@@ -95146,7 +96003,12 @@
             "bulkhead",
             "wrapper-http",
             "curl",
-            "availability"
+            "availability",
+            "connection-pool",
+            "duration",
+            "fault-isolation",
+            "retry-after-header",
+            "third-party-api"
         ],
         "citations": [
             {
@@ -95195,7 +96057,7 @@
         "author": "",
         "brand": "",
         "popularity": "",
-        "modified": "Wed, 19 Aug 2026 08:14:41 +0000"
+        "modified": "Wed, 14 Oct 2026 16:39:28 +0000"
     },
     {
         "id": "timing-attack",
@@ -96460,7 +97322,7 @@
         ],
         "description": "Try-catch is a PHP command, which runs a block of code, and catches some configured exceptions that the block may throw. It may be completed with a finally block.\n\nThe catch clause may be anonymous, when it only specifies the type of caught exception, without providing a variable name.\n",
         "code": "<?php\n\ntry {\n    callSomeMethod();\n} catch (\\Exception $e) {\n    // process the error here\n}\n\n?>",
-        "documentation": "https://www.php.net/manual/en/language.exceptions.php",
+        "documentation": "https://www.php.net/manual/en/language.exception.php",
         "related": [
             "finally",
             "anonymous-catch",
@@ -96486,7 +97348,7 @@
             {
                 "@type": "CreativeWork",
                 "name": "Documentation",
-                "url": "https://www.php.net/manual/en/language.exceptions.php"
+                "url": "https://www.php.net/manual/en/language.exception.php"
             },
             {
                 "@type": "CreativeWork",
@@ -96523,7 +97385,7 @@
         "author": "",
         "brand": "",
         "popularity": "",
-        "modified": "Fri, 11 Sep 2026 13:48:49 +0000"
+        "modified": "Wed, 14 Oct 2026 18:13:51 +0000"
     },
     {
         "id": "ttl",
@@ -97956,6 +98818,60 @@
         "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
     },
     {
+        "id": "typosquatting",
+        "name": "Typosquatting",
+        "url": "https://php-dictionary.readthedocs.io/en/latest/index/typosquatting.html",
+        "aliases": [],
+        "description": "Typosquatting is an attack where a malicious actor registers a name that is a misspelling, a plural, a swapped letter, or a visually similar variant of a legitimate one, and waits for developers to install it by mistake. The name is chosen to be close enough to pass unnoticed when typed quickly or copied from memory.\n\nIn a package repository, such as Packagist for PHP, a typosquatted package looks like a popular library, for example ``monolgo/monolog`` instead of ``monolog/monolog``. A ``composer require`` with the wrong name installs the attacker's code, which then runs with the full rights of the application, its build, and its deployment pipeline.\n\nTyposquatting is a form of supply chain attack: the attacker does not compromise the target project directly, but the dependency that the project trusts. Checking the exact spelling and the vendor name of each dependency, reviewing the ``composer.json`` changes in code review, and pinning dependencies in ``composer.lock`` reduce the risk. Static analysis can flag unknown or recently created packages, and a lockfile audit can flag a package whose name is one edit away from a popular one.",
+        "code": "<?php\n\n    // Legitimate package\n    // composer require monolog/monolog\n\n    // Typosquatted package: one letter away, registered by an attacker\n    // composer require monolgo/monolog\n\n    // Review the lock file after any dependency change\n    // composer.lock must list only the packages that were reviewed\n\n?>",
+        "documentation": "https://en.wikipedia.org/wiki/Typosquatting",
+        "related": [
+            "supply-chain-attack",
+            "supply-chain",
+            "packagist",
+            "composer",
+            "sbom",
+            "least-privilege"
+        ],
+        "citations": [
+            {
+                "@type": "CreativeWork",
+                "name": "Documentation",
+                "url": "https://en.wikipedia.org/wiki/Typosquatting"
+            },
+            {
+                "@type": "CreativeWork",
+                "name": "Typosquatting in package managers",
+                "url": "https://en.wikipedia.org/wiki/Typosquatting#Package_managers"
+            },
+            {
+                "@type": "CreativeWork",
+                "name": "PHP Supply Chain Attack on Composer",
+                "url": "https://blog.sonarsource.com/php-supply-chain-attack-on-composer/"
+            }
+        ],
+        "tags": [
+            "security",
+            "supply chain"
+        ],
+        "packagist": [],
+        "extensions": [],
+        "analyzers": [],
+        "cobblers": [],
+        "rule": "",
+        "phpVersionSince": "",
+        "phpVersionUntil": "",
+        "phpVersionDeprecated": "",
+        "phpErrors": [
+            ""
+        ],
+        "changedBehavior": "",
+        "author": "",
+        "brand": "",
+        "popularity": "",
+        "modified": "Wed, 14 Oct 2026 15:30:48 +0000"
+    },
+    {
         "id": "udp",
         "name": "User Datagram Protocol (UDP)",
         "url": "https://php-dictionary.readthedocs.io/en/latest/index/udp.html",
@@ -98472,11 +99388,6 @@
             },
             {
                 "@type": "CreativeWork",
-                "name": "Unicode Escaping in PHP",
-                "url": "https://mojoauth.com/escaping/unicode-escaping-in-php"
-            },
-            {
-                "@type": "CreativeWork",
                 "name": "Unicode in PHP",
                 "url": "https://unicodefyi.com/guide/unicode-in-php/"
             }
@@ -98498,7 +99409,7 @@
         "author": "",
         "brand": "",
         "popularity": "",
-        "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+        "modified": "Wed, 14 Oct 2026 18:14:11 +0000"
     },
     {
         "id": "uninitialized",
@@ -99975,11 +100886,6 @@
                 "@type": "CreativeWork",
                 "name": "convert_uuencode",
                 "url": "https://www.php.net/manual/en/function.convert-uuencode.php"
-            },
-            {
-                "@type": "CreativeWork",
-                "name": "Uuencoding with PHP",
-                "url": "https://mojoauth.com/binary-encoding-decoding/uuencoding-with-php/"
             }
         ],
         "tags": [
@@ -99998,7 +100904,7 @@
         "author": "",
         "brand": "",
         "popularity": "",
-        "modified": "Mon, 15 Jun 2026 11:03:59 +0000"
+        "modified": "Wed, 14 Oct 2026 18:14:32 +0000"
     },
     {
         "id": "uuid",

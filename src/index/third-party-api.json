@@ -1,0 +1,59 @@
+{
+    "id": "third-party-api",
+    "name": "Third-Party API",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/third-party-api.html",
+    "aliases": [
+        "external API",
+        "third party API"
+    ],
+    "description": "A third-party API is an interface offered by a service that the application does not own or control, such as a payment provider, a mail service or a weather service. The application calls it over HTTP and depends on its availability, its rules and its rate limits.\n\nIntegrating a third-party API has several risks: the service can be down, slow, or change its response format; it can impose rate limits or quotas; and it can require credentials that must be stored safely.\n\nGood practice is to wrap the API behind a small class of the application's own, so the rest of the code does not depend on the vendor. This wrapper can be replaced by a test double in tests, and it is the place to handle retries, timeouts and malformed responses.",
+    "code": "",
+    "documentation": "https://en.wikipedia.org/wiki/Web_API",
+    "related": [
+        "api",
+        "http",
+        "rate-limit",
+        "retry",
+        "timeout",
+        "malformed-response-body",
+        "mocking"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Web_API"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Wrap third-party code (Wikipedia: Adapter pattern)",
+            "url": "https://en.wikipedia.org/wiki/Adapter_pattern"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Laravel HTTP client",
+            "url": "https://laravel.com/docs/13.x/http-client"
+        }
+    ],
+    "tags": [
+        "api",
+        "http",
+        "architecture"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Wed, 14 Oct 2026 16:37:45 +0000"
+}

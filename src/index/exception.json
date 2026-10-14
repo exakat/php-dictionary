@@ -5,7 +5,7 @@
     "aliases": [],
     "description": "Exceptions are a mechanism for handling errors and exceptional situations in a more structured and controlled way compared to traditional error handling methods like using error codes or ``die()`` statements. Exceptions provide a way to separate the normal flow of code from error-handling code, making it easier to manage errors and maintain clean and readable code.\n\nExceptions are thrown at the point of detection of the issue, and processed somewhere else in the code, when they are caught by a try-catch statement. Ultimately, exceptions block the execution of the application when they are not caught.",
     "code": "<?php\n\n    class Elephpant {\n        final const HABITAT = 1;\n\n        final function method() { }\n    }\n\n?>",
-    "documentation": "https://www.php.net/manual/en/language.exceptions.php",
+    "documentation": "https://www.php.net/manual/en/language.exception.php",
     "related": [
         "throw",
         "try-catch",
@@ -46,7 +46,7 @@
         {
             "@type": "CreativeWork",
             "name": "Documentation",
-            "url": "https://www.php.net/manual/en/language.exceptions.php"
+            "url": "https://www.php.net/manual/en/language.exception.php"
         },
         {
             "@type": "CreativeWork",
@@ -92,5 +92,5 @@
     "author": "",
     "brand": "",
     "popularity": "",
-    "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+    "modified": "Wed, 14 Oct 2026 18:05:16 +0000"
 }

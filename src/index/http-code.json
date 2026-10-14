@@ -11,7 +11,11 @@
         "response",
         "http-headers",
         "rest-api",
-        "redirect"
+        "redirect",
+        "authorization-header",
+        "content-type-header",
+        "malformed-response-body",
+        "retry-after-header"
     ],
     "citations": [
         {
@@ -46,5 +50,5 @@
     "author": "",
     "brand": "",
     "popularity": "",
-    "modified": "Thu, 17 Sep 2026 08:08:51 +0000"
+    "modified": "Wed, 14 Oct 2026 16:39:28 +0000"
 }

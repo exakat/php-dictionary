@@ -1,0 +1,59 @@
+{
+    "id": "contract-test",
+    "name": "Contract Test",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/contract-test.html",
+    "aliases": [
+        "contract testing"
+    ],
+    "description": "A contract test checks that two sides of an interface agree on the messages they exchange. For an HTTP API, the consumer, aka the application, declares what it expects from the provider, aka the remote service: the endpoints, the request fields, the response fields and their types. The provider is then checked against that contract.\n\nContract tests sit between unit tests and end-to-end tests. Unlike unit tests with a mock, they catch the case where the mock no longer matches the real service. Unlike end-to-end tests, they do not need the whole system running, and can run offline against the recorded contract.\n\nA contract test is only as good as its contract, so it must be updated when either side changes.",
+    "code": "",
+    "documentation": "https://martinfowler.com/bliki/ContractTest.html",
+    "related": [
+        "contract",
+        "mocking",
+        "test-double",
+        "canned-response",
+        "integration-test",
+        "third-party-api"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://martinfowler.com/bliki/ContractTest.html"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Pact PHP",
+            "url": "https://github.com/pact-foundation/pact-php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Martin Fowler: Contract Test",
+            "url": "https://martinfowler.com/bliki/ContractTest.html"
+        }
+    ],
+    "tags": [
+        "test",
+        "api",
+        "best practice"
+    ],
+    "packagist": [
+        "pact-foundation/pact-php"
+    ],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Wed, 14 Oct 2026 16:57:05 +0000"
+}

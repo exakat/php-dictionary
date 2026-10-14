@@ -39,7 +39,7 @@
         {
             "@type": "CreativeWork",
             "name": "Exceptions",
-            "url": "https://www.php.net/manual/en/language.exceptions.php"
+            "url": "https://www.php.net/manual/en/language.exception.php"
         }
     ],
     "tags": [
@@ -62,5 +62,5 @@
     "author": "",
     "brand": "",
     "popularity": "",
-    "modified": "Tue, 11 Aug 2026 21:02:10 +0000"
+    "modified": "Wed, 14 Oct 2026 18:09:21 +0000"
 }

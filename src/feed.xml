@@ -4,355 +4,355 @@
 <link>https://php-dictionary.readthedocs.io/en/latest/index.html</link>
 <description>Recently added or updated entries in the PHP Dictionary.</description>
 <language>en</language>
-<lastBuildDate>Fri, 09 Oct 2026 20:27:29 +0000</lastBuildDate>
+<lastBuildDate>Wed, 14 Oct 2026 18:18:10 +0000</lastBuildDate>
 <item>
-<title>Green Thread</title>
-<link>https://php-dictionary.readthedocs.io/en/latest/index/green-thread.html</link>
-<guid>https://php-dictionary.readthedocs.io/en/latest/index/green-thread.html</guid>
-<description>Green threads, also called ``goroutines`` in Go, virtual threads in Java 21+, or lightweight threads in Erlang/Haskell, are user-space threads managed entirely by the language runtime rather than the operating system kernel.</description>
-<pubDate>Fri, 09 Oct 2026 17:29:25 +0000</pubDate>
+<title>Lint, Won't Execute</title>
+<link>https://php-dictionary.readthedocs.io/en/latest/index/lint-wont-execute.html</link>
+<guid>https://php-dictionary.readthedocs.io/en/latest/index/lint-wont-execute.html</guid>
+<description>``Lint, won't execute`` is a special state of the code, where the source can be parsed, but cannot be executed.</description>
+<pubDate>Wed, 14 Oct 2026 18:16:11 +0000</pubDate>
 </item>
 <item>
-<title>Move Semantics</title>
-<link>https://php-dictionary.readthedocs.io/en/latest/index/move-semantics.html</link>
-<guid>https://php-dictionary.readthedocs.io/en/latest/index/move-semantics.html</guid>
-<description>Move semantics, central to C++11 and Rust, let a value's underlying resources be transferred from a source object to a destination object instead of copied, when the source is about to be discarded anyway, such as a temporary or a variable passed by value into a function.</description>
-<pubDate>Fri, 09 Oct 2026 17:28:03 +0000</pubDate>
+<title>Capture The Flag (CTF)</title>
+<link>https://php-dictionary.readthedocs.io/en/latest/index/ctf.html</link>
+<guid>https://php-dictionary.readthedocs.io/en/latest/index/ctf.html</guid>
+<description>Capture The Flag, abbreviated CTF, is a type of cybersecurity competition in which participants solve security challenges to find hidden strings called flags.</description>
+<pubDate>Wed, 14 Oct 2026 18:15:34 +0000</pubDate>
 </item>
 <item>
-<title>move_uploaded_file()</title>
-<link>https://php-dictionary.readthedocs.io/en/latest/index/move_uploaded_file.html</link>
-<guid>https://php-dictionary.readthedocs.io/en/latest/index/move_uploaded_file.html</guid>
-<description>``move_uploaded_file()`` is a native PHP function that moves a file that was uploaded via an HTTP POST request to a new destination.</description>
-<pubDate>Fri, 09 Oct 2026 17:27:52 +0000</pubDate>
+<title>UUencode Encoding</title>
+<link>https://php-dictionary.readthedocs.io/en/latest/index/uuencode.html</link>
+<guid>https://php-dictionary.readthedocs.io/en/latest/index/uuencode.html</guid>
+<description>Uuencode, short for ``Unix-to-Unix encoding``, is a binary-to-text encoding mechanism originally designed to transfer binary data over mediums that only support text, such as email or newsgroups.</description>
+<pubDate>Wed, 14 Oct 2026 18:14:32 +0000</pubDate>
 </item>
 <item>
-<title>Multiple Return Values</title>
-<link>https://php-dictionary.readthedocs.io/en/latest/index/multiple-return-value.html</link>
-<guid>https://php-dictionary.readthedocs.io/en/latest/index/multiple-return-value.html</guid>
-<description>Some languages, such as ``Go`` and ``Lua``, let a function return several values directly, separated by commas, without wrapping them in a container.</description>
-<pubDate>Fri, 09 Oct 2026 17:27:15 +0000</pubDate>
+<title>Unicode</title>
+<link>https://php-dictionary.readthedocs.io/en/latest/index/unicode.html</link>
+<guid>https://php-dictionary.readthedocs.io/en/latest/index/unicode.html</guid>
+<description>Unicode is a standard to represent text.</description>
+<pubDate>Wed, 14 Oct 2026 18:14:11 +0000</pubDate>
 </item>
 <item>
-<title>PHP Natives</title>
-<link>https://php-dictionary.readthedocs.io/en/latest/index/native-type.html</link>
-<guid>https://php-dictionary.readthedocs.io/en/latest/index/native-type.html</guid>
-<description>PHP offers a selection of natives, which are not directly derived from a class, interface or enumeration name.</description>
-<pubDate>Fri, 09 Oct 2026 17:26:12 +0000</pubDate>
+<title>Try-catch</title>
+<link>https://php-dictionary.readthedocs.io/en/latest/index/try-catch.html</link>
+<guid>https://php-dictionary.readthedocs.io/en/latest/index/try-catch.html</guid>
+<description>Try-catch is a PHP command, which runs a block of code, and catches some configured exceptions that the block may throw.</description>
+<pubDate>Wed, 14 Oct 2026 18:13:51 +0000</pubDate>
 </item>
 <item>
-<title>WeakReference</title>
-<link>https://php-dictionary.readthedocs.io/en/latest/index/weakreference.html</link>
-<guid>https://php-dictionary.readthedocs.io/en/latest/index/weakreference.html</guid>
-<description>``WeakReference`` is a final class that holds a reference to an object without keeping that object alive.</description>
-<pubDate>Fri, 09 Oct 2026 17:25:55 +0000</pubDate>
-</item>
-<item>
-<title>Reference Count</title>
-<link>https://php-dictionary.readthedocs.io/en/latest/index/reference-count.html</link>
-<guid>https://php-dictionary.readthedocs.io/en/latest/index/reference-count.html</guid>
-<description>Reference counting is the way PHP keeps track of the usage of a value.</description>
-<pubDate>Fri, 09 Oct 2026 17:25:39 +0000</pubDate>
-</item>
-<item>
-<title>Polling API</title>
-<link>https://php-dictionary.readthedocs.io/en/latest/index/poll-api.html</link>
-<guid>https://php-dictionary.readthedocs.io/en/latest/index/poll-api.html</guid>
-<description>The Polling API is a PHP 8.</description>
-<pubDate>Fri, 09 Oct 2026 17:24:29 +0000</pubDate>
-</item>
-<item>
-<title>POSIX</title>
-<link>https://php-dictionary.readthedocs.io/en/latest/index/posix.html</link>
-<guid>https://php-dictionary.readthedocs.io/en/latest/index/posix.html</guid>
-<description>``posix`` is a PHP extension that gives access to functions defined in the IEEE 1003.</description>
-<pubDate>Fri, 09 Oct 2026 17:24:01 +0000</pubDate>
-</item>
-<item>
-<title>pathinfo()</title>
-<link>https://php-dictionary.readthedocs.io/en/latest/index/pathinfo.html</link>
-<guid>https://php-dictionary.readthedocs.io/en/latest/index/pathinfo.html</guid>
-<description>``pathinfo()`` is a native PHP function that returns information about a file path:</description>
-<pubDate>Fri, 09 Oct 2026 17:23:28 +0000</pubDate>
-</item>
-<item>
-<title>Decrement</title>
-<link>https://php-dictionary.readthedocs.io/en/latest/index/decrement.html</link>
-<guid>https://php-dictionary.readthedocs.io/en/latest/index/decrement.html</guid>
-<description>Decrement refers to the process of decreasing or subtracting a small amount from a value, or simply one unit.</description>
-<pubDate>Fri, 09 Oct 2026 17:22:16 +0000</pubDate>
-</item>
-<item>
-<title>clamp()</title>
-<link>https://php-dictionary.readthedocs.io/en/latest/index/clamp.html</link>
-<guid>https://php-dictionary.readthedocs.io/en/latest/index/clamp.html</guid>
-<description>``clamp()`` is a native PHP function that limits a value to a range.</description>
-<pubDate>Fri, 09 Oct 2026 17:22:02 +0000</pubDate>
-</item>
-<item>
-<title>stream_select()</title>
-<link>https://php-dictionary.readthedocs.io/en/latest/index/stream_select.html</link>
-<guid>https://php-dictionary.readthedocs.io/en/latest/index/stream_select.html</guid>
-<description>``stream_select()`` is a native PHP function that waits until one or more streams are ready for reading, writing, or have an exceptional condition, using the system ``select()`` call.</description>
-<pubDate>Fri, 09 Oct 2026 17:16:49 +0000</pubDate>
-</item>
-<item>
-<title>Polling</title>
-<link>https://php-dictionary.readthedocs.io/en/latest/index/polling.html</link>
-<guid>https://php-dictionary.readthedocs.io/en/latest/index/polling.html</guid>
-<description>Polling is a technique where a script repeatedly checks the status of a resource or condition at regular intervals, until a result is available or a timeout is reached.</description>
-<pubDate>Fri, 09 Oct 2026 17:16:12 +0000</pubDate>
-</item>
-<item>
-<title>Non-blocking</title>
-<link>https://php-dictionary.readthedocs.io/en/latest/index/non-blocking.html</link>
-<guid>https://php-dictionary.readthedocs.io/en/latest/index/non-blocking.html</guid>
-<description>Non-blocking I/O, applied to a non-blocking stream, is a mode where read and write operations return immediately, even if no data is available or the buffer is full, instead of suspending execution until the operation can complete.</description>
-<pubDate>Fri, 09 Oct 2026 17:15:36 +0000</pubDate>
-</item>
-<item>
-<title>array_change_key_case()</title>
-<link>https://php-dictionary.readthedocs.io/en/latest/index/array_change_key_case.html</link>
-<guid>https://php-dictionary.readthedocs.io/en/latest/index/array_change_key_case.html</guid>
-<description>``array_change_key_case()`` is a native PHP function that returns a copy of an array where all the string keys are converted to lowercase or uppercase.</description>
-<pubDate>Fri, 09 Oct 2026 17:15:04 +0000</pubDate>
-</item>
-<item>
-<title>array_map()</title>
-<link>https://php-dictionary.readthedocs.io/en/latest/index/array_map.html</link>
-<guid>https://php-dictionary.readthedocs.io/en/latest/index/array_map.html</guid>
-<description>``array_map()`` is a PHP native function that applies a closure to every element of an array.</description>
-<pubDate>Fri, 09 Oct 2026 17:14:27 +0000</pubDate>
-</item>
-<item>
-<title>Directives</title>
-<link>https://php-dictionary.readthedocs.io/en/latest/index/directive.html</link>
-<guid>https://php-dictionary.readthedocs.io/en/latest/index/directive.html</guid>
-<description>Directives are the configuration option of PHP.</description>
-<pubDate>Fri, 09 Oct 2026 17:14:27 +0000</pubDate>
-</item>
-<item>
-<title>file_get_contents()</title>
-<link>https://php-dictionary.readthedocs.io/en/latest/index/file_get_contents.html</link>
-<guid>https://php-dictionary.readthedocs.io/en/latest/index/file_get_contents.html</guid>
-<description>``file_get_contents()`` is a PHP native function, which reads all data from a file, in one call.</description>
-<pubDate>Fri, 09 Oct 2026 17:14:27 +0000</pubDate>
-</item>
-<item>
-<title>Network</title>
-<link>https://php-dictionary.readthedocs.io/en/latest/index/network.html</link>
-<guid>https://php-dictionary.readthedocs.io/en/latest/index/network.html</guid>
-<description>A network is a collection of computers, linked together with communication capabilities.</description>
-<pubDate>Fri, 09 Oct 2026 17:14:27 +0000</pubDate>
-</item>
-<item>
-<title>Stream</title>
-<link>https://php-dictionary.readthedocs.io/en/latest/index/stream.html</link>
-<guid>https://php-dictionary.readthedocs.io/en/latest/index/stream.html</guid>
-<description>Streams are a generalisation of the notion of files.</description>
-<pubDate>Fri, 09 Oct 2026 17:14:27 +0000</pubDate>
-</item>
-<item>
-<title>stream_context_create()</title>
-<link>https://php-dictionary.readthedocs.io/en/latest/index/stream_context_create.html</link>
-<guid>https://php-dictionary.readthedocs.io/en/latest/index/stream_context_create.html</guid>
-<description>``stream_context_create()`` is a native PHP function that creates a stream context:</description>
-<pubDate>Fri, 09 Oct 2026 17:10:07 +0000</pubDate>
-</item>
-<item>
-<title>max_filter_count</title>
-<link>https://php-dictionary.readthedocs.io/en/latest/index/max_filter_count.html</link>
-<guid>https://php-dictionary.readthedocs.io/en/latest/index/max_filter_count.html</guid>
-<description>``max_filter_count`` is a stream context option that limits how many filters can be chained in a single ``php:</description>
-<pubDate>Fri, 09 Oct 2026 17:05:50 +0000</pubDate>
-</item>
-<item>
-<title>disable_functions</title>
-<link>https://php-dictionary.readthedocs.io/en/latest/index/disable_functions.html</link>
-<guid>https://php-dictionary.readthedocs.io/en/latest/index/disable_functions.html</guid>
-<description>The ``disable_functions`` PHP directive prevents specific native functions from being called by the code.</description>
-<pubDate>Fri, 09 Oct 2026 16:53:29 +0000</pubDate>
-</item>
-<item>
-<title>Pipeline</title>
-<link>https://php-dictionary.readthedocs.io/en/latest/index/pipeline.html</link>
-<guid>https://php-dictionary.readthedocs.io/en/latest/index/pipeline.html</guid>
-<description>A pipeline is a chain of steps that composes a sequential set of actions.</description>
-<pubDate>Fri, 09 Oct 2026 16:43:24 +0000</pubDate>
-</item>
-<item>
-<title>String Increment</title>
-<link>https://php-dictionary.readthedocs.io/en/latest/index/string-increment.html</link>
-<guid>https://php-dictionary.readthedocs.io/en/latest/index/string-increment.html</guid>
-<description>String increment is the PHP feature that applies the ``++`` pre- and post-increment operators on non-numeric strings.</description>
-<pubDate>Fri, 09 Oct 2026 16:41:54 +0000</pubDate>
-</item>
-<item>
-<title>Duration</title>
-<link>https://php-dictionary.readthedocs.io/en/latest/index/duration.html</link>
-<guid>https://php-dictionary.readthedocs.io/en/latest/index/duration.html</guid>
-<description>The ``Time\Duration`` class is a PHP 8.</description>
-<pubDate>Fri, 09 Oct 2026 16:29:52 +0000</pubDate>
-</item>
-<item>
-<title>Base Conversion</title>
-<link>https://php-dictionary.readthedocs.io/en/latest/index/base-conversion.html</link>
-<guid>https://php-dictionary.readthedocs.io/en/latest/index/base-conversion.html</guid>
-<description>Base conversion turns an integer written in one numeric base into the same value written in another base.</description>
-<pubDate>Fri, 09 Oct 2026 16:29:01 +0000</pubDate>
-</item>
-<item>
-<title>Socket Extension</title>
-<link>https://php-dictionary.readthedocs.io/en/latest/index/socket-ext.html</link>
-<guid>https://php-dictionary.readthedocs.io/en/latest/index/socket-ext.html</guid>
-<description>``sockets`` is the PHP extension that provides the low-level socket functions, such as ``socket_create()``, ``socket_bind()``, ``socket_listen()``, ``socket_accept()``, ``socket_connect()`` and ``socket_read()``.</description>
-<pubDate>Fri, 09 Oct 2026 14:42:20 +0000</pubDate>
-</item>
-<item>
-<title>Socket</title>
-<link>https://php-dictionary.readthedocs.io/en/latest/index/socket.html</link>
-<guid>https://php-dictionary.readthedocs.io/en/latest/index/socket.html</guid>
-<description>A socket refers to a communication endpoint that allows two processes to exchange data over a network.</description>
-<pubDate>Fri, 09 Oct 2026 14:40:00 +0000</pubDate>
-</item>
-<item>
-<title>Stream Filter</title>
-<link>https://php-dictionary.readthedocs.io/en/latest/index/stream-filter.html</link>
-<guid>https://php-dictionary.readthedocs.io/en/latest/index/stream-filter.html</guid>
-<description>A stream filter is a piece of code attached to a stream, which transforms the data as it is read from or written to that stream.</description>
-<pubDate>Fri, 09 Oct 2026 14:24:04 +0000</pubDate>
-</item>
-<item>
-<title>define()</title>
-<link>https://php-dictionary.readthedocs.io/en/latest/index/define.html</link>
-<guid>https://php-dictionary.readthedocs.io/en/latest/index/define.html</guid>
-<description>``define()`` is a PHP function that introduces global constant definitions.</description>
-<pubDate>Thu, 01 Oct 2026 09:27:50 +0000</pubDate>
-</item>
-<item>
-<title>Supply Chain</title>
-<link>https://php-dictionary.readthedocs.io/en/latest/index/supply-chain.html</link>
-<guid>https://php-dictionary.readthedocs.io/en/latest/index/supply-chain.html</guid>
-<description>The supply chain is the set of components, libraries, tools and processes that are used to build an application.</description>
-<pubDate>Thu, 01 Oct 2026 09:27:50 +0000</pubDate>
+<title>throw</title>
+<link>https://php-dictionary.readthedocs.io/en/latest/index/throw.html</link>
+<guid>https://php-dictionary.readthedocs.io/en/latest/index/throw.html</guid>
+<description>Throw is the keyword which raises an exception.</description>
+<pubDate>Wed, 14 Oct 2026 18:13:38 +0000</pubDate>
 </item>
 <item>
 <title>Tabulation</title>
 <link>https://php-dictionary.readthedocs.io/en/latest/index/tabulation.html</link>
 <guid>https://php-dictionary.readthedocs.io/en/latest/index/tabulation.html</guid>
 <description>A tabulation is a whitespace character, that often represents the equivalent of four space characters.</description>
-<pubDate>Thu, 01 Oct 2026 09:27:50 +0000</pubDate>
+<pubDate>Wed, 14 Oct 2026 18:12:46 +0000</pubDate>
 </item>
 <item>
-<title>Trace</title>
-<link>https://php-dictionary.readthedocs.io/en/latest/index/trace.html</link>
-<guid>https://php-dictionary.readthedocs.io/en/latest/index/trace.html</guid>
-<description>A trace is the list of called functions during an execution.</description>
-<pubDate>Thu, 01 Oct 2026 09:27:50 +0000</pubDate>
+<title>Resource Leak</title>
+<link>https://php-dictionary.readthedocs.io/en/latest/index/resource-leak.html</link>
+<guid>https://php-dictionary.readthedocs.io/en/latest/index/resource-leak.html</guid>
+<description>A resource leak occurs when a resource, such as a file handle, database connection, network socket, or stream, is opened but never properly closed.</description>
+<pubDate>Wed, 14 Oct 2026 18:09:21 +0000</pubDate>
 </item>
 <item>
-<title>Cast Operator</title>
-<link>https://php-dictionary.readthedocs.io/en/latest/index/cast.html</link>
-<guid>https://php-dictionary.readthedocs.io/en/latest/index/cast.html</guid>
-<description>Cast operators change the type of the variable to the desired type.</description>
-<pubDate>Fri, 25 Sep 2026 21:30:05 +0000</pubDate>
+<title>POSIX</title>
+<link>https://php-dictionary.readthedocs.io/en/latest/index/posix.html</link>
+<guid>https://php-dictionary.readthedocs.io/en/latest/index/posix.html</guid>
+<description>``posix`` is a PHP extension that gives access to functions defined in the IEEE 1003.</description>
+<pubDate>Wed, 14 Oct 2026 18:09:01 +0000</pubDate>
+</item>
+<item>
+<title>json_encode()</title>
+<link>https://php-dictionary.readthedocs.io/en/latest/index/json_encode.html</link>
+<guid>https://php-dictionary.readthedocs.io/en/latest/index/json_encode.html</guid>
+<description>``json_encode()`` encodes a data structure into a JSON string.</description>
+<pubDate>Wed, 14 Oct 2026 18:07:32 +0000</pubDate>
+</item>
+<item>
+<title>Ignored Catch</title>
+<link>https://php-dictionary.readthedocs.io/en/latest/index/ignored-catch.html</link>
+<guid>https://php-dictionary.readthedocs.io/en/latest/index/ignored-catch.html</guid>
+<description>``catch`` does not check that the caught exception exists.</description>
+<pubDate>Wed, 14 Oct 2026 18:06:19 +0000</pubDate>
+</item>
+<item>
+<title>Finally</title>
+<link>https://php-dictionary.readthedocs.io/en/latest/index/finally.html</link>
+<guid>https://php-dictionary.readthedocs.io/en/latest/index/finally.html</guid>
+<description>Finally is the default clause of a try-catch expression.</description>
+<pubDate>Wed, 14 Oct 2026 18:05:56 +0000</pubDate>
+</item>
+<item>
+<title>Fatal Error</title>
+<link>https://php-dictionary.readthedocs.io/en/latest/index/fatal-error.html</link>
+<guid>https://php-dictionary.readthedocs.io/en/latest/index/fatal-error.html</guid>
+<description>Fatal error is a type of PHP error, which ends the execution of the application.</description>
+<pubDate>Wed, 14 Oct 2026 18:05:35 +0000</pubDate>
+</item>
+<item>
+<title>Exception</title>
+<link>https://php-dictionary.readthedocs.io/en/latest/index/exception.html</link>
+<guid>https://php-dictionary.readthedocs.io/en/latest/index/exception.html</guid>
+<description>Exceptions are a mechanism for handling errors and exceptional situations in a more structured and controlled way compared to traditional error handling methods like using error codes or ``die()`` statements.</description>
+<pubDate>Wed, 14 Oct 2026 18:05:16 +0000</pubDate>
+</item>
+<item>
+<title>Exception Handler</title>
+<link>https://php-dictionary.readthedocs.io/en/latest/index/exception-handler.html</link>
+<guid>https://php-dictionary.readthedocs.io/en/latest/index/exception-handler.html</guid>
+<description>The exception handler is a default or custom function, which is called once an exception has exhausted all available ``try-catch`` blocks.</description>
+<pubDate>Wed, 14 Oct 2026 18:04:58 +0000</pubDate>
+</item>
+<item>
+<title>disable_functions</title>
+<link>https://php-dictionary.readthedocs.io/en/latest/index/disable_functions.html</link>
+<guid>https://php-dictionary.readthedocs.io/en/latest/index/disable_functions.html</guid>
+<description>The ``disable_functions`` PHP directive prevents specific native functions from being called by the code.</description>
+<pubDate>Wed, 14 Oct 2026 18:04:41 +0000</pubDate>
+</item>
+<item>
+<title>Data Mapper</title>
+<link>https://php-dictionary.readthedocs.io/en/latest/index/data-mapper.html</link>
+<guid>https://php-dictionary.readthedocs.io/en/latest/index/data-mapper.html</guid>
+<description>A data mapper, also called an object mapper, performs a bidirectional conversion of data, between PHP's OOP representation and a database storage.</description>
+<pubDate>Wed, 14 Oct 2026 18:03:07 +0000</pubDate>
+</item>
+<item>
+<title>Catchable Fatal Error</title>
+<link>https://php-dictionary.readthedocs.io/en/latest/index/catchable-fatal-error.html</link>
+<guid>https://php-dictionary.readthedocs.io/en/latest/index/catchable-fatal-error.html</guid>
+<description>A catchable fatal error is a fatal error that PHP allows user code to intercept before the script terminates, instead of stopping execution unconditionally.</description>
+<pubDate>Wed, 14 Oct 2026 18:00:55 +0000</pubDate>
+</item>
+<item>
+<title>Catch</title>
+<link>https://php-dictionary.readthedocs.io/en/latest/index/catch.html</link>
+<guid>https://php-dictionary.readthedocs.io/en/latest/index/catch.html</guid>
+<description>``catch`` is the complement clause of try.</description>
+<pubDate>Wed, 14 Oct 2026 17:58:07 +0000</pubDate>
+</item>
+<item>
+<title>Argon2</title>
+<link>https://php-dictionary.readthedocs.io/en/latest/index/argon2.html</link>
+<guid>https://php-dictionary.readthedocs.io/en/latest/index/argon2.html</guid>
+<description>Argon2 is a modern, secure, and highly efficient password hashing algorithm.</description>
+<pubDate>Wed, 14 Oct 2026 17:57:48 +0000</pubDate>
+</item>
+<item>
+<title>Anonymous Catch</title>
+<link>https://php-dictionary.readthedocs.io/en/latest/index/anonymous-catch.html</link>
+<guid>https://php-dictionary.readthedocs.io/en/latest/index/anonymous-catch.html</guid>
+<description>Traditionally, the catch statement requires specifying both an Exception class and an identifier variable to hold the caught exception.</description>
+<pubDate>Wed, 14 Oct 2026 17:53:02 +0000</pubDate>
+</item>
+<item>
+<title>Interface Segregation Principle (ISP)</title>
+<link>https://php-dictionary.readthedocs.io/en/latest/index/isp.html</link>
+<guid>https://php-dictionary.readthedocs.io/en/latest/index/isp.html</guid>
+<description>The interface segregation principle, or ISP, states that no code should be forced to depend on methods it does not use.</description>
+<pubDate>Wed, 14 Oct 2026 17:40:46 +0000</pubDate>
+</item>
+<item>
+<title>JavaScript Object Notation (JSON)</title>
+<link>https://php-dictionary.readthedocs.io/en/latest/index/json.html</link>
+<guid>https://php-dictionary.readthedocs.io/en/latest/index/json.html</guid>
+<description>``JSON``, or JavaScript Object Notation, is a lightweight data-interchange format.</description>
+<pubDate>Wed, 14 Oct 2026 17:40:30 +0000</pubDate>
+</item>
+<item>
+<title>JSON Lines (JSONC)</title>
+<link>https://php-dictionary.readthedocs.io/en/latest/index/jsonc.html</link>
+<guid>https://php-dictionary.readthedocs.io/en/latest/index/jsonc.html</guid>
+<description>``JSONC``, aka SON with Comments, is a superset of JSON that extends its functionality by allowing single-line ``//`` and multi-line ``/* */`` comments.</description>
+<pubDate>Wed, 14 Oct 2026 17:40:13 +0000</pubDate>
+</item>
+<item>
+<title>JSON Lines (JSONL)</title>
+<link>https://php-dictionary.readthedocs.io/en/latest/index/jsonl.html</link>
+<guid>https://php-dictionary.readthedocs.io/en/latest/index/jsonl.html</guid>
+<description>JSONL, JSON Lines, is a text-based format where each line is a valid, independent JSON object, separated by newline characters.</description>
+<pubDate>Wed, 14 Oct 2026 17:39:54 +0000</pubDate>
+</item>
+<item>
+<title>Software Bill Of Material (SBOM)</title>
+<link>https://php-dictionary.readthedocs.io/en/latest/index/sbom.html</link>
+<guid>https://php-dictionary.readthedocs.io/en/latest/index/sbom.html</guid>
+<description>A Software Bill of Materials, aka ``SBOM``, is a formal, machine-readable inventory of all components, libraries, and dependencies used in a software project.</description>
+<pubDate>Wed, 14 Oct 2026 17:39:26 +0000</pubDate>
+</item>
+<item>
+<title>Static Code Analysis (SCA)</title>
+<link>https://php-dictionary.readthedocs.io/en/latest/index/sca.html</link>
+<guid>https://php-dictionary.readthedocs.io/en/latest/index/sca.html</guid>
+<description>Static code analysis, or ``SCA`` or static analysis, analyzes the source code:</description>
+<pubDate>Wed, 14 Oct 2026 17:39:07 +0000</pubDate>
+</item>
+<item>
+<title>Software Development Kit (SDK)</title>
+<link>https://php-dictionary.readthedocs.io/en/latest/index/sdk.html</link>
+<guid>https://php-dictionary.readthedocs.io/en/latest/index/sdk.html</guid>
+<description>SDK stands for Software Development Kit.</description>
+<pubDate>Wed, 14 Oct 2026 17:38:46 +0000</pubDate>
+</item>
+<item>
+<title>Search Engine</title>
+<link>https://php-dictionary.readthedocs.io/en/latest/index/search-engine.html</link>
+<guid>https://php-dictionary.readthedocs.io/en/latest/index/search-engine.html</guid>
+<description>A search engine is a system that indexes and retrieves data based on queries.</description>
+<pubDate>Wed, 14 Oct 2026 17:37:51 +0000</pubDate>
+</item>
+<item>
+<title>Search Engine Optimization (SEO)</title>
+<link>https://php-dictionary.readthedocs.io/en/latest/index/seo.html</link>
+<guid>https://php-dictionary.readthedocs.io/en/latest/index/seo.html</guid>
+<description>Search Engine Optimization, or SEO, is the practice of improving a website so that search engines rank it higher in search results.</description>
+<pubDate>Wed, 14 Oct 2026 17:37:31 +0000</pubDate>
+</item>
+<item>
+<title>serialize_precision</title>
+<link>https://php-dictionary.readthedocs.io/en/latest/index/serialize_precision.html</link>
+<guid>https://php-dictionary.readthedocs.io/en/latest/index/serialize_precision.html</guid>
+<description>The ``serialize_precision`` directive controls the number of significant digits used when serializing float values via ``serialize()`` and ``json_encode()``.</description>
+<pubDate>Wed, 14 Oct 2026 17:37:05 +0000</pubDate>
+</item>
+<item>
+<title>Serverless</title>
+<link>https://php-dictionary.readthedocs.io/en/latest/index/serverless.html</link>
+<guid>https://php-dictionary.readthedocs.io/en/latest/index/serverless.html</guid>
+<description>Serverless computing is an execution model where a cloud provider allocates compute resources on demand, scaling to zero when idle.</description>
+<pubDate>Wed, 14 Oct 2026 17:36:42 +0000</pubDate>
+</item>
+<item>
+<title>Service Registry</title>
+<link>https://php-dictionary.readthedocs.io/en/latest/index/service-registry.html</link>
+<guid>https://php-dictionary.readthedocs.io/en/latest/index/service-registry.html</guid>
+<description>A service registry is a database of available service instances in a distributed system.</description>
+<pubDate>Wed, 14 Oct 2026 17:36:03 +0000</pubDate>
+</item>
+<item>
+<title>short_open_tag</title>
+<link>https://php-dictionary.readthedocs.io/en/latest/index/short_open_tag.html</link>
+<guid>https://php-dictionary.readthedocs.io/en/latest/index/short_open_tag.html</guid>
+<description>``short_open_tag`` is a ``php.</description>
+<pubDate>Wed, 14 Oct 2026 17:34:56 +0000</pubDate>
+</item>
+<item>
+<title>Sqids</title>
+<link>https://php-dictionary.readthedocs.io/en/latest/index/sqids.html</link>
+<guid>https://php-dictionary.readthedocs.io/en/latest/index/sqids.html</guid>
+<description>``Sqids``, formerly known as ``Hashids``, is an open-source library that encodes one or more non-negative integers into short, YouTube-like alphanumeric strings, and decodes them back.</description>
+<pubDate>Wed, 14 Oct 2026 17:34:28 +0000</pubDate>
+</item>
+<item>
+<title>SQL Database</title>
+<link>https://php-dictionary.readthedocs.io/en/latest/index/sql-database.html</link>
+<guid>https://php-dictionary.readthedocs.io/en/latest/index/sql-database.html</guid>
+<description>A SQL database is a database server that processes data based on the SQL language.</description>
+<pubDate>Wed, 14 Oct 2026 17:34:09 +0000</pubDate>
+</item>
+<item>
+<title>Contract Test</title>
+<link>https://php-dictionary.readthedocs.io/en/latest/index/contract-test.html</link>
+<guid>https://php-dictionary.readthedocs.io/en/latest/index/contract-test.html</guid>
+<description>A contract test checks that two sides of an interface agree on the messages they exchange.</description>
+<pubDate>Wed, 14 Oct 2026 16:57:05 +0000</pubDate>
+</item>
+<item>
+<title>Authorization Header</title>
+<link>https://php-dictionary.readthedocs.io/en/latest/index/authorization-header.html</link>
+<guid>https://php-dictionary.readthedocs.io/en/latest/index/authorization-header.html</guid>
+<description>The Authorization header carries the credentials that a client sends to a server to authenticate a request.</description>
+<pubDate>Wed, 14 Oct 2026 16:56:34 +0000</pubDate>
+</item>
+<item>
+<title>Mocking</title>
+<link>https://php-dictionary.readthedocs.io/en/latest/index/mocking.html</link>
+<guid>https://php-dictionary.readthedocs.io/en/latest/index/mocking.html</guid>
+<description>Mocking is the practice of replacing a dependency with a controlled object during a test.</description>
+<pubDate>Wed, 14 Oct 2026 16:55:56 +0000</pubDate>
+</item>
+<item>
+<title>Mock</title>
+<link>https://php-dictionary.readthedocs.io/en/latest/index/mock.html</link>
+<guid>https://php-dictionary.readthedocs.io/en/latest/index/mock.html</guid>
+<description>A mock replaces a code dependency with an object, to make testing easier.</description>
+<pubDate>Wed, 14 Oct 2026 16:55:27 +0000</pubDate>
+</item>
+<item>
+<title>Malformed Response Body</title>
+<link>https://php-dictionary.readthedocs.io/en/latest/index/malformed-response-body.html</link>
+<guid>https://php-dictionary.readthedocs.io/en/latest/index/malformed-response-body.html</guid>
+<description>A malformed response body is an HTTP response whose content does not match what the client expects.</description>
+<pubDate>Wed, 14 Oct 2026 16:54:51 +0000</pubDate>
 </item>
 <item>
 <title>json_decode()</title>
 <link>https://php-dictionary.readthedocs.io/en/latest/index/json_decode.html</link>
 <guid>https://php-dictionary.readthedocs.io/en/latest/index/json_decode.html</guid>
 <description>``json_decode()`` decodes a JSON string into a data structure.</description>
-<pubDate>Fri, 25 Sep 2026 21:30:05 +0000</pubDate>
+<pubDate>Wed, 14 Oct 2026 16:54:22 +0000</pubDate>
 </item>
 <item>
-<title>Multibyte String</title>
-<link>https://php-dictionary.readthedocs.io/en/latest/index/mbstring.html</link>
-<guid>https://php-dictionary.readthedocs.io/en/latest/index/mbstring.html</guid>
-<description>``mbstring`` is the PHP extension dedicated to processing multibyte character strings, that is, text encoded in character sets where a single character can occupy more than one byte, such as UTF-8, UTF-16, EUC-JP, Shift-JIS, or Big5.</description>
-<pubDate>Fri, 25 Sep 2026 21:30:05 +0000</pubDate>
+<title>Application Programming Interface (API)</title>
+<link>https://php-dictionary.readthedocs.io/en/latest/index/api.html</link>
+<guid>https://php-dictionary.readthedocs.io/en/latest/index/api.html</guid>
+<description>An API is a set of functions and procedures allowing the creation of applications that access the features or data of another service.</description>
+<pubDate>Wed, 14 Oct 2026 16:39:28 +0000</pubDate>
 </item>
 <item>
-<title>Type Juggling</title>
-<link>https://php-dictionary.readthedocs.io/en/latest/index/type-juggling.html</link>
-<guid>https://php-dictionary.readthedocs.io/en/latest/index/type-juggling.html</guid>
-<description>Type juggling is the emblematic PHP feature, where data has no specific type definition, and its type may change depending on the situation.</description>
-<pubDate>Fri, 25 Sep 2026 21:30:05 +0000</pubDate>
+<title>Fixture</title>
+<link>https://php-dictionary.readthedocs.io/en/latest/index/fixture.html</link>
+<guid>https://php-dictionary.readthedocs.io/en/latest/index/fixture.html</guid>
+<description>A fixture is a set of test data.</description>
+<pubDate>Wed, 14 Oct 2026 16:39:28 +0000</pubDate>
 </item>
 <item>
-<title>Inter-Process Communication (IPC)</title>
-<link>https://php-dictionary.readthedocs.io/en/latest/index/ipc.html</link>
-<guid>https://php-dictionary.readthedocs.io/en/latest/index/ipc.html</guid>
-<description>Inter-process communication, or IPC, is the set of mechanisms an operating system offers for two separate processes to exchange data or coordinate their work, since processes do not share memory with each other by default.</description>
-<pubDate>Fri, 25 Sep 2026 18:46:58 +0000</pubDate>
+<title>HTTP Code</title>
+<link>https://php-dictionary.readthedocs.io/en/latest/index/http-code.html</link>
+<guid>https://php-dictionary.readthedocs.io/en/latest/index/http-code.html</guid>
+<description>HTTP status codes are three-digit numeric codes that are returned by web servers to indicate the outcome of a client's request to a server.</description>
+<pubDate>Wed, 14 Oct 2026 16:39:28 +0000</pubDate>
 </item>
 <item>
-<title>parse_ini_string()</title>
-<link>https://php-dictionary.readthedocs.io/en/latest/index/parse_ini_string.html</link>
-<guid>https://php-dictionary.readthedocs.io/en/latest/index/parse_ini_string.html</guid>
-<description>``parse_ini_string()`` parses a string formatted like a PHP ini file, and returns its settings as an associative array, the same way ``parse_ini_file()`` does for a file on disk.</description>
-<pubDate>Fri, 25 Sep 2026 18:46:51 +0000</pubDate>
+<title>HTTP Headers</title>
+<link>https://php-dictionary.readthedocs.io/en/latest/index/http-header.html</link>
+<guid>https://php-dictionary.readthedocs.io/en/latest/index/http-header.html</guid>
+<description>HTTP headers are extra information, exchanged between the server and the client, to configure further the network transaction.</description>
+<pubDate>Wed, 14 Oct 2026 16:39:28 +0000</pubDate>
 </item>
 <item>
-<title>mb_substr()</title>
-<link>https://php-dictionary.readthedocs.io/en/latest/index/mb_substr.html</link>
-<guid>https://php-dictionary.readthedocs.io/en/latest/index/mb_substr.html</guid>
-<description>``mb_substr()`` extracts a portion of a string, counting positions in characters rather than in bytes, so it works correctly on multibyte text such as UTF-8.</description>
-<pubDate>Fri, 25 Sep 2026 18:46:46 +0000</pubDate>
+<title>Integration Test</title>
+<link>https://php-dictionary.readthedocs.io/en/latest/index/integration-test.html</link>
+<guid>https://php-dictionary.readthedocs.io/en/latest/index/integration-test.html</guid>
+<description>Integration tests are tests that verify how multiple components or packages work together, as opposed to unit tests, where test are dedicated to one component.</description>
+<pubDate>Wed, 14 Oct 2026 16:39:28 +0000</pubDate>
 </item>
 <item>
-<title>strlen()</title>
-<link>https://php-dictionary.readthedocs.io/en/latest/index/strlen.html</link>
-<guid>https://php-dictionary.readthedocs.io/en/latest/index/strlen.html</guid>
-<description>``strlen()`` returns the number of bytes in a string, not the number of characters it displays as.</description>
-<pubDate>Fri, 25 Sep 2026 18:46:41 +0000</pubDate>
+<title>Properties</title>
+<link>https://php-dictionary.readthedocs.io/en/latest/index/property.html</link>
+<guid>https://php-dictionary.readthedocs.io/en/latest/index/property.html</guid>
+<description>Class properties are variables, local to an object or a class.</description>
+<pubDate>Wed, 14 Oct 2026 16:39:28 +0000</pubDate>
 </item>
 <item>
-<title>str_split()</title>
-<link>https://php-dictionary.readthedocs.io/en/latest/index/str_split.html</link>
-<guid>https://php-dictionary.readthedocs.io/en/latest/index/str_split.html</guid>
-<description>``str_split()`` splits a string into an array of chunks of a fixed byte length, one character per chunk by default.</description>
-<pubDate>Fri, 25 Sep 2026 18:46:36 +0000</pubDate>
+<title>Retry</title>
+<link>https://php-dictionary.readthedocs.io/en/latest/index/retry.html</link>
+<guid>https://php-dictionary.readthedocs.io/en/latest/index/retry.html</guid>
+<description>A retry is the act of re-attempting an operation that previously failed, typically due to a transient error such as a network timeout, a temporarily unavailable service, or a rate-limit response.</description>
+<pubDate>Wed, 14 Oct 2026 16:39:28 +0000</pubDate>
 </item>
 <item>
-<title>get_debug_type()</title>
-<link>https://php-dictionary.readthedocs.io/en/latest/index/get_debug_type.html</link>
-<guid>https://php-dictionary.readthedocs.io/en/latest/index/get_debug_type.html</guid>
-<description>``get_debug_type()`` returns the type of a value as a string, using the same names that appear in type declarations, rather than the historical names used by ``gettype()``.</description>
-<pubDate>Fri, 25 Sep 2026 18:46:31 +0000</pubDate>
-</item>
-<item>
-<title>settype()</title>
-<link>https://php-dictionary.readthedocs.io/en/latest/index/settype.html</link>
-<guid>https://php-dictionary.readthedocs.io/en/latest/index/settype.html</guid>
-<description>``settype()`` converts a variable to a given type, in place, modifying the variable itself rather than returning a converted copy.</description>
-<pubDate>Fri, 25 Sep 2026 18:46:26 +0000</pubDate>
-</item>
-<item>
-<title>feof()</title>
-<link>https://php-dictionary.readthedocs.io/en/latest/index/feof.html</link>
-<guid>https://php-dictionary.readthedocs.io/en/latest/index/feof.html</guid>
-<description>``feof()`` checks whether the end of a file has been reached for a given file pointer, returning true once no more data can be read from it.</description>
-<pubDate>Fri, 25 Sep 2026 18:46:21 +0000</pubDate>
-</item>
-<item>
-<title>Urbanisation</title>
-<link>https://php-dictionary.readthedocs.io/en/latest/index/urbanisation.html</link>
-<guid>https://php-dictionary.readthedocs.io/en/latest/index/urbanisation.html</guid>
-<description>Urbanisation is the practice of organising an information system the way a city planner organises a city:</description>
-<pubDate>Fri, 25 Sep 2026 18:46:16 +0000</pubDate>
-</item>
-<item>
-<title>RdKafka</title>
-<link>https://php-dictionary.readthedocs.io/en/latest/index/rdkafka.html</link>
-<guid>https://php-dictionary.readthedocs.io/en/latest/index/rdkafka.html</guid>
-<description>``rdkafka`` is a PIE extension providing a PHP client for Apache ``Kafka``, a distributed event-streaming platform.</description>
-<pubDate>Fri, 25 Sep 2026 14:39:42 +0000</pubDate>
-</item>
-<item>
-<title>Test</title>
-<link>https://php-dictionary.readthedocs.io/en/latest/index/test.html</link>
-<guid>https://php-dictionary.readthedocs.io/en/latest/index/test.html</guid>
-<description>Tests are tools that monitor the behavior of a code.</description>
-<pubDate>Fri, 25 Sep 2026 14:37:53 +0000</pubDate>
+<title>Supply Chain Attack</title>
+<link>https://php-dictionary.readthedocs.io/en/latest/index/supply-chain-attack.html</link>
+<guid>https://php-dictionary.readthedocs.io/en/latest/index/supply-chain-attack.html</guid>
+<description>Supply Chain Attack is a security attack that uses dependencies to infect a program.</description>
+<pubDate>Wed, 14 Oct 2026 16:39:28 +0000</pubDate>
 </item>
 </channel></rss>

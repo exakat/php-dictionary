@@ -22,7 +22,12 @@
         "cascading-failure",
         "replay",
         "resilience",
-        "worker"
+        "worker",
+        "chaos-engineering",
+        "deadline",
+        "retry-after-header",
+        "third-party-api",
+        "timeout"
     ],
     "citations": [
         {
@@ -60,5 +65,5 @@
     "author": "",
     "brand": "",
     "popularity": "",
-    "modified": "Tue, 18 Aug 2026 05:24:52 +0000"
+    "modified": "Wed, 14 Oct 2026 16:39:28 +0000"
 }

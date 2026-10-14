@@ -20,7 +20,7 @@
         {
             "@type": "CreativeWork",
             "name": "IEEE Std 1003.1-2008 (POSIX.1)",
-            "url": "https://standards.ieee.org/findstds/standard/1003.1-2008.html"
+            "url": "https://standards.ieee.org/ieee/1003.1/7700/"
         }
     ],
     "tags": [
@@ -45,5 +45,5 @@
     "author": "",
     "brand": "",
     "popularity": "",
-    "modified": "Fri, 09 Oct 2026 17:24:01 +0000"
+    "modified": "Wed, 14 Oct 2026 18:09:01 +0000"
 }

@@ -33,7 +33,7 @@
         },
         {
             "@type": "CreativeWork",
-            "name": "JSON constants (JSON_THROW_ON_ERROR)",
+            "name": "JSON constants",
             "url": "https://www.php.net/manual/en/json.constants.php"
         }
     ],
@@ -57,5 +57,5 @@
     "author": "",
     "brand": "",
     "popularity": "",
-    "modified": "Fri, 25 Sep 2026 21:30:05 +0000"
+    "modified": "Wed, 14 Oct 2026 16:54:22 +0000"
 }

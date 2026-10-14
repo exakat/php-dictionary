@@ -20,11 +20,6 @@
         },
         {
             "@type": "CreativeWork",
-            "name": "Vertical Tab (\\v) in PHP",
-            "url": "https://compile7.org/special-characters/how-to-use-vertical-tab-v-in-php/"
-        },
-        {
-            "@type": "CreativeWork",
             "name": "Elastic tabstops - a better way to indent and align code",
             "url": "https://nick-gravgaard.com/elastic-tabstops/"
         }
@@ -47,5 +42,5 @@
     "author": "",
     "brand": "",
     "popularity": "",
-    "modified": "Thu, 01 Oct 2026 09:27:50 +0000"
+    "modified": "Wed, 14 Oct 2026 18:12:46 +0000"
 }

@@ -26,11 +26,6 @@
         },
         {
             "@type": "CreativeWork",
-            "name": "Unicode Escaping in PHP",
-            "url": "https://mojoauth.com/escaping/unicode-escaping-in-php"
-        },
-        {
-            "@type": "CreativeWork",
             "name": "Unicode in PHP",
             "url": "https://unicodefyi.com/guide/unicode-in-php/"
         }
@@ -52,5 +47,5 @@
     "author": "",
     "brand": "",
     "popularity": "",
-    "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+    "modified": "Wed, 14 Oct 2026 18:14:11 +0000"
 }

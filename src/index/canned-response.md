@@ -1,0 +1,20 @@
+# Canned Response
+A canned response is a fixed, pre-recorded answer that a test returns instead of calling the real service. For example, a test for an HTTP client can return a stored JSON body with status 200, rather than contacting the API.
+
+Canned responses make tests deterministic: the same input always produces the same output, with no network, no quota and no change over time. They are often used together with a fake HTTP client or a mock handler, and can cover success cases, error codes such as 429 or 500, and malformed bodies.
+
+Canned responses are only as good as the recording they come from. If the real API changes, the canned response goes stale, which is why contract tests exist.
+<script type="application/ld+json">{"@context":["https:\/\/schema.org",{"skos":"http:\/\/www.w3.org\/2004\/02\/skos\/core#"}],"@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/canned-response.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/canned-response.html","name":"Canned Response","inDefinedTermSet":{"@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html#dictionary"},"isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 14 Oct 2026 16:37:44 +0000","dateModified":"Wed, 14 Oct 2026 16:37:44 +0000","description":"A canned response is a fixed, pre-recorded answer that a test returns instead of calling the real service","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/canned-response.html"]}],"alternateName":["canned responses"],"keywords":["test","http"],"skos:related":[{"@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/test-double.html"},{"@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/mocking.html"},{"@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/offline-test-suite.html"},{"@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/malformed-response-body.html"},{"@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/contract-test.html"}],"citation":[{"@type":"CreativeWork","name":"Documentation","url":"https:\/\/martinfowler.com\/articles\/mocksArentStubs.html"},{"@type":"CreativeWork","name":"Http::fake() and Http::response() (Laravel)","url":"https:\/\/laravel.com\/docs\/13.x\/http-client#testing"},{"@type":"CreativeWork","name":"Mocking Guzzle HTTP requests with MockHandler","url":"https:\/\/docs.guzzlephp.org\/en\/stable\/testing.html"}]},{"@type":"DefinedTermSet","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html#dictionary","name":"The PHP Dictionary","alternateName":"PHP Dictionary","description":"A dictionary of PHP terms, keywords, functions, concepts and jargon.","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html","inLanguage":"en","version":"1.1.39","creator":{"@type":"Organization","name":"Exakat","url":"https:\/\/www.exakat.io\/"}},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"The PHP Dictionary","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html"},{"@type":"ListItem","position":2,"name":"Index","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/index.html"},{"@type":"ListItem","position":3,"name":"canned-response"}]}]}</script>
+**[Documentation](https://martinfowler.com/articles/mocksArentStubs.html)**
+## See Also
+
++ [Http::fake() and Http::response() (Laravel)](https://laravel.com/docs/13.x/http-client#testing)
++ [Mocking Guzzle HTTP requests with MockHandler](https://docs.guzzlephp.org/en/stable/testing.html)
+
+## Related
+
++ [Test Double](test-double.html)
++ [Mocking](mocking.html)
++ [Offline Test Suite](offline-test-suite.html)
++ [Malformed Response Body](malformed-response-body.html)
++ [Contract Test](contract-test.html)

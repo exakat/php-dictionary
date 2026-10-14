@@ -27,8 +27,8 @@
         },
         {
             "@type": "CreativeWork",
-            "name": "CTF101 \u2014 Web Exploitation",
-            "url": "https://ctf101.org/web-exploitation/overview/"
+            "name": "PHP Tricks in Web CTF challenges",
+            "url": "https://medium.com/@Asm0d3us/part-1-php-tricks-in-web-ctf-challenges-e1981475b3e4"
         }
     ],
     "tags": [
@@ -50,5 +50,5 @@
     "author": "",
     "brand": "",
     "popularity": "",
-    "modified": "Wed, 19 Aug 2026 06:49:23 +0000"
+    "modified": "Wed, 14 Oct 2026 18:15:34 +0000"
 }

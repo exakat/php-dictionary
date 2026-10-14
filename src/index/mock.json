@@ -2,9 +2,7 @@
     "id": "mock",
     "name": "Mock",
     "url": "https://php-dictionary.readthedocs.io/en/latest/index/mock.html",
-    "aliases": [
-        "test-double"
-    ],
+    "aliases": [],
     "description": "A mock replaces a code dependency with an object, to make testing easier. Mocks are used when the dependency is difficult to set in a reproducible state: for example, in a rare state, or after a long set up.\n\nMocks turns the dependency into another piece of code, with total control over its behavior. \n\nOn the other hand, mocks have to be coded to replace the dependency, and emulates its behavior as closely as possible: any change to the dependency behavior has to be back-ported. \n\nMock objects are also called ``test double``.",
     "code": "",
     "documentation": "https://www.radview.com/glossary/what-is-mock-testing/",
@@ -12,6 +10,7 @@
         "test-data-provider",
         "spy",
         "fixture",
+        "test-double",
         "use-alias"
     ],
     "citations": [
@@ -22,7 +21,7 @@
         },
         {
             "@type": "CreativeWork",
-            "name": "Test doubles",
+            "name": "Test doubles (PHPUnit)",
             "url": "https://docs.phpunit.de/en/13.1/test-doubles.html#test-doubles"
         },
         {
@@ -61,5 +60,5 @@
     "author": "",
     "brand": "",
     "popularity": "",
-    "modified": "Tue, 11 Aug 2026 14:21:58 +0000"
+    "modified": "Wed, 14 Oct 2026 16:55:27 +0000"
 }

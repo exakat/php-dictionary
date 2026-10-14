@@ -1,0 +1,55 @@
+{
+    "id": "canned-response",
+    "name": "Canned Response",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/canned-response.html",
+    "aliases": [
+        "canned responses"
+    ],
+    "description": "A canned response is a fixed, pre-recorded answer that a test returns instead of calling the real service. For example, a test for an HTTP client can return a stored JSON body with status 200, rather than contacting the API.\n\nCanned responses make tests deterministic: the same input always produces the same output, with no network, no quota and no change over time. They are often used together with a fake HTTP client or a mock handler, and can cover success cases, error codes such as 429 or 500, and malformed bodies.\n\nCanned responses are only as good as the recording they come from. If the real API changes, the canned response goes stale, which is why contract tests exist.",
+    "code": "",
+    "documentation": "https://martinfowler.com/articles/mocksArentStubs.html",
+    "related": [
+        "test-double",
+        "mocking",
+        "offline-test-suite",
+        "malformed-response-body",
+        "contract-test"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://martinfowler.com/articles/mocksArentStubs.html"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Http::fake() and Http::response() (Laravel)",
+            "url": "https://laravel.com/docs/13.x/http-client#testing"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Mocking Guzzle HTTP requests with MockHandler",
+            "url": "https://docs.guzzlephp.org/en/stable/testing.html"
+        }
+    ],
+    "tags": [
+        "test",
+        "http"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Wed, 14 Oct 2026 16:37:44 +0000"
+}

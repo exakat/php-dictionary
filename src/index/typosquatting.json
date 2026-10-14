@@ -1,0 +1,54 @@
+{
+    "id": "typosquatting",
+    "name": "Typosquatting",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/typosquatting.html",
+    "aliases": [],
+    "description": "Typosquatting is an attack where a malicious actor registers a name that is a misspelling, a plural, a swapped letter, or a visually similar variant of a legitimate one, and waits for developers to install it by mistake. The name is chosen to be close enough to pass unnoticed when typed quickly or copied from memory.\n\nIn a package repository, such as Packagist for PHP, a typosquatted package looks like a popular library, for example ``monolgo/monolog`` instead of ``monolog/monolog``. A ``composer require`` with the wrong name installs the attacker's code, which then runs with the full rights of the application, its build, and its deployment pipeline.\n\nTyposquatting is a form of supply chain attack: the attacker does not compromise the target project directly, but the dependency that the project trusts. Checking the exact spelling and the vendor name of each dependency, reviewing the ``composer.json`` changes in code review, and pinning dependencies in ``composer.lock`` reduce the risk. Static analysis can flag unknown or recently created packages, and a lockfile audit can flag a package whose name is one edit away from a popular one.",
+    "code": "<?php\n\n    // Legitimate package\n    // composer require monolog/monolog\n\n    // Typosquatted package: one letter away, registered by an attacker\n    // composer require monolgo/monolog\n\n    // Review the lock file after any dependency change\n    // composer.lock must list only the packages that were reviewed\n\n?>",
+    "documentation": "https://en.wikipedia.org/wiki/Typosquatting",
+    "related": [
+        "supply-chain-attack",
+        "supply-chain",
+        "packagist",
+        "composer",
+        "sbom",
+        "least-privilege"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Typosquatting"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Typosquatting in package managers",
+            "url": "https://en.wikipedia.org/wiki/Typosquatting#Package_managers"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "PHP Supply Chain Attack on Composer",
+            "url": "https://blog.sonarsource.com/php-supply-chain-attack-on-composer/"
+        }
+    ],
+    "tags": [
+        "security",
+        "supply chain"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Wed, 14 Oct 2026 15:30:48 +0000"
+}

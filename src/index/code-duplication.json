@@ -1,0 +1,65 @@
+{
+    "id": "code-duplication",
+    "name": "Code Duplication",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/code-duplication.html",
+    "aliases": [
+        "copy paste",
+        "code clone"
+    ],
+    "description": "Code duplication happens when the same, or nearly the same, block of code is written more than once in a project. Copy and paste is the most common cause, but it also comes from similar functions written independently.\n\nDuplicated code is harder to maintain: a bug fix or a change has to be applied to every copy, and the copies tend to drift apart over time. Duplication is one of the most common code smells.\n\nTwo tools help find it:\n\n+ The copy/paste detector, ``phpcpd``, is a PHP tool that scans the source for duplicated blocks and reports the files and line ranges involved. It is a good first pass to measure how much duplication a project has.\n+ ``deslop`` finds, ranks and helps fix duplicated code across a codebase, worst offenders first. It gives the most important duplicates to address before the others.\n\nDuplication is not always bad. Some repetition is cheaper than a wrong abstraction, so the goal is to remove the duplication that causes real maintenance costs.",
+    "code": "",
+    "documentation": "https://en.wikipedia.org/wiki/Duplicate_code",
+    "related": [
+        "dry",
+        "duplicate",
+        "code-smell",
+        "wet",
+        "refactoring"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://en.wikipedia.org/wiki/Duplicate_code"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "phpcpd: PHP Copy/Paste Detector",
+            "url": "https://github.com/sebastianbergmann/phpcpd"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Refactoring.Guru: Duplicate Code",
+            "url": "https://refactoring.guru/smells/duplicate-code"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Don't repeat yourself",
+            "url": "https://en.wikipedia.org/wiki/Don%27t_repeat_yourself"
+        }
+    ],
+    "tags": [
+        "concept",
+        "code smell",
+        "static analysis",
+        "best practice"
+    ],
+    "packagist": [
+        "sebastian/phpcpd"
+    ],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Wed, 14 Oct 2026 15:52:00 +0000"
+}

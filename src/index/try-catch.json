@@ -7,7 +7,7 @@
     ],
     "description": "Try-catch is a PHP command, which runs a block of code, and catches some configured exceptions that the block may throw. It may be completed with a finally block.\n\nThe catch clause may be anonymous, when it only specifies the type of caught exception, without providing a variable name.\n",
     "code": "<?php\n\ntry {\n    callSomeMethod();\n} catch (\\Exception $e) {\n    // process the error here\n}\n\n?>",
-    "documentation": "https://www.php.net/manual/en/language.exceptions.php",
+    "documentation": "https://www.php.net/manual/en/language.exception.php",
     "related": [
         "finally",
         "anonymous-catch",
@@ -33,7 +33,7 @@
         {
             "@type": "CreativeWork",
             "name": "Documentation",
-            "url": "https://www.php.net/manual/en/language.exceptions.php"
+            "url": "https://www.php.net/manual/en/language.exception.php"
         },
         {
             "@type": "CreativeWork",
@@ -70,5 +70,5 @@
     "author": "",
     "brand": "",
     "popularity": "",
-    "modified": "Fri, 11 Sep 2026 13:48:49 +0000"
+    "modified": "Wed, 14 Oct 2026 18:13:51 +0000"
 }

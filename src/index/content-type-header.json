@@ -1,0 +1,58 @@
+{
+    "id": "content-type-header",
+    "name": "Content-Type Header",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/content-type-header.html",
+    "aliases": [
+        "Content-Type"
+    ],
+    "description": "The Content-Type header tells the receiver the media type of the body: for example ``application/json``, ``text/html`` or ``multipart/form-data``. It is sent in both requests and responses.\n\nThe receiver uses it to decode the body correctly. A server that receives a request with a missing or wrong Content-Type may reject it with 415 Unsupported Media Type, and a client that ignores the response's Content-Type may parse an HTML error page as JSON.\n\nFor JSON APIs, the request must send ``Content-Type: application/json``, and the client should check the response header before decoding the body. A ``charset`` parameter can be added to text types, such as ``text/html; charset=UTF-8``.",
+    "code": "<?php\n\n    header('Content-Type: application/json; charset=utf-8');\n    echo json_encode(['status' => 'ok']);\n",
+    "documentation": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Type",
+    "related": [
+        "http-header",
+        "headers",
+        "json",
+        "http-code",
+        "malformed-response-body"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Type"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "RFC 9110: Content-Type",
+            "url": "https://datatracker.ietf.org/doc/html/rfc9110#section-8.3"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "MDN: Content-Type",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Type"
+        }
+    ],
+    "tags": [
+        "header",
+        "http",
+        "json"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [
+        "Functions/Functionnames"
+    ],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Wed, 14 Oct 2026 16:37:45 +0000"
+}

@@ -1,0 +1,57 @@
+{
+    "id": "malformed-response-body",
+    "name": "Malformed Response Body",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/malformed-response-body.html",
+    "aliases": [
+        "malformed response",
+        "invalid response body"
+    ],
+    "description": "A malformed response body is an HTTP response whose content does not match what the client expects. Examples include invalid JSON, a truncated payload, an HTML error page returned instead of JSON, or a body missing a required field.\n\nThe status code can be 200 and the body still be unusable, so checking the status alone is not enough. Code that calls ``json_decode()`` must check for errors, and code that reads a field must handle its absence.\n\nTests should cover malformed bodies, using canned responses, to check that the client raises a clear error instead of crashing or silently returning wrong data.",
+    "code": "<?php\n\n    $data = json_decode($body, true);\n    if (json_last_error() !== JSON_ERROR_NONE || !is_array($data)) {\n        throw new UnexpectedValueException('Malformed response body');\n    }\n",
+    "documentation": "https://www.php.net/manual/en/function.json-last-error.php",
+    "related": [
+        "json",
+        "canned-response",
+        "error-handling",
+        "http-code",
+        "third-party-api"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://www.php.net/manual/en/function.json-last-error.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "json_last_error()",
+            "url": "https://www.php.net/manual/en/function.json-last-error.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "JSON constants",
+            "url": "https://www.php.net/manual/en/json.constants.php"
+        }
+    ],
+    "tags": [
+        "http",
+        "error handling",
+        "json"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Wed, 14 Oct 2026 16:54:51 +0000"
+}

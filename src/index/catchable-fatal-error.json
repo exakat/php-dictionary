@@ -7,7 +7,7 @@
     ],
     "description": "A catchable fatal error is a fatal error that PHP allows user code to intercept before the script terminates, instead of stopping execution unconditionally.\n\nSince PHP 7, most fatal errors are represented as ``Error`` objects, which implement ``Throwable`` and can be intercepted with a ``try``/``catch`` block, making them catchable by nature. Before PHP 7, a narrower category existed as its own error level, ``E_RECOVERABLE_ERROR``, notably raised when an object without a ``__toString()`` method was used in a string context; it could only be intercepted through a custom error handler set with ``set_error_handler()``, not with ``catch``.\n\nIf a catchable fatal error is not actually caught, it behaves exactly like an ordinary fatal error: execution stops.",
     "code": "<?php\n\n    class NoConversion {}\n    \n    try {\n        $s = (string) new NoConversion(); // fatal error, but catchable\n    } catch (\\Error $e) {\n        echo 'Caught: ' . $e->getMessage();\n    }\n\n?>",
-    "documentation": "https://www.php.net/manual/en/language.errors.php7.php",
+    "documentation": "https://www.php.net/manual/en/class.error.php",
     "related": [
         "fatal-error",
         "error",
@@ -18,7 +18,7 @@
         {
             "@type": "CreativeWork",
             "name": "Documentation",
-            "url": "https://www.php.net/manual/en/language.errors.php7.php"
+            "url": "https://www.php.net/manual/en/class.error.php"
         },
         {
             "@type": "CreativeWork",
@@ -28,6 +28,7 @@
     ],
     "tags": [
         "error",
+        "class",
         "specification"
     ],
     "packagist": [],
@@ -43,5 +44,5 @@
     "author": "",
     "brand": "",
     "popularity": "",
-    "modified": "Thu, 27 Aug 2026 05:38:49 +0000"
+    "modified": "Wed, 14 Oct 2026 18:00:55 +0000"
 }

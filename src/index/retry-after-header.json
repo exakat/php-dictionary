@@ -1,0 +1,58 @@
+{
+    "id": "retry-after-header",
+    "name": "Retry-After Header",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/retry-after-header.html",
+    "aliases": [
+        "Retry-After"
+    ],
+    "description": "The Retry-After header tells a client how long to wait before sending another request. It is usually sent with a 429 Too Many Requests response, when the client has hit a rate limit, and with a 503 Service Unavailable response during maintenance.\n\nThe value is either a number of seconds, such as ``Retry-After: 120``, or an HTTP date, such as ``Retry-After: Wed, 21 Oct 2026 07:28:00 GMT``.\n\nA client should honour this header before retrying, rather than using its own fixed delay. Retrying immediately makes rate limiting worse, and a correct retry loop reads the header, waits, and only then tries again, with a maximum number of attempts.",
+    "code": "<?php\n\n    $wait = (int) $response->getHeaderLine('Retry-After');\n    if ($wait > 0) {\n        sleep($wait);\n    }\n",
+    "documentation": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Retry-After",
+    "related": [
+        "retry",
+        "retry-logic",
+        "rate-limit",
+        "http-code",
+        "http-header",
+        "timeout",
+        "third-party-api"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Retry-After"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "RFC 9110: Retry-After",
+            "url": "https://datatracker.ietf.org/doc/html/rfc9110#section-10.2.3"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "MDN: Retry-After",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Retry-After"
+        }
+    ],
+    "tags": [
+        "header",
+        "http",
+        "rate limiting"
+    ],
+    "packagist": [],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Wed, 14 Oct 2026 16:37:45 +0000"
+}

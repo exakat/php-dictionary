@@ -5,7 +5,7 @@
     "aliases": [
         "hashids"
     ],
-    "description": "Sqids, formerly known as Hashids, is an open-source library that encodes one or more non-negative integers into short, YouTube-like alphanumeric strings, and decodes them back.\n\nThe generated strings are URL-safe, avoid common profanity by design, and can use a custom alphabet and a minimum length. Sqids is not a cryptographic function: the encoding is deterministic and reversible by anyone who knows the alphabet and salt used. It is therefore suited for obfuscating sequential integer IDs in URLs to prevent enumeration, not for security-sensitive encoding.\n\nA key difference from ``UUID`` and ``ULID`` is that Sqids encode existing integers rather than generating new identifiers. They are most useful when a database already uses auto-increment primary keys and exposing those raw integers in URLs is undesirable.",
+    "description": "``Sqids``, formerly known as ``Hashids``, is an open-source library that encodes one or more non-negative integers into short, YouTube-like alphanumeric strings, and decodes them back.\n\nThe generated strings are URL-safe, avoid common profanity by design, and can use a custom alphabet and a minimum length. Sqids is not a cryptographic function: the encoding is deterministic and reversible by anyone who knows the alphabet and salt used. It is therefore suited for obfuscating sequential integer IDs in URLs to prevent enumeration, not for security-sensitive encoding.\n\nA key difference from ``UUID`` and ``ULID`` is that Sqids encode existing integers rather than generating new identifiers. They are most useful when a database already uses auto-increment primary keys and exposing those raw integers in URLs is undesirable.",
     "code": "<?php\n\n    use Sqids\\Sqids;\n\n    $sqids = new Sqids();\n\n    $id = $sqids->encode([1, 2, 3]); // e.g. 'TmhB'\n    $numbers = $sqids->decode($id);  // [1, 2, 3]\n\n    // Custom alphabet and minimum length\n    $sqids = new Sqids(alphabet: 'abcdefghij', minLength: 8);\n    echo $sqids->encode([42]); // e.g. 'dfidbicd'\n\n?>",
     "documentation": "https://sqids.org/php",
     "related": [
@@ -54,5 +54,5 @@
     "author": "",
     "brand": "",
     "popularity": "",
-    "modified": "Sun, 02 Aug 2026 06:03:20 +0000"
+    "modified": "Wed, 14 Oct 2026 17:34:28 +0000"
 }

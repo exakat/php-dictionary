@@ -1,0 +1,62 @@
+{
+    "id": "test-double",
+    "name": "Test Double",
+    "url": "https://php-dictionary.readthedocs.io/en/latest/index/test-double.html",
+    "aliases": [
+        "test doubles"
+    ],
+    "description": "A test double is any object that stands in for a real dependency during a test. The name comes from stunt doubles: the object plays the role of the real one, so the code under test can run without it.\n\nThere are several kinds of test doubles:\n\n+ Dummy: passed around to satisfy a signature, but never used.\n+ Stub: returns fixed answers to calls.\n+ Spy: records how it was called, so the test can check it later.\n+ Fake: a working but simplified implementation, such as an in-memory repository.\n+ Mock: checks expectations on the calls it receives.\n\nTest doubles keep tests fast, isolated and reproducible, because they do not depend on databases, networks or clocks.",
+    "code": "",
+    "documentation": "https://martinfowler.com/articles/mocksArentStubs.html",
+    "related": [
+        "mock",
+        "mocking",
+        "spy",
+        "fixture",
+        "canned-response"
+    ],
+    "citations": [
+        {
+            "@type": "CreativeWork",
+            "name": "Documentation",
+            "url": "https://martinfowler.com/articles/mocksArentStubs.html"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Test doubles (PHPUnit)",
+            "url": "https://docs.phpunit.de/en/13.1/test-doubles.html#test-doubles"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Mocks Aren't Stubs",
+            "url": "https://martinfowler.com/articles/mocksArentStubs.html"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Test double (Wikipedia)",
+            "url": "https://en.wikipedia.org/wiki/Test_double"
+        }
+    ],
+    "tags": [
+        "test",
+        "best practice"
+    ],
+    "packagist": [
+        "phpunit/phpunit"
+    ],
+    "extensions": [],
+    "analyzers": [],
+    "cobblers": [],
+    "rule": "",
+    "phpVersionSince": "",
+    "phpVersionUntil": "",
+    "phpVersionDeprecated": "",
+    "phpErrors": [
+        ""
+    ],
+    "changedBehavior": "",
+    "author": "",
+    "brand": "",
+    "popularity": "",
+    "modified": "Wed, 14 Oct 2026 16:37:44 +0000"
+}
