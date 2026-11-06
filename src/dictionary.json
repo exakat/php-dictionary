@@ -1256,7 +1256,7 @@
         "author": "",
         "brand": "",
         "popularity": "",
-        "modified": "Tue, 01 Sep 2026 05:31:03 +0000"
+        "modified": "Thu, 22 Oct 2026 16:16:00 +0000"
     },
     {
         "id": "__invoke",
@@ -1656,7 +1656,7 @@
         "author": "",
         "brand": "",
         "popularity": "",
-        "modified": "Fri, 25 Sep 2026 14:36:21 +0000"
+        "modified": "Thu, 22 Oct 2026 16:16:00 +0000"
     },
     {
         "id": "__tostring",
@@ -2154,7 +2154,7 @@
         "author": "",
         "brand": "",
         "popularity": "",
-        "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+        "modified": "Thu, 22 Oct 2026 16:16:00 +0000"
     },
     {
         "id": "abstract-class",
@@ -3756,7 +3756,7 @@
         "author": "",
         "brand": "",
         "popularity": "",
-        "modified": "Fri, 18 Sep 2026 09:36:15 +0000"
+        "modified": "Thu, 22 Oct 2026 16:16:00 +0000"
     },
     {
         "id": "anemic-domain-model",
@@ -4003,7 +4003,7 @@
         "author": "",
         "brand": "",
         "popularity": "",
-        "modified": "Wed, 14 Oct 2026 17:53:02 +0000"
+        "modified": "Thu, 22 Oct 2026 16:16:00 +0000"
     },
     {
         "id": "anonymous-class",
@@ -4312,7 +4312,7 @@
         "author": "",
         "brand": "",
         "popularity": "",
-        "modified": "Wed, 23 Sep 2026 04:32:57 +0000"
+        "modified": "Thu, 22 Oct 2026 16:16:00 +0000"
     },
     {
         "id": "apcu",
@@ -4437,7 +4437,7 @@
         "author": "",
         "brand": "",
         "popularity": "",
-        "modified": "Wed, 14 Oct 2026 16:39:28 +0000"
+        "modified": "Thu, 22 Oct 2026 16:16:00 +0000"
     },
     {
         "id": "api-gateway",
@@ -5036,7 +5036,7 @@
         "author": "",
         "brand": "",
         "popularity": "",
-        "modified": "Wed, 14 Oct 2026 17:57:48 +0000"
+        "modified": "Thu, 22 Oct 2026 16:16:00 +0000"
     },
     {
         "id": "argument",
@@ -5395,7 +5395,7 @@
         "author": "",
         "brand": "",
         "popularity": "",
-        "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+        "modified": "Thu, 22 Oct 2026 16:16:00 +0000"
     },
     {
         "id": "array-callable",
@@ -5859,7 +5859,7 @@
         "name": "array_change_key_case()",
         "url": "https://php-dictionary.readthedocs.io/en/latest/index/array_change_key_case.html",
         "aliases": [],
-        "description": "``array_change_key_case()`` is a native PHP function that returns a copy of an array where all the string keys are converted to lowercase or uppercase.\n\nThe second argument selects the case: ``CASE_LOWER``, the default, or ``CASE_UPPER``. Integer keys are left unchanged, and when two keys become identical after the conversion, the later one overwrites the earlier one.\n\nThe original array is not modified.",
+        "description": "``array_change_key_case()`` is a native PHP function that returns a copy of an array where all the string keys are converted to lowercase or uppercase.\n\nThe second argument selects the case: ``CASE_LOWER``, the default, or ``CASE_UPPER``. Integer keys are left unchanged, and when two keys become identical after the conversion, the later one overwrites the earlier one.\n\n``array_change_key_case()`` is useful when receiving associative arrays whose keys may have inconsistent capitalization. They may be from external sources like database, headers or JSON. With it, the data may be normalized, and all keys may be set to a consistent ``CASE_LOWER`` or ``CASE_UPPER`` for easier, predictable access. It changes every key's case while leaving numeric indices unchanged, and if different keys become identical after case conversion, later ones override earlier ones.\n\nThe original array is not modified.",
         "code": "<?php\n\n    $data = ['Name' => 'Ada', 'CITY' => 'London', 0 => 'first'];\n\n    // Lowercase keys (default)\n    $lower = array_change_key_case($data);\n    // ['name' => 'Ada', 'city' => 'London', 0 => 'first']\n\n    // Uppercase keys\n    $upper = array_change_key_case($data, CASE_UPPER);\n    // ['NAME' => 'Ada', 'CITY' => 'London', 0 => 'first']\n\n?>",
         "documentation": "https://www.php.net/manual/en/function.array-change-key-case.php",
         "related": [
@@ -5873,11 +5873,6 @@
             {
                 "@type": "CreativeWork",
                 "name": "Documentation",
-                "url": "https://www.php.net/manual/en/function.array-change-key-case.php"
-            },
-            {
-                "@type": "CreativeWork",
-                "name": "array_change_key_case",
                 "url": "https://www.php.net/manual/en/function.array-change-key-case.php"
             }
         ],
@@ -5899,7 +5894,7 @@
         "author": "",
         "brand": "",
         "popularity": "",
-        "modified": "Fri, 09 Oct 2026 17:15:04 +0000"
+        "modified": "Thu, 05 Nov 2026 21:29:04 +0000"
     },
     {
         "id": "array_column",
@@ -6749,7 +6744,7 @@
         "author": "",
         "brand": "",
         "popularity": "",
-        "modified": "Fri, 09 Oct 2026 17:14:27 +0000"
+        "modified": "Thu, 22 Oct 2026 16:16:00 +0000"
     },
     {
         "id": "array_merge",
@@ -7484,7 +7479,7 @@
         "author": "",
         "brand": "",
         "popularity": "",
-        "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+        "modified": "Thu, 22 Oct 2026 16:16:00 +0000"
     },
     {
         "id": "artifact",
@@ -7531,7 +7526,7 @@
         "author": "",
         "brand": "",
         "popularity": "",
-        "modified": "Fri, 25 Sep 2026 13:43:51 +0000"
+        "modified": "Thu, 22 Oct 2026 16:16:00 +0000"
     },
     {
         "id": "as",
@@ -7578,7 +7573,7 @@
         "author": "",
         "brand": "",
         "popularity": "",
-        "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+        "modified": "Thu, 22 Oct 2026 16:16:00 +0000"
     },
     {
         "id": "ascii",
@@ -8895,8 +8890,8 @@
             },
             {
                 "@type": "CreativeWork",
-                "name": "MDN: Authorization",
-                "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Authorization"
+                "name": "Setting an authorization header when using file_get_contents with PHP",
+                "url": "https://joshtronic.com/2021/07/18/setting-an-authorization-header-when-using-file-get-contents-with-php/"
             }
         ],
         "tags": [
@@ -8919,7 +8914,7 @@
         "author": "",
         "brand": "",
         "popularity": "",
-        "modified": "Wed, 14 Oct 2026 16:56:34 +0000"
+        "modified": "Wed, 04 Nov 2026 11:26:04 +0000"
     },
     {
         "id": "authorize",
@@ -10285,11 +10280,6 @@
                 "@type": "CreativeWork",
                 "name": "Documentation",
                 "url": "https://www.php.net/manual/en/function.base-convert.php"
-            },
-            {
-                "@type": "CreativeWork",
-                "name": "PHP: base_convert() - Manual",
-                "url": "https://www.php.net/manual/en/function.base-convert.php"
             }
         ],
         "tags": [
@@ -10311,7 +10301,7 @@
         "author": "",
         "brand": "",
         "popularity": "",
-        "modified": "Fri, 09 Oct 2026 16:29:01 +0000"
+        "modified": "Thu, 05 Nov 2026 21:35:48 +0000"
     },
     {
         "id": "base64",
@@ -10554,7 +10544,7 @@
         "author": "",
         "brand": "",
         "popularity": "",
-        "modified": "Wed, 14 Oct 2026 16:37:45 +0000"
+        "modified": "Thu, 22 Oct 2026 16:16:00 +0000"
     },
     {
         "id": "behavior",
@@ -11718,6 +11708,11 @@
                 "@type": "CreativeWork",
                 "name": "Broken Object Level Authorization (BOLA): The Silent Threat in API Security",
                 "url": "https://medium.com/@bubu.tripathy/broken-object-level-authorization-bola-the-silent-threat-in-api-security-2fe5f57b21b2"
+            },
+            {
+                "@type": "CreativeWork",
+                "name": "BOLA, the #1 API Vulnerability: a One-Line Fix, and the A-B Test That Proves It",
+                "url": "https://www.web-developpeur.com/en/blog/bola-test-a-b-go-php?via=dailydev#bola-or-idor-a-vulnerability-that-fits-in-a-url"
             }
         ],
         "tags": [
@@ -11738,7 +11733,7 @@
         "author": "",
         "brand": "",
         "popularity": "",
-        "modified": "Wed, 19 Aug 2026 06:48:22 +0000"
+        "modified": "Wed, 28 Oct 2026 07:29:39 +0000"
     },
     {
         "id": "boolean",
@@ -12251,7 +12246,7 @@
         "author": "",
         "brand": "",
         "popularity": "",
-        "modified": "Mon, 14 Sep 2026 17:02:11 +0000"
+        "modified": "Thu, 22 Oct 2026 16:16:00 +0000"
     },
     {
         "id": "broken-access-control",
@@ -13462,7 +13457,7 @@
         "author": "",
         "brand": "",
         "popularity": "",
-        "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+        "modified": "Thu, 22 Oct 2026 16:16:00 +0000"
     },
     {
         "id": "callback",
@@ -13672,6 +13667,116 @@
         "modified": "Mon, 07 Sep 2026 09:11:27 +0000"
     },
     {
+        "id": "canary-test",
+        "name": "Canary Test",
+        "url": "https://php-dictionary.readthedocs.io/en/latest/index/canary-test.html",
+        "aliases": [
+            "smoke-canary"
+        ],
+        "description": "A canary test is a deliberately trivial test that is expected to pass. Its only job is to show that the test harness itself works: the autoloader loads, the database connects, the environment variables are set, and PHPUnit runs the suite. If the canary fails, the problem lies in the setup, not in the feature under test.\n\nWithout a canary, a broken setup can look like a broken feature. A suite that fails on every test for a missing configuration file gives the same red result as a real regression, and the team loses time looking for a bug in the code. A canary separates the two cases at a glance.\n\nA canary test should stay simple and fast, and it should exercise exactly the parts the other tests depend on. It is not a substitute for unit or integration tests, and it should not check business logic.",
+        "code": "<?php\n\n    use PHPUnit\\Framework\\TestCase;\n\n    class CanaryTest extends TestCase\n    {\n        // If this fails, the harness is broken, not the feature under test\n        public function testHarnessIsWorking(): void\n        {\n            $this->assertTrue(class_exists(\\App\\Kernel::class));\n            $this->assertNotFalse(getenv('APP_ENV'));\n        }\n    }\n\n?>",
+        "documentation": "https://docs.phpunit.de/en/stable/",
+        "related": [
+            "phpunit",
+            "test",
+            "test-framework",
+            "unit-test",
+            "sentinel",
+            "canary"
+        ],
+        "citations": [
+            {
+                "@type": "CreativeWork",
+                "name": "Documentation",
+                "url": "https://docs.phpunit.de/en/stable/"
+            },
+            {
+                "@type": "CreativeWork",
+                "name": "PHPUnit documentation",
+                "url": "https://docs.phpunit.de/en/stable/"
+            }
+        ],
+        "tags": [
+            "concept",
+            "testing",
+            "disambiguation"
+        ],
+        "packagist": [],
+        "extensions": [],
+        "analyzers": [],
+        "cobblers": [],
+        "rule": "",
+        "phpVersionSince": "",
+        "phpVersionUntil": "",
+        "phpVersionDeprecated": "",
+        "phpErrors": [
+            ""
+        ],
+        "changedBehavior": "",
+        "author": "",
+        "brand": "",
+        "popularity": "",
+        "modified": "Tue, 27 Oct 2026 07:24:53 +0000"
+    },
+    {
+        "id": "canary-token",
+        "name": "Canary Token",
+        "url": "https://php-dictionary.readthedocs.io/en/latest/index/canary-token.html",
+        "aliases": [
+            "honeytoken",
+            "canarytoken"
+        ],
+        "description": "A canary token is a fake credential, file, URL or record, planted where an attacker is likely to find it. Nothing legitimate uses it, so any access is a strong signal of intrusion, and the token raises an alert the moment it is read or used.\n\nCanary tokens are a detection technique rather than a prevention one. They do not block an attacker; they tell the defender that someone has got past the perimeter, and they do so with almost no false positives, since genuine users never touch them.\n\nA PHP application can plant canary tokens as a decoy API key in a configuration file, a fake administrator row in a users table, or a dummy download link in a page that no real user would open. Any request that uses the decoy is logged and reported. Hosted services can generate tokens that alert by email when a URL or a document is opened.\n\nCanary tokens are a close relative of the honeypot, which is a decoy system, and they share the same idea: whoever touches the trap has revealed themselves.",
+        "code": "<?php\n\n    // A decoy credential that no legitimate code ever uses\n    $config = [\n        'db_host' => 'db.internal',\n        'api_key' => 'canary-key-0001', // canary: any use is an intrusion\n    ];\n\n    // Any attempt to authenticate with the decoy raises an alert\n    if ($key === $config['api_key']) {\n        $alerts->raise('canary token used', ['ip' => $_SERVER['REMOTE_ADDR'] ?? '']);\n        http_response_code(403);\n        exit;\n    }\n\n?>",
+        "documentation": "https://docs.canarytokens.org/guide/",
+        "related": [
+            "honeypot",
+            "security",
+            "secret",
+            "monitoring",
+            "canary",
+            "pentest"
+        ],
+        "citations": [
+            {
+                "@type": "CreativeWork",
+                "name": "Documentation",
+                "url": "https://docs.canarytokens.org/guide/"
+            },
+            {
+                "@type": "CreativeWork",
+                "name": "Canarytokens documentation",
+                "url": "https://docs.canarytokens.org/guide/"
+            },
+            {
+                "@type": "CreativeWork",
+                "name": "Honeypot (computing) - Wikipedia",
+                "url": "https://en.wikipedia.org/wiki/Honeypot_(computing)"
+            }
+        ],
+        "tags": [
+            "concept",
+            "security",
+            "disambiguation"
+        ],
+        "packagist": [],
+        "extensions": [],
+        "analyzers": [],
+        "cobblers": [],
+        "rule": "",
+        "phpVersionSince": "",
+        "phpVersionUntil": "",
+        "phpVersionDeprecated": "",
+        "phpErrors": [
+            ""
+        ],
+        "changedBehavior": "",
+        "author": "",
+        "brand": "",
+        "popularity": "",
+        "modified": "Tue, 27 Oct 2026 07:24:59 +0000"
+    },
+    {
         "id": "cancellation",
         "name": "Cancellation",
         "url": "https://php-dictionary.readthedocs.io/en/latest/index/cancellation.html",
@@ -13729,9 +13834,7 @@
         "id": "canned-response",
         "name": "Canned Response",
         "url": "https://php-dictionary.readthedocs.io/en/latest/index/canned-response.html",
-        "aliases": [
-            "canned responses"
-        ],
+        "aliases": [],
         "description": "A canned response is a fixed, pre-recorded answer that a test returns instead of calling the real service. For example, a test for an HTTP client can return a stored JSON body with status 200, rather than contacting the API.\n\nCanned responses make tests deterministic: the same input always produces the same output, with no network, no quota and no change over time. They are often used together with a fake HTTP client or a mock handler, and can cover success cases, error codes such as 429 or 500, and malformed bodies.\n\nCanned responses are only as good as the recording they come from. If the real API changes, the canned response goes stale, which is why contract tests exist.",
         "code": "",
         "documentation": "https://martinfowler.com/articles/mocksArentStubs.html",
@@ -13778,7 +13881,7 @@
         "author": "",
         "brand": "",
         "popularity": "",
-        "modified": "Wed, 14 Oct 2026 16:37:44 +0000"
+        "modified": "Thu, 05 Nov 2026 21:30:19 +0000"
     },
     {
         "id": "canonical",
@@ -14154,7 +14257,7 @@
         "author": "",
         "brand": "",
         "popularity": "",
-        "modified": "Wed, 26 Aug 2026 10:13:54 +0000"
+        "modified": "Thu, 22 Oct 2026 16:16:00 +0000"
     },
     {
         "id": "case-sensitivity",
@@ -14282,7 +14385,7 @@
         "author": "",
         "brand": "",
         "popularity": "",
-        "modified": "Fri, 25 Sep 2026 21:30:05 +0000"
+        "modified": "Thu, 22 Oct 2026 16:16:00 +0000"
     },
     {
         "id": "catch",
@@ -14328,7 +14431,7 @@
         "author": "",
         "brand": "",
         "popularity": "",
-        "modified": "Wed, 14 Oct 2026 17:58:07 +0000"
+        "modified": "Thu, 22 Oct 2026 16:16:00 +0000"
     },
     {
         "id": "catchable-fatal-error",
@@ -14376,7 +14479,7 @@
         "author": "",
         "brand": "",
         "popularity": "",
-        "modified": "Wed, 14 Oct 2026 18:00:55 +0000"
+        "modified": "Thu, 22 Oct 2026 16:16:00 +0000"
     },
     {
         "id": "cd",
@@ -15448,7 +15551,7 @@
         "author": "",
         "brand": "",
         "popularity": "",
-        "modified": "Fri, 09 Oct 2026 17:22:02 +0000"
+        "modified": "Thu, 22 Oct 2026 16:16:00 +0000"
     },
     {
         "id": "class",
@@ -15532,7 +15635,7 @@
         "author": "",
         "brand": "",
         "popularity": "",
-        "modified": "Thu, 17 Sep 2026 07:39:12 +0000"
+        "modified": "Thu, 22 Oct 2026 16:16:00 +0000"
     },
     {
         "id": "class-alias",
@@ -16412,7 +16515,7 @@
         "author": "",
         "brand": "",
         "popularity": "",
-        "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+        "modified": "Thu, 22 Oct 2026 16:16:00 +0000"
     },
     {
         "id": "close-naming",
@@ -17067,8 +17170,8 @@
         "name": "Code Duplication",
         "url": "https://php-dictionary.readthedocs.io/en/latest/index/code-duplication.html",
         "aliases": [
-            "copy paste",
-            "code clone"
+            "copy-paste",
+            "code-clone"
         ],
         "description": "Code duplication happens when the same, or nearly the same, block of code is written more than once in a project. Copy and paste is the most common cause, but it also comes from similar functions written independently.\n\nDuplicated code is harder to maintain: a bug fix or a change has to be applied to every copy, and the copies tend to drift apart over time. Duplication is one of the most common code smells.\n\nTwo tools help find it:\n\n+ The copy/paste detector, ``phpcpd``, is a PHP tool that scans the source for duplicated blocks and reports the files and line ranges involved. It is a good first pass to measure how much duplication a project has.\n+ ``deslop`` finds, ranks and helps fix duplicated code across a codebase, worst offenders first. It gives the most important duplicates to address before the others.\n\nDuplication is not always bad. Some repetition is cheaper than a wrong abstraction, so the goal is to remove the duplication that causes real maintenance costs.",
         "code": "",
@@ -17125,7 +17228,7 @@
         "author": "",
         "brand": "",
         "popularity": "",
-        "modified": "Wed, 14 Oct 2026 15:52:00 +0000"
+        "modified": "Thu, 05 Nov 2026 21:30:08 +0000"
     },
     {
         "id": "code-formatter",
@@ -20453,7 +20556,7 @@
         "author": "",
         "brand": "",
         "popularity": "",
-        "modified": "Tue, 01 Sep 2026 05:31:03 +0000"
+        "modified": "Thu, 22 Oct 2026 16:16:00 +0000"
     },
     {
         "id": "constant",
@@ -20938,7 +21041,7 @@
         "name": "Constructor Property Promotion",
         "url": "https://php-dictionary.readthedocs.io/en/latest/index/constructor-property-promotion.html",
         "aliases": [
-            "promoted constructor properties"
+            "promoted-constructor-properties"
         ],
         "description": "Constructor property promotion lets a class declare its properties directly in the constructor signature. Adding a visibility modifier, such as ``public``, ``protected`` or ``private``, to a constructor parameter declares a property with that name and assigns the argument to it.\n\nBefore PHP 8.0, the same class needed a property declaration, a parameter and an assignment for each value. Promotion removes the repetition:\n\n``class Client { public function __construct(private string $token, private int $timeout = 10) {} }``\n\nThe promoted parameters can have default values, types and ``readonly``. Promotion works well with dependency injection, where a class receives its dependencies in the constructor.",
         "code": "<?php\n\n    class Client {\n        public function __construct(\n            private readonly string $token,\n            private int $timeout = 10,\n        ) {}\n    }\n",
@@ -20988,7 +21091,7 @@
         "author": "",
         "brand": "",
         "popularity": "",
-        "modified": "Wed, 14 Oct 2026 16:37:45 +0000"
+        "modified": "Thu, 05 Nov 2026 21:29:56 +0000"
     },
     {
         "id": "container",
@@ -21154,7 +21257,7 @@
         "author": "",
         "brand": "",
         "popularity": "",
-        "modified": "Wed, 14 Oct 2026 16:37:45 +0000"
+        "modified": "Thu, 22 Oct 2026 16:16:00 +0000"
     },
     {
         "id": "continuation",
@@ -21265,7 +21368,7 @@
         "author": "",
         "brand": "",
         "popularity": "",
-        "modified": "Mon, 14 Sep 2026 17:02:25 +0000"
+        "modified": "Thu, 22 Oct 2026 16:16:00 +0000"
     },
     {
         "id": "contract",
@@ -21335,7 +21438,7 @@
         "name": "Contract Test",
         "url": "https://php-dictionary.readthedocs.io/en/latest/index/contract-test.html",
         "aliases": [
-            "contract testing"
+            "contract-testing"
         ],
         "description": "A contract test checks that two sides of an interface agree on the messages they exchange. For an HTTP API, the consumer, aka the application, declares what it expects from the provider, aka the remote service: the endpoints, the request fields, the response fields and their types. The provider is then checked against that contract.\n\nContract tests sit between unit tests and end-to-end tests. Unlike unit tests with a mock, they catch the case where the mock no longer matches the real service. Unlike end-to-end tests, they do not need the whole system running, and can run offline against the recorded contract.\n\nA contract test is only as good as its contract, so it must be updated when either side changes.",
         "code": "",
@@ -21387,7 +21490,7 @@
         "author": "",
         "brand": "",
         "popularity": "",
-        "modified": "Wed, 14 Oct 2026 16:57:05 +0000"
+        "modified": "Thu, 05 Nov 2026 21:29:42 +0000"
     },
     {
         "id": "contribution",
@@ -23132,7 +23235,7 @@
         "author": "",
         "brand": "",
         "popularity": "",
-        "modified": "Wed, 14 Oct 2026 18:15:34 +0000"
+        "modified": "Thu, 22 Oct 2026 16:16:00 +0000"
     },
     {
         "id": "ctype",
@@ -23914,6 +24017,122 @@
         "modified": "Thu, 17 Sep 2026 07:35:37 +0000"
     },
     {
+        "id": "data-lake",
+        "name": "Data Lake",
+        "url": "https://php-dictionary.readthedocs.io/en/latest/index/data-lake.html",
+        "aliases": [
+            "datalake"
+        ],
+        "description": "A data lake is a storage repository that keeps large volumes of data in its raw, original format until it is needed. Files such as JSON logs, CSV exports, images or Parquet files are written as they are produced, in object storage or a distributed file system, without being cleaned or reshaped first.\n\nThe schema is applied when the data is read, not when it is written. This schema-on-read approach lets teams collect data cheaply and decide later how to use it, but it also means nothing stops a lake from filling with duplicated, undocumented or contradictory files. A lake without naming conventions, ownership and cataloguing quickly becomes what is often called a data swamp.\n\nData lakes are usually paired with a processing engine that queries the files in place, and with a curated layer, such as a data warehouse, for the cleaned data that reports depend on. A PHP application mostly writes to a lake: it stores events or exports as files, and leaves the analysis to other tools.",
+        "code": "<?php\n\n    // Store the raw event as it is, without a fixed schema\n    $event = [\n        'type' => 'order.placed',\n        'at' => date('c'),\n        'payload' => $order->toArray(),\n    ];\n\n    // One file per event, in object storage, to be read later by any tool\n    $storage->write('events/orders/' . uniqid() . '.json', json_encode($event));\n\n?>",
+        "documentation": "https://en.wikipedia.org/wiki/Data_lake",
+        "related": [
+            "data-warehouse",
+            "data-lakehouse",
+            "etl",
+            "parquet",
+            "storage-system",
+            "cloud",
+            "database"
+        ],
+        "citations": [
+            {
+                "@type": "CreativeWork",
+                "name": "Documentation",
+                "url": "https://en.wikipedia.org/wiki/Data_lake"
+            },
+            {
+                "@type": "CreativeWork",
+                "name": "Data lake - Wikipedia",
+                "url": "https://en.wikipedia.org/wiki/Data_lake"
+            }
+        ],
+        "tags": [
+            "concept",
+            "architecture",
+            "data"
+        ],
+        "packagist": [],
+        "extensions": [],
+        "analyzers": [],
+        "cobblers": [],
+        "rule": "",
+        "phpVersionSince": "",
+        "phpVersionUntil": "",
+        "phpVersionDeprecated": "",
+        "phpErrors": [
+            ""
+        ],
+        "changedBehavior": "",
+        "author": "",
+        "brand": "",
+        "popularity": "",
+        "modified": "Tue, 27 Oct 2026 07:21:49 +0000"
+    },
+    {
+        "id": "data-lakehouse",
+        "name": "Data Lakehouse",
+        "url": "https://php-dictionary.readthedocs.io/en/latest/index/data-lakehouse.html",
+        "aliases": [
+            "datalakehouse",
+            "lakehouse"
+        ],
+        "description": "A data lakehouse combines the low-cost, open storage of a data lake with the management features of a data warehouse. Data stays in files in object storage, but it is organised into tables with a metadata layer that records the schema, the file list and the change history, so the same files can be queried with ACID guarantees, and updated or deleted safely.\n\nThe aim is to avoid keeping two copies of the data: one raw copy in a lake for data science and one curated copy in a warehouse for reports. In a lakehouse, both workloads read the same tables, and the table format, such as Apache Iceberg, Delta Lake or Apache Hudi, provides the structure that a plain lake lacks.\n\nThe trade-off is that a lakehouse is only as tidy as its table definitions. Schema changes, retention and access control still need an owner, and query performance depends on file layout and partitioning, just as it does in a warehouse.",
+        "code": "<?php\n\n    // Write an order batch as a table in the lakehouse, not as loose files\n    // The table format records the schema, the files, and every change\n    $lakehouse->table('sales.orders')->append($orders);\n\n    // Reporting and data science both query the same table\n    $rows = $lakehouse->query(\n        'SELECT customer_region, SUM(total) FROM sales.orders GROUP BY customer_region'\n    );\n\n?>",
+        "documentation": "https://en.wikipedia.org/wiki/Data_lake#Data_lakehouse",
+        "related": [
+            "data-lake",
+            "data-warehouse",
+            "parquet",
+            "schema",
+            "etl",
+            "mpp-database"
+        ],
+        "citations": [
+            {
+                "@type": "CreativeWork",
+                "name": "Documentation",
+                "url": "https://en.wikipedia.org/wiki/Data_lake#Data_lakehouse"
+            },
+            {
+                "@type": "CreativeWork",
+                "name": "Data lakehouse - Wikipedia",
+                "url": "https://en.wikipedia.org/wiki/Data_lake#Data_lakehouse"
+            },
+            {
+                "@type": "CreativeWork",
+                "name": "Apache Iceberg",
+                "url": "https://iceberg.apache.org/"
+            },
+            {
+                "@type": "CreativeWork",
+                "name": "Delta Lake",
+                "url": "https://delta.io/"
+            }
+        ],
+        "tags": [
+            "concept",
+            "architecture",
+            "data"
+        ],
+        "packagist": [],
+        "extensions": [],
+        "analyzers": [],
+        "cobblers": [],
+        "rule": "",
+        "phpVersionSince": "",
+        "phpVersionUntil": "",
+        "phpVersionDeprecated": "",
+        "phpErrors": [
+            ""
+        ],
+        "changedBehavior": "",
+        "author": "",
+        "brand": "",
+        "popularity": "",
+        "modified": "Tue, 27 Oct 2026 07:21:52 +0000"
+    },
+    {
         "id": "data-leak",
         "name": "Data Leak",
         "url": "https://php-dictionary.readthedocs.io/en/latest/index/data-leak.html",
@@ -24015,7 +24234,60 @@
             "Cycle ORM": "https://github.com/cycle/orm"
         },
         "popularity": "",
-        "modified": "Wed, 14 Oct 2026 18:03:07 +0000"
+        "modified": "Thu, 22 Oct 2026 16:16:00 +0000"
+    },
+    {
+        "id": "data-warehouse",
+        "name": "Data Warehouse",
+        "url": "https://php-dictionary.readthedocs.io/en/latest/index/data-warehouse.html",
+        "aliases": [
+            "datawarehouse"
+        ],
+        "description": "A data warehouse is a database built for analysis rather than for running an application. Data is extracted from operational systems, cleaned, reshaped into a stable schema, and loaded in a form suited to reporting, such as fact tables for orders and dimension tables for customers or dates.\n\nUnlike a transactional database, which handles many small reads and writes, a warehouse is optimised for queries that scan large amounts of history to compute totals, trends and aggregates. Storage is usually columnar and the data is often partitioned across nodes, which is why many warehouses are MPP databases.\n\nData warehouses are fed by ETL or ELT pipelines. Because the data is structured and curated before it is used, reports built on a warehouse agree with each other, while the raw, unmodelled data stays in the data lake.",
+        "code": "<?php\n\n    // The application writes to its transactional database\n    $orders->insert($order);\n\n    // The warehouse, built by a nightly ETL job, answers reporting questions\n    $statement = $warehouse->prepare(\n        'SELECT customer_region, SUM(total) AS revenue\n           FROM fact_orders\n          WHERE order_date >= :since\n          GROUP BY customer_region'\n    );\n    $statement->execute(['since' => '2026-01-01']);\n\n?>",
+        "documentation": "https://en.wikipedia.org/wiki/Data_warehouse",
+        "related": [
+            "data-lake",
+            "data-lakehouse",
+            "mpp-database",
+            "etl",
+            "sql-database",
+            "column-database",
+            "schema"
+        ],
+        "citations": [
+            {
+                "@type": "CreativeWork",
+                "name": "Documentation",
+                "url": "https://en.wikipedia.org/wiki/Data_warehouse"
+            },
+            {
+                "@type": "CreativeWork",
+                "name": "Data warehouse - Wikipedia",
+                "url": "https://en.wikipedia.org/wiki/Data_warehouse"
+            }
+        ],
+        "tags": [
+            "concept",
+            "architecture",
+            "data"
+        ],
+        "packagist": [],
+        "extensions": [],
+        "analyzers": [],
+        "cobblers": [],
+        "rule": "",
+        "phpVersionSince": "",
+        "phpVersionUntil": "",
+        "phpVersionDeprecated": "",
+        "phpErrors": [
+            ""
+        ],
+        "changedBehavior": "",
+        "author": "",
+        "brand": "",
+        "popularity": "",
+        "modified": "Tue, 27 Oct 2026 07:21:51 +0000"
     },
     {
         "id": "database",
@@ -24066,7 +24338,11 @@
             "primary-key",
             "soft-delete",
             "stored-xss",
-            "surrogate-key"
+            "surrogate-key",
+            "data-lake",
+            "flat-file",
+            "mpp-database",
+            "streaming-database"
         ],
         "citations": [
             {
@@ -24092,7 +24368,7 @@
         "author": "",
         "brand": "",
         "popularity": "",
-        "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+        "modified": "Wed, 04 Nov 2026 11:19:59 +0000"
     },
     {
         "id": "database-commit",
@@ -25424,7 +25700,7 @@
         "author": "",
         "brand": "",
         "popularity": "",
-        "modified": "Sat, 08 Aug 2026 08:10:54 +0000"
+        "modified": "Thu, 22 Oct 2026 16:16:00 +0000"
     },
     {
         "id": "declare-encoding",
@@ -25685,7 +25961,7 @@
         "author": "",
         "brand": "",
         "popularity": "",
-        "modified": "Fri, 09 Oct 2026 17:22:16 +0000"
+        "modified": "Thu, 22 Oct 2026 16:16:00 +0000"
     },
     {
         "id": "decrypt",
@@ -25902,7 +26178,7 @@
         "author": "",
         "brand": "",
         "popularity": "",
-        "modified": "Mon, 17 Aug 2026 09:06:21 +0000"
+        "modified": "Thu, 22 Oct 2026 16:16:00 +0000"
     },
     {
         "id": "default-parameter",
@@ -26201,7 +26477,7 @@
         "author": "",
         "brand": "",
         "popularity": "",
-        "modified": "Thu, 01 Oct 2026 09:27:50 +0000"
+        "modified": "Thu, 22 Oct 2026 16:16:00 +0000"
     },
     {
         "id": "defined",
@@ -27747,7 +28023,7 @@
         "author": "",
         "brand": "",
         "popularity": "",
-        "modified": "Fri, 09 Oct 2026 17:14:27 +0000"
+        "modified": "Thu, 22 Oct 2026 16:16:00 +0000"
     },
     {
         "id": "directory_separator",
@@ -27850,7 +28126,7 @@
         "author": "",
         "brand": "",
         "popularity": "",
-        "modified": "Fri, 25 Sep 2026 13:45:48 +0000"
+        "modified": "Thu, 22 Oct 2026 16:16:00 +0000"
     },
     {
         "id": "dirname",
@@ -28099,7 +28375,7 @@
         "author": "",
         "brand": "",
         "popularity": "",
-        "modified": "Wed, 14 Oct 2026 18:04:41 +0000"
+        "modified": "Thu, 22 Oct 2026 16:16:00 +0000"
     },
     {
         "id": "display_errors",
@@ -28362,7 +28638,7 @@
         "author": "",
         "brand": "",
         "popularity": "",
-        "modified": "Fri, 25 Sep 2026 14:29:17 +0000"
+        "modified": "Thu, 22 Oct 2026 16:16:00 +0000"
     },
     {
         "id": "distributed-tracing",
@@ -28750,7 +29026,7 @@
         "author": "",
         "brand": "",
         "popularity": "",
-        "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+        "modified": "Thu, 22 Oct 2026 16:16:00 +0000"
     },
     {
         "id": "docblock",
@@ -30502,7 +30778,7 @@
         "author": "",
         "brand": "",
         "popularity": "",
-        "modified": "Fri, 09 Oct 2026 16:29:52 +0000"
+        "modified": "Thu, 22 Oct 2026 16:16:00 +0000"
     },
     {
         "id": "dynamic",
@@ -31190,7 +31466,7 @@
         "author": "",
         "brand": "",
         "popularity": "",
-        "modified": "Sat, 08 Aug 2026 08:10:54 +0000"
+        "modified": "Thu, 22 Oct 2026 16:16:00 +0000"
     },
     {
         "id": "echo-tag",
@@ -31933,7 +32209,7 @@
         "author": "",
         "brand": "",
         "popularity": "",
-        "modified": "Thu, 17 Sep 2026 07:40:57 +0000"
+        "modified": "Thu, 22 Oct 2026 16:16:00 +0000"
     },
     {
         "id": "empty-string",
@@ -32249,6 +32525,62 @@
         "modified": "Sun, 30 Aug 2026 10:14:10 +0000"
     },
     {
+        "id": "end-of-line",
+        "name": "End of Line (EOL)",
+        "url": "https://php-dictionary.readthedocs.io/en/latest/index/end-of-line.html",
+        "aliases": [
+            "eol-character"
+        ],
+        "description": "End of line, or EOL, is the character or sequence of characters that marks the end of a line of text in a file. It is not one standard: Unix and Linux use a line feed (``\\n``), Windows uses a carriage return followed by a line feed (``\\r\\n``), and older Mac systems used a carriage return alone (``\\r``).\n\nThe difference matters when a file moves between systems. A script with Windows line endings can fail on Unix with a stray ``\\r`` at the end of each line, and a diff can show every line as changed after a file is edited on another platform. Source control systems usually normalise line endings, and editors can be set to write one style.\n\nIn PHP, the ``PHP_EOL`` constant gives the end-of-line sequence of the platform the script runs on. It is useful when output is meant for the local terminal or file system, but portable file formats such as CSV or HTTP responses should use the sequence their specification asks for, not ``PHP_EOL``.\n\nThis is not the same as EOL, for end of life, which is the date after which a software version stops receiving updates.",
+        "code": "<?php\n\n    // The line ending of the platform running the script\n    echo 'first line' . PHP_EOL;\n    echo 'second line' . PHP_EOL;\n\n    // Stripping a Windows-style ending from a line read from a file\n    $line = rtrim($line, \"\\r\\n\");\n\n?>",
+        "documentation": "https://www.php.net/manual/en/reserved.constants.php",
+        "related": [
+            "php_eol",
+            "new-line",
+            "line-feed",
+            "carriage-return",
+            "crlf-injection",
+            "eol"
+        ],
+        "citations": [
+            {
+                "@type": "CreativeWork",
+                "name": "Documentation",
+                "url": "https://www.php.net/manual/en/reserved.constants.php"
+            },
+            {
+                "@type": "CreativeWork",
+                "name": "PHP: Predefined Constants",
+                "url": "https://www.php.net/manual/en/reserved.constants.php"
+            },
+            {
+                "@type": "CreativeWork",
+                "name": "Newline",
+                "url": "https://en.wikipedia.org/wiki/Newline"
+            }
+        ],
+        "tags": [
+            "concept",
+            "disambiguation"
+        ],
+        "packagist": [],
+        "extensions": [],
+        "analyzers": [],
+        "cobblers": [],
+        "rule": "",
+        "phpVersionSince": "",
+        "phpVersionUntil": "",
+        "phpVersionDeprecated": "",
+        "phpErrors": [
+            ""
+        ],
+        "changedBehavior": "",
+        "author": "",
+        "brand": "",
+        "popularity": "",
+        "modified": "Thu, 05 Nov 2026 21:27:53 +0000"
+    },
+    {
         "id": "end-to-end-test",
         "name": "End To End Test",
         "url": "https://php-dictionary.readthedocs.io/en/latest/index/end-to-end-test.html",
@@ -32505,7 +32837,7 @@
         "author": "",
         "brand": "",
         "popularity": "",
-        "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+        "modified": "Thu, 22 Oct 2026 16:16:00 +0000"
     },
     {
         "id": "enum-case",
@@ -32715,6 +33047,63 @@
         "modified": "Sat, 08 Aug 2026 08:10:54 +0000"
     },
     {
+        "id": "eol",
+        "name": "End of Life (EOL)",
+        "url": "https://php-dictionary.readthedocs.io/en/latest/index/eol.html",
+        "aliases": [
+            "end-of-life"
+        ],
+        "description": "End of life, or EOL, is the date after which a software version no longer receives updates, including security fixes. Each version of PHP, a framework or a library has a support window: it is supported with bug and security fixes for a fixed period, then it reaches end of life and is left as it is.\n\nRunning an EOL version is a security risk, since any vulnerability found after the EOL date will not be patched. Libraries and frameworks usually ship a support table, and it is worth checking it before upgrading or deploying, since an application on an EOL runtime is harder to get patched and may stop receiving compatibility updates from its dependencies.\n\nEOL is not the same as deprecation. A deprecated feature is still supported but flagged for removal, while an EOL version has stopped receiving any updates at all. A deprecation usually comes first, and the EOL date is what ends the support window for the whole release.\n\nThe linked article covers the end-of-life dates for PHP.",
+        "code": "",
+        "documentation": "https://endoflife.ai/article-php-eol",
+        "related": [
+            "release",
+            "deprecation",
+            "lifecycle",
+            "semantic-versioning",
+            "security"
+        ],
+        "citations": [
+            {
+                "@type": "CreativeWork",
+                "name": "Documentation",
+                "url": "https://endoflife.ai/article-php-eol"
+            },
+            {
+                "@type": "CreativeWork",
+                "name": "End of life article for PHP",
+                "url": "https://endoflife.ai/article-php-eol"
+            },
+            {
+                "@type": "CreativeWork",
+                "name": "PHP: Supported Versions",
+                "url": "https://www.php.net/supported-versions.php"
+            }
+        ],
+        "tags": [
+            "concept",
+            "devops",
+            "security",
+            "disambiguation"
+        ],
+        "packagist": [],
+        "extensions": [],
+        "analyzers": [],
+        "cobblers": [],
+        "rule": "",
+        "phpVersionSince": "",
+        "phpVersionUntil": "",
+        "phpVersionDeprecated": "",
+        "phpErrors": [
+            ""
+        ],
+        "changedBehavior": "",
+        "author": "",
+        "brand": "",
+        "popularity": "",
+        "modified": "Thu, 05 Nov 2026 21:28:28 +0000"
+    },
+    {
         "id": "eponymous",
         "name": "Eponymous",
         "url": "https://php-dictionary.readthedocs.io/en/latest/index/eponymous.html",
@@ -32808,6 +33197,68 @@
         "brand": "",
         "popularity": "",
         "modified": "Tue, 01 Sep 2026 05:31:03 +0000"
+    },
+    {
+        "id": "erased-types",
+        "name": "Erased Types",
+        "url": "https://php-dictionary.readthedocs.io/en/latest/index/erased-types.html",
+        "aliases": [],
+        "description": "Erased types are type parameters or annotations that exist while the code is analysed or compiled, and are gone when the program runs. The runtime only sees the raw class or array, so ``List<String>`` and ``List<Integer>`` are the same object at execution time.\n\nJava and TypeScript erase their generics this way. Kotlin's ``reified`` type parameters are the opposite: they are kept at runtime, which is why they are a separate entry.\n\nPHP erases its generic types too, but only in the sense of docblock annotations. ``@template T`` and ``@param list<Order>`` are read by static analysers such as PHPStan and Psalm, and the engine never sees them. Nothing is checked when the code runs, so a wrong element type passes silently unless a tool catches it first.\n\nErased types are not the same as type erasure, which is the process of removing annotations when the code is deployed. Erased types describe the kind of type that does not survive to runtime.",
+        "code": "<?php\n\n    /**\n     * @template T\n     * @param list<T> $items\n     * @return list<T>\n     */\n    function firstTwo(array $items): array {\n        return array_slice($items, 0, 2);\n    }\n\n    // At runtime, only the array is known: the element type is erased\n    firstTwo([new Order(), new Order()]);\n\n?>",
+        "documentation": "https://phpstan.org/writing-php-code/phpdocs-basics#generics",
+        "related": [
+            "type-erasure",
+            "generics",
+            "reified-type",
+            "type-parametricity",
+            "phpdoc",
+            "phpstan",
+            "psalm",
+            "template"
+        ],
+        "citations": [
+            {
+                "@type": "CreativeWork",
+                "name": "Documentation",
+                "url": "https://phpstan.org/writing-php-code/phpdocs-basics#generics"
+            },
+            {
+                "@type": "CreativeWork",
+                "name": "PHPStan: Generics in PHPDocs",
+                "url": "https://phpstan.org/writing-php-code/phpdocs-basics#generics"
+            },
+            {
+                "@type": "CreativeWork",
+                "name": "Psalm: Templated types",
+                "url": "https://psalm.dev/docs/templated_annotations/"
+            },
+            {
+                "@type": "CreativeWork",
+                "name": "Kotlin: Reified type parameters",
+                "url": "https://kotlinlang.org/docs/inline-functions.html#reified-type-parameters"
+            }
+        ],
+        "tags": [
+            "type",
+            "concept",
+            "not supported"
+        ],
+        "packagist": [],
+        "extensions": [],
+        "analyzers": [],
+        "cobblers": [],
+        "rule": "",
+        "phpVersionSince": "",
+        "phpVersionUntil": "",
+        "phpVersionDeprecated": "",
+        "phpErrors": [
+            ""
+        ],
+        "changedBehavior": "",
+        "author": "",
+        "brand": "",
+        "popularity": "",
+        "modified": "Wed, 04 Nov 2026 11:19:58 +0000"
     },
     {
         "id": "error",
@@ -33539,7 +33990,11 @@
             "foreign-key",
             "pipeline",
             "silent",
-            "validation"
+            "validation",
+            "data-lake",
+            "data-lakehouse",
+            "data-warehouse",
+            "mpp-database"
         ],
         "citations": [
             {
@@ -33576,7 +34031,7 @@
         "author": "",
         "brand": "",
         "popularity": "",
-        "modified": "Thu, 17 Sep 2026 08:31:50 +0000"
+        "modified": "Wed, 04 Nov 2026 11:19:59 +0000"
     },
     {
         "id": "eval",
@@ -33635,7 +34090,7 @@
         "author": "",
         "brand": "",
         "popularity": "",
-        "modified": "Tue, 01 Sep 2026 05:31:03 +0000"
+        "modified": "Thu, 22 Oct 2026 16:16:00 +0000"
     },
     {
         "id": "event-driven",
@@ -34164,7 +34619,7 @@
         "author": "",
         "brand": "",
         "popularity": "",
-        "modified": "Wed, 14 Oct 2026 18:05:16 +0000"
+        "modified": "Thu, 22 Oct 2026 16:16:00 +0000"
     },
     {
         "id": "exception-chain",
@@ -34261,7 +34716,7 @@
         "author": "",
         "brand": "",
         "popularity": "",
-        "modified": "Wed, 14 Oct 2026 18:04:58 +0000"
+        "modified": "Thu, 22 Oct 2026 16:16:00 +0000"
     },
     {
         "id": "excimer",
@@ -34860,7 +35315,7 @@
         "author": "",
         "brand": "",
         "popularity": "",
-        "modified": "Fri, 14 Aug 2026 07:52:15 +0000"
+        "modified": "Thu, 22 Oct 2026 16:16:00 +0000"
     },
     {
         "id": "explanation",
@@ -35353,7 +35808,7 @@
         "author": "",
         "brand": "",
         "popularity": "",
-        "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+        "modified": "Thu, 22 Oct 2026 16:16:00 +0000"
     },
     {
         "id": "extension",
@@ -36278,7 +36733,7 @@
         "author": "",
         "brand": "",
         "popularity": "",
-        "modified": "Wed, 14 Oct 2026 18:05:35 +0000"
+        "modified": "Thu, 22 Oct 2026 16:16:00 +0000"
     },
     {
         "id": "fault-isolation",
@@ -36492,7 +36947,7 @@
         "author": "",
         "brand": "",
         "popularity": "",
-        "modified": "Fri, 25 Sep 2026 13:50:30 +0000"
+        "modified": "Thu, 22 Oct 2026 16:16:00 +0000"
     },
     {
         "id": "feature-flag",
@@ -36638,7 +37093,7 @@
         "author": "",
         "brand": "",
         "popularity": "",
-        "modified": "Fri, 25 Sep 2026 18:46:21 +0000"
+        "modified": "Thu, 22 Oct 2026 16:16:00 +0000"
     },
     {
         "id": "ffi",
@@ -37179,7 +37634,7 @@
         "author": "",
         "brand": "",
         "popularity": "",
-        "modified": "Fri, 09 Oct 2026 17:14:27 +0000"
+        "modified": "Thu, 22 Oct 2026 16:16:00 +0000"
     },
     {
         "id": "file_put_contents",
@@ -37522,7 +37977,7 @@
         "author": "",
         "brand": "",
         "popularity": "",
-        "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+        "modified": "Thu, 22 Oct 2026 16:16:00 +0000"
     },
     {
         "id": "final-class-constant",
@@ -37622,7 +38077,7 @@
         "author": "",
         "brand": "",
         "popularity": "",
-        "modified": "Wed, 14 Oct 2026 18:05:56 +0000"
+        "modified": "Thu, 22 Oct 2026 16:16:00 +0000"
     },
     {
         "id": "finfo",
@@ -38044,7 +38499,7 @@
         "author": "",
         "brand": "",
         "popularity": "",
-        "modified": "Wed, 14 Oct 2026 16:39:28 +0000"
+        "modified": "Thu, 22 Oct 2026 16:16:00 +0000"
     },
     {
         "id": "flag",
@@ -38183,6 +38638,66 @@
         },
         "popularity": "",
         "modified": "Thu, 17 Sep 2026 09:15:39 +0000"
+    },
+    {
+        "id": "flat-file",
+        "name": "Flat File",
+        "url": "https://php-dictionary.readthedocs.io/en/latest/index/flat-file.html",
+        "aliases": [
+            "flat-file-database",
+            "flat-file-cms"
+        ],
+        "description": "A flat file is a plain, unstructured file that stores data as text or binary, with no indexes, relations or query engine of its own. A flat-file system uses a directory of such files in place of a database: each record, page or setting is one file, and the application reads and writes it directly.\n\nA flat-file CMS is the typical case. It has no database to install or configure: content is stored as Markdown, YAML or JSON files on disk, the admin panel writes those files, and the page renderer reads them. Deployment is copying a folder, and backups are a version-control commit or a file copy. Because there is no server to run, the setup suits small sites, personal blogs and documentation.\n\nThe trade-off is that the application does the work a database would do. Looking up one item means reading and parsing files, searching means scanning them, and concurrent writes need file locking, so a flat-file system slows down as the number of records grows. It also needs care with file permissions, since the content directory is usually web-readable and the files are only as safe as the server is set up to keep them.\n\nFlat files are not the same as a flat database. A flat-file database is a single table in one file, such as a CSV file, while a flat-file CMS is a folder tree of content files.",
+        "code": "<?php\n\n    // A flat-file CMS: each page is one Markdown file with YAML front matter\n    $path = __DIR__ . '/content/blog/' . $slug . '.md';\n\n    if (!is_file($path)) {\n        http_response_code(404);\n        exit;\n    }\n\n    [$meta, $body] = explode(\\n---\\n, file_get_contents($path), 2);\n    $page = ['title' => $meta, 'body' => $body];\n\n    // Saving a page is writing the file back\n    file_put_contents($path, $newMeta . \\n---\\n . $newBody, LOCK_EX);\n\n?>",
+        "documentation": "https://www.php.net/manual/en/function.file-get-contents.php",
+        "related": [
+            "cms",
+            "markdown",
+            "yaml",
+            "json",
+            "database",
+            "file_get_contents",
+            "file_put_contents",
+            "document-database"
+        ],
+        "citations": [
+            {
+                "@type": "CreativeWork",
+                "name": "Documentation",
+                "url": "https://www.php.net/manual/en/function.file-get-contents.php"
+            },
+            {
+                "@type": "CreativeWork",
+                "name": "Flat-file database - Wikipedia",
+                "url": "https://en.wikipedia.org/wiki/Flat-file_database"
+            },
+            {
+                "@type": "CreativeWork",
+                "name": "Flat-file CMS - Wikipedia",
+                "url": "https://en.wikipedia.org/wiki/Flat-file_database#Flat-file_content_management_systems"
+            }
+        ],
+        "tags": [
+            "concept",
+            "architecture",
+            "storage"
+        ],
+        "packagist": [],
+        "extensions": [],
+        "analyzers": [],
+        "cobblers": [],
+        "rule": "",
+        "phpVersionSince": "",
+        "phpVersionUntil": "",
+        "phpVersionDeprecated": "",
+        "phpErrors": [
+            ""
+        ],
+        "changedBehavior": "",
+        "author": "",
+        "brand": "",
+        "popularity": "",
+        "modified": "Mon, 02 Nov 2026 11:52:12 +0000"
     },
     {
         "id": "flexibility",
@@ -38656,7 +39171,7 @@
         "author": "",
         "brand": "",
         "popularity": "",
-        "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+        "modified": "Thu, 22 Oct 2026 16:16:00 +0000"
     },
     {
         "id": "foreach",
@@ -38725,7 +39240,7 @@
         "author": "",
         "brand": "",
         "popularity": "",
-        "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+        "modified": "Thu, 22 Oct 2026 16:16:00 +0000"
     },
     {
         "id": "foreign-key",
@@ -39723,7 +40238,7 @@
         "author": "",
         "brand": "",
         "popularity": "",
-        "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+        "modified": "Thu, 22 Oct 2026 16:16:00 +0000"
     },
     {
         "id": "function-subscripting",
@@ -40462,7 +40977,11 @@
             "phantom-type",
             "row-polymorphism",
             "template-metaprogramming",
-            "type-system"
+            "type-system",
+            "array-shape",
+            "reified-type",
+            "type-class",
+            "type-parametricity"
         ],
         "citations": [
             {
@@ -40509,7 +41028,7 @@
         "author": "",
         "brand": "",
         "popularity": "",
-        "modified": "Thu, 17 Sep 2026 07:42:26 +0000"
+        "modified": "Fri, 23 Oct 2026 08:55:59 +0000"
     },
     {
         "id": "geoip",
@@ -40810,7 +41329,7 @@
         "author": "",
         "brand": "",
         "popularity": "",
-        "modified": "Fri, 25 Sep 2026 18:46:31 +0000"
+        "modified": "Thu, 22 Oct 2026 16:16:00 +0000"
     },
     {
         "id": "get_object_vars",
@@ -41418,7 +41937,7 @@
         "author": "",
         "brand": "",
         "popularity": "",
-        "modified": "Thu, 10 Sep 2026 20:22:34 +0000"
+        "modified": "Thu, 22 Oct 2026 16:16:00 +0000"
     },
     {
         "id": "global-code",
@@ -41875,7 +42394,55 @@
         "author": "",
         "brand": "",
         "popularity": "",
-        "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+        "modified": "Thu, 22 Oct 2026 16:16:00 +0000"
+    },
+    {
+        "id": "gpu-computing",
+        "name": "GPU Computing",
+        "url": "https://php-dictionary.readthedocs.io/en/latest/index/gpu-computing.html",
+        "aliases": [],
+        "description": "GPU computing, or general-purpose computing on graphics processing units, uses the many parallel cores of a graphics card to run calculations that are not about drawing images. Work is split into thousands of small tasks, such as compute shaders or kernels, executed at the same time on the same data.\n\nGPUs are efficient for matrix operations, image processing, physics simulation, and machine learning. The cost is data transfer between the CPU and the GPU, which has to be worth the parallel speed-up.\n\nEach vendor has its own API: CUDA for NVIDIA, Metal for Apple, Vulkan and OpenCL as cross-platform options. Usually PHP reaches them through an extension, since the code has to call native libraries.",
+        "code": "",
+        "documentation": "https://en.wikipedia.org/wiki/General-purpose_computing_on_graphics_processing_units",
+        "related": [
+            "parallel",
+            "ffi",
+            "machine-learning",
+            "llm",
+            "render"
+        ],
+        "citations": [
+            {
+                "@type": "CreativeWork",
+                "name": "Documentation",
+                "url": "https://en.wikipedia.org/wiki/General-purpose_computing_on_graphics_processing_units"
+            },
+            {
+                "@type": "CreativeWork",
+                "name": "Apple Metal",
+                "url": "https://developer.apple.com/metal/"
+            }
+        ],
+        "tags": [
+            "hardware",
+            "performance"
+        ],
+        "packagist": [
+            "hmennen90/php-metal-gpu"
+        ],
+        "extensions": [],
+        "analyzers": [],
+        "cobblers": [],
+        "rule": "",
+        "phpVersionSince": "",
+        "phpVersionUntil": "",
+        "phpVersionDeprecated": "",
+        "phpErrors": [],
+        "changedBehavior": "",
+        "author": "",
+        "brand": "",
+        "popularity": "",
+        "modified": "Thu, 05 Nov 2026 21:24:09 +0000"
     },
     {
         "id": "gradual-type-checking",
@@ -42396,7 +42963,7 @@
             "AMPHP": "https://amphp.org/"
         },
         "popularity": "",
-        "modified": "Fri, 09 Oct 2026 17:29:25 +0000"
+        "modified": "Thu, 22 Oct 2026 16:16:00 +0000"
     },
     {
         "id": "grpc",
@@ -44099,7 +44666,7 @@
         "author": "",
         "brand": "",
         "popularity": "",
-        "modified": "Fri, 25 Sep 2026 14:29:17 +0000"
+        "modified": "Thu, 22 Oct 2026 16:16:00 +0000"
     },
     {
         "id": "hosting",
@@ -44872,7 +45439,7 @@
         "author": "",
         "brand": "",
         "popularity": "",
-        "modified": "Wed, 14 Oct 2026 16:39:28 +0000"
+        "modified": "Thu, 22 Oct 2026 16:16:00 +0000"
     },
     {
         "id": "http-encoding",
@@ -44992,7 +45559,7 @@
         "author": "",
         "brand": "",
         "popularity": "",
-        "modified": "Wed, 14 Oct 2026 16:39:28 +0000"
+        "modified": "Thu, 22 Oct 2026 16:16:00 +0000"
     },
     {
         "id": "http-headers",
@@ -45634,7 +46201,7 @@
         "author": "",
         "brand": "",
         "popularity": "",
-        "modified": "Tue, 11 Aug 2026 20:51:21 +0000"
+        "modified": "Thu, 22 Oct 2026 16:16:00 +0000"
     },
     {
         "id": "identical",
@@ -46010,7 +46577,7 @@
         "author": "",
         "brand": "",
         "popularity": "",
-        "modified": "Fri, 25 Sep 2026 13:53:05 +0000"
+        "modified": "Thu, 22 Oct 2026 16:16:00 +0000"
     },
     {
         "id": "if-then",
@@ -46064,7 +46631,7 @@
         "author": "",
         "brand": "",
         "popularity": "",
-        "modified": "Mon, 24 Aug 2026 07:40:40 +0000"
+        "modified": "Thu, 22 Oct 2026 16:16:00 +0000"
     },
     {
         "id": "iffectation",
@@ -46151,7 +46718,7 @@
         "author": "",
         "brand": "",
         "popularity": "",
-        "modified": "Wed, 14 Oct 2026 18:06:19 +0000"
+        "modified": "Thu, 22 Oct 2026 16:16:00 +0000"
     },
     {
         "id": "image",
@@ -46678,7 +47245,7 @@
         "author": "",
         "brand": "",
         "popularity": "",
-        "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+        "modified": "Thu, 22 Oct 2026 16:16:00 +0000"
     },
     {
         "id": "implicit",
@@ -47047,7 +47614,7 @@
         "author": "",
         "brand": "",
         "popularity": "",
-        "modified": "Mon, 14 Sep 2026 17:01:29 +0000"
+        "modified": "Thu, 22 Oct 2026 16:16:00 +0000"
     },
     {
         "id": "include_path",
@@ -48369,7 +48936,7 @@
         "author": "",
         "brand": "",
         "popularity": "",
-        "modified": "Fri, 25 Sep 2026 13:59:40 +0000"
+        "modified": "Thu, 22 Oct 2026 16:16:00 +0000"
     },
     {
         "id": "installation",
@@ -48534,7 +49101,7 @@
         "author": "",
         "brand": "",
         "popularity": "",
-        "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+        "modified": "Thu, 22 Oct 2026 16:16:00 +0000"
     },
     {
         "id": "insteadof",
@@ -48585,7 +49152,7 @@
         "author": "",
         "brand": "",
         "popularity": "",
-        "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+        "modified": "Thu, 22 Oct 2026 16:16:00 +0000"
     },
     {
         "id": "instruction",
@@ -48801,7 +49368,7 @@
         "author": "",
         "brand": "",
         "popularity": "",
-        "modified": "Wed, 14 Oct 2026 16:39:28 +0000"
+        "modified": "Thu, 22 Oct 2026 16:16:00 +0000"
     },
     {
         "id": "interface",
@@ -48920,7 +49487,7 @@
         "author": "",
         "brand": "",
         "popularity": "",
-        "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+        "modified": "Thu, 22 Oct 2026 16:16:00 +0000"
     },
     {
         "id": "intermediate-representation",
@@ -48975,7 +49542,7 @@
         "author": "",
         "brand": "",
         "popularity": "",
-        "modified": "Fri, 25 Sep 2026 14:02:39 +0000"
+        "modified": "Thu, 22 Oct 2026 16:16:00 +0000"
     },
     {
         "id": "internals",
@@ -49782,7 +50349,7 @@
         "author": "",
         "brand": "",
         "popularity": "",
-        "modified": "Fri, 25 Sep 2026 18:46:58 +0000"
+        "modified": "Thu, 22 Oct 2026 16:16:00 +0000"
     },
     {
         "id": "is_a",
@@ -50311,7 +50878,7 @@
         "author": "",
         "brand": "",
         "popularity": "",
-        "modified": "Wed, 14 Oct 2026 17:40:46 +0000"
+        "modified": "Thu, 22 Oct 2026 16:16:00 +0000"
     },
     {
         "id": "isset",
@@ -50367,7 +50934,7 @@
         "author": "",
         "brand": "",
         "popularity": "",
-        "modified": "Sat, 08 Aug 2026 08:10:54 +0000"
+        "modified": "Thu, 22 Oct 2026 16:16:00 +0000"
     },
     {
         "id": "iterable",
@@ -50956,7 +51523,7 @@
         "author": "",
         "brand": "",
         "popularity": "",
-        "modified": "Wed, 14 Oct 2026 17:40:30 +0000"
+        "modified": "Thu, 22 Oct 2026 16:16:00 +0000"
     },
     {
         "id": "json-ld",
@@ -51074,7 +51641,7 @@
         "author": "",
         "brand": "",
         "popularity": "",
-        "modified": "Wed, 14 Oct 2026 16:54:22 +0000"
+        "modified": "Thu, 22 Oct 2026 16:16:00 +0000"
     },
     {
         "id": "json_encode",
@@ -51122,7 +51689,7 @@
         "author": "",
         "brand": "",
         "popularity": "",
-        "modified": "Wed, 14 Oct 2026 18:07:32 +0000"
+        "modified": "Thu, 22 Oct 2026 16:16:00 +0000"
     },
     {
         "id": "jsonc",
@@ -51168,7 +51735,7 @@
         "author": "",
         "brand": "",
         "popularity": "",
-        "modified": "Wed, 14 Oct 2026 17:40:13 +0000"
+        "modified": "Thu, 22 Oct 2026 16:16:00 +0000"
     },
     {
         "id": "jsonexception",
@@ -51267,7 +51834,7 @@
         "author": "",
         "brand": "",
         "popularity": "",
-        "modified": "Wed, 14 Oct 2026 17:39:54 +0000"
+        "modified": "Thu, 22 Oct 2026 16:16:00 +0000"
     },
     {
         "id": "jsonserializable",
@@ -51540,7 +52107,7 @@
         "author": "",
         "brand": "",
         "popularity": "",
-        "modified": "Fri, 25 Sep 2026 14:37:01 +0000"
+        "modified": "Thu, 22 Oct 2026 16:16:00 +0000"
     },
     {
         "id": "keyword",
@@ -52634,9 +53201,7 @@
         "id": "least-privilege",
         "name": "Least Privilege Principle",
         "url": "https://php-dictionary.readthedocs.io/en/latest/index/least-privilege.html",
-        "aliases": [
-            "principle of least privilege"
-        ],
+        "aliases": [],
         "description": "The principle of least privilege states that every user, process, service, or component should be granted only the minimum rights it needs to perform its task, and nothing more, for the minimum time needed.\n\nPrivileges are granted by default as narrowly as possible, and extended only when a concrete need is demonstrated. A web application that only reads from a table should connect to the database with a user that has ``SELECT`` rights, not with the administrator account. A script that only writes logs should not run as root. An API token issued for one service should not be able to reach the resources of another.\n\nThe principle limits the damage of a mistake or an attack: when a credential is leaked, a bug is exploited, or a dependency misbehaves, the reachable surface is small. This is the reason it is closely related to the blast radius of a failure. Least privilege is not the same as access control: access control decides who may do what, least privilege decides how much each actor is allowed to do in the first place.",
         "code": "<?php\n\n    // Too much privilege: the application connects as the database owner\n    $pdo = new PDO('mysql:host=db;dbname=shop', 'root', $password);\n\n    // Least privilege: a dedicated user, limited to the operations it needs\n    // GRANT SELECT, INSERT ON shop.orders TO 'shop_app'@'%';\n    $pdo = new PDO('mysql:host=db;dbname=shop', 'shop_app', $password);\n\n?>",
         "documentation": "https://en.wikipedia.org/wiki/Principle_of_least_privilege",
@@ -52688,7 +53253,7 @@
         "author": "",
         "brand": "",
         "popularity": "",
-        "modified": "Wed, 14 Oct 2026 15:30:43 +0000"
+        "modified": "Thu, 05 Nov 2026 21:30:41 +0000"
     },
     {
         "id": "legacy",
@@ -53517,7 +54082,7 @@
         "author": "",
         "brand": "",
         "popularity": "",
-        "modified": "Wed, 14 Oct 2026 18:16:11 +0000"
+        "modified": "Thu, 22 Oct 2026 16:16:00 +0000"
     },
     {
         "id": "linting",
@@ -53690,7 +54255,7 @@
         "author": "",
         "brand": "",
         "popularity": "",
-        "modified": "Fri, 18 Sep 2026 09:30:20 +0000"
+        "modified": "Thu, 22 Oct 2026 16:16:00 +0000"
     },
     {
         "id": "list-comprehension",
@@ -54125,7 +54690,7 @@
         "author": "",
         "brand": "",
         "popularity": "",
-        "modified": "Fri, 25 Sep 2026 14:03:12 +0000"
+        "modified": "Thu, 22 Oct 2026 16:16:00 +0000"
     },
     {
         "id": "local-variable",
@@ -55713,8 +56278,8 @@
         "name": "Malformed Response Body",
         "url": "https://php-dictionary.readthedocs.io/en/latest/index/malformed-response-body.html",
         "aliases": [
-            "malformed response",
-            "invalid response body"
+            "malformed-response",
+            "invalid-response-body"
         ],
         "description": "A malformed response body is an HTTP response whose content does not match what the client expects. Examples include invalid JSON, a truncated payload, an HTML error page returned instead of JSON, or a body missing a required field.\n\nThe status code can be 200 and the body still be unusable, so checking the status alone is not enough. Code that calls ``json_decode()`` must check for errors, and code that reads a field must handle its absence.\n\nTests should cover malformed bodies, using canned responses, to check that the client raises a clear error instead of crashing or silently returning wrong data.",
         "code": "<?php\n\n    $data = json_decode($body, true);\n    if (json_last_error() !== JSON_ERROR_NONE || !is_array($data)) {\n        throw new UnexpectedValueException('Malformed response body');\n    }\n",
@@ -55763,7 +56328,7 @@
         "author": "",
         "brand": "",
         "popularity": "",
-        "modified": "Wed, 14 Oct 2026 16:54:51 +0000"
+        "modified": "Thu, 05 Nov 2026 21:35:22 +0000"
     },
     {
         "id": "man-in-the-middle",
@@ -56023,6 +56588,54 @@
         "modified": "Fri, 19 Jun 2026 21:25:07 +0000"
     },
     {
+        "id": "markup",
+        "name": "Markup",
+        "url": "https://php-dictionary.readthedocs.io/en/latest/index/markup.html",
+        "aliases": [],
+        "description": "Markup is a way to write text with annotations that describe its structure or its presentation. The annotations are either tags, such as ``<h1>`` in HTML, or lightweight symbols, such as ``#`` in Markdown.\n\nMarkup separates the content from how it is displayed. The same source can be rendered as a web page, a PDF, or plain text.\n\nTypst is a markup language for typesetting. It mixes markup for text with a scripting language for logic, and it compiles documents to PDF. It is a modern alternative to LaTeX, with a faster compile time and simpler syntax. A PHP extension gives access to the Typst engine.",
+        "code": "",
+        "documentation": "https://en.wikipedia.org/wiki/Markup_language",
+        "related": [
+            "markdown",
+            "html",
+            "wiki",
+            "template",
+            "syntax",
+            "format"
+        ],
+        "citations": [
+            {
+                "@type": "CreativeWork",
+                "name": "Documentation",
+                "url": "https://en.wikipedia.org/wiki/Markup_language"
+            },
+            {
+                "@type": "CreativeWork",
+                "name": "Typst documentation",
+                "url": "https://typst.app/docs/"
+            }
+        ],
+        "tags": [
+            "format"
+        ],
+        "packagist": [
+            "carthage-software/ext-typst"
+        ],
+        "extensions": [],
+        "analyzers": [],
+        "cobblers": [],
+        "rule": "",
+        "phpVersionSince": "",
+        "phpVersionUntil": "",
+        "phpVersionDeprecated": "",
+        "phpErrors": [],
+        "changedBehavior": "",
+        "author": "",
+        "brand": "",
+        "popularity": "",
+        "modified": "Thu, 05 Nov 2026 21:24:11 +0000"
+    },
+    {
         "id": "mass",
         "name": "Mass",
         "url": "https://php-dictionary.readthedocs.io/en/latest/index/mass.html",
@@ -56194,7 +56807,7 @@
         "author": "",
         "brand": "",
         "popularity": "",
-        "modified": "Mon, 14 Sep 2026 17:03:13 +0000"
+        "modified": "Thu, 22 Oct 2026 16:16:00 +0000"
     },
     {
         "id": "math",
@@ -56362,7 +56975,7 @@
         "author": "",
         "brand": "",
         "popularity": "",
-        "modified": "Fri, 09 Oct 2026 17:05:50 +0000"
+        "modified": "Thu, 22 Oct 2026 16:16:00 +0000"
     },
     {
         "id": "max_input_vars",
@@ -56506,7 +57119,7 @@
         "author": "",
         "brand": "",
         "popularity": "",
-        "modified": "Fri, 25 Sep 2026 18:46:46 +0000"
+        "modified": "Thu, 22 Oct 2026 16:16:00 +0000"
     },
     {
         "id": "mbstring",
@@ -56558,7 +57171,7 @@
         "author": "",
         "brand": "",
         "popularity": "",
-        "modified": "Fri, 25 Sep 2026 21:30:05 +0000"
+        "modified": "Thu, 22 Oct 2026 16:16:00 +0000"
     },
     {
         "id": "mcp",
@@ -58549,7 +59162,7 @@
         "author": "",
         "brand": "",
         "popularity": "",
-        "modified": "Fri, 25 Sep 2026 14:03:43 +0000"
+        "modified": "Thu, 22 Oct 2026 16:16:00 +0000"
     },
     {
         "id": "mixed",
@@ -58776,7 +59389,7 @@
         "author": "",
         "brand": "",
         "popularity": "",
-        "modified": "Wed, 14 Oct 2026 16:55:27 +0000"
+        "modified": "Thu, 22 Oct 2026 16:16:00 +0000"
     },
     {
         "id": "mocking",
@@ -58839,7 +59452,7 @@
         "author": "",
         "brand": "",
         "popularity": "",
-        "modified": "Wed, 14 Oct 2026 16:55:56 +0000"
+        "modified": "Thu, 22 Oct 2026 16:16:00 +0000"
     },
     {
         "id": "model",
@@ -59276,7 +59889,11 @@
             "qos",
             "reliability",
             "sla",
-            "percentile"
+            "percentile",
+            "canary-token",
+            "distributed-tracing",
+            "nines",
+            "resilience"
         ],
         "citations": [
             {
@@ -59313,7 +59930,7 @@
         "author": "",
         "brand": "",
         "popularity": "",
-        "modified": "Wed, 19 Aug 2026 08:21:46 +0000"
+        "modified": "Wed, 04 Nov 2026 11:19:59 +0000"
     },
     {
         "id": "monkey-patch",
@@ -59597,7 +60214,7 @@
         "author": "",
         "brand": "",
         "popularity": "",
-        "modified": "Fri, 09 Oct 2026 17:28:03 +0000"
+        "modified": "Thu, 22 Oct 2026 16:16:00 +0000"
     },
     {
         "id": "move_uploaded_file",
@@ -59651,7 +60268,7 @@
         "author": "",
         "brand": "",
         "popularity": "",
-        "modified": "Fri, 09 Oct 2026 17:27:52 +0000"
+        "modified": "Thu, 22 Oct 2026 16:16:00 +0000"
     },
     {
         "id": "mpp-database",
@@ -59703,7 +60320,7 @@
         "author": "",
         "brand": "",
         "popularity": "",
-        "modified": "Fri, 25 Sep 2026 14:29:12 +0000"
+        "modified": "Thu, 22 Oct 2026 16:16:00 +0000"
     },
     {
         "id": "mro",
@@ -60034,7 +60651,7 @@
         "author": "",
         "brand": "",
         "popularity": "",
-        "modified": "Fri, 09 Oct 2026 17:27:15 +0000"
+        "modified": "Thu, 22 Oct 2026 16:16:00 +0000"
     },
     {
         "id": "multiplication",
@@ -61057,7 +61674,7 @@
         "author": "",
         "brand": "",
         "popularity": "",
-        "modified": "Thu, 27 Aug 2026 04:31:44 +0000"
+        "modified": "Thu, 22 Oct 2026 16:16:00 +0000"
     },
     {
         "id": "namespace-alias",
@@ -61475,7 +62092,7 @@
         "author": "",
         "brand": "",
         "popularity": "",
-        "modified": "Fri, 09 Oct 2026 17:26:12 +0000"
+        "modified": "Thu, 22 Oct 2026 16:16:00 +0000"
     },
     {
         "id": "nativephp",
@@ -61794,7 +62411,7 @@
         "author": "",
         "brand": "",
         "popularity": "",
-        "modified": "Fri, 09 Oct 2026 17:14:27 +0000"
+        "modified": "Thu, 22 Oct 2026 16:16:00 +0000"
     },
     {
         "id": "neural-network",
@@ -61990,7 +62607,7 @@
         "author": "",
         "brand": "",
         "popularity": "",
-        "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+        "modified": "Thu, 22 Oct 2026 16:16:00 +0000"
     },
     {
         "id": "new-in-initializer",
@@ -62359,7 +62976,7 @@
         "author": "",
         "brand": "",
         "popularity": "",
-        "modified": "Fri, 09 Oct 2026 17:15:36 +0000"
+        "modified": "Thu, 22 Oct 2026 16:16:00 +0000"
     },
     {
         "id": "non-breakable-space",
@@ -64487,7 +65104,7 @@
         "name": "Offline Test Suite",
         "url": "https://php-dictionary.readthedocs.io/en/latest/index/offline-test-suite.html",
         "aliases": [
-            "offline tests"
+            "offline-tests"
         ],
         "description": "An offline test suite is a set of tests that run without network access. Every external dependency, such as an HTTP API, a database service or a message queue, is replaced by a test double or a canned response.\n\nOffline tests are fast, can run on a laptop without credentials, and do not fail because a remote service is down or rate limited. They are reproducible: the same code gives the same result every time.\n\nAn offline suite does not prove that the code works with the real service. That check belongs to a separate, optional live sandbox or integration suite, and to contract tests.",
         "code": "",
@@ -64536,7 +65153,7 @@
         "author": "",
         "brand": "",
         "popularity": "",
-        "modified": "Wed, 14 Oct 2026 16:37:44 +0000"
+        "modified": "Thu, 05 Nov 2026 21:35:31 +0000"
     },
     {
         "id": "offset",
@@ -67967,7 +68584,7 @@
         "author": "",
         "brand": "",
         "popularity": "",
-        "modified": "Fri, 25 Sep 2026 18:46:51 +0000"
+        "modified": "Thu, 22 Oct 2026 16:16:00 +0000"
     },
     {
         "id": "parse_str",
@@ -68632,7 +69249,7 @@
         "author": "",
         "brand": "",
         "popularity": "",
-        "modified": "Fri, 09 Oct 2026 17:23:28 +0000"
+        "modified": "Thu, 22 Oct 2026 16:16:00 +0000"
     },
     {
         "id": "pattern",
@@ -71430,6 +72047,53 @@
         "modified": "Fri, 19 Jun 2026 21:27:49 +0000"
     },
     {
+        "id": "php_version_id",
+        "name": "PHP_VERSION_ID",
+        "url": "https://php-dictionary.readthedocs.io/en/latest/index/php_version_id.html",
+        "aliases": [],
+        "description": "``PHP_VERSION_ID`` is a predefined integer constant holding the version of the running PHP interpreter, encoded as ``major * 10000 + minor * 100 + release``. For example, PHP 8.3.0 gives ``80300`` and PHP 7.4.33 gives ``70433``.\n\nBecause it is a single integer, it can be compared directly with ``>=`` to test the PHP version, without parsing ``PHP_VERSION``. Each component is two digits, so the encoding stays ordered for comparison as long as the minor and release numbers stay below 100.\n\nThe constant is available since PHP 5.2.7. Before that, only the string ``PHP_VERSION`` was available.",
+        "code": "<?php\n\n    // Requires PHP 8.0 or later\n    if (PHP_VERSION_ID >= 80000) {\n        // use constructor property promotion, union types, ...\n    }\n\n    echo PHP_VERSION_ID; // 80300 on PHP 8.3.0\n\n?>",
+        "documentation": "https://www.php.net/manual/en/reserved.constants.php",
+        "related": [],
+        "citations": [
+            {
+                "@type": "CreativeWork",
+                "name": "Documentation",
+                "url": "https://www.php.net/manual/en/reserved.constants.php"
+            },
+            {
+                "@type": "CreativeWork",
+                "name": "PHP: Predefined Constants",
+                "url": "https://www.php.net/manual/en/reserved.constants.php"
+            },
+            {
+                "@type": "CreativeWork",
+                "name": "PHP: phpversion",
+                "url": "https://www.php.net/manual/en/function.phpversion.php"
+            }
+        ],
+        "tags": [
+            "constant",
+            "version"
+        ],
+        "packagist": [],
+        "extensions": [],
+        "analyzers": [],
+        "cobblers": [],
+        "rule": "",
+        "phpVersionSince": "5.2.7",
+        "phpVersionUntil": "",
+        "phpVersionDeprecated": "",
+        "phpErrors": [
+            ""
+        ],
+        "changedBehavior": "",
+        "author": "",
+        "brand": "",
+        "popularity": "",
+        "modified": "Fri, 23 Oct 2026 11:02:51 +0000"
+    },
+    {
         "id": "phpdoc",
         "name": "PHPdoc",
         "url": "https://php-dictionary.readthedocs.io/en/latest/index/phpdoc.html",
@@ -71915,7 +72579,7 @@
         "author": "",
         "brand": "",
         "popularity": "",
-        "modified": "Fri, 09 Oct 2026 16:43:24 +0000"
+        "modified": "Thu, 22 Oct 2026 16:16:00 +0000"
     },
     {
         "id": "plain-text",
@@ -72263,7 +72927,7 @@
         "author": "",
         "brand": "",
         "popularity": "",
-        "modified": "Fri, 09 Oct 2026 17:24:29 +0000"
+        "modified": "Thu, 22 Oct 2026 16:16:00 +0000"
     },
     {
         "id": "polling",
@@ -72323,7 +72987,7 @@
         "author": "",
         "brand": "",
         "popularity": "",
-        "modified": "Fri, 09 Oct 2026 17:16:12 +0000"
+        "modified": "Thu, 22 Oct 2026 16:16:00 +0000"
     },
     {
         "id": "polyfill",
@@ -72888,7 +73552,7 @@
         "author": "",
         "brand": "",
         "popularity": "",
-        "modified": "Wed, 14 Oct 2026 18:09:01 +0000"
+        "modified": "Thu, 22 Oct 2026 16:16:00 +0000"
     },
     {
         "id": "post-increment",
@@ -73810,7 +74474,7 @@
         "author": "",
         "brand": "",
         "popularity": "",
-        "modified": "Sat, 08 Aug 2026 08:10:54 +0000"
+        "modified": "Thu, 22 Oct 2026 16:16:00 +0000"
     },
     {
         "id": "print_r",
@@ -74026,7 +74690,7 @@
         "author": "",
         "brand": "",
         "popularity": "",
-        "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+        "modified": "Thu, 22 Oct 2026 16:16:00 +0000"
     },
     {
         "id": "prng",
@@ -74642,7 +75306,7 @@
         "author": "",
         "brand": "",
         "popularity": "",
-        "modified": "Wed, 14 Oct 2026 16:39:28 +0000"
+        "modified": "Thu, 22 Oct 2026 16:16:00 +0000"
     },
     {
         "id": "property-based-testing",
@@ -74876,7 +75540,7 @@
         "author": "",
         "brand": "",
         "popularity": "",
-        "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+        "modified": "Thu, 22 Oct 2026 16:16:00 +0000"
     },
     {
         "id": "protobuf",
@@ -75476,7 +76140,7 @@
         "author": "",
         "brand": "",
         "popularity": "",
-        "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+        "modified": "Thu, 22 Oct 2026 16:16:00 +0000"
     },
     {
         "id": "pubsub",
@@ -77127,7 +77791,7 @@
             "Apache Kafka": "https://kafka.apache.org/"
         },
         "popularity": "",
-        "modified": "Fri, 25 Sep 2026 14:39:42 +0000"
+        "modified": "Thu, 22 Oct 2026 16:16:00 +0000"
     },
     {
         "id": "reactphp",
@@ -77487,7 +78151,7 @@
         "author": "",
         "brand": "",
         "popularity": "",
-        "modified": "Thu, 17 Sep 2026 07:38:28 +0000"
+        "modified": "Thu, 22 Oct 2026 16:16:00 +0000"
     },
     {
         "id": "real",
@@ -78375,7 +79039,7 @@
         "author": "",
         "brand": "",
         "popularity": "",
-        "modified": "Fri, 09 Oct 2026 17:25:39 +0000"
+        "modified": "Thu, 22 Oct 2026 16:16:00 +0000"
     },
     {
         "id": "referential-integrity",
@@ -78935,6 +79599,60 @@
         "brand": "",
         "popularity": "",
         "modified": "Fri, 14 Aug 2026 08:06:57 +0000"
+    },
+    {
+        "id": "reified-type",
+        "name": "Reified Types",
+        "url": "https://php-dictionary.readthedocs.io/en/latest/index/reified-type.html",
+        "aliases": [
+            "reified-generics"
+        ],
+        "description": "Reified types are generic type parameters that are kept at runtime, so the code can check or create the actual type argument while the program runs. In languages that erase generics at compile time, such as Java, ``List<String>`` and ``List<Integer>`` are the same class at runtime. A reified type parameter, as in Kotlin's ``inline fun <reified T> f()``, lets the code test ``x is T`` or instantiate ``T`` directly.\n\nPHP has no generics, and its type system does not carry type arguments at runtime. Types such as ``array``, ``iterable`` or ``Traversable`` cannot be parameterised, and there is no syntax to pass a type as a value that the code can inspect or instantiate by its name. The closest equivalents are passing a class name as a string and using ``new $class()``, or ``instanceof`` against a fixed class, but neither is a type parameter.\n\nGenerics are discussed in their own entry; reified types only make sense on top of them.",
+        "code": "<?php\n\n    // Java / Kotlin style: T is available at runtime\n    // inline fun <reified T> isA(x: Any) = x is T\n\n    // PHP: no type parameter, the class must be named explicitly\n    function isA(object $x, string $class): bool {\n        return $x instanceof $class;\n    }\n\n?>",
+        "documentation": "https://kotlinlang.org/docs/inline-functions.html#reified-type-parameters",
+        "related": [
+            "generics",
+            "instanceof",
+            "native-type",
+            "type-erasure"
+        ],
+        "citations": [
+            {
+                "@type": "CreativeWork",
+                "name": "Documentation",
+                "url": "https://kotlinlang.org/docs/inline-functions.html#reified-type-parameters"
+            },
+            {
+                "@type": "CreativeWork",
+                "name": "Kotlin: Reified type parameters",
+                "url": "https://kotlinlang.org/docs/inline-functions.html#reified-type-parameters"
+            },
+            {
+                "@type": "CreativeWork",
+                "name": "PHP: Generators",
+                "url": "https://www.php.net/manual/en/language.generators.php"
+            }
+        ],
+        "tags": [
+            "concept",
+            "not supported"
+        ],
+        "packagist": [],
+        "extensions": [],
+        "analyzers": [],
+        "cobblers": [],
+        "rule": "",
+        "phpVersionSince": "",
+        "phpVersionUntil": "",
+        "phpVersionDeprecated": "",
+        "phpErrors": [
+            ""
+        ],
+        "changedBehavior": "",
+        "author": "",
+        "brand": "",
+        "popularity": "",
+        "modified": "Fri, 23 Oct 2026 08:56:45 +0000"
     },
     {
         "id": "relative",
@@ -79934,7 +80652,7 @@
         "author": "",
         "brand": "",
         "popularity": "",
-        "modified": "Wed, 14 Oct 2026 18:09:21 +0000"
+        "modified": "Thu, 22 Oct 2026 16:16:00 +0000"
     },
     {
         "id": "responsability",
@@ -80217,7 +80935,7 @@
         "author": "",
         "brand": "",
         "popularity": "",
-        "modified": "Wed, 14 Oct 2026 16:39:28 +0000"
+        "modified": "Thu, 22 Oct 2026 16:16:00 +0000"
     },
     {
         "id": "retry-after-header",
@@ -80275,7 +80993,7 @@
         "author": "",
         "brand": "",
         "popularity": "",
-        "modified": "Wed, 14 Oct 2026 16:37:45 +0000"
+        "modified": "Thu, 22 Oct 2026 16:16:00 +0000"
     },
     {
         "id": "return",
@@ -80328,7 +81046,7 @@
         "author": "",
         "brand": "",
         "popularity": "",
-        "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+        "modified": "Thu, 22 Oct 2026 16:16:00 +0000"
     },
     {
         "id": "return-carriage",
@@ -81863,9 +82581,20 @@
                 "@type": "CreativeWork",
                 "name": "CycloneDX PHP Composer Plugin",
                 "url": "https://github.com/CycloneDX/cyclonedx-php-composer"
+            },
+            {
+                "@type": "CreativeWork",
+                "name": "PHP SBOM Guide: Composer Dependencies and Security",
+                "url": "https://sbomgenerator.com/guides/php"
+            },
+            {
+                "@type": "CreativeWork",
+                "name": "SBOM Generation Guide for PHP - Composer",
+                "url": "https://sbomify.com/guides/php/"
             }
         ],
         "tags": [
+            "security",
             "acronym",
             "software lifecycle"
         ],
@@ -81884,7 +82613,7 @@
         "author": "",
         "brand": "",
         "popularity": "",
-        "modified": "Wed, 14 Oct 2026 17:39:26 +0000"
+        "modified": "Fri, 23 Oct 2026 05:38:34 +0000"
     },
     {
         "id": "sca",
@@ -81967,7 +82696,7 @@
             "mago": "https://github.com/carthage-software/mago"
         },
         "popularity": "",
-        "modified": "Wed, 14 Oct 2026 17:39:07 +0000"
+        "modified": "Thu, 22 Oct 2026 16:16:00 +0000"
     },
     {
         "id": "scaffolding",
@@ -82372,7 +83101,7 @@
         "author": "",
         "brand": "",
         "popularity": "",
-        "modified": "Wed, 14 Oct 2026 17:38:46 +0000"
+        "modified": "Thu, 22 Oct 2026 16:16:00 +0000"
     },
     {
         "id": "sdlc",
@@ -82546,7 +83275,7 @@
         "author": "",
         "brand": "",
         "popularity": "",
-        "modified": "Wed, 14 Oct 2026 17:37:51 +0000"
+        "modified": "Thu, 22 Oct 2026 16:16:00 +0000"
     },
     {
         "id": "second-order-sql-injection",
@@ -82702,7 +83431,12 @@
             "c2-framework",
             "csp",
             "exif",
-            "wrapper-file"
+            "wrapper-file",
+            "canary-token",
+            "egress-filtering",
+            "eol",
+            "firewall",
+            "self-hosted"
         ],
         "citations": [
             {
@@ -82749,7 +83483,7 @@
         "author": "",
         "brand": "",
         "popularity": "",
-        "modified": "Fri, 04 Sep 2026 09:39:51 +0000"
+        "modified": "Thu, 05 Nov 2026 21:26:20 +0000"
     },
     {
         "id": "seekableiterator",
@@ -82945,6 +83679,61 @@
         "brand": "",
         "popularity": "",
         "modified": "Wed, 19 Aug 2026 06:47:42 +0000"
+    },
+    {
+        "id": "self-hosted",
+        "name": "Self-Hosted",
+        "url": "https://php-dictionary.readthedocs.io/en/latest/index/self-hosted.html",
+        "aliases": [
+            "self-host",
+            "selfhosted"
+        ],
+        "description": "Self-hosted means running an application or service on infrastructure that you control, rather than using a version run by someone else. The machine may be a physical server in your office, a virtual machine you rent, or a container on a host you manage, but the operator, not a vendor, is responsible for installation, upgrades, backups and security.\n\nSelf-hosting gives full control over the data, the configuration and the update schedule, and it avoids a dependency on a third-party provider's pricing or availability. The cost is the operational work: patches, certificates, monitoring and recovery all fall to the operator, and a neglected instance can become a security risk.\n\nSelf-hosting is the opposite of a SaaS subscription, where the vendor runs the application. It is close to on-premise software, which is installed inside an organisation's own premises, but a self-hosted application may just as well run in a rented cloud server or a container.\n\nMany PHP applications are self-hosted: a blog engine, a wiki, an e-commerce store or a CRM is installed on a server the site owner manages, typically with a web server, PHP-FPM and a database.",
+        "code": "<?php\n\n    // A self-hosted app reads its own configuration from the server it runs on\n    $dsn = getenv('DATABASE_URL') ?: 'mysql:host=localhost;dbname=app';\n    $pdo = new PDO($dsn, getenv('DB_USER'), getenv('DB_PASSWORD'));\n\n    // The operator sets the public URL, so links point to this installation\n    $baseUrl = rtrim(getenv('APP_URL'), '/');\n\n?>",
+        "documentation": "https://en.wikipedia.org/wiki/Self-hosting_(web_services)",
+        "related": [
+            "on-premise-software",
+            "saas",
+            "cloud",
+            "hosting",
+            "docker-image",
+            "devops",
+            "security",
+            "privacy"
+        ],
+        "citations": [
+            {
+                "@type": "CreativeWork",
+                "name": "Documentation",
+                "url": "https://en.wikipedia.org/wiki/Self-hosting_(web_services)"
+            },
+            {
+                "@type": "CreativeWork",
+                "name": "Self-hosting (web services) - Wikipedia",
+                "url": "https://en.wikipedia.org/wiki/Self-hosting_(web_services)"
+            }
+        ],
+        "tags": [
+            "concept",
+            "architecture",
+            "devops"
+        ],
+        "packagist": [],
+        "extensions": [],
+        "analyzers": [],
+        "cobblers": [],
+        "rule": "",
+        "phpVersionSince": "",
+        "phpVersionUntil": "",
+        "phpVersionDeprecated": "",
+        "phpErrors": [
+            ""
+        ],
+        "changedBehavior": "",
+        "author": "",
+        "brand": "",
+        "popularity": "",
+        "modified": "Thu, 05 Nov 2026 09:38:06 +0000"
     },
     {
         "id": "self-reference",
@@ -83429,7 +84218,7 @@
         "author": "",
         "brand": "",
         "popularity": "",
-        "modified": "Wed, 14 Oct 2026 17:37:31 +0000"
+        "modified": "Thu, 22 Oct 2026 16:16:00 +0000"
     },
     {
         "id": "separation-of-concerns",
@@ -83829,7 +84618,7 @@
         "author": "",
         "brand": "",
         "popularity": "",
-        "modified": "Wed, 14 Oct 2026 17:37:05 +0000"
+        "modified": "Thu, 22 Oct 2026 16:16:00 +0000"
     },
     {
         "id": "server",
@@ -83991,7 +84780,7 @@
             "Bref": "https://bref.sh"
         },
         "popularity": "",
-        "modified": "Wed, 14 Oct 2026 17:36:42 +0000"
+        "modified": "Thu, 22 Oct 2026 16:16:00 +0000"
     },
     {
         "id": "service",
@@ -84245,7 +85034,7 @@
             "Apache ZooKeeper": "https://zookeeper.apache.org/"
         },
         "popularity": "",
-        "modified": "Wed, 14 Oct 2026 17:36:03 +0000"
+        "modified": "Thu, 22 Oct 2026 16:16:00 +0000"
     },
     {
         "id": "session",
@@ -84809,7 +85598,7 @@
         "author": "",
         "brand": "",
         "popularity": "",
-        "modified": "Fri, 25 Sep 2026 18:46:26 +0000"
+        "modified": "Thu, 22 Oct 2026 16:16:00 +0000"
     },
     {
         "id": "sha",
@@ -85715,7 +86504,7 @@
         "author": "",
         "brand": "",
         "popularity": "",
-        "modified": "Wed, 14 Oct 2026 17:34:56 +0000"
+        "modified": "Thu, 22 Oct 2026 16:16:00 +0000"
     },
     {
         "id": "shuffle",
@@ -85761,7 +86550,7 @@
         "author": "",
         "brand": "",
         "popularity": "",
-        "modified": "Fri, 25 Sep 2026 14:29:07 +0000"
+        "modified": "Thu, 22 Oct 2026 16:16:00 +0000"
     },
     {
         "id": "shutdown",
@@ -86700,7 +87489,7 @@
         "author": "",
         "brand": "",
         "popularity": "",
-        "modified": "Fri, 25 Sep 2026 14:25:49 +0000"
+        "modified": "Thu, 22 Oct 2026 16:16:00 +0000"
     },
     {
         "id": "smtp",
@@ -87086,7 +87875,7 @@
         "author": "",
         "brand": "",
         "popularity": "",
-        "modified": "Fri, 09 Oct 2026 14:40:00 +0000"
+        "modified": "Thu, 22 Oct 2026 16:16:00 +0000"
     },
     {
         "id": "socket-ext",
@@ -87141,7 +87930,7 @@
         "author": "",
         "brand": "",
         "popularity": "",
-        "modified": "Fri, 09 Oct 2026 14:42:20 +0000"
+        "modified": "Thu, 22 Oct 2026 16:16:00 +0000"
     },
     {
         "id": "soft-delete",
@@ -88615,7 +89404,7 @@
         "author": "",
         "brand": "",
         "popularity": "",
-        "modified": "Wed, 14 Oct 2026 17:34:28 +0000"
+        "modified": "Thu, 22 Oct 2026 16:16:00 +0000"
     },
     {
         "id": "sql",
@@ -88729,7 +89518,7 @@
         "author": "",
         "brand": "",
         "popularity": "",
-        "modified": "Wed, 14 Oct 2026 17:34:09 +0000"
+        "modified": "Thu, 22 Oct 2026 16:16:00 +0000"
     },
     {
         "id": "sql-injection",
@@ -90010,7 +90799,7 @@
         "author": "",
         "brand": "",
         "popularity": "",
-        "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+        "modified": "Thu, 22 Oct 2026 16:16:00 +0000"
     },
     {
         "id": "static-call",
@@ -90834,7 +91623,7 @@
         "author": "",
         "brand": "",
         "popularity": "",
-        "modified": "Fri, 25 Sep 2026 18:46:36 +0000"
+        "modified": "Thu, 22 Oct 2026 16:16:00 +0000"
     },
     {
         "id": "str_starts_with",
@@ -91007,7 +91796,7 @@
         "author": "",
         "brand": "",
         "popularity": "",
-        "modified": "Fri, 09 Oct 2026 17:14:27 +0000"
+        "modified": "Thu, 22 Oct 2026 16:16:00 +0000"
     },
     {
         "id": "stream-filter",
@@ -91070,7 +91859,7 @@
         "author": "",
         "brand": "",
         "popularity": "",
-        "modified": "Fri, 09 Oct 2026 14:24:04 +0000"
+        "modified": "Thu, 22 Oct 2026 16:16:00 +0000"
     },
     {
         "id": "stream_context_create",
@@ -91115,7 +91904,7 @@
         "author": "",
         "brand": "",
         "popularity": "",
-        "modified": "Fri, 09 Oct 2026 17:10:07 +0000"
+        "modified": "Thu, 22 Oct 2026 16:16:00 +0000"
     },
     {
         "id": "stream_select",
@@ -91161,7 +91950,7 @@
         "author": "",
         "brand": "",
         "popularity": "",
-        "modified": "Fri, 09 Oct 2026 17:16:49 +0000"
+        "modified": "Thu, 22 Oct 2026 16:16:00 +0000"
     },
     {
         "id": "streamable",
@@ -91648,7 +92437,7 @@
         "author": "",
         "brand": "",
         "popularity": "",
-        "modified": "Fri, 09 Oct 2026 16:41:54 +0000"
+        "modified": "Thu, 22 Oct 2026 16:16:00 +0000"
     },
     {
         "id": "string-interpolation",
@@ -91800,7 +92589,7 @@
         "author": "",
         "brand": "",
         "popularity": "",
-        "modified": "Fri, 25 Sep 2026 18:46:41 +0000"
+        "modified": "Thu, 22 Oct 2026 16:16:00 +0000"
     },
     {
         "id": "strpos",
@@ -92864,7 +93653,7 @@
         "author": "",
         "brand": "",
         "popularity": "",
-        "modified": "Thu, 01 Oct 2026 09:27:50 +0000"
+        "modified": "Thu, 22 Oct 2026 16:16:00 +0000"
     },
     {
         "id": "supply-chain-attack",
@@ -92931,7 +93720,7 @@
         "author": "",
         "brand": "",
         "popularity": "",
-        "modified": "Wed, 14 Oct 2026 16:39:28 +0000"
+        "modified": "Thu, 22 Oct 2026 16:16:00 +0000"
     },
     {
         "id": "surrogate-key",
@@ -93356,7 +94145,7 @@
         "author": "",
         "brand": "",
         "popularity": "",
-        "modified": "Mon, 14 Sep 2026 17:02:53 +0000"
+        "modified": "Thu, 22 Oct 2026 16:16:00 +0000"
     },
     {
         "id": "switch-case",
@@ -93953,7 +94742,7 @@
         "author": "",
         "brand": "",
         "popularity": "",
-        "modified": "Wed, 14 Oct 2026 18:12:46 +0000"
+        "modified": "Thu, 22 Oct 2026 16:16:00 +0000"
     },
     {
         "id": "taint",
@@ -94553,7 +95342,9 @@
             "twig/twig",
             "jenssegers/blade"
         ],
-        "extensions": [],
+        "extensions": [
+            "carthage-software/ext-typst"
+        ],
         "analyzers": [],
         "cobblers": [],
         "rule": "",
@@ -94565,7 +95356,7 @@
         "author": "",
         "brand": "",
         "popularity": "",
-        "modified": "Fri, 04 Sep 2026 09:39:51 +0000"
+        "modified": "Thu, 05 Nov 2026 21:25:29 +0000"
     },
     {
         "id": "template-metaprogramming",
@@ -94920,7 +95711,7 @@
             "simpletest": "https://github.com/simpletest/simpletest"
         },
         "popularity": "",
-        "modified": "Fri, 25 Sep 2026 14:37:53 +0000"
+        "modified": "Thu, 22 Oct 2026 16:16:00 +0000"
     },
     {
         "id": "test-data-provider",
@@ -95025,7 +95816,7 @@
         "author": "",
         "brand": "",
         "popularity": "",
-        "modified": "Wed, 14 Oct 2026 16:37:44 +0000"
+        "modified": "Thu, 22 Oct 2026 16:16:00 +0000"
     },
     {
         "id": "test-driven-development",
@@ -95551,7 +96342,7 @@
         "author": "",
         "brand": "",
         "popularity": "",
-        "modified": "Wed, 14 Oct 2026 16:37:45 +0000"
+        "modified": "Thu, 22 Oct 2026 16:16:00 +0000"
     },
     {
         "id": "thread",
@@ -95780,7 +96571,7 @@
         "author": "",
         "brand": "",
         "popularity": "",
-        "modified": "Wed, 14 Oct 2026 18:13:38 +0000"
+        "modified": "Thu, 22 Oct 2026 16:16:00 +0000"
     },
     {
         "id": "throwable",
@@ -96057,7 +96848,7 @@
         "author": "",
         "brand": "",
         "popularity": "",
-        "modified": "Wed, 14 Oct 2026 16:39:28 +0000"
+        "modified": "Thu, 22 Oct 2026 16:16:00 +0000"
     },
     {
         "id": "timing-attack",
@@ -96580,7 +97371,7 @@
         "author": "",
         "brand": "",
         "popularity": "",
-        "modified": "Thu, 01 Oct 2026 09:27:50 +0000"
+        "modified": "Thu, 22 Oct 2026 16:16:00 +0000"
     },
     {
         "id": "trailing-comma",
@@ -96718,7 +97509,7 @@
         "author": "",
         "brand": "",
         "popularity": "",
-        "modified": "Thu, 27 Aug 2026 04:31:44 +0000"
+        "modified": "Thu, 22 Oct 2026 16:16:00 +0000"
     },
     {
         "id": "transaction",
@@ -97385,7 +98176,7 @@
         "author": "",
         "brand": "",
         "popularity": "",
-        "modified": "Wed, 14 Oct 2026 18:13:51 +0000"
+        "modified": "Thu, 22 Oct 2026 16:16:00 +0000"
     },
     {
         "id": "ttl",
@@ -98154,7 +98945,11 @@
             "monomorphization",
             "generics",
             "performance",
-            "type-checking"
+            "type-checking",
+            "erased-types",
+            "higher-kinded-type",
+            "reified-type",
+            "type-parametricity"
         ],
         "citations": [
             {
@@ -98192,7 +98987,7 @@
         "author": "",
         "brand": "",
         "popularity": "",
-        "modified": "Tue, 01 Sep 2026 05:31:03 +0000"
+        "modified": "Wed, 04 Nov 2026 11:19:59 +0000"
     },
     {
         "id": "type-inference",
@@ -98336,7 +99131,7 @@
         "author": "",
         "brand": "",
         "popularity": "",
-        "modified": "Fri, 25 Sep 2026 21:30:05 +0000"
+        "modified": "Thu, 22 Oct 2026 16:16:00 +0000"
     },
     {
         "id": "type-narrowing",
@@ -98421,7 +99216,11 @@
             "type-system",
             "polymorphism",
             "docblock",
-            "sca"
+            "sca",
+            "erased-types",
+            "gradual-typing",
+            "phpstan",
+            "psalm"
         ],
         "citations": [
             {
@@ -98454,7 +99253,7 @@
         "author": "",
         "brand": "",
         "popularity": "",
-        "modified": "Tue, 01 Sep 2026 05:31:03 +0000"
+        "modified": "Wed, 04 Nov 2026 11:19:59 +0000"
     },
     {
         "id": "type-system",
@@ -98869,7 +99668,7 @@
         "author": "",
         "brand": "",
         "popularity": "",
-        "modified": "Wed, 14 Oct 2026 15:30:48 +0000"
+        "modified": "Thu, 22 Oct 2026 16:16:00 +0000"
     },
     {
         "id": "udp",
@@ -99269,7 +100068,7 @@
         "author": "",
         "brand": "",
         "popularity": "",
-        "modified": "Mon, 10 Aug 2026 16:53:47 +0000"
+        "modified": "Thu, 22 Oct 2026 16:16:00 +0000"
     },
     {
         "id": "unexpectedvalueexception",
@@ -99409,7 +100208,7 @@
         "author": "",
         "brand": "",
         "popularity": "",
-        "modified": "Wed, 14 Oct 2026 18:14:11 +0000"
+        "modified": "Thu, 22 Oct 2026 16:16:00 +0000"
     },
     {
         "id": "uninitialized",
@@ -99923,7 +100722,7 @@
         "author": "",
         "brand": "",
         "popularity": "",
-        "modified": "Sat, 08 Aug 2026 08:10:54 +0000"
+        "modified": "Thu, 22 Oct 2026 16:16:00 +0000"
     },
     {
         "id": "unspecified-behavior",
@@ -100241,7 +101040,7 @@
         "author": "",
         "brand": "",
         "popularity": "",
-        "modified": "Fri, 25 Sep 2026 18:46:16 +0000"
+        "modified": "Thu, 22 Oct 2026 16:16:00 +0000"
     },
     {
         "id": "uri",
@@ -100521,7 +101320,7 @@
         "author": "",
         "brand": "",
         "popularity": "",
-        "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+        "modified": "Thu, 22 Oct 2026 16:16:00 +0000"
     },
     {
         "id": "use-alias",
@@ -100904,7 +101703,7 @@
         "author": "",
         "brand": "",
         "popularity": "",
-        "modified": "Wed, 14 Oct 2026 18:14:32 +0000"
+        "modified": "Thu, 22 Oct 2026 16:16:00 +0000"
     },
     {
         "id": "uuid",
@@ -101367,7 +102166,7 @@
         "author": "",
         "brand": "",
         "popularity": "",
-        "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+        "modified": "Thu, 22 Oct 2026 16:16:00 +0000"
     },
     {
         "id": "var_dump",
@@ -102130,6 +102929,53 @@
         "brand": "",
         "popularity": "",
         "modified": "Tue, 11 Aug 2026 20:59:56 +0000"
+    },
+    {
+        "id": "version_compare",
+        "name": "version_compare()",
+        "url": "https://php-dictionary.readthedocs.io/en/latest/index/version_compare.html",
+        "aliases": [],
+        "description": "``version_compare()`` compares two version strings, and is the correct way to compare PHP or library versions. A plain string comparison gets ``'10.0' < '9.0'`` wrong, and a numeric comparison fails on versions such as ``'1.0.0-beta'``.\n\nIt understands the usual version separators (``.``, ``-``, ``_``, ``+``) and pre-release markers such as ``dev``, ``alpha``, ``beta``, ``RC`` and ``pl``. With two arguments, it returns ``-1``, ``0`` or ``1``. With an operator as third argument (``<``, ``<=``, ``>``, ``>=``, ``==``, ``!=``, ``lt``, ``le``, ``gt``, ``ge``, ``eq``, ``ne``), it returns a boolean.\n\nThe function is available since PHP 4.0.7.",
+        "code": "<?php\n\n    version_compare('10.0.0', '9.0.0', '>'); // true\n    version_compare('8.3.0', '8.3.0-RC1', '>'); // true, a release is after its RC\n    version_compare(PHP_VERSION, '8.1.0', '>='); // check the running PHP version\n\n?>",
+        "documentation": "https://www.php.net/manual/en/function.version-compare.php",
+        "related": [],
+        "citations": [
+            {
+                "@type": "CreativeWork",
+                "name": "Documentation",
+                "url": "https://www.php.net/manual/en/function.version-compare.php"
+            },
+            {
+                "@type": "CreativeWork",
+                "name": "PHP: version_compare",
+                "url": "https://www.php.net/manual/en/function.version-compare.php"
+            },
+            {
+                "@type": "CreativeWork",
+                "name": "PHP: Predefined Constants",
+                "url": "https://www.php.net/manual/en/reserved.constants.php"
+            }
+        ],
+        "tags": [
+            "function",
+            "version"
+        ],
+        "packagist": [],
+        "extensions": [],
+        "analyzers": [],
+        "cobblers": [],
+        "rule": "",
+        "phpVersionSince": "4.0.7",
+        "phpVersionUntil": "",
+        "phpVersionDeprecated": "",
+        "phpErrors": [
+            ""
+        ],
+        "changedBehavior": "",
+        "author": "",
+        "brand": "",
+        "popularity": "",
+        "modified": "Fri, 23 Oct 2026 11:01:47 +0000"
     },
     {
         "id": "vertical-scaling",
@@ -103020,7 +103866,7 @@
         "author": "",
         "brand": "",
         "popularity": "",
-        "modified": "Fri, 25 Sep 2026 14:26:35 +0000"
+        "modified": "Thu, 22 Oct 2026 16:16:00 +0000"
     },
     {
         "id": "weak-reference",
@@ -103154,11 +104000,6 @@
             },
             {
                 "@type": "CreativeWork",
-                "name": "PHP Manual: WeakReference::create()",
-                "url": "https://www.php.net/manual/en/weakreference.create.php"
-            },
-            {
-                "@type": "CreativeWork",
                 "name": "PHP 8.0 feature focus: Weak maps",
                 "url": "https://platform.sh/blog/php-80-feature-focus-weak-maps/"
             }
@@ -103183,7 +104024,7 @@
         "author": "",
         "brand": "",
         "popularity": "",
-        "modified": "Fri, 09 Oct 2026 17:25:55 +0000"
+        "modified": "Wed, 04 Nov 2026 11:20:35 +0000"
     },
     {
         "id": "web",
@@ -103861,7 +104702,7 @@
         "author": "",
         "brand": "",
         "popularity": "",
-        "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+        "modified": "Thu, 22 Oct 2026 16:16:00 +0000"
     },
     {
         "id": "whitebox",
@@ -104527,7 +105368,7 @@
         "author": "",
         "brand": "",
         "popularity": "",
-        "modified": "Fri, 25 Sep 2026 14:27:06 +0000"
+        "modified": "Thu, 22 Oct 2026 16:16:00 +0000"
     },
     {
         "id": "wrapper-ftp",
@@ -105635,7 +106476,7 @@
         "author": "",
         "brand": "",
         "popularity": "",
-        "modified": "Thu, 10 Sep 2026 20:18:51 +0000"
+        "modified": "Thu, 22 Oct 2026 16:16:00 +0000"
     },
     {
         "id": "yield-from",
@@ -105689,7 +106530,7 @@
         "author": "",
         "brand": "",
         "popularity": "",
-        "modified": "Thu, 17 Sep 2026 07:47:39 +0000"
+        "modified": "Thu, 22 Oct 2026 16:16:00 +0000"
     },
     {
         "id": "yield-generator",

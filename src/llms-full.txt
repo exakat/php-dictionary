@@ -3622,6 +3622,8 @@ URL: https://php-dictionary.readthedocs.io/en/latest/index/array.html
 
 The second argument selects the case: ``CASE_LOWER``, the default, or ``CASE_UPPER``. Integer keys are left unchanged, and when two keys become identical after the conversion, the later one overwrites the earlier one.
 
+``array_change_key_case()`` is useful when receiving associative arrays whose keys may have inconsistent capitalization. They may be from external sources like database, headers or JSON. With it, the data may be normalized, and all keys may be set to a consistent ``CASE_LOWER`` or ``CASE_UPPER`` for easier, predictable access. It changes every key's case while leaving numeric indices unchanged, and if different keys become identical after case conversion, later ones override earlier ones.
+
 The original array is not modified.
 
 ```php
@@ -8063,6 +8065,77 @@ Related: Pascal Case, Snake Case, Constant Case
 Documentation: https://stringcase.org/cases/camel/
 
 URL: https://php-dictionary.readthedocs.io/en/latest/index/camel-case.html
+
+---
+
+## Canary Test
+
+A canary test is a deliberately trivial test that is expected to pass. Its only job is to show that the test harness itself works: the autoloader loads, the database connects, the environment variables are set, and PHPUnit runs the suite. If the canary fails, the problem lies in the setup, not in the feature under test.
+
+Without a canary, a broken setup can look like a broken feature. A suite that fails on every test for a missing configuration file gives the same red result as a real regression, and the team loses time looking for a bug in the code. A canary separates the two cases at a glance.
+
+A canary test should stay simple and fast, and it should exercise exactly the parts the other tests depend on. It is not a substitute for unit or integration tests, and it should not check business logic.
+
+```php
+<?php
+
+    use PHPUnit\Framework\TestCase;
+
+    class CanaryTest extends TestCase
+    {
+        // If this fails, the harness is broken, not the feature under test
+        public function testHarnessIsWorking(): void
+        {
+            $this->assertTrue(class_exists(\App\Kernel::class));
+            $this->assertNotFalse(getenv('APP_ENV'));
+        }
+    }
+
+?>
+```
+
+Related: PHPunit, Test, Test Framework, Unit Test, Sentinel, Canary
+
+Documentation: https://docs.phpunit.de/en/stable/
+
+URL: https://php-dictionary.readthedocs.io/en/latest/index/canary-test.html
+
+---
+
+## Canary Token
+
+A canary token is a fake credential, file, URL or record, planted where an attacker is likely to find it. Nothing legitimate uses it, so any access is a strong signal of intrusion, and the token raises an alert the moment it is read or used.
+
+Canary tokens are a detection technique rather than a prevention one. They do not block an attacker; they tell the defender that someone has got past the perimeter, and they do so with almost no false positives, since genuine users never touch them.
+
+A PHP application can plant canary tokens as a decoy API key in a configuration file, a fake administrator row in a users table, or a dummy download link in a page that no real user would open. Any request that uses the decoy is logged and reported. Hosted services can generate tokens that alert by email when a URL or a document is opened.
+
+Canary tokens are a close relative of the honeypot, which is a decoy system, and they share the same idea: whoever touches the trap has revealed themselves.
+
+```php
+<?php
+
+    // A decoy credential that no legitimate code ever uses
+    $config = [
+        'db_host' => 'db.internal',
+        'api_key' => 'canary-key-0001', // canary: any use is an intrusion
+    ];
+
+    // Any attempt to authenticate with the decoy raises an alert
+    if ($key === $config['api_key']) {
+        $alerts->raise('canary token used', ['ip' => $_SERVER['REMOTE_ADDR'] ?? '']);
+        http_response_code(403);
+        exit;
+    }
+
+?>
+```
+
+Related: Honey Pot, Security, Secret, Monitoring, Canary, Penetration Test
+
+Documentation: https://docs.canarytokens.org/guide/
+
+URL: https://php-dictionary.readthedocs.io/en/latest/index/canary-token.html
 
 ---
 
@@ -13493,6 +13566,69 @@ URL: https://php-dictionary.readthedocs.io/en/latest/index/data-hiding.html
 
 ---
 
+## Data Lake
+
+A data lake is a storage repository that keeps large volumes of data in its raw, original format until it is needed. Files such as JSON logs, CSV exports, images or Parquet files are written as they are produced, in object storage or a distributed file system, without being cleaned or reshaped first.
+
+The schema is applied when the data is read, not when it is written. This schema-on-read approach lets teams collect data cheaply and decide later how to use it, but it also means nothing stops a lake from filling with duplicated, undocumented or contradictory files. A lake without naming conventions, ownership and cataloguing quickly becomes what is often called a data swamp.
+
+Data lakes are usually paired with a processing engine that queries the files in place, and with a curated layer, such as a data warehouse, for the cleaned data that reports depend on. A PHP application mostly writes to a lake: it stores events or exports as files, and leaves the analysis to other tools.
+
+```php
+<?php
+
+    // Store the raw event as it is, without a fixed schema
+    $event = [
+        'type' => 'order.placed',
+        'at' => date('c'),
+        'payload' => $order->toArray(),
+    ];
+
+    // One file per event, in object storage, to be read later by any tool
+    $storage->write('events/orders/' . uniqid() . '.json', json_encode($event));
+
+?>
+```
+
+Related: Data Warehouse, Data Lakehouse, Extract, Transform, Load (ETL), Parquet, Storage Systems, Cloud, Database
+
+Documentation: https://en.wikipedia.org/wiki/Data_lake
+
+URL: https://php-dictionary.readthedocs.io/en/latest/index/data-lake.html
+
+---
+
+## Data Lakehouse
+
+A data lakehouse combines the low-cost, open storage of a data lake with the management features of a data warehouse. Data stays in files in object storage, but it is organised into tables with a metadata layer that records the schema, the file list and the change history, so the same files can be queried with ACID guarantees, and updated or deleted safely.
+
+The aim is to avoid keeping two copies of the data: one raw copy in a lake for data science and one curated copy in a warehouse for reports. In a lakehouse, both workloads read the same tables, and the table format, such as Apache Iceberg, Delta Lake or Apache Hudi, provides the structure that a plain lake lacks.
+
+The trade-off is that a lakehouse is only as tidy as its table definitions. Schema changes, retention and access control still need an owner, and query performance depends on file layout and partitioning, just as it does in a warehouse.
+
+```php
+<?php
+
+    // Write an order batch as a table in the lakehouse, not as loose files
+    // The table format records the schema, the files, and every change
+    $lakehouse->table('sales.orders')->append($orders);
+
+    // Reporting and data science both query the same table
+    $rows = $lakehouse->query(
+        'SELECT customer_region, SUM(total) FROM sales.orders GROUP BY customer_region'
+    );
+
+?>
+```
+
+Related: Data Lake, Data Warehouse, Parquet, Schema, Extract, Transform, Load (ETL), Massively Parallel Processing Database (MPP)
+
+Documentation: https://en.wikipedia.org/wiki/Data_lake#Data_lakehouse
+
+URL: https://php-dictionary.readthedocs.io/en/latest/index/data-lakehouse.html
+
+---
+
 ## Data Leak
 
 A data leak is the publication of unwanted information, which leads to further security attack, or actual data theft.
@@ -13519,6 +13655,40 @@ Related: Active Record, Object Relational Mapping (ORM)
 Documentation: https://en.wikipedia.org/wiki/Data_mapper_pattern
 
 URL: https://php-dictionary.readthedocs.io/en/latest/index/data-mapper.html
+
+---
+
+## Data Warehouse
+
+A data warehouse is a database built for analysis rather than for running an application. Data is extracted from operational systems, cleaned, reshaped into a stable schema, and loaded in a form suited to reporting, such as fact tables for orders and dimension tables for customers or dates.
+
+Unlike a transactional database, which handles many small reads and writes, a warehouse is optimised for queries that scan large amounts of history to compute totals, trends and aggregates. Storage is usually columnar and the data is often partitioned across nodes, which is why many warehouses are MPP databases.
+
+Data warehouses are fed by ETL or ELT pipelines. Because the data is structured and curated before it is used, reports built on a warehouse agree with each other, while the raw, unmodelled data stays in the data lake.
+
+```php
+<?php
+
+    // The application writes to its transactional database
+    $orders->insert($order);
+
+    // The warehouse, built by a nightly ETL job, answers reporting questions
+    $statement = $warehouse->prepare(
+        'SELECT customer_region, SUM(total) AS revenue
+           FROM fact_orders
+          WHERE order_date >= :since
+          GROUP BY customer_region'
+    );
+    $statement->execute(['since' => '2026-01-01']);
+
+?>
+```
+
+Related: Data Lake, Data Lakehouse, Massively Parallel Processing Database (MPP), Extract, Transform, Load (ETL), SQL Database, Column Database, Schema
+
+Documentation: https://en.wikipedia.org/wiki/Data_warehouse
+
+URL: https://php-dictionary.readthedocs.io/en/latest/index/data-warehouse.html
 
 ---
 
@@ -13583,7 +13753,7 @@ The database differs from the dataset by the query mechanism.
 
 The database may be managed by a server, though it is not necessary.
 
-Related: Dataset, Normalisation, Vector Database, SQL Database, Nosql Database, Key-value Stores, XML Database, Connexion Persistence, Database Abstraction Layer (DBA) Extension, Framework, Schema, Application Server, Permission, PostgreSQL, Rollback, Search Engine, Atomic Operation, Column Database, Data Source Name (DSN), Transaction, Unique Identifier, Database Commit, Document Database, Handle, Migration, Foreign Key (FK), Referential Integrity, mysqli, Oracle, Change Data Capture, Index For SQL, Latency, Shared Database, Universally Unique Lexicographically Sortable Identifier (ULID), Auto-Increment, Extract, Transform, Load (ETL), MongoDB, Primary Key, Soft Delete, Stored XSS, Surrogate Key
+Related: Dataset, Normalisation, Vector Database, SQL Database, Nosql Database, Key-value Stores, XML Database, Connexion Persistence, Database Abstraction Layer (DBA) Extension, Framework, Schema, Application Server, Permission, PostgreSQL, Rollback, Search Engine, Atomic Operation, Column Database, Data Source Name (DSN), Transaction, Unique Identifier, Database Commit, Document Database, Handle, Migration, Foreign Key (FK), Referential Integrity, mysqli, Oracle, Change Data Capture, Index For SQL, Latency, Shared Database, Universally Unique Lexicographically Sortable Identifier (ULID), Auto-Increment, Extract, Transform, Load (ETL), MongoDB, Primary Key, Soft Delete, Stored XSS, Surrogate Key, Data Lake, Flat File, Massively Parallel Processing Database (MPP), Streaming Database
 
 Documentation: https://en.wikipedia.org/wiki/Database
 
@@ -17782,6 +17952,37 @@ URL: https://php-dictionary.readthedocs.io/en/latest/index/encoding.html
 
 ---
 
+## End of Line (EOL)
+
+End of line, or EOL, is the character or sequence of characters that marks the end of a line of text in a file. It is not one standard: Unix and Linux use a line feed (``\n``), Windows uses a carriage return followed by a line feed (``\r\n``), and older Mac systems used a carriage return alone (``\r``).
+
+The difference matters when a file moves between systems. A script with Windows line endings can fail on Unix with a stray ``\r`` at the end of each line, and a diff can show every line as changed after a file is edited on another platform. Source control systems usually normalise line endings, and editors can be set to write one style.
+
+In PHP, the ``PHP_EOL`` constant gives the end-of-line sequence of the platform the script runs on. It is useful when output is meant for the local terminal or file system, but portable file formats such as CSV or HTTP responses should use the sequence their specification asks for, not ``PHP_EOL``.
+
+This is not the same as EOL, for end of life, which is the date after which a software version stops receiving updates.
+
+```php
+<?php
+
+    // The line ending of the platform running the script
+    echo 'first line' . PHP_EOL;
+    echo 'second line' . PHP_EOL;
+
+    // Stripping a Windows-style ending from a line read from a file
+    $line = rtrim($line, "\r\n");
+
+?>
+```
+
+Related: PHP_EOL, New Line, Line Feed, Carriage Return, CRLF Injection, End of Life (EOL)
+
+Documentation: https://www.php.net/manual/en/reserved.constants.php
+
+URL: https://php-dictionary.readthedocs.io/en/latest/index/end-of-line.html
+
+---
+
 ## End To End Test
 
 End to end tests are integration tests that cover the entire application, so it checks that it works correctly from the user's perspective. End to end testing is simulating real user interactions through the actual UI, hitting real servers and databases.
@@ -17972,6 +18173,24 @@ URL: https://php-dictionary.readthedocs.io/en/latest/index/environment.html
 
 ---
 
+## End of Life (EOL)
+
+End of life, or EOL, is the date after which a software version no longer receives updates, including security fixes. Each version of PHP, a framework or a library has a support window: it is supported with bug and security fixes for a fixed period, then it reaches end of life and is left as it is.
+
+Running an EOL version is a security risk, since any vulnerability found after the EOL date will not be patched. Libraries and frameworks usually ship a support table, and it is worth checking it before upgrading or deploying, since an application on an EOL runtime is harder to get patched and may stop receiving compatibility updates from its dependencies.
+
+EOL is not the same as deprecation. A deprecated feature is still supported but flagged for removal, while an EOL version has stopped receiving any updates at all. A deprecation usually comes first, and the EOL date is what ends the support window for the whole release.
+
+The linked article covers the end-of-life dates for PHP.
+
+Related: Release, Deprecation, Lifecycle, Semantic Versioning, Security
+
+Documentation: https://endoflife.ai/article-php-eol
+
+URL: https://php-dictionary.readthedocs.io/en/latest/index/eol.html
+
+---
+
 ## Eponymous
 
 Eponymous means that it carries the same name. For example, a variable called ``$variable``, or a constant called ``CONSTANT``. 
@@ -18017,6 +18236,42 @@ Related: Comparison, Identical Operator, Inequality
 Documentation: https://www.php.net/manual/en/language.operators.comparison.php
 
 URL: https://php-dictionary.readthedocs.io/en/latest/index/equal.html
+
+---
+
+## Erased Types
+
+Erased types are type parameters or annotations that exist while the code is analysed or compiled, and are gone when the program runs. The runtime only sees the raw class or array, so ``List<String>`` and ``List<Integer>`` are the same object at execution time.
+
+Java and TypeScript erase their generics this way. Kotlin's ``reified`` type parameters are the opposite: they are kept at runtime, which is why they are a separate entry.
+
+PHP erases its generic types too, but only in the sense of docblock annotations. ``@template T`` and ``@param list<Order>`` are read by static analysers such as PHPStan and Psalm, and the engine never sees them. Nothing is checked when the code runs, so a wrong element type passes silently unless a tool catches it first.
+
+Erased types are not the same as type erasure, which is the process of removing annotations when the code is deployed. Erased types describe the kind of type that does not survive to runtime.
+
+```php
+<?php
+
+    /**
+     * @template T
+     * @param list<T> $items
+     * @return list<T>
+     */
+    function firstTwo(array $items): array {
+        return array_slice($items, 0, 2);
+    }
+
+    // At runtime, only the array is known: the element type is erased
+    firstTwo([new Order(), new Order()]);
+
+?>
+```
+
+Related: Types Erasure, Generics, Reified Types, Type Parametricity, PHPdoc, PHPStan, Psalm, Template
+
+Documentation: https://phpstan.org/writing-php-code/phpdocs-basics#generics
+
+URL: https://php-dictionary.readthedocs.io/en/latest/index/erased-types.html
 
 ---
 
@@ -18458,7 +18713,7 @@ A variant, ELT, for Extract, Load, Transform, loads raw data first and transform
 ?>
 ```
 
-Related: Migration, Database, Referential Integrity, Foreign Key (FK), Pipeline, Silent Behavior, Validation
+Related: Migration, Database, Referential Integrity, Foreign Key (FK), Pipeline, Silent Behavior, Validation, Data Lake, Data Lakehouse, Data Warehouse, Massively Parallel Processing Database (MPP)
 
 Documentation: https://en.wikipedia.org/wiki/Extract,_transform,_load
 
@@ -21025,6 +21280,44 @@ URL: https://php-dictionary.readthedocs.io/en/latest/index/flamegraph.html
 
 ---
 
+## Flat File
+
+A flat file is a plain, unstructured file that stores data as text or binary, with no indexes, relations or query engine of its own. A flat-file system uses a directory of such files in place of a database: each record, page or setting is one file, and the application reads and writes it directly.
+
+A flat-file CMS is the typical case. It has no database to install or configure: content is stored as Markdown, YAML or JSON files on disk, the admin panel writes those files, and the page renderer reads them. Deployment is copying a folder, and backups are a version-control commit or a file copy. Because there is no server to run, the setup suits small sites, personal blogs and documentation.
+
+The trade-off is that the application does the work a database would do. Looking up one item means reading and parsing files, searching means scanning them, and concurrent writes need file locking, so a flat-file system slows down as the number of records grows. It also needs care with file permissions, since the content directory is usually web-readable and the files are only as safe as the server is set up to keep them.
+
+Flat files are not the same as a flat database. A flat-file database is a single table in one file, such as a CSV file, while a flat-file CMS is a folder tree of content files.
+
+```php
+<?php
+
+    // A flat-file CMS: each page is one Markdown file with YAML front matter
+    $path = __DIR__ . '/content/blog/' . $slug . '.md';
+
+    if (!is_file($path)) {
+        http_response_code(404);
+        exit;
+    }
+
+    [$meta, $body] = explode(\n---\n, file_get_contents($path), 2);
+    $page = ['title' => $meta, 'body' => $body];
+
+    // Saving a page is writing the file back
+    file_put_contents($path, $newMeta . \n---\n . $newBody, LOCK_EX);
+
+?>
+```
+
+Related: Content Management System (CMS), Markdown, YAML Ain't Markup Language (YAML), JavaScript Object Notation (JSON), Database, file_get_contents(), file_put_contents(), Document Database
+
+Documentation: https://www.php.net/manual/en/function.file-get-contents.php
+
+URL: https://php-dictionary.readthedocs.io/en/latest/index/flat-file.html
+
+---
+
 ## Flexibility
 
 Flexibility means that a piece of code can change the way it works, without changing the code that uses it. 
@@ -22188,7 +22481,7 @@ One implementation of generics is available, with transpiling: see ``mrsuh/php-g
 
 Generics are generally considered to be not supported, although external tools provide this feature, such as static analysis. Generics are not supported at the engine level.
 
-Related: Type Checking, Polymorphism, Collection, Monomorphization, Types Erasure, Algebraic Data Type, Existential Type, Generalized Algebraic Data Type (GADT), Higher-Kinded Type, Phantom Type, Row Polymorphism, Template Metaprogramming (TMP), Type System
+Related: Type Checking, Polymorphism, Collection, Monomorphization, Types Erasure, Algebraic Data Type, Existential Type, Generalized Algebraic Data Type (GADT), Higher-Kinded Type, Phantom Type, Row Polymorphism, Template Metaprogramming (TMP), Type System, Array Shape, Reified Types, Type Class, Type Parametricity
 
 Documentation: https://stitcher.io/blog/generics-in-php-1
 
@@ -23008,6 +23301,22 @@ Related: Goto Labels, Colon, Jump, Syntax, Control Flow
 Documentation: https://www.php.net/manual/en/control-structures.goto.php
 
 URL: https://php-dictionary.readthedocs.io/en/latest/index/goto.html
+
+---
+
+## GPU Computing
+
+GPU computing, or general-purpose computing on graphics processing units, uses the many parallel cores of a graphics card to run calculations that are not about drawing images. Work is split into thousands of small tasks, such as compute shaders or kernels, executed at the same time on the same data.
+
+GPUs are efficient for matrix operations, image processing, physics simulation, and machine learning. The cost is data transfer between the CPU and the GPU, which has to be worth the parallel speed-up.
+
+Each vendor has its own API: CUDA for NVIDIA, Metal for Apple, Vulkan and OpenCL as cross-platform options. Usually PHP reaches them through an extension, since the code has to call native libraries.
+
+Related: Parallel, Foreign Function Interface (FFI), Machine Learning, Large Language Model (LLM), Render
+
+Documentation: https://en.wikipedia.org/wiki/General-purpose_computing_on_graphics_processing_units
+
+URL: https://php-dictionary.readthedocs.io/en/latest/index/gpu-computing.html
 
 ---
 
@@ -30750,6 +31059,22 @@ URL: https://php-dictionary.readthedocs.io/en/latest/index/marketplace.html
 
 ---
 
+## Markup
+
+Markup is a way to write text with annotations that describe its structure or its presentation. The annotations are either tags, such as ``<h1>`` in HTML, or lightweight symbols, such as ``#`` in Markdown.
+
+Markup separates the content from how it is displayed. The same source can be rendered as a web page, a PDF, or plain text.
+
+Typst is a markup language for typesetting. It mixes markup for text with a scripting language for logic, and it compiles documents to PDF. It is a modern alternative to LaTeX, with a faster compile time and simpler syntax. A PHP extension gives access to the Typst engine.
+
+Related: Markdown, HyperText Markup Language (HTML), Wiki, Template, Syntax, Format
+
+Documentation: https://en.wikipedia.org/wiki/Markup_language
+
+URL: https://php-dictionary.readthedocs.io/en/latest/index/markup.html
+
+---
+
 ## Mass Assignment
 
 Mass assignment is the practice of setting several properties of an object at once from an associative array, instead of assigning each property individually. It is a common convenience feature of ORMs and frameworks: ``Laravel``'s ``Eloquent`` models can be filled with ``Model::create($data)`` or ``$model->fill($data)``, and similar patterns exist in Doctrine, Symfony forms, and plain constructors that loop over an input array and set matching properties.
@@ -32612,7 +32937,7 @@ Monitoring is the process of observing, tracking, and analyzing the performance,
 
 Monitoring is a proactive practice: it helps teams identify and resolve problems before they impact users or business operations.
 
-Related: Application Performance Management (APM), Telemetry, Log, Trace, Metrics, DevOps, Downtime, Flame Graph, Availability, Quality of Service (QoS), Reliability, Service Level Agreement (SLA), Percentile
+Related: Application Performance Management (APM), Telemetry, Log, Trace, Metrics, DevOps, Downtime, Flame Graph, Availability, Quality of Service (QoS), Reliability, Service Level Agreement (SLA), Percentile, Canary Token, Distributed Tracing, The Nines (Availability), Resilience
 
 Documentation: https://en.wikipedia.org/wiki/Monitoring
 
@@ -39039,6 +39364,33 @@ URL: https://php-dictionary.readthedocs.io/en/latest/index/php_int_min.html
 
 ---
 
+## PHP_VERSION_ID
+
+``PHP_VERSION_ID`` is a predefined integer constant holding the version of the running PHP interpreter, encoded as ``major * 10000 + minor * 100 + release``. For example, PHP 8.3.0 gives ``80300`` and PHP 7.4.33 gives ``70433``.
+
+Because it is a single integer, it can be compared directly with ``>=`` to test the PHP version, without parsing ``PHP_VERSION``. Each component is two digits, so the encoding stays ordered for comparison as long as the minor and release numbers stay below 100.
+
+The constant is available since PHP 5.2.7. Before that, only the string ``PHP_VERSION`` was available.
+
+```php
+<?php
+
+    // Requires PHP 8.0 or later
+    if (PHP_VERSION_ID >= 80000) {
+        // use constructor property promotion, union types, ...
+    }
+
+    echo PHP_VERSION_ID; // 80300 on PHP 8.3.0
+
+?>
+```
+
+Documentation: https://www.php.net/manual/en/reserved.constants.php
+
+URL: https://php-dictionary.readthedocs.io/en/latest/index/php_version_id.html
+
+---
+
 ## PHPdoc
 
 PHPDoc is a style of PHP comments. Those comments are delimited by ``/** */``. 
@@ -43062,6 +43414,36 @@ URL: https://php-dictionary.readthedocs.io/en/latest/index/regression.html
 
 ---
 
+## Reified Types
+
+Reified types are generic type parameters that are kept at runtime, so the code can check or create the actual type argument while the program runs. In languages that erase generics at compile time, such as Java, ``List<String>`` and ``List<Integer>`` are the same class at runtime. A reified type parameter, as in Kotlin's ``inline fun <reified T> f()``, lets the code test ``x is T`` or instantiate ``T`` directly.
+
+PHP has no generics, and its type system does not carry type arguments at runtime. Types such as ``array``, ``iterable`` or ``Traversable`` cannot be parameterised, and there is no syntax to pass a type as a value that the code can inspect or instantiate by its name. The closest equivalents are passing a class name as a string and using ``new $class()``, or ``instanceof`` against a fixed class, but neither is a type parameter.
+
+Generics are discussed in their own entry; reified types only make sense on top of them.
+
+```php
+<?php
+
+    // Java / Kotlin style: T is available at runtime
+    // inline fun <reified T> isA(x: Any) = x is T
+
+    // PHP: no type parameter, the class must be named explicitly
+    function isA(object $x, string $class): bool {
+        return $x instanceof $class;
+    }
+
+?>
+```
+
+Related: Generics, instanceof, PHP Natives, Types Erasure
+
+Documentation: https://kotlinlang.org/docs/inline-functions.html#reified-type-parameters
+
+URL: https://php-dictionary.readthedocs.io/en/latest/index/reified-type.html
+
+---
+
 ## Relative Name
 
 A relative name is a name that is completed by the current namespace to lead to the definition of the referenced structure.
@@ -44985,7 +45367,7 @@ Security applies to PHP itself, and also to the application written with it.
 ?>
 ```
 
-Related: Audit Trail, Attack Surface, Framework, Taint Analysis, Time Of Check To Time Of Use (TOCTOU), Data Leak, Nonce, OWASP, Sensitive Parameter, Code Review, Distributed Denial Of Service (DDOS), Race Condition, Zero Day Vulnerability, hash_equals(), html_entity_decode, htmlspecialchars, Insecure Deserialization, Privacy, Access Control List (ACL), Appeasement Pattern, Dynamic Loading, Escape Character, php://filter, Poisoned Pipeline Execution (PPE), Fuzzing, Hard Coded, Hash Comparisons, OAuth, Shell Exec, Capture The Flag (CTF), Multi-Factor Authentication (MFA), Obfuscation, Rate Limiting, CRLF Injection, escapeshellarg(), Image Injection, LDAP Injection, escapeshellcmd(), Shell Injection, Server-Side Request Forgery (SSRF), Steganography, C2 Framework, Content Security Policy (CSP), EXIF (Exchangeable Image File Format), file://
+Related: Audit Trail, Attack Surface, Framework, Taint Analysis, Time Of Check To Time Of Use (TOCTOU), Data Leak, Nonce, OWASP, Sensitive Parameter, Code Review, Distributed Denial Of Service (DDOS), Race Condition, Zero Day Vulnerability, hash_equals(), html_entity_decode, htmlspecialchars, Insecure Deserialization, Privacy, Access Control List (ACL), Appeasement Pattern, Dynamic Loading, Escape Character, php://filter, Poisoned Pipeline Execution (PPE), Fuzzing, Hard Coded, Hash Comparisons, OAuth, Shell Exec, Capture The Flag (CTF), Multi-Factor Authentication (MFA), Obfuscation, Rate Limiting, CRLF Injection, escapeshellarg(), Image Injection, LDAP Injection, escapeshellcmd(), Shell Injection, Server-Side Request Forgery (SSRF), Steganography, C2 Framework, Content Security Policy (CSP), EXIF (Exchangeable Image File Format), file://, Canary Token, Egress Filtering, End of Life (EOL), Firewall, Self-Hosted
 
 Documentation: https://www.php.net/manual/en/security.php
 
@@ -45074,6 +45456,37 @@ Related: Docblock, Expressive Interface
 Documentation: https://en.wikipedia.org/wiki/Self-documenting_code
 
 URL: https://php-dictionary.readthedocs.io/en/latest/index/self-documenting.html
+
+---
+
+## Self-Hosted
+
+Self-hosted means running an application or service on infrastructure that you control, rather than using a version run by someone else. The machine may be a physical server in your office, a virtual machine you rent, or a container on a host you manage, but the operator, not a vendor, is responsible for installation, upgrades, backups and security.
+
+Self-hosting gives full control over the data, the configuration and the update schedule, and it avoids a dependency on a third-party provider's pricing or availability. The cost is the operational work: patches, certificates, monitoring and recovery all fall to the operator, and a neglected instance can become a security risk.
+
+Self-hosting is the opposite of a SaaS subscription, where the vendor runs the application. It is close to on-premise software, which is installed inside an organisation's own premises, but a self-hosted application may just as well run in a rented cloud server or a container.
+
+Many PHP applications are self-hosted: a blog engine, a wiki, an e-commerce store or a CRM is installed on a server the site owner manages, typically with a web server, PHP-FPM and a database.
+
+```php
+<?php
+
+    // A self-hosted app reads its own configuration from the server it runs on
+    $dsn = getenv('DATABASE_URL') ?: 'mysql:host=localhost;dbname=app';
+    $pdo = new PDO($dsn, getenv('DB_USER'), getenv('DB_PASSWORD'));
+
+    // The operator sets the public URL, so links point to this installation
+    $baseUrl = rtrim(getenv('APP_URL'), '/');
+
+?>
+```
+
+Related: On Premise Software, Software-as-a-Service (SAAS), Cloud, Hosting, Docker Image, DevOps, Security, Privacy
+
+Documentation: https://en.wikipedia.org/wiki/Self-hosting_(web_services)
+
+URL: https://php-dictionary.readthedocs.io/en/latest/index/self-hosted.html
 
 ---
 
@@ -53628,7 +54041,7 @@ Type erasure is a transformation tool, akin to transpiling, that converts the de
 
 One alternative to type erasure is monomorphization, where every needed type is created.
 
-Related: Type System, Deployment, Transpile, Monomorphization, Generics, Performance, Type Checking
+Related: Type System, Deployment, Transpile, Monomorphization, Generics, Performance, Type Checking, Erased Types, Higher-Kinded Type, Reified Types, Type Parametricity
 
 Documentation: https://en.wikipedia.org/wiki/Type_erasure
 
@@ -53760,7 +54173,7 @@ In practice, PHP code expresses type parametricity today through a docblock type
 ?>
 ```
 
-Related: Generics, Types Erasure, Covariance, Existential Type, Row Polymorphism, Type System, Polymorphism, Docblock, Static Code Analysis (SCA)
+Related: Generics, Types Erasure, Covariance, Existential Type, Row Polymorphism, Type System, Polymorphism, Docblock, Static Code Analysis (SCA), Erased Types, Gradual Typing, PHPStan, Psalm
 
 Documentation: https://en.wikipedia.org/wiki/Parametric_polymorphism
 
@@ -55924,6 +56337,30 @@ Related: Release, Semantic Versioning, Upgrade, Concurent Version System (CVS), 
 Documentation: https://en.wikipedia.org/wiki/Software_versioning
 
 URL: https://php-dictionary.readthedocs.io/en/latest/index/version.html
+
+---
+
+## version_compare()
+
+``version_compare()`` compares two version strings, and is the correct way to compare PHP or library versions. A plain string comparison gets ``'10.0' < '9.0'`` wrong, and a numeric comparison fails on versions such as ``'1.0.0-beta'``.
+
+It understands the usual version separators (``.``, ``-``, ``_``, ``+``) and pre-release markers such as ``dev``, ``alpha``, ``beta``, ``RC`` and ``pl``. With two arguments, it returns ``-1``, ``0`` or ``1``. With an operator as third argument (``<``, ``<=``, ``>``, ``>=``, ``==``, ``!=``, ``lt``, ``le``, ``gt``, ``ge``, ``eq``, ``ne``), it returns a boolean.
+
+The function is available since PHP 4.0.7.
+
+```php
+<?php
+
+    version_compare('10.0.0', '9.0.0', '>'); // true
+    version_compare('8.3.0', '8.3.0-RC1', '>'); // true, a release is after its RC
+    version_compare(PHP_VERSION, '8.1.0', '>='); // check the running PHP version
+
+?>
+```
+
+Documentation: https://www.php.net/manual/en/function.version-compare.php
+
+URL: https://php-dictionary.readthedocs.io/en/latest/index/version_compare.html
 
 ---
 

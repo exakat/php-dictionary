@@ -1,6 +1,14 @@
 {
     "require": {
         "samdark/sitemap": "^3.1",
-        "php-tui/php-tui": "^0.2.1"
-    }
+        "php-tui/php-tui": "dev-main",
+        "php-tui/term": "dev-main as 0.3.5"
+    },
+    "repositories": [
+        {
+            "name": "php-tui-term",
+            "type": "vcs",
+            "url": "https://github.com/php-tui/term"
+        }
+    ]
 }

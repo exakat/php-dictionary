@@ -65,228 +65,120 @@ final class DictionaryEntry
 
 final class DictionaryParser
 {
+    /**
+     * Parses one entry from src/index/*.json.
+     */
     public static function parse(string $filename): DictionaryEntry
     {
         $entry = new DictionaryEntry();
         $entry->filename = $filename;
-        $entry->slug = basename($filename, '.ini.rst');
 
-        $content = file_get_contents($filename);
-        if ($content === false) {
-            return $entry;
-        }
-        $lines = explode("\n", $content);
-
-        foreach ($lines as $line) {
-            if (preg_match('/^\.\. _([^:]+):\s*$/', trim($line), $m)) {
-                $entry->anchors[] = $m[1];
-            }
-        }
-
-        // Short description from .. meta:: :description:
-        // Two formats: ":description: value" (same line) or ":description:\n\t\tvalue" (next line)
-        for ($i = 0; $i < count($lines); $i++) {
-            if (preg_match('/^\s+:description:\s+(.+)/', $lines[$i], $m)) {
-                $desc = trim($m[1]);
-                $j = $i + 1;
-                while (isset($lines[$j]) && preg_match('/^\s{4,}(\S.*)/', $lines[$j], $cm)) {
-                    $desc .= ' ' . trim($cm[1]);
-                    $j++;
-                }
-                $entry->shortDescription = (string) preg_replace('/^[^:]+:\s*/', '', $desc);
-                break;
-            }
-            if (preg_match('/^\s+:description:\s*$/', $lines[$i]) && isset($lines[$i + 1])) {
-                $desc = trim($lines[$i + 1]);
-                $j = $i + 2;
-                while (isset($lines[$j]) && preg_match('/^\t\t(\S.*)/', $lines[$j], $cm)) {
-                    $desc .= ' ' . trim($cm[1]);
-                    $j++;
-                }
-                $entry->shortDescription = (string) preg_replace('/^[^:]+:\s*/', '', $desc);
-                break;
-            }
-        }
-
-        // Find title heading (line followed by -------)
-        $bodyStart = 0;
-        for ($i = 1; $i < count($lines); $i++) {
-            $prev = trim($lines[$i - 1]);
-            $curr = $lines[$i];
-            if (
-                $prev !== ''
-                && preg_match('/^-{2,}$/', $curr)
-                && strlen($curr) >= strlen($prev)
-                && !str_starts_with($prev, '..')
-                && !str_starts_with($prev, ':')
-                && !str_starts_with($prev, '`')
-                && !str_starts_with($prev, '<')
-            ) {
-                $entry->title = $prev;
-                $bodyStart = $i + 1;
-                break;
-            }
-        }
-
-        if ($bodyStart === 0) {
+        $data = self::load($filename);
+        if ($data === null) {
             return $entry;
         }
 
-        $bodyLines = [];
-        $codeLines = [];
-        $inRawHtml = false;
-        $relatedLine = '';
-        $relatedPackagesLine = '';
+        $entry->slug = (string) ($data['id'] ?? basename($filename, '.json'));
+        $entry->title = (string) ($data['name'] ?? $entry->slug);
+        $entry->anchors = array_values(array_map('strval', $data['tags'] ?? []));
 
-        $i = $bodyStart;
-        while ($i < count($lines)) {
-            $raw = $lines[$i];
-            $trimmed = trim($raw);
+        $description = self::cleanRst((string) ($data['description'] ?? ''));
+        $paragraphs = preg_split('/\n\s*\n/', trim($description)) ?: [];
+        $entry->shortDescription = trim($paragraphs[0] ?? '');
+        $entry->body = trim((string) preg_replace('/\n{3,}/', "\n\n", $description));
 
-            // Skip raw:: html blocks
-            if (preg_match('/^\.\. raw:: html/', $trimmed)) {
-                $inRawHtml = true;
-                $i++;
-                continue;
-            }
-            if ($inRawHtml) {
-                if ($trimmed === '' && isset($lines[$i + 1]) && !preg_match('/^\s/', $lines[$i + 1])) {
-                    $inRawHtml = false;
-                } elseif ($trimmed !== '' && !preg_match('/^\s/', $raw)) {
-                    $inRawHtml = false;
-                }
-                if ($inRawHtml) {
-                    $i++;
-                    continue;
-                }
-            }
+        $entry->codeExample = self::cleanCode((string) ($data['code'] ?? ''));
 
-            // Skip RST directives (.. meta::, .. _slug:, .. toctree::, etc.)
-            if (preg_match('/^\.\. (meta|toctree|contents|index|_)/', $trimmed)) {
-                $i++;
-                continue;
-            }
-            // Skip directive options (:something: value indented)
-            if (preg_match('/^\t:[a-z][a-z:_-]*:/', $raw)) {
-                $i++;
-                continue;
-            }
-
-            // Related: line
-            if (preg_match('/^Related\s*:\s*(.+)/', $raw, $m)) {
-                $relatedLine = $m[1];
-                $i++;
-                continue;
-            }
-            if (preg_match('/^Related packages\s*:\s*(.+)/', $raw, $m)) {
-                $relatedPackagesLine = $m[1];
-                $i++;
-                continue;
-            }
-
-            // Code block
-            if (preg_match('/^(\s*)\.\. code-block::/', $raw, $m)) {
-                $codeIndent = strlen($m[1]) + 3;
-                $i++;
-                while ($i < count($lines) && trim($lines[$i]) === '') {
-                    $i++;
-                }
-                while ($i < count($lines)) {
-                    $codeLine = $lines[$i];
-                    $lineIndent = strlen($codeLine) - strlen(ltrim($codeLine));
-                    if ($codeLine !== '' && trim($codeLine) !== '' && $lineIndent < $codeIndent) {
-                        break;
-                    }
-                    $codeLines[] = $codeLine === '' ? '' : substr($codeLine, min($codeIndent, strlen($codeLine)));
-                    $i++;
-                }
-                while (!empty($codeLines) && trim(end($codeLines)) === '') {
-                    array_pop($codeLines);
-                }
-                continue;
-            }
-
-            // Documentation links: `Text <url>`__
-            if (preg_match('/^\s*`([^`<]+?)\s+<(https?:[^>]+)>`__/', $raw, $m)) {
-                $entry->docLinks[] = ['text' => trim($m[1]), 'url' => $m[2]];
-                $i++;
-                continue;
-            }
-
-            // See also line
-            if (preg_match('/^See also\s+(.+)/i', $trimmed, $m)) {
-                preg_match_all('/`([^`<]+?)\s+<(https?:[^>]+)>`_/', $m[1], $matches, PREG_SET_ORDER);
-                foreach ($matches as $match) {
-                    $entry->seeAlsoLinks[] = ['text' => trim($match[1]), 'url' => $match[2]];
-                }
-                $i++;
-                continue;
-            }
-
-            $bodyLines[] = self::cleanRst($raw);
-            $i++;
+        if (($data['documentation'] ?? '') !== '') {
+            $entry->docLinks[] = ['text' => 'Documentation', 'url' => (string) $data['documentation']];
+        }
+        foreach ($data['citations'] ?? [] as $citation) {
+            $entry->seeAlsoLinks[] = [
+                'text' => (string) ($citation['name'] ?? $citation['url'] ?? ''),
+                'url' => (string) ($citation['url'] ?? ''),
+            ];
         }
 
-        if ($relatedLine) {
-            preg_match_all('/:ref:`([^<`]+?)\s*<([^>]+)>`/', $relatedLine, $matches, PREG_SET_ORDER);
-            foreach ($matches as $match) {
-                $entry->relatedTerms[] = ['text' => trim($match[1]), 'slug' => trim($match[2])];
-            }
+        foreach ($data['related'] ?? [] as $slug) {
+            $entry->relatedTerms[] = ['text' => (string) $slug, 'slug' => (string) $slug];
         }
 
-        if ($relatedPackagesLine) {
-            preg_match_all('/`([^`<]+?)\s+<([^>]+)>`_/', $relatedPackagesLine, $matches, PREG_SET_ORDER);
-            foreach ($matches as $match) {
-                $entry->relatedPackages[] = ['text' => trim($match[1]), 'url' => $match[2]];
-            }
+        foreach ($data['packagist'] ?? [] as $package) {
+            $entry->relatedPackages[] = [
+                'text' => (string) $package,
+                'url' => 'https://packagist.org/packages/' . $package,
+            ];
         }
-
-        $body = implode("\n", $bodyLines);
-        $body = (string) preg_replace('/\n{3,}/', "\n\n", $body);
-        $entry->body = trim($body);
-        $entry->codeExample = implode("\n", $codeLines);
 
         return $entry;
     }
 
+    /**
+     * Reads only the title of an entry, for the index list.
+     */
     public static function quickTitle(string $filename): string
     {
+        // "name" is one of the first keys, so only the head of the file is read
         $handle = fopen($filename, 'r');
         if ($handle === false) {
-            return basename($filename, '.ini.rst');
+            return basename($filename, '.json');
         }
-        $lines = [];
-        $count = 0;
-        while ($count < 100 && ($line = fgets($handle)) !== false) {
-            $lines[] = rtrim($line);
-            $count++;
-        }
+        $head = fread($handle, 1024) ?: '';
         fclose($handle);
 
-        for ($i = 1; $i < count($lines); $i++) {
-            $prev = trim($lines[$i - 1]);
-            $curr = $lines[$i];
-            if (
-                $prev !== ''
-                && preg_match('/^-{2,}$/', $curr)
-                && strlen($curr) >= strlen($prev)
-                && !str_starts_with($prev, '..')
-                && !str_starts_with($prev, ':')
-                && !str_starts_with($prev, '`')
-            ) {
-                return $prev;
+        if (preg_match('/"name"\s*:\s*("(?:[^"\\\\]|\\\\.)*")/', $head, $m)) {
+            $name = json_decode($m[1]);
+            if (is_string($name)) {
+                return $name;
             }
         }
-        return ucfirst(str_replace(['-', '_'], ' ', basename($filename, '.ini.rst')));
+        return (string) (self::load($filename)['name'] ?? basename($filename, '.json'));
     }
 
-    private static function cleanRst(string $line): string
+    /**
+     * @return array<string, mixed>|null
+     */
+    private static function load(string $filename): ?array
     {
-        $line = (string) preg_replace('/:ref:`([^<`]+?)\s*<[^>]+>`/', '$1', $line);
-        $line = (string) preg_replace('/`([^`<]+?)\s+<https?:[^>]+>`__/', '$1', $line);
-        $line = (string) preg_replace('/`([^`<]+?)\s+<https?:[^>]+>`_/', '$1', $line);
-        $line = (string) preg_replace('/``([^`]+)``/', '`$1`', $line);
-        return $line;
+        $content = file_get_contents($filename);
+        if ($content === false) {
+            return null;
+        }
+        $data = json_decode($content, true);
+        return is_array($data) ? $data : null;
+    }
+
+    /**
+     * Strips the <?php and ?> markers, keeping the code itself.
+     */
+    private static function cleanCode(string $code): string
+    {
+        $code = (string) preg_replace('/^\s*<\?php[ \t]*\n?/', '', $code);
+        $code = (string) preg_replace('/\s*\?>\s*$/', '', $code);
+        $lines = array_map('rtrim', explode("\n", trim($code, "\n")));
+
+        // Remove the indentation shared by all the lines
+        $indents = [];
+        foreach ($lines as $line) {
+            if (trim($line) !== '') {
+                $indents[] = strlen($line) - strlen(ltrim($line));
+            }
+        }
+        $shared = $indents === [] ? 0 : min($indents);
+        return implode("\n", array_map(fn(string $line): string => substr($line, min($shared, strlen($line))), $lines));
+    }
+
+    private static function cleanRst(string $text): string
+    {
+        $lines = explode("\n", $text);
+        $lines = array_map(function (string $line): string {
+            $line = (string) preg_replace('/:ref:`([^<`]+?)\s*<[^>]+>`/', '$1', $line);
+            $line = (string) preg_replace('/`([^`<]+?)\s+<https?:[^>]+>`__/', '$1', $line);
+            $line = (string) preg_replace('/`([^`<]+?)\s+<https?:[^>]+>`_/', '$1', $line);
+            $line = (string) preg_replace('/``([^`]+)``/', '`$1`', $line);
+            return rtrim($line);
+        }, $lines);
+        return implode("\n", $lines);
     }
 }
 
@@ -335,9 +227,9 @@ final class App
 
     private function buildIndex(): void
     {
-        $dictDir = __DIR__ . '/dictionary';
-        foreach (glob($dictDir . '/*.ini.rst') ?: [] as $file) {
-            $slug = basename($file, '.ini.rst');
+        $dictDir = __DIR__ . '/src/index';
+        foreach (glob($dictDir . '/*.json') ?: [] as $file) {
+            $slug = basename($file, '.json');
             $this->slugToFile[$slug] = $file;
         }
         foreach ($this->slugToFile as $slug => $file) {
@@ -636,17 +528,30 @@ final class App
 
     private function navigateRight(): bool
     {
-        if ($this->focusArea === 1 && $this->currentSlug !== null) {
-            $e = $this->entry($this->currentSlug);
-            if ($e !== null) {
-                $this->relatedSelected = min(max(0, count($e->relatedTerms) - 1), $this->relatedSelected + 1);
-            }
-        } elseif ($this->focusArea === 2 && $this->currentSlug !== null) {
-            $e = $this->entry($this->currentSlug);
-            if ($e !== null) {
-                $max = max(0, count($e->docLinks) + count($e->seeAlsoLinks) - 1);
+        // early bail out
+        if ($this->currentSlug === null) {
+            return true;
+        }
+
+        switch($this->focusArea) {
+            case 1:
+                $e = $this->entry($this->currentSlug);
+                if ($e !== null) {
+                    $this->relatedSelected = min(max(0, count($e->relatedTerms) - 1), $this->relatedSelected + 1);
+                }
+            break;
+            
+            case 2: 
+                $e = $this->entry($this->currentSlug);
+                if ($e !== null) {
+                    $max = max(0, count($e->docLinks) + count($e->seeAlsoLinks) - 1);
                 $this->linkSelected = min($max, $this->linkSelected + 1);
-            }
+                }
+            break;
+            
+            default:
+                // nothing, really
+            break;
         }
         return true;
     }
@@ -820,8 +725,8 @@ final class App
         }
         $sections[] = [Constraint::length(1), $this->makeStatusBar()];
 
-        $constraints = array_map(fn($s) => $s[0], $sections);
-        $widgets = array_map(fn($s) => $s[1], $sections);
+        $constraints = array_map(static fn($s) => $s[0], $sections);
+        $widgets = array_map(static fn($s) => $s[1], $sections);
 
         $this->display->draw(
             GridWidget::default()

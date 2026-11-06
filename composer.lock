@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "e086d1aa268c242b4ce763190ff9d128",
+    "content-hash": "1412e38c1369bf1e281f1a96e6bb0c52",
     "packages": [
         {
             "name": "php-tui/cassowary",
@@ -54,19 +54,20 @@
         },
         {
             "name": "php-tui/php-tui",
-            "version": "0.2.1",
+            "version": "dev-main",
             "source": {
                 "type": "git",
                 "url": "https://github.com/php-tui/php-tui.git",
-                "reference": "d4921c791f8f5b58606810916d0c3eb355db7dc7"
+                "reference": "51b947749dd22747a159d0b62635f1c47f22a25f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/php-tui/php-tui/zipball/d4921c791f8f5b58606810916d0c3eb355db7dc7",
-                "reference": "d4921c791f8f5b58606810916d0c3eb355db7dc7",
+                "url": "https://api.github.com/repos/php-tui/php-tui/zipball/51b947749dd22747a159d0b62635f1c47f22a25f",
+                "reference": "51b947749dd22747a159d0b62635f1c47f22a25f",
                 "shasum": ""
             },
             "require": {
+                "ext-intl": "*",
                 "php": "^8.1",
                 "php-tui/cassowary": "^0.1.0",
                 "php-tui/term": "^0.3.2"
@@ -74,17 +75,18 @@
             "require-dev": {
                 "friendsofphp/php-cs-fixer": "^3.34",
                 "phpbench/phpbench": "^1.2",
-                "phpstan/extension-installer": "^1.3",
+                "phpstan/extension-installer": "^1.0",
                 "phpstan/phpdoc-parser": "^1.24",
-                "phpstan/phpstan": "^1.10",
-                "phpstan/phpstan-deprecation-rules": "^1.1",
-                "phpstan/phpstan-phpunit": "^1.0",
-                "phpstan/phpstan-strict-rules": "^1.5",
+                "phpstan/phpstan": "^2.0",
+                "phpstan/phpstan-deprecation-rules": "^2.0",
+                "phpstan/phpstan-phpunit": "^2.0",
+                "phpstan/phpstan-strict-rules": "^2.0",
                 "phpunit/phpunit": "^10.4",
-                "rector/rector": "^1.0",
+                "rector/rector": "^2.0",
                 "roave/better-reflection": "^6.15",
                 "symfony/var-dumper": "^6.3"
             },
+            "default-branch": true,
             "type": "library",
             "autoload": {
                 "psr-4": {
@@ -110,22 +112,22 @@
             ],
             "support": {
                 "issues": "https://github.com/php-tui/php-tui/issues",
-                "source": "https://github.com/php-tui/php-tui/tree/0.2.1"
+                "source": "https://github.com/php-tui/php-tui/tree/main"
             },
-            "time": "2024-09-08T09:16:18+00:00"
+            "time": "2026-05-04T19:45:39+00:00"
         },
         {
             "name": "php-tui/term",
-            "version": "0.3.4",
+            "version": "dev-main",
             "source": {
                 "type": "git",
                 "url": "https://github.com/php-tui/term.git",
-                "reference": "bf8bb01d5997c2b926637a7b436cb5beac6acde9"
+                "reference": "5d042c308d4f28a267ae0792bc98ef2d22163899"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/php-tui/term/zipball/bf8bb01d5997c2b926637a7b436cb5beac6acde9",
-                "reference": "bf8bb01d5997c2b926637a7b436cb5beac6acde9",
+                "url": "https://api.github.com/repos/php-tui/term/zipball/5d042c308d4f28a267ae0792bc98ef2d22163899",
+                "reference": "5d042c308d4f28a267ae0792bc98ef2d22163899",
                 "shasum": ""
             },
             "require": {
@@ -137,13 +139,34 @@
                 "phpunit/phpunit": "^10.4",
                 "symfony/var-dumper": "^6.3"
             },
+            "default-branch": true,
             "type": "library",
             "autoload": {
                 "psr-4": {
                     "PhpTui\\Term\\": "src/"
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
+            "autoload-dev": {
+                "psr-4": {
+                    "PhpTui\\Term\\Tests\\": "tests/"
+                }
+            },
+            "scripts": {
+                "phpstan": [
+                    "./vendor/bin/phpstan --memory-limit=1G"
+                ],
+                "php-cs-fixer": [
+                    "./vendor/bin/php-cs-fixer fix"
+                ],
+                "phpunit": [
+                    "./vendor/bin/phpunit"
+                ],
+                "integrate": [
+                    "@php-cs-fixer",
+                    "@phpstan",
+                    "@phpunit"
+                ]
+            },
             "license": [
                 "MIT"
             ],
@@ -154,10 +177,10 @@
             ],
             "description": "comprehensive low level terminal control",
             "support": {
-                "issues": "https://github.com/php-tui/term/issues",
-                "source": "https://github.com/php-tui/term/tree/0.3.4"
+                "source": "https://github.com/php-tui/term/tree/main",
+                "issues": "https://github.com/php-tui/term/issues"
             },
-            "time": "2023-12-04T18:42:32+00:00"
+            "time": "2025-05-03T12:29:10+00:00"
         },
         {
             "name": "samdark/sitemap",
@@ -227,9 +250,19 @@
         }
     ],
     "packages-dev": [],
-    "aliases": [],
+    "aliases": [
+        {
+            "package": "php-tui/term",
+            "version": "dev-main",
+            "alias": "0.3.5",
+            "alias_normalized": "0.3.5.0"
+        }
+    ],
     "minimum-stability": "stable",
-    "stability-flags": {},
+    "stability-flags": {
+        "php-tui/php-tui": 20,
+        "php-tui/term": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {},
