@@ -1343,6 +1343,41 @@ URL: https://php-dictionary.readthedocs.io/en/latest/index/__wakeup.html
 
 ---
 
+## ABI
+
+An ABI, or Application Binary Interface, is the contract at the compiled level: how functions are called, how data is laid out in memory, and how structures are sized. Two pieces of compiled code can work together only if they agree on the ABI. This is different from an API, which is the contract at the source level.
+
+The ABI is the Zend engine interface that compiled extensions, ``.so`` or ``.dll`` files, link against. A PHP extension built for one PHP version, or one build configuration, cannot be loaded by another. PHP exposes a number for this, ``PHP_API_VERSION``, and an extension checks it at load time. The check is also the reason why a PECL extension must be recompiled after a PHP upgrade.
+
+Build options change the ABI as well. Thread-safe ZTS and non-thread-safe NTS builds have different layouts, so an extension compiled for one will not load into the other. Mixing them usually produces an error such as 'undefined symbol' or a crash at startup.
+
+Code itself is not affected: a script runs on any PHP version that supports its syntax. The ABI only matters for native code that is loaded into the interpreter.
+
+```php
+<?php
+
+    // The ABI version of the running PHP build
+    echo PHP_API_VERSION, PHP_EOL;     // e.g. 20230831
+
+    // Whether this build is thread-safe (ZTS) or not (NTS)
+    echo ZEND_THREAD_SAFE ? 'ZTS' : 'NTS', PHP_EOL;
+
+    // A native extension must match this ABI.
+    // Loading one compiled for another version fails with an error such as:
+    // PHP Warning: PHP Startup: xdebug: Unable to initialize module
+    // Module compiled with module API=..., PHP compiled with module API=...
+
+?>
+```
+
+Related: Application Programming Interface (API), Extensions, Zend Engine, Thread, Stubs Files
+
+Documentation: https://en.wikipedia.org/wiki/Application_binary_interface
+
+URL: https://php-dictionary.readthedocs.io/en/latest/index/abi.html
+
+---
+
 ## abs()
 
 ``abs()`` calculates the absolute value of a number. It is the value itself, when the number is positive or zero, and it is the opposite of the number when the number is negative.
@@ -2498,7 +2533,7 @@ The motivation behind this proposal is to simplify exception handling code, espe
 
 Related: Catch, Exception, Try-catch, Finally, Anonymous
 
-Documentation: https://www.php.net/manual/en/language.exception.php
+Documentation: https://www.php.net/manual/en/class.exception.php
 
 URL: https://php-dictionary.readthedocs.io/en/latest/index/anonymous-catch.html
 
@@ -3362,6 +3397,43 @@ URL: https://php-dictionary.readthedocs.io/en/latest/index/array-callback.html
 
 ---
 
+## Array Compaction
+
+Array compaction is removing the gaps from an array's keys, so that the remaining elements are numbered again from 0 without holes. An array with holes, such as ``[0 => 'a', 2 => 'c']``, becomes ``[0 => 'a', 1 => 'c']``.
+
+Gaps appear after removing elements, for instance with ``unset()``, or with ``array_filter()``, which keeps the original keys of the elements it retains. ``array_values()`` compacts the array: it returns the values only, with new sequential keys. ``array_splice()`` also renumbers the elements it keeps.
+
+Compaction changes the keys, so it is not always what is wanted. A map keyed by ID would lose its meaning, and ``array_values()`` should only be used when the position of each element is what matters. When the keys must stay, the array is left as it is.
+
+A compacted array is also a packed array internally, which lets PHP store it more efficiently. See the entry on compact arrays for that aspect.
+
+```php
+<?php
+
+    $items = ['a', 'b', 'c', 'd'];
+    unset($items[1]);
+    // [0 => 'a', 2 => 'c', 3 => 'd'] : there is a gap at key 1
+
+    $compacted = array_values($items);
+    // [0 => 'a', 1 => 'c', 2 => 'd'] : keys renumbered
+
+    // array_filter keeps the original keys, so it leaves gaps too
+    $filtered = array_filter([1, 0, 2, 0, 3]);
+    // [0 => 1, 2 => 2, 4 => 3]
+    $compactFiltered = array_values($filtered);
+    // [0 => 1, 1 => 2, 2 => 3]
+
+?>
+```
+
+Related: Compact Array, array_values(), array_filter(), array_splice(), unset(), Array, []
+
+Documentation: https://www.php.net/manual/en/function.array-values.php
+
+URL: https://php-dictionary.readthedocs.io/en/latest/index/array-compaction.html
+
+---
+
 ## Array With Curly Braces
 
 Curly braces used to be a feature, used to access specific index in an array or in a string. They acted like the square braces. 
@@ -3621,8 +3693,6 @@ URL: https://php-dictionary.readthedocs.io/en/latest/index/array.html
 ``array_change_key_case()`` is a native PHP function that returns a copy of an array where all the string keys are converted to lowercase or uppercase.
 
 The second argument selects the case: ``CASE_LOWER``, the default, or ``CASE_UPPER``. Integer keys are left unchanged, and when two keys become identical after the conversion, the later one overwrites the earlier one.
-
-``array_change_key_case()`` is useful when receiving associative arrays whose keys may have inconsistent capitalization. They may be from external sources like database, headers or JSON. With it, the data may be normalized, and all keys may be set to a consistent ``CASE_LOWER`` or ``CASE_UPPER`` for easier, predictable access. It changes every key's case while leaving numeric indices unchanged, and if different keys become identical after case conversion, later ones override earlier ones.
 
 The original array is not modified.
 
@@ -3902,7 +3972,7 @@ When no callback is provided, all entries that evaluate to false are removed.
 ?>
 ```
 
-Related: Array, [], array_map(), array_walk(), Closure
+Related: Array, [], array_map(), array_walk(), Closure, Array Compaction, array_change_key_case(), array_find(), clamp()
 
 Documentation: https://www.php.net/manual/en/function.array-filter.php
 
@@ -8096,7 +8166,7 @@ A canary test should stay simple and fast, and it should exercise exactly the pa
 
 Related: PHPunit, Test, Test Framework, Unit Test, Sentinel, Canary
 
-Documentation: https://docs.phpunit.de/en/stable/
+Documentation: https://docs.phpunit.de/en/13.4/
 
 URL: https://php-dictionary.readthedocs.io/en/latest/index/canary-test.html
 
@@ -8497,7 +8567,7 @@ It is possible to catch multiple exceptions at the same time: in that case, the 
 
 Related: Try-catch, Finally, Throwable, Exception, Anonymous Catch
 
-Documentation: https://www.php.net/manual/en/language.exception.php
+Documentation: https://www.php.net/manual/en/class.exception.php
 
 URL: https://php-dictionary.readthedocs.io/en/latest/index/catch.html
 
@@ -8799,6 +8869,45 @@ URL: https://php-dictionary.readthedocs.io/en/latest/index/cheatsheet.html
 
 ---
 
+## Checked by Existence
+
+Checked by existence describes a test that only asks whether something is present, without looking at its value. The result is a yes or no: the variable, key, constant, file, class or function exists or it does not. Whatever it holds is ignored.
+
+This is what ``isset()``, ``array_key_exists()``, ``defined()``, ``file_exists()``, ``class_exists()`` and ``function_exists()`` do. Each one answers 'is it there?', which is different from 'is it the right value?'. A value check such as ``if ($x === 'yes')`` is also safe for a missing variable, but it reads the value and so says nothing about presence.
+
+The distinction matters because ``isset()`` returns false both when a key is missing and when its value is ``null``. When ``null`` is a valid value, ``array_key_exists()`` is the check that is checked by existence only, and it gives the right answer.
+
+Checking by existence before using something is the basis of feature detection. It avoids warnings on undefined keys and calls to missing functions, and it lets code run on builds that do not provide an optional part.
+
+```php
+<?php
+
+    $config = ['timeout' => null];
+
+    // checked by existence: the key is there, even though its value is null
+    var_dump(array_key_exists('timeout', $config)); // bool(true)
+
+    // isset() also says false for a null value, so it cannot tell them apart
+    var_dump(isset($config['timeout']));           // bool(false)
+
+    // checked by existence for an optional function
+    if (function_exists('mb_strlen')) {
+        $length = mb_strlen($text);
+    } else {
+        $length = strlen($text);
+    }
+
+?>
+```
+
+Related: Existence, Isset, defined(), Feature Detection, Undefined, Null
+
+Documentation: https://www.php.net/manual/en/function.array-key-exists.php
+
+URL: https://php-dictionary.readthedocs.io/en/latest/index/checked-by-existence.html
+
+---
+
 ## Checksum
 
 A checksum is a small, fixed-size value derived from a longer piece of data, used to detect errors or verify integrity. It is akin to a fingerprint or a signature.
@@ -8924,6 +9033,42 @@ Related: Garbage Collection, References, Memory Leak, Memory, Weak References
 Documentation: https://en.wikipedia.org/wiki/Circular_reference
 
 URL: https://php-dictionary.readthedocs.io/en/latest/index/circular-reference.html
+
+---
+
+## Cybersecurity and Infrastructure Security Agency (CISA)
+
+CISA, the Cybersecurity and Infrastructure Security Agency, is the US federal agency that works on the security and resilience of critical infrastructure. For PHP developers, its most useful output is the Known Exploited Vulnerabilities, aka KEV, catalog, a list of CVEs that attackers are known to use in real intrusions. A CVE on that list is a higher priority than one that is only theoretical, so it should be patched first.
+
+CISA also publishes security advisories and secure-coding guidance. Some of that guidance names memory-safety and injection problems that PHP applications share with other languages, such as SQL injection, unsafe deserialisation and unrestricted file upload.
+
+The agency is a government body. Its catalog is public and can be read without an account, and it is often used to decide which dependency or server upgrade is urgent.
+
+```php
+<?php
+
+    // Before deploying, check whether a known exploited CVE affects your PHP version or a dependency.
+    // The KEV catalog is published by CISA as a JSON feed at:
+    // https://www.cisa.gov/known-exploited-vulnerabilities-catalog
+
+    $advisory = [
+        'cve'        => 'CVE-XXXX-YYYY',   // placeholder identifier
+        'product'    => 'PHP',
+        'listedInKev' => true,
+    ];
+
+    if ($advisory['listedInKev']) {
+        // treat as urgent: upgrade or apply the vendor patch now
+    }
+
+?>
+```
+
+Related: Common Vulnerabilities And Exposures (CVE), Vulnerability, Security, SQL Injection, Unserialization
+
+Documentation: https://www.cisa.gov/known-exploited-vulnerabilities-catalog
+
+URL: https://php-dictionary.readthedocs.io/en/latest/index/cisa.html
 
 ---
 
@@ -17952,37 +18097,6 @@ URL: https://php-dictionary.readthedocs.io/en/latest/index/encoding.html
 
 ---
 
-## End of Line (EOL)
-
-End of line, or EOL, is the character or sequence of characters that marks the end of a line of text in a file. It is not one standard: Unix and Linux use a line feed (``\n``), Windows uses a carriage return followed by a line feed (``\r\n``), and older Mac systems used a carriage return alone (``\r``).
-
-The difference matters when a file moves between systems. A script with Windows line endings can fail on Unix with a stray ``\r`` at the end of each line, and a diff can show every line as changed after a file is edited on another platform. Source control systems usually normalise line endings, and editors can be set to write one style.
-
-In PHP, the ``PHP_EOL`` constant gives the end-of-line sequence of the platform the script runs on. It is useful when output is meant for the local terminal or file system, but portable file formats such as CSV or HTTP responses should use the sequence their specification asks for, not ``PHP_EOL``.
-
-This is not the same as EOL, for end of life, which is the date after which a software version stops receiving updates.
-
-```php
-<?php
-
-    // The line ending of the platform running the script
-    echo 'first line' . PHP_EOL;
-    echo 'second line' . PHP_EOL;
-
-    // Stripping a Windows-style ending from a line read from a file
-    $line = rtrim($line, "\r\n");
-
-?>
-```
-
-Related: PHP_EOL, New Line, Line Feed, Carriage Return, CRLF Injection, End of Life (EOL)
-
-Documentation: https://www.php.net/manual/en/reserved.constants.php
-
-URL: https://php-dictionary.readthedocs.io/en/latest/index/end-of-line.html
-
----
-
 ## End To End Test
 
 End to end tests are integration tests that cover the entire application, so it checks that it works correctly from the user's perspective. End to end testing is simulating real user interactions through the actual UI, hitting real servers and databases.
@@ -18170,24 +18284,6 @@ Related: \.env File, Deployment, display_errors, Production, Secret
 Documentation: https://en.wikipedia.org/wiki/Environment_variable
 
 URL: https://php-dictionary.readthedocs.io/en/latest/index/environment.html
-
----
-
-## End of Life (EOL)
-
-End of life, or EOL, is the date after which a software version no longer receives updates, including security fixes. Each version of PHP, a framework or a library has a support window: it is supported with bug and security fixes for a fixed period, then it reaches end of life and is left as it is.
-
-Running an EOL version is a security risk, since any vulnerability found after the EOL date will not be patched. Libraries and frameworks usually ship a support table, and it is worth checking it before upgrading or deploying, since an application on an EOL runtime is harder to get patched and may stop receiving compatibility updates from its dependencies.
-
-EOL is not the same as deprecation. A deprecated feature is still supported but flagged for removal, while an EOL version has stopped receiving any updates at all. A deprecation usually comes first, and the EOL date is what ends the support window for the whole release.
-
-The linked article covers the end-of-life dates for PHP.
-
-Related: Release, Deprecation, Lifecycle, Semantic Versioning, Security
-
-Documentation: https://endoflife.ai/article-php-eol
-
-URL: https://php-dictionary.readthedocs.io/en/latest/index/eol.html
 
 ---
 
@@ -19127,7 +19223,7 @@ Exceptions are thrown at the point of detection of the issue, and processed some
 
 Related: throw, Try-catch, RangeException, Anonymous Catch, BadFunctioncallException, Chaining, DomainException, Error Handling, Error, Chaining Exceptions, ImagickException, LengthException, PharException, PHP Predefined Exception, SVMException, Throwable, Traversable, Type Error, UnexpectedValueException, UnhandledMatchError, OutOfRangeException, OverflowException, set_error_handler(), ValueError, Fatal Error, PDOException, Resource Leak, Transaction, ImagickPixelException, Troubleshoot, Continuation, Defer Statement, Effect System, Result Type
 
-Documentation: https://www.php.net/manual/en/language.exception.php
+Documentation: https://www.php.net/manual/en/class.exception.php
 
 URL: https://php-dictionary.readthedocs.io/en/latest/index/exception.html
 
@@ -19819,7 +19915,7 @@ Extensions are a custom way to add features to software. Extension is a very gen
 + PHP extensions
 + Extensions, as a concept.
 
-Related: Directives, Library Loading, Module, PHP Extension C Library (PECL), PHP Installer For Extensions (PIE), Core, Dynamic Loading, Embed, PHP Engine, Foreign Function Interface (FFI), Readline, filter, gettext Extension, mysqli
+Related: Directives, Library Loading, Module, PHP Extension C Library (PECL), PHP Installer For Extensions (PIE), Core, Dynamic Loading, Embed, PHP Engine, Foreign Function Interface (FFI), Readline, filter, gettext Extension, mysqli, ABI, Inline Assembly, Installation, Keymap
 
 Documentation: https://www.php.net/manual/en/extensions.php
 
@@ -20967,7 +21063,7 @@ Finally is run every time after a try, with or without any catch clause. It is a
 
 Related: Try-catch, Catch, Exit, Resource Leak
 
-Documentation: https://www.php.net/manual/en/language.exception.php#language.exceptions.finally
+Documentation: https://www.php.net/manual/en/control-structures.finally.php
 
 URL: https://php-dictionary.readthedocs.io/en/latest/index/finally.html
 
@@ -21459,7 +21555,7 @@ The PHP community's folklore is all the non-language related creations, that ser
 
 
 
-Related: Community, Quine, Elephpant, Footgun, Vanilla PHP
+Related: Elephpant, Footgun, Vanilla PHP, Community, Dog Fooding, Graphics Interchange Format (GIF), Quine
 
 Documentation: https://en.wikipedia.org/wiki/Folklore
 
@@ -23301,22 +23397,6 @@ Related: Goto Labels, Colon, Jump, Syntax, Control Flow
 Documentation: https://www.php.net/manual/en/control-structures.goto.php
 
 URL: https://php-dictionary.readthedocs.io/en/latest/index/goto.html
-
----
-
-## GPU Computing
-
-GPU computing, or general-purpose computing on graphics processing units, uses the many parallel cores of a graphics card to run calculations that are not about drawing images. Work is split into thousands of small tasks, such as compute shaders or kernels, executed at the same time on the same data.
-
-GPUs are efficient for matrix operations, image processing, physics simulation, and machine learning. The cost is data transfer between the CPU and the GPU, which has to be worth the parallel speed-up.
-
-Each vendor has its own API: CUDA for NVIDIA, Metal for Apple, Vulkan and OpenCL as cross-platform options. Usually PHP reaches them through an extension, since the code has to call native libraries.
-
-Related: Parallel, Foreign Function Interface (FFI), Machine Learning, Large Language Model (LLM), Render
-
-Documentation: https://en.wikipedia.org/wiki/General-purpose_computing_on_graphics_processing_units
-
-URL: https://php-dictionary.readthedocs.io/en/latest/index/gpu-computing.html
 
 ---
 
@@ -25655,7 +25735,7 @@ URL: https://php-dictionary.readthedocs.io/en/latest/index/iffectation.html
 
 Related: Try-catch, Catch
 
-Documentation: https://www.php.net/manual/en/language.exception.php
+Documentation: https://www.php.net/manual/en/class.exception.php
 
 URL: https://php-dictionary.readthedocs.io/en/latest/index/ignored-catch.html
 
@@ -31056,22 +31136,6 @@ Related: Composer, Packagist, Plugin, Framework, Ecosystem, Content Management S
 Documentation: https://packagist.org/
 
 URL: https://php-dictionary.readthedocs.io/en/latest/index/marketplace.html
-
----
-
-## Markup
-
-Markup is a way to write text with annotations that describe its structure or its presentation. The annotations are either tags, such as ``<h1>`` in HTML, or lightweight symbols, such as ``#`` in Markdown.
-
-Markup separates the content from how it is displayed. The same source can be rendered as a web page, a PDF, or plain text.
-
-Typst is a markup language for typesetting. It mixes markup for text with a scripting language for logic, and it compiles documents to PDF. It is a modern alternative to LaTeX, with a faster compile time and simpler syntax. A PHP extension gives access to the Typst engine.
-
-Related: Markdown, HyperText Markup Language (HTML), Wiki, Template, Syntax, Format
-
-Documentation: https://en.wikipedia.org/wiki/Markup_language
-
-URL: https://php-dictionary.readthedocs.io/en/latest/index/markup.html
 
 ---
 
@@ -45367,7 +45431,7 @@ Security applies to PHP itself, and also to the application written with it.
 ?>
 ```
 
-Related: Audit Trail, Attack Surface, Framework, Taint Analysis, Time Of Check To Time Of Use (TOCTOU), Data Leak, Nonce, OWASP, Sensitive Parameter, Code Review, Distributed Denial Of Service (DDOS), Race Condition, Zero Day Vulnerability, hash_equals(), html_entity_decode, htmlspecialchars, Insecure Deserialization, Privacy, Access Control List (ACL), Appeasement Pattern, Dynamic Loading, Escape Character, php://filter, Poisoned Pipeline Execution (PPE), Fuzzing, Hard Coded, Hash Comparisons, OAuth, Shell Exec, Capture The Flag (CTF), Multi-Factor Authentication (MFA), Obfuscation, Rate Limiting, CRLF Injection, escapeshellarg(), Image Injection, LDAP Injection, escapeshellcmd(), Shell Injection, Server-Side Request Forgery (SSRF), Steganography, C2 Framework, Content Security Policy (CSP), EXIF (Exchangeable Image File Format), file://, Canary Token, Egress Filtering, End of Life (EOL), Firewall, Self-Hosted
+Related: Audit Trail, Attack Surface, Framework, Taint Analysis, Time Of Check To Time Of Use (TOCTOU), Data Leak, Nonce, OWASP, Sensitive Parameter, Code Review, Distributed Denial Of Service (DDOS), Race Condition, Zero Day Vulnerability, hash_equals(), html_entity_decode, htmlspecialchars, Insecure Deserialization, Privacy, Access Control List (ACL), Appeasement Pattern, Dynamic Loading, Escape Character, php://filter, Poisoned Pipeline Execution (PPE), Fuzzing, Hard Coded, Hash Comparisons, OAuth, Shell Exec, Capture The Flag (CTF), Multi-Factor Authentication (MFA), Obfuscation, Rate Limiting, CRLF Injection, escapeshellarg(), Image Injection, LDAP Injection, escapeshellcmd(), Shell Injection, Server-Side Request Forgery (SSRF), Steganography, C2 Framework, Content Security Policy (CSP), EXIF (Exchangeable Image File Format), file://, Canary Token, Cybersecurity and Infrastructure Security Agency (CISA), Egress Filtering, Firewall
 
 Documentation: https://www.php.net/manual/en/security.php
 
@@ -45456,37 +45520,6 @@ Related: Docblock, Expressive Interface
 Documentation: https://en.wikipedia.org/wiki/Self-documenting_code
 
 URL: https://php-dictionary.readthedocs.io/en/latest/index/self-documenting.html
-
----
-
-## Self-Hosted
-
-Self-hosted means running an application or service on infrastructure that you control, rather than using a version run by someone else. The machine may be a physical server in your office, a virtual machine you rent, or a container on a host you manage, but the operator, not a vendor, is responsible for installation, upgrades, backups and security.
-
-Self-hosting gives full control over the data, the configuration and the update schedule, and it avoids a dependency on a third-party provider's pricing or availability. The cost is the operational work: patches, certificates, monitoring and recovery all fall to the operator, and a neglected instance can become a security risk.
-
-Self-hosting is the opposite of a SaaS subscription, where the vendor runs the application. It is close to on-premise software, which is installed inside an organisation's own premises, but a self-hosted application may just as well run in a rented cloud server or a container.
-
-Many PHP applications are self-hosted: a blog engine, a wiki, an e-commerce store or a CRM is installed on a server the site owner manages, typically with a web server, PHP-FPM and a database.
-
-```php
-<?php
-
-    // A self-hosted app reads its own configuration from the server it runs on
-    $dsn = getenv('DATABASE_URL') ?: 'mysql:host=localhost;dbname=app';
-    $pdo = new PDO($dsn, getenv('DB_USER'), getenv('DB_PASSWORD'));
-
-    // The operator sets the public URL, so links point to this installation
-    $baseUrl = rtrim(getenv('APP_URL'), '/');
-
-?>
-```
-
-Related: On Premise Software, Software-as-a-Service (SAAS), Cloud, Hosting, Docker Image, DevOps, Security, Privacy
-
-Documentation: https://en.wikipedia.org/wiki/Self-hosting_(web_services)
-
-URL: https://php-dictionary.readthedocs.io/en/latest/index/self-hosted.html
 
 ---
 
@@ -52707,7 +52740,7 @@ A thread is a set of instructions, designed to be executed independently from th
 
 PHP supports threads with extensions, such as the ``pthreads`` extension. It also supports a thread safe compilation version: it allows PHP to be used with threaded web servers.
 
-Related: Process, Async, Asynchronous, Multithreading, Channel, Concurrency, Green Thread, Mutex
+Related: Process, Async, Asynchronous, Multithreading, Channel, Concurrency, Green Thread, Mutex, ABI, Inter-Process Communication (IPC), Semaphore, Worker
 
 Documentation: https://en.wikipedia.org/wiki/Thread_(computing)
 
@@ -52809,18 +52842,19 @@ When an exception is thrown, the normal flow of the program is interrupted, and 
 
 ```php
 <?php
-try{
-    throw new Exception('Error');
-} catch (\Exception $e) {
-    print 'Warning : error was identified!';
-}
+
+    try{
+        throw new Exception('Error');
+    } catch (\Exception $e) {
+        print 'Warning : error was identified!';
+    }
 
 ?>
 ```
 
 Related: Try-catch, Exception, ArgumentCountError, ArithmeticError Error, Error, Chaining Exceptions, mysqli_sql_exception, PHP Predefined Exception, Jump, Method Compatibility, Return Value
 
-Documentation: https://www.php.net/manual/en/language.exception.php
+Documentation: https://www.php.net/manual/en/class.exception.php
 
 URL: https://php-dictionary.readthedocs.io/en/latest/index/throw.html
 
@@ -52835,9 +52869,9 @@ This interface may be used with catch clauses, to catch everything that is throw
 ```php
 <?php
 
-class elephpant extends \Exception implements \Throwable {}
+    class elephpant extends \Exception implements \Throwable {}
 
-throw new Elephpant();
+    throw new Elephpant();
 
 ?>
 ```
@@ -53683,18 +53717,18 @@ The catch clause may be anonymous, when it only specifies the type of caught exc
 ```php
 <?php
 
-try {
-    callSomeMethod();
-} catch (\Exception $e) {
-    // process the error here
-}
+    try {
+        callSomeMethod();
+    } catch (\Exception $e) {
+        // process the error here
+    }
 
 ?>
 ```
 
 Related: Finally, Anonymous Catch, ArgumentCountError, ArithmeticError Error, Catch, Error, Chaining Exceptions, Exception Handler, Exception, mysqli_sql_exception, PHP Predefined Exception, throw, Syntax, Fatal Error, Resource Leak, Eval(), Ignored Catch, set_error_handler(), Transaction
 
-Documentation: https://www.php.net/manual/en/language.exception.php
+Documentation: https://www.php.net/manual/en/class.exception.php
 
 URL: https://php-dictionary.readthedocs.io/en/latest/index/try-catch.html
 
@@ -56630,7 +56664,7 @@ URL: https://php-dictionary.readthedocs.io/en/latest/index/void.html
 
 A vulnerability is a weakness or flaw in a computer system, software, hardware, or even a process that can be exploited by an attacker to perform unauthorized actions.
 
-Related: Weak Cryptography, Cross Site Scripting (XSS), Cross Site Request Forgery (CSRF), Man In The Middle, Common Vulnerabilities And Exposures (CVE), Local File Inclusion, Missing Validation, Regexploit, Broken Object Level Authorization (BOLA), Insecure Direct Object Reference (IDOR), Broken Access Control, Indirect Reference Map, Data Leak, Remote Code Execution (RCE), Session Fixation, Attack, Breach, Distributed Denial Of Service (DDOS), Path Traversal, Zero Day Vulnerability, Insecure Deserialization, OWASP, Penetration Test, Timing Attack, Appeasement Pattern, Attack Surface, Content Security Policy (CSP), Capture The Flag (CTF), Server-Side Request Forgery (SSRF)
+Related: Weak Cryptography, Cross Site Scripting (XSS), Cross Site Request Forgery (CSRF), Man In The Middle, Common Vulnerabilities And Exposures (CVE), Local File Inclusion, Missing Validation, Regexploit, Broken Object Level Authorization (BOLA), Insecure Direct Object Reference (IDOR), Broken Access Control, Indirect Reference Map, Data Leak, Remote Code Execution (RCE), Session Fixation, Attack, Breach, Distributed Denial Of Service (DDOS), Path Traversal, Zero Day Vulnerability, Insecure Deserialization, OWASP, Penetration Test, Timing Attack, Appeasement Pattern, Attack Surface, Content Security Policy (CSP), Capture The Flag (CTF), Server-Side Request Forgery (SSRF), C2 Framework, Cybersecurity and Infrastructure Security Agency (CISA), Hash Table Attack, XSS Payload
 
 Documentation: https://en.wikipedia.org/wiki/Vulnerability_(computer_security)
 

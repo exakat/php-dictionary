@@ -4,355 +4,355 @@
 <link>https://php-dictionary.readthedocs.io/en/latest/index.html</link>
 <description>Recently added or updated entries in the PHP Dictionary.</description>
 <language>en</language>
-<lastBuildDate>Thu, 05 Nov 2026 21:35:54 +0000</lastBuildDate>
+<lastBuildDate>Tue, 10 Nov 2026 10:19:44 +0000</lastBuildDate>
 <item>
-<title>Base Conversion</title>
-<link>https://php-dictionary.readthedocs.io/en/latest/index/base-conversion.html</link>
-<guid>https://php-dictionary.readthedocs.io/en/latest/index/base-conversion.html</guid>
-<description>Base conversion turns an integer written in one numeric base into the same value written in another base.</description>
-<pubDate>Thu, 05 Nov 2026 21:35:48 +0000</pubDate>
+<title>Folklore</title>
+<link>https://php-dictionary.readthedocs.io/en/latest/index/folklore.html</link>
+<guid>https://php-dictionary.readthedocs.io/en/latest/index/folklore.html</guid>
+<description>The PHP community's folklore is all the non-language related creations, that serves as a link in the community.</description>
+<pubDate>Tue, 10 Nov 2026 10:17:41 +0000</pubDate>
 </item>
 <item>
-<title>Offline Test Suite</title>
-<link>https://php-dictionary.readthedocs.io/en/latest/index/offline-test-suite.html</link>
-<guid>https://php-dictionary.readthedocs.io/en/latest/index/offline-test-suite.html</guid>
-<description>An offline test suite is a set of tests that run without network access.</description>
-<pubDate>Thu, 05 Nov 2026 21:35:31 +0000</pubDate>
+<title>Cybersecurity and Infrastructure Security Agency (CISA)</title>
+<link>https://php-dictionary.readthedocs.io/en/latest/index/cisa.html</link>
+<guid>https://php-dictionary.readthedocs.io/en/latest/index/cisa.html</guid>
+<description>CISA, the Cybersecurity and Infrastructure Security Agency, is the US federal agency that works on the security and resilience of critical infrastructure.</description>
+<pubDate>Tue, 10 Nov 2026 10:15:39 +0000</pubDate>
 </item>
 <item>
-<title>Malformed Response Body</title>
-<link>https://php-dictionary.readthedocs.io/en/latest/index/malformed-response-body.html</link>
-<guid>https://php-dictionary.readthedocs.io/en/latest/index/malformed-response-body.html</guid>
-<description>A malformed response body is an HTTP response whose content does not match what the client expects.</description>
-<pubDate>Thu, 05 Nov 2026 21:35:22 +0000</pubDate>
+<title>ABI</title>
+<link>https://php-dictionary.readthedocs.io/en/latest/index/abi.html</link>
+<guid>https://php-dictionary.readthedocs.io/en/latest/index/abi.html</guid>
+<description>An ABI, or Application Binary Interface, is the contract at the compiled level:</description>
+<pubDate>Tue, 10 Nov 2026 10:07:23 +0000</pubDate>
 </item>
 <item>
-<title>Least Privilege Principle</title>
-<link>https://php-dictionary.readthedocs.io/en/latest/index/least-privilege.html</link>
-<guid>https://php-dictionary.readthedocs.io/en/latest/index/least-privilege.html</guid>
-<description>The principle of least privilege states that every user, process, service, or component should be granted only the minimum rights it needs to perform its task, and nothing more, for the minimum time needed.</description>
-<pubDate>Thu, 05 Nov 2026 21:30:41 +0000</pubDate>
+<title>Throwable</title>
+<link>https://php-dictionary.readthedocs.io/en/latest/index/throwable.html</link>
+<guid>https://php-dictionary.readthedocs.io/en/latest/index/throwable.html</guid>
+<description>``Throwable`` is a PHP native interface, which is required for any object to be used with thrown, such as ``Exception`` and ``Error``.</description>
+<pubDate>Tue, 10 Nov 2026 10:06:40 +0000</pubDate>
 </item>
 <item>
-<title>Canned Response</title>
-<link>https://php-dictionary.readthedocs.io/en/latest/index/canned-response.html</link>
-<guid>https://php-dictionary.readthedocs.io/en/latest/index/canned-response.html</guid>
-<description>A canned response is a fixed, pre-recorded answer that a test returns instead of calling the real service.</description>
-<pubDate>Thu, 05 Nov 2026 21:30:19 +0000</pubDate>
-</item>
-<item>
-<title>Code Duplication</title>
-<link>https://php-dictionary.readthedocs.io/en/latest/index/code-duplication.html</link>
-<guid>https://php-dictionary.readthedocs.io/en/latest/index/code-duplication.html</guid>
-<description>Code duplication happens when the same, or nearly the same, block of code is written more than once in a project.</description>
-<pubDate>Thu, 05 Nov 2026 21:30:08 +0000</pubDate>
-</item>
-<item>
-<title>Constructor Property Promotion</title>
-<link>https://php-dictionary.readthedocs.io/en/latest/index/constructor-property-promotion.html</link>
-<guid>https://php-dictionary.readthedocs.io/en/latest/index/constructor-property-promotion.html</guid>
-<description>Constructor property promotion lets a class declare its properties directly in the constructor signature.</description>
-<pubDate>Thu, 05 Nov 2026 21:29:56 +0000</pubDate>
-</item>
-<item>
-<title>Contract Test</title>
-<link>https://php-dictionary.readthedocs.io/en/latest/index/contract-test.html</link>
-<guid>https://php-dictionary.readthedocs.io/en/latest/index/contract-test.html</guid>
-<description>A contract test checks that two sides of an interface agree on the messages they exchange.</description>
-<pubDate>Thu, 05 Nov 2026 21:29:42 +0000</pubDate>
-</item>
-<item>
-<title>array_change_key_case()</title>
-<link>https://php-dictionary.readthedocs.io/en/latest/index/array_change_key_case.html</link>
-<guid>https://php-dictionary.readthedocs.io/en/latest/index/array_change_key_case.html</guid>
-<description>``array_change_key_case()`` is a native PHP function that returns a copy of an array where all the string keys are converted to lowercase or uppercase.</description>
-<pubDate>Thu, 05 Nov 2026 21:29:04 +0000</pubDate>
-</item>
-<item>
-<title>End of Life (EOL)</title>
-<link>https://php-dictionary.readthedocs.io/en/latest/index/eol.html</link>
-<guid>https://php-dictionary.readthedocs.io/en/latest/index/eol.html</guid>
-<description>End of life, or EOL, is the date after which a software version no longer receives updates, including security fixes.</description>
-<pubDate>Thu, 05 Nov 2026 21:28:28 +0000</pubDate>
-</item>
-<item>
-<title>End of Line (EOL)</title>
-<link>https://php-dictionary.readthedocs.io/en/latest/index/end-of-line.html</link>
-<guid>https://php-dictionary.readthedocs.io/en/latest/index/end-of-line.html</guid>
-<description>End of line, or EOL, is the character or sequence of characters that marks the end of a line of text in a file.</description>
-<pubDate>Thu, 05 Nov 2026 21:27:53 +0000</pubDate>
-</item>
-<item>
-<title>Security</title>
-<link>https://php-dictionary.readthedocs.io/en/latest/index/security.html</link>
-<guid>https://php-dictionary.readthedocs.io/en/latest/index/security.html</guid>
-<description>Security involves implementing measures and best practices to protect the application and its data from malicious attacks and vulnerabilities.</description>
-<pubDate>Thu, 05 Nov 2026 21:26:20 +0000</pubDate>
-</item>
-<item>
-<title>Template</title>
-<link>https://php-dictionary.readthedocs.io/en/latest/index/template.html</link>
-<guid>https://php-dictionary.readthedocs.io/en/latest/index/template.html</guid>
-<description>A template is a preset document, filled with values in placeholders, to display the resulting data.</description>
-<pubDate>Thu, 05 Nov 2026 21:25:29 +0000</pubDate>
-</item>
-<item>
-<title>Markup</title>
-<link>https://php-dictionary.readthedocs.io/en/latest/index/markup.html</link>
-<guid>https://php-dictionary.readthedocs.io/en/latest/index/markup.html</guid>
-<description>Markup is a way to write text with annotations that describe its structure or its presentation.</description>
-<pubDate>Thu, 05 Nov 2026 21:24:11 +0000</pubDate>
-</item>
-<item>
-<title>GPU Computing</title>
-<link>https://php-dictionary.readthedocs.io/en/latest/index/gpu-computing.html</link>
-<guid>https://php-dictionary.readthedocs.io/en/latest/index/gpu-computing.html</guid>
-<description>GPU computing, or general-purpose computing on graphics processing units, uses the many parallel cores of a graphics card to run calculations that are not about drawing images.</description>
-<pubDate>Thu, 05 Nov 2026 21:24:09 +0000</pubDate>
-</item>
-<item>
-<title>Self-Hosted</title>
-<link>https://php-dictionary.readthedocs.io/en/latest/index/self-hosted.html</link>
-<guid>https://php-dictionary.readthedocs.io/en/latest/index/self-hosted.html</guid>
-<description>Self-hosted means running an application or service on infrastructure that you control, rather than using a version run by someone else.</description>
-<pubDate>Thu, 05 Nov 2026 09:38:06 +0000</pubDate>
-</item>
-<item>
-<title>Authorization Header</title>
-<link>https://php-dictionary.readthedocs.io/en/latest/index/authorization-header.html</link>
-<guid>https://php-dictionary.readthedocs.io/en/latest/index/authorization-header.html</guid>
-<description>The Authorization header carries the credentials that a client sends to a server to authenticate a request.</description>
-<pubDate>Wed, 04 Nov 2026 11:26:04 +0000</pubDate>
-</item>
-<item>
-<title>WeakReference</title>
-<link>https://php-dictionary.readthedocs.io/en/latest/index/weakreference.html</link>
-<guid>https://php-dictionary.readthedocs.io/en/latest/index/weakreference.html</guid>
-<description>``WeakReference`` is a final class that holds a reference to an object without keeping that object alive.</description>
-<pubDate>Wed, 04 Nov 2026 11:20:35 +0000</pubDate>
+<title>array_filter()</title>
+<link>https://php-dictionary.readthedocs.io/en/latest/index/array_filter.html</link>
+<guid>https://php-dictionary.readthedocs.io/en/latest/index/array_filter.html</guid>
+<description>``array_filter()`` is a native PHP function that filters elements of an array using a callback.</description>
+<pubDate>Tue, 10 Nov 2026 10:05:28 +0000</pubDate>
 </item>
 <item>
 <title>Database</title>
 <link>https://php-dictionary.readthedocs.io/en/latest/index/database.html</link>
 <guid>https://php-dictionary.readthedocs.io/en/latest/index/database.html</guid>
 <description>A database is an organized set of data, which may be queried.</description>
-<pubDate>Wed, 04 Nov 2026 11:19:59 +0000</pubDate>
+<pubDate>Tue, 10 Nov 2026 10:05:28 +0000</pubDate>
 </item>
 <item>
 <title>Extract, Transform, Load (ETL)</title>
 <link>https://php-dictionary.readthedocs.io/en/latest/index/etl.html</link>
 <guid>https://php-dictionary.readthedocs.io/en/latest/index/etl.html</guid>
 <description>ETL, for Extract, Transform, Load, is a three-stage process used to move data from one or more source systems into a target system.</description>
-<pubDate>Wed, 04 Nov 2026 11:19:59 +0000</pubDate>
+<pubDate>Tue, 10 Nov 2026 10:05:28 +0000</pubDate>
+</item>
+<item>
+<title>Extensions</title>
+<link>https://php-dictionary.readthedocs.io/en/latest/index/extension.html</link>
+<guid>https://php-dictionary.readthedocs.io/en/latest/index/extension.html</guid>
+<description>Extensions are a custom way to add features to software.</description>
+<pubDate>Tue, 10 Nov 2026 10:05:28 +0000</pubDate>
 </item>
 <item>
 <title>Monitoring</title>
 <link>https://php-dictionary.readthedocs.io/en/latest/index/monitoring.html</link>
 <guid>https://php-dictionary.readthedocs.io/en/latest/index/monitoring.html</guid>
 <description>Monitoring is the process of observing, tracking, and analyzing the performance, health, and behavior of applications or infrastructure over time.</description>
-<pubDate>Wed, 04 Nov 2026 11:19:59 +0000</pubDate>
+<pubDate>Tue, 10 Nov 2026 10:05:28 +0000</pubDate>
+</item>
+<item>
+<title>Security</title>
+<link>https://php-dictionary.readthedocs.io/en/latest/index/security.html</link>
+<guid>https://php-dictionary.readthedocs.io/en/latest/index/security.html</guid>
+<description>Security involves implementing measures and best practices to protect the application and its data from malicious attacks and vulnerabilities.</description>
+<pubDate>Tue, 10 Nov 2026 10:05:28 +0000</pubDate>
+</item>
+<item>
+<title>Thread</title>
+<link>https://php-dictionary.readthedocs.io/en/latest/index/thread.html</link>
+<guid>https://php-dictionary.readthedocs.io/en/latest/index/thread.html</guid>
+<description>A thread is a set of instructions, designed to be executed independently from the parent process.</description>
+<pubDate>Tue, 10 Nov 2026 10:05:28 +0000</pubDate>
 </item>
 <item>
 <title>Types Erasure</title>
 <link>https://php-dictionary.readthedocs.io/en/latest/index/type-erasure.html</link>
 <guid>https://php-dictionary.readthedocs.io/en/latest/index/type-erasure.html</guid>
 <description>Type Erasure is the removal of type annotations from the source code when going to production.</description>
-<pubDate>Wed, 04 Nov 2026 11:19:59 +0000</pubDate>
+<pubDate>Tue, 10 Nov 2026 10:05:28 +0000</pubDate>
 </item>
 <item>
 <title>Type Parametricity</title>
 <link>https://php-dictionary.readthedocs.io/en/latest/index/type-parametricity.html</link>
 <guid>https://php-dictionary.readthedocs.io/en/latest/index/type-parametricity.html</guid>
 <description>Type parametricity, or parametric polymorphism, is the ability to write a function, class, or interface once and have it work uniformly over any type, with that type supplied as a parameter rather than hard-coded.</description>
-<pubDate>Wed, 04 Nov 2026 11:19:59 +0000</pubDate>
+<pubDate>Tue, 10 Nov 2026 10:05:28 +0000</pubDate>
+</item>
+<item>
+<title>Vulnerability</title>
+<link>https://php-dictionary.readthedocs.io/en/latest/index/vulnerability.html</link>
+<guid>https://php-dictionary.readthedocs.io/en/latest/index/vulnerability.html</guid>
+<description>A vulnerability is a weakness or flaw in a computer system, software, hardware, or even a process that can be exploited by an attacker to perform unauthorized actions.</description>
+<pubDate>Tue, 10 Nov 2026 10:05:28 +0000</pubDate>
 </item>
 <item>
 <title>Erased Types</title>
 <link>https://php-dictionary.readthedocs.io/en/latest/index/erased-types.html</link>
 <guid>https://php-dictionary.readthedocs.io/en/latest/index/erased-types.html</guid>
 <description>Erased types are type parameters or annotations that exist while the code is analysed or compiled, and are gone when the program runs.</description>
-<pubDate>Wed, 04 Nov 2026 11:19:58 +0000</pubDate>
+<pubDate>Tue, 10 Nov 2026 10:05:26 +0000</pubDate>
 </item>
 <item>
-<title>Flat File</title>
-<link>https://php-dictionary.readthedocs.io/en/latest/index/flat-file.html</link>
-<guid>https://php-dictionary.readthedocs.io/en/latest/index/flat-file.html</guid>
-<description>A flat file is a plain, unstructured file that stores data as text or binary, with no indexes, relations or query engine of its own.</description>
-<pubDate>Mon, 02 Nov 2026 11:52:12 +0000</pubDate>
+<title>Indexed Array</title>
+<link>https://php-dictionary.readthedocs.io/en/latest/index/indexed-array.html</link>
+<guid>https://php-dictionary.readthedocs.io/en/latest/index/indexed-array.html</guid>
+<description>An indexed array is an array whose keys are only integers.</description>
+<pubDate>Tue, 10 Nov 2026 10:04:37 +0000</pubDate>
 </item>
 <item>
-<title>Broken Object Level Authorization (BOLA)</title>
-<link>https://php-dictionary.readthedocs.io/en/latest/index/bola.html</link>
-<guid>https://php-dictionary.readthedocs.io/en/latest/index/bola.html</guid>
-<description>Object Level Authorization is a mechanism that checks if a user has the right to access or execute an action on a specific object.</description>
-<pubDate>Wed, 28 Oct 2026 07:29:39 +0000</pubDate>
+<title>Index</title>
+<link>https://php-dictionary.readthedocs.io/en/latest/index/index.html</link>
+<guid>https://php-dictionary.readthedocs.io/en/latest/index/index.html</guid>
+<description>An index, plural indices, may be several things:</description>
+<pubDate>Tue, 10 Nov 2026 10:04:05 +0000</pubDate>
 </item>
 <item>
-<title>Canary Token</title>
-<link>https://php-dictionary.readthedocs.io/en/latest/index/canary-token.html</link>
-<guid>https://php-dictionary.readthedocs.io/en/latest/index/canary-token.html</guid>
-<description>A canary token is a fake credential, file, URL or record, planted where an attacker is likely to find it.</description>
-<pubDate>Tue, 27 Oct 2026 07:24:59 +0000</pubDate>
+<title>Array Compaction</title>
+<link>https://php-dictionary.readthedocs.io/en/latest/index/array-compaction.html</link>
+<guid>https://php-dictionary.readthedocs.io/en/latest/index/array-compaction.html</guid>
+<description>Array compaction is removing the gaps from an array's keys, so that the remaining elements are numbered again from 0 without holes.</description>
+<pubDate>Tue, 10 Nov 2026 10:02:05 +0000</pubDate>
+</item>
+<item>
+<title>Checked by Existence</title>
+<link>https://php-dictionary.readthedocs.io/en/latest/index/checked-by-existence.html</link>
+<guid>https://php-dictionary.readthedocs.io/en/latest/index/checked-by-existence.html</guid>
+<description>Checked by existence describes a test that only asks whether something is present, without looking at its value.</description>
+<pubDate>Tue, 10 Nov 2026 10:01:47 +0000</pubDate>
+</item>
+<item>
+<title>Try-catch</title>
+<link>https://php-dictionary.readthedocs.io/en/latest/index/try-catch.html</link>
+<guid>https://php-dictionary.readthedocs.io/en/latest/index/try-catch.html</guid>
+<description>Try-catch is a PHP command, which runs a block of code, and catches some configured exceptions that the block may throw.</description>
+<pubDate>Mon, 09 Nov 2026 10:47:13 +0000</pubDate>
+</item>
+<item>
+<title>throw</title>
+<link>https://php-dictionary.readthedocs.io/en/latest/index/throw.html</link>
+<guid>https://php-dictionary.readthedocs.io/en/latest/index/throw.html</guid>
+<description>Throw is the keyword which raises an exception.</description>
+<pubDate>Mon, 09 Nov 2026 10:46:57 +0000</pubDate>
+</item>
+<item>
+<title>Secure Sockets Layer (SSL)</title>
+<link>https://php-dictionary.readthedocs.io/en/latest/index/ssl.html</link>
+<guid>https://php-dictionary.readthedocs.io/en/latest/index/ssl.html</guid>
+<description>SSL, the Secure Sockets Layer, is a cryptographic protocol designed to provide communications security over a computer network and on the Web.</description>
+<pubDate>Mon, 09 Nov 2026 10:46:31 +0000</pubDate>
+</item>
+<item>
+<title>Asymmetric Cryptography</title>
+<link>https://php-dictionary.readthedocs.io/en/latest/index/asymmetric-cryptography.html</link>
+<guid>https://php-dictionary.readthedocs.io/en/latest/index/asymmetric-cryptography.html</guid>
+<description>Asymmetric cryptography, also called public-key cryptography, is a method of encrypting and authenticating data using two mathematically linked keys, a public key and a private key.</description>
+<pubDate>Mon, 09 Nov 2026 10:45:54 +0000</pubDate>
+</item>
+<item>
+<title>Resource Leak</title>
+<link>https://php-dictionary.readthedocs.io/en/latest/index/resource-leak.html</link>
+<guid>https://php-dictionary.readthedocs.io/en/latest/index/resource-leak.html</guid>
+<description>A resource leak occurs when a resource, such as a file handle, database connection, network socket, or stream, is opened but never properly closed.</description>
+<pubDate>Mon, 09 Nov 2026 10:43:56 +0000</pubDate>
+</item>
+<item>
+<title>Math</title>
+<link>https://php-dictionary.readthedocs.io/en/latest/index/math.html</link>
+<guid>https://php-dictionary.readthedocs.io/en/latest/index/math.html</guid>
+<description>PHP offers many math features.</description>
+<pubDate>Mon, 09 Nov 2026 10:43:37 +0000</pubDate>
+</item>
+<item>
+<title>Ignored Catch</title>
+<link>https://php-dictionary.readthedocs.io/en/latest/index/ignored-catch.html</link>
+<guid>https://php-dictionary.readthedocs.io/en/latest/index/ignored-catch.html</guid>
+<description>``catch`` does not check that the caught exception exists.</description>
+<pubDate>Mon, 09 Nov 2026 10:42:12 +0000</pubDate>
+</item>
+<item>
+<title>Finally</title>
+<link>https://php-dictionary.readthedocs.io/en/latest/index/finally.html</link>
+<guid>https://php-dictionary.readthedocs.io/en/latest/index/finally.html</guid>
+<description>Finally is the default clause of a try-catch expression.</description>
+<pubDate>Mon, 09 Nov 2026 10:41:51 +0000</pubDate>
+</item>
+<item>
+<title>Exception</title>
+<link>https://php-dictionary.readthedocs.io/en/latest/index/exception.html</link>
+<guid>https://php-dictionary.readthedocs.io/en/latest/index/exception.html</guid>
+<description>Exceptions are a mechanism for handling errors and exceptional situations in a more structured and controlled way compared to traditional error handling methods like using error codes or ``die()`` statements.</description>
+<pubDate>Mon, 09 Nov 2026 10:39:54 +0000</pubDate>
+</item>
+<item>
+<title>Exception Handler</title>
+<link>https://php-dictionary.readthedocs.io/en/latest/index/exception-handler.html</link>
+<guid>https://php-dictionary.readthedocs.io/en/latest/index/exception-handler.html</guid>
+<description>The exception handler is a default or custom function, which is called once an exception has exhausted all available ``try-catch`` blocks.</description>
+<pubDate>Mon, 09 Nov 2026 10:39:38 +0000</pubDate>
+</item>
+<item>
+<title>Catch</title>
+<link>https://php-dictionary.readthedocs.io/en/latest/index/catch.html</link>
+<guid>https://php-dictionary.readthedocs.io/en/latest/index/catch.html</guid>
+<description>``catch`` is the complement clause of try.</description>
+<pubDate>Mon, 09 Nov 2026 10:39:09 +0000</pubDate>
 </item>
 <item>
 <title>Canary Test</title>
 <link>https://php-dictionary.readthedocs.io/en/latest/index/canary-test.html</link>
 <guid>https://php-dictionary.readthedocs.io/en/latest/index/canary-test.html</guid>
 <description>A canary test is a deliberately trivial test that is expected to pass.</description>
-<pubDate>Tue, 27 Oct 2026 07:24:53 +0000</pubDate>
+<pubDate>Mon, 09 Nov 2026 10:38:48 +0000</pubDate>
 </item>
 <item>
-<title>Data Lakehouse</title>
-<link>https://php-dictionary.readthedocs.io/en/latest/index/data-lakehouse.html</link>
-<guid>https://php-dictionary.readthedocs.io/en/latest/index/data-lakehouse.html</guid>
-<description>A data lakehouse combines the low-cost, open storage of a data lake with the management features of a data warehouse.</description>
-<pubDate>Tue, 27 Oct 2026 07:21:52 +0000</pubDate>
-</item>
-<item>
-<title>Data Warehouse</title>
-<link>https://php-dictionary.readthedocs.io/en/latest/index/data-warehouse.html</link>
-<guid>https://php-dictionary.readthedocs.io/en/latest/index/data-warehouse.html</guid>
-<description>A data warehouse is a database built for analysis rather than for running an application.</description>
-<pubDate>Tue, 27 Oct 2026 07:21:51 +0000</pubDate>
-</item>
-<item>
-<title>Data Lake</title>
-<link>https://php-dictionary.readthedocs.io/en/latest/index/data-lake.html</link>
-<guid>https://php-dictionary.readthedocs.io/en/latest/index/data-lake.html</guid>
-<description>A data lake is a storage repository that keeps large volumes of data in its raw, original format until it is needed.</description>
-<pubDate>Tue, 27 Oct 2026 07:21:49 +0000</pubDate>
-</item>
-<item>
-<title>PHP_VERSION_ID</title>
-<link>https://php-dictionary.readthedocs.io/en/latest/index/php_version_id.html</link>
-<guid>https://php-dictionary.readthedocs.io/en/latest/index/php_version_id.html</guid>
-<description>``PHP_VERSION_ID`` is a predefined integer constant holding the version of the running PHP interpreter, encoded as ``major * 10000 + minor * 100 + release``.</description>
-<pubDate>Fri, 23 Oct 2026 11:02:51 +0000</pubDate>
-</item>
-<item>
-<title>version_compare()</title>
-<link>https://php-dictionary.readthedocs.io/en/latest/index/version_compare.html</link>
-<guid>https://php-dictionary.readthedocs.io/en/latest/index/version_compare.html</guid>
-<description>``version_compare()`` compares two version strings, and is the correct way to compare PHP or library versions.</description>
-<pubDate>Fri, 23 Oct 2026 11:01:47 +0000</pubDate>
-</item>
-<item>
-<title>Reified Types</title>
-<link>https://php-dictionary.readthedocs.io/en/latest/index/reified-type.html</link>
-<guid>https://php-dictionary.readthedocs.io/en/latest/index/reified-type.html</guid>
-<description>Reified types are generic type parameters that are kept at runtime, so the code can check or create the actual type argument while the program runs.</description>
-<pubDate>Fri, 23 Oct 2026 08:56:45 +0000</pubDate>
-</item>
-<item>
-<title>Generics</title>
-<link>https://php-dictionary.readthedocs.io/en/latest/index/generics.html</link>
-<guid>https://php-dictionary.readthedocs.io/en/latest/index/generics.html</guid>
-<description>Generics, sometimes called ``parametered polymorphism``, or more precisely parametric polymorphism, are a style of types, where the type of a property, parameter or return is specified at the declaration level.</description>
-<pubDate>Fri, 23 Oct 2026 08:55:59 +0000</pubDate>
-</item>
-<item>
-<title>Software Bill Of Material (SBOM)</title>
-<link>https://php-dictionary.readthedocs.io/en/latest/index/sbom.html</link>
-<guid>https://php-dictionary.readthedocs.io/en/latest/index/sbom.html</guid>
-<description>A Software Bill of Materials, aka ``SBOM``, is a formal, machine-readable inventory of all components, libraries, and dependencies used in a software project.</description>
-<pubDate>Fri, 23 Oct 2026 05:38:34 +0000</pubDate>
-</item>
-<item>
-<title>__halt_compiler()</title>
-<link>https://php-dictionary.readthedocs.io/en/latest/index/__halt_compiler.html</link>
-<guid>https://php-dictionary.readthedocs.io/en/latest/index/__halt_compiler.html</guid>
-<description>``__halt_compiler()`` halts the execution of the compiler.</description>
-<pubDate>Thu, 22 Oct 2026 16:16:00 +0000</pubDate>
-</item>
-<item>
-<title>__sleep() Method</title>
-<link>https://php-dictionary.readthedocs.io/en/latest/index/__sleep.html</link>
-<guid>https://php-dictionary.readthedocs.io/en/latest/index/__sleep.html</guid>
-<description>``__sleep()`` is called when an object is being serialized, so that the object may be prepared before storage.</description>
-<pubDate>Thu, 22 Oct 2026 16:16:00 +0000</pubDate>
-</item>
-<item>
-<title>Abstract Keyword</title>
-<link>https://php-dictionary.readthedocs.io/en/latest/index/abstract.html</link>
-<guid>https://php-dictionary.readthedocs.io/en/latest/index/abstract.html</guid>
-<description>PHP has ``abstract`` classes, properties and methods.</description>
-<pubDate>Thu, 22 Oct 2026 16:16:00 +0000</pubDate>
-</item>
-<item>
-<title>And Operator</title>
-<link>https://php-dictionary.readthedocs.io/en/latest/index/and.html</link>
-<guid>https://php-dictionary.readthedocs.io/en/latest/index/and.html</guid>
-<description>``and`` is the logical operator of the same name.</description>
-<pubDate>Thu, 22 Oct 2026 16:16:00 +0000</pubDate>
+<title>Bloom Filter</title>
+<link>https://php-dictionary.readthedocs.io/en/latest/index/bloom-filter.html</link>
+<guid>https://php-dictionary.readthedocs.io/en/latest/index/bloom-filter.html</guid>
+<description>A Bloom filter is a space-efficient probabilistic data structure used to test whether an element is a member of a set.</description>
+<pubDate>Mon, 09 Nov 2026 10:38:02 +0000</pubDate>
 </item>
 <item>
 <title>Anonymous Catch</title>
 <link>https://php-dictionary.readthedocs.io/en/latest/index/anonymous-catch.html</link>
 <guid>https://php-dictionary.readthedocs.io/en/latest/index/anonymous-catch.html</guid>
 <description>Traditionally, the catch statement requires specifying both an Exception class and an identifier variable to hold the caught exception.</description>
-<pubDate>Thu, 22 Oct 2026 16:16:00 +0000</pubDate>
+<pubDate>Mon, 09 Nov 2026 10:36:50 +0000</pubDate>
+</item>
+<item>
+<title>__halt_compiler()</title>
+<link>https://php-dictionary.readthedocs.io/en/latest/index/__halt_compiler.html</link>
+<guid>https://php-dictionary.readthedocs.io/en/latest/index/__halt_compiler.html</guid>
+<description>``__halt_compiler()`` halts the execution of the compiler.</description>
+<pubDate>Fri, 06 Nov 2026 21:02:41 +0000</pubDate>
+</item>
+<item>
+<title>Abstract Keyword</title>
+<link>https://php-dictionary.readthedocs.io/en/latest/index/abstract.html</link>
+<guid>https://php-dictionary.readthedocs.io/en/latest/index/abstract.html</guid>
+<description>PHP has ``abstract`` classes, properties and methods.</description>
+<pubDate>Fri, 06 Nov 2026 21:02:41 +0000</pubDate>
+</item>
+<item>
+<title>And Operator</title>
+<link>https://php-dictionary.readthedocs.io/en/latest/index/and.html</link>
+<guid>https://php-dictionary.readthedocs.io/en/latest/index/and.html</guid>
+<description>``and`` is the logical operator of the same name.</description>
+<pubDate>Fri, 06 Nov 2026 21:02:41 +0000</pubDate>
 </item>
 <item>
 <title>Ahead Of Time</title>
 <link>https://php-dictionary.readthedocs.io/en/latest/index/aot.html</link>
 <guid>https://php-dictionary.readthedocs.io/en/latest/index/aot.html</guid>
 <description>Ahead-of-time compilation, ``AOT``, is the process of compiling source code to machine code before execution, as opposed to at runtime.</description>
-<pubDate>Thu, 22 Oct 2026 16:16:00 +0000</pubDate>
+<pubDate>Fri, 06 Nov 2026 21:02:41 +0000</pubDate>
 </item>
 <item>
 <title>Application Programming Interface (API)</title>
 <link>https://php-dictionary.readthedocs.io/en/latest/index/api.html</link>
 <guid>https://php-dictionary.readthedocs.io/en/latest/index/api.html</guid>
 <description>An API is a set of functions and procedures allowing the creation of applications that access the features or data of another service.</description>
-<pubDate>Thu, 22 Oct 2026 16:16:00 +0000</pubDate>
+<pubDate>Fri, 06 Nov 2026 21:02:41 +0000</pubDate>
 </item>
 <item>
 <title>Argon2</title>
 <link>https://php-dictionary.readthedocs.io/en/latest/index/argon2.html</link>
 <guid>https://php-dictionary.readthedocs.io/en/latest/index/argon2.html</guid>
 <description>Argon2 is a modern, secure, and highly efficient password hashing algorithm.</description>
-<pubDate>Thu, 22 Oct 2026 16:16:00 +0000</pubDate>
+<pubDate>Fri, 06 Nov 2026 21:02:41 +0000</pubDate>
 </item>
 <item>
 <title>Array, []</title>
 <link>https://php-dictionary.readthedocs.io/en/latest/index/array.html</link>
 <guid>https://php-dictionary.readthedocs.io/en/latest/index/array.html</guid>
 <description>``array`` is the array structure.</description>
-<pubDate>Thu, 22 Oct 2026 16:16:00 +0000</pubDate>
+<pubDate>Fri, 06 Nov 2026 21:02:41 +0000</pubDate>
 </item>
 <item>
-<title>array_map()</title>
-<link>https://php-dictionary.readthedocs.io/en/latest/index/array_map.html</link>
-<guid>https://php-dictionary.readthedocs.io/en/latest/index/array_map.html</guid>
-<description>``array_map()`` is a PHP native function that applies a closure to every element of an array.</description>
-<pubDate>Thu, 22 Oct 2026 16:16:00 +0000</pubDate>
+<title>array_change_key_case()</title>
+<link>https://php-dictionary.readthedocs.io/en/latest/index/array_change_key_case.html</link>
+<guid>https://php-dictionary.readthedocs.io/en/latest/index/array_change_key_case.html</guid>
+<description>``array_change_key_case()`` is a native PHP function that returns a copy of an array where all the string keys are converted to lowercase or uppercase.</description>
+<pubDate>Fri, 06 Nov 2026 21:02:41 +0000</pubDate>
 </item>
 <item>
 <title>Arrow Functions</title>
 <link>https://php-dictionary.readthedocs.io/en/latest/index/arrow-function.html</link>
 <guid>https://php-dictionary.readthedocs.io/en/latest/index/arrow-function.html</guid>
 <description>Arrow functions, introduced with the ``fn`` keyword, are a type of closure with a specific syntax.</description>
-<pubDate>Thu, 22 Oct 2026 16:16:00 +0000</pubDate>
+<pubDate>Fri, 06 Nov 2026 21:02:41 +0000</pubDate>
 </item>
 <item>
 <title>Artifact</title>
 <link>https://php-dictionary.readthedocs.io/en/latest/index/artifact.html</link>
 <guid>https://php-dictionary.readthedocs.io/en/latest/index/artifact.html</guid>
 <description>An artifact refers to any intermediate or final output that is produced during the development process.</description>
-<pubDate>Thu, 22 Oct 2026 16:16:00 +0000</pubDate>
+<pubDate>Fri, 06 Nov 2026 21:02:41 +0000</pubDate>
 </item>
 <item>
 <title>As</title>
 <link>https://php-dictionary.readthedocs.io/en/latest/index/as.html</link>
 <guid>https://php-dictionary.readthedocs.io/en/latest/index/as.html</guid>
 <description>The as operator has several usages:</description>
-<pubDate>Thu, 22 Oct 2026 16:16:00 +0000</pubDate>
+<pubDate>Fri, 06 Nov 2026 21:02:41 +0000</pubDate>
+</item>
+<item>
+<title>Authorization Header</title>
+<link>https://php-dictionary.readthedocs.io/en/latest/index/authorization-header.html</link>
+<guid>https://php-dictionary.readthedocs.io/en/latest/index/authorization-header.html</guid>
+<description>The Authorization header carries the credentials that a client sends to a server to authenticate a request.</description>
+<pubDate>Fri, 06 Nov 2026 21:02:41 +0000</pubDate>
+</item>
+<item>
+<title>Base Conversion</title>
+<link>https://php-dictionary.readthedocs.io/en/latest/index/base-conversion.html</link>
+<guid>https://php-dictionary.readthedocs.io/en/latest/index/base-conversion.html</guid>
+<description>Base conversion turns an integer written in one numeric base into the same value written in another base.</description>
+<pubDate>Fri, 06 Nov 2026 21:02:41 +0000</pubDate>
 </item>
 <item>
 <title>Bearer Token</title>
 <link>https://php-dictionary.readthedocs.io/en/latest/index/bearer-token.html</link>
 <guid>https://php-dictionary.readthedocs.io/en/latest/index/bearer-token.html</guid>
 <description>A bearer token is an access credential sent with an HTTP request to prove the caller's identity.</description>
-<pubDate>Thu, 22 Oct 2026 16:16:00 +0000</pubDate>
+<pubDate>Fri, 06 Nov 2026 21:02:41 +0000</pubDate>
+</item>
+<item>
+<title>Broken Object Level Authorization (BOLA)</title>
+<link>https://php-dictionary.readthedocs.io/en/latest/index/bola.html</link>
+<guid>https://php-dictionary.readthedocs.io/en/latest/index/bola.html</guid>
+<description>Object Level Authorization is a mechanism that checks if a user has the right to access or execute an action on a specific object.</description>
+<pubDate>Fri, 06 Nov 2026 21:02:41 +0000</pubDate>
+</item>
+<item>
+<title>Break</title>
+<link>https://php-dictionary.readthedocs.io/en/latest/index/break.html</link>
+<guid>https://php-dictionary.readthedocs.io/en/latest/index/break.html</guid>
+<description>``break`` is a control structure, which ends execution of the current ``for``, ``foreach``, ``while``, ``do-while`` or ``switch`` structure.</description>
+<pubDate>Fri, 06 Nov 2026 21:02:41 +0000</pubDate>
+</item>
+<item>
+<title>Callables</title>
+<link>https://php-dictionary.readthedocs.io/en/latest/index/callable.html</link>
+<guid>https://php-dictionary.readthedocs.io/en/latest/index/callable.html</guid>
+<description>A callable is an object that can pass the ``callable`` type.</description>
+<pubDate>Fri, 06 Nov 2026 21:02:41 +0000</pubDate>
 </item>
 </channel></rss>
